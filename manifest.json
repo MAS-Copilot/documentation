@@ -1,0 +1,2338 @@
+{
+  "source_base_path": "D:/working/bitbucket/DataMaster/industrial-mes-net-platform-advanced/docs",
+  "xrefmap": "xrefmap.yml",
+  "files": [
+    {
+      "type": "Resource",
+      "output": {
+        "resource": {
+          "relative_path": "index.json"
+        }
+      }
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/DataMaster.App.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DataMaster.App.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/DataMaster.Commands.RelayCommand.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DataMaster.Commands.RelayCommand.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/DataMaster.Commands.RelayCommandAsync.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DataMaster.Commands.RelayCommandAsync.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/DataMaster.Commands.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DataMaster.Commands.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/DataMaster.Common.GlobalLanguageManager.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DataMaster.Common.GlobalLanguageManager.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/DataMaster.Common.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DataMaster.Common.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/DataMaster.Converters.ListToStringConverter.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DataMaster.Converters.ListToStringConverter.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/DataMaster.Converters.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DataMaster.Converters.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/DataMaster.Helpers.ButtonOption.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DataMaster.Helpers.ButtonOption.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/DataMaster.Helpers.FileHelper.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DataMaster.Helpers.FileHelper.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/DataMaster.Helpers.NetworkHelper.InterfaceType.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DataMaster.Helpers.NetworkHelper.InterfaceType.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/DataMaster.Helpers.NetworkHelper.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DataMaster.Helpers.NetworkHelper.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/DataMaster.Helpers.OpenXMLSDK.ExcelExporterHelper.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DataMaster.Helpers.OpenXMLSDK.ExcelExporterHelper.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/DataMaster.Helpers.OpenXMLSDK.IgnoreInExcelExportAttribute.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DataMaster.Helpers.OpenXMLSDK.IgnoreInExcelExportAttribute.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/DataMaster.Helpers.OpenXMLSDK.ImageInserterHelper.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DataMaster.Helpers.OpenXMLSDK.ImageInserterHelper.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/DataMaster.Helpers.OpenXMLSDK.ImageSize.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DataMaster.Helpers.OpenXMLSDK.ImageSize.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/DataMaster.Helpers.OpenXMLSDK.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DataMaster.Helpers.OpenXMLSDK.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/DataMaster.Helpers.PLCHelper.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DataMaster.Helpers.PLCHelper.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/DataMaster.Helpers.ParameterValidationHelper.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DataMaster.Helpers.ParameterValidationHelper.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/DataMaster.Helpers.PasswordBoxHelper.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DataMaster.Helpers.PasswordBoxHelper.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/DataMaster.Helpers.PasswordEncryptionHelper.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DataMaster.Helpers.PasswordEncryptionHelper.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/DataMaster.Helpers.PerformanceHelper.PerformanceMetric.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DataMaster.Helpers.PerformanceHelper.PerformanceMetric.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/DataMaster.Helpers.PerformanceHelper.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DataMaster.Helpers.PerformanceHelper.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/DataMaster.Helpers.ServiceControllerHelpers.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DataMaster.Helpers.ServiceControllerHelpers.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/DataMaster.Helpers.WebViewHelpers.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DataMaster.Helpers.WebViewHelpers.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/DataMaster.Helpers.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DataMaster.Helpers.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/DataMaster.Interfaces.Charts.IProductionVolumeBarService.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DataMaster.Interfaces.Charts.IProductionVolumeBarService.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/DataMaster.Interfaces.Charts.IProductionVolumeCardService.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DataMaster.Interfaces.Charts.IProductionVolumeCardService.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/DataMaster.Interfaces.Charts.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DataMaster.Interfaces.Charts.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/DataMaster.Interfaces.ISelectable.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DataMaster.Interfaces.ISelectable.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/DataMaster.Interfaces.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DataMaster.Interfaces.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/DataMaster.MainWindow.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DataMaster.MainWindow.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/DataMaster.Models.ApplicationInformation.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DataMaster.Models.ApplicationInformation.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/DataMaster.Models.Charts.AnalysisPanelCard-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DataMaster.Models.Charts.AnalysisPanelCard-1.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/DataMaster.Models.Charts.DataGrid.ProductionVolume.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DataMaster.Models.Charts.DataGrid.ProductionVolume.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/DataMaster.Models.Charts.DataGrid.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DataMaster.Models.Charts.DataGrid.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/DataMaster.Models.Charts.StatisticalInfoBar.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DataMaster.Models.Charts.StatisticalInfoBar.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/DataMaster.Models.Charts.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DataMaster.Models.Charts.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/DataMaster.Models.Configurations.AlarmStatsConfig.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DataMaster.Models.Configurations.AlarmStatsConfig.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/DataMaster.Models.Configurations.BarChartConfig.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DataMaster.Models.Configurations.BarChartConfig.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/DataMaster.Models.Configurations.CapacityUtilizationConfig.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DataMaster.Models.Configurations.CapacityUtilizationConfig.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/DataMaster.Models.Configurations.ChartConfig.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DataMaster.Models.Configurations.ChartConfig.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/DataMaster.Models.Configurations.CycleTimeConfig.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DataMaster.Models.Configurations.CycleTimeConfig.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/DataMaster.Models.Configurations.DatabaseConfig.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DataMaster.Models.Configurations.DatabaseConfig.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/DataMaster.Models.Configurations.IdleTimeStatConfig.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DataMaster.Models.Configurations.IdleTimeStatConfig.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/DataMaster.Models.Configurations.LineChartConfig.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DataMaster.Models.Configurations.LineChartConfig.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/DataMaster.Models.Configurations.LogConfig.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DataMaster.Models.Configurations.LogConfig.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/DataMaster.Models.Configurations.MCProtocolConfig.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DataMaster.Models.Configurations.MCProtocolConfig.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/DataMaster.Models.Configurations.MessageListStyle.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DataMaster.Models.Configurations.MessageListStyle.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/DataMaster.Models.Configurations.ProductionVolumeConfig.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DataMaster.Models.Configurations.ProductionVolumeConfig.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/DataMaster.Models.Configurations.S7ProtocolConfig.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DataMaster.Models.Configurations.S7ProtocolConfig.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/DataMaster.Models.Configurations.SettingsConfig.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DataMaster.Models.Configurations.SettingsConfig.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/DataMaster.Models.Configurations.StartWorkFileConfig.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DataMaster.Models.Configurations.StartWorkFileConfig.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/DataMaster.Models.Configurations.StatisticalDataConfig.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DataMaster.Models.Configurations.StatisticalDataConfig.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/DataMaster.Models.Configurations.UserCredentialsConfig.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DataMaster.Models.Configurations.UserCredentialsConfig.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/DataMaster.Models.Configurations.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DataMaster.Models.Configurations.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/DataMaster.Models.ConfigurationsBase.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DataMaster.Models.ConfigurationsBase.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/DataMaster.Models.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DataMaster.Models.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/DataMaster.Modules.MAS.Charts.API.IProductionVolumeChartService.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DataMaster.Modules.MAS.Charts.API.IProductionVolumeChartService.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/DataMaster.Modules.MAS.Charts.API.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DataMaster.Modules.MAS.Charts.API.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/DataMaster.Modules.MAS.Charts.Abstracts.StatsServiceBase.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DataMaster.Modules.MAS.Charts.Abstracts.StatsServiceBase.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/DataMaster.Modules.MAS.Charts.Abstracts.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DataMaster.Modules.MAS.Charts.Abstracts.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/DataMaster.Modules.MAS.Charts.Factory.StatsServiceFactory.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DataMaster.Modules.MAS.Charts.Factory.StatsServiceFactory.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/DataMaster.Modules.MAS.Charts.Factory.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DataMaster.Modules.MAS.Charts.Factory.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/DataMaster.Modules.MAS.Charts.Helpers.DateHelper.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DataMaster.Modules.MAS.Charts.Helpers.DateHelper.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/DataMaster.Modules.MAS.Charts.Helpers.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DataMaster.Modules.MAS.Charts.Helpers.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/DataMaster.Modules.MAS.Charts.Interfaces.IStatisticsChartService.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DataMaster.Modules.MAS.Charts.Interfaces.IStatisticsChartService.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/DataMaster.Modules.MAS.Charts.Interfaces.IStatsService.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DataMaster.Modules.MAS.Charts.Interfaces.IStatsService.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/DataMaster.Modules.MAS.Charts.Interfaces.IStatsServiceFactory.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DataMaster.Modules.MAS.Charts.Interfaces.IStatsServiceFactory.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/DataMaster.Modules.MAS.Charts.Interfaces.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DataMaster.Modules.MAS.Charts.Interfaces.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/DataMaster.Modules.MAS.Charts.Models.ChartType.ProductionVolumeChartType.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DataMaster.Modules.MAS.Charts.Models.ChartType.ProductionVolumeChartType.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/DataMaster.Modules.MAS.Charts.Models.ChartType.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DataMaster.Modules.MAS.Charts.Models.ChartType.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/DataMaster.Modules.MAS.Charts.Models.ProductionVolume.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DataMaster.Modules.MAS.Charts.Models.ProductionVolume.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/DataMaster.Modules.MAS.Charts.Models.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DataMaster.Modules.MAS.Charts.Models.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/DataMaster.Modules.MAS.Charts.Services.ProductionVolumeService.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DataMaster.Modules.MAS.Charts.Services.ProductionVolumeService.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/DataMaster.Modules.MAS.Charts.Services.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DataMaster.Modules.MAS.Charts.Services.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/DataMaster.Modules.MAS.Communication.API.IMCCommunicationConfig.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DataMaster.Modules.MAS.Communication.API.IMCCommunicationConfig.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/DataMaster.Modules.MAS.Communication.API.IPlcCommunicationService.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DataMaster.Modules.MAS.Communication.API.IPlcCommunicationService.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/DataMaster.Modules.MAS.Communication.API.IS7CommunicationConfig.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DataMaster.Modules.MAS.Communication.API.IS7CommunicationConfig.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/DataMaster.Modules.MAS.Communication.API.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DataMaster.Modules.MAS.Communication.API.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/DataMaster.Modules.MAS.Communication.MCProtocols.Helpers.MCProtocolHelper.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DataMaster.Modules.MAS.Communication.MCProtocols.Helpers.MCProtocolHelper.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/DataMaster.Modules.MAS.Communication.MCProtocols.Helpers.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DataMaster.Modules.MAS.Communication.MCProtocols.Helpers.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/DataMaster.Modules.MAS.Communication.MCProtocols.Interfaces.ICommunicationConfig.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DataMaster.Modules.MAS.Communication.MCProtocols.Interfaces.ICommunicationConfig.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/DataMaster.Modules.MAS.Communication.MCProtocols.Interfaces.IMCPlcCommunication.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DataMaster.Modules.MAS.Communication.MCProtocols.Interfaces.IMCPlcCommunication.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/DataMaster.Modules.MAS.Communication.MCProtocols.Interfaces.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DataMaster.Modules.MAS.Communication.MCProtocols.Interfaces.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/DataMaster.Modules.MAS.Communication.S7Protocols.HeartbeatManager.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DataMaster.Modules.MAS.Communication.S7Protocols.HeartbeatManager.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/DataMaster.Modules.MAS.Communication.S7Protocols.Helpers.S7ProtocolHelper.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DataMaster.Modules.MAS.Communication.S7Protocols.Helpers.S7ProtocolHelper.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/DataMaster.Modules.MAS.Communication.S7Protocols.Helpers.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DataMaster.Modules.MAS.Communication.S7Protocols.Helpers.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/DataMaster.Modules.MAS.Communication.S7Protocols.Interfaces.ICommunicationConfig.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DataMaster.Modules.MAS.Communication.S7Protocols.Interfaces.ICommunicationConfig.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/DataMaster.Modules.MAS.Communication.S7Protocols.Interfaces.IPLCTaskCommand.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DataMaster.Modules.MAS.Communication.S7Protocols.Interfaces.IPLCTaskCommand.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/DataMaster.Modules.MAS.Communication.S7Protocols.Interfaces.IS7PlcCommunication.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DataMaster.Modules.MAS.Communication.S7Protocols.Interfaces.IS7PlcCommunication.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/DataMaster.Modules.MAS.Communication.S7Protocols.Interfaces.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DataMaster.Modules.MAS.Communication.S7Protocols.Interfaces.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/DataMaster.Modules.MAS.Communication.S7Protocols.S7Communication.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DataMaster.Modules.MAS.Communication.S7Protocols.S7Communication.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/DataMaster.Modules.MAS.Communication.S7Protocols.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DataMaster.Modules.MAS.Communication.S7Protocols.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/DataMaster.Modules.MAS.Controls.LoadAnimation.ILoadingService.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DataMaster.Modules.MAS.Controls.LoadAnimation.ILoadingService.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/DataMaster.Modules.MAS.Controls.LoadAnimation.LoadingCircle.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DataMaster.Modules.MAS.Controls.LoadAnimation.LoadingCircle.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/DataMaster.Modules.MAS.Controls.LoadAnimation.LoadingCircleService.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DataMaster.Modules.MAS.Controls.LoadAnimation.LoadingCircleService.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/DataMaster.Modules.MAS.Controls.LoadAnimation.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DataMaster.Modules.MAS.Controls.LoadAnimation.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/DataMaster.Modules.MAS.Controls.Notification.INotificationService.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DataMaster.Modules.MAS.Controls.Notification.INotificationService.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/DataMaster.Modules.MAS.Controls.Notification.ITIPSNotificationService.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DataMaster.Modules.MAS.Controls.Notification.ITIPSNotificationService.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/DataMaster.Modules.MAS.Controls.Notification.ITrayNotificationService.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DataMaster.Modules.MAS.Controls.Notification.ITrayNotificationService.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/DataMaster.Modules.MAS.Controls.Notification.RoundNotification.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DataMaster.Modules.MAS.Controls.Notification.RoundNotification.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/DataMaster.Modules.MAS.Controls.Notification.ToastNotification.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DataMaster.Modules.MAS.Controls.Notification.ToastNotification.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/DataMaster.Modules.MAS.Controls.Notification.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DataMaster.Modules.MAS.Controls.Notification.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/DataMaster.Modules.MAS.Controls.NumberAnimation.ChartsNumberAnimationControl.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DataMaster.Modules.MAS.Controls.NumberAnimation.ChartsNumberAnimationControl.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/DataMaster.Modules.MAS.Controls.NumberAnimation.RollingNumberItemControl.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DataMaster.Modules.MAS.Controls.NumberAnimation.RollingNumberItemControl.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/DataMaster.Modules.MAS.Controls.NumberAnimation.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DataMaster.Modules.MAS.Controls.NumberAnimation.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/DataMaster.Modules.MAS.DTOs.Charts.ProductionVolumeBarDto.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DataMaster.Modules.MAS.DTOs.Charts.ProductionVolumeBarDto.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/DataMaster.Modules.MAS.DTOs.Charts.ProductionVolumeCardDto.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DataMaster.Modules.MAS.DTOs.Charts.ProductionVolumeCardDto.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/DataMaster.Modules.MAS.DTOs.Charts.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DataMaster.Modules.MAS.DTOs.Charts.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/DataMaster.Modules.MAS.DTOs.PLC.CapacityUtilizationStructDto.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DataMaster.Modules.MAS.DTOs.PLC.CapacityUtilizationStructDto.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/DataMaster.Modules.MAS.DTOs.PLC.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DataMaster.Modules.MAS.DTOs.PLC.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/DataMaster.Modules.MAS.DataAccess.API.IDatabaseConfig.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DataMaster.Modules.MAS.DataAccess.API.IDatabaseConfig.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/DataMaster.Modules.MAS.DataAccess.API.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DataMaster.Modules.MAS.DataAccess.API.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/DataMaster.Modules.MAS.DataAccess.Entities.CapacityUtilizationEntity.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DataMaster.Modules.MAS.DataAccess.Entities.CapacityUtilizationEntity.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/DataMaster.Modules.MAS.DataAccess.Entities.EquipmentAlarmEventEntity.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DataMaster.Modules.MAS.DataAccess.Entities.EquipmentAlarmEventEntity.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/DataMaster.Modules.MAS.DataAccess.Entities.EquipmentCycleTimeEntity.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DataMaster.Modules.MAS.DataAccess.Entities.EquipmentCycleTimeEntity.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/DataMaster.Modules.MAS.DataAccess.Entities.EquipmentEntity.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DataMaster.Modules.MAS.DataAccess.Entities.EquipmentEntity.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/DataMaster.Modules.MAS.DataAccess.Entities.EquipmentFaultEventEntity.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DataMaster.Modules.MAS.DataAccess.Entities.EquipmentFaultEventEntity.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/DataMaster.Modules.MAS.DataAccess.Entities.EquipmentHaltEventEntity.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DataMaster.Modules.MAS.DataAccess.Entities.EquipmentHaltEventEntity.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/DataMaster.Modules.MAS.DataAccess.Entities.EquipmentHourlyProductionRecordEntity.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DataMaster.Modules.MAS.DataAccess.Entities.EquipmentHourlyProductionRecordEntity.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/DataMaster.Modules.MAS.DataAccess.Entities.EquipmentProductEntity.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DataMaster.Modules.MAS.DataAccess.Entities.EquipmentProductEntity.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/DataMaster.Modules.MAS.DataAccess.Entities.EquipmentProductionRecordEntity.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DataMaster.Modules.MAS.DataAccess.Entities.EquipmentProductionRecordEntity.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/DataMaster.Modules.MAS.DataAccess.Entities.EquipmentStatusRecordEntity.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DataMaster.Modules.MAS.DataAccess.Entities.EquipmentStatusRecordEntity.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/DataMaster.Modules.MAS.DataAccess.Entities.EquipmentUserSettingsEntity.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DataMaster.Modules.MAS.DataAccess.Entities.EquipmentUserSettingsEntity.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/DataMaster.Modules.MAS.DataAccess.Entities.EquipmentUsersEntity.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DataMaster.Modules.MAS.DataAccess.Entities.EquipmentUsersEntity.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/DataMaster.Modules.MAS.DataAccess.Entities.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DataMaster.Modules.MAS.DataAccess.Entities.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/DataMaster.Modules.MAS.DataAccess.Helpers.CmdParameters.AddParametersHelper.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DataMaster.Modules.MAS.DataAccess.Helpers.CmdParameters.AddParametersHelper.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/DataMaster.Modules.MAS.DataAccess.Helpers.CmdParameters.DeleteParameters.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DataMaster.Modules.MAS.DataAccess.Helpers.CmdParameters.DeleteParameters.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/DataMaster.Modules.MAS.DataAccess.Helpers.CmdParameters.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DataMaster.Modules.MAS.DataAccess.Helpers.CmdParameters.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/DataMaster.Modules.MAS.DataAccess.Helpers.DBMetadataHelper.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DataMaster.Modules.MAS.DataAccess.Helpers.DBMetadataHelper.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/DataMaster.Modules.MAS.DataAccess.Helpers.DBOperationHelper.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DataMaster.Modules.MAS.DataAccess.Helpers.DBOperationHelper.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/DataMaster.Modules.MAS.DataAccess.Helpers.DatabaseInitialHelper.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DataMaster.Modules.MAS.DataAccess.Helpers.DatabaseInitialHelper.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/DataMaster.Modules.MAS.DataAccess.Helpers.SQLExecutorHelper.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DataMaster.Modules.MAS.DataAccess.Helpers.SQLExecutorHelper.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/DataMaster.Modules.MAS.DataAccess.Helpers.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DataMaster.Modules.MAS.DataAccess.Helpers.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/DataMaster.Modules.MAS.DataAccess.Interfaces.IAdvancedRepository-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DataMaster.Modules.MAS.DataAccess.Interfaces.IAdvancedRepository-1.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/DataMaster.Modules.MAS.DataAccess.Interfaces.IEntityMapper-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DataMaster.Modules.MAS.DataAccess.Interfaces.IEntityMapper-1.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/DataMaster.Modules.MAS.DataAccess.Interfaces.IRepository-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DataMaster.Modules.MAS.DataAccess.Interfaces.IRepository-1.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/DataMaster.Modules.MAS.DataAccess.Interfaces.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DataMaster.Modules.MAS.DataAccess.Interfaces.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/DataMaster.Modules.MAS.DataAccess.Mappers.EquipmentHourlyProductionRecordMap.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DataMaster.Modules.MAS.DataAccess.Mappers.EquipmentHourlyProductionRecordMap.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/DataMaster.Modules.MAS.DataAccess.Mappers.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DataMaster.Modules.MAS.DataAccess.Mappers.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/DataMaster.Modules.MAS.DataAccess.Repositories.CapacityUtilizationRepo.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DataMaster.Modules.MAS.DataAccess.Repositories.CapacityUtilizationRepo.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/DataMaster.Modules.MAS.DataAccess.Repositories.EquipmentAlarmEventRepo.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DataMaster.Modules.MAS.DataAccess.Repositories.EquipmentAlarmEventRepo.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/DataMaster.Modules.MAS.DataAccess.Repositories.EquipmentCycleTimeRepo.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DataMaster.Modules.MAS.DataAccess.Repositories.EquipmentCycleTimeRepo.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/DataMaster.Modules.MAS.DataAccess.Repositories.EquipmentFaultEventRepo.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DataMaster.Modules.MAS.DataAccess.Repositories.EquipmentFaultEventRepo.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/DataMaster.Modules.MAS.DataAccess.Repositories.EquipmentHaltEventRepo.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DataMaster.Modules.MAS.DataAccess.Repositories.EquipmentHaltEventRepo.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/DataMaster.Modules.MAS.DataAccess.Repositories.EquipmentHourlyProductionRecordRepo.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DataMaster.Modules.MAS.DataAccess.Repositories.EquipmentHourlyProductionRecordRepo.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/DataMaster.Modules.MAS.DataAccess.Repositories.EquipmentProductRepo.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DataMaster.Modules.MAS.DataAccess.Repositories.EquipmentProductRepo.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/DataMaster.Modules.MAS.DataAccess.Repositories.EquipmentProductionRecordRepo.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DataMaster.Modules.MAS.DataAccess.Repositories.EquipmentProductionRecordRepo.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/DataMaster.Modules.MAS.DataAccess.Repositories.EquipmentRepo.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DataMaster.Modules.MAS.DataAccess.Repositories.EquipmentRepo.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/DataMaster.Modules.MAS.DataAccess.Repositories.EquipmentStatusRecordRepo.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DataMaster.Modules.MAS.DataAccess.Repositories.EquipmentStatusRecordRepo.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/DataMaster.Modules.MAS.DataAccess.Repositories.EquipmentUserSettingsRepo.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DataMaster.Modules.MAS.DataAccess.Repositories.EquipmentUserSettingsRepo.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/DataMaster.Modules.MAS.DataAccess.Repositories.EquipmentUsersRepo.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DataMaster.Modules.MAS.DataAccess.Repositories.EquipmentUsersRepo.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/DataMaster.Modules.MAS.DataAccess.Repositories.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DataMaster.Modules.MAS.DataAccess.Repositories.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/DataMaster.Modules.MAS.DataAccess.SqlCommands.GenerateDeleteSql.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DataMaster.Modules.MAS.DataAccess.SqlCommands.GenerateDeleteSql.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/DataMaster.Modules.MAS.DataAccess.SqlCommands.GenerateGetAllSql.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DataMaster.Modules.MAS.DataAccess.SqlCommands.GenerateGetAllSql.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/DataMaster.Modules.MAS.DataAccess.SqlCommands.MetadataQueries.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DataMaster.Modules.MAS.DataAccess.SqlCommands.MetadataQueries.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/DataMaster.Modules.MAS.DataAccess.SqlCommands.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DataMaster.Modules.MAS.DataAccess.SqlCommands.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/DataMaster.Modules.MAS.DataCache.Interfaces.IDataCacheService.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DataMaster.Modules.MAS.DataCache.Interfaces.IDataCacheService.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/DataMaster.Modules.MAS.DataCache.Interfaces.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DataMaster.Modules.MAS.DataCache.Interfaces.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/DataMaster.Modules.MAS.DataCache.Services.DataCacheService.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DataMaster.Modules.MAS.DataCache.Services.DataCacheService.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/DataMaster.Modules.MAS.DataCache.Services.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DataMaster.Modules.MAS.DataCache.Services.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/DataMaster.Modules.MAS.EventAggregator.API.IEventAggregatorService.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DataMaster.Modules.MAS.EventAggregator.API.IEventAggregatorService.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/DataMaster.Modules.MAS.EventAggregator.API.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DataMaster.Modules.MAS.EventAggregator.API.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/DataMaster.Modules.MAS.EventAggregator.Services.EventAggregatorServices.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DataMaster.Modules.MAS.EventAggregator.Services.EventAggregatorServices.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/DataMaster.Modules.MAS.EventAggregator.Services.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DataMaster.Modules.MAS.EventAggregator.Services.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/DataMaster.Modules.MAS.Events.DataUpdateEvent-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DataMaster.Modules.MAS.Events.DataUpdateEvent-1.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/DataMaster.Modules.MAS.Events.InstantMessageEvent.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DataMaster.Modules.MAS.Events.InstantMessageEvent.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/DataMaster.Modules.MAS.Events.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DataMaster.Modules.MAS.Events.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/DataMaster.Modules.MAS.InstantMessage.API.IInstantMessageService.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DataMaster.Modules.MAS.InstantMessage.API.IInstantMessageService.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/DataMaster.Modules.MAS.InstantMessage.API.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DataMaster.Modules.MAS.InstantMessage.API.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/DataMaster.Modules.MAS.InstantMessage.Models.InfoLevel.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DataMaster.Modules.MAS.InstantMessage.Models.InfoLevel.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/DataMaster.Modules.MAS.InstantMessage.Models.InstantMessage.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DataMaster.Modules.MAS.InstantMessage.Models.InstantMessage.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/DataMaster.Modules.MAS.InstantMessage.Models.MessageType.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DataMaster.Modules.MAS.InstantMessage.Models.MessageType.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/DataMaster.Modules.MAS.InstantMessage.Models.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DataMaster.Modules.MAS.InstantMessage.Models.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/DataMaster.Modules.MAS.InstantMessage.Services.InstantMessageService.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DataMaster.Modules.MAS.InstantMessage.Services.InstantMessageService.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/DataMaster.Modules.MAS.InstantMessage.Services.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DataMaster.Modules.MAS.InstantMessage.Services.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/DataMaster.Modules.MAS.Security.API.IAuthenticationService.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DataMaster.Modules.MAS.Security.API.IAuthenticationService.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/DataMaster.Modules.MAS.Security.API.IEncryptionService.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DataMaster.Modules.MAS.Security.API.IEncryptionService.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/DataMaster.Modules.MAS.Security.API.IUserManagementService.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DataMaster.Modules.MAS.Security.API.IUserManagementService.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/DataMaster.Modules.MAS.Security.API.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DataMaster.Modules.MAS.Security.API.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/DataMaster.Modules.MAS.Security.UserInfo.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DataMaster.Modules.MAS.Security.UserInfo.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/DataMaster.Modules.MAS.Security.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DataMaster.Modules.MAS.Security.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/DataMaster.Resources.Resources.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DataMaster.Resources.Resources.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/DataMaster.Resources.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DataMaster.Resources.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/DataMaster.Services.Abstracts.AnalysisPanelCardBase.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DataMaster.Services.Abstracts.AnalysisPanelCardBase.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/DataMaster.Services.Abstracts.InfoBarBase.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DataMaster.Services.Abstracts.InfoBarBase.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/DataMaster.Services.Abstracts.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DataMaster.Services.Abstracts.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/DataMaster.Services.AppInitializerServices.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DataMaster.Services.AppInitializerServices.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/DataMaster.Services.Charts.ProductionVolumeBarService.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DataMaster.Services.Charts.ProductionVolumeBarService.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/DataMaster.Services.Charts.ProductionVolumeCardService.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DataMaster.Services.Charts.ProductionVolumeCardService.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/DataMaster.Services.Charts.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DataMaster.Services.Charts.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/DataMaster.Services.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DataMaster.Services.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/DataMaster.Test.Modules.MAS.DataCache.TestClass.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DataMaster.Test.Modules.MAS.DataCache.TestClass.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/DataMaster.Test.Modules.MAS.DataCache.TestClass1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DataMaster.Test.Modules.MAS.DataCache.TestClass1.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/DataMaster.Test.Modules.MAS.DataCache.TestClassPerformance.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DataMaster.Test.Modules.MAS.DataCache.TestClassPerformance.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/DataMaster.Test.Modules.MAS.DataCache.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DataMaster.Test.Modules.MAS.DataCache.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/DataMaster.Test.Modules.MAS.DataCache.数据缓存服务测试.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DataMaster.Test.Modules.MAS.DataCache.数据缓存服务测试.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/DataMaster.ViewModels.Pages.ECharts.AlarmViewModel.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DataMaster.ViewModels.Pages.ECharts.AlarmViewModel.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/DataMaster.ViewModels.Pages.ECharts.CapacityUtilizationViewModel.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DataMaster.ViewModels.Pages.ECharts.CapacityUtilizationViewModel.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/DataMaster.ViewModels.Pages.ECharts.CycleTimeViewModel.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DataMaster.ViewModels.Pages.ECharts.CycleTimeViewModel.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/DataMaster.ViewModels.Pages.ECharts.FreeTimeViewModel.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DataMaster.ViewModels.Pages.ECharts.FreeTimeViewModel.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/DataMaster.ViewModels.Pages.ECharts.ProductionVolumeViewModel.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DataMaster.ViewModels.Pages.ECharts.ProductionVolumeViewModel.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/DataMaster.ViewModels.Pages.ECharts.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DataMaster.ViewModels.Pages.ECharts.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/DataMaster.ViewModels.Pages.HomeViewModel.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DataMaster.ViewModels.Pages.HomeViewModel.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/DataMaster.ViewModels.Pages.SettingsViewModel.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DataMaster.ViewModels.Pages.SettingsViewModel.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/DataMaster.ViewModels.Pages.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DataMaster.ViewModels.Pages.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/DataMaster.ViewModels.ViewModelBase.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DataMaster.ViewModels.ViewModelBase.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/DataMaster.ViewModels.Windows.MainViewModel.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DataMaster.ViewModels.Windows.MainViewModel.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/DataMaster.ViewModels.Windows.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DataMaster.ViewModels.Windows.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/DataMaster.ViewModels.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DataMaster.ViewModels.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/DataMaster.Views.Pages.ECharts.AlarmPage.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DataMaster.Views.Pages.ECharts.AlarmPage.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/DataMaster.Views.Pages.ECharts.CapacityUtilizationPage.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DataMaster.Views.Pages.ECharts.CapacityUtilizationPage.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/DataMaster.Views.Pages.ECharts.CycleTimePage.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DataMaster.Views.Pages.ECharts.CycleTimePage.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/DataMaster.Views.Pages.ECharts.FreeTimePage.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DataMaster.Views.Pages.ECharts.FreeTimePage.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/DataMaster.Views.Pages.ECharts.ProductionVolumePage.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DataMaster.Views.Pages.ECharts.ProductionVolumePage.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/DataMaster.Views.Pages.ECharts.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DataMaster.Views.Pages.ECharts.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/DataMaster.Views.Pages.HomePage.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DataMaster.Views.Pages.HomePage.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/DataMaster.Views.Pages.SettingsPage.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DataMaster.Views.Pages.SettingsPage.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/DataMaster.Views.Pages.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DataMaster.Views.Pages.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/DataMaster.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DataMaster.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "api/toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/toc.html"
+        },
+        ".json": {
+          "relative_path": "api/toc.json"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "content/MAS.Controls.md",
+      "output": {
+        ".html": {
+          "relative_path": "content/MAS.Controls.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "content/MAS.EventAggregator.md",
+      "output": {
+        ".html": {
+          "relative_path": "content/MAS.EventAggregator.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "content/toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "content/toc.html"
+        },
+        ".json": {
+          "relative_path": "content/toc.json"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/favicon.ico",
+      "output": {
+        "resource": {
+          "relative_path": "images/favicon.ico"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/gif/Notification.gif",
+      "output": {
+        "resource": {
+          "relative_path": "images/gif/Notification.gif"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/gif/naControl.gif",
+      "output": {
+        "resource": {
+          "relative_path": "images/gif/naControl.gif"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/logo.svg",
+      "output": {
+        "resource": {
+          "relative_path": "images/logo.svg"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "index.md",
+      "output": {
+        ".html": {
+          "relative_path": "index.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "toc.html"
+        },
+        ".json": {
+          "relative_path": "toc.json"
+        }
+      },
+      "version": ""
+    }
+  ],
+  "groups": [
+    {
+      "xrefmap": "xrefmap.yml"
+    }
+  ]
+}

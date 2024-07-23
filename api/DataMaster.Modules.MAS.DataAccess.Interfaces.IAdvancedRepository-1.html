@@ -1,0 +1,271 @@
+﻿<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+      <title>Interface IAdvancedRepository&lt;TEntity&gt; | DataMaster </title>
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta name="title" content="Interface IAdvancedRepository&lt;TEntity&gt; | DataMaster ">
+      
+      <meta name="description" content="提供实体的高级数据访问功能，包括复杂查询、统计和聚合操作">
+      <link rel="icon" href="../favicon.ico">
+      <link rel="stylesheet" href="../public/docfx.min.css">
+      <link rel="stylesheet" href="../public/main.css">
+      <meta name="docfx:navrel" content="../toc.html">
+      <meta name="docfx:tocrel" content="toc.html">
+      
+      <meta name="docfx:rel" content="../">
+      
+      
+      
+      <meta name="loc:inThisArticle" content="In this article">
+      <meta name="loc:searchResultsCount" content="{count} results for &quot;{query}&quot;">
+      <meta name="loc:searchNoResults" content="No results for &quot;{query}&quot;">
+      <meta name="loc:tocFilter" content="Filter by title">
+      <meta name="loc:nextArticle" content="Next">
+      <meta name="loc:prevArticle" content="Previous">
+      <meta name="loc:themeLight" content="Light">
+      <meta name="loc:themeDark" content="Dark">
+      <meta name="loc:themeAuto" content="Auto">
+      <meta name="loc:changeTheme" content="Change theme">
+      <meta name="loc:copy" content="Copy">
+      <meta name="loc:downloadPdf" content="Download PDF">
+
+      <script type="module" src="./../public/docfx.min.js"></script>
+
+      <script>
+        const theme = localStorage.getItem('theme') || 'auto'
+        document.documentElement.setAttribute('data-bs-theme', theme === 'auto' ? (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light') : theme)
+      </script>
+
+  </head>
+
+  <body class="tex2jax_ignore" data-layout="" data-yaml-mime="ManagedReference">
+    <header class="bg-body border-bottom">
+      <nav id="autocollapse" class="navbar navbar-expand-md" role="navigation">
+        <div class="container-xxl flex-nowrap">
+          <a class="navbar-brand" href="../index.html">
+            <img id="logo" class="svg" src="../logo.svg" alt="DataMaster">
+            DataMaster
+          </a>
+          <button class="btn btn-lg d-md-none border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navpanel" aria-controls="navpanel" aria-expanded="false" aria-label="Toggle navigation">
+            <i class="bi bi-three-dots"></i>
+          </button>
+          <div class="collapse navbar-collapse" id="navpanel">
+            <div id="navbar">
+              <form class="search" role="search" id="search">
+                <i class="bi bi-search"></i>
+                <input class="form-control" id="search-query" type="search" disabled="" placeholder="Search" autocomplete="off" aria-label="Search">
+              </form>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <main class="container-xxl">
+      <div class="toc-offcanvas">
+        <div class="offcanvas-md offcanvas-start" tabindex="-1" id="tocOffcanvas" aria-labelledby="tocOffcanvasLabel">
+          <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="tocOffcanvasLabel">Table of Contents</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" data-bs-target="#tocOffcanvas" aria-label="Close"></button>
+          </div>
+          <div class="offcanvas-body">
+            <nav class="toc" id="toc"></nav>
+          </div>
+        </div>
+      </div>
+
+      <div class="content">
+        <div class="actionbar">
+          <button class="btn btn-lg border-0 d-md-none" type="button" data-bs-toggle="offcanvas" data-bs-target="#tocOffcanvas" aria-controls="tocOffcanvas" aria-expanded="false" aria-label="Show table of contents">
+            <i class="bi bi-list"></i>
+          </button>
+
+          <nav id="breadcrumb"></nav>
+        </div>
+
+        <article data-uid="DataMaster.Modules.MAS.DataAccess.Interfaces.IAdvancedRepository`1">
+
+
+
+  <h1 id="DataMaster_Modules_MAS_DataAccess_Interfaces_IAdvancedRepository_1" data-uid="DataMaster.Modules.MAS.DataAccess.Interfaces.IAdvancedRepository`1" class="text-break">
+Interface IAdvancedRepository&lt;TEntity&gt;  <a class="header-action link-secondary" title="View source" href="https://bitbucket.org/mas-software/industrial-mes-net-platform-advanced/src/feature/Charts-ProductionVolumeWebView/Modules/MAS.DataAccess/Interfaces/IAdvancedRepository.cs#lines-23"><i class="bi bi-code-slash"></i></a>
+  </h1>
+
+  <div class="facts text-secondary">
+    <dl><dt>Namespace</dt><dd><a class="xref" href="DataMaster.html">DataMaster</a>.<a class="xref" href="DataMaster.Modules.html">Modules</a>.<a class="xref" href="DataMaster.Modules.MAS.html">MAS</a>.<a class="xref" href="DataMaster.Modules.MAS.DataAccess.html">DataAccess</a>.<a class="xref" href="DataMaster.Modules.MAS.DataAccess.Interfaces.html">Interfaces</a></dd></dl>
+  <dl><dt>Assembly</dt><dd>DataMaster.dll</dd></dl>
+  </div>
+
+  <div class="markdown summary"><p>提供实体的高级数据访问功能，包括复杂查询、统计和聚合操作</p>
+</div>
+  <div class="markdown conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public interface IAdvancedRepository&lt;TEntity&gt; where TEntity : class</code></pre>
+  </div>
+
+
+
+  <h4 class="section">Type Parameters</h4>
+  <dl class="parameters">
+    <dt><code>TEntity</code></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h2 class="section" id="methods">Methods
+</h2>
+
+
+  <a id="DataMaster_Modules_MAS_DataAccess_Interfaces_IAdvancedRepository_1_AggregateAsync_" data-uid="DataMaster.Modules.MAS.DataAccess.Interfaces.IAdvancedRepository`1.AggregateAsync*"></a>
+
+  <h3 id="DataMaster_Modules_MAS_DataAccess_Interfaces_IAdvancedRepository_1_AggregateAsync_System_Linq_Expressions_Expression_System_Func__0_System_Boolean___" data-uid="DataMaster.Modules.MAS.DataAccess.Interfaces.IAdvancedRepository`1.AggregateAsync(System.Linq.Expressions.Expression{System.Func{`0,System.Boolean}})">
+  AggregateAsync(Expression&lt;Func&lt;TEntity, bool&gt;&gt;)
+  <a class="header-action link-secondary" title="View source" href="https://bitbucket.org/mas-software/industrial-mes-net-platform-advanced/src/feature/Charts-ProductionVolumeWebView/Modules/MAS.DataAccess/Interfaces/IAdvancedRepository.cs#lines-43"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>根据指定的条件执行聚合操作，如求平均、最大、最小值等</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">Task&lt;decimal&gt; AggregateAsync(Expression&lt;Func&lt;TEntity, bool&gt;&gt; predicate)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>predicate</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.linq.expressions.expression-1">Expression</a>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.func-2">Func</a>&lt;TEntity, <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a>&gt;&gt;</dt>
+    <dd><p>聚合条件表达式</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1">Task</a>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.decimal">decimal</a>&gt;</dt>
+    <dd><p>表示异步操作的任务对象，任务结果为聚合操作的结果</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="DataMaster_Modules_MAS_DataAccess_Interfaces_IAdvancedRepository_1_CountAsync_" data-uid="DataMaster.Modules.MAS.DataAccess.Interfaces.IAdvancedRepository`1.CountAsync*"></a>
+
+  <h3 id="DataMaster_Modules_MAS_DataAccess_Interfaces_IAdvancedRepository_1_CountAsync_System_Linq_Expressions_Expression_System_Func__0_System_Boolean___" data-uid="DataMaster.Modules.MAS.DataAccess.Interfaces.IAdvancedRepository`1.CountAsync(System.Linq.Expressions.Expression{System.Func{`0,System.Boolean}})">
+  CountAsync(Expression&lt;Func&lt;TEntity, bool&gt;&gt;)
+  <a class="header-action link-secondary" title="View source" href="https://bitbucket.org/mas-software/industrial-mes-net-platform-advanced/src/feature/Charts-ProductionVolumeWebView/Modules/MAS.DataAccess/Interfaces/IAdvancedRepository.cs#lines-36"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>统计符合条件的记录数量</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">Task&lt;int&gt; CountAsync(Expression&lt;Func&lt;TEntity, bool&gt;&gt; predicate)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>predicate</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.linq.expressions.expression-1">Expression</a>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.func-2">Func</a>&lt;TEntity, <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a>&gt;&gt;</dt>
+    <dd><p>统计条件表达式</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1">Task</a>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a>&gt;</dt>
+    <dd><p>表示异步操作的任务对象，任务结果为符合条件的记录数量</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="DataMaster_Modules_MAS_DataAccess_Interfaces_IAdvancedRepository_1_FindByAsync_" data-uid="DataMaster.Modules.MAS.DataAccess.Interfaces.IAdvancedRepository`1.FindByAsync*"></a>
+
+  <h3 id="DataMaster_Modules_MAS_DataAccess_Interfaces_IAdvancedRepository_1_FindByAsync_System_Linq_Expressions_Expression_System_Func__0_System_Boolean___" data-uid="DataMaster.Modules.MAS.DataAccess.Interfaces.IAdvancedRepository`1.FindByAsync(System.Linq.Expressions.Expression{System.Func{`0,System.Boolean}})">
+  FindByAsync(Expression&lt;Func&lt;TEntity, bool&gt;&gt;)
+  <a class="header-action link-secondary" title="View source" href="https://bitbucket.org/mas-software/industrial-mes-net-platform-advanced/src/feature/Charts-ProductionVolumeWebView/Modules/MAS.DataAccess/Interfaces/IAdvancedRepository.cs#lines-29"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>根据指定的条件异步获取实体记录</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">Task&lt;IEnumerable&lt;TEntity&gt;&gt; FindByAsync(Expression&lt;Func&lt;TEntity, bool&gt;&gt; predicate)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>predicate</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.linq.expressions.expression-1">Expression</a>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.func-2">Func</a>&lt;TEntity, <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a>&gt;&gt;</dt>
+    <dd><p>查询条件表达式</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1">Task</a>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1">IEnumerable</a>&lt;TEntity&gt;&gt;</dt>
+    <dd><p>表示异步操作的任务对象，任务结果为符合条件的实体对象集合</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+</article>
+
+        <div class="contribution d-print-none">
+          <a href="https://bitbucket.org/mas-software/industrial-mes-net-platform-advanced/src/feature/Charts-ProductionVolumeWebView/Modules/MAS.DataAccess/Interfaces/IAdvancedRepository.cs#lines-23" class="edit-link">Edit this page</a>
+        </div>
+
+
+      </div>
+
+      <div class="affix">
+        <nav id="affix"></nav>
+      </div>
+    </main>
+
+    <div class="container-xxl search-results" id="search-results"></div>
+
+    <footer class="border-top text-secondary">
+      <div class="container-xxl">
+        <div class="flex-fill">
+          <span>Made with <a href="https://dotnet.github.io/docfx">docfx</a></span>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>

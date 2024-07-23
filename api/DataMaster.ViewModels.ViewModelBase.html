@@ -1,0 +1,422 @@
+﻿<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+      <title>Class ViewModelBase | DataMaster </title>
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta name="title" content="Class ViewModelBase | DataMaster ">
+      
+      <meta name="description" content="视图模型基类">
+      <link rel="icon" href="../favicon.ico">
+      <link rel="stylesheet" href="../public/docfx.min.css">
+      <link rel="stylesheet" href="../public/main.css">
+      <meta name="docfx:navrel" content="../toc.html">
+      <meta name="docfx:tocrel" content="toc.html">
+      
+      <meta name="docfx:rel" content="../">
+      
+      
+      
+      <meta name="loc:inThisArticle" content="In this article">
+      <meta name="loc:searchResultsCount" content="{count} results for &quot;{query}&quot;">
+      <meta name="loc:searchNoResults" content="No results for &quot;{query}&quot;">
+      <meta name="loc:tocFilter" content="Filter by title">
+      <meta name="loc:nextArticle" content="Next">
+      <meta name="loc:prevArticle" content="Previous">
+      <meta name="loc:themeLight" content="Light">
+      <meta name="loc:themeDark" content="Dark">
+      <meta name="loc:themeAuto" content="Auto">
+      <meta name="loc:changeTheme" content="Change theme">
+      <meta name="loc:copy" content="Copy">
+      <meta name="loc:downloadPdf" content="Download PDF">
+
+      <script type="module" src="./../public/docfx.min.js"></script>
+
+      <script>
+        const theme = localStorage.getItem('theme') || 'auto'
+        document.documentElement.setAttribute('data-bs-theme', theme === 'auto' ? (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light') : theme)
+      </script>
+
+  </head>
+
+  <body class="tex2jax_ignore" data-layout="" data-yaml-mime="ManagedReference">
+    <header class="bg-body border-bottom">
+      <nav id="autocollapse" class="navbar navbar-expand-md" role="navigation">
+        <div class="container-xxl flex-nowrap">
+          <a class="navbar-brand" href="../index.html">
+            <img id="logo" class="svg" src="../logo.svg" alt="DataMaster">
+            DataMaster
+          </a>
+          <button class="btn btn-lg d-md-none border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navpanel" aria-controls="navpanel" aria-expanded="false" aria-label="Toggle navigation">
+            <i class="bi bi-three-dots"></i>
+          </button>
+          <div class="collapse navbar-collapse" id="navpanel">
+            <div id="navbar">
+              <form class="search" role="search" id="search">
+                <i class="bi bi-search"></i>
+                <input class="form-control" id="search-query" type="search" disabled="" placeholder="Search" autocomplete="off" aria-label="Search">
+              </form>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <main class="container-xxl">
+      <div class="toc-offcanvas">
+        <div class="offcanvas-md offcanvas-start" tabindex="-1" id="tocOffcanvas" aria-labelledby="tocOffcanvasLabel">
+          <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="tocOffcanvasLabel">Table of Contents</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" data-bs-target="#tocOffcanvas" aria-label="Close"></button>
+          </div>
+          <div class="offcanvas-body">
+            <nav class="toc" id="toc"></nav>
+          </div>
+        </div>
+      </div>
+
+      <div class="content">
+        <div class="actionbar">
+          <button class="btn btn-lg border-0 d-md-none" type="button" data-bs-toggle="offcanvas" data-bs-target="#tocOffcanvas" aria-controls="tocOffcanvas" aria-expanded="false" aria-label="Show table of contents">
+            <i class="bi bi-list"></i>
+          </button>
+
+          <nav id="breadcrumb"></nav>
+        </div>
+
+        <article data-uid="DataMaster.ViewModels.ViewModelBase">
+
+
+
+  <h1 id="DataMaster_ViewModels_ViewModelBase" data-uid="DataMaster.ViewModels.ViewModelBase" class="text-break">
+Class ViewModelBase  <a class="header-action link-secondary" title="View source" href="https://bitbucket.org/mas-software/industrial-mes-net-platform-advanced/src/feature/Charts-ProductionVolumeWebView/ViewModels/ViewModelBase.cs#lines-20"><i class="bi bi-code-slash"></i></a>
+  </h1>
+
+  <div class="facts text-secondary">
+    <dl><dt>Namespace</dt><dd><a class="xref" href="DataMaster.html">DataMaster</a>.<a class="xref" href="DataMaster.ViewModels.html">ViewModels</a></dd></dl>
+  <dl><dt>Assembly</dt><dd>DataMaster.dll</dd></dl>
+  </div>
+
+  <div class="markdown summary"><p>视图模型基类</p>
+</div>
+  <div class="markdown conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public abstract class ViewModelBase : INotifyPropertyChanged</code></pre>
+  </div>
+
+
+
+
+  <dl class="typelist inheritance">
+    <dt>Inheritance</dt>
+    <dd>
+      <div><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">object</a></div>
+      <div><span class="xref">ViewModelBase</span></div>
+    </dd>
+  </dl>
+
+  <dl class="typelist implements">
+    <dt>Implements</dt>
+    <dd>
+      <div><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.componentmodel.inotifypropertychanged">INotifyPropertyChanged</a></div>
+    </dd>
+  </dl>
+
+  <dl class="typelist derived">
+    <dt>Derived</dt>
+    <dd>
+      <div><a class="xref" href="DataMaster.Models.Charts.AnalysisPanelCard-1.html">AnalysisPanelCard&lt;T&gt;</a></div>
+      <div><a class="xref" href="DataMaster.Models.Charts.StatisticalInfoBar.html">StatisticalInfoBar</a></div>
+      <div><a class="xref" href="DataMaster.ViewModels.Pages.ECharts.AlarmViewModel.html">AlarmViewModel</a></div>
+      <div><a class="xref" href="DataMaster.ViewModels.Pages.ECharts.CapacityUtilizationViewModel.html">CapacityUtilizationViewModel</a></div>
+      <div><a class="xref" href="DataMaster.ViewModels.Pages.ECharts.CycleTimeViewModel.html">CycleTimeViewModel</a></div>
+      <div><a class="xref" href="DataMaster.ViewModels.Pages.ECharts.FreeTimeViewModel.html">FreeTimeViewModel</a></div>
+      <div><a class="xref" href="DataMaster.ViewModels.Pages.ECharts.ProductionVolumeViewModel.html">ProductionVolumeViewModel</a></div>
+      <div><a class="xref" href="DataMaster.ViewModels.Pages.SettingsViewModel.html">SettingsViewModel</a></div>
+      <div><a class="xref" href="DataMaster.ViewModels.Windows.MainViewModel.html">MainViewModel</a></div>
+    </dd>
+  </dl>
+
+  <dl class="typelist inheritedMembers">
+    <dt>Inherited Members</dt>
+    <dd>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)">object.Equals(object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)">object.Equals(object, object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.gethashcode">object.GetHashCode()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.gettype">object.GetType()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone">object.MemberwiseClone()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.referenceequals">object.ReferenceEquals(object, object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.tostring">object.ToString()</a>
+    </div>
+  </dd></dl>
+
+
+
+
+
+
+  <h2 class="section" id="fields">Fields
+</h2>
+
+
+
+  <h3 id="DataMaster_ViewModels_ViewModelBase_LanguageManager" data-uid="DataMaster.ViewModels.ViewModelBase.LanguageManager">
+  LanguageManager
+  <a class="header-action link-secondary" title="View source" href="https://bitbucket.org/mas-software/industrial-mes-net-platform-advanced/src/feature/Charts-ProductionVolumeWebView/ViewModels/ViewModelBase.cs#lines-34"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>全局语言文化管理</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected static readonly GlobalLanguageManager LanguageManager</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="DataMaster.Common.GlobalLanguageManager.html">GlobalLanguageManager</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="DataMaster_ViewModels_ViewModelBase_SystemLogger" data-uid="DataMaster.ViewModels.ViewModelBase.SystemLogger">
+  SystemLogger
+  <a class="header-action link-secondary" title="View source" href="https://bitbucket.org/mas-software/industrial-mes-net-platform-advanced/src/feature/Charts-ProductionVolumeWebView/ViewModels/ViewModelBase.cs#lines-24"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>系统日志</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected readonly Logger SystemLogger</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><span class="xref">Logger</span></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+  <h2 class="section" id="properties">Properties
+</h2>
+
+
+  <a id="DataMaster_ViewModels_ViewModelBase_Config_" data-uid="DataMaster.ViewModels.ViewModelBase.Config*"></a>
+
+  <h3 id="DataMaster_ViewModels_ViewModelBase_Config" data-uid="DataMaster.ViewModels.ViewModelBase.Config">
+  Config
+  <a class="header-action link-secondary" title="View source" href="https://bitbucket.org/mas-software/industrial-mes-net-platform-advanced/src/feature/Charts-ProductionVolumeWebView/ViewModels/ViewModelBase.cs#lines-29"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>应用程序配置信息</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected static SettingsConfig Config { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="DataMaster.Models.Configurations.SettingsConfig.html">SettingsConfig</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <h2 class="section" id="methods">Methods
+</h2>
+
+
+  <a id="DataMaster_ViewModels_ViewModelBase_OnPropertyChanged_" data-uid="DataMaster.ViewModels.ViewModelBase.OnPropertyChanged*"></a>
+
+  <h3 id="DataMaster_ViewModels_ViewModelBase_OnPropertyChanged_System_String_" data-uid="DataMaster.ViewModels.ViewModelBase.OnPropertyChanged(System.String)">
+  OnPropertyChanged(string)
+  <a class="header-action link-secondary" title="View source" href="https://bitbucket.org/mas-software/industrial-mes-net-platform-advanced/src/feature/Charts-ProductionVolumeWebView/ViewModels/ViewModelBase.cs#lines-45"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>触发属性更改通知</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected virtual void OnPropertyChanged(string propertyName)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>propertyName</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd><p>更改的属性名称</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="DataMaster_ViewModels_ViewModelBase_SetField_" data-uid="DataMaster.ViewModels.ViewModelBase.SetField*"></a>
+
+  <h3 id="DataMaster_ViewModels_ViewModelBase_SetField__1___0____0_System_String_" data-uid="DataMaster.ViewModels.ViewModelBase.SetField``1(``0@,``0,System.String)">
+  SetField&lt;T&gt;(ref T, T, string)
+  <a class="header-action link-secondary" title="View source" href="https://bitbucket.org/mas-software/industrial-mes-net-platform-advanced/src/feature/Charts-ProductionVolumeWebView/ViewModels/ViewModelBase.cs#lines-57"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>辅助方法，用于设置属性值并触发属性更改通知</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected bool SetField&lt;T&gt;(ref T field, T value, string propertyName)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>field</code> <span class="xref">T</span></dt>
+    <dd><p>引用后备字段。这个字段将被更新为新的值</p>
+</dd>
+    <dt><code>value</code> <span class="xref">T</span></dt>
+    <dd><p>要设置的新值。如果新值与旧值相同，则不会触发通知</p>
+</dd>
+    <dt><code>propertyName</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd><p>更改的属性的名称。使用 nameof 关键字来避免硬编码属性名</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd><p>如果属性值发生了变化返回true。反之false</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Type Parameters</h4>
+  <dl class="parameters">
+    <dt><code>T</code></dt>
+    <dd><p>属性的类型</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h2 class="section" id="events">Events
+</h2>
+
+
+
+  <h3 id="DataMaster_ViewModels_ViewModelBase_PropertyChanged" data-uid="DataMaster.ViewModels.ViewModelBase.PropertyChanged">
+  PropertyChanged
+  <a class="header-action link-secondary" title="View source" href="https://bitbucket.org/mas-software/industrial-mes-net-platform-advanced/src/feature/Charts-ProductionVolumeWebView/ViewModels/ViewModelBase.cs#lines-39"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>触发属性更改通知的事件</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public event PropertyChangedEventHandler? PropertyChanged</code></pre>
+  </div>
+
+
+
+
+
+
+  <h4 class="section">Event Type</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.componentmodel.propertychangedeventhandler">PropertyChangedEventHandler</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+</article>
+
+        <div class="contribution d-print-none">
+          <a href="https://bitbucket.org/mas-software/industrial-mes-net-platform-advanced/src/feature/Charts-ProductionVolumeWebView/ViewModels/ViewModelBase.cs#lines-20" class="edit-link">Edit this page</a>
+        </div>
+
+
+      </div>
+
+      <div class="affix">
+        <nav id="affix"></nav>
+      </div>
+    </main>
+
+    <div class="container-xxl search-results" id="search-results"></div>
+
+    <footer class="border-top text-secondary">
+      <div class="container-xxl">
+        <div class="flex-fill">
+          <span>Made with <a href="https://dotnet.github.io/docfx">docfx</a></span>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>

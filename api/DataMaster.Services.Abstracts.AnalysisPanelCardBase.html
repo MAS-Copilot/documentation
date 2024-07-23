@@ -1,0 +1,529 @@
+﻿<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+      <title>Class AnalysisPanelCardBase | DataMaster </title>
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta name="title" content="Class AnalysisPanelCardBase | DataMaster ">
+      
+      <meta name="description" content="统计数据仪表信息卡的基础抽象类">
+      <link rel="icon" href="../favicon.ico">
+      <link rel="stylesheet" href="../public/docfx.min.css">
+      <link rel="stylesheet" href="../public/main.css">
+      <meta name="docfx:navrel" content="../toc.html">
+      <meta name="docfx:tocrel" content="toc.html">
+      
+      <meta name="docfx:rel" content="../">
+      
+      
+      
+      <meta name="loc:inThisArticle" content="In this article">
+      <meta name="loc:searchResultsCount" content="{count} results for &quot;{query}&quot;">
+      <meta name="loc:searchNoResults" content="No results for &quot;{query}&quot;">
+      <meta name="loc:tocFilter" content="Filter by title">
+      <meta name="loc:nextArticle" content="Next">
+      <meta name="loc:prevArticle" content="Previous">
+      <meta name="loc:themeLight" content="Light">
+      <meta name="loc:themeDark" content="Dark">
+      <meta name="loc:themeAuto" content="Auto">
+      <meta name="loc:changeTheme" content="Change theme">
+      <meta name="loc:copy" content="Copy">
+      <meta name="loc:downloadPdf" content="Download PDF">
+
+      <script type="module" src="./../public/docfx.min.js"></script>
+
+      <script>
+        const theme = localStorage.getItem('theme') || 'auto'
+        document.documentElement.setAttribute('data-bs-theme', theme === 'auto' ? (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light') : theme)
+      </script>
+
+  </head>
+
+  <body class="tex2jax_ignore" data-layout="" data-yaml-mime="ManagedReference">
+    <header class="bg-body border-bottom">
+      <nav id="autocollapse" class="navbar navbar-expand-md" role="navigation">
+        <div class="container-xxl flex-nowrap">
+          <a class="navbar-brand" href="../index.html">
+            <img id="logo" class="svg" src="../logo.svg" alt="DataMaster">
+            DataMaster
+          </a>
+          <button class="btn btn-lg d-md-none border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navpanel" aria-controls="navpanel" aria-expanded="false" aria-label="Toggle navigation">
+            <i class="bi bi-three-dots"></i>
+          </button>
+          <div class="collapse navbar-collapse" id="navpanel">
+            <div id="navbar">
+              <form class="search" role="search" id="search">
+                <i class="bi bi-search"></i>
+                <input class="form-control" id="search-query" type="search" disabled="" placeholder="Search" autocomplete="off" aria-label="Search">
+              </form>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <main class="container-xxl">
+      <div class="toc-offcanvas">
+        <div class="offcanvas-md offcanvas-start" tabindex="-1" id="tocOffcanvas" aria-labelledby="tocOffcanvasLabel">
+          <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="tocOffcanvasLabel">Table of Contents</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" data-bs-target="#tocOffcanvas" aria-label="Close"></button>
+          </div>
+          <div class="offcanvas-body">
+            <nav class="toc" id="toc"></nav>
+          </div>
+        </div>
+      </div>
+
+      <div class="content">
+        <div class="actionbar">
+          <button class="btn btn-lg border-0 d-md-none" type="button" data-bs-toggle="offcanvas" data-bs-target="#tocOffcanvas" aria-controls="tocOffcanvas" aria-expanded="false" aria-label="Show table of contents">
+            <i class="bi bi-list"></i>
+          </button>
+
+          <nav id="breadcrumb"></nav>
+        </div>
+
+        <article data-uid="DataMaster.Services.Abstracts.AnalysisPanelCardBase">
+
+
+
+  <h1 id="DataMaster_Services_Abstracts_AnalysisPanelCardBase" data-uid="DataMaster.Services.Abstracts.AnalysisPanelCardBase" class="text-break">
+Class AnalysisPanelCardBase  <a class="header-action link-secondary" title="View source" href="https://bitbucket.org/mas-software/industrial-mes-net-platform-advanced/src/feature/Charts-ProductionVolumeWebView/Services/Abstracts/AnalysisPanelCardBase.cs#lines-25"><i class="bi bi-code-slash"></i></a>
+  </h1>
+
+  <div class="facts text-secondary">
+    <dl><dt>Namespace</dt><dd><a class="xref" href="DataMaster.html">DataMaster</a>.<a class="xref" href="DataMaster.Services.html">Services</a>.<a class="xref" href="DataMaster.Services.Abstracts.html">Abstracts</a></dd></dl>
+  <dl><dt>Assembly</dt><dd>DataMaster.dll</dd></dl>
+  </div>
+
+  <div class="markdown summary"><p>统计数据仪表信息卡的基础抽象类</p>
+</div>
+  <div class="markdown conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public abstract class AnalysisPanelCardBase : IStatsService, IDisposable</code></pre>
+  </div>
+
+
+
+
+  <dl class="typelist inheritance">
+    <dt>Inheritance</dt>
+    <dd>
+      <div><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">object</a></div>
+      <div><span class="xref">AnalysisPanelCardBase</span></div>
+    </dd>
+  </dl>
+
+  <dl class="typelist implements">
+    <dt>Implements</dt>
+    <dd>
+      <div><a class="xref" href="DataMaster.Modules.MAS.Charts.Interfaces.IStatsService.html">IStatsService</a></div>
+      <div><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.idisposable">IDisposable</a></div>
+    </dd>
+  </dl>
+
+  <dl class="typelist derived">
+    <dt>Derived</dt>
+    <dd>
+      <div><a class="xref" href="DataMaster.Services.Charts.ProductionVolumeCardService.html">ProductionVolumeCardService</a></div>
+    </dd>
+  </dl>
+
+  <dl class="typelist inheritedMembers">
+    <dt>Inherited Members</dt>
+    <dd>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)">object.Equals(object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)">object.Equals(object, object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.gethashcode">object.GetHashCode()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.gettype">object.GetType()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone">object.MemberwiseClone()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.referenceequals">object.ReferenceEquals(object, object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.tostring">object.ToString()</a>
+    </div>
+  </dd></dl>
+
+
+
+
+
+
+  <h2 class="section" id="constructors">Constructors
+</h2>
+
+
+  <a id="DataMaster_Services_Abstracts_AnalysisPanelCardBase__ctor_" data-uid="DataMaster.Services.Abstracts.AnalysisPanelCardBase.#ctor*"></a>
+
+  <h3 id="DataMaster_Services_Abstracts_AnalysisPanelCardBase__ctor_System_IServiceProvider_" data-uid="DataMaster.Services.Abstracts.AnalysisPanelCardBase.#ctor(System.IServiceProvider)">
+  AnalysisPanelCardBase(IServiceProvider)
+  <a class="header-action link-secondary" title="View source" href="https://bitbucket.org/mas-software/industrial-mes-net-platform-advanced/src/feature/Charts-ProductionVolumeWebView/Services/Abstracts/AnalysisPanelCardBase.cs#lines-25"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>统计数据仪表信息卡的基础抽象类</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected AnalysisPanelCardBase(IServiceProvider serviceProvider)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>serviceProvider</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.iserviceprovider">IServiceProvider</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <h2 class="section" id="fields">Fields
+</h2>
+
+
+
+  <h3 id="DataMaster_Services_Abstracts_AnalysisPanelCardBase_EventAggregatorService" data-uid="DataMaster.Services.Abstracts.AnalysisPanelCardBase.EventAggregatorService">
+  EventAggregatorService
+  <a class="header-action link-secondary" title="View source" href="https://bitbucket.org/mas-software/industrial-mes-net-platform-advanced/src/feature/Charts-ProductionVolumeWebView/Services/Abstracts/AnalysisPanelCardBase.cs#lines-29"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>事件聚合器服务</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected readonly IEventAggregatorService EventAggregatorService</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="DataMaster.Modules.MAS.EventAggregator.API.IEventAggregatorService.html">IEventAggregatorService</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="DataMaster_Services_Abstracts_AnalysisPanelCardBase_SystemLogger" data-uid="DataMaster.Services.Abstracts.AnalysisPanelCardBase.SystemLogger">
+  SystemLogger
+  <a class="header-action link-secondary" title="View source" href="https://bitbucket.org/mas-software/industrial-mes-net-platform-advanced/src/feature/Charts-ProductionVolumeWebView/Services/Abstracts/AnalysisPanelCardBase.cs#lines-39"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>记录系统日志的Logger</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected static readonly Logger SystemLogger</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><span class="xref">Logger</span></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+  <h2 class="section" id="methods">Methods
+</h2>
+
+
+  <a id="DataMaster_Services_Abstracts_AnalysisPanelCardBase_Dispose_" data-uid="DataMaster.Services.Abstracts.AnalysisPanelCardBase.Dispose*"></a>
+
+  <h3 id="DataMaster_Services_Abstracts_AnalysisPanelCardBase_Dispose" data-uid="DataMaster.Services.Abstracts.AnalysisPanelCardBase.Dispose">
+  Dispose()
+  <a class="header-action link-secondary" title="View source" href="https://bitbucket.org/mas-software/industrial-mes-net-platform-advanced/src/feature/Charts-ProductionVolumeWebView/Services/Abstracts/AnalysisPanelCardBase.cs#lines-59"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>执行与释放、释放或重置非托管资源相关的应用程序定义的任务</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void Dispose()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="DataMaster_Services_Abstracts_AnalysisPanelCardBase_HandThemeChanges_" data-uid="DataMaster.Services.Abstracts.AnalysisPanelCardBase.HandThemeChanges*"></a>
+
+  <h3 id="DataMaster_Services_Abstracts_AnalysisPanelCardBase_HandThemeChanges_System_Object_System_EventArgs_" data-uid="DataMaster.Services.Abstracts.AnalysisPanelCardBase.HandThemeChanges(System.Object,System.EventArgs)">
+  HandThemeChanges(object?, EventArgs)
+  <a class="header-action link-secondary" title="View source" href="https://bitbucket.org/mas-software/industrial-mes-net-platform-advanced/src/feature/Charts-ProductionVolumeWebView/Services/Abstracts/AnalysisPanelCardBase.cs#lines-82"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>处理主题变更事件</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected abstract void HandThemeChanges(object? sender, EventArgs e)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>sender</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">object</a></dt>
+    <dd></dd>
+    <dt><code>e</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.eventargs">EventArgs</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="DataMaster_Services_Abstracts_AnalysisPanelCardBase_InitializeCardsData_" data-uid="DataMaster.Services.Abstracts.AnalysisPanelCardBase.InitializeCardsData*"></a>
+
+  <h3 id="DataMaster_Services_Abstracts_AnalysisPanelCardBase_InitializeCardsData" data-uid="DataMaster.Services.Abstracts.AnalysisPanelCardBase.InitializeCardsData">
+  InitializeCardsData()
+  <a class="header-action link-secondary" title="View source" href="https://bitbucket.org/mas-software/industrial-mes-net-platform-advanced/src/feature/Charts-ProductionVolumeWebView/Services/Abstracts/AnalysisPanelCardBase.cs#lines-67"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>初始化统计信息卡数据</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected abstract void InitializeCardsData()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="DataMaster_Services_Abstracts_AnalysisPanelCardBase_SetBorderBrushColor_" data-uid="DataMaster.Services.Abstracts.AnalysisPanelCardBase.SetBorderBrushColor*"></a>
+
+  <h3 id="DataMaster_Services_Abstracts_AnalysisPanelCardBase_SetBorderBrushColor" data-uid="DataMaster.Services.Abstracts.AnalysisPanelCardBase.SetBorderBrushColor">
+  SetBorderBrushColor()
+  <a class="header-action link-secondary" title="View source" href="https://bitbucket.org/mas-software/industrial-mes-net-platform-advanced/src/feature/Charts-ProductionVolumeWebView/Services/Abstracts/AnalysisPanelCardBase.cs#lines-88"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>设置选中卡片时的边框颜色</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected static string SetBorderBrushColor()</code></pre>
+  </div>
+
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="DataMaster_Services_Abstracts_AnalysisPanelCardBase_SetCardBackgroundColor_" data-uid="DataMaster.Services.Abstracts.AnalysisPanelCardBase.SetCardBackgroundColor*"></a>
+
+  <h3 id="DataMaster_Services_Abstracts_AnalysisPanelCardBase_SetCardBackgroundColor" data-uid="DataMaster.Services.Abstracts.AnalysisPanelCardBase.SetCardBackgroundColor">
+  SetCardBackgroundColor()
+  <a class="header-action link-secondary" title="View source" href="https://bitbucket.org/mas-software/industrial-mes-net-platform-advanced/src/feature/Charts-ProductionVolumeWebView/Services/Abstracts/AnalysisPanelCardBase.cs#lines-96"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>设置卡片在鼠标悬停时的背景颜色</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected static string SetCardBackgroundColor()</code></pre>
+  </div>
+
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="DataMaster_Services_Abstracts_AnalysisPanelCardBase_Start_" data-uid="DataMaster.Services.Abstracts.AnalysisPanelCardBase.Start*"></a>
+
+  <h3 id="DataMaster_Services_Abstracts_AnalysisPanelCardBase_Start" data-uid="DataMaster.Services.Abstracts.AnalysisPanelCardBase.Start">
+  Start()
+  <a class="header-action link-secondary" title="View source" href="https://bitbucket.org/mas-software/industrial-mes-net-platform-advanced/src/feature/Charts-ProductionVolumeWebView/Services/Abstracts/AnalysisPanelCardBase.cs#lines-49"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>启动服务。包括但不限于设置初始状态，订阅事件，其他为使服务运行所必需的初始化步骤</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void Start()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="DataMaster_Services_Abstracts_AnalysisPanelCardBase_SubscribeToEvents_" data-uid="DataMaster.Services.Abstracts.AnalysisPanelCardBase.SubscribeToEvents*"></a>
+
+  <h3 id="DataMaster_Services_Abstracts_AnalysisPanelCardBase_SubscribeToEvents" data-uid="DataMaster.Services.Abstracts.AnalysisPanelCardBase.SubscribeToEvents">
+  SubscribeToEvents()
+  <a class="header-action link-secondary" title="View source" href="https://bitbucket.org/mas-software/industrial-mes-net-platform-advanced/src/feature/Charts-ProductionVolumeWebView/Services/Abstracts/AnalysisPanelCardBase.cs#lines-72"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>订阅事件</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected abstract void SubscribeToEvents()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="DataMaster_Services_Abstracts_AnalysisPanelCardBase_UnsubscribeEvents_" data-uid="DataMaster.Services.Abstracts.AnalysisPanelCardBase.UnsubscribeEvents*"></a>
+
+  <h3 id="DataMaster_Services_Abstracts_AnalysisPanelCardBase_UnsubscribeEvents" data-uid="DataMaster.Services.Abstracts.AnalysisPanelCardBase.UnsubscribeEvents">
+  UnsubscribeEvents()
+  <a class="header-action link-secondary" title="View source" href="https://bitbucket.org/mas-software/industrial-mes-net-platform-advanced/src/feature/Charts-ProductionVolumeWebView/Services/Abstracts/AnalysisPanelCardBase.cs#lines-77"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>取消订阅事件，避免内存泄漏</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected abstract void UnsubscribeEvents()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</article>
+
+        <div class="contribution d-print-none">
+          <a href="https://bitbucket.org/mas-software/industrial-mes-net-platform-advanced/src/feature/Charts-ProductionVolumeWebView/Services/Abstracts/AnalysisPanelCardBase.cs#lines-25" class="edit-link">Edit this page</a>
+        </div>
+
+
+      </div>
+
+      <div class="affix">
+        <nav id="affix"></nav>
+      </div>
+    </main>
+
+    <div class="container-xxl search-results" id="search-results"></div>
+
+    <footer class="border-top text-secondary">
+      <div class="container-xxl">
+        <div class="flex-fill">
+          <span>Made with <a href="https://dotnet.github.io/docfx">docfx</a></span>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>

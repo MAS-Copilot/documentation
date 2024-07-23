@@ -1,0 +1,577 @@
+﻿<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+      <title>Class DeleteParameters | DataMaster </title>
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta name="title" content="Class DeleteParameters | DataMaster ">
+      
+      <meta name="description" content="删除参数帮助类">
+      <link rel="icon" href="../favicon.ico">
+      <link rel="stylesheet" href="../public/docfx.min.css">
+      <link rel="stylesheet" href="../public/main.css">
+      <meta name="docfx:navrel" content="../toc.html">
+      <meta name="docfx:tocrel" content="toc.html">
+      
+      <meta name="docfx:rel" content="../">
+      
+      
+      
+      <meta name="loc:inThisArticle" content="In this article">
+      <meta name="loc:searchResultsCount" content="{count} results for &quot;{query}&quot;">
+      <meta name="loc:searchNoResults" content="No results for &quot;{query}&quot;">
+      <meta name="loc:tocFilter" content="Filter by title">
+      <meta name="loc:nextArticle" content="Next">
+      <meta name="loc:prevArticle" content="Previous">
+      <meta name="loc:themeLight" content="Light">
+      <meta name="loc:themeDark" content="Dark">
+      <meta name="loc:themeAuto" content="Auto">
+      <meta name="loc:changeTheme" content="Change theme">
+      <meta name="loc:copy" content="Copy">
+      <meta name="loc:downloadPdf" content="Download PDF">
+
+      <script type="module" src="./../public/docfx.min.js"></script>
+
+      <script>
+        const theme = localStorage.getItem('theme') || 'auto'
+        document.documentElement.setAttribute('data-bs-theme', theme === 'auto' ? (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light') : theme)
+      </script>
+
+  </head>
+
+  <body class="tex2jax_ignore" data-layout="" data-yaml-mime="ManagedReference">
+    <header class="bg-body border-bottom">
+      <nav id="autocollapse" class="navbar navbar-expand-md" role="navigation">
+        <div class="container-xxl flex-nowrap">
+          <a class="navbar-brand" href="../index.html">
+            <img id="logo" class="svg" src="../logo.svg" alt="DataMaster">
+            DataMaster
+          </a>
+          <button class="btn btn-lg d-md-none border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navpanel" aria-controls="navpanel" aria-expanded="false" aria-label="Toggle navigation">
+            <i class="bi bi-three-dots"></i>
+          </button>
+          <div class="collapse navbar-collapse" id="navpanel">
+            <div id="navbar">
+              <form class="search" role="search" id="search">
+                <i class="bi bi-search"></i>
+                <input class="form-control" id="search-query" type="search" disabled="" placeholder="Search" autocomplete="off" aria-label="Search">
+              </form>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <main class="container-xxl">
+      <div class="toc-offcanvas">
+        <div class="offcanvas-md offcanvas-start" tabindex="-1" id="tocOffcanvas" aria-labelledby="tocOffcanvasLabel">
+          <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="tocOffcanvasLabel">Table of Contents</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" data-bs-target="#tocOffcanvas" aria-label="Close"></button>
+          </div>
+          <div class="offcanvas-body">
+            <nav class="toc" id="toc"></nav>
+          </div>
+        </div>
+      </div>
+
+      <div class="content">
+        <div class="actionbar">
+          <button class="btn btn-lg border-0 d-md-none" type="button" data-bs-toggle="offcanvas" data-bs-target="#tocOffcanvas" aria-controls="tocOffcanvas" aria-expanded="false" aria-label="Show table of contents">
+            <i class="bi bi-list"></i>
+          </button>
+
+          <nav id="breadcrumb"></nav>
+        </div>
+
+        <article data-uid="DataMaster.Modules.MAS.DataAccess.Helpers.CmdParameters.DeleteParameters">
+
+
+
+  <h1 id="DataMaster_Modules_MAS_DataAccess_Helpers_CmdParameters_DeleteParameters" data-uid="DataMaster.Modules.MAS.DataAccess.Helpers.CmdParameters.DeleteParameters" class="text-break">
+Class DeleteParameters  <a class="header-action link-secondary" title="View source" href="https://bitbucket.org/mas-software/industrial-mes-net-platform-advanced/src/feature/Charts-ProductionVolumeWebView/Modules/MAS.DataAccess/Helpers/CmdParameters/DeleteParametersHelper.cs#lines-15"><i class="bi bi-code-slash"></i></a>
+  </h1>
+
+  <div class="facts text-secondary">
+    <dl><dt>Namespace</dt><dd><a class="xref" href="DataMaster.html">DataMaster</a>.<a class="xref" href="DataMaster.Modules.html">Modules</a>.<a class="xref" href="DataMaster.Modules.MAS.html">MAS</a>.<a class="xref" href="DataMaster.Modules.MAS.DataAccess.html">DataAccess</a>.<a class="xref" href="DataMaster.Modules.MAS.DataAccess.Helpers.html">Helpers</a>.<a class="xref" href="DataMaster.Modules.MAS.DataAccess.Helpers.CmdParameters.html">CmdParameters</a></dd></dl>
+  <dl><dt>Assembly</dt><dd>DataMaster.dll</dd></dl>
+  </div>
+
+  <div class="markdown summary"><p>删除参数帮助类</p>
+</div>
+  <div class="markdown conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static class DeleteParameters</code></pre>
+  </div>
+
+
+
+
+  <dl class="typelist inheritance">
+    <dt>Inheritance</dt>
+    <dd>
+      <div><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">object</a></div>
+      <div><span class="xref">DeleteParameters</span></div>
+    </dd>
+  </dl>
+
+
+
+  <dl class="typelist inheritedMembers">
+    <dt>Inherited Members</dt>
+    <dd>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)">object.Equals(object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)">object.Equals(object, object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.gethashcode">object.GetHashCode()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.gettype">object.GetType()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone">object.MemberwiseClone()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.referenceequals">object.ReferenceEquals(object, object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.tostring">object.ToString()</a>
+    </div>
+  </dd></dl>
+
+
+
+
+
+
+  <h2 class="section" id="methods">Methods
+</h2>
+
+
+  <a id="DataMaster_Modules_MAS_DataAccess_Helpers_CmdParameters_DeleteParameters_CapacityUtilizationParam_" data-uid="DataMaster.Modules.MAS.DataAccess.Helpers.CmdParameters.DeleteParameters.CapacityUtilizationParam*"></a>
+
+  <h3 id="DataMaster_Modules_MAS_DataAccess_Helpers_CmdParameters_DeleteParameters_CapacityUtilizationParam_MySql_Data_MySqlClient_MySqlCommand_DataMaster_Modules_MAS_DataAccess_Entities_CapacityUtilizationEntity_" data-uid="DataMaster.Modules.MAS.DataAccess.Helpers.CmdParameters.DeleteParameters.CapacityUtilizationParam(MySql.Data.MySqlClient.MySqlCommand,DataMaster.Modules.MAS.DataAccess.Entities.CapacityUtilizationEntity)">
+  CapacityUtilizationParam(MySqlCommand, CapacityUtilizationEntity)
+  <a class="header-action link-secondary" title="View source" href="https://bitbucket.org/mas-software/industrial-mes-net-platform-advanced/src/feature/Charts-ProductionVolumeWebView/Modules/MAS.DataAccess/Helpers/CmdParameters/DeleteParametersHelper.cs#lines-111"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>产能利用率统计</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void CapacityUtilizationParam(MySqlCommand command, CapacityUtilizationEntity entity)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>command</code> <span class="xref">MySqlCommand</span></dt>
+    <dd><p>MySqlCommand对象，用于执行SQL命令</p>
+</dd>
+    <dt><code>entity</code> <a class="xref" href="DataMaster.Modules.MAS.DataAccess.Entities.CapacityUtilizationEntity.html">CapacityUtilizationEntity</a></dt>
+    <dd><p>设备实体对象，其属性值将用于设置SQL命令的参数</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="DataMaster_Modules_MAS_DataAccess_Helpers_CmdParameters_DeleteParameters_EquipmentAlarmEventParam_" data-uid="DataMaster.Modules.MAS.DataAccess.Helpers.CmdParameters.DeleteParameters.EquipmentAlarmEventParam*"></a>
+
+  <h3 id="DataMaster_Modules_MAS_DataAccess_Helpers_CmdParameters_DeleteParameters_EquipmentAlarmEventParam_MySql_Data_MySqlClient_MySqlCommand_DataMaster_Modules_MAS_DataAccess_Entities_EquipmentAlarmEventEntity_" data-uid="DataMaster.Modules.MAS.DataAccess.Helpers.CmdParameters.DeleteParameters.EquipmentAlarmEventParam(MySql.Data.MySqlClient.MySqlCommand,DataMaster.Modules.MAS.DataAccess.Entities.EquipmentAlarmEventEntity)">
+  EquipmentAlarmEventParam(MySqlCommand, EquipmentAlarmEventEntity)
+  <a class="header-action link-secondary" title="View source" href="https://bitbucket.org/mas-software/industrial-mes-net-platform-advanced/src/feature/Charts-ProductionVolumeWebView/Modules/MAS.DataAccess/Helpers/CmdParameters/DeleteParametersHelper.cs#lines-102"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>设备报警事件</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void EquipmentAlarmEventParam(MySqlCommand command, EquipmentAlarmEventEntity entity)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>command</code> <span class="xref">MySqlCommand</span></dt>
+    <dd><p>MySqlCommand对象，用于执行SQL命令</p>
+</dd>
+    <dt><code>entity</code> <a class="xref" href="DataMaster.Modules.MAS.DataAccess.Entities.EquipmentAlarmEventEntity.html">EquipmentAlarmEventEntity</a></dt>
+    <dd><p>设备实体对象，其属性值将用于设置SQL命令的参数</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="DataMaster_Modules_MAS_DataAccess_Helpers_CmdParameters_DeleteParameters_EquipmentFaultEventParam_" data-uid="DataMaster.Modules.MAS.DataAccess.Helpers.CmdParameters.DeleteParameters.EquipmentFaultEventParam*"></a>
+
+  <h3 id="DataMaster_Modules_MAS_DataAccess_Helpers_CmdParameters_DeleteParameters_EquipmentFaultEventParam_MySql_Data_MySqlClient_MySqlCommand_DataMaster_Modules_MAS_DataAccess_Entities_EquipmentFaultEventEntity_" data-uid="DataMaster.Modules.MAS.DataAccess.Helpers.CmdParameters.DeleteParameters.EquipmentFaultEventParam(MySql.Data.MySqlClient.MySqlCommand,DataMaster.Modules.MAS.DataAccess.Entities.EquipmentFaultEventEntity)">
+  EquipmentFaultEventParam(MySqlCommand, EquipmentFaultEventEntity)
+  <a class="header-action link-secondary" title="View source" href="https://bitbucket.org/mas-software/industrial-mes-net-platform-advanced/src/feature/Charts-ProductionVolumeWebView/Modules/MAS.DataAccess/Helpers/CmdParameters/DeleteParametersHelper.cs#lines-93"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>设备宕机事件</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void EquipmentFaultEventParam(MySqlCommand command, EquipmentFaultEventEntity entity)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>command</code> <span class="xref">MySqlCommand</span></dt>
+    <dd><p>MySqlCommand对象，用于执行SQL命令</p>
+</dd>
+    <dt><code>entity</code> <a class="xref" href="DataMaster.Modules.MAS.DataAccess.Entities.EquipmentFaultEventEntity.html">EquipmentFaultEventEntity</a></dt>
+    <dd><p>设备实体对象，其属性值将用于设置SQL命令的参数</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="DataMaster_Modules_MAS_DataAccess_Helpers_CmdParameters_DeleteParameters_EquipmentHaltEventParam_" data-uid="DataMaster.Modules.MAS.DataAccess.Helpers.CmdParameters.DeleteParameters.EquipmentHaltEventParam*"></a>
+
+  <h3 id="DataMaster_Modules_MAS_DataAccess_Helpers_CmdParameters_DeleteParameters_EquipmentHaltEventParam_MySql_Data_MySqlClient_MySqlCommand_DataMaster_Modules_MAS_DataAccess_Entities_EquipmentHaltEventEntity_" data-uid="DataMaster.Modules.MAS.DataAccess.Helpers.CmdParameters.DeleteParameters.EquipmentHaltEventParam(MySql.Data.MySqlClient.MySqlCommand,DataMaster.Modules.MAS.DataAccess.Entities.EquipmentHaltEventEntity)">
+  EquipmentHaltEventParam(MySqlCommand, EquipmentHaltEventEntity)
+  <a class="header-action link-secondary" title="View source" href="https://bitbucket.org/mas-software/industrial-mes-net-platform-advanced/src/feature/Charts-ProductionVolumeWebView/Modules/MAS.DataAccess/Helpers/CmdParameters/DeleteParametersHelper.cs#lines-84"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>设备停机事件</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void EquipmentHaltEventParam(MySqlCommand command, EquipmentHaltEventEntity entity)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>command</code> <span class="xref">MySqlCommand</span></dt>
+    <dd><p>MySqlCommand对象，用于执行SQL命令</p>
+</dd>
+    <dt><code>entity</code> <a class="xref" href="DataMaster.Modules.MAS.DataAccess.Entities.EquipmentHaltEventEntity.html">EquipmentHaltEventEntity</a></dt>
+    <dd><p>设备实体对象，其属性值将用于设置SQL命令的参数</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="DataMaster_Modules_MAS_DataAccess_Helpers_CmdParameters_DeleteParameters_EquipmentHourlyProductionRecordParam_" data-uid="DataMaster.Modules.MAS.DataAccess.Helpers.CmdParameters.DeleteParameters.EquipmentHourlyProductionRecordParam*"></a>
+
+  <h3 id="DataMaster_Modules_MAS_DataAccess_Helpers_CmdParameters_DeleteParameters_EquipmentHourlyProductionRecordParam_MySql_Data_MySqlClient_MySqlCommand_DataMaster_Modules_MAS_DataAccess_Entities_EquipmentHourlyProductionRecordEntity_" data-uid="DataMaster.Modules.MAS.DataAccess.Helpers.CmdParameters.DeleteParameters.EquipmentHourlyProductionRecordParam(MySql.Data.MySqlClient.MySqlCommand,DataMaster.Modules.MAS.DataAccess.Entities.EquipmentHourlyProductionRecordEntity)">
+  EquipmentHourlyProductionRecordParam(MySqlCommand, EquipmentHourlyProductionRecordEntity)
+  <a class="header-action link-secondary" title="View source" href="https://bitbucket.org/mas-software/industrial-mes-net-platform-advanced/src/feature/Charts-ProductionVolumeWebView/Modules/MAS.DataAccess/Helpers/CmdParameters/DeleteParametersHelper.cs#lines-57"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>设备每小时产量记录</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void EquipmentHourlyProductionRecordParam(MySqlCommand command, EquipmentHourlyProductionRecordEntity entity)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>command</code> <span class="xref">MySqlCommand</span></dt>
+    <dd><p>MySqlCommand对象，用于执行SQL命令</p>
+</dd>
+    <dt><code>entity</code> <a class="xref" href="DataMaster.Modules.MAS.DataAccess.Entities.EquipmentHourlyProductionRecordEntity.html">EquipmentHourlyProductionRecordEntity</a></dt>
+    <dd><p>设备实体对象，其属性值将用于设置SQL命令的参数</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="DataMaster_Modules_MAS_DataAccess_Helpers_CmdParameters_DeleteParameters_EquipmentParam_" data-uid="DataMaster.Modules.MAS.DataAccess.Helpers.CmdParameters.DeleteParameters.EquipmentParam*"></a>
+
+  <h3 id="DataMaster_Modules_MAS_DataAccess_Helpers_CmdParameters_DeleteParameters_EquipmentParam_MySql_Data_MySqlClient_MySqlCommand_DataMaster_Modules_MAS_DataAccess_Entities_EquipmentEntity_" data-uid="DataMaster.Modules.MAS.DataAccess.Helpers.CmdParameters.DeleteParameters.EquipmentParam(MySql.Data.MySqlClient.MySqlCommand,DataMaster.Modules.MAS.DataAccess.Entities.EquipmentEntity)">
+  EquipmentParam(MySqlCommand, EquipmentEntity)
+  <a class="header-action link-secondary" title="View source" href="https://bitbucket.org/mas-software/industrial-mes-net-platform-advanced/src/feature/Charts-ProductionVolumeWebView/Modules/MAS.DataAccess/Helpers/CmdParameters/DeleteParametersHelper.cs#lines-21"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>设备信息</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void EquipmentParam(MySqlCommand command, EquipmentEntity entity)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>command</code> <span class="xref">MySqlCommand</span></dt>
+    <dd><p>MySqlCommand对象，用于执行SQL命令</p>
+</dd>
+    <dt><code>entity</code> <a class="xref" href="DataMaster.Modules.MAS.DataAccess.Entities.EquipmentEntity.html">EquipmentEntity</a></dt>
+    <dd><p>设备实体对象，其属性值将用于设置SQL命令的参数</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="DataMaster_Modules_MAS_DataAccess_Helpers_CmdParameters_DeleteParameters_EquipmentProductParam_" data-uid="DataMaster.Modules.MAS.DataAccess.Helpers.CmdParameters.DeleteParameters.EquipmentProductParam*"></a>
+
+  <h3 id="DataMaster_Modules_MAS_DataAccess_Helpers_CmdParameters_DeleteParameters_EquipmentProductParam_MySql_Data_MySqlClient_MySqlCommand_DataMaster_Modules_MAS_DataAccess_Entities_EquipmentProductEntity_" data-uid="DataMaster.Modules.MAS.DataAccess.Helpers.CmdParameters.DeleteParameters.EquipmentProductParam(MySql.Data.MySqlClient.MySqlCommand,DataMaster.Modules.MAS.DataAccess.Entities.EquipmentProductEntity)">
+  EquipmentProductParam(MySqlCommand, EquipmentProductEntity)
+  <a class="header-action link-secondary" title="View source" href="https://bitbucket.org/mas-software/industrial-mes-net-platform-advanced/src/feature/Charts-ProductionVolumeWebView/Modules/MAS.DataAccess/Helpers/CmdParameters/DeleteParametersHelper.cs#lines-48"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>设备产品信息</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void EquipmentProductParam(MySqlCommand command, EquipmentProductEntity entity)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>command</code> <span class="xref">MySqlCommand</span></dt>
+    <dd><p>MySqlCommand对象，用于执行SQL命令</p>
+</dd>
+    <dt><code>entity</code> <a class="xref" href="DataMaster.Modules.MAS.DataAccess.Entities.EquipmentProductEntity.html">EquipmentProductEntity</a></dt>
+    <dd><p>设备实体对象，其属性值将用于设置SQL命令的参数</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="DataMaster_Modules_MAS_DataAccess_Helpers_CmdParameters_DeleteParameters_EquipmentProductionRecordParam_" data-uid="DataMaster.Modules.MAS.DataAccess.Helpers.CmdParameters.DeleteParameters.EquipmentProductionRecordParam*"></a>
+
+  <h3 id="DataMaster_Modules_MAS_DataAccess_Helpers_CmdParameters_DeleteParameters_EquipmentProductionRecordParam_MySql_Data_MySqlClient_MySqlCommand_DataMaster_Modules_MAS_DataAccess_Entities_EquipmentProductionRecordEntity_" data-uid="DataMaster.Modules.MAS.DataAccess.Helpers.CmdParameters.DeleteParameters.EquipmentProductionRecordParam(MySql.Data.MySqlClient.MySqlCommand,DataMaster.Modules.MAS.DataAccess.Entities.EquipmentProductionRecordEntity)">
+  EquipmentProductionRecordParam(MySqlCommand, EquipmentProductionRecordEntity)
+  <a class="header-action link-secondary" title="View source" href="https://bitbucket.org/mas-software/industrial-mes-net-platform-advanced/src/feature/Charts-ProductionVolumeWebView/Modules/MAS.DataAccess/Helpers/CmdParameters/DeleteParametersHelper.cs#lines-66"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>设备生产记录</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void EquipmentProductionRecordParam(MySqlCommand command, EquipmentProductionRecordEntity entity)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>command</code> <span class="xref">MySqlCommand</span></dt>
+    <dd><p>MySqlCommand对象，用于执行SQL命令</p>
+</dd>
+    <dt><code>entity</code> <a class="xref" href="DataMaster.Modules.MAS.DataAccess.Entities.EquipmentProductionRecordEntity.html">EquipmentProductionRecordEntity</a></dt>
+    <dd><p>设备实体对象，其属性值将用于设置SQL命令的参数</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="DataMaster_Modules_MAS_DataAccess_Helpers_CmdParameters_DeleteParameters_EquipmentStatusRecordParam_" data-uid="DataMaster.Modules.MAS.DataAccess.Helpers.CmdParameters.DeleteParameters.EquipmentStatusRecordParam*"></a>
+
+  <h3 id="DataMaster_Modules_MAS_DataAccess_Helpers_CmdParameters_DeleteParameters_EquipmentStatusRecordParam_MySql_Data_MySqlClient_MySqlCommand_DataMaster_Modules_MAS_DataAccess_Entities_EquipmentStatusRecordEntity_" data-uid="DataMaster.Modules.MAS.DataAccess.Helpers.CmdParameters.DeleteParameters.EquipmentStatusRecordParam(MySql.Data.MySqlClient.MySqlCommand,DataMaster.Modules.MAS.DataAccess.Entities.EquipmentStatusRecordEntity)">
+  EquipmentStatusRecordParam(MySqlCommand, EquipmentStatusRecordEntity)
+  <a class="header-action link-secondary" title="View source" href="https://bitbucket.org/mas-software/industrial-mes-net-platform-advanced/src/feature/Charts-ProductionVolumeWebView/Modules/MAS.DataAccess/Helpers/CmdParameters/DeleteParametersHelper.cs#lines-75"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>设备状态记录</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void EquipmentStatusRecordParam(MySqlCommand command, EquipmentStatusRecordEntity entity)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>command</code> <span class="xref">MySqlCommand</span></dt>
+    <dd><p>MySqlCommand对象，用于执行SQL命令</p>
+</dd>
+    <dt><code>entity</code> <a class="xref" href="DataMaster.Modules.MAS.DataAccess.Entities.EquipmentStatusRecordEntity.html">EquipmentStatusRecordEntity</a></dt>
+    <dd><p>设备实体对象，其属性值将用于设置SQL命令的参数</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="DataMaster_Modules_MAS_DataAccess_Helpers_CmdParameters_DeleteParameters_EquipmentUserSettingsParam_" data-uid="DataMaster.Modules.MAS.DataAccess.Helpers.CmdParameters.DeleteParameters.EquipmentUserSettingsParam*"></a>
+
+  <h3 id="DataMaster_Modules_MAS_DataAccess_Helpers_CmdParameters_DeleteParameters_EquipmentUserSettingsParam_MySql_Data_MySqlClient_MySqlCommand_DataMaster_Modules_MAS_DataAccess_Entities_EquipmentUserSettingsEntity_" data-uid="DataMaster.Modules.MAS.DataAccess.Helpers.CmdParameters.DeleteParameters.EquipmentUserSettingsParam(MySql.Data.MySqlClient.MySqlCommand,DataMaster.Modules.MAS.DataAccess.Entities.EquipmentUserSettingsEntity)">
+  EquipmentUserSettingsParam(MySqlCommand, EquipmentUserSettingsEntity)
+  <a class="header-action link-secondary" title="View source" href="https://bitbucket.org/mas-software/industrial-mes-net-platform-advanced/src/feature/Charts-ProductionVolumeWebView/Modules/MAS.DataAccess/Helpers/CmdParameters/DeleteParametersHelper.cs#lines-39"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>用户设置</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void EquipmentUserSettingsParam(MySqlCommand command, EquipmentUserSettingsEntity entity)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>command</code> <span class="xref">MySqlCommand</span></dt>
+    <dd><p>MySqlCommand对象，用于执行SQL命令</p>
+</dd>
+    <dt><code>entity</code> <a class="xref" href="DataMaster.Modules.MAS.DataAccess.Entities.EquipmentUserSettingsEntity.html">EquipmentUserSettingsEntity</a></dt>
+    <dd><p>设备实体对象，其属性值将用于设置SQL命令的参数</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="DataMaster_Modules_MAS_DataAccess_Helpers_CmdParameters_DeleteParameters_EquipmentUsersParam_" data-uid="DataMaster.Modules.MAS.DataAccess.Helpers.CmdParameters.DeleteParameters.EquipmentUsersParam*"></a>
+
+  <h3 id="DataMaster_Modules_MAS_DataAccess_Helpers_CmdParameters_DeleteParameters_EquipmentUsersParam_MySql_Data_MySqlClient_MySqlCommand_DataMaster_Modules_MAS_DataAccess_Entities_EquipmentUsersEntity_" data-uid="DataMaster.Modules.MAS.DataAccess.Helpers.CmdParameters.DeleteParameters.EquipmentUsersParam(MySql.Data.MySqlClient.MySqlCommand,DataMaster.Modules.MAS.DataAccess.Entities.EquipmentUsersEntity)">
+  EquipmentUsersParam(MySqlCommand, EquipmentUsersEntity)
+  <a class="header-action link-secondary" title="View source" href="https://bitbucket.org/mas-software/industrial-mes-net-platform-advanced/src/feature/Charts-ProductionVolumeWebView/Modules/MAS.DataAccess/Helpers/CmdParameters/DeleteParametersHelper.cs#lines-30"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>设备用户信息</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void EquipmentUsersParam(MySqlCommand command, EquipmentUsersEntity entity)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>command</code> <span class="xref">MySqlCommand</span></dt>
+    <dd><p>MySqlCommand对象，用于执行SQL命令</p>
+</dd>
+    <dt><code>entity</code> <a class="xref" href="DataMaster.Modules.MAS.DataAccess.Entities.EquipmentUsersEntity.html">EquipmentUsersEntity</a></dt>
+    <dd><p>设备实体对象，其属性值将用于设置SQL命令的参数</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+
+</article>
+
+        <div class="contribution d-print-none">
+          <a href="https://bitbucket.org/mas-software/industrial-mes-net-platform-advanced/src/feature/Charts-ProductionVolumeWebView/Modules/MAS.DataAccess/Helpers/CmdParameters/DeleteParametersHelper.cs#lines-15" class="edit-link">Edit this page</a>
+        </div>
+
+
+      </div>
+
+      <div class="affix">
+        <nav id="affix"></nav>
+      </div>
+    </main>
+
+    <div class="container-xxl search-results" id="search-results"></div>
+
+    <footer class="border-top text-secondary">
+      <div class="container-xxl">
+        <div class="flex-fill">
+          <span>Made with <a href="https://dotnet.github.io/docfx">docfx</a></span>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>

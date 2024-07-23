@@ -1,0 +1,853 @@
+﻿<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+      <title>Class ProductionVolumeViewModel | DataMaster </title>
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta name="title" content="Class ProductionVolumeViewModel | DataMaster ">
+      
+      <meta name="description" content="生产量视图模型">
+      <link rel="icon" href="../favicon.ico">
+      <link rel="stylesheet" href="../public/docfx.min.css">
+      <link rel="stylesheet" href="../public/main.css">
+      <meta name="docfx:navrel" content="../toc.html">
+      <meta name="docfx:tocrel" content="toc.html">
+      
+      <meta name="docfx:rel" content="../">
+      
+      
+      
+      <meta name="loc:inThisArticle" content="In this article">
+      <meta name="loc:searchResultsCount" content="{count} results for &quot;{query}&quot;">
+      <meta name="loc:searchNoResults" content="No results for &quot;{query}&quot;">
+      <meta name="loc:tocFilter" content="Filter by title">
+      <meta name="loc:nextArticle" content="Next">
+      <meta name="loc:prevArticle" content="Previous">
+      <meta name="loc:themeLight" content="Light">
+      <meta name="loc:themeDark" content="Dark">
+      <meta name="loc:themeAuto" content="Auto">
+      <meta name="loc:changeTheme" content="Change theme">
+      <meta name="loc:copy" content="Copy">
+      <meta name="loc:downloadPdf" content="Download PDF">
+
+      <script type="module" src="./../public/docfx.min.js"></script>
+
+      <script>
+        const theme = localStorage.getItem('theme') || 'auto'
+        document.documentElement.setAttribute('data-bs-theme', theme === 'auto' ? (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light') : theme)
+      </script>
+
+  </head>
+
+  <body class="tex2jax_ignore" data-layout="" data-yaml-mime="ManagedReference">
+    <header class="bg-body border-bottom">
+      <nav id="autocollapse" class="navbar navbar-expand-md" role="navigation">
+        <div class="container-xxl flex-nowrap">
+          <a class="navbar-brand" href="../index.html">
+            <img id="logo" class="svg" src="../logo.svg" alt="DataMaster">
+            DataMaster
+          </a>
+          <button class="btn btn-lg d-md-none border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navpanel" aria-controls="navpanel" aria-expanded="false" aria-label="Toggle navigation">
+            <i class="bi bi-three-dots"></i>
+          </button>
+          <div class="collapse navbar-collapse" id="navpanel">
+            <div id="navbar">
+              <form class="search" role="search" id="search">
+                <i class="bi bi-search"></i>
+                <input class="form-control" id="search-query" type="search" disabled="" placeholder="Search" autocomplete="off" aria-label="Search">
+              </form>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <main class="container-xxl">
+      <div class="toc-offcanvas">
+        <div class="offcanvas-md offcanvas-start" tabindex="-1" id="tocOffcanvas" aria-labelledby="tocOffcanvasLabel">
+          <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="tocOffcanvasLabel">Table of Contents</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" data-bs-target="#tocOffcanvas" aria-label="Close"></button>
+          </div>
+          <div class="offcanvas-body">
+            <nav class="toc" id="toc"></nav>
+          </div>
+        </div>
+      </div>
+
+      <div class="content">
+        <div class="actionbar">
+          <button class="btn btn-lg border-0 d-md-none" type="button" data-bs-toggle="offcanvas" data-bs-target="#tocOffcanvas" aria-controls="tocOffcanvas" aria-expanded="false" aria-label="Show table of contents">
+            <i class="bi bi-list"></i>
+          </button>
+
+          <nav id="breadcrumb"></nav>
+        </div>
+
+        <article data-uid="DataMaster.ViewModels.Pages.ECharts.ProductionVolumeViewModel">
+
+
+
+  <h1 id="DataMaster_ViewModels_Pages_ECharts_ProductionVolumeViewModel" data-uid="DataMaster.ViewModels.Pages.ECharts.ProductionVolumeViewModel" class="text-break">
+Class ProductionVolumeViewModel  <a class="header-action link-secondary" title="View source" href="https://bitbucket.org/mas-software/industrial-mes-net-platform-advanced/src/feature/Charts-ProductionVolumeWebView/ViewModels/Pages/ECharts/ProductionVolumeViewModel.cs#lines-25"><i class="bi bi-code-slash"></i></a>
+  </h1>
+
+  <div class="facts text-secondary">
+    <dl><dt>Namespace</dt><dd><a class="xref" href="DataMaster.html">DataMaster</a>.<a class="xref" href="DataMaster.ViewModels.html">ViewModels</a>.<a class="xref" href="DataMaster.ViewModels.Pages.html">Pages</a>.<a class="xref" href="DataMaster.ViewModels.Pages.ECharts.html">ECharts</a></dd></dl>
+  <dl><dt>Assembly</dt><dd>DataMaster.dll</dd></dl>
+  </div>
+
+  <div class="markdown summary"><p>生产量视图模型</p>
+</div>
+  <div class="markdown conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public class ProductionVolumeViewModel : ViewModelBase, INotifyPropertyChanged, INavigationAware</code></pre>
+  </div>
+
+
+
+
+  <dl class="typelist inheritance">
+    <dt>Inheritance</dt>
+    <dd>
+      <div><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">object</a></div>
+      <div><a class="xref" href="DataMaster.ViewModels.ViewModelBase.html">ViewModelBase</a></div>
+      <div><span class="xref">ProductionVolumeViewModel</span></div>
+    </dd>
+  </dl>
+
+  <dl class="typelist implements">
+    <dt>Implements</dt>
+    <dd>
+      <div><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.componentmodel.inotifypropertychanged">INotifyPropertyChanged</a></div>
+      <div><a class="xref" href="https://github.com/lepoco/wpfui/blob/303f0aefcd59a142bc681415dc4360a34a15f33d/src/Wpf.Ui/Controls/NavigationView/INavigationAware.cs">INavigationAware</a></div>
+    </dd>
+  </dl>
+
+
+  <dl class="typelist inheritedMembers">
+    <dt>Inherited Members</dt>
+    <dd>
+    <div>
+      <a class="xref" href="DataMaster.ViewModels.ViewModelBase.html#DataMaster_ViewModels_ViewModelBase_SystemLogger">ViewModelBase.SystemLogger</a>
+    </div>
+    <div>
+      <a class="xref" href="DataMaster.ViewModels.ViewModelBase.html#DataMaster_ViewModels_ViewModelBase_Config">ViewModelBase.Config</a>
+    </div>
+    <div>
+      <a class="xref" href="DataMaster.ViewModels.ViewModelBase.html#DataMaster_ViewModels_ViewModelBase_LanguageManager">ViewModelBase.LanguageManager</a>
+    </div>
+    <div>
+      <a class="xref" href="DataMaster.ViewModels.ViewModelBase.html#DataMaster_ViewModels_ViewModelBase_PropertyChanged">ViewModelBase.PropertyChanged</a>
+    </div>
+    <div>
+      <a class="xref" href="DataMaster.ViewModels.ViewModelBase.html#DataMaster_ViewModels_ViewModelBase_OnPropertyChanged_System_String_">ViewModelBase.OnPropertyChanged(string)</a>
+    </div>
+    <div>
+      <a class="xref" href="DataMaster.ViewModels.ViewModelBase.html#DataMaster_ViewModels_ViewModelBase_SetField__1___0____0_System_String_">ViewModelBase.SetField&lt;T&gt;(ref T, T, string)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)">object.Equals(object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)">object.Equals(object, object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.gethashcode">object.GetHashCode()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.gettype">object.GetType()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone">object.MemberwiseClone()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.referenceequals">object.ReferenceEquals(object, object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.tostring">object.ToString()</a>
+    </div>
+  </dd></dl>
+
+
+
+
+
+
+  <h2 class="section" id="constructors">Constructors
+</h2>
+
+
+  <a id="DataMaster_ViewModels_Pages_ECharts_ProductionVolumeViewModel__ctor_" data-uid="DataMaster.ViewModels.Pages.ECharts.ProductionVolumeViewModel.#ctor*"></a>
+
+  <h3 id="DataMaster_ViewModels_Pages_ECharts_ProductionVolumeViewModel__ctor_DataMaster_Modules_MAS_Charts_Interfaces_IStatsServiceFactory_DataMaster_Interfaces_Charts_IProductionVolumeCardService_DataMaster_Interfaces_Charts_IProductionVolumeBarService_" data-uid="DataMaster.ViewModels.Pages.ECharts.ProductionVolumeViewModel.#ctor(DataMaster.Modules.MAS.Charts.Interfaces.IStatsServiceFactory,DataMaster.Interfaces.Charts.IProductionVolumeCardService,DataMaster.Interfaces.Charts.IProductionVolumeBarService)">
+  ProductionVolumeViewModel(IStatsServiceFactory, IProductionVolumeCardService, IProductionVolumeBarService)
+  <a class="header-action link-secondary" title="View source" href="https://bitbucket.org/mas-software/industrial-mes-net-platform-advanced/src/feature/Charts-ProductionVolumeWebView/ViewModels/Pages/ECharts/ProductionVolumeViewModel.cs#lines-161"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>构造函数，初始化 <a class="xref" href="DataMaster.ViewModels.Pages.ECharts.ProductionVolumeViewModel.html">ProductionVolumeViewModel</a> 新实例</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public ProductionVolumeViewModel(IStatsServiceFactory statsServiceFactory, IProductionVolumeCardService productionVolumeCardService, IProductionVolumeBarService productionVolumeBarService)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>statsServiceFactory</code> <a class="xref" href="DataMaster.Modules.MAS.Charts.Interfaces.IStatsServiceFactory.html">IStatsServiceFactory</a></dt>
+    <dd><p>统计服务工厂</p>
+</dd>
+    <dt><code>productionVolumeCardService</code> <a class="xref" href="DataMaster.Interfaces.Charts.IProductionVolumeCardService.html">IProductionVolumeCardService</a></dt>
+    <dd><p>创建和管理生产量数据仪表卡片服务</p>
+</dd>
+    <dt><code>productionVolumeBarService</code> <a class="xref" href="DataMaster.Interfaces.Charts.IProductionVolumeBarService.html">IProductionVolumeBarService</a></dt>
+    <dd><p>创建和管理生产量信息栏服务</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <h2 class="section" id="properties">Properties
+</h2>
+
+
+  <a id="DataMaster_ViewModels_Pages_ECharts_ProductionVolumeViewModel_Cards_" data-uid="DataMaster.ViewModels.Pages.ECharts.ProductionVolumeViewModel.Cards*"></a>
+
+  <h3 id="DataMaster_ViewModels_Pages_ECharts_ProductionVolumeViewModel_Cards" data-uid="DataMaster.ViewModels.Pages.ECharts.ProductionVolumeViewModel.Cards">
+  Cards
+  <a class="header-action link-secondary" title="View source" href="https://bitbucket.org/mas-software/industrial-mes-net-platform-advanced/src/feature/Charts-ProductionVolumeWebView/ViewModels/Pages/ECharts/ProductionVolumeViewModel.cs#lines-127"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>生产量统计数据仪表信息卡</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public ObservableCollection&lt;AnalysisPanelCard&lt;ProductionVolumeChartType&gt;&gt; Cards { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.objectmodel.observablecollection-1">ObservableCollection</a>&lt;<a class="xref" href="DataMaster.Models.Charts.AnalysisPanelCard-1.html">AnalysisPanelCard</a>&lt;<a class="xref" href="DataMaster.Modules.MAS.Charts.Models.ChartType.ProductionVolumeChartType.html">ProductionVolumeChartType</a>&gt;&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="DataMaster_ViewModels_Pages_ECharts_ProductionVolumeViewModel_EarliestDate_" data-uid="DataMaster.ViewModels.Pages.ECharts.ProductionVolumeViewModel.EarliestDate*"></a>
+
+  <h3 id="DataMaster_ViewModels_Pages_ECharts_ProductionVolumeViewModel_EarliestDate" data-uid="DataMaster.ViewModels.Pages.ECharts.ProductionVolumeViewModel.EarliestDate">
+  EarliestDate
+  <a class="header-action link-secondary" title="View source" href="https://bitbucket.org/mas-software/industrial-mes-net-platform-advanced/src/feature/Charts-ProductionVolumeWebView/ViewModels/Pages/ECharts/ProductionVolumeViewModel.cs#lines-41"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>获取或设置最早日期限制</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public DateTime? EarliestDate { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.datetime">DateTime</a>?</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="DataMaster_ViewModels_Pages_ECharts_ProductionVolumeViewModel_EndDate_" data-uid="DataMaster.ViewModels.Pages.ECharts.ProductionVolumeViewModel.EndDate*"></a>
+
+  <h3 id="DataMaster_ViewModels_Pages_ECharts_ProductionVolumeViewModel_EndDate" data-uid="DataMaster.ViewModels.Pages.ECharts.ProductionVolumeViewModel.EndDate">
+  EndDate
+  <a class="header-action link-secondary" title="View source" href="https://bitbucket.org/mas-software/industrial-mes-net-platform-advanced/src/feature/Charts-ProductionVolumeWebView/ViewModels/Pages/ECharts/ProductionVolumeViewModel.cs#lines-71"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>获取或设置结束日期</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public DateTime? EndDate { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.datetime">DateTime</a>?</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="DataMaster_ViewModels_Pages_ECharts_ProductionVolumeViewModel_ExportCommand_" data-uid="DataMaster.ViewModels.Pages.ECharts.ProductionVolumeViewModel.ExportCommand*"></a>
+
+  <h3 id="DataMaster_ViewModels_Pages_ECharts_ProductionVolumeViewModel_ExportCommand" data-uid="DataMaster.ViewModels.Pages.ECharts.ProductionVolumeViewModel.ExportCommand">
+  ExportCommand
+  <a class="header-action link-secondary" title="View source" href="https://bitbucket.org/mas-software/industrial-mes-net-platform-advanced/src/feature/Charts-ProductionVolumeWebView/ViewModels/Pages/ECharts/ProductionVolumeViewModel.cs#lines-149"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>获取导出命令</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public RelayCommand ExportCommand { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="DataMaster.Commands.RelayCommand.html">RelayCommand</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="DataMaster_ViewModels_Pages_ECharts_ProductionVolumeViewModel_ImportCommand_" data-uid="DataMaster.ViewModels.Pages.ECharts.ProductionVolumeViewModel.ImportCommand*"></a>
+
+  <h3 id="DataMaster_ViewModels_Pages_ECharts_ProductionVolumeViewModel_ImportCommand" data-uid="DataMaster.ViewModels.Pages.ECharts.ProductionVolumeViewModel.ImportCommand">
+  ImportCommand
+  <a class="header-action link-secondary" title="View source" href="https://bitbucket.org/mas-software/industrial-mes-net-platform-advanced/src/feature/Charts-ProductionVolumeWebView/ViewModels/Pages/ECharts/ProductionVolumeViewModel.cs#lines-145"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>获取导入命令</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public RelayCommandAsync ImportCommand { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="DataMaster.Commands.RelayCommandAsync.html">RelayCommandAsync</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="DataMaster_ViewModels_Pages_ECharts_ProductionVolumeViewModel_InfoBar_" data-uid="DataMaster.ViewModels.Pages.ECharts.ProductionVolumeViewModel.InfoBar*"></a>
+
+  <h3 id="DataMaster_ViewModels_Pages_ECharts_ProductionVolumeViewModel_InfoBar" data-uid="DataMaster.ViewModels.Pages.ECharts.ProductionVolumeViewModel.InfoBar">
+  InfoBar
+  <a class="header-action link-secondary" title="View source" href="https://bitbucket.org/mas-software/industrial-mes-net-platform-advanced/src/feature/Charts-ProductionVolumeWebView/ViewModels/Pages/ECharts/ProductionVolumeViewModel.cs#lines-132"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>生产量统计信息栏</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public StatisticalInfoBar? InfoBar { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="DataMaster.Models.Charts.StatisticalInfoBar.html">StatisticalInfoBar</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="DataMaster_ViewModels_Pages_ECharts_ProductionVolumeViewModel_IsDataGridVisible_" data-uid="DataMaster.ViewModels.Pages.ECharts.ProductionVolumeViewModel.IsDataGridVisible*"></a>
+
+  <h3 id="DataMaster_ViewModels_Pages_ECharts_ProductionVolumeViewModel_IsDataGridVisible" data-uid="DataMaster.ViewModels.Pages.ECharts.ProductionVolumeViewModel.IsDataGridVisible">
+  IsDataGridVisible
+  <a class="header-action link-secondary" title="View source" href="https://bitbucket.org/mas-software/industrial-mes-net-platform-advanced/src/feature/Charts-ProductionVolumeWebView/ViewModels/Pages/ECharts/ProductionVolumeViewModel.cs#lines-101"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>获取或设置 DataGrid 可见性</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool IsDataGridVisible { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="DataMaster_ViewModels_Pages_ECharts_ProductionVolumeViewModel_IsShowDateOrTime_" data-uid="DataMaster.ViewModels.Pages.ECharts.ProductionVolumeViewModel.IsShowDateOrTime*"></a>
+
+  <h3 id="DataMaster_ViewModels_Pages_ECharts_ProductionVolumeViewModel_IsShowDateOrTime" data-uid="DataMaster.ViewModels.Pages.ECharts.ProductionVolumeViewModel.IsShowDateOrTime">
+  IsShowDateOrTime
+  <a class="header-action link-secondary" title="View source" href="https://bitbucket.org/mas-software/industrial-mes-net-platform-advanced/src/feature/Charts-ProductionVolumeWebView/ViewModels/Pages/ECharts/ProductionVolumeViewModel.cs#lines-110"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>获取或设置图表显示日期还是时间</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool IsShowDateOrTime { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="DataMaster_ViewModels_Pages_ECharts_ProductionVolumeViewModel_IsWebViewVisible_" data-uid="DataMaster.ViewModels.Pages.ECharts.ProductionVolumeViewModel.IsWebViewVisible*"></a>
+
+  <h3 id="DataMaster_ViewModels_Pages_ECharts_ProductionVolumeViewModel_IsWebViewVisible" data-uid="DataMaster.ViewModels.Pages.ECharts.ProductionVolumeViewModel.IsWebViewVisible">
+  IsWebViewVisible
+  <a class="header-action link-secondary" title="View source" href="https://bitbucket.org/mas-software/industrial-mes-net-platform-advanced/src/feature/Charts-ProductionVolumeWebView/ViewModels/Pages/ECharts/ProductionVolumeViewModel.cs#lines-83"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>获取或设置 WebView 可见性</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool IsWebViewVisible { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="DataMaster_ViewModels_Pages_ECharts_ProductionVolumeViewModel_LatestDate_" data-uid="DataMaster.ViewModels.Pages.ECharts.ProductionVolumeViewModel.LatestDate*"></a>
+
+  <h3 id="DataMaster_ViewModels_Pages_ECharts_ProductionVolumeViewModel_LatestDate" data-uid="DataMaster.ViewModels.Pages.ECharts.ProductionVolumeViewModel.LatestDate">
+  LatestDate
+  <a class="header-action link-secondary" title="View source" href="https://bitbucket.org/mas-software/industrial-mes-net-platform-advanced/src/feature/Charts-ProductionVolumeWebView/ViewModels/Pages/ECharts/ProductionVolumeViewModel.cs#lines-50"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>获取或设置最晚日期限制</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public DateTime? LatestDate { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.datetime">DateTime</a>?</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="DataMaster_ViewModels_Pages_ECharts_ProductionVolumeViewModel_ProductionVolumes_" data-uid="DataMaster.ViewModels.Pages.ECharts.ProductionVolumeViewModel.ProductionVolumes*"></a>
+
+  <h3 id="DataMaster_ViewModels_Pages_ECharts_ProductionVolumeViewModel_ProductionVolumes" data-uid="DataMaster.ViewModels.Pages.ECharts.ProductionVolumeViewModel.ProductionVolumes">
+  ProductionVolumes
+  <a class="header-action link-secondary" title="View source" href="https://bitbucket.org/mas-software/industrial-mes-net-platform-advanced/src/feature/Charts-ProductionVolumeWebView/ViewModels/Pages/ECharts/ProductionVolumeViewModel.cs#lines-122"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>生产量数据集合</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public ObservableCollection&lt;ProductionVolume&gt; ProductionVolumes { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.objectmodel.observablecollection-1">ObservableCollection</a>&lt;<a class="xref" href="DataMaster.Models.Charts.DataGrid.ProductionVolume.html">ProductionVolume</a>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="DataMaster_ViewModels_Pages_ECharts_ProductionVolumeViewModel_RefreshButtonCursor_" data-uid="DataMaster.ViewModels.Pages.ECharts.ProductionVolumeViewModel.RefreshButtonCursor*"></a>
+
+  <h3 id="DataMaster_ViewModels_Pages_ECharts_ProductionVolumeViewModel_RefreshButtonCursor" data-uid="DataMaster.ViewModels.Pages.ECharts.ProductionVolumeViewModel.RefreshButtonCursor">
+  RefreshButtonCursor
+  <a class="header-action link-secondary" title="View source" href="https://bitbucket.org/mas-software/industrial-mes-net-platform-advanced/src/feature/Charts-ProductionVolumeWebView/ViewModels/Pages/ECharts/ProductionVolumeViewModel.cs#lines-92"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>获取或设置刷新按钮的鼠标光标</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Cursor RefreshButtonCursor { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.windows.input.cursor">Cursor</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="DataMaster_ViewModels_Pages_ECharts_ProductionVolumeViewModel_RefreshCommand_" data-uid="DataMaster.ViewModels.Pages.ECharts.ProductionVolumeViewModel.RefreshCommand*"></a>
+
+  <h3 id="DataMaster_ViewModels_Pages_ECharts_ProductionVolumeViewModel_RefreshCommand" data-uid="DataMaster.ViewModels.Pages.ECharts.ProductionVolumeViewModel.RefreshCommand">
+  RefreshCommand
+  <a class="header-action link-secondary" title="View source" href="https://bitbucket.org/mas-software/industrial-mes-net-platform-advanced/src/feature/Charts-ProductionVolumeWebView/ViewModels/Pages/ECharts/ProductionVolumeViewModel.cs#lines-141"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>获取刷新命令</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public RelayCommandAsync RefreshCommand { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="DataMaster.Commands.RelayCommandAsync.html">RelayCommandAsync</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="DataMaster_ViewModels_Pages_ECharts_ProductionVolumeViewModel_StartDate_" data-uid="DataMaster.ViewModels.Pages.ECharts.ProductionVolumeViewModel.StartDate*"></a>
+
+  <h3 id="DataMaster_ViewModels_Pages_ECharts_ProductionVolumeViewModel_StartDate" data-uid="DataMaster.ViewModels.Pages.ECharts.ProductionVolumeViewModel.StartDate">
+  StartDate
+  <a class="header-action link-secondary" title="View source" href="https://bitbucket.org/mas-software/industrial-mes-net-platform-advanced/src/feature/Charts-ProductionVolumeWebView/ViewModels/Pages/ECharts/ProductionVolumeViewModel.cs#lines-59"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>获取或设置开始日期</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public DateTime? StartDate { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.datetime">DateTime</a>?</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="DataMaster_ViewModels_Pages_ECharts_ProductionVolumeViewModel_SwitchViewCommand_" data-uid="DataMaster.ViewModels.Pages.ECharts.ProductionVolumeViewModel.SwitchViewCommand*"></a>
+
+  <h3 id="DataMaster_ViewModels_Pages_ECharts_ProductionVolumeViewModel_SwitchViewCommand" data-uid="DataMaster.ViewModels.Pages.ECharts.ProductionVolumeViewModel.SwitchViewCommand">
+  SwitchViewCommand
+  <a class="header-action link-secondary" title="View source" href="https://bitbucket.org/mas-software/industrial-mes-net-platform-advanced/src/feature/Charts-ProductionVolumeWebView/ViewModels/Pages/ECharts/ProductionVolumeViewModel.cs#lines-153"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>获取切换视图命令</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public RelayCommand SwitchViewCommand { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="DataMaster.Commands.RelayCommand.html">RelayCommand</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="DataMaster_ViewModels_Pages_ECharts_ProductionVolumeViewModel_UpdateChartCommand_" data-uid="DataMaster.ViewModels.Pages.ECharts.ProductionVolumeViewModel.UpdateChartCommand*"></a>
+
+  <h3 id="DataMaster_ViewModels_Pages_ECharts_ProductionVolumeViewModel_UpdateChartCommand" data-uid="DataMaster.ViewModels.Pages.ECharts.ProductionVolumeViewModel.UpdateChartCommand">
+  UpdateChartCommand
+  <a class="header-action link-secondary" title="View source" href="https://bitbucket.org/mas-software/industrial-mes-net-platform-advanced/src/feature/Charts-ProductionVolumeWebView/ViewModels/Pages/ECharts/ProductionVolumeViewModel.cs#lines-137"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>获取更新图表命令</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public RelayCommandAsync UpdateChartCommand { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="DataMaster.Commands.RelayCommandAsync.html">RelayCommandAsync</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <h2 class="section" id="methods">Methods
+</h2>
+
+
+  <a id="DataMaster_ViewModels_Pages_ECharts_ProductionVolumeViewModel_InitializeWebView2Service_" data-uid="DataMaster.ViewModels.Pages.ECharts.ProductionVolumeViewModel.InitializeWebView2Service*"></a>
+
+  <h3 id="DataMaster_ViewModels_Pages_ECharts_ProductionVolumeViewModel_InitializeWebView2Service_Microsoft_Web_WebView2_Core_CoreWebView2_" data-uid="DataMaster.ViewModels.Pages.ECharts.ProductionVolumeViewModel.InitializeWebView2Service(Microsoft.Web.WebView2.Core.CoreWebView2)">
+  InitializeWebView2Service(CoreWebView2)
+  <a class="header-action link-secondary" title="View source" href="https://bitbucket.org/mas-software/industrial-mes-net-platform-advanced/src/feature/Charts-ProductionVolumeWebView/ViewModels/Pages/ECharts/ProductionVolumeViewModel.cs#lines-206"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>初始化 WebView2 服务</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void InitializeWebView2Service(CoreWebView2 webView)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>webView</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/microsoft.web.webview2.core.corewebview2">CoreWebView2</a></dt>
+    <dd><p>webView2 实例</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="DataMaster_ViewModels_Pages_ECharts_ProductionVolumeViewModel_OnNavigatedFrom_" data-uid="DataMaster.ViewModels.Pages.ECharts.ProductionVolumeViewModel.OnNavigatedFrom*"></a>
+
+  <h3 id="DataMaster_ViewModels_Pages_ECharts_ProductionVolumeViewModel_OnNavigatedFrom" data-uid="DataMaster.ViewModels.Pages.ECharts.ProductionVolumeViewModel.OnNavigatedFrom">
+  OnNavigatedFrom()
+  <a class="header-action link-secondary" title="View source" href="https://bitbucket.org/mas-software/industrial-mes-net-platform-advanced/src/feature/Charts-ProductionVolumeWebView/ViewModels/Pages/ECharts/ProductionVolumeViewModel.cs#lines-179"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>导航离开当前页触发</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void OnNavigatedFrom()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="DataMaster_ViewModels_Pages_ECharts_ProductionVolumeViewModel_OnNavigatedTo_" data-uid="DataMaster.ViewModels.Pages.ECharts.ProductionVolumeViewModel.OnNavigatedTo*"></a>
+
+  <h3 id="DataMaster_ViewModels_Pages_ECharts_ProductionVolumeViewModel_OnNavigatedTo" data-uid="DataMaster.ViewModels.Pages.ECharts.ProductionVolumeViewModel.OnNavigatedTo">
+  OnNavigatedTo()
+  <a class="header-action link-secondary" title="View source" href="https://bitbucket.org/mas-software/industrial-mes-net-platform-advanced/src/feature/Charts-ProductionVolumeWebView/ViewModels/Pages/ECharts/ProductionVolumeViewModel.cs#lines-190"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>导航到当前页触发</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void OnNavigatedTo()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</article>
+
+        <div class="contribution d-print-none">
+          <a href="https://bitbucket.org/mas-software/industrial-mes-net-platform-advanced/src/feature/Charts-ProductionVolumeWebView/ViewModels/Pages/ECharts/ProductionVolumeViewModel.cs#lines-25" class="edit-link">Edit this page</a>
+        </div>
+
+
+      </div>
+
+      <div class="affix">
+        <nav id="affix"></nav>
+      </div>
+    </main>
+
+    <div class="container-xxl search-results" id="search-results"></div>
+
+    <footer class="border-top text-secondary">
+      <div class="container-xxl">
+        <div class="flex-fill">
+          <span>Made with <a href="https://dotnet.github.io/docfx">docfx</a></span>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
