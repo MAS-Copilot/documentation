@@ -2,11 +2,11 @@
 <html>
   <head>
     <meta charset="utf-8">
-      <title>Enum ProductionVolumeChartType | DataMaster </title>
+      <title>Enum StatsServiceBase.CacheKeys | DataMaster </title>
       <meta name="viewport" content="width=device-width, initial-scale=1.0">
-      <meta name="title" content="Enum ProductionVolumeChartType | DataMaster ">
+      <meta name="title" content="Enum StatsServiceBase.CacheKeys | DataMaster ">
       
-      <meta name="description" content="表示选中的生产量图表类型枚举">
+      <meta name="description" content="缓存数据的键，枚举，避免硬编码">
       <link rel="icon" href="../favicon.ico">
       <link rel="stylesheet" href="../public/docfx.min.css">
       <link rel="stylesheet" href="../public/main.css">
@@ -84,26 +84,26 @@
           <nav id="breadcrumb"></nav>
         </div>
 
-        <article data-uid="DataMaster.Modules.MAS.Charts.Models.ChartType.ProductionVolumeChartType">
+        <article data-uid="DataMaster.Modules.MAS.Charts.Abstracts.StatsServiceBase.CacheKeys">
 
 
 
 
-  <h1 id="DataMaster_Modules_MAS_Charts_Models_ChartType_ProductionVolumeChartType" data-uid="DataMaster.Modules.MAS.Charts.Models.ChartType.ProductionVolumeChartType" class="text-break">
-Enum ProductionVolumeChartType  <a class="header-action link-secondary" title="View source" href="https://bitbucket.org/mas-software/industrial-mes-net-platform-advanced/src/feature/Charts-ProductionVolumeWebView/Modules/MAS.Charts/Models/ChartType/ProductionVolumeChartType.cs#lines-15"><i class="bi bi-code-slash"></i></a>
+  <h1 id="DataMaster_Modules_MAS_Charts_Abstracts_StatsServiceBase_CacheKeys" data-uid="DataMaster.Modules.MAS.Charts.Abstracts.StatsServiceBase.CacheKeys" class="text-break">
+Enum StatsServiceBase.CacheKeys  <a class="header-action link-secondary" title="View source" href="https://bitbucket.org/mas-software/industrial-mes-net-platform-advanced/src/feature/Charts-ProductionVolumeWebView/Modules/MAS.Charts/Abstracts/StatsServiceBase.cs#lines-73"><i class="bi bi-code-slash"></i></a>
   </h1>
 
   <div class="facts text-secondary">
-    <dl><dt>Namespace</dt><dd><a class="xref" href="DataMaster.html">DataMaster</a>.<a class="xref" href="DataMaster.Modules.html">Modules</a>.<a class="xref" href="DataMaster.Modules.MAS.html">MAS</a>.<a class="xref" href="DataMaster.Modules.MAS.Charts.html">Charts</a>.<a class="xref" href="DataMaster.Modules.MAS.Charts.Models.html">Models</a>.<a class="xref" href="DataMaster.Modules.MAS.Charts.Models.ChartType.html">ChartType</a></dd></dl>
+    <dl><dt>Namespace</dt><dd><a class="xref" href="DataMaster.html">DataMaster</a>.<a class="xref" href="DataMaster.Modules.html">Modules</a>.<a class="xref" href="DataMaster.Modules.MAS.html">MAS</a>.<a class="xref" href="DataMaster.Modules.MAS.Charts.html">Charts</a>.<a class="xref" href="DataMaster.Modules.MAS.Charts.Abstracts.html">Abstracts</a></dd></dl>
   <dl><dt>Assembly</dt><dd>DataMaster.dll</dd></dl>
   </div>
 
-  <div class="markdown summary"><p>表示选中的生产量图表类型枚举</p>
+  <div class="markdown summary"><p>缓存数据的键，枚举，避免硬编码</p>
 </div>
   <div class="markdown conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public enum ProductionVolumeChartType</code></pre>
+    <pre><code class="lang-csharp hljs">protected enum StatsServiceBase.CacheKeys</code></pre>
   </div>
 
 
@@ -117,23 +117,8 @@ Enum ProductionVolumeChartType  <a class="header-action link-secondary" title="V
   <h2 id="fields">Fields
 </h2>
   <dl class="parameters">
-    <dt id="DataMaster_Modules_MAS_Charts_Models_ChartType_ProductionVolumeChartType_None"><code>None = 0</code></dt>
-    <dd><p>无，表示都没有选中</p>
-</dd>
-    <dt id="DataMaster_Modules_MAS_Charts_Models_ChartType_ProductionVolumeChartType_ThisMonthOutput"><code>ThisMonthOutput = 5</code></dt>
-    <dd><p>本月生产量</p>
-</dd>
-    <dt id="DataMaster_Modules_MAS_Charts_Models_ChartType_ProductionVolumeChartType_ThisWeekOutput"><code>ThisWeekOutput = 4</code></dt>
-    <dd><p>本周生产量</p>
-</dd>
-    <dt id="DataMaster_Modules_MAS_Charts_Models_ChartType_ProductionVolumeChartType_TodayOutput"><code>TodayOutput = 2</code></dt>
-    <dd><p>今日生产量</p>
-</dd>
-    <dt id="DataMaster_Modules_MAS_Charts_Models_ChartType_ProductionVolumeChartType_TotalOutput"><code>TotalOutput = 1</code></dt>
-    <dd><p>总生产量</p>
-</dd>
-    <dt id="DataMaster_Modules_MAS_Charts_Models_ChartType_ProductionVolumeChartType_YesterdayOutput"><code>YesterdayOutput = 3</code></dt>
-    <dd><p>昨日生产量</p>
+    <dt id="DataMaster_Modules_MAS_Charts_Abstracts_StatsServiceBase_CacheKeys_CurrentData"><code>CurrentData = 0</code></dt>
+    <dd><p>当前的缓存数据</p>
 </dd>
   </dl>
 
@@ -142,7 +127,7 @@ Enum ProductionVolumeChartType  <a class="header-action link-secondary" title="V
 </article>
 
         <div class="contribution d-print-none">
-          <a href="https://bitbucket.org/mas-software/industrial-mes-net-platform-advanced/src/feature/Charts-ProductionVolumeWebView/Modules/MAS.Charts/Models/ChartType/ProductionVolumeChartType.cs#lines-15" class="edit-link">Edit this page</a>
+          <a href="https://bitbucket.org/mas-software/industrial-mes-net-platform-advanced/src/feature/Charts-ProductionVolumeWebView/Modules/MAS.Charts/Abstracts/StatsServiceBase.cs#lines-73" class="edit-link">Edit this page</a>
         </div>
 
 

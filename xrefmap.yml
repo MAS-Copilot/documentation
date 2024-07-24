@@ -4457,6 +4457,18 @@ references:
   fullName.vb: DataMaster.Modules.MAS.Charts.Abstracts.StatsServiceBase.New
   nameWithType: StatsServiceBase.StatsServiceBase
   nameWithType.vb: StatsServiceBase.New
+- uid: DataMaster.Modules.MAS.Charts.Abstracts.StatsServiceBase.CacheKeys
+  name: StatsServiceBase.CacheKeys
+  href: api/DataMaster.Modules.MAS.Charts.Abstracts.StatsServiceBase.CacheKeys.html
+  commentId: T:DataMaster.Modules.MAS.Charts.Abstracts.StatsServiceBase.CacheKeys
+  fullName: DataMaster.Modules.MAS.Charts.Abstracts.StatsServiceBase.CacheKeys
+  nameWithType: StatsServiceBase.CacheKeys
+- uid: DataMaster.Modules.MAS.Charts.Abstracts.StatsServiceBase.CacheKeys.CurrentData
+  name: CurrentData
+  href: api/DataMaster.Modules.MAS.Charts.Abstracts.StatsServiceBase.CacheKeys.html#DataMaster_Modules_MAS_Charts_Abstracts_StatsServiceBase_CacheKeys_CurrentData
+  commentId: F:DataMaster.Modules.MAS.Charts.Abstracts.StatsServiceBase.CacheKeys.CurrentData
+  fullName: DataMaster.Modules.MAS.Charts.Abstracts.StatsServiceBase.CacheKeys.CurrentData
+  nameWithType: StatsServiceBase.CacheKeys.CurrentData
 - uid: DataMaster.Modules.MAS.Charts.Abstracts.StatsServiceBase.DataCacheService
   name: DataCacheService
   href: api/DataMaster.Modules.MAS.Charts.Abstracts.StatsServiceBase.html#DataMaster_Modules_MAS_Charts_Abstracts_StatsServiceBase_DataCacheService
@@ -4491,6 +4503,19 @@ references:
   commentId: F:DataMaster.Modules.MAS.Charts.Abstracts.StatsServiceBase.EventAggregatorServices
   fullName: DataMaster.Modules.MAS.Charts.Abstracts.StatsServiceBase.EventAggregatorServices
   nameWithType: StatsServiceBase.EventAggregatorServices
+- uid: DataMaster.Modules.MAS.Charts.Abstracts.StatsServiceBase.HandleException(System.Exception)
+  name: HandleException(Exception)
+  href: api/DataMaster.Modules.MAS.Charts.Abstracts.StatsServiceBase.html#DataMaster_Modules_MAS_Charts_Abstracts_StatsServiceBase_HandleException_System_Exception_
+  commentId: M:DataMaster.Modules.MAS.Charts.Abstracts.StatsServiceBase.HandleException(System.Exception)
+  fullName: DataMaster.Modules.MAS.Charts.Abstracts.StatsServiceBase.HandleException(System.Exception)
+  nameWithType: StatsServiceBase.HandleException(Exception)
+- uid: DataMaster.Modules.MAS.Charts.Abstracts.StatsServiceBase.HandleException*
+  name: HandleException
+  href: api/DataMaster.Modules.MAS.Charts.Abstracts.StatsServiceBase.html#DataMaster_Modules_MAS_Charts_Abstracts_StatsServiceBase_HandleException_
+  commentId: Overload:DataMaster.Modules.MAS.Charts.Abstracts.StatsServiceBase.HandleException
+  isSpec: "True"
+  fullName: DataMaster.Modules.MAS.Charts.Abstracts.StatsServiceBase.HandleException
+  nameWithType: StatsServiceBase.HandleException
 - uid: DataMaster.Modules.MAS.Charts.Abstracts.StatsServiceBase.Initialize
   name: Initialize()
   href: api/DataMaster.Modules.MAS.Charts.Abstracts.StatsServiceBase.html#DataMaster_Modules_MAS_Charts_Abstracts_StatsServiceBase_Initialize
@@ -4504,6 +4529,12 @@ references:
   isSpec: "True"
   fullName: DataMaster.Modules.MAS.Charts.Abstracts.StatsServiceBase.Initialize
   nameWithType: StatsServiceBase.Initialize
+- uid: DataMaster.Modules.MAS.Charts.Abstracts.StatsServiceBase.InstantMessageService
+  name: InstantMessageService
+  href: api/DataMaster.Modules.MAS.Charts.Abstracts.StatsServiceBase.html#DataMaster_Modules_MAS_Charts_Abstracts_StatsServiceBase_InstantMessageService
+  commentId: F:DataMaster.Modules.MAS.Charts.Abstracts.StatsServiceBase.InstantMessageService
+  fullName: DataMaster.Modules.MAS.Charts.Abstracts.StatsServiceBase.InstantMessageService
+  nameWithType: StatsServiceBase.InstantMessageService
 - uid: DataMaster.Modules.MAS.Charts.Abstracts.StatsServiceBase.Start
   name: Start()
   href: api/DataMaster.Modules.MAS.Charts.Abstracts.StatsServiceBase.html#DataMaster_Modules_MAS_Charts_Abstracts_StatsServiceBase_Start
@@ -4923,6 +4954,12 @@ references:
   commentId: T:DataMaster.Modules.MAS.Charts.Models.ChartType.ProductionVolumeChartType
   fullName: DataMaster.Modules.MAS.Charts.Models.ChartType.ProductionVolumeChartType
   nameWithType: ProductionVolumeChartType
+- uid: DataMaster.Modules.MAS.Charts.Models.ChartType.ProductionVolumeChartType.None
+  name: None
+  href: api/DataMaster.Modules.MAS.Charts.Models.ChartType.ProductionVolumeChartType.html#DataMaster_Modules_MAS_Charts_Models_ChartType_ProductionVolumeChartType_None
+  commentId: F:DataMaster.Modules.MAS.Charts.Models.ChartType.ProductionVolumeChartType.None
+  fullName: DataMaster.Modules.MAS.Charts.Models.ChartType.ProductionVolumeChartType.None
+  nameWithType: ProductionVolumeChartType.None
 - uid: DataMaster.Modules.MAS.Charts.Models.ChartType.ProductionVolumeChartType.ThisMonthOutput
   name: ThisMonthOutput
   href: api/DataMaster.Modules.MAS.Charts.Models.ChartType.ProductionVolumeChartType.html#DataMaster_Modules_MAS_Charts_Models_ChartType_ProductionVolumeChartType_ThisMonthOutput
@@ -10778,6 +10815,66 @@ references:
   fullName.vb: DataMaster.Modules.MAS.EventAggregator.API.IEventAggregatorService.Unsubscribe(Of TEvent)(System.Action(Of TEvent))
   nameWithType: IEventAggregatorService.Unsubscribe<TEvent>(Action<TEvent>)
   nameWithType.vb: IEventAggregatorService.Unsubscribe(Of TEvent)(Action(Of TEvent))
+- uid: DataMaster.Modules.MAS.EventAggregator.Interfaces
+  name: DataMaster.Modules.MAS.EventAggregator.Interfaces
+  href: api/DataMaster.Modules.MAS.EventAggregator.Interfaces.html
+  commentId: N:DataMaster.Modules.MAS.EventAggregator.Interfaces
+  fullName: DataMaster.Modules.MAS.EventAggregator.Interfaces
+  nameWithType: DataMaster.Modules.MAS.EventAggregator.Interfaces
+- uid: DataMaster.Modules.MAS.EventAggregator.Interfaces.IEventAggregatorService
+  name: IEventAggregatorService
+  href: api/DataMaster.Modules.MAS.EventAggregator.Interfaces.IEventAggregatorService.html
+  commentId: T:DataMaster.Modules.MAS.EventAggregator.Interfaces.IEventAggregatorService
+  fullName: DataMaster.Modules.MAS.EventAggregator.Interfaces.IEventAggregatorService
+  nameWithType: IEventAggregatorService
+- uid: DataMaster.Modules.MAS.EventAggregator.Interfaces.IEventAggregatorService.Publish*
+  name: Publish
+  href: api/DataMaster.Modules.MAS.EventAggregator.Interfaces.IEventAggregatorService.html#DataMaster_Modules_MAS_EventAggregator_Interfaces_IEventAggregatorService_Publish_
+  commentId: Overload:DataMaster.Modules.MAS.EventAggregator.Interfaces.IEventAggregatorService.Publish
+  isSpec: "True"
+  fullName: DataMaster.Modules.MAS.EventAggregator.Interfaces.IEventAggregatorService.Publish
+  nameWithType: IEventAggregatorService.Publish
+- uid: DataMaster.Modules.MAS.EventAggregator.Interfaces.IEventAggregatorService.Publish``1(``0)
+  name: Publish<TEvent>(TEvent)
+  href: api/DataMaster.Modules.MAS.EventAggregator.Interfaces.IEventAggregatorService.html#DataMaster_Modules_MAS_EventAggregator_Interfaces_IEventAggregatorService_Publish__1___0_
+  commentId: M:DataMaster.Modules.MAS.EventAggregator.Interfaces.IEventAggregatorService.Publish``1(``0)
+  name.vb: Publish(Of TEvent)(TEvent)
+  fullName: DataMaster.Modules.MAS.EventAggregator.Interfaces.IEventAggregatorService.Publish<TEvent>(TEvent)
+  fullName.vb: DataMaster.Modules.MAS.EventAggregator.Interfaces.IEventAggregatorService.Publish(Of TEvent)(TEvent)
+  nameWithType: IEventAggregatorService.Publish<TEvent>(TEvent)
+  nameWithType.vb: IEventAggregatorService.Publish(Of TEvent)(TEvent)
+- uid: DataMaster.Modules.MAS.EventAggregator.Interfaces.IEventAggregatorService.Subscribe*
+  name: Subscribe
+  href: api/DataMaster.Modules.MAS.EventAggregator.Interfaces.IEventAggregatorService.html#DataMaster_Modules_MAS_EventAggregator_Interfaces_IEventAggregatorService_Subscribe_
+  commentId: Overload:DataMaster.Modules.MAS.EventAggregator.Interfaces.IEventAggregatorService.Subscribe
+  isSpec: "True"
+  fullName: DataMaster.Modules.MAS.EventAggregator.Interfaces.IEventAggregatorService.Subscribe
+  nameWithType: IEventAggregatorService.Subscribe
+- uid: DataMaster.Modules.MAS.EventAggregator.Interfaces.IEventAggregatorService.Subscribe``1(System.Action{``0})
+  name: Subscribe<TEvent>(Action<TEvent>)
+  href: api/DataMaster.Modules.MAS.EventAggregator.Interfaces.IEventAggregatorService.html#DataMaster_Modules_MAS_EventAggregator_Interfaces_IEventAggregatorService_Subscribe__1_System_Action___0__
+  commentId: M:DataMaster.Modules.MAS.EventAggregator.Interfaces.IEventAggregatorService.Subscribe``1(System.Action{``0})
+  name.vb: Subscribe(Of TEvent)(Action(Of TEvent))
+  fullName: DataMaster.Modules.MAS.EventAggregator.Interfaces.IEventAggregatorService.Subscribe<TEvent>(System.Action<TEvent>)
+  fullName.vb: DataMaster.Modules.MAS.EventAggregator.Interfaces.IEventAggregatorService.Subscribe(Of TEvent)(System.Action(Of TEvent))
+  nameWithType: IEventAggregatorService.Subscribe<TEvent>(Action<TEvent>)
+  nameWithType.vb: IEventAggregatorService.Subscribe(Of TEvent)(Action(Of TEvent))
+- uid: DataMaster.Modules.MAS.EventAggregator.Interfaces.IEventAggregatorService.Unsubscribe*
+  name: Unsubscribe
+  href: api/DataMaster.Modules.MAS.EventAggregator.Interfaces.IEventAggregatorService.html#DataMaster_Modules_MAS_EventAggregator_Interfaces_IEventAggregatorService_Unsubscribe_
+  commentId: Overload:DataMaster.Modules.MAS.EventAggregator.Interfaces.IEventAggregatorService.Unsubscribe
+  isSpec: "True"
+  fullName: DataMaster.Modules.MAS.EventAggregator.Interfaces.IEventAggregatorService.Unsubscribe
+  nameWithType: IEventAggregatorService.Unsubscribe
+- uid: DataMaster.Modules.MAS.EventAggregator.Interfaces.IEventAggregatorService.Unsubscribe``1(System.Action{``0})
+  name: Unsubscribe<TEvent>(Action<TEvent>)
+  href: api/DataMaster.Modules.MAS.EventAggregator.Interfaces.IEventAggregatorService.html#DataMaster_Modules_MAS_EventAggregator_Interfaces_IEventAggregatorService_Unsubscribe__1_System_Action___0__
+  commentId: M:DataMaster.Modules.MAS.EventAggregator.Interfaces.IEventAggregatorService.Unsubscribe``1(System.Action{``0})
+  name.vb: Unsubscribe(Of TEvent)(Action(Of TEvent))
+  fullName: DataMaster.Modules.MAS.EventAggregator.Interfaces.IEventAggregatorService.Unsubscribe<TEvent>(System.Action<TEvent>)
+  fullName.vb: DataMaster.Modules.MAS.EventAggregator.Interfaces.IEventAggregatorService.Unsubscribe(Of TEvent)(System.Action(Of TEvent))
+  nameWithType: IEventAggregatorService.Unsubscribe<TEvent>(Action<TEvent>)
+  nameWithType.vb: IEventAggregatorService.Unsubscribe(Of TEvent)(Action(Of TEvent))
 - uid: DataMaster.Modules.MAS.EventAggregator.Services
   name: DataMaster.Modules.MAS.EventAggregator.Services
   href: api/DataMaster.Modules.MAS.EventAggregator.Services.html
@@ -11006,6 +11103,59 @@ references:
   isSpec: "True"
   fullName: DataMaster.Modules.MAS.InstantMessage.API.IInstantMessageService.PublishLocalizedInstantMessage
   nameWithType: IInstantMessageService.PublishLocalizedInstantMessage
+- uid: DataMaster.Modules.MAS.InstantMessage.Interfaces
+  name: DataMaster.Modules.MAS.InstantMessage.Interfaces
+  href: api/DataMaster.Modules.MAS.InstantMessage.Interfaces.html
+  commentId: N:DataMaster.Modules.MAS.InstantMessage.Interfaces
+  fullName: DataMaster.Modules.MAS.InstantMessage.Interfaces
+  nameWithType: DataMaster.Modules.MAS.InstantMessage.Interfaces
+- uid: DataMaster.Modules.MAS.InstantMessage.Interfaces.IInstantMessageService
+  name: IInstantMessageService
+  href: api/DataMaster.Modules.MAS.InstantMessage.Interfaces.IInstantMessageService.html
+  commentId: T:DataMaster.Modules.MAS.InstantMessage.Interfaces.IInstantMessageService
+  fullName: DataMaster.Modules.MAS.InstantMessage.Interfaces.IInstantMessageService
+  nameWithType: IInstantMessageService
+- uid: DataMaster.Modules.MAS.InstantMessage.Interfaces.IInstantMessageService.PublishInstantMessage(DataMaster.Modules.MAS.InstantMessage.Models.MessageType,System.String,DataMaster.Modules.MAS.InstantMessage.Models.InfoLevel)
+  name: PublishInstantMessage(MessageType, string, InfoLevel)
+  href: api/DataMaster.Modules.MAS.InstantMessage.Interfaces.IInstantMessageService.html#DataMaster_Modules_MAS_InstantMessage_Interfaces_IInstantMessageService_PublishInstantMessage_DataMaster_Modules_MAS_InstantMessage_Models_MessageType_System_String_DataMaster_Modules_MAS_InstantMessage_Models_InfoLevel_
+  commentId: M:DataMaster.Modules.MAS.InstantMessage.Interfaces.IInstantMessageService.PublishInstantMessage(DataMaster.Modules.MAS.InstantMessage.Models.MessageType,System.String,DataMaster.Modules.MAS.InstantMessage.Models.InfoLevel)
+  name.vb: PublishInstantMessage(MessageType, String, InfoLevel)
+  fullName: DataMaster.Modules.MAS.InstantMessage.Interfaces.IInstantMessageService.PublishInstantMessage(DataMaster.Modules.MAS.InstantMessage.Models.MessageType, string, DataMaster.Modules.MAS.InstantMessage.Models.InfoLevel)
+  fullName.vb: DataMaster.Modules.MAS.InstantMessage.Interfaces.IInstantMessageService.PublishInstantMessage(DataMaster.Modules.MAS.InstantMessage.Models.MessageType, String, DataMaster.Modules.MAS.InstantMessage.Models.InfoLevel)
+  nameWithType: IInstantMessageService.PublishInstantMessage(MessageType, string, InfoLevel)
+  nameWithType.vb: IInstantMessageService.PublishInstantMessage(MessageType, String, InfoLevel)
+- uid: DataMaster.Modules.MAS.InstantMessage.Interfaces.IInstantMessageService.PublishInstantMessage(DataMaster.Modules.MAS.InstantMessage.Models.MessageType,System.String,System.String,DataMaster.Modules.MAS.InstantMessage.Models.InfoLevel)
+  name: PublishInstantMessage(MessageType, string, string, InfoLevel)
+  href: api/DataMaster.Modules.MAS.InstantMessage.Interfaces.IInstantMessageService.html#DataMaster_Modules_MAS_InstantMessage_Interfaces_IInstantMessageService_PublishInstantMessage_DataMaster_Modules_MAS_InstantMessage_Models_MessageType_System_String_System_String_DataMaster_Modules_MAS_InstantMessage_Models_InfoLevel_
+  commentId: M:DataMaster.Modules.MAS.InstantMessage.Interfaces.IInstantMessageService.PublishInstantMessage(DataMaster.Modules.MAS.InstantMessage.Models.MessageType,System.String,System.String,DataMaster.Modules.MAS.InstantMessage.Models.InfoLevel)
+  name.vb: PublishInstantMessage(MessageType, String, String, InfoLevel)
+  fullName: DataMaster.Modules.MAS.InstantMessage.Interfaces.IInstantMessageService.PublishInstantMessage(DataMaster.Modules.MAS.InstantMessage.Models.MessageType, string, string, DataMaster.Modules.MAS.InstantMessage.Models.InfoLevel)
+  fullName.vb: DataMaster.Modules.MAS.InstantMessage.Interfaces.IInstantMessageService.PublishInstantMessage(DataMaster.Modules.MAS.InstantMessage.Models.MessageType, String, String, DataMaster.Modules.MAS.InstantMessage.Models.InfoLevel)
+  nameWithType: IInstantMessageService.PublishInstantMessage(MessageType, string, string, InfoLevel)
+  nameWithType.vb: IInstantMessageService.PublishInstantMessage(MessageType, String, String, InfoLevel)
+- uid: DataMaster.Modules.MAS.InstantMessage.Interfaces.IInstantMessageService.PublishInstantMessage*
+  name: PublishInstantMessage
+  href: api/DataMaster.Modules.MAS.InstantMessage.Interfaces.IInstantMessageService.html#DataMaster_Modules_MAS_InstantMessage_Interfaces_IInstantMessageService_PublishInstantMessage_
+  commentId: Overload:DataMaster.Modules.MAS.InstantMessage.Interfaces.IInstantMessageService.PublishInstantMessage
+  isSpec: "True"
+  fullName: DataMaster.Modules.MAS.InstantMessage.Interfaces.IInstantMessageService.PublishInstantMessage
+  nameWithType: IInstantMessageService.PublishInstantMessage
+- uid: DataMaster.Modules.MAS.InstantMessage.Interfaces.IInstantMessageService.PublishLocalizedInstantMessage(DataMaster.Modules.MAS.InstantMessage.Models.MessageType,System.String,DataMaster.Modules.MAS.InstantMessage.Models.InfoLevel)
+  name: PublishLocalizedInstantMessage(MessageType, string, InfoLevel)
+  href: api/DataMaster.Modules.MAS.InstantMessage.Interfaces.IInstantMessageService.html#DataMaster_Modules_MAS_InstantMessage_Interfaces_IInstantMessageService_PublishLocalizedInstantMessage_DataMaster_Modules_MAS_InstantMessage_Models_MessageType_System_String_DataMaster_Modules_MAS_InstantMessage_Models_InfoLevel_
+  commentId: M:DataMaster.Modules.MAS.InstantMessage.Interfaces.IInstantMessageService.PublishLocalizedInstantMessage(DataMaster.Modules.MAS.InstantMessage.Models.MessageType,System.String,DataMaster.Modules.MAS.InstantMessage.Models.InfoLevel)
+  name.vb: PublishLocalizedInstantMessage(MessageType, String, InfoLevel)
+  fullName: DataMaster.Modules.MAS.InstantMessage.Interfaces.IInstantMessageService.PublishLocalizedInstantMessage(DataMaster.Modules.MAS.InstantMessage.Models.MessageType, string, DataMaster.Modules.MAS.InstantMessage.Models.InfoLevel)
+  fullName.vb: DataMaster.Modules.MAS.InstantMessage.Interfaces.IInstantMessageService.PublishLocalizedInstantMessage(DataMaster.Modules.MAS.InstantMessage.Models.MessageType, String, DataMaster.Modules.MAS.InstantMessage.Models.InfoLevel)
+  nameWithType: IInstantMessageService.PublishLocalizedInstantMessage(MessageType, string, InfoLevel)
+  nameWithType.vb: IInstantMessageService.PublishLocalizedInstantMessage(MessageType, String, InfoLevel)
+- uid: DataMaster.Modules.MAS.InstantMessage.Interfaces.IInstantMessageService.PublishLocalizedInstantMessage*
+  name: PublishLocalizedInstantMessage
+  href: api/DataMaster.Modules.MAS.InstantMessage.Interfaces.IInstantMessageService.html#DataMaster_Modules_MAS_InstantMessage_Interfaces_IInstantMessageService_PublishLocalizedInstantMessage_
+  commentId: Overload:DataMaster.Modules.MAS.InstantMessage.Interfaces.IInstantMessageService.PublishLocalizedInstantMessage
+  isSpec: "True"
+  fullName: DataMaster.Modules.MAS.InstantMessage.Interfaces.IInstantMessageService.PublishLocalizedInstantMessage
+  nameWithType: IInstantMessageService.PublishLocalizedInstantMessage
 - uid: DataMaster.Modules.MAS.InstantMessage.Models
   name: DataMaster.Modules.MAS.InstantMessage.Models
   href: api/DataMaster.Modules.MAS.InstantMessage.Models.html
@@ -11129,15 +11279,15 @@ references:
   commentId: T:DataMaster.Modules.MAS.InstantMessage.Services.InstantMessageService
   fullName: DataMaster.Modules.MAS.InstantMessage.Services.InstantMessageService
   nameWithType: InstantMessageService
-- uid: DataMaster.Modules.MAS.InstantMessage.Services.InstantMessageService.#ctor(DataMaster.Modules.MAS.EventAggregator.Services.EventAggregatorServices)
-  name: InstantMessageService(EventAggregatorServices)
-  href: api/DataMaster.Modules.MAS.InstantMessage.Services.InstantMessageService.html#DataMaster_Modules_MAS_InstantMessage_Services_InstantMessageService__ctor_DataMaster_Modules_MAS_EventAggregator_Services_EventAggregatorServices_
-  commentId: M:DataMaster.Modules.MAS.InstantMessage.Services.InstantMessageService.#ctor(DataMaster.Modules.MAS.EventAggregator.Services.EventAggregatorServices)
-  name.vb: New(EventAggregatorServices)
-  fullName: DataMaster.Modules.MAS.InstantMessage.Services.InstantMessageService.InstantMessageService(DataMaster.Modules.MAS.EventAggregator.Services.EventAggregatorServices)
-  fullName.vb: DataMaster.Modules.MAS.InstantMessage.Services.InstantMessageService.New(DataMaster.Modules.MAS.EventAggregator.Services.EventAggregatorServices)
-  nameWithType: InstantMessageService.InstantMessageService(EventAggregatorServices)
-  nameWithType.vb: InstantMessageService.New(EventAggregatorServices)
+- uid: DataMaster.Modules.MAS.InstantMessage.Services.InstantMessageService.#ctor(DataMaster.Modules.MAS.EventAggregator.Interfaces.IEventAggregatorService)
+  name: InstantMessageService(IEventAggregatorService)
+  href: api/DataMaster.Modules.MAS.InstantMessage.Services.InstantMessageService.html#DataMaster_Modules_MAS_InstantMessage_Services_InstantMessageService__ctor_DataMaster_Modules_MAS_EventAggregator_Interfaces_IEventAggregatorService_
+  commentId: M:DataMaster.Modules.MAS.InstantMessage.Services.InstantMessageService.#ctor(DataMaster.Modules.MAS.EventAggregator.Interfaces.IEventAggregatorService)
+  name.vb: New(IEventAggregatorService)
+  fullName: DataMaster.Modules.MAS.InstantMessage.Services.InstantMessageService.InstantMessageService(DataMaster.Modules.MAS.EventAggregator.Interfaces.IEventAggregatorService)
+  fullName.vb: DataMaster.Modules.MAS.InstantMessage.Services.InstantMessageService.New(DataMaster.Modules.MAS.EventAggregator.Interfaces.IEventAggregatorService)
+  nameWithType: InstantMessageService.InstantMessageService(IEventAggregatorService)
+  nameWithType.vb: InstantMessageService.New(IEventAggregatorService)
 - uid: DataMaster.Modules.MAS.InstantMessage.Services.InstantMessageService.#ctor*
   name: InstantMessageService
   href: api/DataMaster.Modules.MAS.InstantMessage.Services.InstantMessageService.html#DataMaster_Modules_MAS_InstantMessage_Services_InstantMessageService__ctor_
@@ -11325,6 +11475,271 @@ references:
   isSpec: "True"
   fullName: DataMaster.Modules.MAS.Security.API.IUserManagementService.UpdateUserAsync
   nameWithType: IUserManagementService.UpdateUserAsync
+- uid: DataMaster.Modules.MAS.Security.Interfaces
+  name: DataMaster.Modules.MAS.Security.Interfaces
+  href: api/DataMaster.Modules.MAS.Security.Interfaces.html
+  commentId: N:DataMaster.Modules.MAS.Security.Interfaces
+  fullName: DataMaster.Modules.MAS.Security.Interfaces
+  nameWithType: DataMaster.Modules.MAS.Security.Interfaces
+- uid: DataMaster.Modules.MAS.Security.Interfaces.IAuthenticationService
+  name: IAuthenticationService
+  href: api/DataMaster.Modules.MAS.Security.Interfaces.IAuthenticationService.html
+  commentId: T:DataMaster.Modules.MAS.Security.Interfaces.IAuthenticationService
+  fullName: DataMaster.Modules.MAS.Security.Interfaces.IAuthenticationService
+  nameWithType: IAuthenticationService
+- uid: DataMaster.Modules.MAS.Security.Interfaces.IAuthenticationService.LoginAsync(System.String,System.String)
+  name: LoginAsync(string, string)
+  href: api/DataMaster.Modules.MAS.Security.Interfaces.IAuthenticationService.html#DataMaster_Modules_MAS_Security_Interfaces_IAuthenticationService_LoginAsync_System_String_System_String_
+  commentId: M:DataMaster.Modules.MAS.Security.Interfaces.IAuthenticationService.LoginAsync(System.String,System.String)
+  name.vb: LoginAsync(String, String)
+  fullName: DataMaster.Modules.MAS.Security.Interfaces.IAuthenticationService.LoginAsync(string, string)
+  fullName.vb: DataMaster.Modules.MAS.Security.Interfaces.IAuthenticationService.LoginAsync(String, String)
+  nameWithType: IAuthenticationService.LoginAsync(string, string)
+  nameWithType.vb: IAuthenticationService.LoginAsync(String, String)
+- uid: DataMaster.Modules.MAS.Security.Interfaces.IAuthenticationService.LoginAsync*
+  name: LoginAsync
+  href: api/DataMaster.Modules.MAS.Security.Interfaces.IAuthenticationService.html#DataMaster_Modules_MAS_Security_Interfaces_IAuthenticationService_LoginAsync_
+  commentId: Overload:DataMaster.Modules.MAS.Security.Interfaces.IAuthenticationService.LoginAsync
+  isSpec: "True"
+  fullName: DataMaster.Modules.MAS.Security.Interfaces.IAuthenticationService.LoginAsync
+  nameWithType: IAuthenticationService.LoginAsync
+- uid: DataMaster.Modules.MAS.Security.Interfaces.IAuthenticationService.LogoutAsync
+  name: LogoutAsync()
+  href: api/DataMaster.Modules.MAS.Security.Interfaces.IAuthenticationService.html#DataMaster_Modules_MAS_Security_Interfaces_IAuthenticationService_LogoutAsync
+  commentId: M:DataMaster.Modules.MAS.Security.Interfaces.IAuthenticationService.LogoutAsync
+  fullName: DataMaster.Modules.MAS.Security.Interfaces.IAuthenticationService.LogoutAsync()
+  nameWithType: IAuthenticationService.LogoutAsync()
+- uid: DataMaster.Modules.MAS.Security.Interfaces.IAuthenticationService.LogoutAsync*
+  name: LogoutAsync
+  href: api/DataMaster.Modules.MAS.Security.Interfaces.IAuthenticationService.html#DataMaster_Modules_MAS_Security_Interfaces_IAuthenticationService_LogoutAsync_
+  commentId: Overload:DataMaster.Modules.MAS.Security.Interfaces.IAuthenticationService.LogoutAsync
+  isSpec: "True"
+  fullName: DataMaster.Modules.MAS.Security.Interfaces.IAuthenticationService.LogoutAsync
+  nameWithType: IAuthenticationService.LogoutAsync
+- uid: DataMaster.Modules.MAS.Security.Interfaces.IEncryptionService
+  name: IEncryptionService
+  href: api/DataMaster.Modules.MAS.Security.Interfaces.IEncryptionService.html
+  commentId: T:DataMaster.Modules.MAS.Security.Interfaces.IEncryptionService
+  fullName: DataMaster.Modules.MAS.Security.Interfaces.IEncryptionService
+  nameWithType: IEncryptionService
+- uid: DataMaster.Modules.MAS.Security.Interfaces.IEncryptionService.Decrypt(System.String)
+  name: Decrypt(string)
+  href: api/DataMaster.Modules.MAS.Security.Interfaces.IEncryptionService.html#DataMaster_Modules_MAS_Security_Interfaces_IEncryptionService_Decrypt_System_String_
+  commentId: M:DataMaster.Modules.MAS.Security.Interfaces.IEncryptionService.Decrypt(System.String)
+  name.vb: Decrypt(String)
+  fullName: DataMaster.Modules.MAS.Security.Interfaces.IEncryptionService.Decrypt(string)
+  fullName.vb: DataMaster.Modules.MAS.Security.Interfaces.IEncryptionService.Decrypt(String)
+  nameWithType: IEncryptionService.Decrypt(string)
+  nameWithType.vb: IEncryptionService.Decrypt(String)
+- uid: DataMaster.Modules.MAS.Security.Interfaces.IEncryptionService.Decrypt*
+  name: Decrypt
+  href: api/DataMaster.Modules.MAS.Security.Interfaces.IEncryptionService.html#DataMaster_Modules_MAS_Security_Interfaces_IEncryptionService_Decrypt_
+  commentId: Overload:DataMaster.Modules.MAS.Security.Interfaces.IEncryptionService.Decrypt
+  isSpec: "True"
+  fullName: DataMaster.Modules.MAS.Security.Interfaces.IEncryptionService.Decrypt
+  nameWithType: IEncryptionService.Decrypt
+- uid: DataMaster.Modules.MAS.Security.Interfaces.IEncryptionService.Encrypt(System.String)
+  name: Encrypt(string)
+  href: api/DataMaster.Modules.MAS.Security.Interfaces.IEncryptionService.html#DataMaster_Modules_MAS_Security_Interfaces_IEncryptionService_Encrypt_System_String_
+  commentId: M:DataMaster.Modules.MAS.Security.Interfaces.IEncryptionService.Encrypt(System.String)
+  name.vb: Encrypt(String)
+  fullName: DataMaster.Modules.MAS.Security.Interfaces.IEncryptionService.Encrypt(string)
+  fullName.vb: DataMaster.Modules.MAS.Security.Interfaces.IEncryptionService.Encrypt(String)
+  nameWithType: IEncryptionService.Encrypt(string)
+  nameWithType.vb: IEncryptionService.Encrypt(String)
+- uid: DataMaster.Modules.MAS.Security.Interfaces.IEncryptionService.Encrypt*
+  name: Encrypt
+  href: api/DataMaster.Modules.MAS.Security.Interfaces.IEncryptionService.html#DataMaster_Modules_MAS_Security_Interfaces_IEncryptionService_Encrypt_
+  commentId: Overload:DataMaster.Modules.MAS.Security.Interfaces.IEncryptionService.Encrypt
+  isSpec: "True"
+  fullName: DataMaster.Modules.MAS.Security.Interfaces.IEncryptionService.Encrypt
+  nameWithType: IEncryptionService.Encrypt
+- uid: DataMaster.Modules.MAS.Security.Interfaces.IUserManagementService
+  name: IUserManagementService
+  href: api/DataMaster.Modules.MAS.Security.Interfaces.IUserManagementService.html
+  commentId: T:DataMaster.Modules.MAS.Security.Interfaces.IUserManagementService
+  fullName: DataMaster.Modules.MAS.Security.Interfaces.IUserManagementService
+  nameWithType: IUserManagementService
+- uid: DataMaster.Modules.MAS.Security.Interfaces.IUserManagementService.CreateUserAsync(System.String,System.String,System.String)
+  name: CreateUserAsync(string, string, string)
+  href: api/DataMaster.Modules.MAS.Security.Interfaces.IUserManagementService.html#DataMaster_Modules_MAS_Security_Interfaces_IUserManagementService_CreateUserAsync_System_String_System_String_System_String_
+  commentId: M:DataMaster.Modules.MAS.Security.Interfaces.IUserManagementService.CreateUserAsync(System.String,System.String,System.String)
+  name.vb: CreateUserAsync(String, String, String)
+  fullName: DataMaster.Modules.MAS.Security.Interfaces.IUserManagementService.CreateUserAsync(string, string, string)
+  fullName.vb: DataMaster.Modules.MAS.Security.Interfaces.IUserManagementService.CreateUserAsync(String, String, String)
+  nameWithType: IUserManagementService.CreateUserAsync(string, string, string)
+  nameWithType.vb: IUserManagementService.CreateUserAsync(String, String, String)
+- uid: DataMaster.Modules.MAS.Security.Interfaces.IUserManagementService.CreateUserAsync*
+  name: CreateUserAsync
+  href: api/DataMaster.Modules.MAS.Security.Interfaces.IUserManagementService.html#DataMaster_Modules_MAS_Security_Interfaces_IUserManagementService_CreateUserAsync_
+  commentId: Overload:DataMaster.Modules.MAS.Security.Interfaces.IUserManagementService.CreateUserAsync
+  isSpec: "True"
+  fullName: DataMaster.Modules.MAS.Security.Interfaces.IUserManagementService.CreateUserAsync
+  nameWithType: IUserManagementService.CreateUserAsync
+- uid: DataMaster.Modules.MAS.Security.Interfaces.IUserManagementService.DeleteUserAsync(System.String)
+  name: DeleteUserAsync(string)
+  href: api/DataMaster.Modules.MAS.Security.Interfaces.IUserManagementService.html#DataMaster_Modules_MAS_Security_Interfaces_IUserManagementService_DeleteUserAsync_System_String_
+  commentId: M:DataMaster.Modules.MAS.Security.Interfaces.IUserManagementService.DeleteUserAsync(System.String)
+  name.vb: DeleteUserAsync(String)
+  fullName: DataMaster.Modules.MAS.Security.Interfaces.IUserManagementService.DeleteUserAsync(string)
+  fullName.vb: DataMaster.Modules.MAS.Security.Interfaces.IUserManagementService.DeleteUserAsync(String)
+  nameWithType: IUserManagementService.DeleteUserAsync(string)
+  nameWithType.vb: IUserManagementService.DeleteUserAsync(String)
+- uid: DataMaster.Modules.MAS.Security.Interfaces.IUserManagementService.DeleteUserAsync*
+  name: DeleteUserAsync
+  href: api/DataMaster.Modules.MAS.Security.Interfaces.IUserManagementService.html#DataMaster_Modules_MAS_Security_Interfaces_IUserManagementService_DeleteUserAsync_
+  commentId: Overload:DataMaster.Modules.MAS.Security.Interfaces.IUserManagementService.DeleteUserAsync
+  isSpec: "True"
+  fullName: DataMaster.Modules.MAS.Security.Interfaces.IUserManagementService.DeleteUserAsync
+  nameWithType: IUserManagementService.DeleteUserAsync
+- uid: DataMaster.Modules.MAS.Security.Interfaces.IUserManagementService.UpdateUserAsync(DataMaster.Modules.MAS.Security.Models.UserInfo)
+  name: UpdateUserAsync(UserInfo)
+  href: api/DataMaster.Modules.MAS.Security.Interfaces.IUserManagementService.html#DataMaster_Modules_MAS_Security_Interfaces_IUserManagementService_UpdateUserAsync_DataMaster_Modules_MAS_Security_Models_UserInfo_
+  commentId: M:DataMaster.Modules.MAS.Security.Interfaces.IUserManagementService.UpdateUserAsync(DataMaster.Modules.MAS.Security.Models.UserInfo)
+  fullName: DataMaster.Modules.MAS.Security.Interfaces.IUserManagementService.UpdateUserAsync(DataMaster.Modules.MAS.Security.Models.UserInfo)
+  nameWithType: IUserManagementService.UpdateUserAsync(UserInfo)
+- uid: DataMaster.Modules.MAS.Security.Interfaces.IUserManagementService.UpdateUserAsync*
+  name: UpdateUserAsync
+  href: api/DataMaster.Modules.MAS.Security.Interfaces.IUserManagementService.html#DataMaster_Modules_MAS_Security_Interfaces_IUserManagementService_UpdateUserAsync_
+  commentId: Overload:DataMaster.Modules.MAS.Security.Interfaces.IUserManagementService.UpdateUserAsync
+  isSpec: "True"
+  fullName: DataMaster.Modules.MAS.Security.Interfaces.IUserManagementService.UpdateUserAsync
+  nameWithType: IUserManagementService.UpdateUserAsync
+- uid: DataMaster.Modules.MAS.Security.Models
+  name: DataMaster.Modules.MAS.Security.Models
+  href: api/DataMaster.Modules.MAS.Security.Models.html
+  commentId: N:DataMaster.Modules.MAS.Security.Models
+  fullName: DataMaster.Modules.MAS.Security.Models
+  nameWithType: DataMaster.Modules.MAS.Security.Models
+- uid: DataMaster.Modules.MAS.Security.Models.UserInfo
+  name: UserInfo
+  href: api/DataMaster.Modules.MAS.Security.Models.UserInfo.html
+  commentId: T:DataMaster.Modules.MAS.Security.Models.UserInfo
+  fullName: DataMaster.Modules.MAS.Security.Models.UserInfo
+  nameWithType: UserInfo
+- uid: DataMaster.Modules.MAS.Security.Models.UserInfo.#ctor(DataMaster.Modules.MAS.Security.Models.UserInfo)
+  name: UserInfo(UserInfo)
+  href: api/DataMaster.Modules.MAS.Security.Models.UserInfo.html#DataMaster_Modules_MAS_Security_Models_UserInfo__ctor_DataMaster_Modules_MAS_Security_Models_UserInfo_
+  commentId: M:DataMaster.Modules.MAS.Security.Models.UserInfo.#ctor(DataMaster.Modules.MAS.Security.Models.UserInfo)
+  name.vb: New(UserInfo)
+  fullName: DataMaster.Modules.MAS.Security.Models.UserInfo.UserInfo(DataMaster.Modules.MAS.Security.Models.UserInfo)
+  fullName.vb: DataMaster.Modules.MAS.Security.Models.UserInfo.New(DataMaster.Modules.MAS.Security.Models.UserInfo)
+  nameWithType: UserInfo.UserInfo(UserInfo)
+  nameWithType.vb: UserInfo.New(UserInfo)
+- uid: DataMaster.Modules.MAS.Security.Models.UserInfo.#ctor*
+  name: UserInfo
+  href: api/DataMaster.Modules.MAS.Security.Models.UserInfo.html#DataMaster_Modules_MAS_Security_Models_UserInfo__ctor_
+  commentId: Overload:DataMaster.Modules.MAS.Security.Models.UserInfo.#ctor
+  isSpec: "True"
+  name.vb: New
+  fullName: DataMaster.Modules.MAS.Security.Models.UserInfo.UserInfo
+  fullName.vb: DataMaster.Modules.MAS.Security.Models.UserInfo.New
+  nameWithType: UserInfo.UserInfo
+  nameWithType.vb: UserInfo.New
+- uid: DataMaster.Modules.MAS.Security.Models.UserInfo.Email
+  name: Email
+  href: api/DataMaster.Modules.MAS.Security.Models.UserInfo.html#DataMaster_Modules_MAS_Security_Models_UserInfo_Email
+  commentId: P:DataMaster.Modules.MAS.Security.Models.UserInfo.Email
+  fullName: DataMaster.Modules.MAS.Security.Models.UserInfo.Email
+  nameWithType: UserInfo.Email
+- uid: DataMaster.Modules.MAS.Security.Models.UserInfo.Email*
+  name: Email
+  href: api/DataMaster.Modules.MAS.Security.Models.UserInfo.html#DataMaster_Modules_MAS_Security_Models_UserInfo_Email_
+  commentId: Overload:DataMaster.Modules.MAS.Security.Models.UserInfo.Email
+  isSpec: "True"
+  fullName: DataMaster.Modules.MAS.Security.Models.UserInfo.Email
+  nameWithType: UserInfo.Email
+- uid: DataMaster.Modules.MAS.Security.Models.UserInfo.LastLoginTime
+  name: LastLoginTime
+  href: api/DataMaster.Modules.MAS.Security.Models.UserInfo.html#DataMaster_Modules_MAS_Security_Models_UserInfo_LastLoginTime
+  commentId: P:DataMaster.Modules.MAS.Security.Models.UserInfo.LastLoginTime
+  fullName: DataMaster.Modules.MAS.Security.Models.UserInfo.LastLoginTime
+  nameWithType: UserInfo.LastLoginTime
+- uid: DataMaster.Modules.MAS.Security.Models.UserInfo.LastLoginTime*
+  name: LastLoginTime
+  href: api/DataMaster.Modules.MAS.Security.Models.UserInfo.html#DataMaster_Modules_MAS_Security_Models_UserInfo_LastLoginTime_
+  commentId: Overload:DataMaster.Modules.MAS.Security.Models.UserInfo.LastLoginTime
+  isSpec: "True"
+  fullName: DataMaster.Modules.MAS.Security.Models.UserInfo.LastLoginTime
+  nameWithType: UserInfo.LastLoginTime
+- uid: DataMaster.Modules.MAS.Security.Models.UserInfo.LoginCount
+  name: LoginCount
+  href: api/DataMaster.Modules.MAS.Security.Models.UserInfo.html#DataMaster_Modules_MAS_Security_Models_UserInfo_LoginCount
+  commentId: P:DataMaster.Modules.MAS.Security.Models.UserInfo.LoginCount
+  fullName: DataMaster.Modules.MAS.Security.Models.UserInfo.LoginCount
+  nameWithType: UserInfo.LoginCount
+- uid: DataMaster.Modules.MAS.Security.Models.UserInfo.LoginCount*
+  name: LoginCount
+  href: api/DataMaster.Modules.MAS.Security.Models.UserInfo.html#DataMaster_Modules_MAS_Security_Models_UserInfo_LoginCount_
+  commentId: Overload:DataMaster.Modules.MAS.Security.Models.UserInfo.LoginCount
+  isSpec: "True"
+  fullName: DataMaster.Modules.MAS.Security.Models.UserInfo.LoginCount
+  nameWithType: UserInfo.LoginCount
+- uid: DataMaster.Modules.MAS.Security.Models.UserInfo.Message
+  name: Message
+  href: api/DataMaster.Modules.MAS.Security.Models.UserInfo.html#DataMaster_Modules_MAS_Security_Models_UserInfo_Message
+  commentId: P:DataMaster.Modules.MAS.Security.Models.UserInfo.Message
+  fullName: DataMaster.Modules.MAS.Security.Models.UserInfo.Message
+  nameWithType: UserInfo.Message
+- uid: DataMaster.Modules.MAS.Security.Models.UserInfo.Message*
+  name: Message
+  href: api/DataMaster.Modules.MAS.Security.Models.UserInfo.html#DataMaster_Modules_MAS_Security_Models_UserInfo_Message_
+  commentId: Overload:DataMaster.Modules.MAS.Security.Models.UserInfo.Message
+  isSpec: "True"
+  fullName: DataMaster.Modules.MAS.Security.Models.UserInfo.Message
+  nameWithType: UserInfo.Message
+- uid: DataMaster.Modules.MAS.Security.Models.UserInfo.RegistrationDate
+  name: RegistrationDate
+  href: api/DataMaster.Modules.MAS.Security.Models.UserInfo.html#DataMaster_Modules_MAS_Security_Models_UserInfo_RegistrationDate
+  commentId: P:DataMaster.Modules.MAS.Security.Models.UserInfo.RegistrationDate
+  fullName: DataMaster.Modules.MAS.Security.Models.UserInfo.RegistrationDate
+  nameWithType: UserInfo.RegistrationDate
+- uid: DataMaster.Modules.MAS.Security.Models.UserInfo.RegistrationDate*
+  name: RegistrationDate
+  href: api/DataMaster.Modules.MAS.Security.Models.UserInfo.html#DataMaster_Modules_MAS_Security_Models_UserInfo_RegistrationDate_
+  commentId: Overload:DataMaster.Modules.MAS.Security.Models.UserInfo.RegistrationDate
+  isSpec: "True"
+  fullName: DataMaster.Modules.MAS.Security.Models.UserInfo.RegistrationDate
+  nameWithType: UserInfo.RegistrationDate
+- uid: DataMaster.Modules.MAS.Security.Models.UserInfo.Role
+  name: Role
+  href: api/DataMaster.Modules.MAS.Security.Models.UserInfo.html#DataMaster_Modules_MAS_Security_Models_UserInfo_Role
+  commentId: P:DataMaster.Modules.MAS.Security.Models.UserInfo.Role
+  fullName: DataMaster.Modules.MAS.Security.Models.UserInfo.Role
+  nameWithType: UserInfo.Role
+- uid: DataMaster.Modules.MAS.Security.Models.UserInfo.Role*
+  name: Role
+  href: api/DataMaster.Modules.MAS.Security.Models.UserInfo.html#DataMaster_Modules_MAS_Security_Models_UserInfo_Role_
+  commentId: Overload:DataMaster.Modules.MAS.Security.Models.UserInfo.Role
+  isSpec: "True"
+  fullName: DataMaster.Modules.MAS.Security.Models.UserInfo.Role
+  nameWithType: UserInfo.Role
+- uid: DataMaster.Modules.MAS.Security.Models.UserInfo.Success
+  name: Success
+  href: api/DataMaster.Modules.MAS.Security.Models.UserInfo.html#DataMaster_Modules_MAS_Security_Models_UserInfo_Success
+  commentId: P:DataMaster.Modules.MAS.Security.Models.UserInfo.Success
+  fullName: DataMaster.Modules.MAS.Security.Models.UserInfo.Success
+  nameWithType: UserInfo.Success
+- uid: DataMaster.Modules.MAS.Security.Models.UserInfo.Success*
+  name: Success
+  href: api/DataMaster.Modules.MAS.Security.Models.UserInfo.html#DataMaster_Modules_MAS_Security_Models_UserInfo_Success_
+  commentId: Overload:DataMaster.Modules.MAS.Security.Models.UserInfo.Success
+  isSpec: "True"
+  fullName: DataMaster.Modules.MAS.Security.Models.UserInfo.Success
+  nameWithType: UserInfo.Success
+- uid: DataMaster.Modules.MAS.Security.Models.UserInfo.Username
+  name: Username
+  href: api/DataMaster.Modules.MAS.Security.Models.UserInfo.html#DataMaster_Modules_MAS_Security_Models_UserInfo_Username
+  commentId: P:DataMaster.Modules.MAS.Security.Models.UserInfo.Username
+  fullName: DataMaster.Modules.MAS.Security.Models.UserInfo.Username
+  nameWithType: UserInfo.Username
+- uid: DataMaster.Modules.MAS.Security.Models.UserInfo.Username*
+  name: Username
+  href: api/DataMaster.Modules.MAS.Security.Models.UserInfo.html#DataMaster_Modules_MAS_Security_Models_UserInfo_Username_
+  commentId: Overload:DataMaster.Modules.MAS.Security.Models.UserInfo.Username
+  isSpec: "True"
+  fullName: DataMaster.Modules.MAS.Security.Models.UserInfo.Username
+  nameWithType: UserInfo.Username
 - uid: DataMaster.Modules.MAS.Security.UserInfo
   name: UserInfo
   href: api/DataMaster.Modules.MAS.Security.UserInfo.html
@@ -14508,6 +14923,19 @@ references:
   isSpec: "True"
   fullName: DataMaster.Resources.Resources.ScriptErrorOnWebV2
   nameWithType: Resources.ScriptErrorOnWebV2
+- uid: DataMaster.Resources.Resources.Search
+  name: Search
+  href: api/DataMaster.Resources.Resources.html#DataMaster_Resources_Resources_Search
+  commentId: P:DataMaster.Resources.Resources.Search
+  fullName: DataMaster.Resources.Resources.Search
+  nameWithType: Resources.Search
+- uid: DataMaster.Resources.Resources.Search*
+  name: Search
+  href: api/DataMaster.Resources.Resources.html#DataMaster_Resources_Resources_Search_
+  commentId: Overload:DataMaster.Resources.Resources.Search
+  isSpec: "True"
+  fullName: DataMaster.Resources.Resources.Search
+  nameWithType: Resources.Search
 - uid: DataMaster.Resources.Resources.SelectDataForm
   name: SelectDataForm
   href: api/DataMaster.Resources.Resources.html#DataMaster_Resources_Resources_SelectDataForm
@@ -14833,6 +15261,19 @@ references:
   isSpec: "True"
   fullName: DataMaster.Resources.Resources.StructReadIsNull
   nameWithType: Resources.StructReadIsNull
+- uid: DataMaster.Resources.Resources.Succeed
+  name: Succeed
+  href: api/DataMaster.Resources.Resources.html#DataMaster_Resources_Resources_Succeed
+  commentId: P:DataMaster.Resources.Resources.Succeed
+  fullName: DataMaster.Resources.Resources.Succeed
+  nameWithType: Resources.Succeed
+- uid: DataMaster.Resources.Resources.Succeed*
+  name: Succeed
+  href: api/DataMaster.Resources.Resources.html#DataMaster_Resources_Resources_Succeed_
+  commentId: Overload:DataMaster.Resources.Resources.Succeed
+  isSpec: "True"
+  fullName: DataMaster.Resources.Resources.Succeed
+  nameWithType: Resources.Succeed
 - uid: DataMaster.Resources.Resources.SucceedSaveCTData
   name: SucceedSaveCTData
   href: api/DataMaster.Resources.Resources.html#DataMaster_Resources_Resources_SucceedSaveCTData
@@ -16550,6 +16991,19 @@ references:
   isSpec: "True"
   fullName: DataMaster.ViewModels.Pages.ECharts.ProductionVolumeViewModel.IsDataGridVisible
   nameWithType: ProductionVolumeViewModel.IsDataGridVisible
+- uid: DataMaster.ViewModels.Pages.ECharts.ProductionVolumeViewModel.IsEndDateEnabled
+  name: IsEndDateEnabled
+  href: api/DataMaster.ViewModels.Pages.ECharts.ProductionVolumeViewModel.html#DataMaster_ViewModels_Pages_ECharts_ProductionVolumeViewModel_IsEndDateEnabled
+  commentId: P:DataMaster.ViewModels.Pages.ECharts.ProductionVolumeViewModel.IsEndDateEnabled
+  fullName: DataMaster.ViewModels.Pages.ECharts.ProductionVolumeViewModel.IsEndDateEnabled
+  nameWithType: ProductionVolumeViewModel.IsEndDateEnabled
+- uid: DataMaster.ViewModels.Pages.ECharts.ProductionVolumeViewModel.IsEndDateEnabled*
+  name: IsEndDateEnabled
+  href: api/DataMaster.ViewModels.Pages.ECharts.ProductionVolumeViewModel.html#DataMaster_ViewModels_Pages_ECharts_ProductionVolumeViewModel_IsEndDateEnabled_
+  commentId: Overload:DataMaster.ViewModels.Pages.ECharts.ProductionVolumeViewModel.IsEndDateEnabled
+  isSpec: "True"
+  fullName: DataMaster.ViewModels.Pages.ECharts.ProductionVolumeViewModel.IsEndDateEnabled
+  nameWithType: ProductionVolumeViewModel.IsEndDateEnabled
 - uid: DataMaster.ViewModels.Pages.ECharts.ProductionVolumeViewModel.IsShowDateOrTime
   name: IsShowDateOrTime
   href: api/DataMaster.ViewModels.Pages.ECharts.ProductionVolumeViewModel.html#DataMaster_ViewModels_Pages_ECharts_ProductionVolumeViewModel_IsShowDateOrTime
@@ -16563,6 +17017,32 @@ references:
   isSpec: "True"
   fullName: DataMaster.ViewModels.Pages.ECharts.ProductionVolumeViewModel.IsShowDateOrTime
   nameWithType: ProductionVolumeViewModel.IsShowDateOrTime
+- uid: DataMaster.ViewModels.Pages.ECharts.ProductionVolumeViewModel.IsShowDateOrTimeEnabled
+  name: IsShowDateOrTimeEnabled
+  href: api/DataMaster.ViewModels.Pages.ECharts.ProductionVolumeViewModel.html#DataMaster_ViewModels_Pages_ECharts_ProductionVolumeViewModel_IsShowDateOrTimeEnabled
+  commentId: P:DataMaster.ViewModels.Pages.ECharts.ProductionVolumeViewModel.IsShowDateOrTimeEnabled
+  fullName: DataMaster.ViewModels.Pages.ECharts.ProductionVolumeViewModel.IsShowDateOrTimeEnabled
+  nameWithType: ProductionVolumeViewModel.IsShowDateOrTimeEnabled
+- uid: DataMaster.ViewModels.Pages.ECharts.ProductionVolumeViewModel.IsShowDateOrTimeEnabled*
+  name: IsShowDateOrTimeEnabled
+  href: api/DataMaster.ViewModels.Pages.ECharts.ProductionVolumeViewModel.html#DataMaster_ViewModels_Pages_ECharts_ProductionVolumeViewModel_IsShowDateOrTimeEnabled_
+  commentId: Overload:DataMaster.ViewModels.Pages.ECharts.ProductionVolumeViewModel.IsShowDateOrTimeEnabled
+  isSpec: "True"
+  fullName: DataMaster.ViewModels.Pages.ECharts.ProductionVolumeViewModel.IsShowDateOrTimeEnabled
+  nameWithType: ProductionVolumeViewModel.IsShowDateOrTimeEnabled
+- uid: DataMaster.ViewModels.Pages.ECharts.ProductionVolumeViewModel.IsStartDateEnabled
+  name: IsStartDateEnabled
+  href: api/DataMaster.ViewModels.Pages.ECharts.ProductionVolumeViewModel.html#DataMaster_ViewModels_Pages_ECharts_ProductionVolumeViewModel_IsStartDateEnabled
+  commentId: P:DataMaster.ViewModels.Pages.ECharts.ProductionVolumeViewModel.IsStartDateEnabled
+  fullName: DataMaster.ViewModels.Pages.ECharts.ProductionVolumeViewModel.IsStartDateEnabled
+  nameWithType: ProductionVolumeViewModel.IsStartDateEnabled
+- uid: DataMaster.ViewModels.Pages.ECharts.ProductionVolumeViewModel.IsStartDateEnabled*
+  name: IsStartDateEnabled
+  href: api/DataMaster.ViewModels.Pages.ECharts.ProductionVolumeViewModel.html#DataMaster_ViewModels_Pages_ECharts_ProductionVolumeViewModel_IsStartDateEnabled_
+  commentId: Overload:DataMaster.ViewModels.Pages.ECharts.ProductionVolumeViewModel.IsStartDateEnabled
+  isSpec: "True"
+  fullName: DataMaster.ViewModels.Pages.ECharts.ProductionVolumeViewModel.IsStartDateEnabled
+  nameWithType: ProductionVolumeViewModel.IsStartDateEnabled
 - uid: DataMaster.ViewModels.Pages.ECharts.ProductionVolumeViewModel.IsWebViewVisible
   name: IsWebViewVisible
   href: api/DataMaster.ViewModels.Pages.ECharts.ProductionVolumeViewModel.html#DataMaster_ViewModels_Pages_ECharts_ProductionVolumeViewModel_IsWebViewVisible

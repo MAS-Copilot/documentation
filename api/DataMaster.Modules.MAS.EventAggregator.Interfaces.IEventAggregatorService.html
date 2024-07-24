@@ -2,11 +2,11 @@
 <html>
   <head>
     <meta charset="utf-8">
-      <title>Class EventAggregatorServices | DataMaster </title>
+      <title>Interface IEventAggregatorService | DataMaster </title>
       <meta name="viewport" content="width=device-width, initial-scale=1.0">
-      <meta name="title" content="Class EventAggregatorServices | DataMaster ">
+      <meta name="title" content="Interface IEventAggregatorService | DataMaster ">
       
-      <meta name="description" content="事件聚合器服务，用于管理事件的订阅和发布">
+      <meta name="description" content="事件聚合器服务接口">
       <link rel="icon" href="../favicon.ico">
       <link rel="stylesheet" href="../public/docfx.min.css">
       <link rel="stylesheet" href="../public/main.css">
@@ -84,71 +84,33 @@
           <nav id="breadcrumb"></nav>
         </div>
 
-        <article data-uid="DataMaster.Modules.MAS.EventAggregator.Services.EventAggregatorServices">
+        <article data-uid="DataMaster.Modules.MAS.EventAggregator.Interfaces.IEventAggregatorService">
 
 
 
-  <h1 id="DataMaster_Modules_MAS_EventAggregator_Services_EventAggregatorServices" data-uid="DataMaster.Modules.MAS.EventAggregator.Services.EventAggregatorServices" class="text-break">
-Class EventAggregatorServices  <a class="header-action link-secondary" title="View source" href="https://bitbucket.org/mas-software/industrial-mes-net-platform-advanced/src/feature/Charts-ProductionVolumeWebView/Modules/MAS.EventAggregator/Services/EventAggregatorServices.cs#lines-24"><i class="bi bi-code-slash"></i></a>
+  <h1 id="DataMaster_Modules_MAS_EventAggregator_Interfaces_IEventAggregatorService" data-uid="DataMaster.Modules.MAS.EventAggregator.Interfaces.IEventAggregatorService" class="text-break">
+Interface IEventAggregatorService  <a class="header-action link-secondary" title="View source" href="https://bitbucket.org/mas-software/industrial-mes-net-platform-advanced/src/feature/Charts-ProductionVolumeWebView/Modules/MAS.EventAggregator/Interfaces/IEventAggregator.cs#lines-12"><i class="bi bi-code-slash"></i></a>
   </h1>
 
   <div class="facts text-secondary">
-    <dl><dt>Namespace</dt><dd><a class="xref" href="DataMaster.html">DataMaster</a>.<a class="xref" href="DataMaster.Modules.html">Modules</a>.<a class="xref" href="DataMaster.Modules.MAS.html">MAS</a>.<a class="xref" href="DataMaster.Modules.MAS.EventAggregator.html">EventAggregator</a>.<a class="xref" href="DataMaster.Modules.MAS.EventAggregator.Services.html">Services</a></dd></dl>
+    <dl><dt>Namespace</dt><dd><a class="xref" href="DataMaster.html">DataMaster</a>.<a class="xref" href="DataMaster.Modules.html">Modules</a>.<a class="xref" href="DataMaster.Modules.MAS.html">MAS</a>.<a class="xref" href="DataMaster.Modules.MAS.EventAggregator.html">EventAggregator</a>.<a class="xref" href="DataMaster.Modules.MAS.EventAggregator.Interfaces.html">Interfaces</a></dd></dl>
   <dl><dt>Assembly</dt><dd>DataMaster.dll</dd></dl>
   </div>
 
-  <div class="markdown summary"><p>事件聚合器服务，用于管理事件的订阅和发布</p>
+  <div class="markdown summary"><p>事件聚合器服务接口</p>
 </div>
   <div class="markdown conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public class EventAggregatorServices : IEventAggregatorService</code></pre>
+    <pre><code class="lang-csharp hljs">public interface IEventAggregatorService</code></pre>
   </div>
 
 
 
 
-  <dl class="typelist inheritance">
-    <dt>Inheritance</dt>
-    <dd>
-      <div><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">object</a></div>
-      <div><span class="xref">EventAggregatorServices</span></div>
-    </dd>
-  </dl>
-
-  <dl class="typelist implements">
-    <dt>Implements</dt>
-    <dd>
-      <div><a class="xref" href="DataMaster.Modules.MAS.EventAggregator.Interfaces.IEventAggregatorService.html">IEventAggregatorService</a></div>
-    </dd>
-  </dl>
 
 
-  <dl class="typelist inheritedMembers">
-    <dt>Inherited Members</dt>
-    <dd>
-    <div>
-      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)">object.Equals(object)</a>
-    </div>
-    <div>
-      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)">object.Equals(object, object)</a>
-    </div>
-    <div>
-      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.gethashcode">object.GetHashCode()</a>
-    </div>
-    <div>
-      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.gettype">object.GetType()</a>
-    </div>
-    <div>
-      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone">object.MemberwiseClone()</a>
-    </div>
-    <div>
-      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.referenceequals">object.ReferenceEquals(object, object)</a>
-    </div>
-    <div>
-      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.tostring">object.ToString()</a>
-    </div>
-  </dd></dl>
+
 
 
 
@@ -159,11 +121,11 @@ Class EventAggregatorServices  <a class="header-action link-secondary" title="Vi
 </h2>
 
 
-  <a id="DataMaster_Modules_MAS_EventAggregator_Services_EventAggregatorServices_Publish_" data-uid="DataMaster.Modules.MAS.EventAggregator.Services.EventAggregatorServices.Publish*"></a>
+  <a id="DataMaster_Modules_MAS_EventAggregator_Interfaces_IEventAggregatorService_Publish_" data-uid="DataMaster.Modules.MAS.EventAggregator.Interfaces.IEventAggregatorService.Publish*"></a>
 
-  <h3 id="DataMaster_Modules_MAS_EventAggregator_Services_EventAggregatorServices_Publish__1___0_" data-uid="DataMaster.Modules.MAS.EventAggregator.Services.EventAggregatorServices.Publish``1(``0)">
+  <h3 id="DataMaster_Modules_MAS_EventAggregator_Interfaces_IEventAggregatorService_Publish__1___0_" data-uid="DataMaster.Modules.MAS.EventAggregator.Interfaces.IEventAggregatorService.Publish``1(``0)">
   Publish&lt;TEvent&gt;(TEvent)
-  <a class="header-action link-secondary" title="View source" href="https://bitbucket.org/mas-software/industrial-mes-net-platform-advanced/src/feature/Charts-ProductionVolumeWebView/Modules/MAS.EventAggregator/Services/EventAggregatorServices.cs#lines-67"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://bitbucket.org/mas-software/industrial-mes-net-platform-advanced/src/feature/Charts-ProductionVolumeWebView/Modules/MAS.EventAggregator/Interfaces/IEventAggregator.cs#lines-34"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>发布一个事件，通知所有订阅了该事件的订阅者</p>
@@ -171,7 +133,7 @@ Class EventAggregatorServices  <a class="header-action link-secondary" title="Vi
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public void Publish&lt;TEvent&gt;(TEvent eventToPublish)</code></pre>
+    <pre><code class="lang-csharp hljs">void Publish&lt;TEvent&gt;(TEvent eventToPublish)</code></pre>
   </div>
 
   <h4 class="section">Parameters</h4>
@@ -195,20 +157,14 @@ Class EventAggregatorServices  <a class="header-action link-secondary" title="Vi
 
 
 
-  <h4 class="section">Exceptions</h4>
-  <dl class="parameters">
-    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.exception">Exception</a></dt>
-    <dd><p>如果发布事件时发生错误，则会抛出异常</p>
-</dd>
-  </dl>
 
 
 
-  <a id="DataMaster_Modules_MAS_EventAggregator_Services_EventAggregatorServices_Subscribe_" data-uid="DataMaster.Modules.MAS.EventAggregator.Services.EventAggregatorServices.Subscribe*"></a>
+  <a id="DataMaster_Modules_MAS_EventAggregator_Interfaces_IEventAggregatorService_Subscribe_" data-uid="DataMaster.Modules.MAS.EventAggregator.Interfaces.IEventAggregatorService.Subscribe*"></a>
 
-  <h3 id="DataMaster_Modules_MAS_EventAggregator_Services_EventAggregatorServices_Subscribe__1_System_Action___0__" data-uid="DataMaster.Modules.MAS.EventAggregator.Services.EventAggregatorServices.Subscribe``1(System.Action{``0})">
+  <h3 id="DataMaster_Modules_MAS_EventAggregator_Interfaces_IEventAggregatorService_Subscribe__1_System_Action___0__" data-uid="DataMaster.Modules.MAS.EventAggregator.Interfaces.IEventAggregatorService.Subscribe``1(System.Action{``0})">
   Subscribe&lt;TEvent&gt;(Action&lt;TEvent&gt;)
-  <a class="header-action link-secondary" title="View source" href="https://bitbucket.org/mas-software/industrial-mes-net-platform-advanced/src/feature/Charts-ProductionVolumeWebView/Modules/MAS.EventAggregator/Services/EventAggregatorServices.cs#lines-32"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://bitbucket.org/mas-software/industrial-mes-net-platform-advanced/src/feature/Charts-ProductionVolumeWebView/Modules/MAS.EventAggregator/Interfaces/IEventAggregator.cs#lines-18"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>订阅事件</p>
@@ -216,7 +172,7 @@ Class EventAggregatorServices  <a class="header-action link-secondary" title="Vi
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public void Subscribe&lt;TEvent&gt;(Action&lt;TEvent&gt; action)</code></pre>
+    <pre><code class="lang-csharp hljs">void Subscribe&lt;TEvent&gt;(Action&lt;TEvent&gt; action)</code></pre>
   </div>
 
   <h4 class="section">Parameters</h4>
@@ -243,11 +199,11 @@ Class EventAggregatorServices  <a class="header-action link-secondary" title="Vi
 
 
 
-  <a id="DataMaster_Modules_MAS_EventAggregator_Services_EventAggregatorServices_Unsubscribe_" data-uid="DataMaster.Modules.MAS.EventAggregator.Services.EventAggregatorServices.Unsubscribe*"></a>
+  <a id="DataMaster_Modules_MAS_EventAggregator_Interfaces_IEventAggregatorService_Unsubscribe_" data-uid="DataMaster.Modules.MAS.EventAggregator.Interfaces.IEventAggregatorService.Unsubscribe*"></a>
 
-  <h3 id="DataMaster_Modules_MAS_EventAggregator_Services_EventAggregatorServices_Unsubscribe__1_System_Action___0__" data-uid="DataMaster.Modules.MAS.EventAggregator.Services.EventAggregatorServices.Unsubscribe``1(System.Action{``0})">
+  <h3 id="DataMaster_Modules_MAS_EventAggregator_Interfaces_IEventAggregatorService_Unsubscribe__1_System_Action___0__" data-uid="DataMaster.Modules.MAS.EventAggregator.Interfaces.IEventAggregatorService.Unsubscribe``1(System.Action{``0})">
   Unsubscribe&lt;TEvent&gt;(Action&lt;TEvent&gt;)
-  <a class="header-action link-secondary" title="View source" href="https://bitbucket.org/mas-software/industrial-mes-net-platform-advanced/src/feature/Charts-ProductionVolumeWebView/Modules/MAS.EventAggregator/Services/EventAggregatorServices.cs#lines-48"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://bitbucket.org/mas-software/industrial-mes-net-platform-advanced/src/feature/Charts-ProductionVolumeWebView/Modules/MAS.EventAggregator/Interfaces/IEventAggregator.cs#lines-27"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>取消事件订阅</p>
@@ -255,7 +211,7 @@ Class EventAggregatorServices  <a class="header-action link-secondary" title="Vi
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public void Unsubscribe&lt;TEvent&gt;(Action&lt;TEvent&gt; action)</code></pre>
+    <pre><code class="lang-csharp hljs">void Unsubscribe&lt;TEvent&gt;(Action&lt;TEvent&gt; action)</code></pre>
   </div>
 
   <h4 class="section">Parameters</h4>
@@ -288,7 +244,7 @@ Class EventAggregatorServices  <a class="header-action link-secondary" title="Vi
 </article>
 
         <div class="contribution d-print-none">
-          <a href="https://bitbucket.org/mas-software/industrial-mes-net-platform-advanced/src/feature/Charts-ProductionVolumeWebView/Modules/MAS.EventAggregator/Services/EventAggregatorServices.cs#lines-24" class="edit-link">Edit this page</a>
+          <a href="https://bitbucket.org/mas-software/industrial-mes-net-platform-advanced/src/feature/Charts-ProductionVolumeWebView/Modules/MAS.EventAggregator/Interfaces/IEventAggregator.cs#lines-12" class="edit-link">Edit this page</a>
         </div>
 
 

@@ -612,6 +612,16 @@
     },
     {
       "type": "ManagedReference",
+      "source_relative_path": "api/DataMaster.Modules.MAS.Charts.Abstracts.StatsServiceBase.CacheKeys.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DataMaster.Modules.MAS.Charts.Abstracts.StatsServiceBase.CacheKeys.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
       "source_relative_path": "api/DataMaster.Modules.MAS.Charts.Abstracts.StatsServiceBase.yml",
       "output": {
         ".html": {
@@ -1652,6 +1662,26 @@
     },
     {
       "type": "ManagedReference",
+      "source_relative_path": "api/DataMaster.Modules.MAS.EventAggregator.Interfaces.IEventAggregatorService.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DataMaster.Modules.MAS.EventAggregator.Interfaces.IEventAggregatorService.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/DataMaster.Modules.MAS.EventAggregator.Interfaces.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DataMaster.Modules.MAS.EventAggregator.Interfaces.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
       "source_relative_path": "api/DataMaster.Modules.MAS.EventAggregator.Services.EventAggregatorServices.yml",
       "output": {
         ".html": {
@@ -1716,6 +1746,26 @@
       "output": {
         ".html": {
           "relative_path": "api/DataMaster.Modules.MAS.InstantMessage.API.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/DataMaster.Modules.MAS.InstantMessage.Interfaces.IInstantMessageService.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DataMaster.Modules.MAS.InstantMessage.Interfaces.IInstantMessageService.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/DataMaster.Modules.MAS.InstantMessage.Interfaces.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DataMaster.Modules.MAS.InstantMessage.Interfaces.html"
         }
       },
       "version": ""
@@ -1816,6 +1866,66 @@
       "output": {
         ".html": {
           "relative_path": "api/DataMaster.Modules.MAS.Security.API.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/DataMaster.Modules.MAS.Security.Interfaces.IAuthenticationService.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DataMaster.Modules.MAS.Security.Interfaces.IAuthenticationService.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/DataMaster.Modules.MAS.Security.Interfaces.IEncryptionService.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DataMaster.Modules.MAS.Security.Interfaces.IEncryptionService.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/DataMaster.Modules.MAS.Security.Interfaces.IUserManagementService.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DataMaster.Modules.MAS.Security.Interfaces.IUserManagementService.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/DataMaster.Modules.MAS.Security.Interfaces.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DataMaster.Modules.MAS.Security.Interfaces.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/DataMaster.Modules.MAS.Security.Models.UserInfo.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DataMaster.Modules.MAS.Security.Models.UserInfo.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/DataMaster.Modules.MAS.Security.Models.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DataMaster.Modules.MAS.Security.Models.html"
         }
       },
       "version": ""
@@ -2235,20 +2345,40 @@
     },
     {
       "type": "Conceptual",
-      "source_relative_path": "content/MAS.Controls.md",
+      "source_relative_path": "content/DataBase/EquipmentManagement.md",
       "output": {
         ".html": {
-          "relative_path": "content/MAS.Controls.html"
+          "relative_path": "content/DataBase/EquipmentManagement.html"
         }
       },
       "version": ""
     },
     {
       "type": "Conceptual",
-      "source_relative_path": "content/MAS.EventAggregator.md",
+      "source_relative_path": "content/DataBase/PasswordSetting.md",
       "output": {
         ".html": {
-          "relative_path": "content/MAS.EventAggregator.html"
+          "relative_path": "content/DataBase/PasswordSetting.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "content/MAS-Modules/MAS.Controls.md",
+      "output": {
+        ".html": {
+          "relative_path": "content/MAS-Modules/MAS.Controls.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "content/MAS-Modules/MAS.EventAggregator.md",
+      "output": {
+        ".html": {
+          "relative_path": "content/MAS-Modules/MAS.EventAggregator.html"
         }
       },
       "version": ""
