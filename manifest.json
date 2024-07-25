@@ -2458,6 +2458,46 @@
     },
     {
       "type": "Resource",
+      "source_relative_path": "images/DataBase.jpg",
+      "output": {
+        "resource": {
+          "relative_path": "images/DataBase.jpg"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/DataMaster_Charts.png",
+      "output": {
+        "resource": {
+          "relative_path": "images/DataMaster_Charts.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/DataMaster_PLC_Charts.jpg",
+      "output": {
+        "resource": {
+          "relative_path": "images/DataMaster_PLC_Charts.jpg"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/InstantMessages.jpg",
+      "output": {
+        "resource": {
+          "relative_path": "images/InstantMessages.jpg"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
       "source_relative_path": "images/drawio/S7Communication.drawio.png",
       "output": {
         "resource": {
