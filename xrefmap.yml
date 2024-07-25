@@ -16509,6 +16509,25 @@ references:
   isSpec: "True"
   fullName: DataMaster.Test.Modules.MAS.DataCache.TestClass1.Number
   nameWithType: TestClass1.Number
+- uid: DataMaster.Test.Modules.MAS.DataCache.TestClass2
+  name: TestClass2
+  href: api/DataMaster.Test.Modules.MAS.DataCache.TestClass2.html
+  commentId: T:DataMaster.Test.Modules.MAS.DataCache.TestClass2
+  fullName: DataMaster.Test.Modules.MAS.DataCache.TestClass2
+  nameWithType: TestClass2
+- uid: DataMaster.Test.Modules.MAS.DataCache.TestClass2.Value
+  name: Value
+  href: api/DataMaster.Test.Modules.MAS.DataCache.TestClass2.html#DataMaster_Test_Modules_MAS_DataCache_TestClass2_Value
+  commentId: P:DataMaster.Test.Modules.MAS.DataCache.TestClass2.Value
+  fullName: DataMaster.Test.Modules.MAS.DataCache.TestClass2.Value
+  nameWithType: TestClass2.Value
+- uid: DataMaster.Test.Modules.MAS.DataCache.TestClass2.Value*
+  name: Value
+  href: api/DataMaster.Test.Modules.MAS.DataCache.TestClass2.html#DataMaster_Test_Modules_MAS_DataCache_TestClass2_Value_
+  commentId: Overload:DataMaster.Test.Modules.MAS.DataCache.TestClass2.Value
+  isSpec: "True"
+  fullName: DataMaster.Test.Modules.MAS.DataCache.TestClass2.Value
+  nameWithType: TestClass2.Value
 - uid: DataMaster.Test.Modules.MAS.DataCache.TestClassPerformance
   name: TestClassPerformance
   href: api/DataMaster.Test.Modules.MAS.DataCache.TestClassPerformance.html
@@ -16651,6 +16670,19 @@ references:
   commentId: T:DataMaster.Test.Modules.MAS.DataCache.数据缓存服务测试
   fullName: DataMaster.Test.Modules.MAS.DataCache.数据缓存服务测试
   nameWithType: 数据缓存服务测试
+- uid: DataMaster.Test.Modules.MAS.DataCache.数据缓存服务测试.AddLargeListToCache_Performance_Test
+  name: AddLargeListToCache_Performance_Test()
+  href: api/DataMaster.Test.Modules.MAS.DataCache.%E6%95%B0%E6%8D%AE%E7%BC%93%E5%AD%98%E6%9C%8D%E5%8A%A1%E6%B5%8B%E8%AF%95.html#DataMaster_Test_Modules_MAS_DataCache__________AddLargeListToCache_Performance_Test
+  commentId: M:DataMaster.Test.Modules.MAS.DataCache.数据缓存服务测试.AddLargeListToCache_Performance_Test
+  fullName: DataMaster.Test.Modules.MAS.DataCache.数据缓存服务测试.AddLargeListToCache_Performance_Test()
+  nameWithType: 数据缓存服务测试.AddLargeListToCache_Performance_Test()
+- uid: DataMaster.Test.Modules.MAS.DataCache.数据缓存服务测试.AddLargeListToCache_Performance_Test*
+  name: AddLargeListToCache_Performance_Test
+  href: api/DataMaster.Test.Modules.MAS.DataCache.%E6%95%B0%E6%8D%AE%E7%BC%93%E5%AD%98%E6%9C%8D%E5%8A%A1%E6%B5%8B%E8%AF%95.html#DataMaster_Test_Modules_MAS_DataCache__________AddLargeListToCache_Performance_Test_
+  commentId: Overload:DataMaster.Test.Modules.MAS.DataCache.数据缓存服务测试.AddLargeListToCache_Performance_Test
+  isSpec: "True"
+  fullName: DataMaster.Test.Modules.MAS.DataCache.数据缓存服务测试.AddLargeListToCache_Performance_Test
+  nameWithType: 数据缓存服务测试.AddLargeListToCache_Performance_Test
 - uid: DataMaster.Test.Modules.MAS.DataCache.数据缓存服务测试.AddOrUpdate_And_GetCacheData_Test
   name: AddOrUpdate_And_GetCacheData_Test()
   href: api/DataMaster.Test.Modules.MAS.DataCache.%E6%95%B0%E6%8D%AE%E7%BC%93%E5%AD%98%E6%9C%8D%E5%8A%A1%E6%B5%8B%E8%AF%95.html#DataMaster_Test_Modules_MAS_DataCache__________AddOrUpdate_And_GetCacheData_Test
@@ -17901,3 +17933,73 @@ references:
   isSpec: "True"
   fullName: DataMaster.Views.Pages.SettingsPage.ViewModel
   nameWithType: SettingsPage.ViewModel
+- uid: DataMaster.Views.Windows
+  name: DataMaster.Views.Windows
+  href: api/DataMaster.Views.Windows.html
+  commentId: N:DataMaster.Views.Windows
+  fullName: DataMaster.Views.Windows
+  nameWithType: DataMaster.Views.Windows
+- uid: DataMaster.Views.Windows.FullScreenWindow
+  name: FullScreenWindow
+  href: api/DataMaster.Views.Windows.FullScreenWindow.html
+  commentId: T:DataMaster.Views.Windows.FullScreenWindow
+  fullName: DataMaster.Views.Windows.FullScreenWindow
+  nameWithType: FullScreenWindow
+- uid: DataMaster.Views.Windows.FullScreenWindow.#ctor
+  name: FullScreenWindow()
+  href: api/DataMaster.Views.Windows.FullScreenWindow.html#DataMaster_Views_Windows_FullScreenWindow__ctor
+  commentId: M:DataMaster.Views.Windows.FullScreenWindow.#ctor
+  name.vb: New()
+  fullName: DataMaster.Views.Windows.FullScreenWindow.FullScreenWindow()
+  fullName.vb: DataMaster.Views.Windows.FullScreenWindow.New()
+  nameWithType: FullScreenWindow.FullScreenWindow()
+  nameWithType.vb: FullScreenWindow.New()
+- uid: DataMaster.Views.Windows.FullScreenWindow.#ctor*
+  name: FullScreenWindow
+  href: api/DataMaster.Views.Windows.FullScreenWindow.html#DataMaster_Views_Windows_FullScreenWindow__ctor_
+  commentId: Overload:DataMaster.Views.Windows.FullScreenWindow.#ctor
+  isSpec: "True"
+  name.vb: New
+  fullName: DataMaster.Views.Windows.FullScreenWindow.FullScreenWindow
+  fullName.vb: DataMaster.Views.Windows.FullScreenWindow.New
+  nameWithType: FullScreenWindow.FullScreenWindow
+  nameWithType.vb: FullScreenWindow.New
+- uid: DataMaster.Views.Windows.FullScreenWindow.InitializeComponent
+  name: InitializeComponent()
+  href: api/DataMaster.Views.Windows.FullScreenWindow.html#DataMaster_Views_Windows_FullScreenWindow_InitializeComponent
+  commentId: M:DataMaster.Views.Windows.FullScreenWindow.InitializeComponent
+  fullName: DataMaster.Views.Windows.FullScreenWindow.InitializeComponent()
+  nameWithType: FullScreenWindow.InitializeComponent()
+- uid: DataMaster.Views.Windows.FullScreenWindow.InitializeComponent*
+  name: InitializeComponent
+  href: api/DataMaster.Views.Windows.FullScreenWindow.html#DataMaster_Views_Windows_FullScreenWindow_InitializeComponent_
+  commentId: Overload:DataMaster.Views.Windows.FullScreenWindow.InitializeComponent
+  isSpec: "True"
+  fullName: DataMaster.Views.Windows.FullScreenWindow.InitializeComponent
+  nameWithType: FullScreenWindow.InitializeComponent
+- uid: DataMaster.Views.Windows.FullScreenWindow.SetControlContent(System.Windows.UIElement)
+  name: SetControlContent(UIElement)
+  href: api/DataMaster.Views.Windows.FullScreenWindow.html#DataMaster_Views_Windows_FullScreenWindow_SetControlContent_System_Windows_UIElement_
+  commentId: M:DataMaster.Views.Windows.FullScreenWindow.SetControlContent(System.Windows.UIElement)
+  fullName: DataMaster.Views.Windows.FullScreenWindow.SetControlContent(System.Windows.UIElement)
+  nameWithType: FullScreenWindow.SetControlContent(UIElement)
+- uid: DataMaster.Views.Windows.FullScreenWindow.SetControlContent*
+  name: SetControlContent
+  href: api/DataMaster.Views.Windows.FullScreenWindow.html#DataMaster_Views_Windows_FullScreenWindow_SetControlContent_
+  commentId: Overload:DataMaster.Views.Windows.FullScreenWindow.SetControlContent
+  isSpec: "True"
+  fullName: DataMaster.Views.Windows.FullScreenWindow.SetControlContent
+  nameWithType: FullScreenWindow.SetControlContent
+- uid: DataMaster.Views.Windows.FullScreenWindow.SetPageContent(System.Windows.Controls.Page)
+  name: SetPageContent(Page)
+  href: api/DataMaster.Views.Windows.FullScreenWindow.html#DataMaster_Views_Windows_FullScreenWindow_SetPageContent_System_Windows_Controls_Page_
+  commentId: M:DataMaster.Views.Windows.FullScreenWindow.SetPageContent(System.Windows.Controls.Page)
+  fullName: DataMaster.Views.Windows.FullScreenWindow.SetPageContent(System.Windows.Controls.Page)
+  nameWithType: FullScreenWindow.SetPageContent(Page)
+- uid: DataMaster.Views.Windows.FullScreenWindow.SetPageContent*
+  name: SetPageContent
+  href: api/DataMaster.Views.Windows.FullScreenWindow.html#DataMaster_Views_Windows_FullScreenWindow_SetPageContent_
+  commentId: Overload:DataMaster.Views.Windows.FullScreenWindow.SetPageContent
+  isSpec: "True"
+  fullName: DataMaster.Views.Windows.FullScreenWindow.SetPageContent
+  nameWithType: FullScreenWindow.SetPageContent

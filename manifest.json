@@ -2072,6 +2072,16 @@
     },
     {
       "type": "ManagedReference",
+      "source_relative_path": "api/DataMaster.Test.Modules.MAS.DataCache.TestClass2.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DataMaster.Test.Modules.MAS.DataCache.TestClass2.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
       "source_relative_path": "api/DataMaster.Test.Modules.MAS.DataCache.TestClassPerformance.yml",
       "output": {
         ".html": {
@@ -2322,6 +2332,26 @@
     },
     {
       "type": "ManagedReference",
+      "source_relative_path": "api/DataMaster.Views.Windows.FullScreenWindow.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DataMaster.Views.Windows.FullScreenWindow.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/DataMaster.Views.Windows.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DataMaster.Views.Windows.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
       "source_relative_path": "api/DataMaster.yml",
       "output": {
         ".html": {
@@ -2345,6 +2375,26 @@
     },
     {
       "type": "Conceptual",
+      "source_relative_path": "content/App-Feature.md",
+      "output": {
+        ".html": {
+          "relative_path": "content/App-Feature.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "content/Command-line/git.md",
+      "output": {
+        ".html": {
+          "relative_path": "content/Command-line/git.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
       "source_relative_path": "content/DataBase/EquipmentManagement.md",
       "output": {
         ".html": {
@@ -2359,6 +2409,16 @@
       "output": {
         ".html": {
           "relative_path": "content/DataBase/PasswordSetting.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "content/Flow-Chart/S7Communication.MD",
+      "output": {
+        ".html": {
+          "relative_path": "content/Flow-Chart/S7Communication.html"
         }
       },
       "version": ""
@@ -2392,6 +2452,16 @@
         },
         ".json": {
           "relative_path": "content/toc.json"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/drawio/S7Communication.drawio.png",
+      "output": {
+        "resource": {
+          "relative_path": "images/drawio/S7Communication.drawio.png"
         }
       },
       "version": ""
@@ -2432,6 +2502,26 @@
       "output": {
         "resource": {
           "relative_path": "images/logo.svg"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/test/测试信息.png",
+      "output": {
+        "resource": {
+          "relative_path": "images/test/测试信息.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/test/通讯反射性能测试.png",
+      "output": {
+        "resource": {
+          "relative_path": "images/test/通讯反射性能测试.png"
         }
       },
       "version": ""
