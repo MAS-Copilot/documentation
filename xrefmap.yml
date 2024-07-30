@@ -695,22 +695,22 @@ references:
   isSpec: "True"
   fullName: DataMaster.Helpers.FileHelper.MoveFile
   nameWithType: FileHelper.MoveFile
-- uid: DataMaster.Helpers.FileHelper.OpenPath(System.String)
-  name: OpenPath(string)
-  href: api/DataMaster.Helpers.FileHelper.html#DataMaster_Helpers_FileHelper_OpenPath_System_String_
-  commentId: M:DataMaster.Helpers.FileHelper.OpenPath(System.String)
-  name.vb: OpenPath(String)
-  fullName: DataMaster.Helpers.FileHelper.OpenPath(string)
-  fullName.vb: DataMaster.Helpers.FileHelper.OpenPath(String)
-  nameWithType: FileHelper.OpenPath(string)
-  nameWithType.vb: FileHelper.OpenPath(String)
-- uid: DataMaster.Helpers.FileHelper.OpenPath*
-  name: OpenPath
-  href: api/DataMaster.Helpers.FileHelper.html#DataMaster_Helpers_FileHelper_OpenPath_
-  commentId: Overload:DataMaster.Helpers.FileHelper.OpenPath
+- uid: DataMaster.Helpers.FileHelper.OpenFolder(System.String)
+  name: OpenFolder(string)
+  href: api/DataMaster.Helpers.FileHelper.html#DataMaster_Helpers_FileHelper_OpenFolder_System_String_
+  commentId: M:DataMaster.Helpers.FileHelper.OpenFolder(System.String)
+  name.vb: OpenFolder(String)
+  fullName: DataMaster.Helpers.FileHelper.OpenFolder(string)
+  fullName.vb: DataMaster.Helpers.FileHelper.OpenFolder(String)
+  nameWithType: FileHelper.OpenFolder(string)
+  nameWithType.vb: FileHelper.OpenFolder(String)
+- uid: DataMaster.Helpers.FileHelper.OpenFolder*
+  name: OpenFolder
+  href: api/DataMaster.Helpers.FileHelper.html#DataMaster_Helpers_FileHelper_OpenFolder_
+  commentId: Overload:DataMaster.Helpers.FileHelper.OpenFolder
   isSpec: "True"
-  fullName: DataMaster.Helpers.FileHelper.OpenPath
-  nameWithType: FileHelper.OpenPath
+  fullName: DataMaster.Helpers.FileHelper.OpenFolder
+  nameWithType: FileHelper.OpenFolder
 - uid: DataMaster.Helpers.FileHelper.ReadFileToStream(System.String)
   name: ReadFileToStream(string)
   href: api/DataMaster.Helpers.FileHelper.html#DataMaster_Helpers_FileHelper_ReadFileToStream_System_String_
@@ -2488,6 +2488,12 @@ references:
   commentId: F:DataMaster.Models.ApplicationInformation.BaiduMapsUrl
   fullName: DataMaster.Models.ApplicationInformation.BaiduMapsUrl
   nameWithType: ApplicationInformation.BaiduMapsUrl
+- uid: DataMaster.Models.ApplicationInformation.CertificateStorePath
+  name: CertificateStorePath
+  href: api/DataMaster.Models.ApplicationInformation.html#DataMaster_Models_ApplicationInformation_CertificateStorePath
+  commentId: F:DataMaster.Models.ApplicationInformation.CertificateStorePath
+  fullName: DataMaster.Models.ApplicationInformation.CertificateStorePath
+  nameWithType: ApplicationInformation.CertificateStorePath
 - uid: DataMaster.Models.ApplicationInformation.ChangelogUrl
   name: ChangelogUrl
   href: api/DataMaster.Models.ApplicationInformation.html#DataMaster_Models_ApplicationInformation_ChangelogUrl
@@ -2500,6 +2506,12 @@ references:
   commentId: F:DataMaster.Models.ApplicationInformation.ChartsPath
   fullName: DataMaster.Models.ApplicationInformation.ChartsPath
   nameWithType: ApplicationInformation.ChartsPath
+- uid: DataMaster.Models.ApplicationInformation.CompanyWebsite
+  name: CompanyWebsite
+  href: api/DataMaster.Models.ApplicationInformation.html#DataMaster_Models_ApplicationInformation_CompanyWebsite
+  commentId: F:DataMaster.Models.ApplicationInformation.CompanyWebsite
+  fullName: DataMaster.Models.ApplicationInformation.CompanyWebsite
+  nameWithType: ApplicationInformation.CompanyWebsite
 - uid: DataMaster.Models.ApplicationInformation.ConfigFilePath
   name: ConfigFilePath
   href: api/DataMaster.Models.ApplicationInformation.html#DataMaster_Models_ApplicationInformation_ConfigFilePath
@@ -3657,6 +3669,181 @@ references:
   isSpec: "True"
   fullName: DataMaster.Models.Configurations.MessageListStyle.VerticalMargin
   nameWithType: MessageListStyle.VerticalMargin
+- uid: DataMaster.Models.Configurations.OpcUaClientConfig
+  name: OpcUaClientConfig
+  href: api/DataMaster.Models.Configurations.OpcUaClientConfig.html
+  commentId: T:DataMaster.Models.Configurations.OpcUaClientConfig
+  fullName: DataMaster.Models.Configurations.OpcUaClientConfig
+  nameWithType: OpcUaClientConfig
+- uid: DataMaster.Models.Configurations.OpcUaClientConfig.AttributeId
+  name: AttributeId
+  href: api/DataMaster.Models.Configurations.OpcUaClientConfig.html#DataMaster_Models_Configurations_OpcUaClientConfig_AttributeId
+  commentId: P:DataMaster.Models.Configurations.OpcUaClientConfig.AttributeId
+  fullName: DataMaster.Models.Configurations.OpcUaClientConfig.AttributeId
+  nameWithType: OpcUaClientConfig.AttributeId
+- uid: DataMaster.Models.Configurations.OpcUaClientConfig.AttributeId*
+  name: AttributeId
+  href: api/DataMaster.Models.Configurations.OpcUaClientConfig.html#DataMaster_Models_Configurations_OpcUaClientConfig_AttributeId_
+  commentId: Overload:DataMaster.Models.Configurations.OpcUaClientConfig.AttributeId
+  isSpec: "True"
+  fullName: DataMaster.Models.Configurations.OpcUaClientConfig.AttributeId
+  nameWithType: OpcUaClientConfig.AttributeId
+- uid: DataMaster.Models.Configurations.OpcUaClientConfig.DiscardOldest
+  name: DiscardOldest
+  href: api/DataMaster.Models.Configurations.OpcUaClientConfig.html#DataMaster_Models_Configurations_OpcUaClientConfig_DiscardOldest
+  commentId: P:DataMaster.Models.Configurations.OpcUaClientConfig.DiscardOldest
+  fullName: DataMaster.Models.Configurations.OpcUaClientConfig.DiscardOldest
+  nameWithType: OpcUaClientConfig.DiscardOldest
+- uid: DataMaster.Models.Configurations.OpcUaClientConfig.DiscardOldest*
+  name: DiscardOldest
+  href: api/DataMaster.Models.Configurations.OpcUaClientConfig.html#DataMaster_Models_Configurations_OpcUaClientConfig_DiscardOldest_
+  commentId: Overload:DataMaster.Models.Configurations.OpcUaClientConfig.DiscardOldest
+  isSpec: "True"
+  fullName: DataMaster.Models.Configurations.OpcUaClientConfig.DiscardOldest
+  nameWithType: OpcUaClientConfig.DiscardOldest
+- uid: DataMaster.Models.Configurations.OpcUaClientConfig.DisplayName
+  name: DisplayName
+  href: api/DataMaster.Models.Configurations.OpcUaClientConfig.html#DataMaster_Models_Configurations_OpcUaClientConfig_DisplayName
+  commentId: P:DataMaster.Models.Configurations.OpcUaClientConfig.DisplayName
+  fullName: DataMaster.Models.Configurations.OpcUaClientConfig.DisplayName
+  nameWithType: OpcUaClientConfig.DisplayName
+- uid: DataMaster.Models.Configurations.OpcUaClientConfig.DisplayName*
+  name: DisplayName
+  href: api/DataMaster.Models.Configurations.OpcUaClientConfig.html#DataMaster_Models_Configurations_OpcUaClientConfig_DisplayName_
+  commentId: Overload:DataMaster.Models.Configurations.OpcUaClientConfig.DisplayName
+  isSpec: "True"
+  fullName: DataMaster.Models.Configurations.OpcUaClientConfig.DisplayName
+  nameWithType: OpcUaClientConfig.DisplayName
+- uid: DataMaster.Models.Configurations.OpcUaClientConfig.KeepAliveCount
+  name: KeepAliveCount
+  href: api/DataMaster.Models.Configurations.OpcUaClientConfig.html#DataMaster_Models_Configurations_OpcUaClientConfig_KeepAliveCount
+  commentId: P:DataMaster.Models.Configurations.OpcUaClientConfig.KeepAliveCount
+  fullName: DataMaster.Models.Configurations.OpcUaClientConfig.KeepAliveCount
+  nameWithType: OpcUaClientConfig.KeepAliveCount
+- uid: DataMaster.Models.Configurations.OpcUaClientConfig.KeepAliveCount*
+  name: KeepAliveCount
+  href: api/DataMaster.Models.Configurations.OpcUaClientConfig.html#DataMaster_Models_Configurations_OpcUaClientConfig_KeepAliveCount_
+  commentId: Overload:DataMaster.Models.Configurations.OpcUaClientConfig.KeepAliveCount
+  isSpec: "True"
+  fullName: DataMaster.Models.Configurations.OpcUaClientConfig.KeepAliveCount
+  nameWithType: OpcUaClientConfig.KeepAliveCount
+- uid: DataMaster.Models.Configurations.OpcUaClientConfig.LifetimeCount
+  name: LifetimeCount
+  href: api/DataMaster.Models.Configurations.OpcUaClientConfig.html#DataMaster_Models_Configurations_OpcUaClientConfig_LifetimeCount
+  commentId: P:DataMaster.Models.Configurations.OpcUaClientConfig.LifetimeCount
+  fullName: DataMaster.Models.Configurations.OpcUaClientConfig.LifetimeCount
+  nameWithType: OpcUaClientConfig.LifetimeCount
+- uid: DataMaster.Models.Configurations.OpcUaClientConfig.LifetimeCount*
+  name: LifetimeCount
+  href: api/DataMaster.Models.Configurations.OpcUaClientConfig.html#DataMaster_Models_Configurations_OpcUaClientConfig_LifetimeCount_
+  commentId: Overload:DataMaster.Models.Configurations.OpcUaClientConfig.LifetimeCount
+  isSpec: "True"
+  fullName: DataMaster.Models.Configurations.OpcUaClientConfig.LifetimeCount
+  nameWithType: OpcUaClientConfig.LifetimeCount
+- uid: DataMaster.Models.Configurations.OpcUaClientConfig.MaxNotificationsPerPublish
+  name: MaxNotificationsPerPublish
+  href: api/DataMaster.Models.Configurations.OpcUaClientConfig.html#DataMaster_Models_Configurations_OpcUaClientConfig_MaxNotificationsPerPublish
+  commentId: P:DataMaster.Models.Configurations.OpcUaClientConfig.MaxNotificationsPerPublish
+  fullName: DataMaster.Models.Configurations.OpcUaClientConfig.MaxNotificationsPerPublish
+  nameWithType: OpcUaClientConfig.MaxNotificationsPerPublish
+- uid: DataMaster.Models.Configurations.OpcUaClientConfig.MaxNotificationsPerPublish*
+  name: MaxNotificationsPerPublish
+  href: api/DataMaster.Models.Configurations.OpcUaClientConfig.html#DataMaster_Models_Configurations_OpcUaClientConfig_MaxNotificationsPerPublish_
+  commentId: Overload:DataMaster.Models.Configurations.OpcUaClientConfig.MaxNotificationsPerPublish
+  isSpec: "True"
+  fullName: DataMaster.Models.Configurations.OpcUaClientConfig.MaxNotificationsPerPublish
+  nameWithType: OpcUaClientConfig.MaxNotificationsPerPublish
+- uid: DataMaster.Models.Configurations.OpcUaClientConfig.MonitoringMode
+  name: MonitoringMode
+  href: api/DataMaster.Models.Configurations.OpcUaClientConfig.html#DataMaster_Models_Configurations_OpcUaClientConfig_MonitoringMode
+  commentId: P:DataMaster.Models.Configurations.OpcUaClientConfig.MonitoringMode
+  fullName: DataMaster.Models.Configurations.OpcUaClientConfig.MonitoringMode
+  nameWithType: OpcUaClientConfig.MonitoringMode
+- uid: DataMaster.Models.Configurations.OpcUaClientConfig.MonitoringMode*
+  name: MonitoringMode
+  href: api/DataMaster.Models.Configurations.OpcUaClientConfig.html#DataMaster_Models_Configurations_OpcUaClientConfig_MonitoringMode_
+  commentId: Overload:DataMaster.Models.Configurations.OpcUaClientConfig.MonitoringMode
+  isSpec: "True"
+  fullName: DataMaster.Models.Configurations.OpcUaClientConfig.MonitoringMode
+  nameWithType: OpcUaClientConfig.MonitoringMode
+- uid: DataMaster.Models.Configurations.OpcUaClientConfig.NodeId
+  name: NodeId
+  href: api/DataMaster.Models.Configurations.OpcUaClientConfig.html#DataMaster_Models_Configurations_OpcUaClientConfig_NodeId
+  commentId: P:DataMaster.Models.Configurations.OpcUaClientConfig.NodeId
+  fullName: DataMaster.Models.Configurations.OpcUaClientConfig.NodeId
+  nameWithType: OpcUaClientConfig.NodeId
+- uid: DataMaster.Models.Configurations.OpcUaClientConfig.NodeId*
+  name: NodeId
+  href: api/DataMaster.Models.Configurations.OpcUaClientConfig.html#DataMaster_Models_Configurations_OpcUaClientConfig_NodeId_
+  commentId: Overload:DataMaster.Models.Configurations.OpcUaClientConfig.NodeId
+  isSpec: "True"
+  fullName: DataMaster.Models.Configurations.OpcUaClientConfig.NodeId
+  nameWithType: OpcUaClientConfig.NodeId
+- uid: DataMaster.Models.Configurations.OpcUaClientConfig.Priority
+  name: Priority
+  href: api/DataMaster.Models.Configurations.OpcUaClientConfig.html#DataMaster_Models_Configurations_OpcUaClientConfig_Priority
+  commentId: P:DataMaster.Models.Configurations.OpcUaClientConfig.Priority
+  fullName: DataMaster.Models.Configurations.OpcUaClientConfig.Priority
+  nameWithType: OpcUaClientConfig.Priority
+- uid: DataMaster.Models.Configurations.OpcUaClientConfig.Priority*
+  name: Priority
+  href: api/DataMaster.Models.Configurations.OpcUaClientConfig.html#DataMaster_Models_Configurations_OpcUaClientConfig_Priority_
+  commentId: Overload:DataMaster.Models.Configurations.OpcUaClientConfig.Priority
+  isSpec: "True"
+  fullName: DataMaster.Models.Configurations.OpcUaClientConfig.Priority
+  nameWithType: OpcUaClientConfig.Priority
+- uid: DataMaster.Models.Configurations.OpcUaClientConfig.PublishingEnabled
+  name: PublishingEnabled
+  href: api/DataMaster.Models.Configurations.OpcUaClientConfig.html#DataMaster_Models_Configurations_OpcUaClientConfig_PublishingEnabled
+  commentId: P:DataMaster.Models.Configurations.OpcUaClientConfig.PublishingEnabled
+  fullName: DataMaster.Models.Configurations.OpcUaClientConfig.PublishingEnabled
+  nameWithType: OpcUaClientConfig.PublishingEnabled
+- uid: DataMaster.Models.Configurations.OpcUaClientConfig.PublishingEnabled*
+  name: PublishingEnabled
+  href: api/DataMaster.Models.Configurations.OpcUaClientConfig.html#DataMaster_Models_Configurations_OpcUaClientConfig_PublishingEnabled_
+  commentId: Overload:DataMaster.Models.Configurations.OpcUaClientConfig.PublishingEnabled
+  isSpec: "True"
+  fullName: DataMaster.Models.Configurations.OpcUaClientConfig.PublishingEnabled
+  nameWithType: OpcUaClientConfig.PublishingEnabled
+- uid: DataMaster.Models.Configurations.OpcUaClientConfig.PublishingInterval
+  name: PublishingInterval
+  href: api/DataMaster.Models.Configurations.OpcUaClientConfig.html#DataMaster_Models_Configurations_OpcUaClientConfig_PublishingInterval
+  commentId: P:DataMaster.Models.Configurations.OpcUaClientConfig.PublishingInterval
+  fullName: DataMaster.Models.Configurations.OpcUaClientConfig.PublishingInterval
+  nameWithType: OpcUaClientConfig.PublishingInterval
+- uid: DataMaster.Models.Configurations.OpcUaClientConfig.PublishingInterval*
+  name: PublishingInterval
+  href: api/DataMaster.Models.Configurations.OpcUaClientConfig.html#DataMaster_Models_Configurations_OpcUaClientConfig_PublishingInterval_
+  commentId: Overload:DataMaster.Models.Configurations.OpcUaClientConfig.PublishingInterval
+  isSpec: "True"
+  fullName: DataMaster.Models.Configurations.OpcUaClientConfig.PublishingInterval
+  nameWithType: OpcUaClientConfig.PublishingInterval
+- uid: DataMaster.Models.Configurations.OpcUaClientConfig.QueueSize
+  name: QueueSize
+  href: api/DataMaster.Models.Configurations.OpcUaClientConfig.html#DataMaster_Models_Configurations_OpcUaClientConfig_QueueSize
+  commentId: P:DataMaster.Models.Configurations.OpcUaClientConfig.QueueSize
+  fullName: DataMaster.Models.Configurations.OpcUaClientConfig.QueueSize
+  nameWithType: OpcUaClientConfig.QueueSize
+- uid: DataMaster.Models.Configurations.OpcUaClientConfig.QueueSize*
+  name: QueueSize
+  href: api/DataMaster.Models.Configurations.OpcUaClientConfig.html#DataMaster_Models_Configurations_OpcUaClientConfig_QueueSize_
+  commentId: Overload:DataMaster.Models.Configurations.OpcUaClientConfig.QueueSize
+  isSpec: "True"
+  fullName: DataMaster.Models.Configurations.OpcUaClientConfig.QueueSize
+  nameWithType: OpcUaClientConfig.QueueSize
+- uid: DataMaster.Models.Configurations.OpcUaClientConfig.SamplingInterval
+  name: SamplingInterval
+  href: api/DataMaster.Models.Configurations.OpcUaClientConfig.html#DataMaster_Models_Configurations_OpcUaClientConfig_SamplingInterval
+  commentId: P:DataMaster.Models.Configurations.OpcUaClientConfig.SamplingInterval
+  fullName: DataMaster.Models.Configurations.OpcUaClientConfig.SamplingInterval
+  nameWithType: OpcUaClientConfig.SamplingInterval
+- uid: DataMaster.Models.Configurations.OpcUaClientConfig.SamplingInterval*
+  name: SamplingInterval
+  href: api/DataMaster.Models.Configurations.OpcUaClientConfig.html#DataMaster_Models_Configurations_OpcUaClientConfig_SamplingInterval_
+  commentId: Overload:DataMaster.Models.Configurations.OpcUaClientConfig.SamplingInterval
+  isSpec: "True"
+  fullName: DataMaster.Models.Configurations.OpcUaClientConfig.SamplingInterval
+  nameWithType: OpcUaClientConfig.SamplingInterval
 - uid: DataMaster.Models.Configurations.ProductionVolumeConfig
   name: ProductionVolumeConfig
   href: api/DataMaster.Models.Configurations.ProductionVolumeConfig.html
@@ -3870,31 +4057,44 @@ references:
   isSpec: "True"
   fullName: DataMaster.Models.Configurations.S7ProtocolConfig.WriteStructDBAdr
   nameWithType: S7ProtocolConfig.WriteStructDBAdr
+- uid: DataMaster.Models.Configurations.ServerUrlsConfig
+  name: ServerUrlsConfig
+  href: api/DataMaster.Models.Configurations.ServerUrlsConfig.html
+  commentId: T:DataMaster.Models.Configurations.ServerUrlsConfig
+  fullName: DataMaster.Models.Configurations.ServerUrlsConfig
+  nameWithType: ServerUrlsConfig
+- uid: DataMaster.Models.Configurations.ServerUrlsConfig.LastSelectionIndex
+  name: LastSelectionIndex
+  href: api/DataMaster.Models.Configurations.ServerUrlsConfig.html#DataMaster_Models_Configurations_ServerUrlsConfig_LastSelectionIndex
+  commentId: P:DataMaster.Models.Configurations.ServerUrlsConfig.LastSelectionIndex
+  fullName: DataMaster.Models.Configurations.ServerUrlsConfig.LastSelectionIndex
+  nameWithType: ServerUrlsConfig.LastSelectionIndex
+- uid: DataMaster.Models.Configurations.ServerUrlsConfig.LastSelectionIndex*
+  name: LastSelectionIndex
+  href: api/DataMaster.Models.Configurations.ServerUrlsConfig.html#DataMaster_Models_Configurations_ServerUrlsConfig_LastSelectionIndex_
+  commentId: Overload:DataMaster.Models.Configurations.ServerUrlsConfig.LastSelectionIndex
+  isSpec: "True"
+  fullName: DataMaster.Models.Configurations.ServerUrlsConfig.LastSelectionIndex
+  nameWithType: ServerUrlsConfig.LastSelectionIndex
+- uid: DataMaster.Models.Configurations.ServerUrlsConfig.ServerUrls
+  name: ServerUrls
+  href: api/DataMaster.Models.Configurations.ServerUrlsConfig.html#DataMaster_Models_Configurations_ServerUrlsConfig_ServerUrls
+  commentId: P:DataMaster.Models.Configurations.ServerUrlsConfig.ServerUrls
+  fullName: DataMaster.Models.Configurations.ServerUrlsConfig.ServerUrls
+  nameWithType: ServerUrlsConfig.ServerUrls
+- uid: DataMaster.Models.Configurations.ServerUrlsConfig.ServerUrls*
+  name: ServerUrls
+  href: api/DataMaster.Models.Configurations.ServerUrlsConfig.html#DataMaster_Models_Configurations_ServerUrlsConfig_ServerUrls_
+  commentId: Overload:DataMaster.Models.Configurations.ServerUrlsConfig.ServerUrls
+  isSpec: "True"
+  fullName: DataMaster.Models.Configurations.ServerUrlsConfig.ServerUrls
+  nameWithType: ServerUrlsConfig.ServerUrls
 - uid: DataMaster.Models.Configurations.SettingsConfig
   name: SettingsConfig
   href: api/DataMaster.Models.Configurations.SettingsConfig.html
   commentId: T:DataMaster.Models.Configurations.SettingsConfig
   fullName: DataMaster.Models.Configurations.SettingsConfig
   nameWithType: SettingsConfig
-- uid: DataMaster.Models.Configurations.SettingsConfig.#ctor
-  name: SettingsConfig()
-  href: api/DataMaster.Models.Configurations.SettingsConfig.html#DataMaster_Models_Configurations_SettingsConfig__ctor
-  commentId: M:DataMaster.Models.Configurations.SettingsConfig.#ctor
-  name.vb: New()
-  fullName: DataMaster.Models.Configurations.SettingsConfig.SettingsConfig()
-  fullName.vb: DataMaster.Models.Configurations.SettingsConfig.New()
-  nameWithType: SettingsConfig.SettingsConfig()
-  nameWithType.vb: SettingsConfig.New()
-- uid: DataMaster.Models.Configurations.SettingsConfig.#ctor*
-  name: SettingsConfig
-  href: api/DataMaster.Models.Configurations.SettingsConfig.html#DataMaster_Models_Configurations_SettingsConfig__ctor_
-  commentId: Overload:DataMaster.Models.Configurations.SettingsConfig.#ctor
-  isSpec: "True"
-  name.vb: New
-  fullName: DataMaster.Models.Configurations.SettingsConfig.SettingsConfig
-  fullName.vb: DataMaster.Models.Configurations.SettingsConfig.New
-  nameWithType: SettingsConfig.SettingsConfig
-  nameWithType.vb: SettingsConfig.New
 - uid: DataMaster.Models.Configurations.SettingsConfig.AppTheme
   name: AppTheme
   href: api/DataMaster.Models.Configurations.SettingsConfig.html#DataMaster_Models_Configurations_SettingsConfig_AppTheme
@@ -4141,6 +4341,19 @@ references:
   isSpec: "True"
   fullName: DataMaster.Models.Configurations.SettingsConfig.SendWordRegisterOptions
   nameWithType: SettingsConfig.SendWordRegisterOptions
+- uid: DataMaster.Models.Configurations.SettingsConfig.ServerUrls
+  name: ServerUrls
+  href: api/DataMaster.Models.Configurations.SettingsConfig.html#DataMaster_Models_Configurations_SettingsConfig_ServerUrls
+  commentId: P:DataMaster.Models.Configurations.SettingsConfig.ServerUrls
+  fullName: DataMaster.Models.Configurations.SettingsConfig.ServerUrls
+  nameWithType: SettingsConfig.ServerUrls
+- uid: DataMaster.Models.Configurations.SettingsConfig.ServerUrls*
+  name: ServerUrls
+  href: api/DataMaster.Models.Configurations.SettingsConfig.html#DataMaster_Models_Configurations_SettingsConfig_ServerUrls_
+  commentId: Overload:DataMaster.Models.Configurations.SettingsConfig.ServerUrls
+  isSpec: "True"
+  fullName: DataMaster.Models.Configurations.SettingsConfig.ServerUrls
+  nameWithType: SettingsConfig.ServerUrls
 - uid: DataMaster.Models.Configurations.SettingsConfig.StartWorkFile
   name: StartWorkFile
   href: api/DataMaster.Models.Configurations.SettingsConfig.html#DataMaster_Models_Configurations_SettingsConfig_StartWorkFile
@@ -5744,6 +5957,709 @@ references:
   isSpec: "True"
   fullName: DataMaster.Modules.MAS.Communication.MCProtocols.Interfaces.IMCPlcCommunication.WriteWordsAsync
   nameWithType: IMCPlcCommunication.WriteWordsAsync
+- uid: DataMaster.Modules.MAS.Communication.Opc.Ua
+  name: DataMaster.Modules.MAS.Communication.Opc.Ua
+  href: api/DataMaster.Modules.MAS.Communication.Opc.Ua.html
+  commentId: N:DataMaster.Modules.MAS.Communication.Opc.Ua
+  fullName: DataMaster.Modules.MAS.Communication.Opc.Ua
+  nameWithType: DataMaster.Modules.MAS.Communication.Opc.Ua
+- uid: DataMaster.Modules.MAS.Communication.Opc.Ua.Helpers
+  name: DataMaster.Modules.MAS.Communication.Opc.Ua.Helpers
+  href: api/DataMaster.Modules.MAS.Communication.Opc.Ua.Helpers.html
+  commentId: N:DataMaster.Modules.MAS.Communication.Opc.Ua.Helpers
+  fullName: DataMaster.Modules.MAS.Communication.Opc.Ua.Helpers
+  nameWithType: DataMaster.Modules.MAS.Communication.Opc.Ua.Helpers
+- uid: DataMaster.Modules.MAS.Communication.Opc.Ua.Helpers.MonitoredItemHelper
+  name: MonitoredItemHelper
+  href: api/DataMaster.Modules.MAS.Communication.Opc.Ua.Helpers.MonitoredItemHelper.html
+  commentId: T:DataMaster.Modules.MAS.Communication.Opc.Ua.Helpers.MonitoredItemHelper
+  fullName: DataMaster.Modules.MAS.Communication.Opc.Ua.Helpers.MonitoredItemHelper
+  nameWithType: MonitoredItemHelper
+- uid: DataMaster.Modules.MAS.Communication.Opc.Ua.Helpers.MonitoredItemHelper.CreateMonitoredItem(DataMaster.Modules.MAS.Communication.Opc.Ua.Interface.IMonitoredItemSettings)
+  name: CreateMonitoredItem(IMonitoredItemSettings)
+  href: api/DataMaster.Modules.MAS.Communication.Opc.Ua.Helpers.MonitoredItemHelper.html#DataMaster_Modules_MAS_Communication_Opc_Ua_Helpers_MonitoredItemHelper_CreateMonitoredItem_DataMaster_Modules_MAS_Communication_Opc_Ua_Interface_IMonitoredItemSettings_
+  commentId: M:DataMaster.Modules.MAS.Communication.Opc.Ua.Helpers.MonitoredItemHelper.CreateMonitoredItem(DataMaster.Modules.MAS.Communication.Opc.Ua.Interface.IMonitoredItemSettings)
+  fullName: DataMaster.Modules.MAS.Communication.Opc.Ua.Helpers.MonitoredItemHelper.CreateMonitoredItem(DataMaster.Modules.MAS.Communication.Opc.Ua.Interface.IMonitoredItemSettings)
+  nameWithType: MonitoredItemHelper.CreateMonitoredItem(IMonitoredItemSettings)
+- uid: DataMaster.Modules.MAS.Communication.Opc.Ua.Helpers.MonitoredItemHelper.CreateMonitoredItem*
+  name: CreateMonitoredItem
+  href: api/DataMaster.Modules.MAS.Communication.Opc.Ua.Helpers.MonitoredItemHelper.html#DataMaster_Modules_MAS_Communication_Opc_Ua_Helpers_MonitoredItemHelper_CreateMonitoredItem_
+  commentId: Overload:DataMaster.Modules.MAS.Communication.Opc.Ua.Helpers.MonitoredItemHelper.CreateMonitoredItem
+  isSpec: "True"
+  fullName: DataMaster.Modules.MAS.Communication.Opc.Ua.Helpers.MonitoredItemHelper.CreateMonitoredItem
+  nameWithType: MonitoredItemHelper.CreateMonitoredItem
+- uid: DataMaster.Modules.MAS.Communication.Opc.Ua.Helpers.SubscriptionHelper
+  name: SubscriptionHelper
+  href: api/DataMaster.Modules.MAS.Communication.Opc.Ua.Helpers.SubscriptionHelper.html
+  commentId: T:DataMaster.Modules.MAS.Communication.Opc.Ua.Helpers.SubscriptionHelper
+  fullName: DataMaster.Modules.MAS.Communication.Opc.Ua.Helpers.SubscriptionHelper
+  nameWithType: SubscriptionHelper
+- uid: DataMaster.Modules.MAS.Communication.Opc.Ua.Helpers.SubscriptionHelper.CreateSubscription(Opc.Ua.Client.Session,DataMaster.Modules.MAS.Communication.Opc.Ua.Interface.ISubscriptionSettings)
+  name: CreateSubscription(Session, ISubscriptionSettings)
+  href: api/DataMaster.Modules.MAS.Communication.Opc.Ua.Helpers.SubscriptionHelper.html#DataMaster_Modules_MAS_Communication_Opc_Ua_Helpers_SubscriptionHelper_CreateSubscription_Opc_Ua_Client_Session_DataMaster_Modules_MAS_Communication_Opc_Ua_Interface_ISubscriptionSettings_
+  commentId: M:DataMaster.Modules.MAS.Communication.Opc.Ua.Helpers.SubscriptionHelper.CreateSubscription(Opc.Ua.Client.Session,DataMaster.Modules.MAS.Communication.Opc.Ua.Interface.ISubscriptionSettings)
+  fullName: DataMaster.Modules.MAS.Communication.Opc.Ua.Helpers.SubscriptionHelper.CreateSubscription(Opc.Ua.Client.Session, DataMaster.Modules.MAS.Communication.Opc.Ua.Interface.ISubscriptionSettings)
+  nameWithType: SubscriptionHelper.CreateSubscription(Session, ISubscriptionSettings)
+- uid: DataMaster.Modules.MAS.Communication.Opc.Ua.Helpers.SubscriptionHelper.CreateSubscription*
+  name: CreateSubscription
+  href: api/DataMaster.Modules.MAS.Communication.Opc.Ua.Helpers.SubscriptionHelper.html#DataMaster_Modules_MAS_Communication_Opc_Ua_Helpers_SubscriptionHelper_CreateSubscription_
+  commentId: Overload:DataMaster.Modules.MAS.Communication.Opc.Ua.Helpers.SubscriptionHelper.CreateSubscription
+  isSpec: "True"
+  fullName: DataMaster.Modules.MAS.Communication.Opc.Ua.Helpers.SubscriptionHelper.CreateSubscription
+  nameWithType: SubscriptionHelper.CreateSubscription
+- uid: DataMaster.Modules.MAS.Communication.Opc.Ua.Interface
+  name: DataMaster.Modules.MAS.Communication.Opc.Ua.Interface
+  href: api/DataMaster.Modules.MAS.Communication.Opc.Ua.Interface.html
+  commentId: N:DataMaster.Modules.MAS.Communication.Opc.Ua.Interface
+  fullName: DataMaster.Modules.MAS.Communication.Opc.Ua.Interface
+  nameWithType: DataMaster.Modules.MAS.Communication.Opc.Ua.Interface
+- uid: DataMaster.Modules.MAS.Communication.Opc.Ua.Interface.IMonitoredItemSettings
+  name: IMonitoredItemSettings
+  href: api/DataMaster.Modules.MAS.Communication.Opc.Ua.Interface.IMonitoredItemSettings.html
+  commentId: T:DataMaster.Modules.MAS.Communication.Opc.Ua.Interface.IMonitoredItemSettings
+  fullName: DataMaster.Modules.MAS.Communication.Opc.Ua.Interface.IMonitoredItemSettings
+  nameWithType: IMonitoredItemSettings
+- uid: DataMaster.Modules.MAS.Communication.Opc.Ua.Interface.IMonitoredItemSettings.AttributeId
+  name: AttributeId
+  href: api/DataMaster.Modules.MAS.Communication.Opc.Ua.Interface.IMonitoredItemSettings.html#DataMaster_Modules_MAS_Communication_Opc_Ua_Interface_IMonitoredItemSettings_AttributeId
+  commentId: P:DataMaster.Modules.MAS.Communication.Opc.Ua.Interface.IMonitoredItemSettings.AttributeId
+  fullName: DataMaster.Modules.MAS.Communication.Opc.Ua.Interface.IMonitoredItemSettings.AttributeId
+  nameWithType: IMonitoredItemSettings.AttributeId
+- uid: DataMaster.Modules.MAS.Communication.Opc.Ua.Interface.IMonitoredItemSettings.AttributeId*
+  name: AttributeId
+  href: api/DataMaster.Modules.MAS.Communication.Opc.Ua.Interface.IMonitoredItemSettings.html#DataMaster_Modules_MAS_Communication_Opc_Ua_Interface_IMonitoredItemSettings_AttributeId_
+  commentId: Overload:DataMaster.Modules.MAS.Communication.Opc.Ua.Interface.IMonitoredItemSettings.AttributeId
+  isSpec: "True"
+  fullName: DataMaster.Modules.MAS.Communication.Opc.Ua.Interface.IMonitoredItemSettings.AttributeId
+  nameWithType: IMonitoredItemSettings.AttributeId
+- uid: DataMaster.Modules.MAS.Communication.Opc.Ua.Interface.IMonitoredItemSettings.DiscardOldest
+  name: DiscardOldest
+  href: api/DataMaster.Modules.MAS.Communication.Opc.Ua.Interface.IMonitoredItemSettings.html#DataMaster_Modules_MAS_Communication_Opc_Ua_Interface_IMonitoredItemSettings_DiscardOldest
+  commentId: P:DataMaster.Modules.MAS.Communication.Opc.Ua.Interface.IMonitoredItemSettings.DiscardOldest
+  fullName: DataMaster.Modules.MAS.Communication.Opc.Ua.Interface.IMonitoredItemSettings.DiscardOldest
+  nameWithType: IMonitoredItemSettings.DiscardOldest
+- uid: DataMaster.Modules.MAS.Communication.Opc.Ua.Interface.IMonitoredItemSettings.DiscardOldest*
+  name: DiscardOldest
+  href: api/DataMaster.Modules.MAS.Communication.Opc.Ua.Interface.IMonitoredItemSettings.html#DataMaster_Modules_MAS_Communication_Opc_Ua_Interface_IMonitoredItemSettings_DiscardOldest_
+  commentId: Overload:DataMaster.Modules.MAS.Communication.Opc.Ua.Interface.IMonitoredItemSettings.DiscardOldest
+  isSpec: "True"
+  fullName: DataMaster.Modules.MAS.Communication.Opc.Ua.Interface.IMonitoredItemSettings.DiscardOldest
+  nameWithType: IMonitoredItemSettings.DiscardOldest
+- uid: DataMaster.Modules.MAS.Communication.Opc.Ua.Interface.IMonitoredItemSettings.MonitoringMode
+  name: MonitoringMode
+  href: api/DataMaster.Modules.MAS.Communication.Opc.Ua.Interface.IMonitoredItemSettings.html#DataMaster_Modules_MAS_Communication_Opc_Ua_Interface_IMonitoredItemSettings_MonitoringMode
+  commentId: P:DataMaster.Modules.MAS.Communication.Opc.Ua.Interface.IMonitoredItemSettings.MonitoringMode
+  fullName: DataMaster.Modules.MAS.Communication.Opc.Ua.Interface.IMonitoredItemSettings.MonitoringMode
+  nameWithType: IMonitoredItemSettings.MonitoringMode
+- uid: DataMaster.Modules.MAS.Communication.Opc.Ua.Interface.IMonitoredItemSettings.MonitoringMode*
+  name: MonitoringMode
+  href: api/DataMaster.Modules.MAS.Communication.Opc.Ua.Interface.IMonitoredItemSettings.html#DataMaster_Modules_MAS_Communication_Opc_Ua_Interface_IMonitoredItemSettings_MonitoringMode_
+  commentId: Overload:DataMaster.Modules.MAS.Communication.Opc.Ua.Interface.IMonitoredItemSettings.MonitoringMode
+  isSpec: "True"
+  fullName: DataMaster.Modules.MAS.Communication.Opc.Ua.Interface.IMonitoredItemSettings.MonitoringMode
+  nameWithType: IMonitoredItemSettings.MonitoringMode
+- uid: DataMaster.Modules.MAS.Communication.Opc.Ua.Interface.IMonitoredItemSettings.NodeId
+  name: NodeId
+  href: api/DataMaster.Modules.MAS.Communication.Opc.Ua.Interface.IMonitoredItemSettings.html#DataMaster_Modules_MAS_Communication_Opc_Ua_Interface_IMonitoredItemSettings_NodeId
+  commentId: P:DataMaster.Modules.MAS.Communication.Opc.Ua.Interface.IMonitoredItemSettings.NodeId
+  fullName: DataMaster.Modules.MAS.Communication.Opc.Ua.Interface.IMonitoredItemSettings.NodeId
+  nameWithType: IMonitoredItemSettings.NodeId
+- uid: DataMaster.Modules.MAS.Communication.Opc.Ua.Interface.IMonitoredItemSettings.NodeId*
+  name: NodeId
+  href: api/DataMaster.Modules.MAS.Communication.Opc.Ua.Interface.IMonitoredItemSettings.html#DataMaster_Modules_MAS_Communication_Opc_Ua_Interface_IMonitoredItemSettings_NodeId_
+  commentId: Overload:DataMaster.Modules.MAS.Communication.Opc.Ua.Interface.IMonitoredItemSettings.NodeId
+  isSpec: "True"
+  fullName: DataMaster.Modules.MAS.Communication.Opc.Ua.Interface.IMonitoredItemSettings.NodeId
+  nameWithType: IMonitoredItemSettings.NodeId
+- uid: DataMaster.Modules.MAS.Communication.Opc.Ua.Interface.IMonitoredItemSettings.QueueSize
+  name: QueueSize
+  href: api/DataMaster.Modules.MAS.Communication.Opc.Ua.Interface.IMonitoredItemSettings.html#DataMaster_Modules_MAS_Communication_Opc_Ua_Interface_IMonitoredItemSettings_QueueSize
+  commentId: P:DataMaster.Modules.MAS.Communication.Opc.Ua.Interface.IMonitoredItemSettings.QueueSize
+  fullName: DataMaster.Modules.MAS.Communication.Opc.Ua.Interface.IMonitoredItemSettings.QueueSize
+  nameWithType: IMonitoredItemSettings.QueueSize
+- uid: DataMaster.Modules.MAS.Communication.Opc.Ua.Interface.IMonitoredItemSettings.QueueSize*
+  name: QueueSize
+  href: api/DataMaster.Modules.MAS.Communication.Opc.Ua.Interface.IMonitoredItemSettings.html#DataMaster_Modules_MAS_Communication_Opc_Ua_Interface_IMonitoredItemSettings_QueueSize_
+  commentId: Overload:DataMaster.Modules.MAS.Communication.Opc.Ua.Interface.IMonitoredItemSettings.QueueSize
+  isSpec: "True"
+  fullName: DataMaster.Modules.MAS.Communication.Opc.Ua.Interface.IMonitoredItemSettings.QueueSize
+  nameWithType: IMonitoredItemSettings.QueueSize
+- uid: DataMaster.Modules.MAS.Communication.Opc.Ua.Interface.IMonitoredItemSettings.SamplingInterval
+  name: SamplingInterval
+  href: api/DataMaster.Modules.MAS.Communication.Opc.Ua.Interface.IMonitoredItemSettings.html#DataMaster_Modules_MAS_Communication_Opc_Ua_Interface_IMonitoredItemSettings_SamplingInterval
+  commentId: P:DataMaster.Modules.MAS.Communication.Opc.Ua.Interface.IMonitoredItemSettings.SamplingInterval
+  fullName: DataMaster.Modules.MAS.Communication.Opc.Ua.Interface.IMonitoredItemSettings.SamplingInterval
+  nameWithType: IMonitoredItemSettings.SamplingInterval
+- uid: DataMaster.Modules.MAS.Communication.Opc.Ua.Interface.IMonitoredItemSettings.SamplingInterval*
+  name: SamplingInterval
+  href: api/DataMaster.Modules.MAS.Communication.Opc.Ua.Interface.IMonitoredItemSettings.html#DataMaster_Modules_MAS_Communication_Opc_Ua_Interface_IMonitoredItemSettings_SamplingInterval_
+  commentId: Overload:DataMaster.Modules.MAS.Communication.Opc.Ua.Interface.IMonitoredItemSettings.SamplingInterval
+  isSpec: "True"
+  fullName: DataMaster.Modules.MAS.Communication.Opc.Ua.Interface.IMonitoredItemSettings.SamplingInterval
+  nameWithType: IMonitoredItemSettings.SamplingInterval
+- uid: DataMaster.Modules.MAS.Communication.Opc.Ua.Interface.IOpcAdvancedSubscription
+  name: IOpcAdvancedSubscription
+  href: api/DataMaster.Modules.MAS.Communication.Opc.Ua.Interface.IOpcAdvancedSubscription.html
+  commentId: T:DataMaster.Modules.MAS.Communication.Opc.Ua.Interface.IOpcAdvancedSubscription
+  fullName: DataMaster.Modules.MAS.Communication.Opc.Ua.Interface.IOpcAdvancedSubscription
+  nameWithType: IOpcAdvancedSubscription
+- uid: DataMaster.Modules.MAS.Communication.Opc.Ua.Interface.IOpcAdvancedSubscription.SubscribeToAlarms(System.String,System.Action{System.Object})
+  name: SubscribeToAlarms(string, Action<object>)
+  href: api/DataMaster.Modules.MAS.Communication.Opc.Ua.Interface.IOpcAdvancedSubscription.html#DataMaster_Modules_MAS_Communication_Opc_Ua_Interface_IOpcAdvancedSubscription_SubscribeToAlarms_System_String_System_Action_System_Object__
+  commentId: M:DataMaster.Modules.MAS.Communication.Opc.Ua.Interface.IOpcAdvancedSubscription.SubscribeToAlarms(System.String,System.Action{System.Object})
+  name.vb: SubscribeToAlarms(String, Action(Of Object))
+  fullName: DataMaster.Modules.MAS.Communication.Opc.Ua.Interface.IOpcAdvancedSubscription.SubscribeToAlarms(string, System.Action<object>)
+  fullName.vb: DataMaster.Modules.MAS.Communication.Opc.Ua.Interface.IOpcAdvancedSubscription.SubscribeToAlarms(String, System.Action(Of Object))
+  nameWithType: IOpcAdvancedSubscription.SubscribeToAlarms(string, Action<object>)
+  nameWithType.vb: IOpcAdvancedSubscription.SubscribeToAlarms(String, Action(Of Object))
+- uid: DataMaster.Modules.MAS.Communication.Opc.Ua.Interface.IOpcAdvancedSubscription.SubscribeToAlarms*
+  name: SubscribeToAlarms
+  href: api/DataMaster.Modules.MAS.Communication.Opc.Ua.Interface.IOpcAdvancedSubscription.html#DataMaster_Modules_MAS_Communication_Opc_Ua_Interface_IOpcAdvancedSubscription_SubscribeToAlarms_
+  commentId: Overload:DataMaster.Modules.MAS.Communication.Opc.Ua.Interface.IOpcAdvancedSubscription.SubscribeToAlarms
+  isSpec: "True"
+  fullName: DataMaster.Modules.MAS.Communication.Opc.Ua.Interface.IOpcAdvancedSubscription.SubscribeToAlarms
+  nameWithType: IOpcAdvancedSubscription.SubscribeToAlarms
+- uid: DataMaster.Modules.MAS.Communication.Opc.Ua.Interface.IOpcAdvancedSubscription.SubscribeToEvents(System.String,System.Action{System.Object})
+  name: SubscribeToEvents(string, Action<object>)
+  href: api/DataMaster.Modules.MAS.Communication.Opc.Ua.Interface.IOpcAdvancedSubscription.html#DataMaster_Modules_MAS_Communication_Opc_Ua_Interface_IOpcAdvancedSubscription_SubscribeToEvents_System_String_System_Action_System_Object__
+  commentId: M:DataMaster.Modules.MAS.Communication.Opc.Ua.Interface.IOpcAdvancedSubscription.SubscribeToEvents(System.String,System.Action{System.Object})
+  name.vb: SubscribeToEvents(String, Action(Of Object))
+  fullName: DataMaster.Modules.MAS.Communication.Opc.Ua.Interface.IOpcAdvancedSubscription.SubscribeToEvents(string, System.Action<object>)
+  fullName.vb: DataMaster.Modules.MAS.Communication.Opc.Ua.Interface.IOpcAdvancedSubscription.SubscribeToEvents(String, System.Action(Of Object))
+  nameWithType: IOpcAdvancedSubscription.SubscribeToEvents(string, Action<object>)
+  nameWithType.vb: IOpcAdvancedSubscription.SubscribeToEvents(String, Action(Of Object))
+- uid: DataMaster.Modules.MAS.Communication.Opc.Ua.Interface.IOpcAdvancedSubscription.SubscribeToEvents*
+  name: SubscribeToEvents
+  href: api/DataMaster.Modules.MAS.Communication.Opc.Ua.Interface.IOpcAdvancedSubscription.html#DataMaster_Modules_MAS_Communication_Opc_Ua_Interface_IOpcAdvancedSubscription_SubscribeToEvents_
+  commentId: Overload:DataMaster.Modules.MAS.Communication.Opc.Ua.Interface.IOpcAdvancedSubscription.SubscribeToEvents
+  isSpec: "True"
+  fullName: DataMaster.Modules.MAS.Communication.Opc.Ua.Interface.IOpcAdvancedSubscription.SubscribeToEvents
+  nameWithType: IOpcAdvancedSubscription.SubscribeToEvents
+- uid: DataMaster.Modules.MAS.Communication.Opc.Ua.Interface.IOpcClient
+  name: IOpcClient
+  href: api/DataMaster.Modules.MAS.Communication.Opc.Ua.Interface.IOpcClient.html
+  commentId: T:DataMaster.Modules.MAS.Communication.Opc.Ua.Interface.IOpcClient
+  fullName: DataMaster.Modules.MAS.Communication.Opc.Ua.Interface.IOpcClient
+  nameWithType: IOpcClient
+- uid: DataMaster.Modules.MAS.Communication.Opc.Ua.Interface.IOpcClient.DisconnectAsync
+  name: DisconnectAsync()
+  href: api/DataMaster.Modules.MAS.Communication.Opc.Ua.Interface.IOpcClient.html#DataMaster_Modules_MAS_Communication_Opc_Ua_Interface_IOpcClient_DisconnectAsync
+  commentId: M:DataMaster.Modules.MAS.Communication.Opc.Ua.Interface.IOpcClient.DisconnectAsync
+  fullName: DataMaster.Modules.MAS.Communication.Opc.Ua.Interface.IOpcClient.DisconnectAsync()
+  nameWithType: IOpcClient.DisconnectAsync()
+- uid: DataMaster.Modules.MAS.Communication.Opc.Ua.Interface.IOpcClient.DisconnectAsync*
+  name: DisconnectAsync
+  href: api/DataMaster.Modules.MAS.Communication.Opc.Ua.Interface.IOpcClient.html#DataMaster_Modules_MAS_Communication_Opc_Ua_Interface_IOpcClient_DisconnectAsync_
+  commentId: Overload:DataMaster.Modules.MAS.Communication.Opc.Ua.Interface.IOpcClient.DisconnectAsync
+  isSpec: "True"
+  fullName: DataMaster.Modules.MAS.Communication.Opc.Ua.Interface.IOpcClient.DisconnectAsync
+  nameWithType: IOpcClient.DisconnectAsync
+- uid: DataMaster.Modules.MAS.Communication.Opc.Ua.Interface.IOpcClient.InitializeAsync(System.String,System.Boolean)
+  name: InitializeAsync(string, bool)
+  href: api/DataMaster.Modules.MAS.Communication.Opc.Ua.Interface.IOpcClient.html#DataMaster_Modules_MAS_Communication_Opc_Ua_Interface_IOpcClient_InitializeAsync_System_String_System_Boolean_
+  commentId: M:DataMaster.Modules.MAS.Communication.Opc.Ua.Interface.IOpcClient.InitializeAsync(System.String,System.Boolean)
+  name.vb: InitializeAsync(String, Boolean)
+  fullName: DataMaster.Modules.MAS.Communication.Opc.Ua.Interface.IOpcClient.InitializeAsync(string, bool)
+  fullName.vb: DataMaster.Modules.MAS.Communication.Opc.Ua.Interface.IOpcClient.InitializeAsync(String, Boolean)
+  nameWithType: IOpcClient.InitializeAsync(string, bool)
+  nameWithType.vb: IOpcClient.InitializeAsync(String, Boolean)
+- uid: DataMaster.Modules.MAS.Communication.Opc.Ua.Interface.IOpcClient.InitializeAsync*
+  name: InitializeAsync
+  href: api/DataMaster.Modules.MAS.Communication.Opc.Ua.Interface.IOpcClient.html#DataMaster_Modules_MAS_Communication_Opc_Ua_Interface_IOpcClient_InitializeAsync_
+  commentId: Overload:DataMaster.Modules.MAS.Communication.Opc.Ua.Interface.IOpcClient.InitializeAsync
+  isSpec: "True"
+  fullName: DataMaster.Modules.MAS.Communication.Opc.Ua.Interface.IOpcClient.InitializeAsync
+  nameWithType: IOpcClient.InitializeAsync
+- uid: DataMaster.Modules.MAS.Communication.Opc.Ua.Interface.IOpcClient.IsConnected
+  name: IsConnected()
+  href: api/DataMaster.Modules.MAS.Communication.Opc.Ua.Interface.IOpcClient.html#DataMaster_Modules_MAS_Communication_Opc_Ua_Interface_IOpcClient_IsConnected
+  commentId: M:DataMaster.Modules.MAS.Communication.Opc.Ua.Interface.IOpcClient.IsConnected
+  fullName: DataMaster.Modules.MAS.Communication.Opc.Ua.Interface.IOpcClient.IsConnected()
+  nameWithType: IOpcClient.IsConnected()
+- uid: DataMaster.Modules.MAS.Communication.Opc.Ua.Interface.IOpcClient.IsConnected*
+  name: IsConnected
+  href: api/DataMaster.Modules.MAS.Communication.Opc.Ua.Interface.IOpcClient.html#DataMaster_Modules_MAS_Communication_Opc_Ua_Interface_IOpcClient_IsConnected_
+  commentId: Overload:DataMaster.Modules.MAS.Communication.Opc.Ua.Interface.IOpcClient.IsConnected
+  isSpec: "True"
+  fullName: DataMaster.Modules.MAS.Communication.Opc.Ua.Interface.IOpcClient.IsConnected
+  nameWithType: IOpcClient.IsConnected
+- uid: DataMaster.Modules.MAS.Communication.Opc.Ua.Interface.IOpcClient.ReadNodeAsync(System.String)
+  name: ReadNodeAsync(string)
+  href: api/DataMaster.Modules.MAS.Communication.Opc.Ua.Interface.IOpcClient.html#DataMaster_Modules_MAS_Communication_Opc_Ua_Interface_IOpcClient_ReadNodeAsync_System_String_
+  commentId: M:DataMaster.Modules.MAS.Communication.Opc.Ua.Interface.IOpcClient.ReadNodeAsync(System.String)
+  name.vb: ReadNodeAsync(String)
+  fullName: DataMaster.Modules.MAS.Communication.Opc.Ua.Interface.IOpcClient.ReadNodeAsync(string)
+  fullName.vb: DataMaster.Modules.MAS.Communication.Opc.Ua.Interface.IOpcClient.ReadNodeAsync(String)
+  nameWithType: IOpcClient.ReadNodeAsync(string)
+  nameWithType.vb: IOpcClient.ReadNodeAsync(String)
+- uid: DataMaster.Modules.MAS.Communication.Opc.Ua.Interface.IOpcClient.ReadNodeAsync*
+  name: ReadNodeAsync
+  href: api/DataMaster.Modules.MAS.Communication.Opc.Ua.Interface.IOpcClient.html#DataMaster_Modules_MAS_Communication_Opc_Ua_Interface_IOpcClient_ReadNodeAsync_
+  commentId: Overload:DataMaster.Modules.MAS.Communication.Opc.Ua.Interface.IOpcClient.ReadNodeAsync
+  isSpec: "True"
+  fullName: DataMaster.Modules.MAS.Communication.Opc.Ua.Interface.IOpcClient.ReadNodeAsync
+  nameWithType: IOpcClient.ReadNodeAsync
+- uid: DataMaster.Modules.MAS.Communication.Opc.Ua.Interface.IOpcClient.SetupAsync
+  name: SetupAsync()
+  href: api/DataMaster.Modules.MAS.Communication.Opc.Ua.Interface.IOpcClient.html#DataMaster_Modules_MAS_Communication_Opc_Ua_Interface_IOpcClient_SetupAsync
+  commentId: M:DataMaster.Modules.MAS.Communication.Opc.Ua.Interface.IOpcClient.SetupAsync
+  fullName: DataMaster.Modules.MAS.Communication.Opc.Ua.Interface.IOpcClient.SetupAsync()
+  nameWithType: IOpcClient.SetupAsync()
+- uid: DataMaster.Modules.MAS.Communication.Opc.Ua.Interface.IOpcClient.SetupAsync*
+  name: SetupAsync
+  href: api/DataMaster.Modules.MAS.Communication.Opc.Ua.Interface.IOpcClient.html#DataMaster_Modules_MAS_Communication_Opc_Ua_Interface_IOpcClient_SetupAsync_
+  commentId: Overload:DataMaster.Modules.MAS.Communication.Opc.Ua.Interface.IOpcClient.SetupAsync
+  isSpec: "True"
+  fullName: DataMaster.Modules.MAS.Communication.Opc.Ua.Interface.IOpcClient.SetupAsync
+  nameWithType: IOpcClient.SetupAsync
+- uid: DataMaster.Modules.MAS.Communication.Opc.Ua.Interface.IOpcClient.SubscribeToDataChange(System.Action{System.Object})
+  name: SubscribeToDataChange(Action<object>)
+  href: api/DataMaster.Modules.MAS.Communication.Opc.Ua.Interface.IOpcClient.html#DataMaster_Modules_MAS_Communication_Opc_Ua_Interface_IOpcClient_SubscribeToDataChange_System_Action_System_Object__
+  commentId: M:DataMaster.Modules.MAS.Communication.Opc.Ua.Interface.IOpcClient.SubscribeToDataChange(System.Action{System.Object})
+  name.vb: SubscribeToDataChange(Action(Of Object))
+  fullName: DataMaster.Modules.MAS.Communication.Opc.Ua.Interface.IOpcClient.SubscribeToDataChange(System.Action<object>)
+  fullName.vb: DataMaster.Modules.MAS.Communication.Opc.Ua.Interface.IOpcClient.SubscribeToDataChange(System.Action(Of Object))
+  nameWithType: IOpcClient.SubscribeToDataChange(Action<object>)
+  nameWithType.vb: IOpcClient.SubscribeToDataChange(Action(Of Object))
+- uid: DataMaster.Modules.MAS.Communication.Opc.Ua.Interface.IOpcClient.SubscribeToDataChange(System.Func{System.Object,System.Threading.Tasks.Task})
+  name: SubscribeToDataChange(Func<object, Task>)
+  href: api/DataMaster.Modules.MAS.Communication.Opc.Ua.Interface.IOpcClient.html#DataMaster_Modules_MAS_Communication_Opc_Ua_Interface_IOpcClient_SubscribeToDataChange_System_Func_System_Object_System_Threading_Tasks_Task__
+  commentId: M:DataMaster.Modules.MAS.Communication.Opc.Ua.Interface.IOpcClient.SubscribeToDataChange(System.Func{System.Object,System.Threading.Tasks.Task})
+  name.vb: SubscribeToDataChange(Func(Of Object, Task))
+  fullName: DataMaster.Modules.MAS.Communication.Opc.Ua.Interface.IOpcClient.SubscribeToDataChange(System.Func<object, System.Threading.Tasks.Task>)
+  fullName.vb: DataMaster.Modules.MAS.Communication.Opc.Ua.Interface.IOpcClient.SubscribeToDataChange(System.Func(Of Object, System.Threading.Tasks.Task))
+  nameWithType: IOpcClient.SubscribeToDataChange(Func<object, Task>)
+  nameWithType.vb: IOpcClient.SubscribeToDataChange(Func(Of Object, Task))
+- uid: DataMaster.Modules.MAS.Communication.Opc.Ua.Interface.IOpcClient.SubscribeToDataChange*
+  name: SubscribeToDataChange
+  href: api/DataMaster.Modules.MAS.Communication.Opc.Ua.Interface.IOpcClient.html#DataMaster_Modules_MAS_Communication_Opc_Ua_Interface_IOpcClient_SubscribeToDataChange_
+  commentId: Overload:DataMaster.Modules.MAS.Communication.Opc.Ua.Interface.IOpcClient.SubscribeToDataChange
+  isSpec: "True"
+  fullName: DataMaster.Modules.MAS.Communication.Opc.Ua.Interface.IOpcClient.SubscribeToDataChange
+  nameWithType: IOpcClient.SubscribeToDataChange
+- uid: DataMaster.Modules.MAS.Communication.Opc.Ua.Interface.IOpcClient.WriteNodeAsync(System.String,System.Object,System.Threading.CancellationToken)
+  name: WriteNodeAsync(string, object, CancellationToken)
+  href: api/DataMaster.Modules.MAS.Communication.Opc.Ua.Interface.IOpcClient.html#DataMaster_Modules_MAS_Communication_Opc_Ua_Interface_IOpcClient_WriteNodeAsync_System_String_System_Object_System_Threading_CancellationToken_
+  commentId: M:DataMaster.Modules.MAS.Communication.Opc.Ua.Interface.IOpcClient.WriteNodeAsync(System.String,System.Object,System.Threading.CancellationToken)
+  name.vb: WriteNodeAsync(String, Object, CancellationToken)
+  fullName: DataMaster.Modules.MAS.Communication.Opc.Ua.Interface.IOpcClient.WriteNodeAsync(string, object, System.Threading.CancellationToken)
+  fullName.vb: DataMaster.Modules.MAS.Communication.Opc.Ua.Interface.IOpcClient.WriteNodeAsync(String, Object, System.Threading.CancellationToken)
+  nameWithType: IOpcClient.WriteNodeAsync(string, object, CancellationToken)
+  nameWithType.vb: IOpcClient.WriteNodeAsync(String, Object, CancellationToken)
+- uid: DataMaster.Modules.MAS.Communication.Opc.Ua.Interface.IOpcClient.WriteNodeAsync*
+  name: WriteNodeAsync
+  href: api/DataMaster.Modules.MAS.Communication.Opc.Ua.Interface.IOpcClient.html#DataMaster_Modules_MAS_Communication_Opc_Ua_Interface_IOpcClient_WriteNodeAsync_
+  commentId: Overload:DataMaster.Modules.MAS.Communication.Opc.Ua.Interface.IOpcClient.WriteNodeAsync
+  isSpec: "True"
+  fullName: DataMaster.Modules.MAS.Communication.Opc.Ua.Interface.IOpcClient.WriteNodeAsync
+  nameWithType: IOpcClient.WriteNodeAsync
+- uid: DataMaster.Modules.MAS.Communication.Opc.Ua.Interface.IOpcSecurity
+  name: IOpcSecurity
+  href: api/DataMaster.Modules.MAS.Communication.Opc.Ua.Interface.IOpcSecurity.html
+  commentId: T:DataMaster.Modules.MAS.Communication.Opc.Ua.Interface.IOpcSecurity
+  fullName: DataMaster.Modules.MAS.Communication.Opc.Ua.Interface.IOpcSecurity
+  nameWithType: IOpcSecurity
+- uid: DataMaster.Modules.MAS.Communication.Opc.Ua.Interface.IOpcSecurity.AuthenticateUser(System.String,System.String)
+  name: AuthenticateUser(string, string)
+  href: api/DataMaster.Modules.MAS.Communication.Opc.Ua.Interface.IOpcSecurity.html#DataMaster_Modules_MAS_Communication_Opc_Ua_Interface_IOpcSecurity_AuthenticateUser_System_String_System_String_
+  commentId: M:DataMaster.Modules.MAS.Communication.Opc.Ua.Interface.IOpcSecurity.AuthenticateUser(System.String,System.String)
+  name.vb: AuthenticateUser(String, String)
+  fullName: DataMaster.Modules.MAS.Communication.Opc.Ua.Interface.IOpcSecurity.AuthenticateUser(string, string)
+  fullName.vb: DataMaster.Modules.MAS.Communication.Opc.Ua.Interface.IOpcSecurity.AuthenticateUser(String, String)
+  nameWithType: IOpcSecurity.AuthenticateUser(string, string)
+  nameWithType.vb: IOpcSecurity.AuthenticateUser(String, String)
+- uid: DataMaster.Modules.MAS.Communication.Opc.Ua.Interface.IOpcSecurity.AuthenticateUser*
+  name: AuthenticateUser
+  href: api/DataMaster.Modules.MAS.Communication.Opc.Ua.Interface.IOpcSecurity.html#DataMaster_Modules_MAS_Communication_Opc_Ua_Interface_IOpcSecurity_AuthenticateUser_
+  commentId: Overload:DataMaster.Modules.MAS.Communication.Opc.Ua.Interface.IOpcSecurity.AuthenticateUser
+  isSpec: "True"
+  fullName: DataMaster.Modules.MAS.Communication.Opc.Ua.Interface.IOpcSecurity.AuthenticateUser
+  nameWithType: IOpcSecurity.AuthenticateUser
+- uid: DataMaster.Modules.MAS.Communication.Opc.Ua.Interface.IOpcSecurity.ConfigureSecurity(System.String,System.String)
+  name: ConfigureSecurity(string, string)
+  href: api/DataMaster.Modules.MAS.Communication.Opc.Ua.Interface.IOpcSecurity.html#DataMaster_Modules_MAS_Communication_Opc_Ua_Interface_IOpcSecurity_ConfigureSecurity_System_String_System_String_
+  commentId: M:DataMaster.Modules.MAS.Communication.Opc.Ua.Interface.IOpcSecurity.ConfigureSecurity(System.String,System.String)
+  name.vb: ConfigureSecurity(String, String)
+  fullName: DataMaster.Modules.MAS.Communication.Opc.Ua.Interface.IOpcSecurity.ConfigureSecurity(string, string)
+  fullName.vb: DataMaster.Modules.MAS.Communication.Opc.Ua.Interface.IOpcSecurity.ConfigureSecurity(String, String)
+  nameWithType: IOpcSecurity.ConfigureSecurity(string, string)
+  nameWithType.vb: IOpcSecurity.ConfigureSecurity(String, String)
+- uid: DataMaster.Modules.MAS.Communication.Opc.Ua.Interface.IOpcSecurity.ConfigureSecurity*
+  name: ConfigureSecurity
+  href: api/DataMaster.Modules.MAS.Communication.Opc.Ua.Interface.IOpcSecurity.html#DataMaster_Modules_MAS_Communication_Opc_Ua_Interface_IOpcSecurity_ConfigureSecurity_
+  commentId: Overload:DataMaster.Modules.MAS.Communication.Opc.Ua.Interface.IOpcSecurity.ConfigureSecurity
+  isSpec: "True"
+  fullName: DataMaster.Modules.MAS.Communication.Opc.Ua.Interface.IOpcSecurity.ConfigureSecurity
+  nameWithType: IOpcSecurity.ConfigureSecurity
+- uid: DataMaster.Modules.MAS.Communication.Opc.Ua.Interface.IOpcSessionManagement
+  name: IOpcSessionManagement
+  href: api/DataMaster.Modules.MAS.Communication.Opc.Ua.Interface.IOpcSessionManagement.html
+  commentId: T:DataMaster.Modules.MAS.Communication.Opc.Ua.Interface.IOpcSessionManagement
+  fullName: DataMaster.Modules.MAS.Communication.Opc.Ua.Interface.IOpcSessionManagement
+  nameWithType: IOpcSessionManagement
+- uid: DataMaster.Modules.MAS.Communication.Opc.Ua.Interface.IOpcSessionManagement.KeepAlive
+  name: KeepAlive()
+  href: api/DataMaster.Modules.MAS.Communication.Opc.Ua.Interface.IOpcSessionManagement.html#DataMaster_Modules_MAS_Communication_Opc_Ua_Interface_IOpcSessionManagement_KeepAlive
+  commentId: M:DataMaster.Modules.MAS.Communication.Opc.Ua.Interface.IOpcSessionManagement.KeepAlive
+  fullName: DataMaster.Modules.MAS.Communication.Opc.Ua.Interface.IOpcSessionManagement.KeepAlive()
+  nameWithType: IOpcSessionManagement.KeepAlive()
+- uid: DataMaster.Modules.MAS.Communication.Opc.Ua.Interface.IOpcSessionManagement.KeepAlive*
+  name: KeepAlive
+  href: api/DataMaster.Modules.MAS.Communication.Opc.Ua.Interface.IOpcSessionManagement.html#DataMaster_Modules_MAS_Communication_Opc_Ua_Interface_IOpcSessionManagement_KeepAlive_
+  commentId: Overload:DataMaster.Modules.MAS.Communication.Opc.Ua.Interface.IOpcSessionManagement.KeepAlive
+  isSpec: "True"
+  fullName: DataMaster.Modules.MAS.Communication.Opc.Ua.Interface.IOpcSessionManagement.KeepAlive
+  nameWithType: IOpcSessionManagement.KeepAlive
+- uid: DataMaster.Modules.MAS.Communication.Opc.Ua.Interface.IOpcSessionManagement.RestoreSession
+  name: RestoreSession()
+  href: api/DataMaster.Modules.MAS.Communication.Opc.Ua.Interface.IOpcSessionManagement.html#DataMaster_Modules_MAS_Communication_Opc_Ua_Interface_IOpcSessionManagement_RestoreSession
+  commentId: M:DataMaster.Modules.MAS.Communication.Opc.Ua.Interface.IOpcSessionManagement.RestoreSession
+  fullName: DataMaster.Modules.MAS.Communication.Opc.Ua.Interface.IOpcSessionManagement.RestoreSession()
+  nameWithType: IOpcSessionManagement.RestoreSession()
+- uid: DataMaster.Modules.MAS.Communication.Opc.Ua.Interface.IOpcSessionManagement.RestoreSession*
+  name: RestoreSession
+  href: api/DataMaster.Modules.MAS.Communication.Opc.Ua.Interface.IOpcSessionManagement.html#DataMaster_Modules_MAS_Communication_Opc_Ua_Interface_IOpcSessionManagement_RestoreSession_
+  commentId: Overload:DataMaster.Modules.MAS.Communication.Opc.Ua.Interface.IOpcSessionManagement.RestoreSession
+  isSpec: "True"
+  fullName: DataMaster.Modules.MAS.Communication.Opc.Ua.Interface.IOpcSessionManagement.RestoreSession
+  nameWithType: IOpcSessionManagement.RestoreSession
+- uid: DataMaster.Modules.MAS.Communication.Opc.Ua.Interface.ISubscriptionSettings
+  name: ISubscriptionSettings
+  href: api/DataMaster.Modules.MAS.Communication.Opc.Ua.Interface.ISubscriptionSettings.html
+  commentId: T:DataMaster.Modules.MAS.Communication.Opc.Ua.Interface.ISubscriptionSettings
+  fullName: DataMaster.Modules.MAS.Communication.Opc.Ua.Interface.ISubscriptionSettings
+  nameWithType: ISubscriptionSettings
+- uid: DataMaster.Modules.MAS.Communication.Opc.Ua.Interface.ISubscriptionSettings.DisplayName
+  name: DisplayName
+  href: api/DataMaster.Modules.MAS.Communication.Opc.Ua.Interface.ISubscriptionSettings.html#DataMaster_Modules_MAS_Communication_Opc_Ua_Interface_ISubscriptionSettings_DisplayName
+  commentId: P:DataMaster.Modules.MAS.Communication.Opc.Ua.Interface.ISubscriptionSettings.DisplayName
+  fullName: DataMaster.Modules.MAS.Communication.Opc.Ua.Interface.ISubscriptionSettings.DisplayName
+  nameWithType: ISubscriptionSettings.DisplayName
+- uid: DataMaster.Modules.MAS.Communication.Opc.Ua.Interface.ISubscriptionSettings.DisplayName*
+  name: DisplayName
+  href: api/DataMaster.Modules.MAS.Communication.Opc.Ua.Interface.ISubscriptionSettings.html#DataMaster_Modules_MAS_Communication_Opc_Ua_Interface_ISubscriptionSettings_DisplayName_
+  commentId: Overload:DataMaster.Modules.MAS.Communication.Opc.Ua.Interface.ISubscriptionSettings.DisplayName
+  isSpec: "True"
+  fullName: DataMaster.Modules.MAS.Communication.Opc.Ua.Interface.ISubscriptionSettings.DisplayName
+  nameWithType: ISubscriptionSettings.DisplayName
+- uid: DataMaster.Modules.MAS.Communication.Opc.Ua.Interface.ISubscriptionSettings.KeepAliveCount
+  name: KeepAliveCount
+  href: api/DataMaster.Modules.MAS.Communication.Opc.Ua.Interface.ISubscriptionSettings.html#DataMaster_Modules_MAS_Communication_Opc_Ua_Interface_ISubscriptionSettings_KeepAliveCount
+  commentId: P:DataMaster.Modules.MAS.Communication.Opc.Ua.Interface.ISubscriptionSettings.KeepAliveCount
+  fullName: DataMaster.Modules.MAS.Communication.Opc.Ua.Interface.ISubscriptionSettings.KeepAliveCount
+  nameWithType: ISubscriptionSettings.KeepAliveCount
+- uid: DataMaster.Modules.MAS.Communication.Opc.Ua.Interface.ISubscriptionSettings.KeepAliveCount*
+  name: KeepAliveCount
+  href: api/DataMaster.Modules.MAS.Communication.Opc.Ua.Interface.ISubscriptionSettings.html#DataMaster_Modules_MAS_Communication_Opc_Ua_Interface_ISubscriptionSettings_KeepAliveCount_
+  commentId: Overload:DataMaster.Modules.MAS.Communication.Opc.Ua.Interface.ISubscriptionSettings.KeepAliveCount
+  isSpec: "True"
+  fullName: DataMaster.Modules.MAS.Communication.Opc.Ua.Interface.ISubscriptionSettings.KeepAliveCount
+  nameWithType: ISubscriptionSettings.KeepAliveCount
+- uid: DataMaster.Modules.MAS.Communication.Opc.Ua.Interface.ISubscriptionSettings.LifetimeCount
+  name: LifetimeCount
+  href: api/DataMaster.Modules.MAS.Communication.Opc.Ua.Interface.ISubscriptionSettings.html#DataMaster_Modules_MAS_Communication_Opc_Ua_Interface_ISubscriptionSettings_LifetimeCount
+  commentId: P:DataMaster.Modules.MAS.Communication.Opc.Ua.Interface.ISubscriptionSettings.LifetimeCount
+  fullName: DataMaster.Modules.MAS.Communication.Opc.Ua.Interface.ISubscriptionSettings.LifetimeCount
+  nameWithType: ISubscriptionSettings.LifetimeCount
+- uid: DataMaster.Modules.MAS.Communication.Opc.Ua.Interface.ISubscriptionSettings.LifetimeCount*
+  name: LifetimeCount
+  href: api/DataMaster.Modules.MAS.Communication.Opc.Ua.Interface.ISubscriptionSettings.html#DataMaster_Modules_MAS_Communication_Opc_Ua_Interface_ISubscriptionSettings_LifetimeCount_
+  commentId: Overload:DataMaster.Modules.MAS.Communication.Opc.Ua.Interface.ISubscriptionSettings.LifetimeCount
+  isSpec: "True"
+  fullName: DataMaster.Modules.MAS.Communication.Opc.Ua.Interface.ISubscriptionSettings.LifetimeCount
+  nameWithType: ISubscriptionSettings.LifetimeCount
+- uid: DataMaster.Modules.MAS.Communication.Opc.Ua.Interface.ISubscriptionSettings.MaxNotificationsPerPublish
+  name: MaxNotificationsPerPublish
+  href: api/DataMaster.Modules.MAS.Communication.Opc.Ua.Interface.ISubscriptionSettings.html#DataMaster_Modules_MAS_Communication_Opc_Ua_Interface_ISubscriptionSettings_MaxNotificationsPerPublish
+  commentId: P:DataMaster.Modules.MAS.Communication.Opc.Ua.Interface.ISubscriptionSettings.MaxNotificationsPerPublish
+  fullName: DataMaster.Modules.MAS.Communication.Opc.Ua.Interface.ISubscriptionSettings.MaxNotificationsPerPublish
+  nameWithType: ISubscriptionSettings.MaxNotificationsPerPublish
+- uid: DataMaster.Modules.MAS.Communication.Opc.Ua.Interface.ISubscriptionSettings.MaxNotificationsPerPublish*
+  name: MaxNotificationsPerPublish
+  href: api/DataMaster.Modules.MAS.Communication.Opc.Ua.Interface.ISubscriptionSettings.html#DataMaster_Modules_MAS_Communication_Opc_Ua_Interface_ISubscriptionSettings_MaxNotificationsPerPublish_
+  commentId: Overload:DataMaster.Modules.MAS.Communication.Opc.Ua.Interface.ISubscriptionSettings.MaxNotificationsPerPublish
+  isSpec: "True"
+  fullName: DataMaster.Modules.MAS.Communication.Opc.Ua.Interface.ISubscriptionSettings.MaxNotificationsPerPublish
+  nameWithType: ISubscriptionSettings.MaxNotificationsPerPublish
+- uid: DataMaster.Modules.MAS.Communication.Opc.Ua.Interface.ISubscriptionSettings.Priority
+  name: Priority
+  href: api/DataMaster.Modules.MAS.Communication.Opc.Ua.Interface.ISubscriptionSettings.html#DataMaster_Modules_MAS_Communication_Opc_Ua_Interface_ISubscriptionSettings_Priority
+  commentId: P:DataMaster.Modules.MAS.Communication.Opc.Ua.Interface.ISubscriptionSettings.Priority
+  fullName: DataMaster.Modules.MAS.Communication.Opc.Ua.Interface.ISubscriptionSettings.Priority
+  nameWithType: ISubscriptionSettings.Priority
+- uid: DataMaster.Modules.MAS.Communication.Opc.Ua.Interface.ISubscriptionSettings.Priority*
+  name: Priority
+  href: api/DataMaster.Modules.MAS.Communication.Opc.Ua.Interface.ISubscriptionSettings.html#DataMaster_Modules_MAS_Communication_Opc_Ua_Interface_ISubscriptionSettings_Priority_
+  commentId: Overload:DataMaster.Modules.MAS.Communication.Opc.Ua.Interface.ISubscriptionSettings.Priority
+  isSpec: "True"
+  fullName: DataMaster.Modules.MAS.Communication.Opc.Ua.Interface.ISubscriptionSettings.Priority
+  nameWithType: ISubscriptionSettings.Priority
+- uid: DataMaster.Modules.MAS.Communication.Opc.Ua.Interface.ISubscriptionSettings.PublishingEnabled
+  name: PublishingEnabled
+  href: api/DataMaster.Modules.MAS.Communication.Opc.Ua.Interface.ISubscriptionSettings.html#DataMaster_Modules_MAS_Communication_Opc_Ua_Interface_ISubscriptionSettings_PublishingEnabled
+  commentId: P:DataMaster.Modules.MAS.Communication.Opc.Ua.Interface.ISubscriptionSettings.PublishingEnabled
+  fullName: DataMaster.Modules.MAS.Communication.Opc.Ua.Interface.ISubscriptionSettings.PublishingEnabled
+  nameWithType: ISubscriptionSettings.PublishingEnabled
+- uid: DataMaster.Modules.MAS.Communication.Opc.Ua.Interface.ISubscriptionSettings.PublishingEnabled*
+  name: PublishingEnabled
+  href: api/DataMaster.Modules.MAS.Communication.Opc.Ua.Interface.ISubscriptionSettings.html#DataMaster_Modules_MAS_Communication_Opc_Ua_Interface_ISubscriptionSettings_PublishingEnabled_
+  commentId: Overload:DataMaster.Modules.MAS.Communication.Opc.Ua.Interface.ISubscriptionSettings.PublishingEnabled
+  isSpec: "True"
+  fullName: DataMaster.Modules.MAS.Communication.Opc.Ua.Interface.ISubscriptionSettings.PublishingEnabled
+  nameWithType: ISubscriptionSettings.PublishingEnabled
+- uid: DataMaster.Modules.MAS.Communication.Opc.Ua.Interface.ISubscriptionSettings.PublishingInterval
+  name: PublishingInterval
+  href: api/DataMaster.Modules.MAS.Communication.Opc.Ua.Interface.ISubscriptionSettings.html#DataMaster_Modules_MAS_Communication_Opc_Ua_Interface_ISubscriptionSettings_PublishingInterval
+  commentId: P:DataMaster.Modules.MAS.Communication.Opc.Ua.Interface.ISubscriptionSettings.PublishingInterval
+  fullName: DataMaster.Modules.MAS.Communication.Opc.Ua.Interface.ISubscriptionSettings.PublishingInterval
+  nameWithType: ISubscriptionSettings.PublishingInterval
+- uid: DataMaster.Modules.MAS.Communication.Opc.Ua.Interface.ISubscriptionSettings.PublishingInterval*
+  name: PublishingInterval
+  href: api/DataMaster.Modules.MAS.Communication.Opc.Ua.Interface.ISubscriptionSettings.html#DataMaster_Modules_MAS_Communication_Opc_Ua_Interface_ISubscriptionSettings_PublishingInterval_
+  commentId: Overload:DataMaster.Modules.MAS.Communication.Opc.Ua.Interface.ISubscriptionSettings.PublishingInterval
+  isSpec: "True"
+  fullName: DataMaster.Modules.MAS.Communication.Opc.Ua.Interface.ISubscriptionSettings.PublishingInterval
+  nameWithType: ISubscriptionSettings.PublishingInterval
+- uid: DataMaster.Modules.MAS.Communication.Opc.Ua.Modles
+  name: DataMaster.Modules.MAS.Communication.Opc.Ua.Modles
+  href: api/DataMaster.Modules.MAS.Communication.Opc.Ua.Modles.html
+  commentId: N:DataMaster.Modules.MAS.Communication.Opc.Ua.Modles
+  fullName: DataMaster.Modules.MAS.Communication.Opc.Ua.Modles
+  nameWithType: DataMaster.Modules.MAS.Communication.Opc.Ua.Modles
+- uid: DataMaster.Modules.MAS.Communication.Opc.Ua.Modles.OpcNodeInfo
+  name: OpcNodeInfo
+  href: api/DataMaster.Modules.MAS.Communication.Opc.Ua.Modles.OpcNodeInfo.html
+  commentId: T:DataMaster.Modules.MAS.Communication.Opc.Ua.Modles.OpcNodeInfo
+  fullName: DataMaster.Modules.MAS.Communication.Opc.Ua.Modles.OpcNodeInfo
+  nameWithType: OpcNodeInfo
+- uid: DataMaster.Modules.MAS.Communication.Opc.Ua.Modles.OpcNodeInfo.BrowseName
+  name: BrowseName
+  href: api/DataMaster.Modules.MAS.Communication.Opc.Ua.Modles.OpcNodeInfo.html#DataMaster_Modules_MAS_Communication_Opc_Ua_Modles_OpcNodeInfo_BrowseName
+  commentId: P:DataMaster.Modules.MAS.Communication.Opc.Ua.Modles.OpcNodeInfo.BrowseName
+  fullName: DataMaster.Modules.MAS.Communication.Opc.Ua.Modles.OpcNodeInfo.BrowseName
+  nameWithType: OpcNodeInfo.BrowseName
+- uid: DataMaster.Modules.MAS.Communication.Opc.Ua.Modles.OpcNodeInfo.BrowseName*
+  name: BrowseName
+  href: api/DataMaster.Modules.MAS.Communication.Opc.Ua.Modles.OpcNodeInfo.html#DataMaster_Modules_MAS_Communication_Opc_Ua_Modles_OpcNodeInfo_BrowseName_
+  commentId: Overload:DataMaster.Modules.MAS.Communication.Opc.Ua.Modles.OpcNodeInfo.BrowseName
+  isSpec: "True"
+  fullName: DataMaster.Modules.MAS.Communication.Opc.Ua.Modles.OpcNodeInfo.BrowseName
+  nameWithType: OpcNodeInfo.BrowseName
+- uid: DataMaster.Modules.MAS.Communication.Opc.Ua.Modles.OpcNodeInfo.Children
+  name: Children
+  href: api/DataMaster.Modules.MAS.Communication.Opc.Ua.Modles.OpcNodeInfo.html#DataMaster_Modules_MAS_Communication_Opc_Ua_Modles_OpcNodeInfo_Children
+  commentId: P:DataMaster.Modules.MAS.Communication.Opc.Ua.Modles.OpcNodeInfo.Children
+  fullName: DataMaster.Modules.MAS.Communication.Opc.Ua.Modles.OpcNodeInfo.Children
+  nameWithType: OpcNodeInfo.Children
+- uid: DataMaster.Modules.MAS.Communication.Opc.Ua.Modles.OpcNodeInfo.Children*
+  name: Children
+  href: api/DataMaster.Modules.MAS.Communication.Opc.Ua.Modles.OpcNodeInfo.html#DataMaster_Modules_MAS_Communication_Opc_Ua_Modles_OpcNodeInfo_Children_
+  commentId: Overload:DataMaster.Modules.MAS.Communication.Opc.Ua.Modles.OpcNodeInfo.Children
+  isSpec: "True"
+  fullName: DataMaster.Modules.MAS.Communication.Opc.Ua.Modles.OpcNodeInfo.Children
+  nameWithType: OpcNodeInfo.Children
+- uid: DataMaster.Modules.MAS.Communication.Opc.Ua.Modles.OpcNodeInfo.DataType
+  name: DataType
+  href: api/DataMaster.Modules.MAS.Communication.Opc.Ua.Modles.OpcNodeInfo.html#DataMaster_Modules_MAS_Communication_Opc_Ua_Modles_OpcNodeInfo_DataType
+  commentId: P:DataMaster.Modules.MAS.Communication.Opc.Ua.Modles.OpcNodeInfo.DataType
+  fullName: DataMaster.Modules.MAS.Communication.Opc.Ua.Modles.OpcNodeInfo.DataType
+  nameWithType: OpcNodeInfo.DataType
+- uid: DataMaster.Modules.MAS.Communication.Opc.Ua.Modles.OpcNodeInfo.DataType*
+  name: DataType
+  href: api/DataMaster.Modules.MAS.Communication.Opc.Ua.Modles.OpcNodeInfo.html#DataMaster_Modules_MAS_Communication_Opc_Ua_Modles_OpcNodeInfo_DataType_
+  commentId: Overload:DataMaster.Modules.MAS.Communication.Opc.Ua.Modles.OpcNodeInfo.DataType
+  isSpec: "True"
+  fullName: DataMaster.Modules.MAS.Communication.Opc.Ua.Modles.OpcNodeInfo.DataType
+  nameWithType: OpcNodeInfo.DataType
+- uid: DataMaster.Modules.MAS.Communication.Opc.Ua.Modles.OpcNodeInfo.DisplayName
+  name: DisplayName
+  href: api/DataMaster.Modules.MAS.Communication.Opc.Ua.Modles.OpcNodeInfo.html#DataMaster_Modules_MAS_Communication_Opc_Ua_Modles_OpcNodeInfo_DisplayName
+  commentId: P:DataMaster.Modules.MAS.Communication.Opc.Ua.Modles.OpcNodeInfo.DisplayName
+  fullName: DataMaster.Modules.MAS.Communication.Opc.Ua.Modles.OpcNodeInfo.DisplayName
+  nameWithType: OpcNodeInfo.DisplayName
+- uid: DataMaster.Modules.MAS.Communication.Opc.Ua.Modles.OpcNodeInfo.DisplayName*
+  name: DisplayName
+  href: api/DataMaster.Modules.MAS.Communication.Opc.Ua.Modles.OpcNodeInfo.html#DataMaster_Modules_MAS_Communication_Opc_Ua_Modles_OpcNodeInfo_DisplayName_
+  commentId: Overload:DataMaster.Modules.MAS.Communication.Opc.Ua.Modles.OpcNodeInfo.DisplayName
+  isSpec: "True"
+  fullName: DataMaster.Modules.MAS.Communication.Opc.Ua.Modles.OpcNodeInfo.DisplayName
+  nameWithType: OpcNodeInfo.DisplayName
+- uid: DataMaster.Modules.MAS.Communication.Opc.Ua.Modles.OpcNodeInfo.NodeId
+  name: NodeId
+  href: api/DataMaster.Modules.MAS.Communication.Opc.Ua.Modles.OpcNodeInfo.html#DataMaster_Modules_MAS_Communication_Opc_Ua_Modles_OpcNodeInfo_NodeId
+  commentId: P:DataMaster.Modules.MAS.Communication.Opc.Ua.Modles.OpcNodeInfo.NodeId
+  fullName: DataMaster.Modules.MAS.Communication.Opc.Ua.Modles.OpcNodeInfo.NodeId
+  nameWithType: OpcNodeInfo.NodeId
+- uid: DataMaster.Modules.MAS.Communication.Opc.Ua.Modles.OpcNodeInfo.NodeId*
+  name: NodeId
+  href: api/DataMaster.Modules.MAS.Communication.Opc.Ua.Modles.OpcNodeInfo.html#DataMaster_Modules_MAS_Communication_Opc_Ua_Modles_OpcNodeInfo_NodeId_
+  commentId: Overload:DataMaster.Modules.MAS.Communication.Opc.Ua.Modles.OpcNodeInfo.NodeId
+  isSpec: "True"
+  fullName: DataMaster.Modules.MAS.Communication.Opc.Ua.Modles.OpcNodeInfo.NodeId
+  nameWithType: OpcNodeInfo.NodeId
+- uid: DataMaster.Modules.MAS.Communication.Opc.Ua.Modles.OpcNodeInfo.Status
+  name: Status
+  href: api/DataMaster.Modules.MAS.Communication.Opc.Ua.Modles.OpcNodeInfo.html#DataMaster_Modules_MAS_Communication_Opc_Ua_Modles_OpcNodeInfo_Status
+  commentId: P:DataMaster.Modules.MAS.Communication.Opc.Ua.Modles.OpcNodeInfo.Status
+  fullName: DataMaster.Modules.MAS.Communication.Opc.Ua.Modles.OpcNodeInfo.Status
+  nameWithType: OpcNodeInfo.Status
+- uid: DataMaster.Modules.MAS.Communication.Opc.Ua.Modles.OpcNodeInfo.Status*
+  name: Status
+  href: api/DataMaster.Modules.MAS.Communication.Opc.Ua.Modles.OpcNodeInfo.html#DataMaster_Modules_MAS_Communication_Opc_Ua_Modles_OpcNodeInfo_Status_
+  commentId: Overload:DataMaster.Modules.MAS.Communication.Opc.Ua.Modles.OpcNodeInfo.Status
+  isSpec: "True"
+  fullName: DataMaster.Modules.MAS.Communication.Opc.Ua.Modles.OpcNodeInfo.Status
+  nameWithType: OpcNodeInfo.Status
+- uid: DataMaster.Modules.MAS.Communication.Opc.Ua.Modles.OpcNodeInfo.Value
+  name: Value
+  href: api/DataMaster.Modules.MAS.Communication.Opc.Ua.Modles.OpcNodeInfo.html#DataMaster_Modules_MAS_Communication_Opc_Ua_Modles_OpcNodeInfo_Value
+  commentId: P:DataMaster.Modules.MAS.Communication.Opc.Ua.Modles.OpcNodeInfo.Value
+  fullName: DataMaster.Modules.MAS.Communication.Opc.Ua.Modles.OpcNodeInfo.Value
+  nameWithType: OpcNodeInfo.Value
+- uid: DataMaster.Modules.MAS.Communication.Opc.Ua.Modles.OpcNodeInfo.Value*
+  name: Value
+  href: api/DataMaster.Modules.MAS.Communication.Opc.Ua.Modles.OpcNodeInfo.html#DataMaster_Modules_MAS_Communication_Opc_Ua_Modles_OpcNodeInfo_Value_
+  commentId: Overload:DataMaster.Modules.MAS.Communication.Opc.Ua.Modles.OpcNodeInfo.Value
+  isSpec: "True"
+  fullName: DataMaster.Modules.MAS.Communication.Opc.Ua.Modles.OpcNodeInfo.Value
+  nameWithType: OpcNodeInfo.Value
+- uid: DataMaster.Modules.MAS.Communication.Opc.Ua.OpcClientService
+  name: OpcClientService
+  href: api/DataMaster.Modules.MAS.Communication.Opc.Ua.OpcClientService.html
+  commentId: T:DataMaster.Modules.MAS.Communication.Opc.Ua.OpcClientService
+  fullName: DataMaster.Modules.MAS.Communication.Opc.Ua.OpcClientService
+  nameWithType: OpcClientService
+- uid: DataMaster.Modules.MAS.Communication.Opc.Ua.OpcClientService.#ctor(DataMaster.Modules.MAS.Communication.Opc.Ua.Interface.ISubscriptionSettings,DataMaster.Modules.MAS.Communication.Opc.Ua.Interface.IMonitoredItemSettings)
+  name: OpcClientService(ISubscriptionSettings, IMonitoredItemSettings)
+  href: api/DataMaster.Modules.MAS.Communication.Opc.Ua.OpcClientService.html#DataMaster_Modules_MAS_Communication_Opc_Ua_OpcClientService__ctor_DataMaster_Modules_MAS_Communication_Opc_Ua_Interface_ISubscriptionSettings_DataMaster_Modules_MAS_Communication_Opc_Ua_Interface_IMonitoredItemSettings_
+  commentId: M:DataMaster.Modules.MAS.Communication.Opc.Ua.OpcClientService.#ctor(DataMaster.Modules.MAS.Communication.Opc.Ua.Interface.ISubscriptionSettings,DataMaster.Modules.MAS.Communication.Opc.Ua.Interface.IMonitoredItemSettings)
+  name.vb: New(ISubscriptionSettings, IMonitoredItemSettings)
+  fullName: DataMaster.Modules.MAS.Communication.Opc.Ua.OpcClientService.OpcClientService(DataMaster.Modules.MAS.Communication.Opc.Ua.Interface.ISubscriptionSettings, DataMaster.Modules.MAS.Communication.Opc.Ua.Interface.IMonitoredItemSettings)
+  fullName.vb: DataMaster.Modules.MAS.Communication.Opc.Ua.OpcClientService.New(DataMaster.Modules.MAS.Communication.Opc.Ua.Interface.ISubscriptionSettings, DataMaster.Modules.MAS.Communication.Opc.Ua.Interface.IMonitoredItemSettings)
+  nameWithType: OpcClientService.OpcClientService(ISubscriptionSettings, IMonitoredItemSettings)
+  nameWithType.vb: OpcClientService.New(ISubscriptionSettings, IMonitoredItemSettings)
+- uid: DataMaster.Modules.MAS.Communication.Opc.Ua.OpcClientService.#ctor*
+  name: OpcClientService
+  href: api/DataMaster.Modules.MAS.Communication.Opc.Ua.OpcClientService.html#DataMaster_Modules_MAS_Communication_Opc_Ua_OpcClientService__ctor_
+  commentId: Overload:DataMaster.Modules.MAS.Communication.Opc.Ua.OpcClientService.#ctor
+  isSpec: "True"
+  name.vb: New
+  fullName: DataMaster.Modules.MAS.Communication.Opc.Ua.OpcClientService.OpcClientService
+  fullName.vb: DataMaster.Modules.MAS.Communication.Opc.Ua.OpcClientService.New
+  nameWithType: OpcClientService.OpcClientService
+  nameWithType.vb: OpcClientService.New
+- uid: DataMaster.Modules.MAS.Communication.Opc.Ua.OpcClientService.DisconnectAsync
+  name: DisconnectAsync()
+  href: api/DataMaster.Modules.MAS.Communication.Opc.Ua.OpcClientService.html#DataMaster_Modules_MAS_Communication_Opc_Ua_OpcClientService_DisconnectAsync
+  commentId: M:DataMaster.Modules.MAS.Communication.Opc.Ua.OpcClientService.DisconnectAsync
+  fullName: DataMaster.Modules.MAS.Communication.Opc.Ua.OpcClientService.DisconnectAsync()
+  nameWithType: OpcClientService.DisconnectAsync()
+- uid: DataMaster.Modules.MAS.Communication.Opc.Ua.OpcClientService.DisconnectAsync*
+  name: DisconnectAsync
+  href: api/DataMaster.Modules.MAS.Communication.Opc.Ua.OpcClientService.html#DataMaster_Modules_MAS_Communication_Opc_Ua_OpcClientService_DisconnectAsync_
+  commentId: Overload:DataMaster.Modules.MAS.Communication.Opc.Ua.OpcClientService.DisconnectAsync
+  isSpec: "True"
+  fullName: DataMaster.Modules.MAS.Communication.Opc.Ua.OpcClientService.DisconnectAsync
+  nameWithType: OpcClientService.DisconnectAsync
+- uid: DataMaster.Modules.MAS.Communication.Opc.Ua.OpcClientService.InitializeAsync(System.String,System.Boolean)
+  name: InitializeAsync(string, bool)
+  href: api/DataMaster.Modules.MAS.Communication.Opc.Ua.OpcClientService.html#DataMaster_Modules_MAS_Communication_Opc_Ua_OpcClientService_InitializeAsync_System_String_System_Boolean_
+  commentId: M:DataMaster.Modules.MAS.Communication.Opc.Ua.OpcClientService.InitializeAsync(System.String,System.Boolean)
+  name.vb: InitializeAsync(String, Boolean)
+  fullName: DataMaster.Modules.MAS.Communication.Opc.Ua.OpcClientService.InitializeAsync(string, bool)
+  fullName.vb: DataMaster.Modules.MAS.Communication.Opc.Ua.OpcClientService.InitializeAsync(String, Boolean)
+  nameWithType: OpcClientService.InitializeAsync(string, bool)
+  nameWithType.vb: OpcClientService.InitializeAsync(String, Boolean)
+- uid: DataMaster.Modules.MAS.Communication.Opc.Ua.OpcClientService.InitializeAsync*
+  name: InitializeAsync
+  href: api/DataMaster.Modules.MAS.Communication.Opc.Ua.OpcClientService.html#DataMaster_Modules_MAS_Communication_Opc_Ua_OpcClientService_InitializeAsync_
+  commentId: Overload:DataMaster.Modules.MAS.Communication.Opc.Ua.OpcClientService.InitializeAsync
+  isSpec: "True"
+  fullName: DataMaster.Modules.MAS.Communication.Opc.Ua.OpcClientService.InitializeAsync
+  nameWithType: OpcClientService.InitializeAsync
+- uid: DataMaster.Modules.MAS.Communication.Opc.Ua.OpcClientService.IsConnected
+  name: IsConnected()
+  href: api/DataMaster.Modules.MAS.Communication.Opc.Ua.OpcClientService.html#DataMaster_Modules_MAS_Communication_Opc_Ua_OpcClientService_IsConnected
+  commentId: M:DataMaster.Modules.MAS.Communication.Opc.Ua.OpcClientService.IsConnected
+  fullName: DataMaster.Modules.MAS.Communication.Opc.Ua.OpcClientService.IsConnected()
+  nameWithType: OpcClientService.IsConnected()
+- uid: DataMaster.Modules.MAS.Communication.Opc.Ua.OpcClientService.IsConnected*
+  name: IsConnected
+  href: api/DataMaster.Modules.MAS.Communication.Opc.Ua.OpcClientService.html#DataMaster_Modules_MAS_Communication_Opc_Ua_OpcClientService_IsConnected_
+  commentId: Overload:DataMaster.Modules.MAS.Communication.Opc.Ua.OpcClientService.IsConnected
+  isSpec: "True"
+  fullName: DataMaster.Modules.MAS.Communication.Opc.Ua.OpcClientService.IsConnected
+  nameWithType: OpcClientService.IsConnected
+- uid: DataMaster.Modules.MAS.Communication.Opc.Ua.OpcClientService.ReadNodeAsync(System.String)
+  name: ReadNodeAsync(string)
+  href: api/DataMaster.Modules.MAS.Communication.Opc.Ua.OpcClientService.html#DataMaster_Modules_MAS_Communication_Opc_Ua_OpcClientService_ReadNodeAsync_System_String_
+  commentId: M:DataMaster.Modules.MAS.Communication.Opc.Ua.OpcClientService.ReadNodeAsync(System.String)
+  name.vb: ReadNodeAsync(String)
+  fullName: DataMaster.Modules.MAS.Communication.Opc.Ua.OpcClientService.ReadNodeAsync(string)
+  fullName.vb: DataMaster.Modules.MAS.Communication.Opc.Ua.OpcClientService.ReadNodeAsync(String)
+  nameWithType: OpcClientService.ReadNodeAsync(string)
+  nameWithType.vb: OpcClientService.ReadNodeAsync(String)
+- uid: DataMaster.Modules.MAS.Communication.Opc.Ua.OpcClientService.ReadNodeAsync*
+  name: ReadNodeAsync
+  href: api/DataMaster.Modules.MAS.Communication.Opc.Ua.OpcClientService.html#DataMaster_Modules_MAS_Communication_Opc_Ua_OpcClientService_ReadNodeAsync_
+  commentId: Overload:DataMaster.Modules.MAS.Communication.Opc.Ua.OpcClientService.ReadNodeAsync
+  isSpec: "True"
+  fullName: DataMaster.Modules.MAS.Communication.Opc.Ua.OpcClientService.ReadNodeAsync
+  nameWithType: OpcClientService.ReadNodeAsync
+- uid: DataMaster.Modules.MAS.Communication.Opc.Ua.OpcClientService.SetupAsync
+  name: SetupAsync()
+  href: api/DataMaster.Modules.MAS.Communication.Opc.Ua.OpcClientService.html#DataMaster_Modules_MAS_Communication_Opc_Ua_OpcClientService_SetupAsync
+  commentId: M:DataMaster.Modules.MAS.Communication.Opc.Ua.OpcClientService.SetupAsync
+  fullName: DataMaster.Modules.MAS.Communication.Opc.Ua.OpcClientService.SetupAsync()
+  nameWithType: OpcClientService.SetupAsync()
+- uid: DataMaster.Modules.MAS.Communication.Opc.Ua.OpcClientService.SetupAsync*
+  name: SetupAsync
+  href: api/DataMaster.Modules.MAS.Communication.Opc.Ua.OpcClientService.html#DataMaster_Modules_MAS_Communication_Opc_Ua_OpcClientService_SetupAsync_
+  commentId: Overload:DataMaster.Modules.MAS.Communication.Opc.Ua.OpcClientService.SetupAsync
+  isSpec: "True"
+  fullName: DataMaster.Modules.MAS.Communication.Opc.Ua.OpcClientService.SetupAsync
+  nameWithType: OpcClientService.SetupAsync
+- uid: DataMaster.Modules.MAS.Communication.Opc.Ua.OpcClientService.SubscribeToDataChange(System.Action{System.Object})
+  name: SubscribeToDataChange(Action<object>)
+  href: api/DataMaster.Modules.MAS.Communication.Opc.Ua.OpcClientService.html#DataMaster_Modules_MAS_Communication_Opc_Ua_OpcClientService_SubscribeToDataChange_System_Action_System_Object__
+  commentId: M:DataMaster.Modules.MAS.Communication.Opc.Ua.OpcClientService.SubscribeToDataChange(System.Action{System.Object})
+  name.vb: SubscribeToDataChange(Action(Of Object))
+  fullName: DataMaster.Modules.MAS.Communication.Opc.Ua.OpcClientService.SubscribeToDataChange(System.Action<object>)
+  fullName.vb: DataMaster.Modules.MAS.Communication.Opc.Ua.OpcClientService.SubscribeToDataChange(System.Action(Of Object))
+  nameWithType: OpcClientService.SubscribeToDataChange(Action<object>)
+  nameWithType.vb: OpcClientService.SubscribeToDataChange(Action(Of Object))
+- uid: DataMaster.Modules.MAS.Communication.Opc.Ua.OpcClientService.SubscribeToDataChange(System.Func{System.Object,System.Threading.Tasks.Task})
+  name: SubscribeToDataChange(Func<object, Task>)
+  href: api/DataMaster.Modules.MAS.Communication.Opc.Ua.OpcClientService.html#DataMaster_Modules_MAS_Communication_Opc_Ua_OpcClientService_SubscribeToDataChange_System_Func_System_Object_System_Threading_Tasks_Task__
+  commentId: M:DataMaster.Modules.MAS.Communication.Opc.Ua.OpcClientService.SubscribeToDataChange(System.Func{System.Object,System.Threading.Tasks.Task})
+  name.vb: SubscribeToDataChange(Func(Of Object, Task))
+  fullName: DataMaster.Modules.MAS.Communication.Opc.Ua.OpcClientService.SubscribeToDataChange(System.Func<object, System.Threading.Tasks.Task>)
+  fullName.vb: DataMaster.Modules.MAS.Communication.Opc.Ua.OpcClientService.SubscribeToDataChange(System.Func(Of Object, System.Threading.Tasks.Task))
+  nameWithType: OpcClientService.SubscribeToDataChange(Func<object, Task>)
+  nameWithType.vb: OpcClientService.SubscribeToDataChange(Func(Of Object, Task))
+- uid: DataMaster.Modules.MAS.Communication.Opc.Ua.OpcClientService.SubscribeToDataChange*
+  name: SubscribeToDataChange
+  href: api/DataMaster.Modules.MAS.Communication.Opc.Ua.OpcClientService.html#DataMaster_Modules_MAS_Communication_Opc_Ua_OpcClientService_SubscribeToDataChange_
+  commentId: Overload:DataMaster.Modules.MAS.Communication.Opc.Ua.OpcClientService.SubscribeToDataChange
+  isSpec: "True"
+  fullName: DataMaster.Modules.MAS.Communication.Opc.Ua.OpcClientService.SubscribeToDataChange
+  nameWithType: OpcClientService.SubscribeToDataChange
+- uid: DataMaster.Modules.MAS.Communication.Opc.Ua.OpcClientService.WriteNodeAsync(System.String,System.Object,System.Threading.CancellationToken)
+  name: WriteNodeAsync(string, object, CancellationToken)
+  href: api/DataMaster.Modules.MAS.Communication.Opc.Ua.OpcClientService.html#DataMaster_Modules_MAS_Communication_Opc_Ua_OpcClientService_WriteNodeAsync_System_String_System_Object_System_Threading_CancellationToken_
+  commentId: M:DataMaster.Modules.MAS.Communication.Opc.Ua.OpcClientService.WriteNodeAsync(System.String,System.Object,System.Threading.CancellationToken)
+  name.vb: WriteNodeAsync(String, Object, CancellationToken)
+  fullName: DataMaster.Modules.MAS.Communication.Opc.Ua.OpcClientService.WriteNodeAsync(string, object, System.Threading.CancellationToken)
+  fullName.vb: DataMaster.Modules.MAS.Communication.Opc.Ua.OpcClientService.WriteNodeAsync(String, Object, System.Threading.CancellationToken)
+  nameWithType: OpcClientService.WriteNodeAsync(string, object, CancellationToken)
+  nameWithType.vb: OpcClientService.WriteNodeAsync(String, Object, CancellationToken)
+- uid: DataMaster.Modules.MAS.Communication.Opc.Ua.OpcClientService.WriteNodeAsync*
+  name: WriteNodeAsync
+  href: api/DataMaster.Modules.MAS.Communication.Opc.Ua.OpcClientService.html#DataMaster_Modules_MAS_Communication_Opc_Ua_OpcClientService_WriteNodeAsync_
+  commentId: Overload:DataMaster.Modules.MAS.Communication.Opc.Ua.OpcClientService.WriteNodeAsync
+  isSpec: "True"
+  fullName: DataMaster.Modules.MAS.Communication.Opc.Ua.OpcClientService.WriteNodeAsync
+  nameWithType: OpcClientService.WriteNodeAsync
 - uid: DataMaster.Modules.MAS.Communication.S7Protocols
   name: DataMaster.Modules.MAS.Communication.S7Protocols
   href: api/DataMaster.Modules.MAS.Communication.S7Protocols.html
@@ -11050,6 +11966,62 @@ references:
   isSpec: "True"
   fullName: DataMaster.Modules.MAS.Events.InstantMessageEvent.MessageType
   nameWithType: InstantMessageEvent.MessageType
+- uid: DataMaster.Modules.MAS.Events.StatusChangedEvent
+  name: StatusChangedEvent
+  href: api/DataMaster.Modules.MAS.Events.StatusChangedEvent.html
+  commentId: T:DataMaster.Modules.MAS.Events.StatusChangedEvent
+  fullName: DataMaster.Modules.MAS.Events.StatusChangedEvent
+  nameWithType: StatusChangedEvent
+- uid: DataMaster.Modules.MAS.Events.StatusChangedEvent.NewStatus
+  name: NewStatus
+  href: api/DataMaster.Modules.MAS.Events.StatusChangedEvent.html#DataMaster_Modules_MAS_Events_StatusChangedEvent_NewStatus
+  commentId: P:DataMaster.Modules.MAS.Events.StatusChangedEvent.NewStatus
+  fullName: DataMaster.Modules.MAS.Events.StatusChangedEvent.NewStatus
+  nameWithType: StatusChangedEvent.NewStatus
+- uid: DataMaster.Modules.MAS.Events.StatusChangedEvent.NewStatus*
+  name: NewStatus
+  href: api/DataMaster.Modules.MAS.Events.StatusChangedEvent.html#DataMaster_Modules_MAS_Events_StatusChangedEvent_NewStatus_
+  commentId: Overload:DataMaster.Modules.MAS.Events.StatusChangedEvent.NewStatus
+  isSpec: "True"
+  fullName: DataMaster.Modules.MAS.Events.StatusChangedEvent.NewStatus
+  nameWithType: StatusChangedEvent.NewStatus
+- uid: DataMaster.Modules.MAS.Events.StatusChangedEvent.ServiceName
+  name: ServiceName
+  href: api/DataMaster.Modules.MAS.Events.StatusChangedEvent.html#DataMaster_Modules_MAS_Events_StatusChangedEvent_ServiceName
+  commentId: P:DataMaster.Modules.MAS.Events.StatusChangedEvent.ServiceName
+  fullName: DataMaster.Modules.MAS.Events.StatusChangedEvent.ServiceName
+  nameWithType: StatusChangedEvent.ServiceName
+- uid: DataMaster.Modules.MAS.Events.StatusChangedEvent.ServiceName*
+  name: ServiceName
+  href: api/DataMaster.Modules.MAS.Events.StatusChangedEvent.html#DataMaster_Modules_MAS_Events_StatusChangedEvent_ServiceName_
+  commentId: Overload:DataMaster.Modules.MAS.Events.StatusChangedEvent.ServiceName
+  isSpec: "True"
+  fullName: DataMaster.Modules.MAS.Events.StatusChangedEvent.ServiceName
+  nameWithType: StatusChangedEvent.ServiceName
+- uid: DataMaster.Modules.MAS.Events.StatusChangedEvent.ServiceType
+  name: StatusChangedEvent.ServiceType
+  href: api/DataMaster.Modules.MAS.Events.StatusChangedEvent.ServiceType.html
+  commentId: T:DataMaster.Modules.MAS.Events.StatusChangedEvent.ServiceType
+  fullName: DataMaster.Modules.MAS.Events.StatusChangedEvent.ServiceType
+  nameWithType: StatusChangedEvent.ServiceType
+- uid: DataMaster.Modules.MAS.Events.StatusChangedEvent.ServiceType.MySql
+  name: MySql
+  href: api/DataMaster.Modules.MAS.Events.StatusChangedEvent.ServiceType.html#DataMaster_Modules_MAS_Events_StatusChangedEvent_ServiceType_MySql
+  commentId: F:DataMaster.Modules.MAS.Events.StatusChangedEvent.ServiceType.MySql
+  fullName: DataMaster.Modules.MAS.Events.StatusChangedEvent.ServiceType.MySql
+  nameWithType: StatusChangedEvent.ServiceType.MySql
+- uid: DataMaster.Modules.MAS.Events.StatusChangedEvent.ServiceType.Plc
+  name: Plc
+  href: api/DataMaster.Modules.MAS.Events.StatusChangedEvent.ServiceType.html#DataMaster_Modules_MAS_Events_StatusChangedEvent_ServiceType_Plc
+  commentId: F:DataMaster.Modules.MAS.Events.StatusChangedEvent.ServiceType.Plc
+  fullName: DataMaster.Modules.MAS.Events.StatusChangedEvent.ServiceType.Plc
+  nameWithType: StatusChangedEvent.ServiceType.Plc
+- uid: DataMaster.Modules.MAS.Events.StatusChangedEvent.ServiceType.Serve
+  name: Serve
+  href: api/DataMaster.Modules.MAS.Events.StatusChangedEvent.ServiceType.html#DataMaster_Modules_MAS_Events_StatusChangedEvent_ServiceType_Serve
+  commentId: F:DataMaster.Modules.MAS.Events.StatusChangedEvent.ServiceType.Serve
+  fullName: DataMaster.Modules.MAS.Events.StatusChangedEvent.ServiceType.Serve
+  nameWithType: StatusChangedEvent.ServiceType.Serve
 - uid: DataMaster.Modules.MAS.InstantMessage.API
   name: DataMaster.Modules.MAS.InstantMessage.API
   href: api/DataMaster.Modules.MAS.InstantMessage.API.html
@@ -12154,6 +13126,19 @@ references:
   isSpec: "True"
   fullName: DataMaster.Resources.Resources.CapacityUtilization
   nameWithType: Resources.CapacityUtilization
+- uid: DataMaster.Resources.Resources.Certificate
+  name: Certificate
+  href: api/DataMaster.Resources.Resources.html#DataMaster_Resources_Resources_Certificate
+  commentId: P:DataMaster.Resources.Resources.Certificate
+  fullName: DataMaster.Resources.Resources.Certificate
+  nameWithType: Resources.Certificate
+- uid: DataMaster.Resources.Resources.Certificate*
+  name: Certificate
+  href: api/DataMaster.Resources.Resources.html#DataMaster_Resources_Resources_Certificate_
+  commentId: Overload:DataMaster.Resources.Resources.Certificate
+  isSpec: "True"
+  fullName: DataMaster.Resources.Resources.Certificate
+  nameWithType: Resources.Certificate
 - uid: DataMaster.Resources.Resources.Charts
   name: Charts
   href: api/DataMaster.Resources.Resources.html#DataMaster_Resources_Resources_Charts
@@ -12297,6 +13282,19 @@ references:
   isSpec: "True"
   fullName: DataMaster.Resources.Resources.Commlog
   nameWithType: Resources.Commlog
+- uid: DataMaster.Resources.Resources.Communication
+  name: Communication
+  href: api/DataMaster.Resources.Resources.html#DataMaster_Resources_Resources_Communication
+  commentId: P:DataMaster.Resources.Resources.Communication
+  fullName: DataMaster.Resources.Resources.Communication
+  nameWithType: Resources.Communication
+- uid: DataMaster.Resources.Resources.Communication*
+  name: Communication
+  href: api/DataMaster.Resources.Resources.html#DataMaster_Resources_Resources_Communication_
+  commentId: Overload:DataMaster.Resources.Resources.Communication
+  isSpec: "True"
+  fullName: DataMaster.Resources.Resources.Communication
+  nameWithType: Resources.Communication
 - uid: DataMaster.Resources.Resources.CommunicationManagerNotInitialized
   name: CommunicationManagerNotInitialized
   href: api/DataMaster.Resources.Resources.html#DataMaster_Resources_Resources_CommunicationManagerNotInitialized
@@ -12388,6 +13386,19 @@ references:
   isSpec: "True"
   fullName: DataMaster.Resources.Resources.ConfirmSaveChangesOverwrite
   nameWithType: Resources.ConfirmSaveChangesOverwrite
+- uid: DataMaster.Resources.Resources.Connection
+  name: Connection
+  href: api/DataMaster.Resources.Resources.html#DataMaster_Resources_Resources_Connection
+  commentId: P:DataMaster.Resources.Resources.Connection
+  fullName: DataMaster.Resources.Resources.Connection
+  nameWithType: Resources.Connection
+- uid: DataMaster.Resources.Resources.Connection*
+  name: Connection
+  href: api/DataMaster.Resources.Resources.html#DataMaster_Resources_Resources_Connection_
+  commentId: Overload:DataMaster.Resources.Resources.Connection
+  isSpec: "True"
+  fullName: DataMaster.Resources.Resources.Connection
+  nameWithType: Resources.Connection
 - uid: DataMaster.Resources.Resources.ConnectionInterrupted
   name: ConnectionInterrupted
   href: api/DataMaster.Resources.Resources.html#DataMaster_Resources_Resources_ConnectionInterrupted
@@ -12817,6 +13828,19 @@ references:
   isSpec: "True"
   fullName: DataMaster.Resources.Resources.DevAddr
   nameWithType: Resources.DevAddr
+- uid: DataMaster.Resources.Resources.Disconnect
+  name: Disconnect
+  href: api/DataMaster.Resources.Resources.html#DataMaster_Resources_Resources_Disconnect
+  commentId: P:DataMaster.Resources.Resources.Disconnect
+  fullName: DataMaster.Resources.Resources.Disconnect
+  nameWithType: Resources.Disconnect
+- uid: DataMaster.Resources.Resources.Disconnect*
+  name: Disconnect
+  href: api/DataMaster.Resources.Resources.html#DataMaster_Resources_Resources_Disconnect_
+  commentId: Overload:DataMaster.Resources.Resources.Disconnect
+  isSpec: "True"
+  fullName: DataMaster.Resources.Resources.Disconnect
+  nameWithType: Resources.Disconnect
 - uid: DataMaster.Resources.Resources.EDITUSER
   name: EDITUSER
   href: api/DataMaster.Resources.Resources.html#DataMaster_Resources_Resources_EDITUSER
@@ -12960,6 +13984,32 @@ references:
   isSpec: "True"
   fullName: DataMaster.Resources.Resources.ErrorLoadingTableName
   nameWithType: Resources.ErrorLoadingTableName
+- uid: DataMaster.Resources.Resources.ErrorOpenCertificateFolder
+  name: ErrorOpenCertificateFolder
+  href: api/DataMaster.Resources.Resources.html#DataMaster_Resources_Resources_ErrorOpenCertificateFolder
+  commentId: P:DataMaster.Resources.Resources.ErrorOpenCertificateFolder
+  fullName: DataMaster.Resources.Resources.ErrorOpenCertificateFolder
+  nameWithType: Resources.ErrorOpenCertificateFolder
+- uid: DataMaster.Resources.Resources.ErrorOpenCertificateFolder*
+  name: ErrorOpenCertificateFolder
+  href: api/DataMaster.Resources.Resources.html#DataMaster_Resources_Resources_ErrorOpenCertificateFolder_
+  commentId: Overload:DataMaster.Resources.Resources.ErrorOpenCertificateFolder
+  isSpec: "True"
+  fullName: DataMaster.Resources.Resources.ErrorOpenCertificateFolder
+  nameWithType: Resources.ErrorOpenCertificateFolder
+- uid: DataMaster.Resources.Resources.ErrorOpenFolder
+  name: ErrorOpenFolder
+  href: api/DataMaster.Resources.Resources.html#DataMaster_Resources_Resources_ErrorOpenFolder
+  commentId: P:DataMaster.Resources.Resources.ErrorOpenFolder
+  fullName: DataMaster.Resources.Resources.ErrorOpenFolder
+  nameWithType: Resources.ErrorOpenFolder
+- uid: DataMaster.Resources.Resources.ErrorOpenFolder*
+  name: ErrorOpenFolder
+  href: api/DataMaster.Resources.Resources.html#DataMaster_Resources_Resources_ErrorOpenFolder_
+  commentId: Overload:DataMaster.Resources.Resources.ErrorOpenFolder
+  isSpec: "True"
+  fullName: DataMaster.Resources.Resources.ErrorOpenFolder
+  nameWithType: Resources.ErrorOpenFolder
 - uid: DataMaster.Resources.Resources.ErrorSaveCTData
   name: ErrorSaveCTData
   href: api/DataMaster.Resources.Resources.html#DataMaster_Resources_Resources_ErrorSaveCTData
@@ -14039,6 +15089,19 @@ references:
   isSpec: "True"
   fullName: DataMaster.Resources.Resources.OfficialWebsite
   nameWithType: Resources.OfficialWebsite
+- uid: DataMaster.Resources.Resources.OpcUaClient
+  name: OpcUaClient
+  href: api/DataMaster.Resources.Resources.html#DataMaster_Resources_Resources_OpcUaClient
+  commentId: P:DataMaster.Resources.Resources.OpcUaClient
+  fullName: DataMaster.Resources.Resources.OpcUaClient
+  nameWithType: Resources.OpcUaClient
+- uid: DataMaster.Resources.Resources.OpcUaClient*
+  name: OpcUaClient
+  href: api/DataMaster.Resources.Resources.html#DataMaster_Resources_Resources_OpcUaClient_
+  commentId: Overload:DataMaster.Resources.Resources.OpcUaClient
+  isSpec: "True"
+  fullName: DataMaster.Resources.Resources.OpcUaClient
+  nameWithType: Resources.OpcUaClient
 - uid: DataMaster.Resources.Resources.OpenFile
   name: OpenFile
   href: api/DataMaster.Resources.Resources.html#DataMaster_Resources_Resources_OpenFile
@@ -14988,6 +16051,19 @@ references:
   isSpec: "True"
   fullName: DataMaster.Resources.Resources.Server
   nameWithType: Resources.Server
+- uid: DataMaster.Resources.Resources.ServerUrl
+  name: ServerUrl
+  href: api/DataMaster.Resources.Resources.html#DataMaster_Resources_Resources_ServerUrl
+  commentId: P:DataMaster.Resources.Resources.ServerUrl
+  fullName: DataMaster.Resources.Resources.ServerUrl
+  nameWithType: Resources.ServerUrl
+- uid: DataMaster.Resources.Resources.ServerUrl*
+  name: ServerUrl
+  href: api/DataMaster.Resources.Resources.html#DataMaster_Resources_Resources_ServerUrl_
+  commentId: Overload:DataMaster.Resources.Resources.ServerUrl
+  isSpec: "True"
+  fullName: DataMaster.Resources.Resources.ServerUrl
+  nameWithType: Resources.ServerUrl
 - uid: DataMaster.Resources.Resources.ServicesStatus
   name: ServicesStatus
   href: api/DataMaster.Resources.Resources.html#DataMaster_Resources_Resources_ServicesStatus
@@ -16760,6 +17836,154 @@ references:
   commentId: N:DataMaster.ViewModels.Pages
   fullName: DataMaster.ViewModels.Pages
   nameWithType: DataMaster.ViewModels.Pages
+- uid: DataMaster.ViewModels.Pages.Communication
+  name: DataMaster.ViewModels.Pages.Communication
+  href: api/DataMaster.ViewModels.Pages.Communication.html
+  commentId: N:DataMaster.ViewModels.Pages.Communication
+  fullName: DataMaster.ViewModels.Pages.Communication
+  nameWithType: DataMaster.ViewModels.Pages.Communication
+- uid: DataMaster.ViewModels.Pages.Communication.OpcUaClientViewModel
+  name: OpcUaClientViewModel
+  href: api/DataMaster.ViewModels.Pages.Communication.OpcUaClientViewModel.html
+  commentId: T:DataMaster.ViewModels.Pages.Communication.OpcUaClientViewModel
+  fullName: DataMaster.ViewModels.Pages.Communication.OpcUaClientViewModel
+  nameWithType: OpcUaClientViewModel
+- uid: DataMaster.ViewModels.Pages.Communication.OpcUaClientViewModel.#ctor(DataMaster.Modules.MAS.Communication.Opc.Ua.Interface.IOpcClient,DataMaster.Modules.MAS.EventAggregator.Interfaces.IEventAggregatorService)
+  name: OpcUaClientViewModel(IOpcClient, IEventAggregatorService)
+  href: api/DataMaster.ViewModels.Pages.Communication.OpcUaClientViewModel.html#DataMaster_ViewModels_Pages_Communication_OpcUaClientViewModel__ctor_DataMaster_Modules_MAS_Communication_Opc_Ua_Interface_IOpcClient_DataMaster_Modules_MAS_EventAggregator_Interfaces_IEventAggregatorService_
+  commentId: M:DataMaster.ViewModels.Pages.Communication.OpcUaClientViewModel.#ctor(DataMaster.Modules.MAS.Communication.Opc.Ua.Interface.IOpcClient,DataMaster.Modules.MAS.EventAggregator.Interfaces.IEventAggregatorService)
+  name.vb: New(IOpcClient, IEventAggregatorService)
+  fullName: DataMaster.ViewModels.Pages.Communication.OpcUaClientViewModel.OpcUaClientViewModel(DataMaster.Modules.MAS.Communication.Opc.Ua.Interface.IOpcClient, DataMaster.Modules.MAS.EventAggregator.Interfaces.IEventAggregatorService)
+  fullName.vb: DataMaster.ViewModels.Pages.Communication.OpcUaClientViewModel.New(DataMaster.Modules.MAS.Communication.Opc.Ua.Interface.IOpcClient, DataMaster.Modules.MAS.EventAggregator.Interfaces.IEventAggregatorService)
+  nameWithType: OpcUaClientViewModel.OpcUaClientViewModel(IOpcClient, IEventAggregatorService)
+  nameWithType.vb: OpcUaClientViewModel.New(IOpcClient, IEventAggregatorService)
+- uid: DataMaster.ViewModels.Pages.Communication.OpcUaClientViewModel.#ctor*
+  name: OpcUaClientViewModel
+  href: api/DataMaster.ViewModels.Pages.Communication.OpcUaClientViewModel.html#DataMaster_ViewModels_Pages_Communication_OpcUaClientViewModel__ctor_
+  commentId: Overload:DataMaster.ViewModels.Pages.Communication.OpcUaClientViewModel.#ctor
+  isSpec: "True"
+  name.vb: New
+  fullName: DataMaster.ViewModels.Pages.Communication.OpcUaClientViewModel.OpcUaClientViewModel
+  fullName.vb: DataMaster.ViewModels.Pages.Communication.OpcUaClientViewModel.New
+  nameWithType: OpcUaClientViewModel.OpcUaClientViewModel
+  nameWithType.vb: OpcUaClientViewModel.New
+- uid: DataMaster.ViewModels.Pages.Communication.OpcUaClientViewModel.ConnectionCommand
+  name: ConnectionCommand
+  href: api/DataMaster.ViewModels.Pages.Communication.OpcUaClientViewModel.html#DataMaster_ViewModels_Pages_Communication_OpcUaClientViewModel_ConnectionCommand
+  commentId: P:DataMaster.ViewModels.Pages.Communication.OpcUaClientViewModel.ConnectionCommand
+  fullName: DataMaster.ViewModels.Pages.Communication.OpcUaClientViewModel.ConnectionCommand
+  nameWithType: OpcUaClientViewModel.ConnectionCommand
+- uid: DataMaster.ViewModels.Pages.Communication.OpcUaClientViewModel.ConnectionCommand*
+  name: ConnectionCommand
+  href: api/DataMaster.ViewModels.Pages.Communication.OpcUaClientViewModel.html#DataMaster_ViewModels_Pages_Communication_OpcUaClientViewModel_ConnectionCommand_
+  commentId: Overload:DataMaster.ViewModels.Pages.Communication.OpcUaClientViewModel.ConnectionCommand
+  isSpec: "True"
+  fullName: DataMaster.ViewModels.Pages.Communication.OpcUaClientViewModel.ConnectionCommand
+  nameWithType: OpcUaClientViewModel.ConnectionCommand
+- uid: DataMaster.ViewModels.Pages.Communication.OpcUaClientViewModel.DeleteServerUrlCommand
+  name: DeleteServerUrlCommand
+  href: api/DataMaster.ViewModels.Pages.Communication.OpcUaClientViewModel.html#DataMaster_ViewModels_Pages_Communication_OpcUaClientViewModel_DeleteServerUrlCommand
+  commentId: P:DataMaster.ViewModels.Pages.Communication.OpcUaClientViewModel.DeleteServerUrlCommand
+  fullName: DataMaster.ViewModels.Pages.Communication.OpcUaClientViewModel.DeleteServerUrlCommand
+  nameWithType: OpcUaClientViewModel.DeleteServerUrlCommand
+- uid: DataMaster.ViewModels.Pages.Communication.OpcUaClientViewModel.DeleteServerUrlCommand*
+  name: DeleteServerUrlCommand
+  href: api/DataMaster.ViewModels.Pages.Communication.OpcUaClientViewModel.html#DataMaster_ViewModels_Pages_Communication_OpcUaClientViewModel_DeleteServerUrlCommand_
+  commentId: Overload:DataMaster.ViewModels.Pages.Communication.OpcUaClientViewModel.DeleteServerUrlCommand
+  isSpec: "True"
+  fullName: DataMaster.ViewModels.Pages.Communication.OpcUaClientViewModel.DeleteServerUrlCommand
+  nameWithType: OpcUaClientViewModel.DeleteServerUrlCommand
+- uid: DataMaster.ViewModels.Pages.Communication.OpcUaClientViewModel.DisconnectCommand
+  name: DisconnectCommand
+  href: api/DataMaster.ViewModels.Pages.Communication.OpcUaClientViewModel.html#DataMaster_ViewModels_Pages_Communication_OpcUaClientViewModel_DisconnectCommand
+  commentId: P:DataMaster.ViewModels.Pages.Communication.OpcUaClientViewModel.DisconnectCommand
+  fullName: DataMaster.ViewModels.Pages.Communication.OpcUaClientViewModel.DisconnectCommand
+  nameWithType: OpcUaClientViewModel.DisconnectCommand
+- uid: DataMaster.ViewModels.Pages.Communication.OpcUaClientViewModel.DisconnectCommand*
+  name: DisconnectCommand
+  href: api/DataMaster.ViewModels.Pages.Communication.OpcUaClientViewModel.html#DataMaster_ViewModels_Pages_Communication_OpcUaClientViewModel_DisconnectCommand_
+  commentId: Overload:DataMaster.ViewModels.Pages.Communication.OpcUaClientViewModel.DisconnectCommand
+  isSpec: "True"
+  fullName: DataMaster.ViewModels.Pages.Communication.OpcUaClientViewModel.DisconnectCommand
+  nameWithType: OpcUaClientViewModel.DisconnectCommand
+- uid: DataMaster.ViewModels.Pages.Communication.OpcUaClientViewModel.IsGridEnabled
+  name: IsGridEnabled
+  href: api/DataMaster.ViewModels.Pages.Communication.OpcUaClientViewModel.html#DataMaster_ViewModels_Pages_Communication_OpcUaClientViewModel_IsGridEnabled
+  commentId: P:DataMaster.ViewModels.Pages.Communication.OpcUaClientViewModel.IsGridEnabled
+  fullName: DataMaster.ViewModels.Pages.Communication.OpcUaClientViewModel.IsGridEnabled
+  nameWithType: OpcUaClientViewModel.IsGridEnabled
+- uid: DataMaster.ViewModels.Pages.Communication.OpcUaClientViewModel.IsGridEnabled*
+  name: IsGridEnabled
+  href: api/DataMaster.ViewModels.Pages.Communication.OpcUaClientViewModel.html#DataMaster_ViewModels_Pages_Communication_OpcUaClientViewModel_IsGridEnabled_
+  commentId: Overload:DataMaster.ViewModels.Pages.Communication.OpcUaClientViewModel.IsGridEnabled
+  isSpec: "True"
+  fullName: DataMaster.ViewModels.Pages.Communication.OpcUaClientViewModel.IsGridEnabled
+  nameWithType: OpcUaClientViewModel.IsGridEnabled
+- uid: DataMaster.ViewModels.Pages.Communication.OpcUaClientViewModel.IsLoading
+  name: IsLoading
+  href: api/DataMaster.ViewModels.Pages.Communication.OpcUaClientViewModel.html#DataMaster_ViewModels_Pages_Communication_OpcUaClientViewModel_IsLoading
+  commentId: P:DataMaster.ViewModels.Pages.Communication.OpcUaClientViewModel.IsLoading
+  fullName: DataMaster.ViewModels.Pages.Communication.OpcUaClientViewModel.IsLoading
+  nameWithType: OpcUaClientViewModel.IsLoading
+- uid: DataMaster.ViewModels.Pages.Communication.OpcUaClientViewModel.IsLoading*
+  name: IsLoading
+  href: api/DataMaster.ViewModels.Pages.Communication.OpcUaClientViewModel.html#DataMaster_ViewModels_Pages_Communication_OpcUaClientViewModel_IsLoading_
+  commentId: Overload:DataMaster.ViewModels.Pages.Communication.OpcUaClientViewModel.IsLoading
+  isSpec: "True"
+  fullName: DataMaster.ViewModels.Pages.Communication.OpcUaClientViewModel.IsLoading
+  nameWithType: OpcUaClientViewModel.IsLoading
+- uid: DataMaster.ViewModels.Pages.Communication.OpcUaClientViewModel.IsServerUrlEnabled
+  name: IsServerUrlEnabled
+  href: api/DataMaster.ViewModels.Pages.Communication.OpcUaClientViewModel.html#DataMaster_ViewModels_Pages_Communication_OpcUaClientViewModel_IsServerUrlEnabled
+  commentId: P:DataMaster.ViewModels.Pages.Communication.OpcUaClientViewModel.IsServerUrlEnabled
+  fullName: DataMaster.ViewModels.Pages.Communication.OpcUaClientViewModel.IsServerUrlEnabled
+  nameWithType: OpcUaClientViewModel.IsServerUrlEnabled
+- uid: DataMaster.ViewModels.Pages.Communication.OpcUaClientViewModel.IsServerUrlEnabled*
+  name: IsServerUrlEnabled
+  href: api/DataMaster.ViewModels.Pages.Communication.OpcUaClientViewModel.html#DataMaster_ViewModels_Pages_Communication_OpcUaClientViewModel_IsServerUrlEnabled_
+  commentId: Overload:DataMaster.ViewModels.Pages.Communication.OpcUaClientViewModel.IsServerUrlEnabled
+  isSpec: "True"
+  fullName: DataMaster.ViewModels.Pages.Communication.OpcUaClientViewModel.IsServerUrlEnabled
+  nameWithType: OpcUaClientViewModel.IsServerUrlEnabled
+- uid: DataMaster.ViewModels.Pages.Communication.OpcUaClientViewModel.OpenCertificateFolderCommand
+  name: OpenCertificateFolderCommand
+  href: api/DataMaster.ViewModels.Pages.Communication.OpcUaClientViewModel.html#DataMaster_ViewModels_Pages_Communication_OpcUaClientViewModel_OpenCertificateFolderCommand
+  commentId: P:DataMaster.ViewModels.Pages.Communication.OpcUaClientViewModel.OpenCertificateFolderCommand
+  fullName: DataMaster.ViewModels.Pages.Communication.OpcUaClientViewModel.OpenCertificateFolderCommand
+  nameWithType: OpcUaClientViewModel.OpenCertificateFolderCommand
+- uid: DataMaster.ViewModels.Pages.Communication.OpcUaClientViewModel.OpenCertificateFolderCommand*
+  name: OpenCertificateFolderCommand
+  href: api/DataMaster.ViewModels.Pages.Communication.OpcUaClientViewModel.html#DataMaster_ViewModels_Pages_Communication_OpcUaClientViewModel_OpenCertificateFolderCommand_
+  commentId: Overload:DataMaster.ViewModels.Pages.Communication.OpcUaClientViewModel.OpenCertificateFolderCommand
+  isSpec: "True"
+  fullName: DataMaster.ViewModels.Pages.Communication.OpcUaClientViewModel.OpenCertificateFolderCommand
+  nameWithType: OpcUaClientViewModel.OpenCertificateFolderCommand
+- uid: DataMaster.ViewModels.Pages.Communication.OpcUaClientViewModel.ServerUrl
+  name: ServerUrl
+  href: api/DataMaster.ViewModels.Pages.Communication.OpcUaClientViewModel.html#DataMaster_ViewModels_Pages_Communication_OpcUaClientViewModel_ServerUrl
+  commentId: P:DataMaster.ViewModels.Pages.Communication.OpcUaClientViewModel.ServerUrl
+  fullName: DataMaster.ViewModels.Pages.Communication.OpcUaClientViewModel.ServerUrl
+  nameWithType: OpcUaClientViewModel.ServerUrl
+- uid: DataMaster.ViewModels.Pages.Communication.OpcUaClientViewModel.ServerUrl*
+  name: ServerUrl
+  href: api/DataMaster.ViewModels.Pages.Communication.OpcUaClientViewModel.html#DataMaster_ViewModels_Pages_Communication_OpcUaClientViewModel_ServerUrl_
+  commentId: Overload:DataMaster.ViewModels.Pages.Communication.OpcUaClientViewModel.ServerUrl
+  isSpec: "True"
+  fullName: DataMaster.ViewModels.Pages.Communication.OpcUaClientViewModel.ServerUrl
+  nameWithType: OpcUaClientViewModel.ServerUrl
+- uid: DataMaster.ViewModels.Pages.Communication.OpcUaClientViewModel.ServerUrls
+  name: ServerUrls
+  href: api/DataMaster.ViewModels.Pages.Communication.OpcUaClientViewModel.html#DataMaster_ViewModels_Pages_Communication_OpcUaClientViewModel_ServerUrls
+  commentId: P:DataMaster.ViewModels.Pages.Communication.OpcUaClientViewModel.ServerUrls
+  fullName: DataMaster.ViewModels.Pages.Communication.OpcUaClientViewModel.ServerUrls
+  nameWithType: OpcUaClientViewModel.ServerUrls
+- uid: DataMaster.ViewModels.Pages.Communication.OpcUaClientViewModel.ServerUrls*
+  name: ServerUrls
+  href: api/DataMaster.ViewModels.Pages.Communication.OpcUaClientViewModel.html#DataMaster_ViewModels_Pages_Communication_OpcUaClientViewModel_ServerUrls_
+  commentId: Overload:DataMaster.ViewModels.Pages.Communication.OpcUaClientViewModel.ServerUrls
+  isSpec: "True"
+  fullName: DataMaster.ViewModels.Pages.Communication.OpcUaClientViewModel.ServerUrls
+  nameWithType: OpcUaClientViewModel.ServerUrls
 - uid: DataMaster.ViewModels.Pages.ECharts
   name: DataMaster.ViewModels.Pages.ECharts
   href: api/DataMaster.ViewModels.Pages.ECharts.html
@@ -17269,6 +18493,19 @@ references:
   commentId: T:DataMaster.ViewModels.Pages.SettingsViewModel
   fullName: DataMaster.ViewModels.Pages.SettingsViewModel
   nameWithType: SettingsViewModel
+- uid: DataMaster.ViewModels.Pages.SettingsViewModel.CompanyWebsite
+  name: CompanyWebsite
+  href: api/DataMaster.ViewModels.Pages.SettingsViewModel.html#DataMaster_ViewModels_Pages_SettingsViewModel_CompanyWebsite
+  commentId: P:DataMaster.ViewModels.Pages.SettingsViewModel.CompanyWebsite
+  fullName: DataMaster.ViewModels.Pages.SettingsViewModel.CompanyWebsite
+  nameWithType: SettingsViewModel.CompanyWebsite
+- uid: DataMaster.ViewModels.Pages.SettingsViewModel.CompanyWebsite*
+  name: CompanyWebsite
+  href: api/DataMaster.ViewModels.Pages.SettingsViewModel.html#DataMaster_ViewModels_Pages_SettingsViewModel_CompanyWebsite_
+  commentId: Overload:DataMaster.ViewModels.Pages.SettingsViewModel.CompanyWebsite
+  isSpec: "True"
+  fullName: DataMaster.ViewModels.Pages.SettingsViewModel.CompanyWebsite
+  nameWithType: SettingsViewModel.CompanyWebsite
 - uid: DataMaster.ViewModels.Pages.SettingsViewModel.CopyrightInformation
   name: CopyrightInformation
   href: api/DataMaster.ViewModels.Pages.SettingsViewModel.html#DataMaster_ViewModels_Pages_SettingsViewModel_CopyrightInformation
@@ -17460,6 +18697,25 @@ references:
   commentId: T:DataMaster.ViewModels.Windows.MainViewModel
   fullName: DataMaster.ViewModels.Windows.MainViewModel
   nameWithType: MainViewModel
+- uid: DataMaster.ViewModels.Windows.MainViewModel.#ctor(DataMaster.Modules.MAS.EventAggregator.Interfaces.IEventAggregatorService)
+  name: MainViewModel(IEventAggregatorService)
+  href: api/DataMaster.ViewModels.Windows.MainViewModel.html#DataMaster_ViewModels_Windows_MainViewModel__ctor_DataMaster_Modules_MAS_EventAggregator_Interfaces_IEventAggregatorService_
+  commentId: M:DataMaster.ViewModels.Windows.MainViewModel.#ctor(DataMaster.Modules.MAS.EventAggregator.Interfaces.IEventAggregatorService)
+  name.vb: New(IEventAggregatorService)
+  fullName: DataMaster.ViewModels.Windows.MainViewModel.MainViewModel(DataMaster.Modules.MAS.EventAggregator.Interfaces.IEventAggregatorService)
+  fullName.vb: DataMaster.ViewModels.Windows.MainViewModel.New(DataMaster.Modules.MAS.EventAggregator.Interfaces.IEventAggregatorService)
+  nameWithType: MainViewModel.MainViewModel(IEventAggregatorService)
+  nameWithType.vb: MainViewModel.New(IEventAggregatorService)
+- uid: DataMaster.ViewModels.Windows.MainViewModel.#ctor*
+  name: MainViewModel
+  href: api/DataMaster.ViewModels.Windows.MainViewModel.html#DataMaster_ViewModels_Windows_MainViewModel__ctor_
+  commentId: Overload:DataMaster.ViewModels.Windows.MainViewModel.#ctor
+  isSpec: "True"
+  name.vb: New
+  fullName: DataMaster.ViewModels.Windows.MainViewModel.MainViewModel
+  fullName.vb: DataMaster.ViewModels.Windows.MainViewModel.New
+  nameWithType: MainViewModel.MainViewModel
+  nameWithType.vb: MainViewModel.New
 - uid: DataMaster.ViewModels.Windows.MainViewModel.ApplicationTitle
   name: ApplicationTitle
   href: api/DataMaster.ViewModels.Windows.MainViewModel.html#DataMaster_ViewModels_Windows_MainViewModel_ApplicationTitle
@@ -17544,6 +18800,89 @@ references:
   commentId: N:DataMaster.Views.Pages
   fullName: DataMaster.Views.Pages
   nameWithType: DataMaster.Views.Pages
+- uid: DataMaster.Views.Pages.Communication
+  name: DataMaster.Views.Pages.Communication
+  href: api/DataMaster.Views.Pages.Communication.html
+  commentId: N:DataMaster.Views.Pages.Communication
+  fullName: DataMaster.Views.Pages.Communication
+  nameWithType: DataMaster.Views.Pages.Communication
+- uid: DataMaster.Views.Pages.Communication.OpcUaClientPage
+  name: OpcUaClientPage
+  href: api/DataMaster.Views.Pages.Communication.OpcUaClientPage.html
+  commentId: T:DataMaster.Views.Pages.Communication.OpcUaClientPage
+  fullName: DataMaster.Views.Pages.Communication.OpcUaClientPage
+  nameWithType: OpcUaClientPage
+- uid: DataMaster.Views.Pages.Communication.OpcUaClientPage.#ctor(DataMaster.ViewModels.Pages.Communication.OpcUaClientViewModel,DataMaster.Modules.MAS.Controls.LoadAnimation.ILoadingService)
+  name: OpcUaClientPage(OpcUaClientViewModel, ILoadingService)
+  href: api/DataMaster.Views.Pages.Communication.OpcUaClientPage.html#DataMaster_Views_Pages_Communication_OpcUaClientPage__ctor_DataMaster_ViewModels_Pages_Communication_OpcUaClientViewModel_DataMaster_Modules_MAS_Controls_LoadAnimation_ILoadingService_
+  commentId: M:DataMaster.Views.Pages.Communication.OpcUaClientPage.#ctor(DataMaster.ViewModels.Pages.Communication.OpcUaClientViewModel,DataMaster.Modules.MAS.Controls.LoadAnimation.ILoadingService)
+  name.vb: New(OpcUaClientViewModel, ILoadingService)
+  fullName: DataMaster.Views.Pages.Communication.OpcUaClientPage.OpcUaClientPage(DataMaster.ViewModels.Pages.Communication.OpcUaClientViewModel, DataMaster.Modules.MAS.Controls.LoadAnimation.ILoadingService)
+  fullName.vb: DataMaster.Views.Pages.Communication.OpcUaClientPage.New(DataMaster.ViewModels.Pages.Communication.OpcUaClientViewModel, DataMaster.Modules.MAS.Controls.LoadAnimation.ILoadingService)
+  nameWithType: OpcUaClientPage.OpcUaClientPage(OpcUaClientViewModel, ILoadingService)
+  nameWithType.vb: OpcUaClientPage.New(OpcUaClientViewModel, ILoadingService)
+- uid: DataMaster.Views.Pages.Communication.OpcUaClientPage.#ctor*
+  name: OpcUaClientPage
+  href: api/DataMaster.Views.Pages.Communication.OpcUaClientPage.html#DataMaster_Views_Pages_Communication_OpcUaClientPage__ctor_
+  commentId: Overload:DataMaster.Views.Pages.Communication.OpcUaClientPage.#ctor
+  isSpec: "True"
+  name.vb: New
+  fullName: DataMaster.Views.Pages.Communication.OpcUaClientPage.OpcUaClientPage
+  fullName.vb: DataMaster.Views.Pages.Communication.OpcUaClientPage.New
+  nameWithType: OpcUaClientPage.OpcUaClientPage
+  nameWithType.vb: OpcUaClientPage.New
+- uid: DataMaster.Views.Pages.Communication.OpcUaClientPage.InitializeComponent
+  name: InitializeComponent()
+  href: api/DataMaster.Views.Pages.Communication.OpcUaClientPage.html#DataMaster_Views_Pages_Communication_OpcUaClientPage_InitializeComponent
+  commentId: M:DataMaster.Views.Pages.Communication.OpcUaClientPage.InitializeComponent
+  fullName: DataMaster.Views.Pages.Communication.OpcUaClientPage.InitializeComponent()
+  nameWithType: OpcUaClientPage.InitializeComponent()
+- uid: DataMaster.Views.Pages.Communication.OpcUaClientPage.InitializeComponent*
+  name: InitializeComponent
+  href: api/DataMaster.Views.Pages.Communication.OpcUaClientPage.html#DataMaster_Views_Pages_Communication_OpcUaClientPage_InitializeComponent_
+  commentId: Overload:DataMaster.Views.Pages.Communication.OpcUaClientPage.InitializeComponent
+  isSpec: "True"
+  fullName: DataMaster.Views.Pages.Communication.OpcUaClientPage.InitializeComponent
+  nameWithType: OpcUaClientPage.InitializeComponent
+- uid: DataMaster.Views.Pages.Communication.OpcUaClientPage.OnNavigatedFrom
+  name: OnNavigatedFrom()
+  href: api/DataMaster.Views.Pages.Communication.OpcUaClientPage.html#DataMaster_Views_Pages_Communication_OpcUaClientPage_OnNavigatedFrom
+  commentId: M:DataMaster.Views.Pages.Communication.OpcUaClientPage.OnNavigatedFrom
+  fullName: DataMaster.Views.Pages.Communication.OpcUaClientPage.OnNavigatedFrom()
+  nameWithType: OpcUaClientPage.OnNavigatedFrom()
+- uid: DataMaster.Views.Pages.Communication.OpcUaClientPage.OnNavigatedFrom*
+  name: OnNavigatedFrom
+  href: api/DataMaster.Views.Pages.Communication.OpcUaClientPage.html#DataMaster_Views_Pages_Communication_OpcUaClientPage_OnNavigatedFrom_
+  commentId: Overload:DataMaster.Views.Pages.Communication.OpcUaClientPage.OnNavigatedFrom
+  isSpec: "True"
+  fullName: DataMaster.Views.Pages.Communication.OpcUaClientPage.OnNavigatedFrom
+  nameWithType: OpcUaClientPage.OnNavigatedFrom
+- uid: DataMaster.Views.Pages.Communication.OpcUaClientPage.OnNavigatedTo
+  name: OnNavigatedTo()
+  href: api/DataMaster.Views.Pages.Communication.OpcUaClientPage.html#DataMaster_Views_Pages_Communication_OpcUaClientPage_OnNavigatedTo
+  commentId: M:DataMaster.Views.Pages.Communication.OpcUaClientPage.OnNavigatedTo
+  fullName: DataMaster.Views.Pages.Communication.OpcUaClientPage.OnNavigatedTo()
+  nameWithType: OpcUaClientPage.OnNavigatedTo()
+- uid: DataMaster.Views.Pages.Communication.OpcUaClientPage.OnNavigatedTo*
+  name: OnNavigatedTo
+  href: api/DataMaster.Views.Pages.Communication.OpcUaClientPage.html#DataMaster_Views_Pages_Communication_OpcUaClientPage_OnNavigatedTo_
+  commentId: Overload:DataMaster.Views.Pages.Communication.OpcUaClientPage.OnNavigatedTo
+  isSpec: "True"
+  fullName: DataMaster.Views.Pages.Communication.OpcUaClientPage.OnNavigatedTo
+  nameWithType: OpcUaClientPage.OnNavigatedTo
+- uid: DataMaster.Views.Pages.Communication.OpcUaClientPage.ViewModel
+  name: ViewModel
+  href: api/DataMaster.Views.Pages.Communication.OpcUaClientPage.html#DataMaster_Views_Pages_Communication_OpcUaClientPage_ViewModel
+  commentId: P:DataMaster.Views.Pages.Communication.OpcUaClientPage.ViewModel
+  fullName: DataMaster.Views.Pages.Communication.OpcUaClientPage.ViewModel
+  nameWithType: OpcUaClientPage.ViewModel
+- uid: DataMaster.Views.Pages.Communication.OpcUaClientPage.ViewModel*
+  name: ViewModel
+  href: api/DataMaster.Views.Pages.Communication.OpcUaClientPage.html#DataMaster_Views_Pages_Communication_OpcUaClientPage_ViewModel_
+  commentId: Overload:DataMaster.Views.Pages.Communication.OpcUaClientPage.ViewModel
+  isSpec: "True"
+  fullName: DataMaster.Views.Pages.Communication.OpcUaClientPage.ViewModel
+  nameWithType: OpcUaClientPage.ViewModel
 - uid: DataMaster.Views.Pages.ECharts
   name: DataMaster.Views.Pages.ECharts
   href: api/DataMaster.Views.Pages.ECharts.html

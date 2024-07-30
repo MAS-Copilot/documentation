@@ -502,6 +502,16 @@
     },
     {
       "type": "ManagedReference",
+      "source_relative_path": "api/DataMaster.Models.Configurations.OpcUaClientConfig.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DataMaster.Models.Configurations.OpcUaClientConfig.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
       "source_relative_path": "api/DataMaster.Models.Configurations.ProductionVolumeConfig.yml",
       "output": {
         ".html": {
@@ -516,6 +526,16 @@
       "output": {
         ".html": {
           "relative_path": "api/DataMaster.Models.Configurations.S7ProtocolConfig.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/DataMaster.Models.Configurations.ServerUrlsConfig.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DataMaster.Models.Configurations.ServerUrlsConfig.html"
         }
       },
       "version": ""
@@ -866,6 +886,146 @@
       "output": {
         ".html": {
           "relative_path": "api/DataMaster.Modules.MAS.Communication.MCProtocols.Interfaces.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/DataMaster.Modules.MAS.Communication.Opc.Ua.Helpers.MonitoredItemHelper.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DataMaster.Modules.MAS.Communication.Opc.Ua.Helpers.MonitoredItemHelper.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/DataMaster.Modules.MAS.Communication.Opc.Ua.Helpers.SubscriptionHelper.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DataMaster.Modules.MAS.Communication.Opc.Ua.Helpers.SubscriptionHelper.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/DataMaster.Modules.MAS.Communication.Opc.Ua.Helpers.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DataMaster.Modules.MAS.Communication.Opc.Ua.Helpers.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/DataMaster.Modules.MAS.Communication.Opc.Ua.Interface.IMonitoredItemSettings.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DataMaster.Modules.MAS.Communication.Opc.Ua.Interface.IMonitoredItemSettings.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/DataMaster.Modules.MAS.Communication.Opc.Ua.Interface.IOpcAdvancedSubscription.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DataMaster.Modules.MAS.Communication.Opc.Ua.Interface.IOpcAdvancedSubscription.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/DataMaster.Modules.MAS.Communication.Opc.Ua.Interface.IOpcClient.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DataMaster.Modules.MAS.Communication.Opc.Ua.Interface.IOpcClient.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/DataMaster.Modules.MAS.Communication.Opc.Ua.Interface.IOpcSecurity.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DataMaster.Modules.MAS.Communication.Opc.Ua.Interface.IOpcSecurity.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/DataMaster.Modules.MAS.Communication.Opc.Ua.Interface.IOpcSessionManagement.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DataMaster.Modules.MAS.Communication.Opc.Ua.Interface.IOpcSessionManagement.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/DataMaster.Modules.MAS.Communication.Opc.Ua.Interface.ISubscriptionSettings.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DataMaster.Modules.MAS.Communication.Opc.Ua.Interface.ISubscriptionSettings.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/DataMaster.Modules.MAS.Communication.Opc.Ua.Interface.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DataMaster.Modules.MAS.Communication.Opc.Ua.Interface.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/DataMaster.Modules.MAS.Communication.Opc.Ua.Modles.OpcNodeInfo.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DataMaster.Modules.MAS.Communication.Opc.Ua.Modles.OpcNodeInfo.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/DataMaster.Modules.MAS.Communication.Opc.Ua.Modles.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DataMaster.Modules.MAS.Communication.Opc.Ua.Modles.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/DataMaster.Modules.MAS.Communication.Opc.Ua.OpcClientService.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DataMaster.Modules.MAS.Communication.Opc.Ua.OpcClientService.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/DataMaster.Modules.MAS.Communication.Opc.Ua.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DataMaster.Modules.MAS.Communication.Opc.Ua.html"
         }
       },
       "version": ""
@@ -1722,6 +1882,26 @@
     },
     {
       "type": "ManagedReference",
+      "source_relative_path": "api/DataMaster.Modules.MAS.Events.StatusChangedEvent.ServiceType.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DataMaster.Modules.MAS.Events.StatusChangedEvent.ServiceType.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/DataMaster.Modules.MAS.Events.StatusChangedEvent.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DataMaster.Modules.MAS.Events.StatusChangedEvent.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
       "source_relative_path": "api/DataMaster.Modules.MAS.Events.yml",
       "output": {
         ".html": {
@@ -2112,6 +2292,26 @@
     },
     {
       "type": "ManagedReference",
+      "source_relative_path": "api/DataMaster.ViewModels.Pages.Communication.OpcUaClientViewModel.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DataMaster.ViewModels.Pages.Communication.OpcUaClientViewModel.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/DataMaster.ViewModels.Pages.Communication.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DataMaster.ViewModels.Pages.Communication.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
       "source_relative_path": "api/DataMaster.ViewModels.Pages.ECharts.AlarmViewModel.yml",
       "output": {
         ".html": {
@@ -2236,6 +2436,26 @@
       "output": {
         ".html": {
           "relative_path": "api/DataMaster.ViewModels.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/DataMaster.Views.Pages.Communication.OpcUaClientPage.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DataMaster.Views.Pages.Communication.OpcUaClientPage.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/DataMaster.Views.Pages.Communication.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DataMaster.Views.Pages.Communication.html"
         }
       },
       "version": ""
@@ -2415,10 +2635,20 @@
     },
     {
       "type": "Conceptual",
-      "source_relative_path": "content/Flow-Chart/S7Communication.MD",
+      "source_relative_path": "content/MAS-Communication/OPC.UA.md",
       "output": {
         ".html": {
-          "relative_path": "content/Flow-Chart/S7Communication.html"
+          "relative_path": "content/MAS-Communication/OPC.UA.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "content/MAS-Communication/S7Communication.md",
+      "output": {
+        ".html": {
+          "relative_path": "content/MAS-Communication/S7Communication.html"
         }
       },
       "version": ""
@@ -2498,6 +2728,16 @@
     },
     {
       "type": "Resource",
+      "source_relative_path": "images/ProductKey.jpg",
+      "output": {
+        "resource": {
+          "relative_path": "images/ProductKey.jpg"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
       "source_relative_path": "images/drawio/S7Communication.drawio.png",
       "output": {
         "resource": {
@@ -2512,26 +2752,6 @@
       "output": {
         "resource": {
           "relative_path": "images/favicon.ico"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "Resource",
-      "source_relative_path": "images/gif/Notification.gif",
-      "output": {
-        "resource": {
-          "relative_path": "images/gif/Notification.gif"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "Resource",
-      "source_relative_path": "images/gif/naControl.gif",
-      "output": {
-        "resource": {
-          "relative_path": "images/gif/naControl.gif"
         }
       },
       "version": ""

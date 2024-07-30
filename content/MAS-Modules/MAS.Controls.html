@@ -100,6 +100,11 @@
 <li><a href="#chartsnumberanimationcontrol">ChartsNumberAnimationControl</a></li>
 </ul>
 </li>
+<li><a href="#iloadingservice">ILoadingService</a>
+<ul>
+<li><a href="#loadingcircleservice">LoadingCircleService</a></li>
+</ul>
+</li>
 </ul>
 </li>
 </ul>
@@ -123,7 +128,7 @@ private void ShowNotification(string message) {
 }
 </code></pre>
 <p><strong>信息：</strong></p>
-<p><img src="../../images/gif/Notification.gif" alt="Notification"></p>
+<p>Nothing</p>
 <hr>
 <h2 id="numberanimation">NumberAnimation</h2>
 <p>数字动画</p>
@@ -149,7 +154,30 @@ public int CurrentNumber {
 }
 </code></pre>
 <p><strong>信息：</strong></p>
-<p><img src="../../images/gif/naControl.gif" alt="naControl"></p>
+<p>Nothing</p>
+<h2 id="iloadingservice">ILoadingService</h2>
+<p>加载动画</p>
+<h3 id="loadingcircleservice">LoadingCircleService</h3>
+<p><strong>行为：</strong></p>
+<ul>
+<li>Step 1: 定义 Host Control: 添加控件作为加载动画的指定容器</li>
+</ul>
+<pre><code class="lang-xml"> &lt;ContentControl x:Name=&quot;Loading&quot;/&gt;
+</code></pre>
+<ul>
+<li>Step 2: 服务初始化和方法实现</li>
+</ul>
+<pre><code class="lang-csharp">// View
+private readonly ILoadingService _loadingService;
+
+// 显示
+_loadingService.ShowLoadingAnimation(Loading);
+
+// 销毁
+_loadingService.DestroyLoadingAnimation();
+</code></pre>
+<p><strong>信息：</strong></p>
+<p>Nothing</p>
 
 </article>
 
