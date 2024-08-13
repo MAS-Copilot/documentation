@@ -6,7 +6,7 @@
       <meta name="viewport" content="width=device-width, initial-scale=1.0">
       <meta name="title" content="Class SettingsConfig | DataMaster ">
       
-      <meta name="description" content="包含所有与设定相关的配置信息">
+      <meta name="description" content="包含所有与设定相关的配置信息，用于 JSON 反序列化">
       <link rel="icon" href="../images/favicon.ico">
       <link rel="stylesheet" href="../public/docfx.min.css">
       <link rel="stylesheet" href="../public/main.css">
@@ -89,7 +89,7 @@
 
 
   <h1 id="DataMaster_Models_Configurations_SettingsConfig" data-uid="DataMaster.Models.Configurations.SettingsConfig" class="text-break">
-Class SettingsConfig  <a class="header-action link-secondary" title="View source" href="https://bitbucket.org/mas-software/industrial-mes-net-platform-advanced/src/feature/OPC-UA/Models/Configurations/SettingsConfig.cs#lines-9"><i class="bi bi-code-slash"></i></a>
+Class SettingsConfig  <a class="header-action link-secondary" title="View source" href="https://bitbucket.org/mas-software/industrial-mes-net-platform-advanced/src/feature/OpenCV/Models/Configurations/SettingsConfig.cs#lines-33"><i class="bi bi-code-slash"></i></a>
   </h1>
 
   <div class="facts text-secondary">
@@ -97,12 +97,12 @@ Class SettingsConfig  <a class="header-action link-secondary" title="View source
   <dl><dt>Assembly</dt><dd>DataMaster.dll</dd></dl>
   </div>
 
-  <div class="markdown summary"><p>包含所有与设定相关的配置信息</p>
+  <div class="markdown summary"><p>包含所有与设定相关的配置信息，用于 JSON 反序列化</p>
 </div>
   <div class="markdown conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public class SettingsConfig : ConfigurationsBase, INotifyPropertyChanged</code></pre>
+    <pre><code class="lang-csharp hljs">public class SettingsConfig : ConfigurationsBase</code></pre>
   </div>
 
 
@@ -117,22 +117,16 @@ Class SettingsConfig  <a class="header-action link-secondary" title="View source
     </dd>
   </dl>
 
-  <dl class="typelist implements">
-    <dt>Implements</dt>
-    <dd>
-      <div><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.componentmodel.inotifypropertychanged">INotifyPropertyChanged</a></div>
-    </dd>
-  </dl>
 
 
   <dl class="typelist inheritedMembers">
     <dt>Inherited Members</dt>
     <dd>
     <div>
-      <a class="xref" href="DataMaster.Models.ConfigurationsBase.html#DataMaster_Models_ConfigurationsBase_PropertyChanged">ConfigurationsBase.PropertyChanged</a>
+      <a class="xref" href="DataMaster.Models.ConfigurationsBase.html#DataMaster_Models_ConfigurationsBase_ConfigurationChanged">ConfigurationsBase.ConfigurationChanged</a>
     </div>
     <div>
-      <a class="xref" href="DataMaster.Models.ConfigurationsBase.html#DataMaster_Models_ConfigurationsBase_OnPropertyChanged_System_String_">ConfigurationsBase.OnPropertyChanged(string)</a>
+      <a class="xref" href="DataMaster.Models.ConfigurationsBase.html#DataMaster_Models_ConfigurationsBase_OnConfigurationChanged_System_String_">ConfigurationsBase.OnConfigurationChanged(string)</a>
     </div>
     <div>
       <a class="xref" href="DataMaster.Models.ConfigurationsBase.html#DataMaster_Models_ConfigurationsBase_SetField__1___0____0_System_String_">ConfigurationsBase.SetField&lt;T&gt;(ref T, T, string)</a>
@@ -173,7 +167,7 @@ Class SettingsConfig  <a class="header-action link-secondary" title="View source
 
   <h3 id="DataMaster_Models_Configurations_SettingsConfig_AppTheme" data-uid="DataMaster.Models.Configurations.SettingsConfig.AppTheme">
   AppTheme
-  <a class="header-action link-secondary" title="View source" href="https://bitbucket.org/mas-software/industrial-mes-net-platform-advanced/src/feature/OPC-UA/Models/Configurations/SettingsConfig.cs#lines-100"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://bitbucket.org/mas-software/industrial-mes-net-platform-advanced/src/feature/OpenCV/Models/Configurations/SettingsConfig.cs#lines-129"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>主题</p>
@@ -205,7 +199,7 @@ Class SettingsConfig  <a class="header-action link-secondary" title="View source
 
   <h3 id="DataMaster_Models_Configurations_SettingsConfig_CommunicationProtocolOptions" data-uid="DataMaster.Models.Configurations.SettingsConfig.CommunicationProtocolOptions">
   CommunicationProtocolOptions
-  <a class="header-action link-secondary" title="View source" href="https://bitbucket.org/mas-software/industrial-mes-net-platform-advanced/src/feature/OPC-UA/Models/Configurations/SettingsConfig.cs#lines-123"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://bitbucket.org/mas-software/industrial-mes-net-platform-advanced/src/feature/OpenCV/Models/Configurations/SettingsConfig.cs#lines-152"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>通讯协议选项</p>
@@ -238,7 +232,7 @@ public ObservableCollection&lt;string&gt; CommunicationProtocolOptions { get; se
 
   <h3 id="DataMaster_Models_Configurations_SettingsConfig_Database" data-uid="DataMaster.Models.Configurations.SettingsConfig.Database">
   Database
-  <a class="header-action link-secondary" title="View source" href="https://bitbucket.org/mas-software/industrial-mes-net-platform-advanced/src/feature/OPC-UA/Models/Configurations/SettingsConfig.cs#lines-23"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://bitbucket.org/mas-software/industrial-mes-net-platform-advanced/src/feature/OpenCV/Models/Configurations/SettingsConfig.cs#lines-47"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>获取数据库配置信息</p>
@@ -270,7 +264,7 @@ public ObservableCollection&lt;string&gt; CommunicationProtocolOptions { get; se
 
   <h3 id="DataMaster_Models_Configurations_SettingsConfig_IsModified" data-uid="DataMaster.Models.Configurations.SettingsConfig.IsModified">
   IsModified
-  <a class="header-action link-secondary" title="View source" href="https://bitbucket.org/mas-software/industrial-mes-net-platform-advanced/src/feature/OPC-UA/Models/Configurations/SettingsConfig.cs#lines-113"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://bitbucket.org/mas-software/industrial-mes-net-platform-advanced/src/feature/OpenCV/Models/Configurations/SettingsConfig.cs#lines-142"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>标识配置自上次保存以来是否已被修改</p>
@@ -303,7 +297,7 @@ public bool IsModified { get; set; }</code></pre>
 
   <h3 id="DataMaster_Models_Configurations_SettingsConfig_Language" data-uid="DataMaster.Models.Configurations.SettingsConfig.Language">
   Language
-  <a class="header-action link-secondary" title="View source" href="https://bitbucket.org/mas-software/industrial-mes-net-platform-advanced/src/feature/OPC-UA/Models/Configurations/SettingsConfig.cs#lines-91"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://bitbucket.org/mas-software/industrial-mes-net-platform-advanced/src/feature/OpenCV/Models/Configurations/SettingsConfig.cs#lines-120"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>语言</p>
@@ -335,7 +329,7 @@ public bool IsModified { get; set; }</code></pre>
 
   <h3 id="DataMaster_Models_Configurations_SettingsConfig_LicenseKey" data-uid="DataMaster.Models.Configurations.SettingsConfig.LicenseKey">
   LicenseKey
-  <a class="header-action link-secondary" title="View source" href="https://bitbucket.org/mas-software/industrial-mes-net-platform-advanced/src/feature/OPC-UA/Models/Configurations/SettingsConfig.cs#lines-82"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://bitbucket.org/mas-software/industrial-mes-net-platform-advanced/src/feature/OpenCV/Models/Configurations/SettingsConfig.cs#lines-111"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>产品的授权密钥</p>
@@ -367,7 +361,7 @@ public bool IsModified { get; set; }</code></pre>
 
   <h3 id="DataMaster_Models_Configurations_SettingsConfig_Log" data-uid="DataMaster.Models.Configurations.SettingsConfig.Log">
   Log
-  <a class="header-action link-secondary" title="View source" href="https://bitbucket.org/mas-software/industrial-mes-net-platform-advanced/src/feature/OPC-UA/Models/Configurations/SettingsConfig.cs#lines-28"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://bitbucket.org/mas-software/industrial-mes-net-platform-advanced/src/feature/OpenCV/Models/Configurations/SettingsConfig.cs#lines-52"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>获取日志配置信息</p>
@@ -399,7 +393,7 @@ public bool IsModified { get; set; }</code></pre>
 
   <h3 id="DataMaster_Models_Configurations_SettingsConfig_LogLevelOptions" data-uid="DataMaster.Models.Configurations.SettingsConfig.LogLevelOptions">
   LogLevelOptions
-  <a class="header-action link-secondary" title="View source" href="https://bitbucket.org/mas-software/industrial-mes-net-platform-advanced/src/feature/OPC-UA/Models/Configurations/SettingsConfig.cs#lines-225"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://bitbucket.org/mas-software/industrial-mes-net-platform-advanced/src/feature/OpenCV/Models/Configurations/SettingsConfig.cs#lines-212"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>日志级别选项</p>
@@ -432,7 +426,7 @@ public ObservableCollection&lt;string&gt; LogLevelOptions { get; set; }</code></
 
   <h3 id="DataMaster_Models_Configurations_SettingsConfig_McProtocols" data-uid="DataMaster.Models.Configurations.SettingsConfig.McProtocols">
   McProtocols
-  <a class="header-action link-secondary" title="View source" href="https://bitbucket.org/mas-software/industrial-mes-net-platform-advanced/src/feature/OPC-UA/Models/Configurations/SettingsConfig.cs#lines-13"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://bitbucket.org/mas-software/industrial-mes-net-platform-advanced/src/feature/OpenCV/Models/Configurations/SettingsConfig.cs#lines-37"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>获取 MC 协议配置信息</p>
@@ -464,7 +458,7 @@ public ObservableCollection&lt;string&gt; LogLevelOptions { get; set; }</code></
 
   <h3 id="DataMaster_Models_Configurations_SettingsConfig_MessageListStyle" data-uid="DataMaster.Models.Configurations.SettingsConfig.MessageListStyle">
   MessageListStyle
-  <a class="header-action link-secondary" title="View source" href="https://bitbucket.org/mas-software/industrial-mes-net-platform-advanced/src/feature/OPC-UA/Models/Configurations/SettingsConfig.cs#lines-43"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://bitbucket.org/mas-software/industrial-mes-net-platform-advanced/src/feature/OpenCV/Models/Configurations/SettingsConfig.cs#lines-67"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>获取消息列表样式配置信息</p>
@@ -496,7 +490,7 @@ public ObservableCollection&lt;string&gt; LogLevelOptions { get; set; }</code></
 
   <h3 id="DataMaster_Models_Configurations_SettingsConfig_NumberingSchemeOptions" data-uid="DataMaster.Models.Configurations.SettingsConfig.NumberingSchemeOptions">
   NumberingSchemeOptions
-  <a class="header-action link-secondary" title="View source" href="https://bitbucket.org/mas-software/industrial-mes-net-platform-advanced/src/feature/OPC-UA/Models/Configurations/SettingsConfig.cs#lines-242"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://bitbucket.org/mas-software/industrial-mes-net-platform-advanced/src/feature/OpenCV/Models/Configurations/SettingsConfig.cs#lines-222"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>日志编号方案选项</p>
@@ -529,7 +523,7 @@ public ObservableCollection&lt;string&gt; NumberingSchemeOptions { get; set; }</
 
   <h3 id="DataMaster_Models_Configurations_SettingsConfig_PlcProtocol" data-uid="DataMaster.Models.Configurations.SettingsConfig.PlcProtocol">
   PlcProtocol
-  <a class="header-action link-secondary" title="View source" href="https://bitbucket.org/mas-software/industrial-mes-net-platform-advanced/src/feature/OPC-UA/Models/Configurations/SettingsConfig.cs#lines-69"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://bitbucket.org/mas-software/industrial-mes-net-platform-advanced/src/feature/OpenCV/Models/Configurations/SettingsConfig.cs#lines-98"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>当前使用的PLC通信协议</p>
@@ -561,7 +555,7 @@ public ObservableCollection&lt;string&gt; NumberingSchemeOptions { get; set; }</
 
   <h3 id="DataMaster_Models_Configurations_SettingsConfig_ProtocolFrameOptions" data-uid="DataMaster.Models.Configurations.SettingsConfig.ProtocolFrameOptions">
   ProtocolFrameOptions
-  <a class="header-action link-secondary" title="View source" href="https://bitbucket.org/mas-software/industrial-mes-net-platform-advanced/src/feature/OPC-UA/Models/Configurations/SettingsConfig.cs#lines-140"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://bitbucket.org/mas-software/industrial-mes-net-platform-advanced/src/feature/OpenCV/Models/Configurations/SettingsConfig.cs#lines-162"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>协议帧选项</p>
@@ -594,7 +588,7 @@ public ObservableCollection&lt;string&gt; ProtocolFrameOptions { get; set; }</co
 
   <h3 id="DataMaster_Models_Configurations_SettingsConfig_ReceiveBitRegisterOptions" data-uid="DataMaster.Models.Configurations.SettingsConfig.ReceiveBitRegisterOptions">
   ReceiveBitRegisterOptions
-  <a class="header-action link-secondary" title="View source" href="https://bitbucket.org/mas-software/industrial-mes-net-platform-advanced/src/feature/OPC-UA/Models/Configurations/SettingsConfig.cs#lines-191"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://bitbucket.org/mas-software/industrial-mes-net-platform-advanced/src/feature/OpenCV/Models/Configurations/SettingsConfig.cs#lines-192"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>接收位寄存器选项</p>
@@ -627,7 +621,7 @@ public ObservableCollection&lt;string&gt; ReceiveBitRegisterOptions { get; set; 
 
   <h3 id="DataMaster_Models_Configurations_SettingsConfig_ReceiveWordRegisterOptions" data-uid="DataMaster.Models.Configurations.SettingsConfig.ReceiveWordRegisterOptions">
   ReceiveWordRegisterOptions
-  <a class="header-action link-secondary" title="View source" href="https://bitbucket.org/mas-software/industrial-mes-net-platform-advanced/src/feature/OPC-UA/Models/Configurations/SettingsConfig.cs#lines-208"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://bitbucket.org/mas-software/industrial-mes-net-platform-advanced/src/feature/OpenCV/Models/Configurations/SettingsConfig.cs#lines-202"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>接收字寄存器选项</p>
@@ -660,7 +654,7 @@ public ObservableCollection&lt;string&gt; ReceiveWordRegisterOptions { get; set;
 
   <h3 id="DataMaster_Models_Configurations_SettingsConfig_S7Protocols" data-uid="DataMaster.Models.Configurations.SettingsConfig.S7Protocols">
   S7Protocols
-  <a class="header-action link-secondary" title="View source" href="https://bitbucket.org/mas-software/industrial-mes-net-platform-advanced/src/feature/OPC-UA/Models/Configurations/SettingsConfig.cs#lines-18"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://bitbucket.org/mas-software/industrial-mes-net-platform-advanced/src/feature/OpenCV/Models/Configurations/SettingsConfig.cs#lines-42"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>获取 S7 协议配置信息</p>
@@ -692,7 +686,7 @@ public ObservableCollection&lt;string&gt; ReceiveWordRegisterOptions { get; set;
 
   <h3 id="DataMaster_Models_Configurations_SettingsConfig_SendBitRegisterOptions" data-uid="DataMaster.Models.Configurations.SettingsConfig.SendBitRegisterOptions">
   SendBitRegisterOptions
-  <a class="header-action link-secondary" title="View source" href="https://bitbucket.org/mas-software/industrial-mes-net-platform-advanced/src/feature/OPC-UA/Models/Configurations/SettingsConfig.cs#lines-157"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://bitbucket.org/mas-software/industrial-mes-net-platform-advanced/src/feature/OpenCV/Models/Configurations/SettingsConfig.cs#lines-172"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>发送位寄存器选项</p>
@@ -725,7 +719,7 @@ public ObservableCollection&lt;string&gt; SendBitRegisterOptions { get; set; }</
 
   <h3 id="DataMaster_Models_Configurations_SettingsConfig_SendWordRegisterOptions" data-uid="DataMaster.Models.Configurations.SettingsConfig.SendWordRegisterOptions">
   SendWordRegisterOptions
-  <a class="header-action link-secondary" title="View source" href="https://bitbucket.org/mas-software/industrial-mes-net-platform-advanced/src/feature/OPC-UA/Models/Configurations/SettingsConfig.cs#lines-174"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://bitbucket.org/mas-software/industrial-mes-net-platform-advanced/src/feature/OpenCV/Models/Configurations/SettingsConfig.cs#lines-182"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>发送字寄存器选项</p>
@@ -758,7 +752,7 @@ public ObservableCollection&lt;string&gt; SendWordRegisterOptions { get; set; }<
 
   <h3 id="DataMaster_Models_Configurations_SettingsConfig_ServerUrls" data-uid="DataMaster.Models.Configurations.SettingsConfig.ServerUrls">
   ServerUrls
-  <a class="header-action link-secondary" title="View source" href="https://bitbucket.org/mas-software/industrial-mes-net-platform-advanced/src/feature/OPC-UA/Models/Configurations/SettingsConfig.cs#lines-53"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://bitbucket.org/mas-software/industrial-mes-net-platform-advanced/src/feature/OpenCV/Models/Configurations/SettingsConfig.cs#lines-77"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>获取服务地址列表</p>
@@ -790,7 +784,7 @@ public ObservableCollection&lt;string&gt; SendWordRegisterOptions { get; set; }<
 
   <h3 id="DataMaster_Models_Configurations_SettingsConfig_StartWorkFile" data-uid="DataMaster.Models.Configurations.SettingsConfig.StartWorkFile">
   StartWorkFile
-  <a class="header-action link-secondary" title="View source" href="https://bitbucket.org/mas-software/industrial-mes-net-platform-advanced/src/feature/OPC-UA/Models/Configurations/SettingsConfig.cs#lines-38"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://bitbucket.org/mas-software/industrial-mes-net-platform-advanced/src/feature/OpenCV/Models/Configurations/SettingsConfig.cs#lines-62"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>获取启动时工作文件配置信息</p>
@@ -822,7 +816,7 @@ public ObservableCollection&lt;string&gt; SendWordRegisterOptions { get; set; }<
 
   <h3 id="DataMaster_Models_Configurations_SettingsConfig_StatisticalData" data-uid="DataMaster.Models.Configurations.SettingsConfig.StatisticalData">
   StatisticalData
-  <a class="header-action link-secondary" title="View source" href="https://bitbucket.org/mas-software/industrial-mes-net-platform-advanced/src/feature/OPC-UA/Models/Configurations/SettingsConfig.cs#lines-48"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://bitbucket.org/mas-software/industrial-mes-net-platform-advanced/src/feature/OpenCV/Models/Configurations/SettingsConfig.cs#lines-72"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>获取统计数据配置信息</p>
@@ -854,7 +848,7 @@ public ObservableCollection&lt;string&gt; SendWordRegisterOptions { get; set; }<
 
   <h3 id="DataMaster_Models_Configurations_SettingsConfig_UserCredentials" data-uid="DataMaster.Models.Configurations.SettingsConfig.UserCredentials">
   UserCredentials
-  <a class="header-action link-secondary" title="View source" href="https://bitbucket.org/mas-software/industrial-mes-net-platform-advanced/src/feature/OPC-UA/Models/Configurations/SettingsConfig.cs#lines-33"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://bitbucket.org/mas-software/industrial-mes-net-platform-advanced/src/feature/OpenCV/Models/Configurations/SettingsConfig.cs#lines-57"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>获取用户凭证配置的字典，键为用户名</p>
@@ -882,6 +876,38 @@ public ObservableCollection&lt;string&gt; SendWordRegisterOptions { get; set; }<
 
 
 
+  <a id="DataMaster_Models_Configurations_SettingsConfig_Vision_" data-uid="DataMaster.Models.Configurations.SettingsConfig.Vision*"></a>
+
+  <h3 id="DataMaster_Models_Configurations_SettingsConfig_Vision" data-uid="DataMaster.Models.Configurations.SettingsConfig.Vision">
+  Vision
+  <a class="header-action link-secondary" title="View source" href="https://bitbucket.org/mas-software/industrial-mes-net-platform-advanced/src/feature/OpenCV/Models/Configurations/SettingsConfig.cs#lines-82"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>获取视觉配置</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public VisionConfig Vision { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="DataMaster.Models.Configurations.Vision.VisionConfig.html">VisionConfig</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
   <h2 class="section" id="events">Events
 </h2>
 
@@ -889,7 +915,7 @@ public ObservableCollection&lt;string&gt; SendWordRegisterOptions { get; set; }<
 
   <h3 id="DataMaster_Models_Configurations_SettingsConfig_OnAppTheme" data-uid="DataMaster.Models.Configurations.SettingsConfig.OnAppTheme">
   OnAppTheme
-  <a class="header-action link-secondary" title="View source" href="https://bitbucket.org/mas-software/industrial-mes-net-platform-advanced/src/feature/OPC-UA/Models/Configurations/SettingsConfig.cs#lines-63"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://bitbucket.org/mas-software/industrial-mes-net-platform-advanced/src/feature/OpenCV/Models/Configurations/SettingsConfig.cs#lines-92"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>主题更改事件</p>
@@ -920,7 +946,7 @@ public ObservableCollection&lt;string&gt; SendWordRegisterOptions { get; set; }<
 
   <h3 id="DataMaster_Models_Configurations_SettingsConfig_OnPlcProtocol" data-uid="DataMaster.Models.Configurations.SettingsConfig.OnPlcProtocol">
   OnPlcProtocol
-  <a class="header-action link-secondary" title="View source" href="https://bitbucket.org/mas-software/industrial-mes-net-platform-advanced/src/feature/OPC-UA/Models/Configurations/SettingsConfig.cs#lines-58"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://bitbucket.org/mas-software/industrial-mes-net-platform-advanced/src/feature/OpenCV/Models/Configurations/SettingsConfig.cs#lines-87"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>PLC 协议更改事件</p>
@@ -952,7 +978,7 @@ public ObservableCollection&lt;string&gt; SendWordRegisterOptions { get; set; }<
 </article>
 
         <div class="contribution d-print-none">
-          <a href="https://bitbucket.org/mas-software/industrial-mes-net-platform-advanced/src/feature/OPC-UA/Models/Configurations/SettingsConfig.cs#lines-9" class="edit-link">Edit this page</a>
+          <a href="https://bitbucket.org/mas-software/industrial-mes-net-platform-advanced/src/feature/OpenCV/Models/Configurations/SettingsConfig.cs#lines-33" class="edit-link">Edit this page</a>
         </div>
 
 

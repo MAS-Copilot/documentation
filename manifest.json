@@ -72,6 +72,46 @@
     },
     {
       "type": "ManagedReference",
+      "source_relative_path": "api/DataMaster.Converters.BoolToColorConverter.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DataMaster.Converters.BoolToColorConverter.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/DataMaster.Converters.BoolToSymbolConverter.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DataMaster.Converters.BoolToSymbolConverter.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/DataMaster.Converters.InfoLevelToIconColorConverter.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DataMaster.Converters.InfoLevelToIconColorConverter.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/DataMaster.Converters.InfoLevelToIconKindConverter.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DataMaster.Converters.InfoLevelToIconKindConverter.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
       "source_relative_path": "api/DataMaster.Converters.ListToStringConverter.yml",
       "output": {
         ".html": {
@@ -92,6 +132,26 @@
     },
     {
       "type": "ManagedReference",
+      "source_relative_path": "api/DataMaster.Factory.ImagePreviewWindowFactory.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DataMaster.Factory.ImagePreviewWindowFactory.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/DataMaster.Factory.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DataMaster.Factory.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
       "source_relative_path": "api/DataMaster.Helpers.ButtonOption.yml",
       "output": {
         ".html": {
@@ -106,6 +166,16 @@
       "output": {
         ".html": {
           "relative_path": "api/DataMaster.Helpers.FileHelper.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/DataMaster.Helpers.ImageHelper.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DataMaster.Helpers.ImageHelper.html"
         }
       },
       "version": ""
@@ -302,6 +372,36 @@
     },
     {
       "type": "ManagedReference",
+      "source_relative_path": "api/DataMaster.Interfaces.DisplayWindow.IImagePreviewWindowFactory.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DataMaster.Interfaces.DisplayWindow.IImagePreviewWindowFactory.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/DataMaster.Interfaces.DisplayWindow.IWindowsProviderService.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DataMaster.Interfaces.DisplayWindow.IWindowsProviderService.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/DataMaster.Interfaces.DisplayWindow.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DataMaster.Interfaces.DisplayWindow.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
       "source_relative_path": "api/DataMaster.Interfaces.ISelectable.yml",
       "output": {
         ".html": {
@@ -386,6 +486,16 @@
       "output": {
         ".html": {
           "relative_path": "api/DataMaster.Models.Charts.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/DataMaster.Models.ConfigurationChangedEventArgs.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DataMaster.Models.ConfigurationChangedEventArgs.html"
         }
       },
       "version": ""
@@ -576,6 +686,36 @@
       "output": {
         ".html": {
           "relative_path": "api/DataMaster.Models.Configurations.UserCredentialsConfig.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/DataMaster.Models.Configurations.Vision.ObjectDetectionConfig.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DataMaster.Models.Configurations.Vision.ObjectDetectionConfig.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/DataMaster.Models.Configurations.Vision.VisionConfig.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DataMaster.Models.Configurations.Vision.VisionConfig.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/DataMaster.Models.Configurations.Vision.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DataMaster.Models.Configurations.Vision.html"
         }
       },
       "version": ""
@@ -1882,6 +2022,16 @@
     },
     {
       "type": "ManagedReference",
+      "source_relative_path": "api/DataMaster.Modules.MAS.Events.ObjectDetectionEvent.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DataMaster.Modules.MAS.Events.ObjectDetectionEvent.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
       "source_relative_path": "api/DataMaster.Modules.MAS.Events.StatusChangedEvent.ServiceType.yml",
       "output": {
         ".html": {
@@ -1912,6 +2062,66 @@
     },
     {
       "type": "ManagedReference",
+      "source_relative_path": "api/DataMaster.Modules.MAS.FileSystem.Helpers.FileHelper.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DataMaster.Modules.MAS.FileSystem.Helpers.FileHelper.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/DataMaster.Modules.MAS.FileSystem.Helpers.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DataMaster.Modules.MAS.FileSystem.Helpers.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/DataMaster.Modules.MAS.FileSystem.Interface.IFileSavingService.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DataMaster.Modules.MAS.FileSystem.Interface.IFileSavingService.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/DataMaster.Modules.MAS.FileSystem.Interface.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DataMaster.Modules.MAS.FileSystem.Interface.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/DataMaster.Modules.MAS.FileSystem.Services.FileSavingService.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DataMaster.Modules.MAS.FileSystem.Services.FileSavingService.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/DataMaster.Modules.MAS.FileSystem.Services.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DataMaster.Modules.MAS.FileSystem.Services.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
       "source_relative_path": "api/DataMaster.Modules.MAS.InstantMessage.API.IInstantMessageService.yml",
       "output": {
         ".html": {
@@ -1936,6 +2146,16 @@
       "output": {
         ".html": {
           "relative_path": "api/DataMaster.Modules.MAS.InstantMessage.Interfaces.IInstantMessageService.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/DataMaster.Modules.MAS.InstantMessage.Interfaces.IInstantMessagingService.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DataMaster.Modules.MAS.InstantMessage.Interfaces.IInstantMessagingService.html"
         }
       },
       "version": ""
@@ -1996,6 +2216,16 @@
       "output": {
         ".html": {
           "relative_path": "api/DataMaster.Modules.MAS.InstantMessage.Services.InstantMessageService.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/DataMaster.Modules.MAS.InstantMessage.Services.InstantMessagingService.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DataMaster.Modules.MAS.InstantMessage.Services.InstantMessagingService.html"
         }
       },
       "version": ""
@@ -2126,6 +2356,126 @@
       "output": {
         ".html": {
           "relative_path": "api/DataMaster.Modules.MAS.Security.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/DataMaster.Modules.MAS.Vision.Helpers.ImageHelper.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DataMaster.Modules.MAS.Vision.Helpers.ImageHelper.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/DataMaster.Modules.MAS.Vision.Helpers.VideoCaptureHelper.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DataMaster.Modules.MAS.Vision.Helpers.VideoCaptureHelper.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/DataMaster.Modules.MAS.Vision.Helpers.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DataMaster.Modules.MAS.Vision.Helpers.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/DataMaster.Modules.MAS.Vision.Interface.ICameraParametersConfig.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DataMaster.Modules.MAS.Vision.Interface.ICameraParametersConfig.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/DataMaster.Modules.MAS.Vision.Interface.IObjectDetectionCommService.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DataMaster.Modules.MAS.Vision.Interface.IObjectDetectionCommService.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/DataMaster.Modules.MAS.Vision.Interface.IObjectDetectionConfig.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DataMaster.Modules.MAS.Vision.Interface.IObjectDetectionConfig.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/DataMaster.Modules.MAS.Vision.Interface.IObjectDetectionService.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DataMaster.Modules.MAS.Vision.Interface.IObjectDetectionService.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/DataMaster.Modules.MAS.Vision.Interface.IVisualProcessor.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DataMaster.Modules.MAS.Vision.Interface.IVisualProcessor.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/DataMaster.Modules.MAS.Vision.Interface.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DataMaster.Modules.MAS.Vision.Interface.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/DataMaster.Modules.MAS.Vision.Services.ObjectDetectionService.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DataMaster.Modules.MAS.Vision.Services.ObjectDetectionService.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/DataMaster.Modules.MAS.Vision.Services.VisualProcessorService.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DataMaster.Modules.MAS.Vision.Services.VisualProcessorService.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/DataMaster.Modules.MAS.Vision.Services.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DataMaster.Modules.MAS.Vision.Services.html"
         }
       },
       "version": ""
@@ -2392,6 +2742,36 @@
     },
     {
       "type": "ManagedReference",
+      "source_relative_path": "api/DataMaster.ViewModels.Pages.Visions.DashboardViewModel.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DataMaster.ViewModels.Pages.Visions.DashboardViewModel.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/DataMaster.ViewModels.Pages.Visions.ObjectDetectionViewModel.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DataMaster.ViewModels.Pages.Visions.ObjectDetectionViewModel.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/DataMaster.ViewModels.Pages.Visions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DataMaster.ViewModels.Pages.Visions.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
       "source_relative_path": "api/DataMaster.ViewModels.Pages.yml",
       "output": {
         ".html": {
@@ -2416,6 +2796,36 @@
       "output": {
         ".html": {
           "relative_path": "api/DataMaster.ViewModels.Windows.MainViewModel.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/DataMaster.ViewModels.Windows.Vision.ImagePreviewViewModel.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DataMaster.ViewModels.Windows.Vision.ImagePreviewViewModel.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/DataMaster.ViewModels.Windows.Vision.ObjectDetectionSetViewModel.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DataMaster.ViewModels.Windows.Vision.ObjectDetectionSetViewModel.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/DataMaster.ViewModels.Windows.Vision.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DataMaster.ViewModels.Windows.Vision.html"
         }
       },
       "version": ""
@@ -2542,6 +2952,36 @@
     },
     {
       "type": "ManagedReference",
+      "source_relative_path": "api/DataMaster.Views.Pages.Visions.DashboardPage.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DataMaster.Views.Pages.Visions.DashboardPage.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/DataMaster.Views.Pages.Visions.ObjectDetectionPage.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DataMaster.Views.Pages.Visions.ObjectDetectionPage.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/DataMaster.Views.Pages.Visions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DataMaster.Views.Pages.Visions.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
       "source_relative_path": "api/DataMaster.Views.Pages.yml",
       "output": {
         ".html": {
@@ -2556,6 +2996,36 @@
       "output": {
         ".html": {
           "relative_path": "api/DataMaster.Views.Windows.FullScreenWindow.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/DataMaster.Views.Windows.Vision.ImagePreviewWindow.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DataMaster.Views.Windows.Vision.ImagePreviewWindow.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/DataMaster.Views.Windows.Vision.ObjectDetectionSetWindow.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DataMaster.Views.Windows.Vision.ObjectDetectionSetWindow.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/DataMaster.Views.Windows.Vision.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DataMaster.Views.Windows.Vision.html"
         }
       },
       "version": ""
@@ -2674,6 +3144,16 @@
       "version": ""
     },
     {
+      "type": "Conceptual",
+      "source_relative_path": "content/MAS-Modules/MAS.Vision.md",
+      "output": {
+        ".html": {
+          "relative_path": "content/MAS-Modules/MAS.Vision.html"
+        }
+      },
+      "version": ""
+    },
+    {
       "type": "Toc",
       "source_relative_path": "content/toc.yml",
       "output": {
@@ -2732,6 +3212,26 @@
       "output": {
         "resource": {
           "relative_path": "images/ProductKey.jpg"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/Vision/objectDetection.png",
+      "output": {
+        "resource": {
+          "relative_path": "images/Vision/objectDetection.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/Vision/yolov5model.png",
+      "output": {
+        "resource": {
+          "relative_path": "images/Vision/yolov5model.png"
         }
       },
       "version": ""

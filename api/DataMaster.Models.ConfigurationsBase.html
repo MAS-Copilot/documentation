@@ -89,7 +89,7 @@
 
 
   <h1 id="DataMaster_Models_ConfigurationsBase" data-uid="DataMaster.Models.ConfigurationsBase" class="text-break">
-Class ConfigurationsBase  <a class="header-action link-secondary" title="View source" href="https://bitbucket.org/mas-software/industrial-mes-net-platform-advanced/src/feature/OPC-UA/Models/ConfigurationsBase.cs#lines-31"><i class="bi bi-code-slash"></i></a>
+Class ConfigurationsBase  <a class="header-action link-secondary" title="View source" href="https://bitbucket.org/mas-software/industrial-mes-net-platform-advanced/src/feature/OpenCV/Models/ConfigurationsBase.cs#lines-29"><i class="bi bi-code-slash"></i></a>
   </h1>
 
   <div class="facts text-secondary">
@@ -102,7 +102,7 @@ Class ConfigurationsBase  <a class="header-action link-secondary" title="View so
   <div class="markdown conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public class ConfigurationsBase : INotifyPropertyChanged</code></pre>
+    <pre><code class="lang-csharp hljs">public class ConfigurationsBase</code></pre>
   </div>
 
 
@@ -116,12 +116,6 @@ Class ConfigurationsBase  <a class="header-action link-secondary" title="View so
     </dd>
   </dl>
 
-  <dl class="typelist implements">
-    <dt>Implements</dt>
-    <dd>
-      <div><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.componentmodel.inotifypropertychanged">INotifyPropertyChanged</a></div>
-    </dd>
-  </dl>
 
   <dl class="typelist derived">
     <dt>Derived</dt>
@@ -138,6 +132,8 @@ Class ConfigurationsBase  <a class="header-action link-secondary" title="View so
       <div><a class="xref" href="DataMaster.Models.Configurations.StartWorkFileConfig.html">StartWorkFileConfig</a></div>
       <div><a class="xref" href="DataMaster.Models.Configurations.StatisticalDataConfig.html">StatisticalDataConfig</a></div>
       <div><a class="xref" href="DataMaster.Models.Configurations.UserCredentialsConfig.html">UserCredentialsConfig</a></div>
+      <div><a class="xref" href="DataMaster.Models.Configurations.Vision.ObjectDetectionConfig.html">ObjectDetectionConfig</a></div>
+      <div><a class="xref" href="DataMaster.Models.Configurations.Vision.VisionConfig.html">VisionConfig</a></div>
     </dd>
   </dl>
 
@@ -176,25 +172,26 @@ Class ConfigurationsBase  <a class="header-action link-secondary" title="View so
 </h2>
 
 
-  <a id="DataMaster_Models_ConfigurationsBase_OnPropertyChanged_" data-uid="DataMaster.Models.ConfigurationsBase.OnPropertyChanged*"></a>
+  <a id="DataMaster_Models_ConfigurationsBase_OnConfigurationChanged_" data-uid="DataMaster.Models.ConfigurationsBase.OnConfigurationChanged*"></a>
 
-  <h3 id="DataMaster_Models_ConfigurationsBase_OnPropertyChanged_System_String_" data-uid="DataMaster.Models.ConfigurationsBase.OnPropertyChanged(System.String)">
-  OnPropertyChanged(string)
-  <a class="header-action link-secondary" title="View source" href="https://bitbucket.org/mas-software/industrial-mes-net-platform-advanced/src/feature/OPC-UA/Models/ConfigurationsBase.cs#lines-40"><i class="bi bi-code-slash"></i></a>
+  <h3 id="DataMaster_Models_ConfigurationsBase_OnConfigurationChanged_System_String_" data-uid="DataMaster.Models.ConfigurationsBase.OnConfigurationChanged(System.String)">
+  OnConfigurationChanged(string)
+  <a class="header-action link-secondary" title="View source" href="https://bitbucket.org/mas-software/industrial-mes-net-platform-advanced/src/feature/OpenCV/Models/ConfigurationsBase.cs#lines-39"><i class="bi bi-code-slash"></i></a>
   </h3>
 
-  <div class="markdown level1 summary"><p>用于通知属性更改的辅助方法</p>
+  <div class="markdown level1 summary"><p>触发配置更改事件的辅助方法</p>
 </div>
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">protected virtual void OnPropertyChanged(string propertyName)</code></pre>
+    <pre><code class="lang-csharp hljs">protected virtual void OnConfigurationChanged(string propertyName)</code></pre>
   </div>
 
   <h4 class="section">Parameters</h4>
   <dl class="parameters">
     <dt><code>propertyName</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
-    <dd></dd>
+    <dd><p>被更改的配置的属性名</p>
+</dd>
   </dl>
 
 
@@ -212,10 +209,10 @@ Class ConfigurationsBase  <a class="header-action link-secondary" title="View so
 
   <h3 id="DataMaster_Models_ConfigurationsBase_SetField__1___0____0_System_String_" data-uid="DataMaster.Models.ConfigurationsBase.SetField``1(``0@,``0,System.String)">
   SetField&lt;T&gt;(ref T, T, string)
-  <a class="header-action link-secondary" title="View source" href="https://bitbucket.org/mas-software/industrial-mes-net-platform-advanced/src/feature/OPC-UA/Models/ConfigurationsBase.cs#lines-52"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://bitbucket.org/mas-software/industrial-mes-net-platform-advanced/src/feature/OpenCV/Models/ConfigurationsBase.cs#lines-51"><i class="bi bi-code-slash"></i></a>
   </h3>
 
-  <div class="markdown level1 summary"><p>辅助方法，用于设置属性值并触发属性更改通知</p>
+  <div class="markdown level1 summary"><p>辅助方法，用于设置属性值并在值更改时触发配置更改事件</p>
 </div>
   <div class="markdown level1 conceptual"></div>
 
@@ -229,7 +226,7 @@ Class ConfigurationsBase  <a class="header-action link-secondary" title="View so
     <dd><p>引用后备字段。这个字段将被更新为新的值</p>
 </dd>
     <dt><code>value</code> <span class="xref">T</span></dt>
-    <dd><p>要设置的新值。如果新值与旧值相同，则不会触发通知</p>
+    <dd><p>要设置的新值。如果新值与旧值相同，则不会更新或触发事件</p>
 </dd>
     <dt><code>propertyName</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
     <dd><p>更改的属性的名称。使用 nameof 关键字来避免硬编码属性名</p>
@@ -239,7 +236,7 @@ Class ConfigurationsBase  <a class="header-action link-secondary" title="View so
   <h4 class="section">Returns</h4>
   <dl class="parameters">
     <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
-    <dd><p>如果属性值发生了变化返回true。反之false</p>
+    <dd><p>如果属性值发生了变化返回true，反之false</p>
 </dd>
   </dl>
 
@@ -264,17 +261,17 @@ Class ConfigurationsBase  <a class="header-action link-secondary" title="View so
 
 
 
-  <h3 id="DataMaster_Models_ConfigurationsBase_PropertyChanged" data-uid="DataMaster.Models.ConfigurationsBase.PropertyChanged">
-  PropertyChanged
-  <a class="header-action link-secondary" title="View source" href="https://bitbucket.org/mas-software/industrial-mes-net-platform-advanced/src/feature/OPC-UA/Models/ConfigurationsBase.cs#lines-35"><i class="bi bi-code-slash"></i></a>
+  <h3 id="DataMaster_Models_ConfigurationsBase_ConfigurationChanged" data-uid="DataMaster.Models.ConfigurationsBase.ConfigurationChanged">
+  ConfigurationChanged
+  <a class="header-action link-secondary" title="View source" href="https://bitbucket.org/mas-software/industrial-mes-net-platform-advanced/src/feature/OpenCV/Models/ConfigurationsBase.cs#lines-33"><i class="bi bi-code-slash"></i></a>
   </h3>
 
-  <div class="markdown level1 summary"><p>INotifyPropertyChanged接口的事件声明，当属性值更改时触发</p>
+  <div class="markdown level1 summary"><p>参数配置改变事件</p>
 </div>
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public event PropertyChangedEventHandler? PropertyChanged</code></pre>
+    <pre><code class="lang-csharp hljs">public event EventHandler&lt;ConfigurationChangedEventArgs&gt;? ConfigurationChanged</code></pre>
   </div>
 
 
@@ -284,7 +281,7 @@ Class ConfigurationsBase  <a class="header-action link-secondary" title="View so
 
   <h4 class="section">Event Type</h4>
   <dl class="parameters">
-    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.componentmodel.propertychangedeventhandler">PropertyChangedEventHandler</a></dt>
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.eventhandler-1">EventHandler</a>&lt;<a class="xref" href="DataMaster.Models.ConfigurationChangedEventArgs.html">ConfigurationChangedEventArgs</a>&gt;</dt>
     <dd></dd>
   </dl>
 
@@ -298,7 +295,7 @@ Class ConfigurationsBase  <a class="header-action link-secondary" title="View so
 </article>
 
         <div class="contribution d-print-none">
-          <a href="https://bitbucket.org/mas-software/industrial-mes-net-platform-advanced/src/feature/OPC-UA/Models/ConfigurationsBase.cs#lines-31" class="edit-link">Edit this page</a>
+          <a href="https://bitbucket.org/mas-software/industrial-mes-net-platform-advanced/src/feature/OpenCV/Models/ConfigurationsBase.cs#lines-29" class="edit-link">Edit this page</a>
         </div>
 
 
