@@ -89,7 +89,7 @@
 
 
   <h1 id="DataMaster_ViewModels_Pages_Communication_OpcUaClientViewModel" data-uid="DataMaster.ViewModels.Pages.Communication.OpcUaClientViewModel" class="text-break">
-Class OpcUaClientViewModel  <a class="header-action link-secondary" title="View source" href="https://bitbucket.org/mas-software/industrial-mes-net-platform-advanced/src/feature/OpenCV/ViewModels/Pages/Communication/OpcUaClientViewModel.cs#lines-20"><i class="bi bi-code-slash"></i></a>
+Class OpcUaClientViewModel  <a class="header-action link-secondary" title="View source" href="https://bitbucket.org/mas-software/industrial-mes-net-platform-advanced/src/main/ViewModels/Pages/Communication/OpcUaClientViewModel.cs#lines-24"><i class="bi bi-code-slash"></i></a>
   </h1>
 
   <div class="facts text-secondary">
@@ -112,7 +112,7 @@ Class OpcUaClientViewModel  <a class="header-action link-secondary" title="View 
     <dt>Inheritance</dt>
     <dd>
       <div><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">object</a></div>
-      <div><a class="xref" href="DataMaster.ViewModels.ViewModelBase.html">ViewModelBase</a></div>
+      <div><a class="xref" href="DataMaster.Abstracts.ViewModelBase.html">ViewModelBase</a></div>
       <div><span class="xref">OpcUaClientViewModel</span></div>
     </dd>
   </dl>
@@ -129,22 +129,25 @@ Class OpcUaClientViewModel  <a class="header-action link-secondary" title="View 
     <dt>Inherited Members</dt>
     <dd>
     <div>
-      <a class="xref" href="DataMaster.ViewModels.ViewModelBase.html#DataMaster_ViewModels_ViewModelBase_SystemLogger">ViewModelBase.SystemLogger</a>
+      <a class="xref" href="DataMaster.Abstracts.ViewModelBase.html#DataMaster_Abstracts_ViewModelBase_Config">ViewModelBase.Config</a>
     </div>
     <div>
-      <a class="xref" href="DataMaster.ViewModels.ViewModelBase.html#DataMaster_ViewModels_ViewModelBase_Config">ViewModelBase.Config</a>
+      <a class="xref" href="DataMaster.Abstracts.ViewModelBase.html#DataMaster_Abstracts_ViewModelBase_LanguageManager">ViewModelBase.LanguageManager</a>
     </div>
     <div>
-      <a class="xref" href="DataMaster.ViewModels.ViewModelBase.html#DataMaster_ViewModels_ViewModelBase_LanguageManager">ViewModelBase.LanguageManager</a>
+      <a class="xref" href="DataMaster.Abstracts.ViewModelBase.html#DataMaster_Abstracts_ViewModelBase_BusyCursor">ViewModelBase.BusyCursor</a>
     </div>
     <div>
-      <a class="xref" href="DataMaster.ViewModels.ViewModelBase.html#DataMaster_ViewModels_ViewModelBase_PropertyChanged">ViewModelBase.PropertyChanged</a>
+      <a class="xref" href="DataMaster.Abstracts.ViewModelBase.html#DataMaster_Abstracts_ViewModelBase_WorkingCursor">ViewModelBase.WorkingCursor</a>
     </div>
     <div>
-      <a class="xref" href="DataMaster.ViewModels.ViewModelBase.html#DataMaster_ViewModels_ViewModelBase_OnPropertyChanged_System_String_">ViewModelBase.OnPropertyChanged(string)</a>
+      <a class="xref" href="DataMaster.Abstracts.ViewModelBase.html#DataMaster_Abstracts_ViewModelBase_PropertyChanged">ViewModelBase.PropertyChanged</a>
     </div>
     <div>
-      <a class="xref" href="DataMaster.ViewModels.ViewModelBase.html#DataMaster_ViewModels_ViewModelBase_SetField__1___0____0_System_String_">ViewModelBase.SetField&lt;T&gt;(ref T, T, string)</a>
+      <a class="xref" href="DataMaster.Abstracts.ViewModelBase.html#DataMaster_Abstracts_ViewModelBase_OnPropertyChanged_System_String_">ViewModelBase.OnPropertyChanged(string)</a>
+    </div>
+    <div>
+      <a class="xref" href="DataMaster.Abstracts.ViewModelBase.html#DataMaster_Abstracts_ViewModelBase_SetField__1___0____0_System_String_">ViewModelBase.SetField&lt;T&gt;(ref T, T, string)</a>
     </div>
     <div>
       <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)">object.Equals(object)</a>
@@ -180,9 +183,9 @@ Class OpcUaClientViewModel  <a class="header-action link-secondary" title="View 
 
   <a id="DataMaster_ViewModels_Pages_Communication_OpcUaClientViewModel__ctor_" data-uid="DataMaster.ViewModels.Pages.Communication.OpcUaClientViewModel.#ctor*"></a>
 
-  <h3 id="DataMaster_ViewModels_Pages_Communication_OpcUaClientViewModel__ctor_DataMaster_Modules_MAS_Communication_Opc_Ua_Interface_IOpcClient_DataMaster_Modules_MAS_EventAggregator_Interfaces_IEventAggregatorService_" data-uid="DataMaster.ViewModels.Pages.Communication.OpcUaClientViewModel.#ctor(DataMaster.Modules.MAS.Communication.Opc.Ua.Interface.IOpcClient,DataMaster.Modules.MAS.EventAggregator.Interfaces.IEventAggregatorService)">
-  OpcUaClientViewModel(IOpcClient, IEventAggregatorService)
-  <a class="header-action link-secondary" title="View source" href="https://bitbucket.org/mas-software/industrial-mes-net-platform-advanced/src/feature/OpenCV/ViewModels/Pages/Communication/OpcUaClientViewModel.cs#lines-116"><i class="bi bi-code-slash"></i></a>
+  <h3 id="DataMaster_ViewModels_Pages_Communication_OpcUaClientViewModel__ctor_DataMaster_Modules_MAS_Communication_Opc_Ua_Interface_IOpcUaClient_DataMaster_Modules_MAS_EventAggregator_IEventAggregatorService_DataMaster_Interfaces_DisplayWindow_IWindowsProviderService_DataMaster_Modules_MAS_Controls_Notification_ITipsNotificationService_" data-uid="DataMaster.ViewModels.Pages.Communication.OpcUaClientViewModel.#ctor(DataMaster.Modules.MAS.Communication.Opc.Ua.Interface.IOpcUaClient,DataMaster.Modules.MAS.EventAggregator.IEventAggregatorService,DataMaster.Interfaces.DisplayWindow.IWindowsProviderService,DataMaster.Modules.MAS.Controls.Notification.ITipsNotificationService)">
+  OpcUaClientViewModel(IOpcUaClient, IEventAggregatorService, IWindowsProviderService, ITipsNotificationService)
+  <a class="header-action link-secondary" title="View source" href="https://bitbucket.org/mas-software/industrial-mes-net-platform-advanced/src/main/ViewModels/Pages/Communication/OpcUaClientViewModel.cs#lines-133"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>构造函数，初始化 <a class="xref" href="DataMaster.ViewModels.Pages.Communication.OpcUaClientViewModel.html">OpcUaClientViewModel</a> 新实例</p>
@@ -190,16 +193,22 @@ Class OpcUaClientViewModel  <a class="header-action link-secondary" title="View 
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public OpcUaClientViewModel(IOpcClient opcClient, IEventAggregatorService eventAggregatorService)</code></pre>
+    <pre><code class="lang-csharp hljs">public OpcUaClientViewModel(IOpcUaClient opcUaClient, IEventAggregatorService eventAggregatorService, IWindowsProviderService windowsProviderService, ITipsNotificationService tipsNotificationService)</code></pre>
   </div>
 
   <h4 class="section">Parameters</h4>
   <dl class="parameters">
-    <dt><code>opcClient</code> <a class="xref" href="DataMaster.Modules.MAS.Communication.Opc.Ua.Interface.IOpcClient.html">IOpcClient</a></dt>
+    <dt><code>opcUaClient</code> <a class="xref" href="DataMaster.Modules.MAS.Communication.Opc.Ua.Interface.IOpcUaClient.html">IOpcUaClient</a></dt>
     <dd><p>OPC UA 客户端</p>
 </dd>
-    <dt><code>eventAggregatorService</code> <a class="xref" href="DataMaster.Modules.MAS.EventAggregator.Interfaces.IEventAggregatorService.html">IEventAggregatorService</a></dt>
+    <dt><code>eventAggregatorService</code> <a class="xref" href="DataMaster.Modules.MAS.EventAggregator.IEventAggregatorService.html">IEventAggregatorService</a></dt>
     <dd><p>事件聚合器服务</p>
+</dd>
+    <dt><code>windowsProviderService</code> <a class="xref" href="DataMaster.Interfaces.DisplayWindow.IWindowsProviderService.html">IWindowsProviderService</a></dt>
+    <dd><p>窗口服务</p>
+</dd>
+    <dt><code>tipsNotificationService</code> <a class="xref" href="DataMaster.Modules.MAS.Controls.Notification.ITipsNotificationService.html">ITipsNotificationService</a></dt>
+    <dd><p>Tips 通知服务</p>
 </dd>
   </dl>
 
@@ -222,7 +231,7 @@ Class OpcUaClientViewModel  <a class="header-action link-secondary" title="View 
 
   <h3 id="DataMaster_ViewModels_Pages_Communication_OpcUaClientViewModel_ConnectionCommand" data-uid="DataMaster.ViewModels.Pages.Communication.OpcUaClientViewModel.ConnectionCommand">
   ConnectionCommand
-  <a class="header-action link-secondary" title="View source" href="https://bitbucket.org/mas-software/industrial-mes-net-platform-advanced/src/feature/OpenCV/ViewModels/Pages/Communication/OpcUaClientViewModel.cs#lines-94"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://bitbucket.org/mas-software/industrial-mes-net-platform-advanced/src/main/ViewModels/Pages/Communication/OpcUaClientViewModel.cs#lines-103"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>获取连接命令</p>
@@ -254,7 +263,7 @@ Class OpcUaClientViewModel  <a class="header-action link-secondary" title="View 
 
   <h3 id="DataMaster_ViewModels_Pages_Communication_OpcUaClientViewModel_DeleteServerUrlCommand" data-uid="DataMaster.ViewModels.Pages.Communication.OpcUaClientViewModel.DeleteServerUrlCommand">
   DeleteServerUrlCommand
-  <a class="header-action link-secondary" title="View source" href="https://bitbucket.org/mas-software/industrial-mes-net-platform-advanced/src/feature/OpenCV/ViewModels/Pages/Communication/OpcUaClientViewModel.cs#lines-104"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://bitbucket.org/mas-software/industrial-mes-net-platform-advanced/src/main/ViewModels/Pages/Communication/OpcUaClientViewModel.cs#lines-113"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>获取删除服务地址命令</p>
@@ -286,7 +295,7 @@ Class OpcUaClientViewModel  <a class="header-action link-secondary" title="View 
 
   <h3 id="DataMaster_ViewModels_Pages_Communication_OpcUaClientViewModel_DisconnectCommand" data-uid="DataMaster.ViewModels.Pages.Communication.OpcUaClientViewModel.DisconnectCommand">
   DisconnectCommand
-  <a class="header-action link-secondary" title="View source" href="https://bitbucket.org/mas-software/industrial-mes-net-platform-advanced/src/feature/OpenCV/ViewModels/Pages/Communication/OpcUaClientViewModel.cs#lines-99"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://bitbucket.org/mas-software/industrial-mes-net-platform-advanced/src/main/ViewModels/Pages/Communication/OpcUaClientViewModel.cs#lines-108"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>获取断开连接命令</p>
@@ -318,7 +327,7 @@ Class OpcUaClientViewModel  <a class="header-action link-secondary" title="View 
 
   <h3 id="DataMaster_ViewModels_Pages_Communication_OpcUaClientViewModel_IsGridEnabled" data-uid="DataMaster.ViewModels.Pages.Communication.OpcUaClientViewModel.IsGridEnabled">
   IsGridEnabled
-  <a class="header-action link-secondary" title="View source" href="https://bitbucket.org/mas-software/industrial-mes-net-platform-advanced/src/feature/OpenCV/ViewModels/Pages/Communication/OpcUaClientViewModel.cs#lines-50"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://bitbucket.org/mas-software/industrial-mes-net-platform-advanced/src/main/ViewModels/Pages/Communication/OpcUaClientViewModel.cs#lines-57"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>获取或设置布局元素启用状态</p>
@@ -350,7 +359,7 @@ Class OpcUaClientViewModel  <a class="header-action link-secondary" title="View 
 
   <h3 id="DataMaster_ViewModels_Pages_Communication_OpcUaClientViewModel_IsLoading" data-uid="DataMaster.ViewModels.Pages.Communication.OpcUaClientViewModel.IsLoading">
   IsLoading
-  <a class="header-action link-secondary" title="View source" href="https://bitbucket.org/mas-software/industrial-mes-net-platform-advanced/src/feature/OpenCV/ViewModels/Pages/Communication/OpcUaClientViewModel.cs#lines-59"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://bitbucket.org/mas-software/industrial-mes-net-platform-advanced/src/main/ViewModels/Pages/Communication/OpcUaClientViewModel.cs#lines-66"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>获取或设置加载动画</p>
@@ -382,7 +391,7 @@ Class OpcUaClientViewModel  <a class="header-action link-secondary" title="View 
 
   <h3 id="DataMaster_ViewModels_Pages_Communication_OpcUaClientViewModel_IsServerUrlEnabled" data-uid="DataMaster.ViewModels.Pages.Communication.OpcUaClientViewModel.IsServerUrlEnabled">
   IsServerUrlEnabled
-  <a class="header-action link-secondary" title="View source" href="https://bitbucket.org/mas-software/industrial-mes-net-platform-advanced/src/feature/OpenCV/ViewModels/Pages/Communication/OpcUaClientViewModel.cs#lines-81"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://bitbucket.org/mas-software/industrial-mes-net-platform-advanced/src/main/ViewModels/Pages/Communication/OpcUaClientViewModel.cs#lines-88"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>获取或设置服务地址栏启用状态</p>
@@ -414,7 +423,7 @@ Class OpcUaClientViewModel  <a class="header-action link-secondary" title="View 
 
   <h3 id="DataMaster_ViewModels_Pages_Communication_OpcUaClientViewModel_OpenCertificateFolderCommand" data-uid="DataMaster.ViewModels.Pages.Communication.OpcUaClientViewModel.OpenCertificateFolderCommand">
   OpenCertificateFolderCommand
-  <a class="header-action link-secondary" title="View source" href="https://bitbucket.org/mas-software/industrial-mes-net-platform-advanced/src/feature/OpenCV/ViewModels/Pages/Communication/OpcUaClientViewModel.cs#lines-109"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://bitbucket.org/mas-software/industrial-mes-net-platform-advanced/src/main/ViewModels/Pages/Communication/OpcUaClientViewModel.cs#lines-118"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>获取打开证书文件夹命令</p>
@@ -442,11 +451,43 @@ Class OpcUaClientViewModel  <a class="header-action link-secondary" title="View 
 
 
 
+  <a id="DataMaster_ViewModels_Pages_Communication_OpcUaClientViewModel_OpenSettingsWindowCommand_" data-uid="DataMaster.ViewModels.Pages.Communication.OpcUaClientViewModel.OpenSettingsWindowCommand*"></a>
+
+  <h3 id="DataMaster_ViewModels_Pages_Communication_OpcUaClientViewModel_OpenSettingsWindowCommand" data-uid="DataMaster.ViewModels.Pages.Communication.OpcUaClientViewModel.OpenSettingsWindowCommand">
+  OpenSettingsWindowCommand
+  <a class="header-action link-secondary" title="View source" href="https://bitbucket.org/mas-software/industrial-mes-net-platform-advanced/src/main/ViewModels/Pages/Communication/OpcUaClientViewModel.cs#lines-123"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>获取打开设置窗口命令</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public RelayCommand OpenSettingsWindowCommand { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="DataMaster.Commands.RelayCommand.html">RelayCommand</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
   <a id="DataMaster_ViewModels_Pages_Communication_OpcUaClientViewModel_ServerUrl_" data-uid="DataMaster.ViewModels.Pages.Communication.OpcUaClientViewModel.ServerUrl*"></a>
 
   <h3 id="DataMaster_ViewModels_Pages_Communication_OpcUaClientViewModel_ServerUrl" data-uid="DataMaster.ViewModels.Pages.Communication.OpcUaClientViewModel.ServerUrl">
   ServerUrl
-  <a class="header-action link-secondary" title="View source" href="https://bitbucket.org/mas-software/industrial-mes-net-platform-advanced/src/feature/OpenCV/ViewModels/Pages/Communication/OpcUaClientViewModel.cs#lines-72"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://bitbucket.org/mas-software/industrial-mes-net-platform-advanced/src/main/ViewModels/Pages/Communication/OpcUaClientViewModel.cs#lines-79"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>获取或设置服务地址</p>
@@ -478,7 +519,7 @@ Class OpcUaClientViewModel  <a class="header-action link-secondary" title="View 
 
   <h3 id="DataMaster_ViewModels_Pages_Communication_OpcUaClientViewModel_ServerUrls" data-uid="DataMaster.ViewModels.Pages.Communication.OpcUaClientViewModel.ServerUrls">
   ServerUrls
-  <a class="header-action link-secondary" title="View source" href="https://bitbucket.org/mas-software/industrial-mes-net-platform-advanced/src/feature/OpenCV/ViewModels/Pages/Communication/OpcUaClientViewModel.cs#lines-89"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://bitbucket.org/mas-software/industrial-mes-net-platform-advanced/src/main/ViewModels/Pages/Communication/OpcUaClientViewModel.cs#lines-96"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>服务地址列表</p>
@@ -510,7 +551,7 @@ Class OpcUaClientViewModel  <a class="header-action link-secondary" title="View 
 </article>
 
         <div class="contribution d-print-none">
-          <a href="https://bitbucket.org/mas-software/industrial-mes-net-platform-advanced/src/feature/OpenCV/ViewModels/Pages/Communication/OpcUaClientViewModel.cs#lines-20" class="edit-link">Edit this page</a>
+          <a href="https://bitbucket.org/mas-software/industrial-mes-net-platform-advanced/src/main/ViewModels/Pages/Communication/OpcUaClientViewModel.cs#lines-24" class="edit-link">Edit this page</a>
         </div>
 
 

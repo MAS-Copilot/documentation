@@ -89,7 +89,7 @@
 
 
   <h1 id="DataMaster_Interfaces_Charts_IProductionVolumeCardService" data-uid="DataMaster.Interfaces.Charts.IProductionVolumeCardService" class="text-break">
-Interface IProductionVolumeCardService  <a class="header-action link-secondary" title="View source" href="https://bitbucket.org/mas-software/industrial-mes-net-platform-advanced/src/feature/OpenCV/Interfaces/Charts/AnalysisPanelCard/IProductionVolumeCardService .cs#lines-15"><i class="bi bi-code-slash"></i></a>
+Interface IProductionVolumeCardService  <a class="header-action link-secondary" title="View source" href="https://bitbucket.org/mas-software/industrial-mes-net-platform-advanced/src/main/Interfaces/Charts/AnalysisPanelCard/IProductionVolumeCardService .cs#lines-15"><i class="bi bi-code-slash"></i></a>
   </h1>
 
   <div class="facts text-secondary">
@@ -125,7 +125,7 @@ Interface IProductionVolumeCardService  <a class="header-action link-secondary" 
 
   <h3 id="DataMaster_Interfaces_Charts_IProductionVolumeCardService_CreateProductionVolumeCardsAsync" data-uid="DataMaster.Interfaces.Charts.IProductionVolumeCardService.CreateProductionVolumeCardsAsync">
   CreateProductionVolumeCardsAsync()
-  <a class="header-action link-secondary" title="View source" href="https://bitbucket.org/mas-software/industrial-mes-net-platform-advanced/src/feature/OpenCV/Interfaces/Charts/AnalysisPanelCard/IProductionVolumeCardService .cs#lines-20"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://bitbucket.org/mas-software/industrial-mes-net-platform-advanced/src/main/Interfaces/Charts/AnalysisPanelCard/IProductionVolumeCardService .cs#lines-20"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>异步创建生产量数据仪表卡片的集合</p>
@@ -139,8 +139,8 @@ Interface IProductionVolumeCardService  <a class="header-action link-secondary" 
 
   <h4 class="section">Returns</h4>
   <dl class="parameters">
-    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1">Task</a>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1">List</a>&lt;<a class="xref" href="DataMaster.Models.Charts.AnalysisPanelCard-1.html">AnalysisPanelCard</a>&lt;<a class="xref" href="DataMaster.Modules.MAS.Charts.Models.ChartType.ProductionVolumeChartType.html">ProductionVolumeChartType</a>&gt;&gt;&gt;</dt>
-    <dd><p>异步操作任务结果，一个包含多个 <a class="xref" href="DataMaster.Modules.MAS.Charts.Models.ChartType.ProductionVolumeChartType.html">ProductionVolumeChartType</a> 的任务，每个卡片表示一个生产量数据视图</p>
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1">Task</a>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1">List</a>&lt;<a class="xref" href="DataMaster.Models.Charts.AnalysisPanelCard-1.html">AnalysisPanelCard</a>&lt;<a class="xref" href="DataMaster.Modules.MAS.Charts.ProductionVolumeChartType.html">ProductionVolumeChartType</a>&gt;&gt;&gt;</dt>
+    <dd><p>异步操作任务结果，一个包含多个 <a class="xref" href="DataMaster.Modules.MAS.Charts.ProductionVolumeChartType.html">ProductionVolumeChartType</a> 的任务，每个卡片表示一个生产量数据视图</p>
 </dd>
   </dl>
 
@@ -156,9 +156,9 @@ Interface IProductionVolumeCardService  <a class="header-action link-secondary" 
 
   <a id="DataMaster_Interfaces_Charts_IProductionVolumeCardService_ToggleSelectedState_" data-uid="DataMaster.Interfaces.Charts.IProductionVolumeCardService.ToggleSelectedState*"></a>
 
-  <h3 id="DataMaster_Interfaces_Charts_IProductionVolumeCardService_ToggleSelectedState_System_Nullable_DataMaster_Modules_MAS_Charts_Models_ChartType_ProductionVolumeChartType__" data-uid="DataMaster.Interfaces.Charts.IProductionVolumeCardService.ToggleSelectedState(System.Nullable{DataMaster.Modules.MAS.Charts.Models.ChartType.ProductionVolumeChartType})">
+  <h3 id="DataMaster_Interfaces_Charts_IProductionVolumeCardService_ToggleSelectedState_System_Nullable_DataMaster_Modules_MAS_Charts_ProductionVolumeChartType__" data-uid="DataMaster.Interfaces.Charts.IProductionVolumeCardService.ToggleSelectedState(System.Nullable{DataMaster.Modules.MAS.Charts.ProductionVolumeChartType})">
   ToggleSelectedState(ProductionVolumeChartType?)
-  <a class="header-action link-secondary" title="View source" href="https://bitbucket.org/mas-software/industrial-mes-net-platform-advanced/src/feature/OpenCV/Interfaces/Charts/AnalysisPanelCard/IProductionVolumeCardService .cs#lines-26"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://bitbucket.org/mas-software/industrial-mes-net-platform-advanced/src/main/Interfaces/Charts/AnalysisPanelCard/IProductionVolumeCardService .cs#lines-26"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>切换选中状态</p>
@@ -171,7 +171,7 @@ Interface IProductionVolumeCardService  <a class="header-action link-secondary" 
 
   <h4 class="section">Parameters</h4>
   <dl class="parameters">
-    <dt><code>type</code> <a class="xref" href="DataMaster.Modules.MAS.Charts.Models.ChartType.ProductionVolumeChartType.html">ProductionVolumeChartType</a>?</dt>
+    <dt><code>type</code> <a class="xref" href="DataMaster.Modules.MAS.Charts.ProductionVolumeChartType.html">ProductionVolumeChartType</a>?</dt>
     <dd><p>类型标识</p>
 </dd>
   </dl>
@@ -191,7 +191,7 @@ Interface IProductionVolumeCardService  <a class="header-action link-secondary" 
 
   <h3 id="DataMaster_Interfaces_Charts_IProductionVolumeCardService_UpdateDataAsync" data-uid="DataMaster.Interfaces.Charts.IProductionVolumeCardService.UpdateDataAsync">
   UpdateDataAsync()
-  <a class="header-action link-secondary" title="View source" href="https://bitbucket.org/mas-software/industrial-mes-net-platform-advanced/src/feature/OpenCV/Interfaces/Charts/AnalysisPanelCard/IProductionVolumeCardService .cs#lines-31"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://bitbucket.org/mas-software/industrial-mes-net-platform-advanced/src/main/Interfaces/Charts/AnalysisPanelCard/IProductionVolumeCardService .cs#lines-31"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>异步更新数据</p>
@@ -223,7 +223,7 @@ Interface IProductionVolumeCardService  <a class="header-action link-secondary" 
 </article>
 
         <div class="contribution d-print-none">
-          <a href="https://bitbucket.org/mas-software/industrial-mes-net-platform-advanced/src/feature/OpenCV/Interfaces/Charts/AnalysisPanelCard/IProductionVolumeCardService .cs#lines-15" class="edit-link">Edit this page</a>
+          <a href="https://bitbucket.org/mas-software/industrial-mes-net-platform-advanced/src/main/Interfaces/Charts/AnalysisPanelCard/IProductionVolumeCardService .cs#lines-15" class="edit-link">Edit this page</a>
         </div>
 
 

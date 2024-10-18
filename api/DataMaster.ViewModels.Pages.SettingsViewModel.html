@@ -89,7 +89,7 @@
 
 
   <h1 id="DataMaster_ViewModels_Pages_SettingsViewModel" data-uid="DataMaster.ViewModels.Pages.SettingsViewModel" class="text-break">
-Class SettingsViewModel  <a class="header-action link-secondary" title="View source" href="https://bitbucket.org/mas-software/industrial-mes-net-platform-advanced/src/feature/OpenCV/ViewModels/Pages/SettingsViewModel.cs#lines-16"><i class="bi bi-code-slash"></i></a>
+Class SettingsViewModel  <a class="header-action link-secondary" title="View source" href="https://bitbucket.org/mas-software/industrial-mes-net-platform-advanced/src/main/ViewModels/Pages/SettingsViewModel.cs#lines-21"><i class="bi bi-code-slash"></i></a>
   </h1>
 
   <div class="facts text-secondary">
@@ -112,7 +112,7 @@ Class SettingsViewModel  <a class="header-action link-secondary" title="View sou
     <dt>Inheritance</dt>
     <dd>
       <div><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">object</a></div>
-      <div><a class="xref" href="DataMaster.ViewModels.ViewModelBase.html">ViewModelBase</a></div>
+      <div><a class="xref" href="DataMaster.Abstracts.ViewModelBase.html">ViewModelBase</a></div>
       <div><span class="xref">SettingsViewModel</span></div>
     </dd>
   </dl>
@@ -129,22 +129,25 @@ Class SettingsViewModel  <a class="header-action link-secondary" title="View sou
     <dt>Inherited Members</dt>
     <dd>
     <div>
-      <a class="xref" href="DataMaster.ViewModels.ViewModelBase.html#DataMaster_ViewModels_ViewModelBase_SystemLogger">ViewModelBase.SystemLogger</a>
+      <a class="xref" href="DataMaster.Abstracts.ViewModelBase.html#DataMaster_Abstracts_ViewModelBase_Config">ViewModelBase.Config</a>
     </div>
     <div>
-      <a class="xref" href="DataMaster.ViewModels.ViewModelBase.html#DataMaster_ViewModels_ViewModelBase_Config">ViewModelBase.Config</a>
+      <a class="xref" href="DataMaster.Abstracts.ViewModelBase.html#DataMaster_Abstracts_ViewModelBase_LanguageManager">ViewModelBase.LanguageManager</a>
     </div>
     <div>
-      <a class="xref" href="DataMaster.ViewModels.ViewModelBase.html#DataMaster_ViewModels_ViewModelBase_LanguageManager">ViewModelBase.LanguageManager</a>
+      <a class="xref" href="DataMaster.Abstracts.ViewModelBase.html#DataMaster_Abstracts_ViewModelBase_BusyCursor">ViewModelBase.BusyCursor</a>
     </div>
     <div>
-      <a class="xref" href="DataMaster.ViewModels.ViewModelBase.html#DataMaster_ViewModels_ViewModelBase_PropertyChanged">ViewModelBase.PropertyChanged</a>
+      <a class="xref" href="DataMaster.Abstracts.ViewModelBase.html#DataMaster_Abstracts_ViewModelBase_WorkingCursor">ViewModelBase.WorkingCursor</a>
     </div>
     <div>
-      <a class="xref" href="DataMaster.ViewModels.ViewModelBase.html#DataMaster_ViewModels_ViewModelBase_OnPropertyChanged_System_String_">ViewModelBase.OnPropertyChanged(string)</a>
+      <a class="xref" href="DataMaster.Abstracts.ViewModelBase.html#DataMaster_Abstracts_ViewModelBase_PropertyChanged">ViewModelBase.PropertyChanged</a>
     </div>
     <div>
-      <a class="xref" href="DataMaster.ViewModels.ViewModelBase.html#DataMaster_ViewModels_ViewModelBase_SetField__1___0____0_System_String_">ViewModelBase.SetField&lt;T&gt;(ref T, T, string)</a>
+      <a class="xref" href="DataMaster.Abstracts.ViewModelBase.html#DataMaster_Abstracts_ViewModelBase_OnPropertyChanged_System_String_">ViewModelBase.OnPropertyChanged(string)</a>
+    </div>
+    <div>
+      <a class="xref" href="DataMaster.Abstracts.ViewModelBase.html#DataMaster_Abstracts_ViewModelBase_SetField__1___0____0_System_String_">ViewModelBase.SetField&lt;T&gt;(ref T, T, string)</a>
     </div>
     <div>
       <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)">object.Equals(object)</a>
@@ -174,18 +177,81 @@ Class SettingsViewModel  <a class="header-action link-secondary" title="View sou
 
 
 
+  <h2 class="section" id="constructors">Constructors
+</h2>
+
+
+  <a id="DataMaster_ViewModels_Pages_SettingsViewModel__ctor_" data-uid="DataMaster.ViewModels.Pages.SettingsViewModel.#ctor*"></a>
+
+  <h3 id="DataMaster_ViewModels_Pages_SettingsViewModel__ctor" data-uid="DataMaster.ViewModels.Pages.SettingsViewModel.#ctor">
+  SettingsViewModel()
+  <a class="header-action link-secondary" title="View source" href="https://bitbucket.org/mas-software/industrial-mes-net-platform-advanced/src/main/ViewModels/Pages/SettingsViewModel.cs#lines-152"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>构造函数，初始化 <a class="xref" href="DataMaster.ViewModels.Pages.SettingsViewModel.html">SettingsViewModel</a> 新实例</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public SettingsViewModel()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
   <h2 class="section" id="properties">Properties
 </h2>
+
+
+  <a id="DataMaster_ViewModels_Pages_SettingsViewModel_AvailableFonts_" data-uid="DataMaster.ViewModels.Pages.SettingsViewModel.AvailableFonts*"></a>
+
+  <h3 id="DataMaster_ViewModels_Pages_SettingsViewModel_AvailableFonts" data-uid="DataMaster.ViewModels.Pages.SettingsViewModel.AvailableFonts">
+  AvailableFonts
+  <a class="header-action link-secondary" title="View source" href="https://bitbucket.org/mas-software/industrial-mes-net-platform-advanced/src/main/ViewModels/Pages/SettingsViewModel.cs#lines-129"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>获取可用字体集合</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public ObservableCollection&lt;FontInfo&gt; AvailableFonts { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.objectmodel.observablecollection-1">ObservableCollection</a>&lt;<a class="xref" href="DataMaster.Models.FontInfo.html">FontInfo</a>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
 
 
   <a id="DataMaster_ViewModels_Pages_SettingsViewModel_CompanyWebsite_" data-uid="DataMaster.ViewModels.Pages.SettingsViewModel.CompanyWebsite*"></a>
 
   <h3 id="DataMaster_ViewModels_Pages_SettingsViewModel_CompanyWebsite" data-uid="DataMaster.ViewModels.Pages.SettingsViewModel.CompanyWebsite">
   CompanyWebsite
-  <a class="header-action link-secondary" title="View source" href="https://bitbucket.org/mas-software/industrial-mes-net-platform-advanced/src/feature/OpenCV/ViewModels/Pages/SettingsViewModel.cs#lines-54"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://bitbucket.org/mas-software/industrial-mes-net-platform-advanced/src/main/ViewModels/Pages/SettingsViewModel.cs#lines-87"><i class="bi bi-code-slash"></i></a>
   </h3>
 
-  <div class="markdown level1 summary"><p>公司官网</p>
+  <div class="markdown level1 summary"><p>获取公司官网</p>
 </div>
   <div class="markdown level1 conceptual"></div>
 
@@ -214,10 +280,10 @@ Class SettingsViewModel  <a class="header-action link-secondary" title="View sou
 
   <h3 id="DataMaster_ViewModels_Pages_SettingsViewModel_CopyrightInformation" data-uid="DataMaster.ViewModels.Pages.SettingsViewModel.CopyrightInformation">
   CopyrightInformation
-  <a class="header-action link-secondary" title="View source" href="https://bitbucket.org/mas-software/industrial-mes-net-platform-advanced/src/feature/OpenCV/ViewModels/Pages/SettingsViewModel.cs#lines-42"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://bitbucket.org/mas-software/industrial-mes-net-platform-advanced/src/main/ViewModels/Pages/SettingsViewModel.cs#lines-72"><i class="bi bi-code-slash"></i></a>
   </h3>
 
-  <div class="markdown level1 summary"><p>版权信息</p>
+  <div class="markdown level1 summary"><p>获取获取版权信息</p>
 </div>
   <div class="markdown level1 conceptual"></div>
 
@@ -246,10 +312,10 @@ Class SettingsViewModel  <a class="header-action link-secondary" title="View sou
 
   <h3 id="DataMaster_ViewModels_Pages_SettingsViewModel_CurrentApplicationTheme" data-uid="DataMaster.ViewModels.Pages.SettingsViewModel.CurrentApplicationTheme">
   CurrentApplicationTheme
-  <a class="header-action link-secondary" title="View source" href="https://bitbucket.org/mas-software/industrial-mes-net-platform-advanced/src/feature/OpenCV/ViewModels/Pages/SettingsViewModel.cs#lines-26"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://bitbucket.org/mas-software/industrial-mes-net-platform-advanced/src/main/ViewModels/Pages/SettingsViewModel.cs#lines-55"><i class="bi bi-code-slash"></i></a>
   </h3>
 
-  <div class="markdown level1 summary"><p>选中的主题</p>
+  <div class="markdown level1 summary"><p>获取或设置选中的主题</p>
 </div>
   <div class="markdown level1 conceptual"></div>
 
@@ -278,10 +344,10 @@ Class SettingsViewModel  <a class="header-action link-secondary" title="View sou
 
   <h3 id="DataMaster_ViewModels_Pages_SettingsViewModel_CurrentLanguage" data-uid="DataMaster.ViewModels.Pages.SettingsViewModel.CurrentLanguage">
   CurrentLanguage
-  <a class="header-action link-secondary" title="View source" href="https://bitbucket.org/mas-software/industrial-mes-net-platform-advanced/src/feature/OpenCV/ViewModels/Pages/SettingsViewModel.cs#lines-60"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://bitbucket.org/mas-software/industrial-mes-net-platform-advanced/src/main/ViewModels/Pages/SettingsViewModel.cs#lines-93"><i class="bi bi-code-slash"></i></a>
   </h3>
 
-  <div class="markdown level1 summary"><p>选中的语言</p>
+  <div class="markdown level1 summary"><p>获取或设置选中的语言</p>
 </div>
   <div class="markdown level1 conceptual"></div>
 
@@ -306,14 +372,46 @@ Class SettingsViewModel  <a class="header-action link-secondary" title="View sou
 
 
 
+  <a id="DataMaster_ViewModels_Pages_SettingsViewModel_IsDeveloperMode_" data-uid="DataMaster.ViewModels.Pages.SettingsViewModel.IsDeveloperMode*"></a>
+
+  <h3 id="DataMaster_ViewModels_Pages_SettingsViewModel_IsDeveloperMode" data-uid="DataMaster.ViewModels.Pages.SettingsViewModel.IsDeveloperMode">
+  IsDeveloperMode
+  <a class="header-action link-secondary" title="View source" href="https://bitbucket.org/mas-software/industrial-mes-net-platform-advanced/src/main/ViewModels/Pages/SettingsViewModel.cs#lines-121"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>获取或设置是否切换开发者模式</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool IsDeveloperMode { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
   <a id="DataMaster_ViewModels_Pages_SettingsViewModel_LastUpdated_" data-uid="DataMaster.ViewModels.Pages.SettingsViewModel.LastUpdated*"></a>
 
   <h3 id="DataMaster_ViewModels_Pages_SettingsViewModel_LastUpdated" data-uid="DataMaster.ViewModels.Pages.SettingsViewModel.LastUpdated">
   LastUpdated
-  <a class="header-action link-secondary" title="View source" href="https://bitbucket.org/mas-software/industrial-mes-net-platform-advanced/src/feature/OpenCV/ViewModels/Pages/SettingsViewModel.cs#lines-50"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://bitbucket.org/mas-software/industrial-mes-net-platform-advanced/src/main/ViewModels/Pages/SettingsViewModel.cs#lines-82"><i class="bi bi-code-slash"></i></a>
   </h3>
 
-  <div class="markdown level1 summary"><p>最后更新时间</p>
+  <div class="markdown level1 summary"><p>获取最后更新时间</p>
 </div>
   <div class="markdown level1 conceptual"></div>
 
@@ -338,14 +436,110 @@ Class SettingsViewModel  <a class="header-action link-secondary" title="View sou
 
 
 
+  <a id="DataMaster_ViewModels_Pages_SettingsViewModel_LogFolderDiskSpace_" data-uid="DataMaster.ViewModels.Pages.SettingsViewModel.LogFolderDiskSpace*"></a>
+
+  <h3 id="DataMaster_ViewModels_Pages_SettingsViewModel_LogFolderDiskSpace" data-uid="DataMaster.ViewModels.Pages.SettingsViewModel.LogFolderDiskSpace">
+  LogFolderDiskSpace
+  <a class="header-action link-secondary" title="View source" href="https://bitbucket.org/mas-software/industrial-mes-net-platform-advanced/src/main/ViewModels/Pages/SettingsViewModel.cs#lines-112"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>获取或设置日志所占磁盘大小</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public string LogFolderDiskSpace { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="DataMaster_ViewModels_Pages_SettingsViewModel_OpenLogFolderCommand_" data-uid="DataMaster.ViewModels.Pages.SettingsViewModel.OpenLogFolderCommand*"></a>
+
+  <h3 id="DataMaster_ViewModels_Pages_SettingsViewModel_OpenLogFolderCommand" data-uid="DataMaster.ViewModels.Pages.SettingsViewModel.OpenLogFolderCommand">
+  OpenLogFolderCommand
+  <a class="header-action link-secondary" title="View source" href="https://bitbucket.org/mas-software/industrial-mes-net-platform-advanced/src/main/ViewModels/Pages/SettingsViewModel.cs#lines-141"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>获取打开日志文件夹命令</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public RelayCommand OpenLogFolderCommand { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="DataMaster.Commands.RelayCommand.html">RelayCommand</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="DataMaster_ViewModels_Pages_SettingsViewModel_SelectedFont_" data-uid="DataMaster.ViewModels.Pages.SettingsViewModel.SelectedFont*"></a>
+
+  <h3 id="DataMaster_ViewModels_Pages_SettingsViewModel_SelectedFont" data-uid="DataMaster.ViewModels.Pages.SettingsViewModel.SelectedFont">
+  SelectedFont
+  <a class="header-action link-secondary" title="View source" href="https://bitbucket.org/mas-software/industrial-mes-net-platform-advanced/src/main/ViewModels/Pages/SettingsViewModel.cs#lines-34"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>获取或设置选中的字体家族</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public FontInfo? SelectedFont { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="DataMaster.Models.FontInfo.html">FontInfo</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
   <a id="DataMaster_ViewModels_Pages_SettingsViewModel_SendMailCommand_" data-uid="DataMaster.ViewModels.Pages.SettingsViewModel.SendMailCommand*"></a>
 
   <h3 id="DataMaster_ViewModels_Pages_SettingsViewModel_SendMailCommand" data-uid="DataMaster.ViewModels.Pages.SettingsViewModel.SendMailCommand">
   SendMailCommand
-  <a class="header-action link-secondary" title="View source" href="https://bitbucket.org/mas-software/industrial-mes-net-platform-advanced/src/feature/OpenCV/ViewModels/Pages/SettingsViewModel.cs#lines-78"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://bitbucket.org/mas-software/industrial-mes-net-platform-advanced/src/main/ViewModels/Pages/SettingsViewModel.cs#lines-136"><i class="bi bi-code-slash"></i></a>
   </h3>
 
-  <div class="markdown level1 summary"><p>发送邮件命令</p>
+  <div class="markdown level1 summary"><p>获取发送邮件命令</p>
 </div>
   <div class="markdown level1 conceptual"></div>
 
@@ -370,14 +564,46 @@ Class SettingsViewModel  <a class="header-action link-secondary" title="View sou
 
 
 
+  <a id="DataMaster_ViewModels_Pages_SettingsViewModel_SwitchModeCommand_" data-uid="DataMaster.ViewModels.Pages.SettingsViewModel.SwitchModeCommand*"></a>
+
+  <h3 id="DataMaster_ViewModels_Pages_SettingsViewModel_SwitchModeCommand" data-uid="DataMaster.ViewModels.Pages.SettingsViewModel.SwitchModeCommand">
+  SwitchModeCommand
+  <a class="header-action link-secondary" title="View source" href="https://bitbucket.org/mas-software/industrial-mes-net-platform-advanced/src/main/ViewModels/Pages/SettingsViewModel.cs#lines-146"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>获取切换模式命令</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public RelayCommand SwitchModeCommand { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="DataMaster.Commands.RelayCommand.html">RelayCommand</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
   <a id="DataMaster_ViewModels_Pages_SettingsViewModel_VersionInformation_" data-uid="DataMaster.ViewModels.Pages.SettingsViewModel.VersionInformation*"></a>
 
   <h3 id="DataMaster_ViewModels_Pages_SettingsViewModel_VersionInformation" data-uid="DataMaster.ViewModels.Pages.SettingsViewModel.VersionInformation">
   VersionInformation
-  <a class="header-action link-secondary" title="View source" href="https://bitbucket.org/mas-software/industrial-mes-net-platform-advanced/src/feature/OpenCV/ViewModels/Pages/SettingsViewModel.cs#lines-46"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://bitbucket.org/mas-software/industrial-mes-net-platform-advanced/src/main/ViewModels/Pages/SettingsViewModel.cs#lines-77"><i class="bi bi-code-slash"></i></a>
   </h3>
 
-  <div class="markdown level1 summary"><p>版本信息</p>
+  <div class="markdown level1 summary"><p>获取版本信息</p>
 </div>
   <div class="markdown level1 conceptual"></div>
 
@@ -409,7 +635,7 @@ Class SettingsViewModel  <a class="header-action link-secondary" title="View sou
 
   <h3 id="DataMaster_ViewModels_Pages_SettingsViewModel_ShowInformRequested" data-uid="DataMaster.ViewModels.Pages.SettingsViewModel.ShowInformRequested">
   ShowInformRequested
-  <a class="header-action link-secondary" title="View source" href="https://bitbucket.org/mas-software/industrial-mes-net-platform-advanced/src/feature/OpenCV/ViewModels/Pages/SettingsViewModel.cs#lines-20"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://bitbucket.org/mas-software/industrial-mes-net-platform-advanced/src/main/ViewModels/Pages/SettingsViewModel.cs#lines-27"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>显示消息通知事件</p>
@@ -441,7 +667,7 @@ Class SettingsViewModel  <a class="header-action link-secondary" title="View sou
 </article>
 
         <div class="contribution d-print-none">
-          <a href="https://bitbucket.org/mas-software/industrial-mes-net-platform-advanced/src/feature/OpenCV/ViewModels/Pages/SettingsViewModel.cs#lines-16" class="edit-link">Edit this page</a>
+          <a href="https://bitbucket.org/mas-software/industrial-mes-net-platform-advanced/src/main/ViewModels/Pages/SettingsViewModel.cs#lines-21" class="edit-link">Edit this page</a>
         </div>
 
 

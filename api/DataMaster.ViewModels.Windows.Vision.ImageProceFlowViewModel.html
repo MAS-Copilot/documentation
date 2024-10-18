@@ -1,0 +1,1043 @@
+﻿<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+      <title>Class ImageProceFlowViewModel | DataMaster </title>
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta name="title" content="Class ImageProceFlowViewModel | DataMaster ">
+      
+      <meta name="description" content="图像处理流程窗口视图模型">
+      <link rel="icon" href="../images/favicon.ico">
+      <link rel="stylesheet" href="../public/docfx.min.css">
+      <link rel="stylesheet" href="../public/main.css">
+      <meta name="docfx:navrel" content="../toc.html">
+      <meta name="docfx:tocrel" content="toc.html">
+      
+      <meta name="docfx:rel" content="../">
+      
+      
+      
+      <meta name="loc:inThisArticle" content="In this article">
+      <meta name="loc:searchResultsCount" content="{count} results for &quot;{query}&quot;">
+      <meta name="loc:searchNoResults" content="No results for &quot;{query}&quot;">
+      <meta name="loc:tocFilter" content="Filter by title">
+      <meta name="loc:nextArticle" content="Next">
+      <meta name="loc:prevArticle" content="Previous">
+      <meta name="loc:themeLight" content="Light">
+      <meta name="loc:themeDark" content="Dark">
+      <meta name="loc:themeAuto" content="Auto">
+      <meta name="loc:changeTheme" content="Change theme">
+      <meta name="loc:copy" content="Copy">
+      <meta name="loc:downloadPdf" content="Download PDF">
+
+      <script type="module" src="./../public/docfx.min.js"></script>
+
+      <script>
+        const theme = localStorage.getItem('theme') || 'auto'
+        document.documentElement.setAttribute('data-bs-theme', theme === 'auto' ? (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light') : theme)
+      </script>
+
+  </head>
+
+  <body class="tex2jax_ignore" data-layout="" data-yaml-mime="ManagedReference">
+    <header class="bg-body border-bottom">
+      <nav id="autocollapse" class="navbar navbar-expand-md" role="navigation">
+        <div class="container-xxl flex-nowrap">
+          <a class="navbar-brand" href="../index.html">
+            <img id="logo" class="svg" src="../images/logo.svg" alt="DataMaster">
+            DataMaster
+          </a>
+          <button class="btn btn-lg d-md-none border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navpanel" aria-controls="navpanel" aria-expanded="false" aria-label="Toggle navigation">
+            <i class="bi bi-three-dots"></i>
+          </button>
+          <div class="collapse navbar-collapse" id="navpanel">
+            <div id="navbar">
+              <form class="search" role="search" id="search">
+                <i class="bi bi-search"></i>
+                <input class="form-control" id="search-query" type="search" disabled="" placeholder="Search" autocomplete="off" aria-label="Search">
+              </form>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <main class="container-xxl">
+      <div class="toc-offcanvas">
+        <div class="offcanvas-md offcanvas-start" tabindex="-1" id="tocOffcanvas" aria-labelledby="tocOffcanvasLabel">
+          <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="tocOffcanvasLabel">Table of Contents</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" data-bs-target="#tocOffcanvas" aria-label="Close"></button>
+          </div>
+          <div class="offcanvas-body">
+            <nav class="toc" id="toc"></nav>
+          </div>
+        </div>
+      </div>
+
+      <div class="content">
+        <div class="actionbar">
+          <button class="btn btn-lg border-0 d-md-none" type="button" data-bs-toggle="offcanvas" data-bs-target="#tocOffcanvas" aria-controls="tocOffcanvas" aria-expanded="false" aria-label="Show table of contents">
+            <i class="bi bi-list"></i>
+          </button>
+
+          <nav id="breadcrumb"></nav>
+        </div>
+
+        <article data-uid="DataMaster.ViewModels.Windows.Vision.ImageProceFlowViewModel">
+
+
+
+  <h1 id="DataMaster_ViewModels_Windows_Vision_ImageProceFlowViewModel" data-uid="DataMaster.ViewModels.Windows.Vision.ImageProceFlowViewModel" class="text-break">
+Class ImageProceFlowViewModel  <a class="header-action link-secondary" title="View source" href="https://bitbucket.org/mas-software/industrial-mes-net-platform-advanced/src/main/ViewModels/Windows/Vision/ImageProceFlowViewModel.cs#lines-26"><i class="bi bi-code-slash"></i></a>
+  </h1>
+
+  <div class="facts text-secondary">
+    <dl><dt>Namespace</dt><dd><a class="xref" href="DataMaster.html">DataMaster</a>.<a class="xref" href="DataMaster.ViewModels.html">ViewModels</a>.<a class="xref" href="DataMaster.ViewModels.Windows.html">Windows</a>.<a class="xref" href="DataMaster.ViewModels.Windows.Vision.html">Vision</a></dd></dl>
+  <dl><dt>Assembly</dt><dd>DataMaster.dll</dd></dl>
+  </div>
+
+  <div class="markdown summary"><p>图像处理流程窗口视图模型</p>
+</div>
+  <div class="markdown conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public class ImageProceFlowViewModel : ViewModelBase, INotifyPropertyChanged</code></pre>
+  </div>
+
+
+
+
+  <dl class="typelist inheritance">
+    <dt>Inheritance</dt>
+    <dd>
+      <div><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">object</a></div>
+      <div><a class="xref" href="DataMaster.Abstracts.ViewModelBase.html">ViewModelBase</a></div>
+      <div><span class="xref">ImageProceFlowViewModel</span></div>
+    </dd>
+  </dl>
+
+  <dl class="typelist implements">
+    <dt>Implements</dt>
+    <dd>
+      <div><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.componentmodel.inotifypropertychanged">INotifyPropertyChanged</a></div>
+    </dd>
+  </dl>
+
+
+  <dl class="typelist inheritedMembers">
+    <dt>Inherited Members</dt>
+    <dd>
+    <div>
+      <a class="xref" href="DataMaster.Abstracts.ViewModelBase.html#DataMaster_Abstracts_ViewModelBase_Config">ViewModelBase.Config</a>
+    </div>
+    <div>
+      <a class="xref" href="DataMaster.Abstracts.ViewModelBase.html#DataMaster_Abstracts_ViewModelBase_LanguageManager">ViewModelBase.LanguageManager</a>
+    </div>
+    <div>
+      <a class="xref" href="DataMaster.Abstracts.ViewModelBase.html#DataMaster_Abstracts_ViewModelBase_BusyCursor">ViewModelBase.BusyCursor</a>
+    </div>
+    <div>
+      <a class="xref" href="DataMaster.Abstracts.ViewModelBase.html#DataMaster_Abstracts_ViewModelBase_WorkingCursor">ViewModelBase.WorkingCursor</a>
+    </div>
+    <div>
+      <a class="xref" href="DataMaster.Abstracts.ViewModelBase.html#DataMaster_Abstracts_ViewModelBase_PropertyChanged">ViewModelBase.PropertyChanged</a>
+    </div>
+    <div>
+      <a class="xref" href="DataMaster.Abstracts.ViewModelBase.html#DataMaster_Abstracts_ViewModelBase_OnPropertyChanged_System_String_">ViewModelBase.OnPropertyChanged(string)</a>
+    </div>
+    <div>
+      <a class="xref" href="DataMaster.Abstracts.ViewModelBase.html#DataMaster_Abstracts_ViewModelBase_SetField__1___0____0_System_String_">ViewModelBase.SetField&lt;T&gt;(ref T, T, string)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)">object.Equals(object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)">object.Equals(object, object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.gethashcode">object.GetHashCode()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.gettype">object.GetType()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone">object.MemberwiseClone()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.referenceequals">object.ReferenceEquals(object, object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.tostring">object.ToString()</a>
+    </div>
+  </dd></dl>
+
+
+
+
+
+
+  <h2 class="section" id="constructors">Constructors
+</h2>
+
+
+  <a id="DataMaster_ViewModels_Windows_Vision_ImageProceFlowViewModel__ctor_" data-uid="DataMaster.ViewModels.Windows.Vision.ImageProceFlowViewModel.#ctor*"></a>
+
+  <h3 id="DataMaster_ViewModels_Windows_Vision_ImageProceFlowViewModel__ctor_DataMaster_Modules_MAS_Controls_ImageProceFlow_IExecutionFlowManager_DataMaster_Modules_MAS_EventAggregator_IEventAggregatorService_DataMaster_Interfaces_IProjectManager_DataMaster_Modules_MAS_Controls_ImageProceFlow_IConnectionLineManager_DataMaster_Modules_MAS_Controls_Notification_ITipsNotificationService_" data-uid="DataMaster.ViewModels.Windows.Vision.ImageProceFlowViewModel.#ctor(DataMaster.Modules.MAS.Controls.ImageProceFlow.IExecutionFlowManager,DataMaster.Modules.MAS.EventAggregator.IEventAggregatorService,DataMaster.Interfaces.IProjectManager,DataMaster.Modules.MAS.Controls.ImageProceFlow.IConnectionLineManager,DataMaster.Modules.MAS.Controls.Notification.ITipsNotificationService)">
+  ImageProceFlowViewModel(IExecutionFlowManager, IEventAggregatorService, IProjectManager, IConnectionLineManager, ITipsNotificationService)
+  <a class="header-action link-secondary" title="View source" href="https://bitbucket.org/mas-software/industrial-mes-net-platform-advanced/src/main/ViewModels/Windows/Vision/ImageProceFlowViewModel.cs#lines-158"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>构造函数，初始化 <a class="xref" href="DataMaster.ViewModels.Windows.Vision.ImageProceFlowViewModel.html">ImageProceFlowViewModel</a> 新实例</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public ImageProceFlowViewModel(IExecutionFlowManager executionFlowManager, IEventAggregatorService eventAggregatorService, IProjectManager projectManager, IConnectionLineManager connectionLineManager, ITipsNotificationService tipsNotificationService)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>executionFlowManager</code> <a class="xref" href="DataMaster.Modules.MAS.Controls.ImageProceFlow.IExecutionFlowManager.html">IExecutionFlowManager</a></dt>
+    <dd><p>模块管理服务实例</p>
+</dd>
+    <dt><code>eventAggregatorService</code> <a class="xref" href="DataMaster.Modules.MAS.EventAggregator.IEventAggregatorService.html">IEventAggregatorService</a></dt>
+    <dd><p>事件聚合器实例</p>
+</dd>
+    <dt><code>projectManager</code> <a class="xref" href="DataMaster.Interfaces.IProjectManager.html">IProjectManager</a></dt>
+    <dd><p>项目工程跟踪</p>
+</dd>
+    <dt><code>connectionLineManager</code> <a class="xref" href="DataMaster.Modules.MAS.Controls.ImageProceFlow.IConnectionLineManager.html">IConnectionLineManager</a></dt>
+    <dd><p>连接管理实例</p>
+</dd>
+    <dt><code>tipsNotificationService</code> <a class="xref" href="DataMaster.Modules.MAS.Controls.Notification.ITipsNotificationService.html">ITipsNotificationService</a></dt>
+    <dd><p>Tips 通知服务</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <h2 class="section" id="properties">Properties
+</h2>
+
+
+  <a id="DataMaster_ViewModels_Windows_Vision_ImageProceFlowViewModel_CanTrigger_" data-uid="DataMaster.ViewModels.Windows.Vision.ImageProceFlowViewModel.CanTrigger*"></a>
+
+  <h3 id="DataMaster_ViewModels_Windows_Vision_ImageProceFlowViewModel_CanTrigger" data-uid="DataMaster.ViewModels.Windows.Vision.ImageProceFlowViewModel.CanTrigger">
+  CanTrigger
+  <a class="header-action link-secondary" title="View source" href="https://bitbucket.org/mas-software/industrial-mes-net-platform-advanced/src/main/ViewModels/Windows/Vision/ImageProceFlowViewModel.cs#lines-47"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>获取触发按钮是否可用，仅在未运行且编辑检查完成时</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool CanTrigger { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="DataMaster_ViewModels_Windows_Vision_ImageProceFlowViewModel_CreateNewCommand_" data-uid="DataMaster.ViewModels.Windows.Vision.ImageProceFlowViewModel.CreateNewCommand*"></a>
+
+  <h3 id="DataMaster_ViewModels_Windows_Vision_ImageProceFlowViewModel_CreateNewCommand" data-uid="DataMaster.ViewModels.Windows.Vision.ImageProceFlowViewModel.CreateNewCommand">
+  CreateNewCommand
+  <a class="header-action link-secondary" title="View source" href="https://bitbucket.org/mas-software/industrial-mes-net-platform-advanced/src/main/ViewModels/Windows/Vision/ImageProceFlowViewModel.cs#lines-110"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>获取新建命令</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public RelayCommand CreateNewCommand { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="DataMaster.Commands.RelayCommand.html">RelayCommand</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="DataMaster_ViewModels_Windows_Vision_ImageProceFlowViewModel_CurrentProjectState_" data-uid="DataMaster.ViewModels.Windows.Vision.ImageProceFlowViewModel.CurrentProjectState*"></a>
+
+  <h3 id="DataMaster_ViewModels_Windows_Vision_ImageProceFlowViewModel_CurrentProjectState" data-uid="DataMaster.ViewModels.Windows.Vision.ImageProceFlowViewModel.CurrentProjectState">
+  CurrentProjectState
+  <a class="header-action link-secondary" title="View source" href="https://bitbucket.org/mas-software/industrial-mes-net-platform-advanced/src/main/ViewModels/Windows/Vision/ImageProceFlowViewModel.cs#lines-88"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>获取或设置当前工程文件的状态</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public ProjectState CurrentProjectState { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="DataMaster.Models.ProjectState.html">ProjectState</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="DataMaster_ViewModels_Windows_Vision_ImageProceFlowViewModel_EditCheckCommand_" data-uid="DataMaster.ViewModels.Windows.Vision.ImageProceFlowViewModel.EditCheckCommand*"></a>
+
+  <h3 id="DataMaster_ViewModels_Windows_Vision_ImageProceFlowViewModel_EditCheckCommand" data-uid="DataMaster.ViewModels.Windows.Vision.ImageProceFlowViewModel.EditCheckCommand">
+  EditCheckCommand
+  <a class="header-action link-secondary" title="View source" href="https://bitbucket.org/mas-software/industrial-mes-net-platform-advanced/src/main/ViewModels/Windows/Vision/ImageProceFlowViewModel.cs#lines-100"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>获取编辑检查命令</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public RelayCommand EditCheckCommand { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="DataMaster.Commands.RelayCommand.html">RelayCommand</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="DataMaster_ViewModels_Windows_Vision_ImageProceFlowViewModel_FromExistingTemplateCommand_" data-uid="DataMaster.ViewModels.Windows.Vision.ImageProceFlowViewModel.FromExistingTemplateCommand*"></a>
+
+  <h3 id="DataMaster_ViewModels_Windows_Vision_ImageProceFlowViewModel_FromExistingTemplateCommand" data-uid="DataMaster.ViewModels.Windows.Vision.ImageProceFlowViewModel.FromExistingTemplateCommand">
+  FromExistingTemplateCommand
+  <a class="header-action link-secondary" title="View source" href="https://bitbucket.org/mas-software/industrial-mes-net-platform-advanced/src/main/ViewModels/Windows/Vision/ImageProceFlowViewModel.cs#lines-115"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>获取从当前模板选择命令</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public RelayCommand FromExistingTemplateCommand { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="DataMaster.Commands.RelayCommand.html">RelayCommand</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="DataMaster_ViewModels_Windows_Vision_ImageProceFlowViewModel_ImageProceFlowWindowVer_" data-uid="DataMaster.ViewModels.Windows.Vision.ImageProceFlowViewModel.ImageProceFlowWindowVer*"></a>
+
+  <h3 id="DataMaster_ViewModels_Windows_Vision_ImageProceFlowViewModel_ImageProceFlowWindowVer" data-uid="DataMaster.ViewModels.Windows.Vision.ImageProceFlowViewModel.ImageProceFlowWindowVer">
+  ImageProceFlowWindowVer
+  <a class="header-action link-secondary" title="View source" href="https://bitbucket.org/mas-software/industrial-mes-net-platform-advanced/src/main/ViewModels/Windows/Vision/ImageProceFlowViewModel.cs#lines-42"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>获取图像编辑窗口版本</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public string ImageProceFlowWindowVer { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="DataMaster_ViewModels_Windows_Vision_ImageProceFlowViewModel_IsEditCheck_" data-uid="DataMaster.ViewModels.Windows.Vision.ImageProceFlowViewModel.IsEditCheck*"></a>
+
+  <h3 id="DataMaster_ViewModels_Windows_Vision_ImageProceFlowViewModel_IsEditCheck" data-uid="DataMaster.ViewModels.Windows.Vision.ImageProceFlowViewModel.IsEditCheck">
+  IsEditCheck
+  <a class="header-action link-secondary" title="View source" href="https://bitbucket.org/mas-software/industrial-mes-net-platform-advanced/src/main/ViewModels/Windows/Vision/ImageProceFlowViewModel.cs#lines-53"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>获取或设置是否通过编辑检查</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool IsEditCheck { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="DataMaster_ViewModels_Windows_Vision_ImageProceFlowViewModel_IsPopupOpen_" data-uid="DataMaster.ViewModels.Windows.Vision.ImageProceFlowViewModel.IsPopupOpen*"></a>
+
+  <h3 id="DataMaster_ViewModels_Windows_Vision_ImageProceFlowViewModel_IsPopupOpen" data-uid="DataMaster.ViewModels.Windows.Vision.ImageProceFlowViewModel.IsPopupOpen">
+  IsPopupOpen
+  <a class="header-action link-secondary" title="View source" href="https://bitbucket.org/mas-software/industrial-mes-net-platform-advanced/src/main/ViewModels/Windows/Vision/ImageProceFlowViewModel.cs#lines-75"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>获取或设置弹出排序结果</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool IsPopupOpen { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="DataMaster_ViewModels_Windows_Vision_ImageProceFlowViewModel_LockIconKind_" data-uid="DataMaster.ViewModels.Windows.Vision.ImageProceFlowViewModel.LockIconKind*"></a>
+
+  <h3 id="DataMaster_ViewModels_Windows_Vision_ImageProceFlowViewModel_LockIconKind" data-uid="DataMaster.ViewModels.Windows.Vision.ImageProceFlowViewModel.LockIconKind">
+  LockIconKind
+  <a class="header-action link-secondary" title="View source" href="https://bitbucket.org/mas-software/industrial-mes-net-platform-advanced/src/main/ViewModels/Windows/Vision/ImageProceFlowViewModel.cs#lines-66"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>获取或设置锁定状态图标</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public PackIconKind LockIconKind { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://github.com/MaterialDesignInXAML/MaterialDesignInXamlToolkit/blob/cd05f577125e1eef397d07c77fead99559bc00fd/src/MaterialDesignThemes.Wpf/PackIconKind.cs">PackIconKind</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="DataMaster_ViewModels_Windows_Vision_ImageProceFlowViewModel_LockObjectCommand_" data-uid="DataMaster.ViewModels.Windows.Vision.ImageProceFlowViewModel.LockObjectCommand*"></a>
+
+  <h3 id="DataMaster_ViewModels_Windows_Vision_ImageProceFlowViewModel_LockObjectCommand" data-uid="DataMaster.ViewModels.Windows.Vision.ImageProceFlowViewModel.LockObjectCommand">
+  LockObjectCommand
+  <a class="header-action link-secondary" title="View source" href="https://bitbucket.org/mas-software/industrial-mes-net-platform-advanced/src/main/ViewModels/Windows/Vision/ImageProceFlowViewModel.cs#lines-105"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>获取锁定对象命令，解锁或锁定所有模块可编辑状态</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public RelayCommand LockObjectCommand { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="DataMaster.Commands.RelayCommand.html">RelayCommand</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="DataMaster_ViewModels_Windows_Vision_ImageProceFlowViewModel_ModulesLocked_" data-uid="DataMaster.ViewModels.Windows.Vision.ImageProceFlowViewModel.ModulesLocked*"></a>
+
+  <h3 id="DataMaster_ViewModels_Windows_Vision_ImageProceFlowViewModel_ModulesLocked" data-uid="DataMaster.ViewModels.Windows.Vision.ImageProceFlowViewModel.ModulesLocked">
+  ModulesLocked
+  <a class="header-action link-secondary" title="View source" href="https://bitbucket.org/mas-software/industrial-mes-net-platform-advanced/src/main/ViewModels/Windows/Vision/ImageProceFlowViewModel.cs#lines-37"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>模块锁定状态</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected static GlobalModulesLocked ModulesLocked { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="DataMaster.Modules.MAS.Controls.ImageProceFlow.GlobalModulesLocked.html">GlobalModulesLocked</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="DataMaster_ViewModels_Windows_Vision_ImageProceFlowViewModel_OpenProjectCommand_" data-uid="DataMaster.ViewModels.Windows.Vision.ImageProceFlowViewModel.OpenProjectCommand*"></a>
+
+  <h3 id="DataMaster_ViewModels_Windows_Vision_ImageProceFlowViewModel_OpenProjectCommand" data-uid="DataMaster.ViewModels.Windows.Vision.ImageProceFlowViewModel.OpenProjectCommand">
+  OpenProjectCommand
+  <a class="header-action link-secondary" title="View source" href="https://bitbucket.org/mas-software/industrial-mes-net-platform-advanced/src/main/ViewModels/Windows/Vision/ImageProceFlowViewModel.cs#lines-125"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>获取打开工程命令</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public RelayCommand OpenProjectCommand { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="DataMaster.Commands.RelayCommand.html">RelayCommand</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="DataMaster_ViewModels_Windows_Vision_ImageProceFlowViewModel_ProjectSavedCommand_" data-uid="DataMaster.ViewModels.Windows.Vision.ImageProceFlowViewModel.ProjectSavedCommand*"></a>
+
+  <h3 id="DataMaster_ViewModels_Windows_Vision_ImageProceFlowViewModel_ProjectSavedCommand" data-uid="DataMaster.ViewModels.Windows.Vision.ImageProceFlowViewModel.ProjectSavedCommand">
+  ProjectSavedCommand
+  <a class="header-action link-secondary" title="View source" href="https://bitbucket.org/mas-software/industrial-mes-net-platform-advanced/src/main/ViewModels/Windows/Vision/ImageProceFlowViewModel.cs#lines-120"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>获取工程保存命令</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public RelayCommand ProjectSavedCommand { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="DataMaster.Commands.RelayCommand.html">RelayCommand</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="DataMaster_ViewModels_Windows_Vision_ImageProceFlowViewModel_SortedModules_" data-uid="DataMaster.ViewModels.Windows.Vision.ImageProceFlowViewModel.SortedModules*"></a>
+
+  <h3 id="DataMaster_ViewModels_Windows_Vision_ImageProceFlowViewModel_SortedModules" data-uid="DataMaster.ViewModels.Windows.Vision.ImageProceFlowViewModel.SortedModules">
+  SortedModules
+  <a class="header-action link-secondary" title="View source" href="https://bitbucket.org/mas-software/industrial-mes-net-platform-advanced/src/main/ViewModels/Windows/Vision/ImageProceFlowViewModel.cs#lines-83"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>获取拓扑排序的结果列表</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public ObservableCollection&lt;ModuleWithConnections&gt; SortedModules { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.objectmodel.observablecollection-1">ObservableCollection</a>&lt;<a class="xref" href="DataMaster.Modules.MAS.Controls.ImageProceFlow.ModuleWithConnections.html">ModuleWithConnections</a>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="DataMaster_ViewModels_Windows_Vision_ImageProceFlowViewModel_TriggerCommand_" data-uid="DataMaster.ViewModels.Windows.Vision.ImageProceFlowViewModel.TriggerCommand*"></a>
+
+  <h3 id="DataMaster_ViewModels_Windows_Vision_ImageProceFlowViewModel_TriggerCommand" data-uid="DataMaster.ViewModels.Windows.Vision.ImageProceFlowViewModel.TriggerCommand">
+  TriggerCommand
+  <a class="header-action link-secondary" title="View source" href="https://bitbucket.org/mas-software/industrial-mes-net-platform-advanced/src/main/ViewModels/Windows/Vision/ImageProceFlowViewModel.cs#lines-95"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>获取触发命令</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public RelayCommand TriggerCommand { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="DataMaster.Commands.RelayCommand.html">RelayCommand</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <h2 class="section" id="methods">Methods
+</h2>
+
+
+  <a id="DataMaster_ViewModels_Windows_Vision_ImageProceFlowViewModel_CheckChangesAsync_" data-uid="DataMaster.ViewModels.Windows.Vision.ImageProceFlowViewModel.CheckChangesAsync*"></a>
+
+  <h3 id="DataMaster_ViewModels_Windows_Vision_ImageProceFlowViewModel_CheckChangesAsync" data-uid="DataMaster.ViewModels.Windows.Vision.ImageProceFlowViewModel.CheckChangesAsync">
+  CheckChangesAsync()
+  <a class="header-action link-secondary" title="View source" href="https://bitbucket.org/mas-software/industrial-mes-net-platform-advanced/src/main/ViewModels/Windows/Vision/ImageProceFlowViewModel.cs#lines-197"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>异步检查工程修改，关闭窗口之前执行</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Task&lt;bool&gt; CheckChangesAsync()</code></pre>
+  </div>
+
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1">Task</a>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a>&gt;</dt>
+    <dd><p>异步等待结果，false表示不关闭窗口，反之关闭</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="DataMaster_ViewModels_Windows_Vision_ImageProceFlowViewModel_Dispose_" data-uid="DataMaster.ViewModels.Windows.Vision.ImageProceFlowViewModel.Dispose*"></a>
+
+  <h3 id="DataMaster_ViewModels_Windows_Vision_ImageProceFlowViewModel_Dispose" data-uid="DataMaster.ViewModels.Windows.Vision.ImageProceFlowViewModel.Dispose">
+  Dispose()
+  <a class="header-action link-secondary" title="View source" href="https://bitbucket.org/mas-software/industrial-mes-net-platform-advanced/src/main/ViewModels/Windows/Vision/ImageProceFlowViewModel.cs#lines-189"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>释放类资源</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void Dispose()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="DataMaster_ViewModels_Windows_Vision_ImageProceFlowViewModel_EventSubscription_" data-uid="DataMaster.ViewModels.Windows.Vision.ImageProceFlowViewModel.EventSubscription*"></a>
+
+  <h3 id="DataMaster_ViewModels_Windows_Vision_ImageProceFlowViewModel_EventSubscription" data-uid="DataMaster.ViewModels.Windows.Vision.ImageProceFlowViewModel.EventSubscription">
+  EventSubscription()
+  <a class="header-action link-secondary" title="View source" href="https://bitbucket.org/mas-software/industrial-mes-net-platform-advanced/src/main/ViewModels/Windows/Vision/ImageProceFlowViewModel.cs#lines-241"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>订阅事件</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void EventSubscription()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="DataMaster_ViewModels_Windows_Vision_ImageProceFlowViewModel_LoadProject_" data-uid="DataMaster.ViewModels.Windows.Vision.ImageProceFlowViewModel.LoadProject*"></a>
+
+  <h3 id="DataMaster_ViewModels_Windows_Vision_ImageProceFlowViewModel_LoadProject_DataMaster_Models_VisionProjectCard_" data-uid="DataMaster.ViewModels.Windows.Vision.ImageProceFlowViewModel.LoadProject(DataMaster.Models.VisionProjectCard)">
+  LoadProject(VisionProjectCard)
+  <a class="header-action link-secondary" title="View source" href="https://bitbucket.org/mas-software/industrial-mes-net-platform-advanced/src/main/ViewModels/Windows/Vision/ImageProceFlowViewModel.cs#lines-232"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>加载项目</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void LoadProject(VisionProjectCard project)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>project</code> <a class="xref" href="DataMaster.Models.VisionProjectCard.html">VisionProjectCard</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="DataMaster_ViewModels_Windows_Vision_ImageProceFlowViewModel_ProjectChanges_" data-uid="DataMaster.ViewModels.Windows.Vision.ImageProceFlowViewModel.ProjectChanges*"></a>
+
+  <h3 id="DataMaster_ViewModels_Windows_Vision_ImageProceFlowViewModel_ProjectChanges" data-uid="DataMaster.ViewModels.Windows.Vision.ImageProceFlowViewModel.ProjectChanges">
+  ProjectChanges()
+  <a class="header-action link-secondary" title="View source" href="https://bitbucket.org/mas-software/industrial-mes-net-platform-advanced/src/main/ViewModels/Windows/Vision/ImageProceFlowViewModel.cs#lines-223"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>工程状态改变</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void ProjectChanges()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="DataMaster_ViewModels_Windows_Vision_ImageProceFlowViewModel_UnsubscribeEvents_" data-uid="DataMaster.ViewModels.Windows.Vision.ImageProceFlowViewModel.UnsubscribeEvents*"></a>
+
+  <h3 id="DataMaster_ViewModels_Windows_Vision_ImageProceFlowViewModel_UnsubscribeEvents" data-uid="DataMaster.ViewModels.Windows.Vision.ImageProceFlowViewModel.UnsubscribeEvents">
+  UnsubscribeEvents()
+  <a class="header-action link-secondary" title="View source" href="https://bitbucket.org/mas-software/industrial-mes-net-platform-advanced/src/main/ViewModels/Windows/Vision/ImageProceFlowViewModel.cs#lines-250"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>取消事件订阅</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void UnsubscribeEvents()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <h2 class="section" id="events">Events
+</h2>
+
+
+
+  <h3 id="DataMaster_ViewModels_Windows_Vision_ImageProceFlowViewModel_OpenProject" data-uid="DataMaster.ViewModels.Windows.Vision.ImageProceFlowViewModel.OpenProject">
+  OpenProject
+  <a class="header-action link-secondary" title="View source" href="https://bitbucket.org/mas-software/industrial-mes-net-platform-advanced/src/main/ViewModels/Windows/Vision/ImageProceFlowViewModel.cs#lines-147"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>打开工程事件，在前端反序列化重建控件数据模型</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public event EventHandler&lt;string&gt;? OpenProject</code></pre>
+  </div>
+
+
+
+
+
+
+  <h4 class="section">Event Type</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.eventhandler-1">EventHandler</a>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <h3 id="DataMaster_ViewModels_Windows_Vision_ImageProceFlowViewModel_ProjectCreated" data-uid="DataMaster.ViewModels.Windows.Vision.ImageProceFlowViewModel.ProjectCreated">
+  ProjectCreated
+  <a class="header-action link-secondary" title="View source" href="https://bitbucket.org/mas-software/industrial-mes-net-platform-advanced/src/main/ViewModels/Windows/Vision/ImageProceFlowViewModel.cs#lines-137"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>新建工程事件，在前端刷新工作区</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public event EventHandler&lt;string&gt;? ProjectCreated</code></pre>
+  </div>
+
+
+
+
+
+
+  <h4 class="section">Event Type</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.eventhandler-1">EventHandler</a>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <h3 id="DataMaster_ViewModels_Windows_Vision_ImageProceFlowViewModel_ProjectSaved" data-uid="DataMaster.ViewModels.Windows.Vision.ImageProceFlowViewModel.ProjectSaved">
+  ProjectSaved
+  <a class="header-action link-secondary" title="View source" href="https://bitbucket.org/mas-software/industrial-mes-net-platform-advanced/src/main/ViewModels/Windows/Vision/ImageProceFlowViewModel.cs#lines-142"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>工程保存事件，在前端进行控件数据模型序列化</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public event EventHandler&lt;string&gt;? ProjectSaved</code></pre>
+  </div>
+
+
+
+
+
+
+  <h4 class="section">Event Type</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.eventhandler-1">EventHandler</a>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <h3 id="DataMaster_ViewModels_Windows_Vision_ImageProceFlowViewModel_ShowInformRequested" data-uid="DataMaster.ViewModels.Windows.Vision.ImageProceFlowViewModel.ShowInformRequested">
+  ShowInformRequested
+  <a class="header-action link-secondary" title="View source" href="https://bitbucket.org/mas-software/industrial-mes-net-platform-advanced/src/main/ViewModels/Windows/Vision/ImageProceFlowViewModel.cs#lines-132"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>显示消息通知事件请求</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public event Action&lt;string&gt;? ShowInformRequested</code></pre>
+  </div>
+
+
+
+
+
+
+  <h4 class="section">Event Type</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.action-1">Action</a>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+</article>
+
+        <div class="contribution d-print-none">
+          <a href="https://bitbucket.org/mas-software/industrial-mes-net-platform-advanced/src/main/ViewModels/Windows/Vision/ImageProceFlowViewModel.cs#lines-26" class="edit-link">Edit this page</a>
+        </div>
+
+
+      </div>
+
+      <div class="affix">
+        <nav id="affix"></nav>
+      </div>
+    </main>
+
+    <div class="container-xxl search-results" id="search-results"></div>
+
+    <footer class="border-top text-secondary">
+      <div class="container-xxl">
+        <div class="flex-fill">
+          <span>Made with <a href="https://dotnet.github.io/docfx" rel="noreferrer">docfx</a>,  | Copyright © 2024 MAS(厦门威光). All rights reserved.</span>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>

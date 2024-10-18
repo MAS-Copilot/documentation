@@ -6,7 +6,7 @@
       <meta name="viewport" content="width=device-width, initial-scale=1.0">
       <meta name="title" content="Class S7ProtocolConfig | DataMaster ">
       
-      <meta name="description" content="S7 通讯的属性定义">
+      <meta name="description" content="S7 通讯协议参数配置">
       <link rel="icon" href="../images/favicon.ico">
       <link rel="stylesheet" href="../public/docfx.min.css">
       <link rel="stylesheet" href="../public/main.css">
@@ -89,7 +89,7 @@
 
 
   <h1 id="DataMaster_Models_Configurations_S7ProtocolConfig" data-uid="DataMaster.Models.Configurations.S7ProtocolConfig" class="text-break">
-Class S7ProtocolConfig  <a class="header-action link-secondary" title="View source" href="https://bitbucket.org/mas-software/industrial-mes-net-platform-advanced/src/feature/OpenCV/Models/Configurations/S7ProtocolConfig.cs#lines-33"><i class="bi bi-code-slash"></i></a>
+Class S7ProtocolConfig  <a class="header-action link-secondary" title="View source" href="https://bitbucket.org/mas-software/industrial-mes-net-platform-advanced/src/main/Models/Configurations/S7ProtocolConfig.cs#lines-34"><i class="bi bi-code-slash"></i></a>
   </h1>
 
   <div class="facts text-secondary">
@@ -97,12 +97,12 @@ Class S7ProtocolConfig  <a class="header-action link-secondary" title="View sour
   <dl><dt>Assembly</dt><dd>DataMaster.dll</dd></dl>
   </div>
 
-  <div class="markdown summary"><p>S7 通讯的属性定义</p>
+  <div class="markdown summary"><p>S7 通讯协议参数配置</p>
 </div>
   <div class="markdown conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public class S7ProtocolConfig : ConfigurationsBase, IS7CommunicationConfig, ICommunicationConfig</code></pre>
+    <pre><code class="lang-csharp hljs">public class S7ProtocolConfig : ConfigurationsBase, IS7CommunicationConfig, ICommunicationConfig, ICloneable</code></pre>
   </div>
 
 
@@ -120,8 +120,9 @@ Class S7ProtocolConfig  <a class="header-action link-secondary" title="View sour
   <dl class="typelist implements">
     <dt>Implements</dt>
     <dd>
-      <div><a class="xref" href="DataMaster.Modules.MAS.Communication.API.IS7CommunicationConfig.html">IS7CommunicationConfig</a></div>
-      <div><a class="xref" href="DataMaster.Modules.MAS.Communication.S7Protocols.Interfaces.ICommunicationConfig.html">ICommunicationConfig</a></div>
+      <div><a class="xref" href="DataMaster.Modules.MAS.Communication.S7Protocols.IS7CommunicationConfig.html">IS7CommunicationConfig</a></div>
+      <div><a class="xref" href="DataMaster.Modules.MAS.Communication.ICommunicationConfig.html">ICommunicationConfig</a></div>
+      <div><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.icloneable">ICloneable</a></div>
     </dd>
   </dl>
 
@@ -166,49 +167,50 @@ Class S7ProtocolConfig  <a class="header-action link-secondary" title="View sour
 
 
 
-  <h2 class="section" id="constructors">Constructors
+  <h2 class="section" id="properties">Properties
 </h2>
 
 
-  <a id="DataMaster_Models_Configurations_S7ProtocolConfig__ctor_" data-uid="DataMaster.Models.Configurations.S7ProtocolConfig.#ctor*"></a>
+  <a id="DataMaster_Models_Configurations_S7ProtocolConfig_ActiveThreshold_" data-uid="DataMaster.Models.Configurations.S7ProtocolConfig.ActiveThreshold*"></a>
 
-  <h3 id="DataMaster_Models_Configurations_S7ProtocolConfig__ctor" data-uid="DataMaster.Models.Configurations.S7ProtocolConfig.#ctor">
-  S7ProtocolConfig()
-  <a class="header-action link-secondary" title="View source" href="https://bitbucket.org/mas-software/industrial-mes-net-platform-advanced/src/feature/OpenCV/Models/Configurations/S7ProtocolConfig.cs#lines-37"><i class="bi bi-code-slash"></i></a>
+  <h3 id="DataMaster_Models_Configurations_S7ProtocolConfig_ActiveThreshold" data-uid="DataMaster.Models.Configurations.S7ProtocolConfig.ActiveThreshold">
+  ActiveThreshold
+  <a class="header-action link-secondary" title="View source" href="https://bitbucket.org/mas-software/industrial-mes-net-platform-advanced/src/main/Models/Configurations/S7ProtocolConfig.cs#lines-179"><i class="bi bi-code-slash"></i></a>
   </h3>
 
-  <div class="markdown level1 summary"><p>构造函数</p>
+  <div class="markdown level1 summary"><p>获取或设置实例活跃阈值，单位分钟，超过设置阈值则表示不活跃</p>
 </div>
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public S7ProtocolConfig()</code></pre>
+    <pre><code class="lang-csharp hljs">public short ActiveThreshold { get; set; }</code></pre>
   </div>
 
 
 
 
 
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int16">short</a></dt>
+    <dd></dd>
+  </dl>
 
 
 
 
 
 
-
-
-  <h2 class="section" id="properties">Properties
-</h2>
 
 
   <a id="DataMaster_Models_Configurations_S7ProtocolConfig_ExecutionMode_" data-uid="DataMaster.Models.Configurations.S7ProtocolConfig.ExecutionMode*"></a>
 
   <h3 id="DataMaster_Models_Configurations_S7ProtocolConfig_ExecutionMode" data-uid="DataMaster.Models.Configurations.S7ProtocolConfig.ExecutionMode">
   ExecutionMode
-  <a class="header-action link-secondary" title="View source" href="https://bitbucket.org/mas-software/industrial-mes-net-platform-advanced/src/feature/OpenCV/Models/Configurations/S7ProtocolConfig.cs#lines-136"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://bitbucket.org/mas-software/industrial-mes-net-platform-advanced/src/main/Models/Configurations/S7ProtocolConfig.cs#lines-152"><i class="bi bi-code-slash"></i></a>
   </h3>
 
-  <div class="markdown level1 summary"><p>执行模式</p>
+  <div class="markdown level1 summary"><p>获取或设置执行模式</p>
 </div>
   <div class="markdown level1 conceptual"></div>
 
@@ -237,16 +239,16 @@ Class S7ProtocolConfig  <a class="header-action link-secondary" title="View sour
 
   <h3 id="DataMaster_Models_Configurations_S7ProtocolConfig_ExecutionModes" data-uid="DataMaster.Models.Configurations.S7ProtocolConfig.ExecutionModes">
   ExecutionModes
-  <a class="header-action link-secondary" title="View source" href="https://bitbucket.org/mas-software/industrial-mes-net-platform-advanced/src/feature/OpenCV/Models/Configurations/S7ProtocolConfig.cs#lines-164"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://bitbucket.org/mas-software/industrial-mes-net-platform-advanced/src/main/Models/Configurations/S7ProtocolConfig.cs#lines-235"><i class="bi bi-code-slash"></i></a>
   </h3>
 
-  <div class="markdown level1 summary"><p>模式集合</p>
+  <div class="markdown level1 summary"><p>获取或设置模式集合</p>
 </div>
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">[JsonIgnore]
-public ObservableCollection&lt;string&gt; ExecutionModes { get; set; }</code></pre>
+public ObservableCollection&lt;string&gt; ExecutionModes { get; }</code></pre>
   </div>
 
 
@@ -266,14 +268,78 @@ public ObservableCollection&lt;string&gt; ExecutionModes { get; set; }</code></p
 
 
 
+  <a id="DataMaster_Models_Configurations_S7ProtocolConfig_ExecutionTimeout_" data-uid="DataMaster.Models.Configurations.S7ProtocolConfig.ExecutionTimeout*"></a>
+
+  <h3 id="DataMaster_Models_Configurations_S7ProtocolConfig_ExecutionTimeout" data-uid="DataMaster.Models.Configurations.S7ProtocolConfig.ExecutionTimeout">
+  ExecutionTimeout
+  <a class="header-action link-secondary" title="View source" href="https://bitbucket.org/mas-software/industrial-mes-net-platform-advanced/src/main/Models/Configurations/S7ProtocolConfig.cs#lines-216"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>获取或设置执行超时时间（毫秒）</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public short ExecutionTimeout { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int16">short</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="DataMaster_Models_Configurations_S7ProtocolConfig_ExpirationTime_" data-uid="DataMaster.Models.Configurations.S7ProtocolConfig.ExpirationTime*"></a>
+
+  <h3 id="DataMaster_Models_Configurations_S7ProtocolConfig_ExpirationTime" data-uid="DataMaster.Models.Configurations.S7ProtocolConfig.ExpirationTime">
+  ExpirationTime
+  <a class="header-action link-secondary" title="View source" href="https://bitbucket.org/mas-software/industrial-mes-net-platform-advanced/src/main/Models/Configurations/S7ProtocolConfig.cs#lines-170"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>获取或设置实例过期时间，单位分钟，将清除过期的实例</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public short ExpirationTime { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int16">short</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
   <a id="DataMaster_Models_Configurations_S7ProtocolConfig_HeartbeatInterval_" data-uid="DataMaster.Models.Configurations.S7ProtocolConfig.HeartbeatInterval*"></a>
 
   <h3 id="DataMaster_Models_Configurations_S7ProtocolConfig_HeartbeatInterval" data-uid="DataMaster.Models.Configurations.S7ProtocolConfig.HeartbeatInterval">
   HeartbeatInterval
-  <a class="header-action link-secondary" title="View source" href="https://bitbucket.org/mas-software/industrial-mes-net-platform-advanced/src/feature/OpenCV/Models/Configurations/S7ProtocolConfig.cs#lines-118"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://bitbucket.org/mas-software/industrial-mes-net-platform-advanced/src/main/Models/Configurations/S7ProtocolConfig.cs#lines-134"><i class="bi bi-code-slash"></i></a>
   </h3>
 
-  <div class="markdown level1 summary"><p>心跳信号发送间隔</p>
+  <div class="markdown level1 summary"><p>获取或设置心跳间隔</p>
 </div>
   <div class="markdown level1 conceptual"></div>
 
@@ -298,14 +364,46 @@ public ObservableCollection&lt;string&gt; ExecutionModes { get; set; }</code></p
 
 
 
+  <a id="DataMaster_Models_Configurations_S7ProtocolConfig_Id_" data-uid="DataMaster.Models.Configurations.S7ProtocolConfig.Id*"></a>
+
+  <h3 id="DataMaster_Models_Configurations_S7ProtocolConfig_Id" data-uid="DataMaster.Models.Configurations.S7ProtocolConfig.Id">
+  Id
+  <a class="header-action link-secondary" title="View source" href="https://bitbucket.org/mas-software/industrial-mes-net-platform-advanced/src/main/Models/Configurations/S7ProtocolConfig.cs#lines-56"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>获取或设置配置实例的唯一标识键</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Guid Id { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.guid">Guid</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
   <a id="DataMaster_Models_Configurations_S7ProtocolConfig_Ip_" data-uid="DataMaster.Models.Configurations.S7ProtocolConfig.Ip*"></a>
 
   <h3 id="DataMaster_Models_Configurations_S7ProtocolConfig_Ip" data-uid="DataMaster.Models.Configurations.S7ProtocolConfig.Ip">
   Ip
-  <a class="header-action link-secondary" title="View source" href="https://bitbucket.org/mas-software/industrial-mes-net-platform-advanced/src/feature/OpenCV/Models/Configurations/S7ProtocolConfig.cs#lines-55"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://bitbucket.org/mas-software/industrial-mes-net-platform-advanced/src/main/Models/Configurations/S7ProtocolConfig.cs#lines-71"><i class="bi bi-code-slash"></i></a>
   </h3>
 
-  <div class="markdown level1 summary"><p>地址</p>
+  <div class="markdown level1 summary"><p>获取或设置地址</p>
 </div>
   <div class="markdown level1 conceptual"></div>
 
@@ -330,14 +428,46 @@ public ObservableCollection&lt;string&gt; ExecutionModes { get; set; }</code></p
 
 
 
+  <a id="DataMaster_Models_Configurations_S7ProtocolConfig_IsAutoClear_" data-uid="DataMaster.Models.Configurations.S7ProtocolConfig.IsAutoClear*"></a>
+
+  <h3 id="DataMaster_Models_Configurations_S7ProtocolConfig_IsAutoClear" data-uid="DataMaster.Models.Configurations.S7ProtocolConfig.IsAutoClear">
+  IsAutoClear
+  <a class="header-action link-secondary" title="View source" href="https://bitbucket.org/mas-software/industrial-mes-net-platform-advanced/src/main/Models/Configurations/S7ProtocolConfig.cs#lines-189"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>获取或设置是否自动清除过期实例</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool IsAutoClear { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
   <a id="DataMaster_Models_Configurations_S7ProtocolConfig_MaxRetries_" data-uid="DataMaster.Models.Configurations.S7ProtocolConfig.MaxRetries*"></a>
 
   <h3 id="DataMaster_Models_Configurations_S7ProtocolConfig_MaxRetries" data-uid="DataMaster.Models.Configurations.S7ProtocolConfig.MaxRetries">
   MaxRetries
-  <a class="header-action link-secondary" title="View source" href="https://bitbucket.org/mas-software/industrial-mes-net-platform-advanced/src/feature/OpenCV/Models/Configurations/S7ProtocolConfig.cs#lines-145"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://bitbucket.org/mas-software/industrial-mes-net-platform-advanced/src/main/Models/Configurations/S7ProtocolConfig.cs#lines-161"><i class="bi bi-code-slash"></i></a>
   </h3>
 
-  <div class="markdown level1 summary"><p>连接失败时的最大重试次数</p>
+  <div class="markdown level1 summary"><p>获取或设置最大重试次数</p>
 </div>
   <div class="markdown level1 conceptual"></div>
 
@@ -362,47 +492,14 @@ public ObservableCollection&lt;string&gt; ExecutionModes { get; set; }</code></p
 
 
 
-  <a id="DataMaster_Models_Configurations_S7ProtocolConfig_PlcTypes_" data-uid="DataMaster.Models.Configurations.S7ProtocolConfig.PlcTypes*"></a>
-
-  <h3 id="DataMaster_Models_Configurations_S7ProtocolConfig_PlcTypes" data-uid="DataMaster.Models.Configurations.S7ProtocolConfig.PlcTypes">
-  PlcTypes
-  <a class="header-action link-secondary" title="View source" href="https://bitbucket.org/mas-software/industrial-mes-net-platform-advanced/src/feature/OpenCV/Models/Configurations/S7ProtocolConfig.cs#lines-154"><i class="bi bi-code-slash"></i></a>
-  </h3>
-
-  <div class="markdown level1 summary"><p>型号集合</p>
-</div>
-  <div class="markdown level1 conceptual"></div>
-
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">[JsonIgnore]
-public ObservableCollection&lt;string&gt; PlcTypes { get; set; }</code></pre>
-  </div>
-
-
-
-
-
-  <h4 class="section">Property Value</h4>
-  <dl class="parameters">
-    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.objectmodel.observablecollection-1">ObservableCollection</a>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a>&gt;</dt>
-    <dd></dd>
-  </dl>
-
-
-
-
-
-
-
-
   <a id="DataMaster_Models_Configurations_S7ProtocolConfig_Rack_" data-uid="DataMaster.Models.Configurations.S7ProtocolConfig.Rack*"></a>
 
   <h3 id="DataMaster_Models_Configurations_S7ProtocolConfig_Rack" data-uid="DataMaster.Models.Configurations.S7ProtocolConfig.Rack">
   Rack
-  <a class="header-action link-secondary" title="View source" href="https://bitbucket.org/mas-software/industrial-mes-net-platform-advanced/src/feature/OpenCV/Models/Configurations/S7ProtocolConfig.cs#lines-64"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://bitbucket.org/mas-software/industrial-mes-net-platform-advanced/src/main/Models/Configurations/S7ProtocolConfig.cs#lines-80"><i class="bi bi-code-slash"></i></a>
   </h3>
 
-  <div class="markdown level1 summary"><p>机架</p>
+  <div class="markdown level1 summary"><p>获取或设置机架</p>
 </div>
   <div class="markdown level1 conceptual"></div>
 
@@ -427,19 +524,51 @@ public ObservableCollection&lt;string&gt; PlcTypes { get; set; }</code></pre>
 
 
 
-  <a id="DataMaster_Models_Configurations_S7ProtocolConfig_ReadStructDBAdr_" data-uid="DataMaster.Models.Configurations.S7ProtocolConfig.ReadStructDBAdr*"></a>
+  <a id="DataMaster_Models_Configurations_S7ProtocolConfig_ReadStructDbAdr_" data-uid="DataMaster.Models.Configurations.S7ProtocolConfig.ReadStructDbAdr*"></a>
 
-  <h3 id="DataMaster_Models_Configurations_S7ProtocolConfig_ReadStructDBAdr" data-uid="DataMaster.Models.Configurations.S7ProtocolConfig.ReadStructDBAdr">
-  ReadStructDBAdr
-  <a class="header-action link-secondary" title="View source" href="https://bitbucket.org/mas-software/industrial-mes-net-platform-advanced/src/feature/OpenCV/Models/Configurations/S7ProtocolConfig.cs#lines-100"><i class="bi bi-code-slash"></i></a>
+  <h3 id="DataMaster_Models_Configurations_S7ProtocolConfig_ReadStructDbAdr" data-uid="DataMaster.Models.Configurations.S7ProtocolConfig.ReadStructDbAdr">
+  ReadStructDbAdr
+  <a class="header-action link-secondary" title="View source" href="https://bitbucket.org/mas-software/industrial-mes-net-platform-advanced/src/main/Models/Configurations/S7ProtocolConfig.cs#lines-116"><i class="bi bi-code-slash"></i></a>
   </h3>
 
-  <div class="markdown level1 summary"><p>读取结构体起始地址</p>
+  <div class="markdown level1 summary"><p>获取或设置读取结构体起始地址</p>
 </div>
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public short ReadStructDBAdr { get; set; }</code></pre>
+    <pre><code class="lang-csharp hljs">public short ReadStructDbAdr { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int16">short</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="DataMaster_Models_Configurations_S7ProtocolConfig_ReadTimeout_" data-uid="DataMaster.Models.Configurations.S7ProtocolConfig.ReadTimeout*"></a>
+
+  <h3 id="DataMaster_Models_Configurations_S7ProtocolConfig_ReadTimeout" data-uid="DataMaster.Models.Configurations.S7ProtocolConfig.ReadTimeout">
+  ReadTimeout
+  <a class="header-action link-secondary" title="View source" href="https://bitbucket.org/mas-software/industrial-mes-net-platform-advanced/src/main/Models/Configurations/S7ProtocolConfig.cs#lines-198"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>获取或设置读取超时时间(毫秒)</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public short ReadTimeout { get; set; }</code></pre>
   </div>
 
 
@@ -463,10 +592,10 @@ public ObservableCollection&lt;string&gt; PlcTypes { get; set; }</code></pre>
 
   <h3 id="DataMaster_Models_Configurations_S7ProtocolConfig_RunSleepTime" data-uid="DataMaster.Models.Configurations.S7ProtocolConfig.RunSleepTime">
   RunSleepTime
-  <a class="header-action link-secondary" title="View source" href="https://bitbucket.org/mas-software/industrial-mes-net-platform-advanced/src/feature/OpenCV/Models/Configurations/S7ProtocolConfig.cs#lines-127"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://bitbucket.org/mas-software/industrial-mes-net-platform-advanced/src/main/Models/Configurations/S7ProtocolConfig.cs#lines-143"><i class="bi bi-code-slash"></i></a>
   </h3>
 
-  <div class="markdown level1 summary"><p>运行睡眠时间</p>
+  <div class="markdown level1 summary"><p>获取或设置运行睡眠时间</p>
 </div>
   <div class="markdown level1 conceptual"></div>
 
@@ -495,10 +624,10 @@ public ObservableCollection&lt;string&gt; PlcTypes { get; set; }</code></pre>
 
   <h3 id="DataMaster_Models_Configurations_S7ProtocolConfig_Slot" data-uid="DataMaster.Models.Configurations.S7ProtocolConfig.Slot">
   Slot
-  <a class="header-action link-secondary" title="View source" href="https://bitbucket.org/mas-software/industrial-mes-net-platform-advanced/src/feature/OpenCV/Models/Configurations/S7ProtocolConfig.cs#lines-73"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://bitbucket.org/mas-software/industrial-mes-net-platform-advanced/src/main/Models/Configurations/S7ProtocolConfig.cs#lines-89"><i class="bi bi-code-slash"></i></a>
   </h3>
 
-  <div class="markdown level1 summary"><p>插槽</p>
+  <div class="markdown level1 summary"><p>获取或设置插槽</p>
 </div>
   <div class="markdown level1 conceptual"></div>
 
@@ -523,19 +652,19 @@ public ObservableCollection&lt;string&gt; PlcTypes { get; set; }</code></pre>
 
 
 
-  <a id="DataMaster_Models_Configurations_S7ProtocolConfig_TaskCompletedDBAdr_" data-uid="DataMaster.Models.Configurations.S7ProtocolConfig.TaskCompletedDBAdr*"></a>
+  <a id="DataMaster_Models_Configurations_S7ProtocolConfig_TaskCompletedDbAdr_" data-uid="DataMaster.Models.Configurations.S7ProtocolConfig.TaskCompletedDbAdr*"></a>
 
-  <h3 id="DataMaster_Models_Configurations_S7ProtocolConfig_TaskCompletedDBAdr" data-uid="DataMaster.Models.Configurations.S7ProtocolConfig.TaskCompletedDBAdr">
-  TaskCompletedDBAdr
-  <a class="header-action link-secondary" title="View source" href="https://bitbucket.org/mas-software/industrial-mes-net-platform-advanced/src/feature/OpenCV/Models/Configurations/S7ProtocolConfig.cs#lines-91"><i class="bi bi-code-slash"></i></a>
+  <h3 id="DataMaster_Models_Configurations_S7ProtocolConfig_TaskCompletedDbAdr" data-uid="DataMaster.Models.Configurations.S7ProtocolConfig.TaskCompletedDbAdr">
+  TaskCompletedDbAdr
+  <a class="header-action link-secondary" title="View source" href="https://bitbucket.org/mas-software/industrial-mes-net-platform-advanced/src/main/Models/Configurations/S7ProtocolConfig.cs#lines-107"><i class="bi bi-code-slash"></i></a>
   </h3>
 
-  <div class="markdown level1 summary"><p>任务完成信号起始地址</p>
+  <div class="markdown level1 summary"><p>获取或设置任务完成起始地址</p>
 </div>
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public short TaskCompletedDBAdr { get; set; }</code></pre>
+    <pre><code class="lang-csharp hljs">public short TaskCompletedDbAdr { get; set; }</code></pre>
   </div>
 
 
@@ -555,19 +684,19 @@ public ObservableCollection&lt;string&gt; PlcTypes { get; set; }</code></pre>
 
 
 
-  <a id="DataMaster_Models_Configurations_S7ProtocolConfig_TaskExecutionDBAdr_" data-uid="DataMaster.Models.Configurations.S7ProtocolConfig.TaskExecutionDBAdr*"></a>
+  <a id="DataMaster_Models_Configurations_S7ProtocolConfig_TaskExecutionDbAdr_" data-uid="DataMaster.Models.Configurations.S7ProtocolConfig.TaskExecutionDbAdr*"></a>
 
-  <h3 id="DataMaster_Models_Configurations_S7ProtocolConfig_TaskExecutionDBAdr" data-uid="DataMaster.Models.Configurations.S7ProtocolConfig.TaskExecutionDBAdr">
-  TaskExecutionDBAdr
-  <a class="header-action link-secondary" title="View source" href="https://bitbucket.org/mas-software/industrial-mes-net-platform-advanced/src/feature/OpenCV/Models/Configurations/S7ProtocolConfig.cs#lines-82"><i class="bi bi-code-slash"></i></a>
+  <h3 id="DataMaster_Models_Configurations_S7ProtocolConfig_TaskExecutionDbAdr" data-uid="DataMaster.Models.Configurations.S7ProtocolConfig.TaskExecutionDbAdr">
+  TaskExecutionDbAdr
+  <a class="header-action link-secondary" title="View source" href="https://bitbucket.org/mas-software/industrial-mes-net-platform-advanced/src/main/Models/Configurations/S7ProtocolConfig.cs#lines-98"><i class="bi bi-code-slash"></i></a>
   </h3>
 
-  <div class="markdown level1 summary"><p>执行条件的起始地址</p>
+  <div class="markdown level1 summary"><p>获取或设置任务执行起始地址</p>
 </div>
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public short TaskExecutionDBAdr { get; set; }</code></pre>
+    <pre><code class="lang-csharp hljs">public short TaskExecutionDbAdr { get; set; }</code></pre>
   </div>
 
 
@@ -591,10 +720,10 @@ public ObservableCollection&lt;string&gt; PlcTypes { get; set; }</code></pre>
 
   <h3 id="DataMaster_Models_Configurations_S7ProtocolConfig_Type" data-uid="DataMaster.Models.Configurations.S7ProtocolConfig.Type">
   Type
-  <a class="header-action link-secondary" title="View source" href="https://bitbucket.org/mas-software/industrial-mes-net-platform-advanced/src/feature/OpenCV/Models/Configurations/S7ProtocolConfig.cs#lines-46"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://bitbucket.org/mas-software/industrial-mes-net-platform-advanced/src/main/Models/Configurations/S7ProtocolConfig.cs#lines-62"><i class="bi bi-code-slash"></i></a>
   </h3>
 
-  <div class="markdown level1 summary"><p>型号</p>
+  <div class="markdown level1 summary"><p>获取或设置型号</p>
 </div>
   <div class="markdown level1 conceptual"></div>
 
@@ -619,19 +748,52 @@ public ObservableCollection&lt;string&gt; PlcTypes { get; set; }</code></pre>
 
 
 
-  <a id="DataMaster_Models_Configurations_S7ProtocolConfig_WriteStructDBAdr_" data-uid="DataMaster.Models.Configurations.S7ProtocolConfig.WriteStructDBAdr*"></a>
+  <a id="DataMaster_Models_Configurations_S7ProtocolConfig_Types_" data-uid="DataMaster.Models.Configurations.S7ProtocolConfig.Types*"></a>
 
-  <h3 id="DataMaster_Models_Configurations_S7ProtocolConfig_WriteStructDBAdr" data-uid="DataMaster.Models.Configurations.S7ProtocolConfig.WriteStructDBAdr">
-  WriteStructDBAdr
-  <a class="header-action link-secondary" title="View source" href="https://bitbucket.org/mas-software/industrial-mes-net-platform-advanced/src/feature/OpenCV/Models/Configurations/S7ProtocolConfig.cs#lines-109"><i class="bi bi-code-slash"></i></a>
+  <h3 id="DataMaster_Models_Configurations_S7ProtocolConfig_Types" data-uid="DataMaster.Models.Configurations.S7ProtocolConfig.Types">
+  Types
+  <a class="header-action link-secondary" title="View source" href="https://bitbucket.org/mas-software/industrial-mes-net-platform-advanced/src/main/Models/Configurations/S7ProtocolConfig.cs#lines-225"><i class="bi bi-code-slash"></i></a>
   </h3>
 
-  <div class="markdown level1 summary"><p>写入结构体起始地址</p>
+  <div class="markdown level1 summary"><p>获取或设置型号集合</p>
 </div>
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public short WriteStructDBAdr { get; set; }</code></pre>
+    <pre><code class="lang-csharp hljs">[JsonIgnore]
+public ObservableCollection&lt;string&gt; Types { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.objectmodel.observablecollection-1">ObservableCollection</a>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="DataMaster_Models_Configurations_S7ProtocolConfig_WriteStructDbAdr_" data-uid="DataMaster.Models.Configurations.S7ProtocolConfig.WriteStructDbAdr*"></a>
+
+  <h3 id="DataMaster_Models_Configurations_S7ProtocolConfig_WriteStructDbAdr" data-uid="DataMaster.Models.Configurations.S7ProtocolConfig.WriteStructDbAdr">
+  WriteStructDbAdr
+  <a class="header-action link-secondary" title="View source" href="https://bitbucket.org/mas-software/industrial-mes-net-platform-advanced/src/main/Models/Configurations/S7ProtocolConfig.cs#lines-125"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>获取或设置写入结构体起始地址</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public short WriteStructDbAdr { get; set; }</code></pre>
   </div>
 
 
@@ -651,11 +813,119 @@ public ObservableCollection&lt;string&gt; PlcTypes { get; set; }</code></pre>
 
 
 
+  <a id="DataMaster_Models_Configurations_S7ProtocolConfig_WriteTimeout_" data-uid="DataMaster.Models.Configurations.S7ProtocolConfig.WriteTimeout*"></a>
+
+  <h3 id="DataMaster_Models_Configurations_S7ProtocolConfig_WriteTimeout" data-uid="DataMaster.Models.Configurations.S7ProtocolConfig.WriteTimeout">
+  WriteTimeout
+  <a class="header-action link-secondary" title="View source" href="https://bitbucket.org/mas-software/industrial-mes-net-platform-advanced/src/main/Models/Configurations/S7ProtocolConfig.cs#lines-207"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>获取或设置写入超时时间（毫秒）</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public short WriteTimeout { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int16">short</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <h2 class="section" id="methods">Methods
+</h2>
+
+
+  <a id="DataMaster_Models_Configurations_S7ProtocolConfig_Clone_" data-uid="DataMaster.Models.Configurations.S7ProtocolConfig.Clone*"></a>
+
+  <h3 id="DataMaster_Models_Configurations_S7ProtocolConfig_Clone" data-uid="DataMaster.Models.Configurations.S7ProtocolConfig.Clone">
+  Clone()
+  <a class="header-action link-secondary" title="View source" href="https://bitbucket.org/mas-software/industrial-mes-net-platform-advanced/src/main/Models/Configurations/S7ProtocolConfig.cs#lines-39"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>创建当前 <a class="xref" href="DataMaster.Models.Configurations.S7ProtocolConfig.html">S7ProtocolConfig</a> 实例的深表副本</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public object Clone()</code></pre>
+  </div>
+
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">object</a></dt>
+    <dd><p>这个实例的一个新的深表副本</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="DataMaster_Models_Configurations_S7ProtocolConfig_Clone_" data-uid="DataMaster.Models.Configurations.S7ProtocolConfig.Clone*"></a>
+
+  <h3 id="DataMaster_Models_Configurations_S7ProtocolConfig_Clone__1" data-uid="DataMaster.Models.Configurations.S7ProtocolConfig.Clone``1">
+  Clone&lt;T&gt;()
+  <a class="header-action link-secondary" title="View source" href="https://bitbucket.org/mas-software/industrial-mes-net-platform-advanced/src/main/Models/Configurations/S7ProtocolConfig.cs#lines-48"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>以指定的类型创建当前实例的深表副本</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public T Clone&lt;T&gt;() where T : ICommunicationConfig</code></pre>
+  </div>
+
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><span class="xref">T</span></dt>
+    <dd><p>一个类型为 T 的新对象，这个对象是这个实例的一个深表副本</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Type Parameters</h4>
+  <dl class="parameters">
+    <dt><code>T</code></dt>
+    <dd><p>要克隆的对象的类型，该类型必须实现 <a class="xref" href="DataMaster.Modules.MAS.Communication.ICommunicationConfig.html">ICommunicationConfig</a></p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
 
 </article>
 
         <div class="contribution d-print-none">
-          <a href="https://bitbucket.org/mas-software/industrial-mes-net-platform-advanced/src/feature/OpenCV/Models/Configurations/S7ProtocolConfig.cs#lines-33" class="edit-link">Edit this page</a>
+          <a href="https://bitbucket.org/mas-software/industrial-mes-net-platform-advanced/src/main/Models/Configurations/S7ProtocolConfig.cs#lines-34" class="edit-link">Edit this page</a>
         </div>
 
 

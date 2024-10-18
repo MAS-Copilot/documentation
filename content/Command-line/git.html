@@ -273,12 +273,20 @@ git commit -m &quot;解决冲突&quot;
 <pre><code class="lang-bash">git checkout -b &lt;branch-name&gt; origin/&lt;branch-name&gt;
 </code></pre>
 <p>这条命令会创建一个名为<code>&lt;branch-name&gt;</code>的新本地分支，并将其设置为跟踪远程的<code>origin/&lt;branch-name&gt;</code>分支。</p>
+<h2 id="提交修改">提交修改</h2>
+<h3 id="更正提交信息">更正提交信息</h3>
+<p>修改上一次的提交信息, 提交将会被更新</p>
+<pre><code class="lang-bash">git commit --amend -m &quot;🚀 添加Aes加密服务测试&quot;
+</code></pre>
+<p>这是对历史提交的修改，需要使用强制推送来更新远程仓库</p>
+<pre><code class="lang-bash">git push --force
+</code></pre>
 <h2 id="分支创建与合并">分支创建与合并</h2>
-<p>分支是Git仓库中的一个重要概念，它允许你创建一个独立的开发路径，而不会影响主分支。</p>
+<p>分支是Git仓库中的一个重要概念，它允许你创建一个独立的开发路径，而不会影响主分支</p>
 <h3 id="创建并切换到新分支">创建并切换到新分支</h3>
 <pre><code class="lang-bash">git checkout -b test
 </code></pre>
-<p>这个命令会创建一个名为<code>test</code>的新分支，并自动切换到这个分支上。</p>
+<p>这个命令会创建一个名为<code>test</code>的新分支，并自动切换到这个分支上</p>
 <h3 id="拉取远程main分支的更新">拉取远程main分支的更新</h3>
 <p>在<code>test</code>分支上，如果你想要拉取远程<code>main</code>分支的最新更改，可以先切换回<code>main</code>分支，然后拉取更新，最后再切换回<code>test</code>分支并合并<code>main</code>分支的更改：</p>
 <pre><code class="lang-bash">git checkout main

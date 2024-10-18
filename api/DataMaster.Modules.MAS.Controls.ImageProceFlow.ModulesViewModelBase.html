@@ -1,0 +1,1460 @@
+﻿<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+      <title>Class ModulesViewModelBase | DataMaster </title>
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta name="title" content="Class ModulesViewModelBase | DataMaster ">
+      
+      <meta name="description" content="模块视图模型基类">
+      <link rel="icon" href="../images/favicon.ico">
+      <link rel="stylesheet" href="../public/docfx.min.css">
+      <link rel="stylesheet" href="../public/main.css">
+      <meta name="docfx:navrel" content="../toc.html">
+      <meta name="docfx:tocrel" content="toc.html">
+      
+      <meta name="docfx:rel" content="../">
+      
+      
+      
+      <meta name="loc:inThisArticle" content="In this article">
+      <meta name="loc:searchResultsCount" content="{count} results for &quot;{query}&quot;">
+      <meta name="loc:searchNoResults" content="No results for &quot;{query}&quot;">
+      <meta name="loc:tocFilter" content="Filter by title">
+      <meta name="loc:nextArticle" content="Next">
+      <meta name="loc:prevArticle" content="Previous">
+      <meta name="loc:themeLight" content="Light">
+      <meta name="loc:themeDark" content="Dark">
+      <meta name="loc:themeAuto" content="Auto">
+      <meta name="loc:changeTheme" content="Change theme">
+      <meta name="loc:copy" content="Copy">
+      <meta name="loc:downloadPdf" content="Download PDF">
+
+      <script type="module" src="./../public/docfx.min.js"></script>
+
+      <script>
+        const theme = localStorage.getItem('theme') || 'auto'
+        document.documentElement.setAttribute('data-bs-theme', theme === 'auto' ? (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light') : theme)
+      </script>
+
+  </head>
+
+  <body class="tex2jax_ignore" data-layout="" data-yaml-mime="ManagedReference">
+    <header class="bg-body border-bottom">
+      <nav id="autocollapse" class="navbar navbar-expand-md" role="navigation">
+        <div class="container-xxl flex-nowrap">
+          <a class="navbar-brand" href="../index.html">
+            <img id="logo" class="svg" src="../images/logo.svg" alt="DataMaster">
+            DataMaster
+          </a>
+          <button class="btn btn-lg d-md-none border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navpanel" aria-controls="navpanel" aria-expanded="false" aria-label="Toggle navigation">
+            <i class="bi bi-three-dots"></i>
+          </button>
+          <div class="collapse navbar-collapse" id="navpanel">
+            <div id="navbar">
+              <form class="search" role="search" id="search">
+                <i class="bi bi-search"></i>
+                <input class="form-control" id="search-query" type="search" disabled="" placeholder="Search" autocomplete="off" aria-label="Search">
+              </form>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <main class="container-xxl">
+      <div class="toc-offcanvas">
+        <div class="offcanvas-md offcanvas-start" tabindex="-1" id="tocOffcanvas" aria-labelledby="tocOffcanvasLabel">
+          <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="tocOffcanvasLabel">Table of Contents</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" data-bs-target="#tocOffcanvas" aria-label="Close"></button>
+          </div>
+          <div class="offcanvas-body">
+            <nav class="toc" id="toc"></nav>
+          </div>
+        </div>
+      </div>
+
+      <div class="content">
+        <div class="actionbar">
+          <button class="btn btn-lg border-0 d-md-none" type="button" data-bs-toggle="offcanvas" data-bs-target="#tocOffcanvas" aria-controls="tocOffcanvas" aria-expanded="false" aria-label="Show table of contents">
+            <i class="bi bi-list"></i>
+          </button>
+
+          <nav id="breadcrumb"></nav>
+        </div>
+
+        <article data-uid="DataMaster.Modules.MAS.Controls.ImageProceFlow.ModulesViewModelBase">
+
+
+
+  <h1 id="DataMaster_Modules_MAS_Controls_ImageProceFlow_ModulesViewModelBase" data-uid="DataMaster.Modules.MAS.Controls.ImageProceFlow.ModulesViewModelBase" class="text-break">
+Class ModulesViewModelBase  <a class="header-action link-secondary" title="View source" href="https://bitbucket.org/mas-software/industrial-mes-net-platform-advanced/src/main/Modules/MAS.Controls/ImageProceFlow/Abstracts/ModulesViewModelBase.cs#lines-38"><i class="bi bi-code-slash"></i></a>
+  </h1>
+
+  <div class="facts text-secondary">
+    <dl><dt>Namespace</dt><dd><a class="xref" href="DataMaster.html">DataMaster</a>.<a class="xref" href="DataMaster.Modules.html">Modules</a>.<a class="xref" href="DataMaster.Modules.MAS.html">MAS</a>.<a class="xref" href="DataMaster.Modules.MAS.Controls.html">Controls</a>.<a class="xref" href="DataMaster.Modules.MAS.Controls.ImageProceFlow.html">ImageProceFlow</a></dd></dl>
+  <dl><dt>Assembly</dt><dd>DataMaster.dll</dd></dl>
+  </div>
+
+  <div class="markdown summary"><p>模块视图模型基类</p>
+</div>
+  <div class="markdown conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public abstract class ModulesViewModelBase : INotifyPropertyChanged, IDisposable, IModule</code></pre>
+  </div>
+
+
+
+
+  <dl class="typelist inheritance">
+    <dt>Inheritance</dt>
+    <dd>
+      <div><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">object</a></div>
+      <div><span class="xref">ModulesViewModelBase</span></div>
+    </dd>
+  </dl>
+
+  <dl class="typelist implements">
+    <dt>Implements</dt>
+    <dd>
+      <div><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.componentmodel.inotifypropertychanged">INotifyPropertyChanged</a></div>
+      <div><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.idisposable">IDisposable</a></div>
+      <div><a class="xref" href="DataMaster.Modules.MAS.Controls.ImageProceFlow.IModule.html">IModule</a></div>
+    </dd>
+  </dl>
+
+  <dl class="typelist derived">
+    <dt>Derived</dt>
+    <dd>
+      <div><a class="xref" href="DataMaster.Modules.MAS.Controls.ImageProceFlow.CameraViewModel.html">CameraViewModel</a></div>
+      <div><a class="xref" href="DataMaster.Modules.MAS.Controls.ImageProceFlow.ColorConvertViewModel.html">ColorConvertViewModel</a></div>
+      <div><a class="xref" href="DataMaster.Modules.MAS.Controls.ImageProceFlow.ImageInfoViewModel.html">ImageInfoViewModel</a></div>
+      <div><a class="xref" href="DataMaster.Modules.MAS.Controls.ImageProceFlow.ImageSourceViewModel.html">ImageSourceViewModel</a></div>
+      <div><a class="xref" href="DataMaster.Modules.MAS.Controls.ImageProceFlow.ResultImageViewerViewModel.html">ResultImageViewerViewModel</a></div>
+      <div><a class="xref" href="DataMaster.Modules.MAS.Controls.ImageProceFlow.TemplateMatchingViewModel.html">TemplateMatchingViewModel</a></div>
+    </dd>
+  </dl>
+
+  <dl class="typelist inheritedMembers">
+    <dt>Inherited Members</dt>
+    <dd>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)">object.Equals(object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)">object.Equals(object, object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.gethashcode">object.GetHashCode()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.gettype">object.GetType()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone">object.MemberwiseClone()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.referenceequals">object.ReferenceEquals(object, object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.tostring">object.ToString()</a>
+    </div>
+  </dd></dl>
+
+
+
+
+
+
+  <h2 class="section" id="constructors">Constructors
+</h2>
+
+
+  <a id="DataMaster_Modules_MAS_Controls_ImageProceFlow_ModulesViewModelBase__ctor_" data-uid="DataMaster.Modules.MAS.Controls.ImageProceFlow.ModulesViewModelBase.#ctor*"></a>
+
+  <h3 id="DataMaster_Modules_MAS_Controls_ImageProceFlow_ModulesViewModelBase__ctor_System_IServiceProvider_" data-uid="DataMaster.Modules.MAS.Controls.ImageProceFlow.ModulesViewModelBase.#ctor(System.IServiceProvider)">
+  ModulesViewModelBase(IServiceProvider)
+  <a class="header-action link-secondary" title="View source" href="https://bitbucket.org/mas-software/industrial-mes-net-platform-advanced/src/main/Modules/MAS.Controls/ImageProceFlow/Abstracts/ModulesViewModelBase.cs#lines-191"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>构造函数，初始化 <a class="xref" href="DataMaster.Modules.MAS.Controls.ImageProceFlow.ModulesViewModelBase.html">ModulesViewModelBase</a> 新实例</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public ModulesViewModelBase(IServiceProvider serviceProvider)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>serviceProvider</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.iserviceprovider">IServiceProvider</a></dt>
+    <dd><p>服务提供者</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <h2 class="section" id="fields">Fields
+</h2>
+
+
+
+  <h3 id="DataMaster_Modules_MAS_Controls_ImageProceFlow_ModulesViewModelBase_BusyCursor" data-uid="DataMaster.Modules.MAS.Controls.ImageProceFlow.ModulesViewModelBase.BusyCursor">
+  BusyCursor
+  <a class="header-action link-secondary" title="View source" href="https://bitbucket.org/mas-software/industrial-mes-net-platform-advanced/src/main/Modules/MAS.Controls/ImageProceFlow/Abstracts/ModulesViewModelBase.cs#lines-74"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>忙碌状态光标</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected readonly Cursor BusyCursor</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.windows.input.cursor">Cursor</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="DataMaster_Modules_MAS_Controls_ImageProceFlow_ModulesViewModelBase_EventAggregatorServices" data-uid="DataMaster.Modules.MAS.Controls.ImageProceFlow.ModulesViewModelBase.EventAggregatorServices">
+  EventAggregatorServices
+  <a class="header-action link-secondary" title="View source" href="https://bitbucket.org/mas-software/industrial-mes-net-platform-advanced/src/main/Modules/MAS.Controls/ImageProceFlow/Abstracts/ModulesViewModelBase.cs#lines-44"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>事件聚合器服务</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected readonly IEventAggregatorService EventAggregatorServices</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="DataMaster.Modules.MAS.EventAggregator.IEventAggregatorService.html">IEventAggregatorService</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="DataMaster_Modules_MAS_Controls_ImageProceFlow_ModulesViewModelBase_ExecutionFlowManager" data-uid="DataMaster.Modules.MAS.Controls.ImageProceFlow.ModulesViewModelBase.ExecutionFlowManager">
+  ExecutionFlowManager
+  <a class="header-action link-secondary" title="View source" href="https://bitbucket.org/mas-software/industrial-mes-net-platform-advanced/src/main/Modules/MAS.Controls/ImageProceFlow/Abstracts/ModulesViewModelBase.cs#lines-49"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>模块间流程管理服务</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected readonly IExecutionFlowManager ExecutionFlowManager</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="DataMaster.Modules.MAS.Controls.ImageProceFlow.IExecutionFlowManager.html">IExecutionFlowManager</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="DataMaster_Modules_MAS_Controls_ImageProceFlow_ModulesViewModelBase_ModuleConnectionService" data-uid="DataMaster.Modules.MAS.Controls.ImageProceFlow.ModulesViewModelBase.ModuleConnectionService">
+  ModuleConnectionService
+  <a class="header-action link-secondary" title="View source" href="https://bitbucket.org/mas-software/industrial-mes-net-platform-advanced/src/main/Modules/MAS.Controls/ImageProceFlow/Abstracts/ModulesViewModelBase.cs#lines-54"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>模块连接服务</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected readonly IModuleConnectionService ModuleConnectionService</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="DataMaster.Modules.MAS.Controls.ImageProceFlow.IModuleConnectionService.html">IModuleConnectionService</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="DataMaster_Modules_MAS_Controls_ImageProceFlow_ModulesViewModelBase_TipsNotificationService" data-uid="DataMaster.Modules.MAS.Controls.ImageProceFlow.ModulesViewModelBase.TipsNotificationService">
+  TipsNotificationService
+  <a class="header-action link-secondary" title="View source" href="https://bitbucket.org/mas-software/industrial-mes-net-platform-advanced/src/main/Modules/MAS.Controls/ImageProceFlow/Abstracts/ModulesViewModelBase.cs#lines-59"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Tips 通知服务</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected readonly ITipsNotificationService TipsNotificationService</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="DataMaster.Modules.MAS.Controls.Notification.ITipsNotificationService.html">ITipsNotificationService</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="DataMaster_Modules_MAS_Controls_ImageProceFlow_ModulesViewModelBase_WorkingCursor" data-uid="DataMaster.Modules.MAS.Controls.ImageProceFlow.ModulesViewModelBase.WorkingCursor">
+  WorkingCursor
+  <a class="header-action link-secondary" title="View source" href="https://bitbucket.org/mas-software/industrial-mes-net-platform-advanced/src/main/Modules/MAS.Controls/ImageProceFlow/Abstracts/ModulesViewModelBase.cs#lines-79"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>正在工作/任务中光标</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected readonly Cursor WorkingCursor</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.windows.input.cursor">Cursor</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+  <h2 class="section" id="properties">Properties
+</h2>
+
+
+  <a id="DataMaster_Modules_MAS_Controls_ImageProceFlow_ModulesViewModelBase_AcceptableInputTypes_" data-uid="DataMaster.Modules.MAS.Controls.ImageProceFlow.ModulesViewModelBase.AcceptableInputTypes*"></a>
+
+  <h3 id="DataMaster_Modules_MAS_Controls_ImageProceFlow_ModulesViewModelBase_AcceptableInputTypes" data-uid="DataMaster.Modules.MAS.Controls.ImageProceFlow.ModulesViewModelBase.AcceptableInputTypes">
+  AcceptableInputTypes
+  <a class="header-action link-secondary" title="View source" href="https://bitbucket.org/mas-software/industrial-mes-net-platform-advanced/src/main/Modules/MAS.Controls/ImageProceFlow/Abstracts/ModulesViewModelBase.cs#lines-129"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>获取可接受的输入类型，仅在初始化时可设置</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public abstract Type[] AcceptableInputTypes { get; init; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.type">Type</a>[]</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="DataMaster_Modules_MAS_Controls_ImageProceFlow_ModulesViewModelBase_BorderBrush_" data-uid="DataMaster.Modules.MAS.Controls.ImageProceFlow.ModulesViewModelBase.BorderBrush*"></a>
+
+  <h3 id="DataMaster_Modules_MAS_Controls_ImageProceFlow_ModulesViewModelBase_BorderBrush" data-uid="DataMaster.Modules.MAS.Controls.ImageProceFlow.ModulesViewModelBase.BorderBrush">
+  BorderBrush
+  <a class="header-action link-secondary" title="View source" href="https://bitbucket.org/mas-software/industrial-mes-net-platform-advanced/src/main/Modules/MAS.Controls/ImageProceFlow/Abstracts/ModulesViewModelBase.cs#lines-158"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>获取或设置控件边框颜色</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Brush BorderBrush { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.windows.media.brush">Brush</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+  <h4 class="section" id="DataMaster_Modules_MAS_Controls_ImageProceFlow_ModulesViewModelBase_BorderBrush_remarks">Remarks</h4>
+  <div class="markdown level1 remarks"><p>- 灰色（Gray）：默认</p>
+<p>- 亮绿色（LimeGreen）：初始化成功或正常状态</p>
+<p>- 红色（Red）：执行过程中发生了异常</p>
+<p>- 橙色（Orange）：输入数据存在问题</p>
+<p>- 紫色（Purple）：初始化失败</p>
+<p>- 黄色（Yellow）：警告或非致命错误</p>
+</div>
+
+
+
+
+  <a id="DataMaster_Modules_MAS_Controls_ImageProceFlow_ModulesViewModelBase_Config_" data-uid="DataMaster.Modules.MAS.Controls.ImageProceFlow.ModulesViewModelBase.Config*"></a>
+
+  <h3 id="DataMaster_Modules_MAS_Controls_ImageProceFlow_ModulesViewModelBase_Config" data-uid="DataMaster.Modules.MAS.Controls.ImageProceFlow.ModulesViewModelBase.Config">
+  Config
+  <a class="header-action link-secondary" title="View source" href="https://bitbucket.org/mas-software/industrial-mes-net-platform-advanced/src/main/Modules/MAS.Controls/ImageProceFlow/Abstracts/ModulesViewModelBase.cs#lines-64"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>应用程序配置信息</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected static SettingsConfig Config { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="DataMaster.Models.Configurations.SettingsConfig.html">SettingsConfig</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="DataMaster_Modules_MAS_Controls_ImageProceFlow_ModulesViewModelBase_DeleteControlCommand_" data-uid="DataMaster.Modules.MAS.Controls.ImageProceFlow.ModulesViewModelBase.DeleteControlCommand*"></a>
+
+  <h3 id="DataMaster_Modules_MAS_Controls_ImageProceFlow_ModulesViewModelBase_DeleteControlCommand" data-uid="DataMaster.Modules.MAS.Controls.ImageProceFlow.ModulesViewModelBase.DeleteControlCommand">
+  DeleteControlCommand
+  <a class="header-action link-secondary" title="View source" href="https://bitbucket.org/mas-software/industrial-mes-net-platform-advanced/src/main/Modules/MAS.Controls/ImageProceFlow/Abstracts/ModulesViewModelBase.cs#lines-180"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>获取删除控件命令，仅在初始化时可设置</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public RelayCommand DeleteControlCommand { get; init; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="DataMaster.Commands.RelayCommand.html">RelayCommand</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="DataMaster_Modules_MAS_Controls_ImageProceFlow_ModulesViewModelBase_InputModuleIds_" data-uid="DataMaster.Modules.MAS.Controls.ImageProceFlow.ModulesViewModelBase.InputModuleIds*"></a>
+
+  <h3 id="DataMaster_Modules_MAS_Controls_ImageProceFlow_ModulesViewModelBase_InputModuleIds" data-uid="DataMaster.Modules.MAS.Controls.ImageProceFlow.ModulesViewModelBase.InputModuleIds">
+  InputModuleIds
+  <a class="header-action link-secondary" title="View source" href="https://bitbucket.org/mas-software/industrial-mes-net-platform-advanced/src/main/Modules/MAS.Controls/ImageProceFlow/Abstracts/ModulesViewModelBase.cs#lines-104"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>获取或设置输入模块的唯一标识符列表，用于标识所有连接到此模块的输入模块</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public List&lt;Guid&gt; InputModuleIds { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1">List</a>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.guid">Guid</a>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="DataMaster_Modules_MAS_Controls_ImageProceFlow_ModulesViewModelBase_IsHighlightedInputPoint_" data-uid="DataMaster.Modules.MAS.Controls.ImageProceFlow.ModulesViewModelBase.IsHighlightedInputPoint*"></a>
+
+  <h3 id="DataMaster_Modules_MAS_Controls_ImageProceFlow_ModulesViewModelBase_IsHighlightedInputPoint" data-uid="DataMaster.Modules.MAS.Controls.ImageProceFlow.ModulesViewModelBase.IsHighlightedInputPoint">
+  IsHighlightedInputPoint
+  <a class="header-action link-secondary" title="View source" href="https://bitbucket.org/mas-software/industrial-mes-net-platform-advanced/src/main/Modules/MAS.Controls/ImageProceFlow/Abstracts/ModulesViewModelBase.cs#lines-96"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>获取或设置是否高亮输入点，表示可接受其他模块的输出类型</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool IsHighlightedInputPoint { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="DataMaster_Modules_MAS_Controls_ImageProceFlow_ModulesViewModelBase_IsLocked_" data-uid="DataMaster.Modules.MAS.Controls.ImageProceFlow.ModulesViewModelBase.IsLocked*"></a>
+
+  <h3 id="DataMaster_Modules_MAS_Controls_ImageProceFlow_ModulesViewModelBase_IsLocked" data-uid="DataMaster.Modules.MAS.Controls.ImageProceFlow.ModulesViewModelBase.IsLocked">
+  IsLocked
+  <a class="header-action link-secondary" title="View source" href="https://bitbucket.org/mas-software/industrial-mes-net-platform-advanced/src/main/Modules/MAS.Controls/ImageProceFlow/Abstracts/ModulesViewModelBase.cs#lines-86"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>获取或设置是否锁定</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool IsLocked { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="DataMaster_Modules_MAS_Controls_ImageProceFlow_ModulesViewModelBase_ModelType_" data-uid="DataMaster.Modules.MAS.Controls.ImageProceFlow.ModulesViewModelBase.ModelType*"></a>
+
+  <h3 id="DataMaster_Modules_MAS_Controls_ImageProceFlow_ModulesViewModelBase_ModelType" data-uid="DataMaster.Modules.MAS.Controls.ImageProceFlow.ModulesViewModelBase.ModelType">
+  ModelType
+  <a class="header-action link-secondary" title="View source" href="https://bitbucket.org/mas-software/industrial-mes-net-platform-advanced/src/main/Modules/MAS.Controls/ImageProceFlow/Abstracts/ModulesViewModelBase.cs#lines-124"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>获取模块的类型，仅在初始化时可设置</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public abstract ModelTypes ModelType { get; init; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="DataMaster.Modules.MAS.Controls.ImageProceFlow.ModelTypes.html">ModelTypes</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="DataMaster_Modules_MAS_Controls_ImageProceFlow_ModulesViewModelBase_ModuleId_" data-uid="DataMaster.Modules.MAS.Controls.ImageProceFlow.ModulesViewModelBase.ModuleId*"></a>
+
+  <h3 id="DataMaster_Modules_MAS_Controls_ImageProceFlow_ModulesViewModelBase_ModuleId" data-uid="DataMaster.Modules.MAS.Controls.ImageProceFlow.ModulesViewModelBase.ModuleId">
+  ModuleId
+  <a class="header-action link-secondary" title="View source" href="https://bitbucket.org/mas-software/industrial-mes-net-platform-advanced/src/main/Modules/MAS.Controls/ImageProceFlow/Abstracts/ModulesViewModelBase.cs#lines-114"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>获取或设置当前模块的唯一标识符Guid</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Guid ModuleId { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.guid">Guid</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="DataMaster_Modules_MAS_Controls_ImageProceFlow_ModulesViewModelBase_ModulesLocked_" data-uid="DataMaster.Modules.MAS.Controls.ImageProceFlow.ModulesViewModelBase.ModulesLocked*"></a>
+
+  <h3 id="DataMaster_Modules_MAS_Controls_ImageProceFlow_ModulesViewModelBase_ModulesLocked" data-uid="DataMaster.Modules.MAS.Controls.ImageProceFlow.ModulesViewModelBase.ModulesLocked">
+  ModulesLocked
+  <a class="header-action link-secondary" title="View source" href="https://bitbucket.org/mas-software/industrial-mes-net-platform-advanced/src/main/Modules/MAS.Controls/ImageProceFlow/Abstracts/ModulesViewModelBase.cs#lines-69"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>模块锁定状态</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected static GlobalModulesLocked ModulesLocked { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="DataMaster.Modules.MAS.Controls.ImageProceFlow.GlobalModulesLocked.html">GlobalModulesLocked</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="DataMaster_Modules_MAS_Controls_ImageProceFlow_ModulesViewModelBase_Name_" data-uid="DataMaster.Modules.MAS.Controls.ImageProceFlow.ModulesViewModelBase.Name*"></a>
+
+  <h3 id="DataMaster_Modules_MAS_Controls_ImageProceFlow_ModulesViewModelBase_Name" data-uid="DataMaster.Modules.MAS.Controls.ImageProceFlow.ModulesViewModelBase.Name">
+  Name
+  <a class="header-action link-secondary" title="View source" href="https://bitbucket.org/mas-software/industrial-mes-net-platform-advanced/src/main/Modules/MAS.Controls/ImageProceFlow/Abstracts/ModulesViewModelBase.cs#lines-119"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>获取模块的名称，仅在初始化时可设置</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public abstract string Name { get; init; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="DataMaster_Modules_MAS_Controls_ImageProceFlow_ModulesViewModelBase_OutputModuleIds_" data-uid="DataMaster.Modules.MAS.Controls.ImageProceFlow.ModulesViewModelBase.OutputModuleIds*"></a>
+
+  <h3 id="DataMaster_Modules_MAS_Controls_ImageProceFlow_ModulesViewModelBase_OutputModuleIds" data-uid="DataMaster.Modules.MAS.Controls.ImageProceFlow.ModulesViewModelBase.OutputModuleIds">
+  OutputModuleIds
+  <a class="header-action link-secondary" title="View source" href="https://bitbucket.org/mas-software/industrial-mes-net-platform-advanced/src/main/Modules/MAS.Controls/ImageProceFlow/Abstracts/ModulesViewModelBase.cs#lines-109"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>获取或设置输出模块的唯一标识符列表，用于标识所有此模块连接的输出模块</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public List&lt;Guid&gt; OutputModuleIds { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1">List</a>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.guid">Guid</a>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="DataMaster_Modules_MAS_Controls_ImageProceFlow_ModulesViewModelBase_OutputTypes_" data-uid="DataMaster.Modules.MAS.Controls.ImageProceFlow.ModulesViewModelBase.OutputTypes*"></a>
+
+  <h3 id="DataMaster_Modules_MAS_Controls_ImageProceFlow_ModulesViewModelBase_OutputTypes" data-uid="DataMaster.Modules.MAS.Controls.ImageProceFlow.ModulesViewModelBase.OutputTypes">
+  OutputTypes
+  <a class="header-action link-secondary" title="View source" href="https://bitbucket.org/mas-software/industrial-mes-net-platform-advanced/src/main/Modules/MAS.Controls/ImageProceFlow/Abstracts/ModulesViewModelBase.cs#lines-134"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>获取输出类型，仅在初始化时可设置</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public abstract Type[] OutputTypes { get; init; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.type">Type</a>[]</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="DataMaster_Modules_MAS_Controls_ImageProceFlow_ModulesViewModelBase_SetAcceptableInputType_" data-uid="DataMaster.Modules.MAS.Controls.ImageProceFlow.ModulesViewModelBase.SetAcceptableInputType*"></a>
+
+  <h3 id="DataMaster_Modules_MAS_Controls_ImageProceFlow_ModulesViewModelBase_SetAcceptableInputType" data-uid="DataMaster.Modules.MAS.Controls.ImageProceFlow.ModulesViewModelBase.SetAcceptableInputType">
+  SetAcceptableInputType
+  <a class="header-action link-secondary" title="View source" href="https://bitbucket.org/mas-software/industrial-mes-net-platform-advanced/src/main/Modules/MAS.Controls/ImageProceFlow/Abstracts/ModulesViewModelBase.cs#lines-144"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>获取或设置当前模块设定的可接受输入类型</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public abstract Type SetAcceptableInputType { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.type">Type</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="DataMaster_Modules_MAS_Controls_ImageProceFlow_ModulesViewModelBase_SetOutputType_" data-uid="DataMaster.Modules.MAS.Controls.ImageProceFlow.ModulesViewModelBase.SetOutputType*"></a>
+
+  <h3 id="DataMaster_Modules_MAS_Controls_ImageProceFlow_ModulesViewModelBase_SetOutputType" data-uid="DataMaster.Modules.MAS.Controls.ImageProceFlow.ModulesViewModelBase.SetOutputType">
+  SetOutputType
+  <a class="header-action link-secondary" title="View source" href="https://bitbucket.org/mas-software/industrial-mes-net-platform-advanced/src/main/Modules/MAS.Controls/ImageProceFlow/Abstracts/ModulesViewModelBase.cs#lines-139"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>获取或设置当前模块设定的输出类型</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public abstract Type SetOutputType { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.type">Type</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <h2 class="section" id="methods">Methods
+</h2>
+
+
+  <a id="DataMaster_Modules_MAS_Controls_ImageProceFlow_ModulesViewModelBase_Dispose_" data-uid="DataMaster.Modules.MAS.Controls.ImageProceFlow.ModulesViewModelBase.Dispose*"></a>
+
+  <h3 id="DataMaster_Modules_MAS_Controls_ImageProceFlow_ModulesViewModelBase_Dispose" data-uid="DataMaster.Modules.MAS.Controls.ImageProceFlow.ModulesViewModelBase.Dispose">
+  Dispose()
+  <a class="header-action link-secondary" title="View source" href="https://bitbucket.org/mas-software/industrial-mes-net-platform-advanced/src/main/Modules/MAS.Controls/ImageProceFlow/Abstracts/ModulesViewModelBase.cs#lines-211"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>释放类资源</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void Dispose()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="DataMaster_Modules_MAS_Controls_ImageProceFlow_ModulesViewModelBase_Dispose_" data-uid="DataMaster.Modules.MAS.Controls.ImageProceFlow.ModulesViewModelBase.Dispose*"></a>
+
+  <h3 id="DataMaster_Modules_MAS_Controls_ImageProceFlow_ModulesViewModelBase_Dispose_System_Boolean_" data-uid="DataMaster.Modules.MAS.Controls.ImageProceFlow.ModulesViewModelBase.Dispose(System.Boolean)">
+  Dispose(bool)
+  <a class="header-action link-secondary" title="View source" href="https://bitbucket.org/mas-software/industrial-mes-net-platform-advanced/src/main/Modules/MAS.Controls/ImageProceFlow/Abstracts/ModulesViewModelBase.cs#lines-359"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>处理资源释放</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected virtual void Dispose(bool disposing)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>disposing</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd><p>如果为 true，则释放托管和非托管资源；如果为 false，则只释放非托管资源</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <h4 class="section" id="DataMaster_Modules_MAS_Controls_ImageProceFlow_ModulesViewModelBase_Dispose_System_Boolean__remarks">Remarks</h4>
+  <div class="markdown level1 remarks"><p>重写此方法时，必须在方法的最后调用 base.Dispose(disposing)，
+以确保基类中的资源也得到适当的处理</p>
+</div>
+
+
+
+
+  <a id="DataMaster_Modules_MAS_Controls_ImageProceFlow_ModulesViewModelBase_ExecuteAsync_" data-uid="DataMaster.Modules.MAS.Controls.ImageProceFlow.ModulesViewModelBase.ExecuteAsync*"></a>
+
+  <h3 id="DataMaster_Modules_MAS_Controls_ImageProceFlow_ModulesViewModelBase_ExecuteAsync" data-uid="DataMaster.Modules.MAS.Controls.ImageProceFlow.ModulesViewModelBase.ExecuteAsync">
+  ExecuteAsync()
+  <a class="header-action link-secondary" title="View source" href="https://bitbucket.org/mas-software/industrial-mes-net-platform-advanced/src/main/Modules/MAS.Controls/ImageProceFlow/Abstracts/ModulesViewModelBase.cs#lines-226"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>异步执行任务逻辑</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public abstract Task&lt;object&gt; ExecuteAsync()</code></pre>
+  </div>
+
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1">Task</a>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">object</a>&gt;</dt>
+    <dd><p>异步操作任务结果，该模块的输出类型结果</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="DataMaster_Modules_MAS_Controls_ImageProceFlow_ModulesViewModelBase_ExecuteDeleteControl_" data-uid="DataMaster.Modules.MAS.Controls.ImageProceFlow.ModulesViewModelBase.ExecuteDeleteControl*"></a>
+
+  <h3 id="DataMaster_Modules_MAS_Controls_ImageProceFlow_ModulesViewModelBase_ExecuteDeleteControl_System_Object_" data-uid="DataMaster.Modules.MAS.Controls.ImageProceFlow.ModulesViewModelBase.ExecuteDeleteControl(System.Object)">
+  ExecuteDeleteControl(object?)
+  <a class="header-action link-secondary" title="View source" href="https://bitbucket.org/mas-software/industrial-mes-net-platform-advanced/src/main/Modules/MAS.Controls/ImageProceFlow/Abstracts/ModulesViewModelBase.cs#lines-297"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>执行删除控件</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected void ExecuteDeleteControl(object? parameter)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>parameter</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">object</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="DataMaster_Modules_MAS_Controls_ImageProceFlow_ModulesViewModelBase_HandleConnectionSetup_" data-uid="DataMaster.Modules.MAS.Controls.ImageProceFlow.ModulesViewModelBase.HandleConnectionSetup*"></a>
+
+  <h3 id="DataMaster_Modules_MAS_Controls_ImageProceFlow_ModulesViewModelBase_HandleConnectionSetup_DataMaster_Modules_MAS_Events_ImageProceFlow_ConnectionSetupEvent_" data-uid="DataMaster.Modules.MAS.Controls.ImageProceFlow.ModulesViewModelBase.HandleConnectionSetup(DataMaster.Modules.MAS.Events.ImageProceFlow.ConnectionSetupEvent)">
+  HandleConnectionSetup(ConnectionSetupEvent)
+  <a class="header-action link-secondary" title="View source" href="https://bitbucket.org/mas-software/industrial-mes-net-platform-advanced/src/main/Modules/MAS.Controls/ImageProceFlow/Abstracts/ModulesViewModelBase.cs#lines-310"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>处理模块连接事件</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected void HandleConnectionSetup(ConnectionSetupEvent eventData)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>eventData</code> <a class="xref" href="DataMaster.Modules.MAS.Events.ImageProceFlow.ConnectionSetupEvent.html">ConnectionSetupEvent</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="DataMaster_Modules_MAS_Controls_ImageProceFlow_ModulesViewModelBase_HandleModuleDeletion_" data-uid="DataMaster.Modules.MAS.Controls.ImageProceFlow.ModulesViewModelBase.HandleModuleDeletion*"></a>
+
+  <h3 id="DataMaster_Modules_MAS_Controls_ImageProceFlow_ModulesViewModelBase_HandleModuleDeletion_DataMaster_Modules_MAS_Events_ImageProceFlow_ModuleDeletionEvent_" data-uid="DataMaster.Modules.MAS.Controls.ImageProceFlow.ModulesViewModelBase.HandleModuleDeletion(DataMaster.Modules.MAS.Events.ImageProceFlow.ModuleDeletionEvent)">
+  HandleModuleDeletion(ModuleDeletionEvent)
+  <a class="header-action link-secondary" title="View source" href="https://bitbucket.org/mas-software/industrial-mes-net-platform-advanced/src/main/Modules/MAS.Controls/ImageProceFlow/Abstracts/ModulesViewModelBase.cs#lines-338"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>处理模块删除事件</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected void HandleModuleDeletion(ModuleDeletionEvent eventData)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>eventData</code> <a class="xref" href="DataMaster.Modules.MAS.Events.ImageProceFlow.ModuleDeletionEvent.html">ModuleDeletionEvent</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="DataMaster_Modules_MAS_Controls_ImageProceFlow_ModulesViewModelBase_InitializeAsync_" data-uid="DataMaster.Modules.MAS.Controls.ImageProceFlow.ModulesViewModelBase.InitializeAsync*"></a>
+
+  <h3 id="DataMaster_Modules_MAS_Controls_ImageProceFlow_ModulesViewModelBase_InitializeAsync" data-uid="DataMaster.Modules.MAS.Controls.ImageProceFlow.ModulesViewModelBase.InitializeAsync">
+  InitializeAsync()
+  <a class="header-action link-secondary" title="View source" href="https://bitbucket.org/mas-software/industrial-mes-net-platform-advanced/src/main/Modules/MAS.Controls/ImageProceFlow/Abstracts/ModulesViewModelBase.cs#lines-220"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>异步执行初始化</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public abstract Task&lt;bool&gt; InitializeAsync()</code></pre>
+  </div>
+
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1">Task</a>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a>&gt;</dt>
+    <dd><p>异步操作任务结果，成功返回ture，否则false</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="DataMaster_Modules_MAS_Controls_ImageProceFlow_ModulesViewModelBase_OnConnectionSetupCompleted_" data-uid="DataMaster.Modules.MAS.Controls.ImageProceFlow.ModulesViewModelBase.OnConnectionSetupCompleted*"></a>
+
+  <h3 id="DataMaster_Modules_MAS_Controls_ImageProceFlow_ModulesViewModelBase_OnConnectionSetupCompleted" data-uid="DataMaster.Modules.MAS.Controls.ImageProceFlow.ModulesViewModelBase.OnConnectionSetupCompleted">
+  OnConnectionSetupCompleted()
+  <a class="header-action link-secondary" title="View source" href="https://bitbucket.org/mas-software/industrial-mes-net-platform-advanced/src/main/Modules/MAS.Controls/ImageProceFlow/Abstracts/ModulesViewModelBase.cs#lines-349"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>处理模块连接事件之后执行</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected virtual void OnConnectionSetupCompleted()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+  <h4 class="section" id="DataMaster_Modules_MAS_Controls_ImageProceFlow_ModulesViewModelBase_OnConnectionSetupCompleted_remarks">Remarks</h4>
+  <div class="markdown level1 remarks"><p>可选的钩子（hook）方法，派生类可以选择重写它以添加一些在连接设置完成后需要执行的特定行为</p>
+</div>
+
+
+
+
+  <a id="DataMaster_Modules_MAS_Controls_ImageProceFlow_ModulesViewModelBase_OnPropertyChanged_" data-uid="DataMaster.Modules.MAS.Controls.ImageProceFlow.ModulesViewModelBase.OnPropertyChanged*"></a>
+
+  <h3 id="DataMaster_Modules_MAS_Controls_ImageProceFlow_ModulesViewModelBase_OnPropertyChanged_System_String_" data-uid="DataMaster.Modules.MAS.Controls.ImageProceFlow.ModulesViewModelBase.OnPropertyChanged(System.String)">
+  OnPropertyChanged(string)
+  <a class="header-action link-secondary" title="View source" href="https://bitbucket.org/mas-software/industrial-mes-net-platform-advanced/src/main/Modules/MAS.Controls/ImageProceFlow/Abstracts/ModulesViewModelBase.cs#lines-173"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>触发属性更改通知</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected virtual void OnPropertyChanged(string propertyName)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>propertyName</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd><p>更改的属性名称</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="DataMaster_Modules_MAS_Controls_ImageProceFlow_ModulesViewModelBase_SetField_" data-uid="DataMaster.Modules.MAS.Controls.ImageProceFlow.ModulesViewModelBase.SetField*"></a>
+
+  <h3 id="DataMaster_Modules_MAS_Controls_ImageProceFlow_ModulesViewModelBase_SetField__1___0____0_System_String_" data-uid="DataMaster.Modules.MAS.Controls.ImageProceFlow.ModulesViewModelBase.SetField``1(``0@,``0,System.String)">
+  SetField&lt;T&gt;(ref T, T, string)
+  <a class="header-action link-secondary" title="View source" href="https://bitbucket.org/mas-software/industrial-mes-net-platform-advanced/src/main/Modules/MAS.Controls/ImageProceFlow/Abstracts/ModulesViewModelBase.cs#lines-268"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>辅助方法，用于设置属性值并触发属性更改通知</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected bool SetField&lt;T&gt;(ref T field, T value, string propertyName)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>field</code> <span class="xref">T</span></dt>
+    <dd><p>引用后备字段。这个字段将被更新为新的值</p>
+</dd>
+    <dt><code>value</code> <span class="xref">T</span></dt>
+    <dd><p>要设置的新值。如果新值与旧值相同，则不会触发通知</p>
+</dd>
+    <dt><code>propertyName</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd><p>更改的属性的名称。使用 nameof 关键字来避免硬编码属性名</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd><p>如果属性值发生了变化返回true。反之false</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Type Parameters</h4>
+  <dl class="parameters">
+    <dt><code>T</code></dt>
+    <dd><p>属性的类型</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <a id="DataMaster_Modules_MAS_Controls_ImageProceFlow_ModulesViewModelBase_SetInputData_" data-uid="DataMaster.Modules.MAS.Controls.ImageProceFlow.ModulesViewModelBase.SetInputData*"></a>
+
+  <h3 id="DataMaster_Modules_MAS_Controls_ImageProceFlow_ModulesViewModelBase_SetInputData_System_Collections_Generic_Dictionary_System_Int16_DataMaster_Modules_MAS_Controls_ImageProceFlow_ModuleInputData__" data-uid="DataMaster.Modules.MAS.Controls.ImageProceFlow.ModulesViewModelBase.SetInputData(System.Collections.Generic.Dictionary{System.Int16,DataMaster.Modules.MAS.Controls.ImageProceFlow.ModuleInputData})">
+  SetInputData(Dictionary&lt;short, ModuleInputData&gt;)
+  <a class="header-action link-secondary" title="View source" href="https://bitbucket.org/mas-software/industrial-mes-net-platform-advanced/src/main/Modules/MAS.Controls/ImageProceFlow/Abstracts/ModulesViewModelBase.cs#lines-251"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>设置传递给当前模块的输入数据</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public abstract void SetInputData(Dictionary&lt;short, ModuleInputData&gt; inputs)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>inputs</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.dictionary-2">Dictionary</a>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int16">short</a>, <a class="xref" href="DataMaster.Modules.MAS.Controls.ImageProceFlow.ModuleInputData.html">ModuleInputData</a>&gt;</dt>
+    <dd><p>一个字典，键是输入索引，值是包含数据源模块ID、输出索引和实际数据的 <a class="xref" href="DataMaster.Modules.MAS.Controls.ImageProceFlow.ModuleInputData.html">ModuleInputData</a> 对象</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="DataMaster_Modules_MAS_Controls_ImageProceFlow_ModulesViewModelBase_SetInputData_" data-uid="DataMaster.Modules.MAS.Controls.ImageProceFlow.ModulesViewModelBase.SetInputData*"></a>
+
+  <h3 id="DataMaster_Modules_MAS_Controls_ImageProceFlow_ModulesViewModelBase_SetInputData_System_Collections_Generic_Dictionary_System_Int16_System_Object__" data-uid="DataMaster.Modules.MAS.Controls.ImageProceFlow.ModulesViewModelBase.SetInputData(System.Collections.Generic.Dictionary{System.Int16,System.Object})">
+  SetInputData(Dictionary&lt;short, object&gt;)
+  <a class="header-action link-secondary" title="View source" href="https://bitbucket.org/mas-software/industrial-mes-net-platform-advanced/src/main/Modules/MAS.Controls/ImageProceFlow/Abstracts/ModulesViewModelBase.cs#lines-245"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>设置传递给当前模块的输入数据</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public abstract void SetInputData(Dictionary&lt;short, object&gt; inputs)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>inputs</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.dictionary-2">Dictionary</a>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int16">short</a>, <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">object</a>&gt;</dt>
+    <dd><p>键值对，key为索引对应的输入数据</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="DataMaster_Modules_MAS_Controls_ImageProceFlow_ModulesViewModelBase_SetInputData_" data-uid="DataMaster.Modules.MAS.Controls.ImageProceFlow.ModulesViewModelBase.SetInputData*"></a>
+
+  <h3 id="DataMaster_Modules_MAS_Controls_ImageProceFlow_ModulesViewModelBase_SetInputData_System_Int16_System_Object_" data-uid="DataMaster.Modules.MAS.Controls.ImageProceFlow.ModulesViewModelBase.SetInputData(System.Int16,System.Object)">
+  SetInputData(short, object)
+  <a class="header-action link-secondary" title="View source" href="https://bitbucket.org/mas-software/industrial-mes-net-platform-advanced/src/main/Modules/MAS.Controls/ImageProceFlow/Abstracts/ModulesViewModelBase.cs#lines-239"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>设置传递给当前模块的输入数据</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public abstract void SetInputData(short index, object input)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>index</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int16">short</a></dt>
+    <dd><p>输入索引</p>
+</dd>
+    <dt><code>input</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">object</a></dt>
+    <dd><p>输入对象</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="DataMaster_Modules_MAS_Controls_ImageProceFlow_ModulesViewModelBase_SetInputData_" data-uid="DataMaster.Modules.MAS.Controls.ImageProceFlow.ModulesViewModelBase.SetInputData*"></a>
+
+  <h3 id="DataMaster_Modules_MAS_Controls_ImageProceFlow_ModulesViewModelBase_SetInputData_System_Object_" data-uid="DataMaster.Modules.MAS.Controls.ImageProceFlow.ModulesViewModelBase.SetInputData(System.Object)">
+  SetInputData(object)
+  <a class="header-action link-secondary" title="View source" href="https://bitbucket.org/mas-software/industrial-mes-net-platform-advanced/src/main/Modules/MAS.Controls/ImageProceFlow/Abstracts/ModulesViewModelBase.cs#lines-232"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>设置传递给当前模块的输入数据</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public abstract void SetInputData(object input)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>input</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">object</a></dt>
+    <dd><p>输入对象</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <h2 class="section" id="events">Events
+</h2>
+
+
+
+  <h3 id="DataMaster_Modules_MAS_Controls_ImageProceFlow_ModulesViewModelBase_OnDestroyControl" data-uid="DataMaster.Modules.MAS.Controls.ImageProceFlow.ModulesViewModelBase.OnDestroyControl">
+  OnDestroyControl
+  <a class="header-action link-secondary" title="View source" href="https://bitbucket.org/mas-software/industrial-mes-net-platform-advanced/src/main/Modules/MAS.Controls/ImageProceFlow/Abstracts/ModulesViewModelBase.cs#lines-185"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>销毁控件事件</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public event EventHandler? OnDestroyControl</code></pre>
+  </div>
+
+
+
+
+
+
+  <h4 class="section">Event Type</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.eventhandler">EventHandler</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <h3 id="DataMaster_Modules_MAS_Controls_ImageProceFlow_ModulesViewModelBase_PropertyChanged" data-uid="DataMaster.Modules.MAS.Controls.ImageProceFlow.ModulesViewModelBase.PropertyChanged">
+  PropertyChanged
+  <a class="header-action link-secondary" title="View source" href="https://bitbucket.org/mas-software/industrial-mes-net-platform-advanced/src/main/Modules/MAS.Controls/ImageProceFlow/Abstracts/ModulesViewModelBase.cs#lines-167"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>触发属性更改通知的事件</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public event PropertyChangedEventHandler? PropertyChanged</code></pre>
+  </div>
+
+
+
+
+
+
+  <h4 class="section">Event Type</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.componentmodel.propertychangedeventhandler">PropertyChangedEventHandler</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+</article>
+
+        <div class="contribution d-print-none">
+          <a href="https://bitbucket.org/mas-software/industrial-mes-net-platform-advanced/src/main/Modules/MAS.Controls/ImageProceFlow/Abstracts/ModulesViewModelBase.cs#lines-38" class="edit-link">Edit this page</a>
+        </div>
+
+
+      </div>
+
+      <div class="affix">
+        <nav id="affix"></nav>
+      </div>
+    </main>
+
+    <div class="container-xxl search-results" id="search-results"></div>
+
+    <footer class="border-top text-secondary">
+      <div class="container-xxl">
+        <div class="flex-fill">
+          <span>Made with <a href="https://dotnet.github.io/docfx" rel="noreferrer">docfx</a>,  | Copyright © 2024 MAS(厦门威光). All rights reserved.</span>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>

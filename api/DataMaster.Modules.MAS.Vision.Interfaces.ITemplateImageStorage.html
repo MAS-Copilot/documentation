@@ -1,0 +1,583 @@
+﻿<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+      <title>Interface ITemplateImageStorage | DataMaster </title>
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta name="title" content="Interface ITemplateImageStorage | DataMaster ">
+      
+      <meta name="description" content="图像模板存储接口">
+      <link rel="icon" href="../images/favicon.ico">
+      <link rel="stylesheet" href="../public/docfx.min.css">
+      <link rel="stylesheet" href="../public/main.css">
+      <meta name="docfx:navrel" content="../toc.html">
+      <meta name="docfx:tocrel" content="toc.html">
+      
+      <meta name="docfx:rel" content="../">
+      
+      
+      
+      <meta name="loc:inThisArticle" content="In this article">
+      <meta name="loc:searchResultsCount" content="{count} results for &quot;{query}&quot;">
+      <meta name="loc:searchNoResults" content="No results for &quot;{query}&quot;">
+      <meta name="loc:tocFilter" content="Filter by title">
+      <meta name="loc:nextArticle" content="Next">
+      <meta name="loc:prevArticle" content="Previous">
+      <meta name="loc:themeLight" content="Light">
+      <meta name="loc:themeDark" content="Dark">
+      <meta name="loc:themeAuto" content="Auto">
+      <meta name="loc:changeTheme" content="Change theme">
+      <meta name="loc:copy" content="Copy">
+      <meta name="loc:downloadPdf" content="Download PDF">
+
+      <script type="module" src="./../public/docfx.min.js"></script>
+
+      <script>
+        const theme = localStorage.getItem('theme') || 'auto'
+        document.documentElement.setAttribute('data-bs-theme', theme === 'auto' ? (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light') : theme)
+      </script>
+
+  </head>
+
+  <body class="tex2jax_ignore" data-layout="" data-yaml-mime="ManagedReference">
+    <header class="bg-body border-bottom">
+      <nav id="autocollapse" class="navbar navbar-expand-md" role="navigation">
+        <div class="container-xxl flex-nowrap">
+          <a class="navbar-brand" href="../index.html">
+            <img id="logo" class="svg" src="../images/logo.svg" alt="DataMaster">
+            DataMaster
+          </a>
+          <button class="btn btn-lg d-md-none border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navpanel" aria-controls="navpanel" aria-expanded="false" aria-label="Toggle navigation">
+            <i class="bi bi-three-dots"></i>
+          </button>
+          <div class="collapse navbar-collapse" id="navpanel">
+            <div id="navbar">
+              <form class="search" role="search" id="search">
+                <i class="bi bi-search"></i>
+                <input class="form-control" id="search-query" type="search" disabled="" placeholder="Search" autocomplete="off" aria-label="Search">
+              </form>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <main class="container-xxl">
+      <div class="toc-offcanvas">
+        <div class="offcanvas-md offcanvas-start" tabindex="-1" id="tocOffcanvas" aria-labelledby="tocOffcanvasLabel">
+          <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="tocOffcanvasLabel">Table of Contents</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" data-bs-target="#tocOffcanvas" aria-label="Close"></button>
+          </div>
+          <div class="offcanvas-body">
+            <nav class="toc" id="toc"></nav>
+          </div>
+        </div>
+      </div>
+
+      <div class="content">
+        <div class="actionbar">
+          <button class="btn btn-lg border-0 d-md-none" type="button" data-bs-toggle="offcanvas" data-bs-target="#tocOffcanvas" aria-controls="tocOffcanvas" aria-expanded="false" aria-label="Show table of contents">
+            <i class="bi bi-list"></i>
+          </button>
+
+          <nav id="breadcrumb"></nav>
+        </div>
+
+        <article data-uid="DataMaster.Modules.MAS.Vision.Interfaces.ITemplateImageStorage">
+
+
+
+  <h1 id="DataMaster_Modules_MAS_Vision_Interfaces_ITemplateImageStorage" data-uid="DataMaster.Modules.MAS.Vision.Interfaces.ITemplateImageStorage" class="text-break">
+Interface ITemplateImageStorage  <a class="header-action link-secondary" title="View source" href="https://bitbucket.org/mas-software/industrial-mes-net-platform-advanced/src/main/Modules/MAS.Vision/Interfaces/ITemplateImageStorageService.cs#lines-16"><i class="bi bi-code-slash"></i></a>
+  </h1>
+
+  <div class="facts text-secondary">
+    <dl><dt>Namespace</dt><dd><a class="xref" href="DataMaster.html">DataMaster</a>.<a class="xref" href="DataMaster.Modules.html">Modules</a>.<a class="xref" href="DataMaster.Modules.MAS.html">MAS</a>.<a class="xref" href="DataMaster.Modules.MAS.Vision.html">Vision</a>.<a class="xref" href="DataMaster.Modules.MAS.Vision.Interfaces.html">Interfaces</a></dd></dl>
+  <dl><dt>Assembly</dt><dd>DataMaster.dll</dd></dl>
+  </div>
+
+  <div class="markdown summary"><p>图像模板存储接口</p>
+</div>
+  <div class="markdown conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public interface ITemplateImageStorage</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <h2 class="section" id="methods">Methods
+</h2>
+
+
+  <a id="DataMaster_Modules_MAS_Vision_Interfaces_ITemplateImageStorage_ClearTemplate_" data-uid="DataMaster.Modules.MAS.Vision.Interfaces.ITemplateImageStorage.ClearTemplate*"></a>
+
+  <h3 id="DataMaster_Modules_MAS_Vision_Interfaces_ITemplateImageStorage_ClearTemplate" data-uid="DataMaster.Modules.MAS.Vision.Interfaces.ITemplateImageStorage.ClearTemplate">
+  ClearTemplate()
+  <a class="header-action link-secondary" title="View source" href="https://bitbucket.org/mas-software/industrial-mes-net-platform-advanced/src/main/Modules/MAS.Vision/Interfaces/ITemplateImageStorageService.cs#lines-102"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>清除所有模板列表</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">bool ClearTemplate()</code></pre>
+  </div>
+
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd><p>清除是否成功</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="DataMaster_Modules_MAS_Vision_Interfaces_ITemplateImageStorage_DeleteTemplate_" data-uid="DataMaster.Modules.MAS.Vision.Interfaces.ITemplateImageStorage.DeleteTemplate*"></a>
+
+  <h3 id="DataMaster_Modules_MAS_Vision_Interfaces_ITemplateImageStorage_DeleteTemplate_System_Guid_" data-uid="DataMaster.Modules.MAS.Vision.Interfaces.ITemplateImageStorage.DeleteTemplate(System.Guid)">
+  DeleteTemplate(Guid)
+  <a class="header-action link-secondary" title="View source" href="https://bitbucket.org/mas-software/industrial-mes-net-platform-advanced/src/main/Modules/MAS.Vision/Interfaces/ITemplateImageStorageService.cs#lines-96"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>删除指定的模板图像</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">bool DeleteTemplate(Guid templateId)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>templateId</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.guid">Guid</a></dt>
+    <dd><p>要删除的模板图像对象的 ID</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd><p>删除是否成功</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="DataMaster_Modules_MAS_Vision_Interfaces_ITemplateImageStorage_GetBitmapImageTemplates_" data-uid="DataMaster.Modules.MAS.Vision.Interfaces.ITemplateImageStorage.GetBitmapImageTemplates*"></a>
+
+  <h3 id="DataMaster_Modules_MAS_Vision_Interfaces_ITemplateImageStorage_GetBitmapImageTemplates" data-uid="DataMaster.Modules.MAS.Vision.Interfaces.ITemplateImageStorage.GetBitmapImageTemplates">
+  GetBitmapImageTemplates()
+  <a class="header-action link-secondary" title="View source" href="https://bitbucket.org/mas-software/industrial-mes-net-platform-advanced/src/main/Modules/MAS.Vision/Interfaces/ITemplateImageStorageService.cs#lines-62"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>获取当前 <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.windows.media.imaging.writeablebitmap">WriteableBitmap</a> 对象类型的图像模板列表，仅用于UI编辑，不包含 <span class="xref">OpenCvSharp.Mat</span> 类型</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">List&lt;ImageTemplate?&gt; GetBitmapImageTemplates()</code></pre>
+  </div>
+
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1">List</a>&lt;<a class="xref" href="DataMaster.Modules.MAS.Vision.Models.ImageTemplate.html">ImageTemplate</a>&gt;</dt>
+    <dd><p>可能存在的所有 <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.windows.media.imaging.writeablebitmap">WriteableBitmap</a> 图像模板的列表信息</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+  <h4 class="section" id="DataMaster_Modules_MAS_Vision_Interfaces_ITemplateImageStorage_GetBitmapImageTemplates_remarks">Remarks</h4>
+  <div class="markdown level1 remarks"><p>创建一个副本，移除了 <span class="xref">OpenCvSharp.Mat</span> 对象防止意外的更改</p>
+</div>
+
+
+
+
+  <a id="DataMaster_Modules_MAS_Vision_Interfaces_ITemplateImageStorage_GetImageTemplates_" data-uid="DataMaster.Modules.MAS.Vision.Interfaces.ITemplateImageStorage.GetImageTemplates*"></a>
+
+  <h3 id="DataMaster_Modules_MAS_Vision_Interfaces_ITemplateImageStorage_GetImageTemplates" data-uid="DataMaster.Modules.MAS.Vision.Interfaces.ITemplateImageStorage.GetImageTemplates">
+  GetImageTemplates()
+  <a class="header-action link-secondary" title="View source" href="https://bitbucket.org/mas-software/industrial-mes-net-platform-advanced/src/main/Modules/MAS.Vision/Interfaces/ITemplateImageStorageService.cs#lines-53"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>获取当前所有图像模板的列表</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">List&lt;ImageTemplate?&gt; GetImageTemplates()</code></pre>
+  </div>
+
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1">List</a>&lt;<a class="xref" href="DataMaster.Modules.MAS.Vision.Models.ImageTemplate.html">ImageTemplate</a>&gt;</dt>
+    <dd><p>异步操作任务结果，可能存在的所有图像模板的列表</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="DataMaster_Modules_MAS_Vision_Interfaces_ITemplateImageStorage_GetImageTemplatesWithBitmap_" data-uid="DataMaster.Modules.MAS.Vision.Interfaces.ITemplateImageStorage.GetImageTemplatesWithBitmap*"></a>
+
+  <h3 id="DataMaster_Modules_MAS_Vision_Interfaces_ITemplateImageStorage_GetImageTemplatesWithBitmap" data-uid="DataMaster.Modules.MAS.Vision.Interfaces.ITemplateImageStorage.GetImageTemplatesWithBitmap">
+  GetImageTemplatesWithBitmap()
+  <a class="header-action link-secondary" title="View source" href="https://bitbucket.org/mas-software/industrial-mes-net-platform-advanced/src/main/Modules/MAS.Vision/Interfaces/ITemplateImageStorageService.cs#lines-71"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>获取当前仅限 <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.windows.media.imaging.writeablebitmap">WriteableBitmap</a> 对象类型的图像模板列表用于图像处理</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">List&lt;WriteableBitmap?&gt; GetImageTemplatesWithBitmap()</code></pre>
+  </div>
+
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1">List</a>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.windows.media.imaging.writeablebitmap">WriteableBitmap</a>&gt;</dt>
+    <dd><p>可能存在的所有 <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.windows.media.imaging.writeablebitmap">WriteableBitmap</a> 图像模板的列表</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+  <h4 class="section" id="DataMaster_Modules_MAS_Vision_Interfaces_ITemplateImageStorage_GetImageTemplatesWithBitmap_remarks">Remarks</h4>
+  <div class="markdown level1 remarks"><p>缓存的副本，移除了除 <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.windows.media.imaging.writeablebitmap">WriteableBitmap</a> 的所有对象信息</p>
+</div>
+
+
+
+
+  <a id="DataMaster_Modules_MAS_Vision_Interfaces_ITemplateImageStorage_GetImageTemplatesWithMat_" data-uid="DataMaster.Modules.MAS.Vision.Interfaces.ITemplateImageStorage.GetImageTemplatesWithMat*"></a>
+
+  <h3 id="DataMaster_Modules_MAS_Vision_Interfaces_ITemplateImageStorage_GetImageTemplatesWithMat" data-uid="DataMaster.Modules.MAS.Vision.Interfaces.ITemplateImageStorage.GetImageTemplatesWithMat">
+  GetImageTemplatesWithMat()
+  <a class="header-action link-secondary" title="View source" href="https://bitbucket.org/mas-software/industrial-mes-net-platform-advanced/src/main/Modules/MAS.Vision/Interfaces/ITemplateImageStorageService.cs#lines-89"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>获取当前仅限 <span class="xref">OpenCvSharp.Mat</span> 对象类型的图像模板列表用于图像处理</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">List&lt;Mat?&gt; GetImageTemplatesWithMat()</code></pre>
+  </div>
+
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1">List</a>&lt;<span class="xref">Mat</span>&gt;</dt>
+    <dd><p>可能存在的所有 <span class="xref">OpenCvSharp.Mat</span> 图像模板的列表</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+  <h4 class="section" id="DataMaster_Modules_MAS_Vision_Interfaces_ITemplateImageStorage_GetImageTemplatesWithMat_remarks">Remarks</h4>
+  <div class="markdown level1 remarks"><p>缓存的副本，移除了除 <span class="xref">OpenCvSharp.Mat</span> 的所有对象信息</p>
+</div>
+
+
+
+
+  <a id="DataMaster_Modules_MAS_Vision_Interfaces_ITemplateImageStorage_GetMatImageTemplates_" data-uid="DataMaster.Modules.MAS.Vision.Interfaces.ITemplateImageStorage.GetMatImageTemplates*"></a>
+
+  <h3 id="DataMaster_Modules_MAS_Vision_Interfaces_ITemplateImageStorage_GetMatImageTemplates" data-uid="DataMaster.Modules.MAS.Vision.Interfaces.ITemplateImageStorage.GetMatImageTemplates">
+  GetMatImageTemplates()
+  <a class="header-action link-secondary" title="View source" href="https://bitbucket.org/mas-software/industrial-mes-net-platform-advanced/src/main/Modules/MAS.Vision/Interfaces/ITemplateImageStorageService.cs#lines-80"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>获取当前 <span class="xref">OpenCvSharp.Mat</span> 对象类型的图像模板列表，仅用于图像处理，不包含 <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.windows.media.imaging.writeablebitmap">WriteableBitmap</a> 类型</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">List&lt;ImageTemplate?&gt; GetMatImageTemplates()</code></pre>
+  </div>
+
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1">List</a>&lt;<a class="xref" href="DataMaster.Modules.MAS.Vision.Models.ImageTemplate.html">ImageTemplate</a>&gt;</dt>
+    <dd><p>可能存在的所有 <span class="xref">OpenCvSharp.Mat</span> 图像模板的列表信息</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+  <h4 class="section" id="DataMaster_Modules_MAS_Vision_Interfaces_ITemplateImageStorage_GetMatImageTemplates_remarks">Remarks</h4>
+  <div class="markdown level1 remarks"><p>创建一个副本，移除了 <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.windows.media.imaging.writeablebitmap">WriteableBitmap</a> 对象防止意外的更改</p>
+</div>
+
+
+
+
+  <a id="DataMaster_Modules_MAS_Vision_Interfaces_ITemplateImageStorage_LoadAllFilesTemplatesAsync_" data-uid="DataMaster.Modules.MAS.Vision.Interfaces.ITemplateImageStorage.LoadAllFilesTemplatesAsync*"></a>
+
+  <h3 id="DataMaster_Modules_MAS_Vision_Interfaces_ITemplateImageStorage_LoadAllFilesTemplatesAsync" data-uid="DataMaster.Modules.MAS.Vision.Interfaces.ITemplateImageStorage.LoadAllFilesTemplatesAsync">
+  LoadAllFilesTemplatesAsync()
+  <a class="header-action link-secondary" title="View source" href="https://bitbucket.org/mas-software/industrial-mes-net-platform-advanced/src/main/Modules/MAS.Vision/Interfaces/ITemplateImageStorageService.cs#lines-33"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>异步从文件夹中加载所有模板</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">Task&lt;List&lt;ImageTemplate?&gt;&gt; LoadAllFilesTemplatesAsync()</code></pre>
+  </div>
+
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1">Task</a>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1">List</a>&lt;<a class="xref" href="DataMaster.Modules.MAS.Vision.Models.ImageTemplate.html">ImageTemplate</a>&gt;&gt;</dt>
+    <dd><p>异步操作任务结果，可能包含的所有模板的列表</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="DataMaster_Modules_MAS_Vision_Interfaces_ITemplateImageStorage_LoadTemplateFromFile_" data-uid="DataMaster.Modules.MAS.Vision.Interfaces.ITemplateImageStorage.LoadTemplateFromFile*"></a>
+
+  <h3 id="DataMaster_Modules_MAS_Vision_Interfaces_ITemplateImageStorage_LoadTemplateFromFile_System_String_" data-uid="DataMaster.Modules.MAS.Vision.Interfaces.ITemplateImageStorage.LoadTemplateFromFile(System.String)">
+  LoadTemplateFromFile(string)
+  <a class="header-action link-secondary" title="View source" href="https://bitbucket.org/mas-software/industrial-mes-net-platform-advanced/src/main/Modules/MAS.Vision/Interfaces/ITemplateImageStorageService.cs#lines-27"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>从文件中加载指定模板</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">WriteableBitmap? LoadTemplateFromFile(string filePath)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>filePath</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd><p>模板文件的路径。</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.windows.media.imaging.writeablebitmap">WriteableBitmap</a></dt>
+    <dd><p>可编辑模板图像对象。如果加载失败返回null</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="DataMaster_Modules_MAS_Vision_Interfaces_ITemplateImageStorage_SaveEditTemplate_" data-uid="DataMaster.Modules.MAS.Vision.Interfaces.ITemplateImageStorage.SaveEditTemplate*"></a>
+
+  <h3 id="DataMaster_Modules_MAS_Vision_Interfaces_ITemplateImageStorage_SaveEditTemplate_DataMaster_Modules_MAS_Vision_Models_ImageTemplate_" data-uid="DataMaster.Modules.MAS.Vision.Interfaces.ITemplateImageStorage.SaveEditTemplate(DataMaster.Modules.MAS.Vision.Models.ImageTemplate)">
+  SaveEditTemplate(ImageTemplate)
+  <a class="header-action link-secondary" title="View source" href="https://bitbucket.org/mas-software/industrial-mes-net-platform-advanced/src/main/Modules/MAS.Vision/Interfaces/ITemplateImageStorageService.cs#lines-40"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>保存编辑后的模板图像</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">bool SaveEditTemplate(ImageTemplate editedTemplate)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>editedTemplate</code> <a class="xref" href="DataMaster.Modules.MAS.Vision.Models.ImageTemplate.html">ImageTemplate</a></dt>
+    <dd><p>在UI编辑的模板图像对象</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd><p>保存是否成功</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="DataMaster_Modules_MAS_Vision_Interfaces_ITemplateImageStorage_SaveEditTemplate_" data-uid="DataMaster.Modules.MAS.Vision.Interfaces.ITemplateImageStorage.SaveEditTemplate*"></a>
+
+  <h3 id="DataMaster_Modules_MAS_Vision_Interfaces_ITemplateImageStorage_SaveEditTemplate_System_Windows_Media_Imaging_WriteableBitmap_" data-uid="DataMaster.Modules.MAS.Vision.Interfaces.ITemplateImageStorage.SaveEditTemplate(System.Windows.Media.Imaging.WriteableBitmap)">
+  SaveEditTemplate(WriteableBitmap)
+  <a class="header-action link-secondary" title="View source" href="https://bitbucket.org/mas-software/industrial-mes-net-platform-advanced/src/main/Modules/MAS.Vision/Interfaces/ITemplateImageStorageService.cs#lines-47"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>保存编辑后的模板图像</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">bool SaveEditTemplate(WriteableBitmap editedTemplate)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>editedTemplate</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.windows.media.imaging.writeablebitmap">WriteableBitmap</a></dt>
+    <dd><p>在UI编辑的模板图像</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd><p>保存是否成功</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <h2 class="section" id="events">Events
+</h2>
+
+
+
+  <h3 id="DataMaster_Modules_MAS_Vision_Interfaces_ITemplateImageStorage_OnTemplateUpdated" data-uid="DataMaster.Modules.MAS.Vision.Interfaces.ITemplateImageStorage.OnTemplateUpdated">
+  OnTemplateUpdated
+  <a class="header-action link-secondary" title="View source" href="https://bitbucket.org/mas-software/industrial-mes-net-platform-advanced/src/main/Modules/MAS.Vision/Interfaces/ITemplateImageStorageService.cs#lines-20"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>模板图像更新时触发的事件</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">event EventHandler OnTemplateUpdated</code></pre>
+  </div>
+
+
+
+
+
+
+  <h4 class="section">Event Type</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.eventhandler">EventHandler</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+</article>
+
+        <div class="contribution d-print-none">
+          <a href="https://bitbucket.org/mas-software/industrial-mes-net-platform-advanced/src/main/Modules/MAS.Vision/Interfaces/ITemplateImageStorageService.cs#lines-16" class="edit-link">Edit this page</a>
+        </div>
+
+
+      </div>
+
+      <div class="affix">
+        <nav id="affix"></nav>
+      </div>
+    </main>
+
+    <div class="container-xxl search-results" id="search-results"></div>
+
+    <footer class="border-top text-secondary">
+      <div class="container-xxl">
+        <div class="flex-fill">
+          <span>Made with <a href="https://dotnet.github.io/docfx" rel="noreferrer">docfx</a>,  | Copyright © 2024 MAS(厦门威光). All rights reserved.</span>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>

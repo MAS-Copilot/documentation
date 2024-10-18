@@ -1,0 +1,661 @@
+﻿<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+      <title>Class EquipmentProductionRecordEntity | DataMaster </title>
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta name="title" content="Class EquipmentProductionRecordEntity | DataMaster ">
+      
+      <meta name="description" content="设备产量记录表 EquipmentProductionRecord 数据表中的数据实体模型">
+      <link rel="icon" href="../images/favicon.ico">
+      <link rel="stylesheet" href="../public/docfx.min.css">
+      <link rel="stylesheet" href="../public/main.css">
+      <meta name="docfx:navrel" content="../toc.html">
+      <meta name="docfx:tocrel" content="toc.html">
+      
+      <meta name="docfx:rel" content="../">
+      
+      
+      
+      <meta name="loc:inThisArticle" content="In this article">
+      <meta name="loc:searchResultsCount" content="{count} results for &quot;{query}&quot;">
+      <meta name="loc:searchNoResults" content="No results for &quot;{query}&quot;">
+      <meta name="loc:tocFilter" content="Filter by title">
+      <meta name="loc:nextArticle" content="Next">
+      <meta name="loc:prevArticle" content="Previous">
+      <meta name="loc:themeLight" content="Light">
+      <meta name="loc:themeDark" content="Dark">
+      <meta name="loc:themeAuto" content="Auto">
+      <meta name="loc:changeTheme" content="Change theme">
+      <meta name="loc:copy" content="Copy">
+      <meta name="loc:downloadPdf" content="Download PDF">
+
+      <script type="module" src="./../public/docfx.min.js"></script>
+
+      <script>
+        const theme = localStorage.getItem('theme') || 'auto'
+        document.documentElement.setAttribute('data-bs-theme', theme === 'auto' ? (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light') : theme)
+      </script>
+
+  </head>
+
+  <body class="tex2jax_ignore" data-layout="" data-yaml-mime="ManagedReference">
+    <header class="bg-body border-bottom">
+      <nav id="autocollapse" class="navbar navbar-expand-md" role="navigation">
+        <div class="container-xxl flex-nowrap">
+          <a class="navbar-brand" href="../index.html">
+            <img id="logo" class="svg" src="../images/logo.svg" alt="DataMaster">
+            DataMaster
+          </a>
+          <button class="btn btn-lg d-md-none border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navpanel" aria-controls="navpanel" aria-expanded="false" aria-label="Toggle navigation">
+            <i class="bi bi-three-dots"></i>
+          </button>
+          <div class="collapse navbar-collapse" id="navpanel">
+            <div id="navbar">
+              <form class="search" role="search" id="search">
+                <i class="bi bi-search"></i>
+                <input class="form-control" id="search-query" type="search" disabled="" placeholder="Search" autocomplete="off" aria-label="Search">
+              </form>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <main class="container-xxl">
+      <div class="toc-offcanvas">
+        <div class="offcanvas-md offcanvas-start" tabindex="-1" id="tocOffcanvas" aria-labelledby="tocOffcanvasLabel">
+          <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="tocOffcanvasLabel">Table of Contents</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" data-bs-target="#tocOffcanvas" aria-label="Close"></button>
+          </div>
+          <div class="offcanvas-body">
+            <nav class="toc" id="toc"></nav>
+          </div>
+        </div>
+      </div>
+
+      <div class="content">
+        <div class="actionbar">
+          <button class="btn btn-lg border-0 d-md-none" type="button" data-bs-toggle="offcanvas" data-bs-target="#tocOffcanvas" aria-controls="tocOffcanvas" aria-expanded="false" aria-label="Show table of contents">
+            <i class="bi bi-list"></i>
+          </button>
+
+          <nav id="breadcrumb"></nav>
+        </div>
+
+        <article data-uid="DataMaster.Modules.MAS.DataAccess.EquipmentProductionRecordEntity">
+
+
+
+  <h1 id="DataMaster_Modules_MAS_DataAccess_EquipmentProductionRecordEntity" data-uid="DataMaster.Modules.MAS.DataAccess.EquipmentProductionRecordEntity" class="text-break">
+Class EquipmentProductionRecordEntity  <a class="header-action link-secondary" title="View source" href="https://bitbucket.org/mas-software/industrial-mes-net-platform-advanced/src/main/Modules/MAS.DataAccess/Entities/EquipmentProductionRecordEntity.cs#lines-14"><i class="bi bi-code-slash"></i></a>
+  </h1>
+
+  <div class="facts text-secondary">
+    <dl><dt>Namespace</dt><dd><a class="xref" href="DataMaster.html">DataMaster</a>.<a class="xref" href="DataMaster.Modules.html">Modules</a>.<a class="xref" href="DataMaster.Modules.MAS.html">MAS</a>.<a class="xref" href="DataMaster.Modules.MAS.DataAccess.html">DataAccess</a></dd></dl>
+  <dl><dt>Assembly</dt><dd>DataMaster.dll</dd></dl>
+  </div>
+
+  <div class="markdown summary"><p>设备产量记录表 EquipmentProductionRecord 数据表中的数据实体模型</p>
+</div>
+  <div class="markdown conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public class EquipmentProductionRecordEntity</code></pre>
+  </div>
+
+
+
+
+  <dl class="typelist inheritance">
+    <dt>Inheritance</dt>
+    <dd>
+      <div><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">object</a></div>
+      <div><span class="xref">EquipmentProductionRecordEntity</span></div>
+    </dd>
+  </dl>
+
+
+
+  <dl class="typelist inheritedMembers">
+    <dt>Inherited Members</dt>
+    <dd>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)">object.Equals(object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)">object.Equals(object, object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.gethashcode">object.GetHashCode()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.gettype">object.GetType()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone">object.MemberwiseClone()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.referenceequals">object.ReferenceEquals(object, object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.tostring">object.ToString()</a>
+    </div>
+  </dd></dl>
+
+
+
+
+
+
+  <h2 class="section" id="properties">Properties
+</h2>
+
+
+  <a id="DataMaster_Modules_MAS_DataAccess_EquipmentProductionRecordEntity_CombinedEfficiency_" data-uid="DataMaster.Modules.MAS.DataAccess.EquipmentProductionRecordEntity.CombinedEfficiency*"></a>
+
+  <h3 id="DataMaster_Modules_MAS_DataAccess_EquipmentProductionRecordEntity_CombinedEfficiency" data-uid="DataMaster.Modules.MAS.DataAccess.EquipmentProductionRecordEntity.CombinedEfficiency">
+  CombinedEfficiency
+  <a class="header-action link-secondary" title="View source" href="https://bitbucket.org/mas-software/industrial-mes-net-platform-advanced/src/main/Modules/MAS.DataAccess/Entities/EquipmentProductionRecordEntity.cs#lines-78"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>综合效率</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public decimal CombinedEfficiency { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.decimal">decimal</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="DataMaster_Modules_MAS_DataAccess_EquipmentProductionRecordEntity_CycleTime_" data-uid="DataMaster.Modules.MAS.DataAccess.EquipmentProductionRecordEntity.CycleTime*"></a>
+
+  <h3 id="DataMaster_Modules_MAS_DataAccess_EquipmentProductionRecordEntity_CycleTime" data-uid="DataMaster.Modules.MAS.DataAccess.EquipmentProductionRecordEntity.CycleTime">
+  CycleTime
+  <a class="header-action link-secondary" title="View source" href="https://bitbucket.org/mas-software/industrial-mes-net-platform-advanced/src/main/Modules/MAS.DataAccess/Entities/EquipmentProductionRecordEntity.cs#lines-58"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>平均生产节拍时间 (秒)</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public decimal CycleTime { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.decimal">decimal</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="DataMaster_Modules_MAS_DataAccess_EquipmentProductionRecordEntity_Downtime_" data-uid="DataMaster.Modules.MAS.DataAccess.EquipmentProductionRecordEntity.Downtime*"></a>
+
+  <h3 id="DataMaster_Modules_MAS_DataAccess_EquipmentProductionRecordEntity_Downtime" data-uid="DataMaster.Modules.MAS.DataAccess.EquipmentProductionRecordEntity.Downtime">
+  Downtime
+  <a class="header-action link-secondary" title="View source" href="https://bitbucket.org/mas-software/industrial-mes-net-platform-advanced/src/main/Modules/MAS.DataAccess/Entities/EquipmentProductionRecordEntity.cs#lines-53"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>停机时间</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public decimal Downtime { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.decimal">decimal</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="DataMaster_Modules_MAS_DataAccess_EquipmentProductionRecordEntity_Efficiency_" data-uid="DataMaster.Modules.MAS.DataAccess.EquipmentProductionRecordEntity.Efficiency*"></a>
+
+  <h3 id="DataMaster_Modules_MAS_DataAccess_EquipmentProductionRecordEntity_Efficiency" data-uid="DataMaster.Modules.MAS.DataAccess.EquipmentProductionRecordEntity.Efficiency">
+  Efficiency
+  <a class="header-action link-secondary" title="View source" href="https://bitbucket.org/mas-software/industrial-mes-net-platform-advanced/src/main/Modules/MAS.DataAccess/Entities/EquipmentProductionRecordEntity.cs#lines-63"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>生产效率</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public decimal Efficiency { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.decimal">decimal</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="DataMaster_Modules_MAS_DataAccess_EquipmentProductionRecordEntity_EquipmentID_" data-uid="DataMaster.Modules.MAS.DataAccess.EquipmentProductionRecordEntity.EquipmentID*"></a>
+
+  <h3 id="DataMaster_Modules_MAS_DataAccess_EquipmentProductionRecordEntity_EquipmentID" data-uid="DataMaster.Modules.MAS.DataAccess.EquipmentProductionRecordEntity.EquipmentID">
+  EquipmentID
+  <a class="header-action link-secondary" title="View source" href="https://bitbucket.org/mas-software/industrial-mes-net-platform-advanced/src/main/Modules/MAS.DataAccess/Entities/EquipmentProductionRecordEntity.cs#lines-23"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>设备唯一标识符，外键 关联到 Equipment</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public int EquipmentID { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="DataMaster_Modules_MAS_DataAccess_EquipmentProductionRecordEntity_Notes_" data-uid="DataMaster.Modules.MAS.DataAccess.EquipmentProductionRecordEntity.Notes*"></a>
+
+  <h3 id="DataMaster_Modules_MAS_DataAccess_EquipmentProductionRecordEntity_Notes" data-uid="DataMaster.Modules.MAS.DataAccess.EquipmentProductionRecordEntity.Notes">
+  Notes
+  <a class="header-action link-secondary" title="View source" href="https://bitbucket.org/mas-software/industrial-mes-net-platform-advanced/src/main/Modules/MAS.DataAccess/Entities/EquipmentProductionRecordEntity.cs#lines-88"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>备注信息</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public string Notes { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="DataMaster_Modules_MAS_DataAccess_EquipmentProductionRecordEntity_ProductionDate_" data-uid="DataMaster.Modules.MAS.DataAccess.EquipmentProductionRecordEntity.ProductionDate*"></a>
+
+  <h3 id="DataMaster_Modules_MAS_DataAccess_EquipmentProductionRecordEntity_ProductionDate" data-uid="DataMaster.Modules.MAS.DataAccess.EquipmentProductionRecordEntity.ProductionDate">
+  ProductionDate
+  <a class="header-action link-secondary" title="View source" href="https://bitbucket.org/mas-software/industrial-mes-net-platform-advanced/src/main/Modules/MAS.DataAccess/Entities/EquipmentProductionRecordEntity.cs#lines-28"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>产量记录生成时间</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public DateTime ProductionDate { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.datetime">DateTime</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="DataMaster_Modules_MAS_DataAccess_EquipmentProductionRecordEntity_ProductionQuantity_" data-uid="DataMaster.Modules.MAS.DataAccess.EquipmentProductionRecordEntity.ProductionQuantity*"></a>
+
+  <h3 id="DataMaster_Modules_MAS_DataAccess_EquipmentProductionRecordEntity_ProductionQuantity" data-uid="DataMaster.Modules.MAS.DataAccess.EquipmentProductionRecordEntity.ProductionQuantity">
+  ProductionQuantity
+  <a class="header-action link-secondary" title="View source" href="https://bitbucket.org/mas-software/industrial-mes-net-platform-advanced/src/main/Modules/MAS.DataAccess/Entities/EquipmentProductionRecordEntity.cs#lines-38"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>产量</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public int ProductionQuantity { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="DataMaster_Modules_MAS_DataAccess_EquipmentProductionRecordEntity_ProductionRecordID_" data-uid="DataMaster.Modules.MAS.DataAccess.EquipmentProductionRecordEntity.ProductionRecordID*"></a>
+
+  <h3 id="DataMaster_Modules_MAS_DataAccess_EquipmentProductionRecordEntity_ProductionRecordID" data-uid="DataMaster.Modules.MAS.DataAccess.EquipmentProductionRecordEntity.ProductionRecordID">
+  ProductionRecordID
+  <a class="header-action link-secondary" title="View source" href="https://bitbucket.org/mas-software/industrial-mes-net-platform-advanced/src/main/Modules/MAS.DataAccess/Entities/EquipmentProductionRecordEntity.cs#lines-18"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>设备产量记录唯一标识符，主键</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public int ProductionRecordID { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="DataMaster_Modules_MAS_DataAccess_EquipmentProductionRecordEntity_ProductionTime_" data-uid="DataMaster.Modules.MAS.DataAccess.EquipmentProductionRecordEntity.ProductionTime*"></a>
+
+  <h3 id="DataMaster_Modules_MAS_DataAccess_EquipmentProductionRecordEntity_ProductionTime" data-uid="DataMaster.Modules.MAS.DataAccess.EquipmentProductionRecordEntity.ProductionTime">
+  ProductionTime
+  <a class="header-action link-secondary" title="View source" href="https://bitbucket.org/mas-software/industrial-mes-net-platform-advanced/src/main/Modules/MAS.DataAccess/Entities/EquipmentProductionRecordEntity.cs#lines-48"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>实际生产时间</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public decimal ProductionTime { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.decimal">decimal</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="DataMaster_Modules_MAS_DataAccess_EquipmentProductionRecordEntity_Quality_" data-uid="DataMaster.Modules.MAS.DataAccess.EquipmentProductionRecordEntity.Quality*"></a>
+
+  <h3 id="DataMaster_Modules_MAS_DataAccess_EquipmentProductionRecordEntity_Quality" data-uid="DataMaster.Modules.MAS.DataAccess.EquipmentProductionRecordEntity.Quality">
+  Quality
+  <a class="header-action link-secondary" title="View source" href="https://bitbucket.org/mas-software/industrial-mes-net-platform-advanced/src/main/Modules/MAS.DataAccess/Entities/EquipmentProductionRecordEntity.cs#lines-83"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>良品率</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public decimal Quality { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.decimal">decimal</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="DataMaster_Modules_MAS_DataAccess_EquipmentProductionRecordEntity_QuantityBasedEfficiency_" data-uid="DataMaster.Modules.MAS.DataAccess.EquipmentProductionRecordEntity.QuantityBasedEfficiency*"></a>
+
+  <h3 id="DataMaster_Modules_MAS_DataAccess_EquipmentProductionRecordEntity_QuantityBasedEfficiency" data-uid="DataMaster.Modules.MAS.DataAccess.EquipmentProductionRecordEntity.QuantityBasedEfficiency">
+  QuantityBasedEfficiency
+  <a class="header-action link-secondary" title="View source" href="https://bitbucket.org/mas-software/industrial-mes-net-platform-advanced/src/main/Modules/MAS.DataAccess/Entities/EquipmentProductionRecordEntity.cs#lines-73"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>产量效率</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public decimal QuantityBasedEfficiency { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.decimal">decimal</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="DataMaster_Modules_MAS_DataAccess_EquipmentProductionRecordEntity_Shift_" data-uid="DataMaster.Modules.MAS.DataAccess.EquipmentProductionRecordEntity.Shift*"></a>
+
+  <h3 id="DataMaster_Modules_MAS_DataAccess_EquipmentProductionRecordEntity_Shift" data-uid="DataMaster.Modules.MAS.DataAccess.EquipmentProductionRecordEntity.Shift">
+  Shift
+  <a class="header-action link-secondary" title="View source" href="https://bitbucket.org/mas-software/industrial-mes-net-platform-advanced/src/main/Modules/MAS.DataAccess/Entities/EquipmentProductionRecordEntity.cs#lines-33"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>班次</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public string Shift { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="DataMaster_Modules_MAS_DataAccess_EquipmentProductionRecordEntity_TargetQuantity_" data-uid="DataMaster.Modules.MAS.DataAccess.EquipmentProductionRecordEntity.TargetQuantity*"></a>
+
+  <h3 id="DataMaster_Modules_MAS_DataAccess_EquipmentProductionRecordEntity_TargetQuantity" data-uid="DataMaster.Modules.MAS.DataAccess.EquipmentProductionRecordEntity.TargetQuantity">
+  TargetQuantity
+  <a class="header-action link-secondary" title="View source" href="https://bitbucket.org/mas-software/industrial-mes-net-platform-advanced/src/main/Modules/MAS.DataAccess/Entities/EquipmentProductionRecordEntity.cs#lines-43"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>目标产量</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public int TargetQuantity { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="DataMaster_Modules_MAS_DataAccess_EquipmentProductionRecordEntity_TimeBasedEfficiency_" data-uid="DataMaster.Modules.MAS.DataAccess.EquipmentProductionRecordEntity.TimeBasedEfficiency*"></a>
+
+  <h3 id="DataMaster_Modules_MAS_DataAccess_EquipmentProductionRecordEntity_TimeBasedEfficiency" data-uid="DataMaster.Modules.MAS.DataAccess.EquipmentProductionRecordEntity.TimeBasedEfficiency">
+  TimeBasedEfficiency
+  <a class="header-action link-secondary" title="View source" href="https://bitbucket.org/mas-software/industrial-mes-net-platform-advanced/src/main/Modules/MAS.DataAccess/Entities/EquipmentProductionRecordEntity.cs#lines-68"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>时间效率</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public decimal TimeBasedEfficiency { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.decimal">decimal</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+</article>
+
+        <div class="contribution d-print-none">
+          <a href="https://bitbucket.org/mas-software/industrial-mes-net-platform-advanced/src/main/Modules/MAS.DataAccess/Entities/EquipmentProductionRecordEntity.cs#lines-14" class="edit-link">Edit this page</a>
+        </div>
+
+
+      </div>
+
+      <div class="affix">
+        <nav id="affix"></nav>
+      </div>
+    </main>
+
+    <div class="container-xxl search-results" id="search-results"></div>
+
+    <footer class="border-top text-secondary">
+      <div class="container-xxl">
+        <div class="flex-fill">
+          <span>Made with <a href="https://dotnet.github.io/docfx" rel="noreferrer">docfx</a>,  | Copyright © 2024 MAS(厦门威光). All rights reserved.</span>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>

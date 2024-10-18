@@ -1,0 +1,410 @@
+﻿<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+      <title>Interface IInstantMessagingService | DataMaster </title>
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta name="title" content="Interface IInstantMessagingService | DataMaster ">
+      
+      <meta name="description" content="即时信息处理服务接口">
+      <link rel="icon" href="../images/favicon.ico">
+      <link rel="stylesheet" href="../public/docfx.min.css">
+      <link rel="stylesheet" href="../public/main.css">
+      <meta name="docfx:navrel" content="../toc.html">
+      <meta name="docfx:tocrel" content="toc.html">
+      
+      <meta name="docfx:rel" content="../">
+      
+      
+      
+      <meta name="loc:inThisArticle" content="In this article">
+      <meta name="loc:searchResultsCount" content="{count} results for &quot;{query}&quot;">
+      <meta name="loc:searchNoResults" content="No results for &quot;{query}&quot;">
+      <meta name="loc:tocFilter" content="Filter by title">
+      <meta name="loc:nextArticle" content="Next">
+      <meta name="loc:prevArticle" content="Previous">
+      <meta name="loc:themeLight" content="Light">
+      <meta name="loc:themeDark" content="Dark">
+      <meta name="loc:themeAuto" content="Auto">
+      <meta name="loc:changeTheme" content="Change theme">
+      <meta name="loc:copy" content="Copy">
+      <meta name="loc:downloadPdf" content="Download PDF">
+
+      <script type="module" src="./../public/docfx.min.js"></script>
+
+      <script>
+        const theme = localStorage.getItem('theme') || 'auto'
+        document.documentElement.setAttribute('data-bs-theme', theme === 'auto' ? (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light') : theme)
+      </script>
+
+  </head>
+
+  <body class="tex2jax_ignore" data-layout="" data-yaml-mime="ManagedReference">
+    <header class="bg-body border-bottom">
+      <nav id="autocollapse" class="navbar navbar-expand-md" role="navigation">
+        <div class="container-xxl flex-nowrap">
+          <a class="navbar-brand" href="../index.html">
+            <img id="logo" class="svg" src="../images/logo.svg" alt="DataMaster">
+            DataMaster
+          </a>
+          <button class="btn btn-lg d-md-none border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navpanel" aria-controls="navpanel" aria-expanded="false" aria-label="Toggle navigation">
+            <i class="bi bi-three-dots"></i>
+          </button>
+          <div class="collapse navbar-collapse" id="navpanel">
+            <div id="navbar">
+              <form class="search" role="search" id="search">
+                <i class="bi bi-search"></i>
+                <input class="form-control" id="search-query" type="search" disabled="" placeholder="Search" autocomplete="off" aria-label="Search">
+              </form>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <main class="container-xxl">
+      <div class="toc-offcanvas">
+        <div class="offcanvas-md offcanvas-start" tabindex="-1" id="tocOffcanvas" aria-labelledby="tocOffcanvasLabel">
+          <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="tocOffcanvasLabel">Table of Contents</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" data-bs-target="#tocOffcanvas" aria-label="Close"></button>
+          </div>
+          <div class="offcanvas-body">
+            <nav class="toc" id="toc"></nav>
+          </div>
+        </div>
+      </div>
+
+      <div class="content">
+        <div class="actionbar">
+          <button class="btn btn-lg border-0 d-md-none" type="button" data-bs-toggle="offcanvas" data-bs-target="#tocOffcanvas" aria-controls="tocOffcanvas" aria-expanded="false" aria-label="Show table of contents">
+            <i class="bi bi-list"></i>
+          </button>
+
+          <nav id="breadcrumb"></nav>
+        </div>
+
+        <article data-uid="DataMaster.Modules.MAS.InstantMessage.IInstantMessagingService">
+
+
+
+  <h1 id="DataMaster_Modules_MAS_InstantMessage_IInstantMessagingService" data-uid="DataMaster.Modules.MAS.InstantMessage.IInstantMessagingService" class="text-break">
+Interface IInstantMessagingService  <a class="header-action link-secondary" title="View source" href="https://bitbucket.org/mas-software/industrial-mes-net-platform-advanced/src/main/Modules/MAS.InstantMessage/Interfaces/IInstantMessagingService.cs#lines-13"><i class="bi bi-code-slash"></i></a>
+  </h1>
+
+  <div class="facts text-secondary">
+    <dl><dt>Namespace</dt><dd><a class="xref" href="DataMaster.html">DataMaster</a>.<a class="xref" href="DataMaster.Modules.html">Modules</a>.<a class="xref" href="DataMaster.Modules.MAS.html">MAS</a>.<a class="xref" href="DataMaster.Modules.MAS.InstantMessage.html">InstantMessage</a></dd></dl>
+  <dl><dt>Assembly</dt><dd>DataMaster.dll</dd></dl>
+  </div>
+
+  <div class="markdown summary"><p>即时信息处理服务接口</p>
+</div>
+  <div class="markdown conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public interface IInstantMessagingService</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <h2 class="section" id="methods">Methods
+</h2>
+
+
+  <a id="DataMaster_Modules_MAS_InstantMessage_IInstantMessagingService_GetCommunicationMessages_" data-uid="DataMaster.Modules.MAS.InstantMessage.IInstantMessagingService.GetCommunicationMessages*"></a>
+
+  <h3 id="DataMaster_Modules_MAS_InstantMessage_IInstantMessagingService_GetCommunicationMessages" data-uid="DataMaster.Modules.MAS.InstantMessage.IInstantMessagingService.GetCommunicationMessages">
+  GetCommunicationMessages()
+  <a class="header-action link-secondary" title="View source" href="https://bitbucket.org/mas-software/industrial-mes-net-platform-advanced/src/main/Modules/MAS.InstantMessage/Interfaces/IInstantMessagingService.cs#lines-23"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>获取通讯即时信息集合</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">ObservableCollection&lt;InstantMessageModel&gt; GetCommunicationMessages()</code></pre>
+  </div>
+
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.objectmodel.observablecollection-1">ObservableCollection</a>&lt;<a class="xref" href="DataMaster.Modules.MAS.InstantMessage.InstantMessageModel.html">InstantMessageModel</a>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="DataMaster_Modules_MAS_InstantMessage_IInstantMessagingService_GetDatabaseMessages_" data-uid="DataMaster.Modules.MAS.InstantMessage.IInstantMessagingService.GetDatabaseMessages*"></a>
+
+  <h3 id="DataMaster_Modules_MAS_InstantMessage_IInstantMessagingService_GetDatabaseMessages" data-uid="DataMaster.Modules.MAS.InstantMessage.IInstantMessagingService.GetDatabaseMessages">
+  GetDatabaseMessages()
+  <a class="header-action link-secondary" title="View source" href="https://bitbucket.org/mas-software/industrial-mes-net-platform-advanced/src/main/Modules/MAS.InstantMessage/Interfaces/IInstantMessagingService.cs#lines-29"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>获取数据库即时信息集合</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">ObservableCollection&lt;InstantMessageModel&gt; GetDatabaseMessages()</code></pre>
+  </div>
+
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.objectmodel.observablecollection-1">ObservableCollection</a>&lt;<a class="xref" href="DataMaster.Modules.MAS.InstantMessage.InstantMessageModel.html">InstantMessageModel</a>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="DataMaster_Modules_MAS_InstantMessage_IInstantMessagingService_StartAllUpdating_" data-uid="DataMaster.Modules.MAS.InstantMessage.IInstantMessagingService.StartAllUpdating*"></a>
+
+  <h3 id="DataMaster_Modules_MAS_InstantMessage_IInstantMessagingService_StartAllUpdating" data-uid="DataMaster.Modules.MAS.InstantMessage.IInstantMessagingService.StartAllUpdating">
+  StartAllUpdating()
+  <a class="header-action link-secondary" title="View source" href="https://bitbucket.org/mas-software/industrial-mes-net-platform-advanced/src/main/Modules/MAS.InstantMessage/Interfaces/IInstantMessagingService.cs#lines-34"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>启动所有即时信息更新定时器</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">void StartAllUpdating()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="DataMaster_Modules_MAS_InstantMessage_IInstantMessagingService_StartCommunicationUpdating_" data-uid="DataMaster.Modules.MAS.InstantMessage.IInstantMessagingService.StartCommunicationUpdating*"></a>
+
+  <h3 id="DataMaster_Modules_MAS_InstantMessage_IInstantMessagingService_StartCommunicationUpdating" data-uid="DataMaster.Modules.MAS.InstantMessage.IInstantMessagingService.StartCommunicationUpdating">
+  StartCommunicationUpdating()
+  <a class="header-action link-secondary" title="View source" href="https://bitbucket.org/mas-software/industrial-mes-net-platform-advanced/src/main/Modules/MAS.InstantMessage/Interfaces/IInstantMessagingService.cs#lines-44"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>启动通讯即时信息更新定时器</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">void StartCommunicationUpdating()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="DataMaster_Modules_MAS_InstantMessage_IInstantMessagingService_StartDatabaseUpdating_" data-uid="DataMaster.Modules.MAS.InstantMessage.IInstantMessagingService.StartDatabaseUpdating*"></a>
+
+  <h3 id="DataMaster_Modules_MAS_InstantMessage_IInstantMessagingService_StartDatabaseUpdating" data-uid="DataMaster.Modules.MAS.InstantMessage.IInstantMessagingService.StartDatabaseUpdating">
+  StartDatabaseUpdating()
+  <a class="header-action link-secondary" title="View source" href="https://bitbucket.org/mas-software/industrial-mes-net-platform-advanced/src/main/Modules/MAS.InstantMessage/Interfaces/IInstantMessagingService.cs#lines-54"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>启动数据库即时信息更新定时器</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">void StartDatabaseUpdating()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="DataMaster_Modules_MAS_InstantMessage_IInstantMessagingService_StopAllUpdating_" data-uid="DataMaster.Modules.MAS.InstantMessage.IInstantMessagingService.StopAllUpdating*"></a>
+
+  <h3 id="DataMaster_Modules_MAS_InstantMessage_IInstantMessagingService_StopAllUpdating" data-uid="DataMaster.Modules.MAS.InstantMessage.IInstantMessagingService.StopAllUpdating">
+  StopAllUpdating()
+  <a class="header-action link-secondary" title="View source" href="https://bitbucket.org/mas-software/industrial-mes-net-platform-advanced/src/main/Modules/MAS.InstantMessage/Interfaces/IInstantMessagingService.cs#lines-39"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>停止所有即时信息更新定时器</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">void StopAllUpdating()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="DataMaster_Modules_MAS_InstantMessage_IInstantMessagingService_StopCommunicationUpdating_" data-uid="DataMaster.Modules.MAS.InstantMessage.IInstantMessagingService.StopCommunicationUpdating*"></a>
+
+  <h3 id="DataMaster_Modules_MAS_InstantMessage_IInstantMessagingService_StopCommunicationUpdating" data-uid="DataMaster.Modules.MAS.InstantMessage.IInstantMessagingService.StopCommunicationUpdating">
+  StopCommunicationUpdating()
+  <a class="header-action link-secondary" title="View source" href="https://bitbucket.org/mas-software/industrial-mes-net-platform-advanced/src/main/Modules/MAS.InstantMessage/Interfaces/IInstantMessagingService.cs#lines-49"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>停止通讯即时信息更新定时器</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">void StopCommunicationUpdating()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="DataMaster_Modules_MAS_InstantMessage_IInstantMessagingService_StopDatabaseUpdating_" data-uid="DataMaster.Modules.MAS.InstantMessage.IInstantMessagingService.StopDatabaseUpdating*"></a>
+
+  <h3 id="DataMaster_Modules_MAS_InstantMessage_IInstantMessagingService_StopDatabaseUpdating" data-uid="DataMaster.Modules.MAS.InstantMessage.IInstantMessagingService.StopDatabaseUpdating">
+  StopDatabaseUpdating()
+  <a class="header-action link-secondary" title="View source" href="https://bitbucket.org/mas-software/industrial-mes-net-platform-advanced/src/main/Modules/MAS.InstantMessage/Interfaces/IInstantMessagingService.cs#lines-59"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>停止数据库即时信息更新定时器</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">void StopDatabaseUpdating()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <h2 class="section" id="events">Events
+</h2>
+
+
+
+  <h3 id="DataMaster_Modules_MAS_InstantMessage_IInstantMessagingService_MessageUpdated" data-uid="DataMaster.Modules.MAS.InstantMessage.IInstantMessagingService.MessageUpdated">
+  MessageUpdated
+  <a class="header-action link-secondary" title="View source" href="https://bitbucket.org/mas-software/industrial-mes-net-platform-advanced/src/main/Modules/MAS.InstantMessage/Interfaces/IInstantMessagingService.cs#lines-17"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>即时信息更新更新事件</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">event EventHandler MessageUpdated</code></pre>
+  </div>
+
+
+
+
+
+
+  <h4 class="section">Event Type</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.eventhandler">EventHandler</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+</article>
+
+        <div class="contribution d-print-none">
+          <a href="https://bitbucket.org/mas-software/industrial-mes-net-platform-advanced/src/main/Modules/MAS.InstantMessage/Interfaces/IInstantMessagingService.cs#lines-13" class="edit-link">Edit this page</a>
+        </div>
+
+
+      </div>
+
+      <div class="affix">
+        <nav id="affix"></nav>
+      </div>
+    </main>
+
+    <div class="container-xxl search-results" id="search-results"></div>
+
+    <footer class="border-top text-secondary">
+      <div class="container-xxl">
+        <div class="flex-fill">
+          <span>Made with <a href="https://dotnet.github.io/docfx" rel="noreferrer">docfx</a>,  | Copyright © 2024 MAS(厦门威光). All rights reserved.</span>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>

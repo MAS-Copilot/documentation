@@ -89,7 +89,7 @@
 
 
   <h1 id="DataMaster_ViewModels_Pages_ECharts_ProductionVolumeViewModel" data-uid="DataMaster.ViewModels.Pages.ECharts.ProductionVolumeViewModel" class="text-break">
-Class ProductionVolumeViewModel  <a class="header-action link-secondary" title="View source" href="https://bitbucket.org/mas-software/industrial-mes-net-platform-advanced/src/feature/OpenCV/ViewModels/Pages/ECharts/ProductionVolumeViewModel.cs#lines-25"><i class="bi bi-code-slash"></i></a>
+Class ProductionVolumeViewModel  <a class="header-action link-secondary" title="View source" href="https://bitbucket.org/mas-software/industrial-mes-net-platform-advanced/src/main/ViewModels/Pages/ECharts/ProductionVolumeViewModel.cs#lines-25"><i class="bi bi-code-slash"></i></a>
   </h1>
 
   <div class="facts text-secondary">
@@ -112,7 +112,7 @@ Class ProductionVolumeViewModel  <a class="header-action link-secondary" title="
     <dt>Inheritance</dt>
     <dd>
       <div><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">object</a></div>
-      <div><a class="xref" href="DataMaster.ViewModels.ViewModelBase.html">ViewModelBase</a></div>
+      <div><a class="xref" href="DataMaster.Abstracts.ViewModelBase.html">ViewModelBase</a></div>
       <div><span class="xref">ProductionVolumeViewModel</span></div>
     </dd>
   </dl>
@@ -129,22 +129,25 @@ Class ProductionVolumeViewModel  <a class="header-action link-secondary" title="
     <dt>Inherited Members</dt>
     <dd>
     <div>
-      <a class="xref" href="DataMaster.ViewModels.ViewModelBase.html#DataMaster_ViewModels_ViewModelBase_SystemLogger">ViewModelBase.SystemLogger</a>
+      <a class="xref" href="DataMaster.Abstracts.ViewModelBase.html#DataMaster_Abstracts_ViewModelBase_Config">ViewModelBase.Config</a>
     </div>
     <div>
-      <a class="xref" href="DataMaster.ViewModels.ViewModelBase.html#DataMaster_ViewModels_ViewModelBase_Config">ViewModelBase.Config</a>
+      <a class="xref" href="DataMaster.Abstracts.ViewModelBase.html#DataMaster_Abstracts_ViewModelBase_LanguageManager">ViewModelBase.LanguageManager</a>
     </div>
     <div>
-      <a class="xref" href="DataMaster.ViewModels.ViewModelBase.html#DataMaster_ViewModels_ViewModelBase_LanguageManager">ViewModelBase.LanguageManager</a>
+      <a class="xref" href="DataMaster.Abstracts.ViewModelBase.html#DataMaster_Abstracts_ViewModelBase_BusyCursor">ViewModelBase.BusyCursor</a>
     </div>
     <div>
-      <a class="xref" href="DataMaster.ViewModels.ViewModelBase.html#DataMaster_ViewModels_ViewModelBase_PropertyChanged">ViewModelBase.PropertyChanged</a>
+      <a class="xref" href="DataMaster.Abstracts.ViewModelBase.html#DataMaster_Abstracts_ViewModelBase_WorkingCursor">ViewModelBase.WorkingCursor</a>
     </div>
     <div>
-      <a class="xref" href="DataMaster.ViewModels.ViewModelBase.html#DataMaster_ViewModels_ViewModelBase_OnPropertyChanged_System_String_">ViewModelBase.OnPropertyChanged(string)</a>
+      <a class="xref" href="DataMaster.Abstracts.ViewModelBase.html#DataMaster_Abstracts_ViewModelBase_PropertyChanged">ViewModelBase.PropertyChanged</a>
     </div>
     <div>
-      <a class="xref" href="DataMaster.ViewModels.ViewModelBase.html#DataMaster_ViewModels_ViewModelBase_SetField__1___0____0_System_String_">ViewModelBase.SetField&lt;T&gt;(ref T, T, string)</a>
+      <a class="xref" href="DataMaster.Abstracts.ViewModelBase.html#DataMaster_Abstracts_ViewModelBase_OnPropertyChanged_System_String_">ViewModelBase.OnPropertyChanged(string)</a>
+    </div>
+    <div>
+      <a class="xref" href="DataMaster.Abstracts.ViewModelBase.html#DataMaster_Abstracts_ViewModelBase_SetField__1___0____0_System_String_">ViewModelBase.SetField&lt;T&gt;(ref T, T, string)</a>
     </div>
     <div>
       <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)">object.Equals(object)</a>
@@ -180,9 +183,9 @@ Class ProductionVolumeViewModel  <a class="header-action link-secondary" title="
 
   <a id="DataMaster_ViewModels_Pages_ECharts_ProductionVolumeViewModel__ctor_" data-uid="DataMaster.ViewModels.Pages.ECharts.ProductionVolumeViewModel.#ctor*"></a>
 
-  <h3 id="DataMaster_ViewModels_Pages_ECharts_ProductionVolumeViewModel__ctor_DataMaster_Modules_MAS_Charts_Interfaces_IStatsServiceFactory_DataMaster_Interfaces_Charts_IProductionVolumeCardService_DataMaster_Interfaces_Charts_IProductionVolumeBarService_" data-uid="DataMaster.ViewModels.Pages.ECharts.ProductionVolumeViewModel.#ctor(DataMaster.Modules.MAS.Charts.Interfaces.IStatsServiceFactory,DataMaster.Interfaces.Charts.IProductionVolumeCardService,DataMaster.Interfaces.Charts.IProductionVolumeBarService)">
-  ProductionVolumeViewModel(IStatsServiceFactory, IProductionVolumeCardService, IProductionVolumeBarService)
-  <a class="header-action link-secondary" title="View source" href="https://bitbucket.org/mas-software/industrial-mes-net-platform-advanced/src/feature/OpenCV/ViewModels/Pages/ECharts/ProductionVolumeViewModel.cs#lines-188"><i class="bi bi-code-slash"></i></a>
+  <h3 id="DataMaster_ViewModels_Pages_ECharts_ProductionVolumeViewModel__ctor_DataMaster_Modules_MAS_Charts_IStatsServiceFactory_DataMaster_Interfaces_Charts_IProductionVolumeCardService_DataMaster_Interfaces_Charts_IProductionVolumeBarService_DataMaster_Modules_MAS_Controls_Notification_ITipsNotificationService_" data-uid="DataMaster.ViewModels.Pages.ECharts.ProductionVolumeViewModel.#ctor(DataMaster.Modules.MAS.Charts.IStatsServiceFactory,DataMaster.Interfaces.Charts.IProductionVolumeCardService,DataMaster.Interfaces.Charts.IProductionVolumeBarService,DataMaster.Modules.MAS.Controls.Notification.ITipsNotificationService)">
+  ProductionVolumeViewModel(IStatsServiceFactory, IProductionVolumeCardService, IProductionVolumeBarService, ITipsNotificationService)
+  <a class="header-action link-secondary" title="View source" href="https://bitbucket.org/mas-software/industrial-mes-net-platform-advanced/src/main/ViewModels/Pages/ECharts/ProductionVolumeViewModel.cs#lines-189"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>构造函数，初始化 <a class="xref" href="DataMaster.ViewModels.Pages.ECharts.ProductionVolumeViewModel.html">ProductionVolumeViewModel</a> 新实例</p>
@@ -190,12 +193,12 @@ Class ProductionVolumeViewModel  <a class="header-action link-secondary" title="
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public ProductionVolumeViewModel(IStatsServiceFactory statsServiceFactory, IProductionVolumeCardService productionVolumeCardService, IProductionVolumeBarService productionVolumeBarService)</code></pre>
+    <pre><code class="lang-csharp hljs">public ProductionVolumeViewModel(IStatsServiceFactory statsServiceFactory, IProductionVolumeCardService productionVolumeCardService, IProductionVolumeBarService productionVolumeBarService, ITipsNotificationService tipsNotificationService)</code></pre>
   </div>
 
   <h4 class="section">Parameters</h4>
   <dl class="parameters">
-    <dt><code>statsServiceFactory</code> <a class="xref" href="DataMaster.Modules.MAS.Charts.Interfaces.IStatsServiceFactory.html">IStatsServiceFactory</a></dt>
+    <dt><code>statsServiceFactory</code> <a class="xref" href="DataMaster.Modules.MAS.Charts.IStatsServiceFactory.html">IStatsServiceFactory</a></dt>
     <dd><p>统计服务工厂</p>
 </dd>
     <dt><code>productionVolumeCardService</code> <a class="xref" href="DataMaster.Interfaces.Charts.IProductionVolumeCardService.html">IProductionVolumeCardService</a></dt>
@@ -203,6 +206,9 @@ Class ProductionVolumeViewModel  <a class="header-action link-secondary" title="
 </dd>
     <dt><code>productionVolumeBarService</code> <a class="xref" href="DataMaster.Interfaces.Charts.IProductionVolumeBarService.html">IProductionVolumeBarService</a></dt>
     <dd><p>创建和管理生产量信息栏服务</p>
+</dd>
+    <dt><code>tipsNotificationService</code> <a class="xref" href="DataMaster.Modules.MAS.Controls.Notification.ITipsNotificationService.html">ITipsNotificationService</a></dt>
+    <dd><p>Tips 通知服务</p>
 </dd>
   </dl>
 
@@ -225,7 +231,7 @@ Class ProductionVolumeViewModel  <a class="header-action link-secondary" title="
 
   <h3 id="DataMaster_ViewModels_Pages_ECharts_ProductionVolumeViewModel_Cards" data-uid="DataMaster.ViewModels.Pages.ECharts.ProductionVolumeViewModel.Cards">
   Cards
-  <a class="header-action link-secondary" title="View source" href="https://bitbucket.org/mas-software/industrial-mes-net-platform-advanced/src/feature/OpenCV/ViewModels/Pages/ECharts/ProductionVolumeViewModel.cs#lines-154"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://bitbucket.org/mas-software/industrial-mes-net-platform-advanced/src/main/ViewModels/Pages/ECharts/ProductionVolumeViewModel.cs#lines-147"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>生产量统计数据仪表信息卡</p>
@@ -242,7 +248,7 @@ Class ProductionVolumeViewModel  <a class="header-action link-secondary" title="
 
   <h4 class="section">Property Value</h4>
   <dl class="parameters">
-    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.objectmodel.observablecollection-1">ObservableCollection</a>&lt;<a class="xref" href="DataMaster.Models.Charts.AnalysisPanelCard-1.html">AnalysisPanelCard</a>&lt;<a class="xref" href="DataMaster.Modules.MAS.Charts.Models.ChartType.ProductionVolumeChartType.html">ProductionVolumeChartType</a>&gt;&gt;</dt>
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.objectmodel.observablecollection-1">ObservableCollection</a>&lt;<a class="xref" href="DataMaster.Models.Charts.AnalysisPanelCard-1.html">AnalysisPanelCard</a>&lt;<a class="xref" href="DataMaster.Modules.MAS.Charts.ProductionVolumeChartType.html">ProductionVolumeChartType</a>&gt;&gt;</dt>
     <dd></dd>
   </dl>
 
@@ -257,7 +263,7 @@ Class ProductionVolumeViewModel  <a class="header-action link-secondary" title="
 
   <h3 id="DataMaster_ViewModels_Pages_ECharts_ProductionVolumeViewModel_EarliestDate" data-uid="DataMaster.ViewModels.Pages.ECharts.ProductionVolumeViewModel.EarliestDate">
   EarliestDate
-  <a class="header-action link-secondary" title="View source" href="https://bitbucket.org/mas-software/industrial-mes-net-platform-advanced/src/feature/OpenCV/ViewModels/Pages/ECharts/ProductionVolumeViewModel.cs#lines-41"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://bitbucket.org/mas-software/industrial-mes-net-platform-advanced/src/main/ViewModels/Pages/ECharts/ProductionVolumeViewModel.cs#lines-43"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>获取或设置最早日期限制</p>
@@ -289,7 +295,7 @@ Class ProductionVolumeViewModel  <a class="header-action link-secondary" title="
 
   <h3 id="DataMaster_ViewModels_Pages_ECharts_ProductionVolumeViewModel_EndDate" data-uid="DataMaster.ViewModels.Pages.ECharts.ProductionVolumeViewModel.EndDate">
   EndDate
-  <a class="header-action link-secondary" title="View source" href="https://bitbucket.org/mas-software/industrial-mes-net-platform-advanced/src/feature/OpenCV/ViewModels/Pages/ECharts/ProductionVolumeViewModel.cs#lines-71"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://bitbucket.org/mas-software/industrial-mes-net-platform-advanced/src/main/ViewModels/Pages/ECharts/ProductionVolumeViewModel.cs#lines-73"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>获取或设置结束日期</p>
@@ -321,7 +327,7 @@ Class ProductionVolumeViewModel  <a class="header-action link-secondary" title="
 
   <h3 id="DataMaster_ViewModels_Pages_ECharts_ProductionVolumeViewModel_ExportCommand" data-uid="DataMaster.ViewModels.Pages.ECharts.ProductionVolumeViewModel.ExportCommand">
   ExportCommand
-  <a class="header-action link-secondary" title="View source" href="https://bitbucket.org/mas-software/industrial-mes-net-platform-advanced/src/feature/OpenCV/ViewModels/Pages/ECharts/ProductionVolumeViewModel.cs#lines-176"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://bitbucket.org/mas-software/industrial-mes-net-platform-advanced/src/main/ViewModels/Pages/ECharts/ProductionVolumeViewModel.cs#lines-174"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>获取导出命令</p>
@@ -353,7 +359,7 @@ Class ProductionVolumeViewModel  <a class="header-action link-secondary" title="
 
   <h3 id="DataMaster_ViewModels_Pages_ECharts_ProductionVolumeViewModel_ImportCommand" data-uid="DataMaster.ViewModels.Pages.ECharts.ProductionVolumeViewModel.ImportCommand">
   ImportCommand
-  <a class="header-action link-secondary" title="View source" href="https://bitbucket.org/mas-software/industrial-mes-net-platform-advanced/src/feature/OpenCV/ViewModels/Pages/ECharts/ProductionVolumeViewModel.cs#lines-172"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://bitbucket.org/mas-software/industrial-mes-net-platform-advanced/src/main/ViewModels/Pages/ECharts/ProductionVolumeViewModel.cs#lines-169"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>获取导入命令</p>
@@ -385,7 +391,7 @@ Class ProductionVolumeViewModel  <a class="header-action link-secondary" title="
 
   <h3 id="DataMaster_ViewModels_Pages_ECharts_ProductionVolumeViewModel_InfoBar" data-uid="DataMaster.ViewModels.Pages.ECharts.ProductionVolumeViewModel.InfoBar">
   InfoBar
-  <a class="header-action link-secondary" title="View source" href="https://bitbucket.org/mas-software/industrial-mes-net-platform-advanced/src/feature/OpenCV/ViewModels/Pages/ECharts/ProductionVolumeViewModel.cs#lines-159"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://bitbucket.org/mas-software/industrial-mes-net-platform-advanced/src/main/ViewModels/Pages/ECharts/ProductionVolumeViewModel.cs#lines-152"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>生产量统计信息栏</p>
@@ -417,7 +423,7 @@ Class ProductionVolumeViewModel  <a class="header-action link-secondary" title="
 
   <h3 id="DataMaster_ViewModels_Pages_ECharts_ProductionVolumeViewModel_IsDataGridVisible" data-uid="DataMaster.ViewModels.Pages.ECharts.ProductionVolumeViewModel.IsDataGridVisible">
   IsDataGridVisible
-  <a class="header-action link-secondary" title="View source" href="https://bitbucket.org/mas-software/industrial-mes-net-platform-advanced/src/feature/OpenCV/ViewModels/Pages/ECharts/ProductionVolumeViewModel.cs#lines-119"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://bitbucket.org/mas-software/industrial-mes-net-platform-advanced/src/main/ViewModels/Pages/ECharts/ProductionVolumeViewModel.cs#lines-112"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>获取或设置 DataGrid 可见性</p>
@@ -449,7 +455,7 @@ Class ProductionVolumeViewModel  <a class="header-action link-secondary" title="
 
   <h3 id="DataMaster_ViewModels_Pages_ECharts_ProductionVolumeViewModel_IsEndDateEnabled" data-uid="DataMaster.ViewModels.Pages.ECharts.ProductionVolumeViewModel.IsEndDateEnabled">
   IsEndDateEnabled
-  <a class="header-action link-secondary" title="View source" href="https://bitbucket.org/mas-software/industrial-mes-net-platform-advanced/src/feature/OpenCV/ViewModels/Pages/ECharts/ProductionVolumeViewModel.cs#lines-92"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://bitbucket.org/mas-software/industrial-mes-net-platform-advanced/src/main/ViewModels/Pages/ECharts/ProductionVolumeViewModel.cs#lines-94"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>获取或设置启用或禁用结束日期选择器</p>
@@ -481,7 +487,7 @@ Class ProductionVolumeViewModel  <a class="header-action link-secondary" title="
 
   <h3 id="DataMaster_ViewModels_Pages_ECharts_ProductionVolumeViewModel_IsShowDateOrTime" data-uid="DataMaster.ViewModels.Pages.ECharts.ProductionVolumeViewModel.IsShowDateOrTime">
   IsShowDateOrTime
-  <a class="header-action link-secondary" title="View source" href="https://bitbucket.org/mas-software/industrial-mes-net-platform-advanced/src/feature/OpenCV/ViewModels/Pages/ECharts/ProductionVolumeViewModel.cs#lines-128"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://bitbucket.org/mas-software/industrial-mes-net-platform-advanced/src/main/ViewModels/Pages/ECharts/ProductionVolumeViewModel.cs#lines-121"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>获取或设置图表显示日期还是时间</p>
@@ -513,7 +519,7 @@ Class ProductionVolumeViewModel  <a class="header-action link-secondary" title="
 
   <h3 id="DataMaster_ViewModels_Pages_ECharts_ProductionVolumeViewModel_IsShowDateOrTimeEnabled" data-uid="DataMaster.ViewModels.Pages.ECharts.ProductionVolumeViewModel.IsShowDateOrTimeEnabled">
   IsShowDateOrTimeEnabled
-  <a class="header-action link-secondary" title="View source" href="https://bitbucket.org/mas-software/industrial-mes-net-platform-advanced/src/feature/OpenCV/ViewModels/Pages/ECharts/ProductionVolumeViewModel.cs#lines-141"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://bitbucket.org/mas-software/industrial-mes-net-platform-advanced/src/main/ViewModels/Pages/ECharts/ProductionVolumeViewModel.cs#lines-134"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>获取或设置图表显示日期切换是否启用</p>
@@ -545,7 +551,7 @@ Class ProductionVolumeViewModel  <a class="header-action link-secondary" title="
 
   <h3 id="DataMaster_ViewModels_Pages_ECharts_ProductionVolumeViewModel_IsStartDateEnabled" data-uid="DataMaster.ViewModels.Pages.ECharts.ProductionVolumeViewModel.IsStartDateEnabled">
   IsStartDateEnabled
-  <a class="header-action link-secondary" title="View source" href="https://bitbucket.org/mas-software/industrial-mes-net-platform-advanced/src/feature/OpenCV/ViewModels/Pages/ECharts/ProductionVolumeViewModel.cs#lines-83"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://bitbucket.org/mas-software/industrial-mes-net-platform-advanced/src/main/ViewModels/Pages/ECharts/ProductionVolumeViewModel.cs#lines-85"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>获取或设置启用或禁用开始日期选择器</p>
@@ -577,7 +583,7 @@ Class ProductionVolumeViewModel  <a class="header-action link-secondary" title="
 
   <h3 id="DataMaster_ViewModels_Pages_ECharts_ProductionVolumeViewModel_IsWebViewVisible" data-uid="DataMaster.ViewModels.Pages.ECharts.ProductionVolumeViewModel.IsWebViewVisible">
   IsWebViewVisible
-  <a class="header-action link-secondary" title="View source" href="https://bitbucket.org/mas-software/industrial-mes-net-platform-advanced/src/feature/OpenCV/ViewModels/Pages/ECharts/ProductionVolumeViewModel.cs#lines-101"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://bitbucket.org/mas-software/industrial-mes-net-platform-advanced/src/main/ViewModels/Pages/ECharts/ProductionVolumeViewModel.cs#lines-103"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>获取或设置 WebView 可见性</p>
@@ -609,7 +615,7 @@ Class ProductionVolumeViewModel  <a class="header-action link-secondary" title="
 
   <h3 id="DataMaster_ViewModels_Pages_ECharts_ProductionVolumeViewModel_LatestDate" data-uid="DataMaster.ViewModels.Pages.ECharts.ProductionVolumeViewModel.LatestDate">
   LatestDate
-  <a class="header-action link-secondary" title="View source" href="https://bitbucket.org/mas-software/industrial-mes-net-platform-advanced/src/feature/OpenCV/ViewModels/Pages/ECharts/ProductionVolumeViewModel.cs#lines-50"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://bitbucket.org/mas-software/industrial-mes-net-platform-advanced/src/main/ViewModels/Pages/ECharts/ProductionVolumeViewModel.cs#lines-52"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>获取或设置最晚日期限制</p>
@@ -641,7 +647,7 @@ Class ProductionVolumeViewModel  <a class="header-action link-secondary" title="
 
   <h3 id="DataMaster_ViewModels_Pages_ECharts_ProductionVolumeViewModel_ProductionVolumes" data-uid="DataMaster.ViewModels.Pages.ECharts.ProductionVolumeViewModel.ProductionVolumes">
   ProductionVolumes
-  <a class="header-action link-secondary" title="View source" href="https://bitbucket.org/mas-software/industrial-mes-net-platform-advanced/src/feature/OpenCV/ViewModels/Pages/ECharts/ProductionVolumeViewModel.cs#lines-149"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://bitbucket.org/mas-software/industrial-mes-net-platform-advanced/src/main/ViewModels/Pages/ECharts/ProductionVolumeViewModel.cs#lines-142"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>生产量数据集合</p>
@@ -669,43 +675,11 @@ Class ProductionVolumeViewModel  <a class="header-action link-secondary" title="
 
 
 
-  <a id="DataMaster_ViewModels_Pages_ECharts_ProductionVolumeViewModel_RefreshButtonCursor_" data-uid="DataMaster.ViewModels.Pages.ECharts.ProductionVolumeViewModel.RefreshButtonCursor*"></a>
-
-  <h3 id="DataMaster_ViewModels_Pages_ECharts_ProductionVolumeViewModel_RefreshButtonCursor" data-uid="DataMaster.ViewModels.Pages.ECharts.ProductionVolumeViewModel.RefreshButtonCursor">
-  RefreshButtonCursor
-  <a class="header-action link-secondary" title="View source" href="https://bitbucket.org/mas-software/industrial-mes-net-platform-advanced/src/feature/OpenCV/ViewModels/Pages/ECharts/ProductionVolumeViewModel.cs#lines-110"><i class="bi bi-code-slash"></i></a>
-  </h3>
-
-  <div class="markdown level1 summary"><p>获取或设置刷新按钮的鼠标光标</p>
-</div>
-  <div class="markdown level1 conceptual"></div>
-
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public Cursor RefreshButtonCursor { get; set; }</code></pre>
-  </div>
-
-
-
-
-
-  <h4 class="section">Property Value</h4>
-  <dl class="parameters">
-    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.windows.input.cursor">Cursor</a></dt>
-    <dd></dd>
-  </dl>
-
-
-
-
-
-
-
-
   <a id="DataMaster_ViewModels_Pages_ECharts_ProductionVolumeViewModel_RefreshCommand_" data-uid="DataMaster.ViewModels.Pages.ECharts.ProductionVolumeViewModel.RefreshCommand*"></a>
 
   <h3 id="DataMaster_ViewModels_Pages_ECharts_ProductionVolumeViewModel_RefreshCommand" data-uid="DataMaster.ViewModels.Pages.ECharts.ProductionVolumeViewModel.RefreshCommand">
   RefreshCommand
-  <a class="header-action link-secondary" title="View source" href="https://bitbucket.org/mas-software/industrial-mes-net-platform-advanced/src/feature/OpenCV/ViewModels/Pages/ECharts/ProductionVolumeViewModel.cs#lines-168"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://bitbucket.org/mas-software/industrial-mes-net-platform-advanced/src/main/ViewModels/Pages/ECharts/ProductionVolumeViewModel.cs#lines-164"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>获取刷新命令</p>
@@ -737,7 +711,7 @@ Class ProductionVolumeViewModel  <a class="header-action link-secondary" title="
 
   <h3 id="DataMaster_ViewModels_Pages_ECharts_ProductionVolumeViewModel_StartDate" data-uid="DataMaster.ViewModels.Pages.ECharts.ProductionVolumeViewModel.StartDate">
   StartDate
-  <a class="header-action link-secondary" title="View source" href="https://bitbucket.org/mas-software/industrial-mes-net-platform-advanced/src/feature/OpenCV/ViewModels/Pages/ECharts/ProductionVolumeViewModel.cs#lines-59"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://bitbucket.org/mas-software/industrial-mes-net-platform-advanced/src/main/ViewModels/Pages/ECharts/ProductionVolumeViewModel.cs#lines-61"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>获取或设置开始日期</p>
@@ -769,7 +743,7 @@ Class ProductionVolumeViewModel  <a class="header-action link-secondary" title="
 
   <h3 id="DataMaster_ViewModels_Pages_ECharts_ProductionVolumeViewModel_SwitchViewCommand" data-uid="DataMaster.ViewModels.Pages.ECharts.ProductionVolumeViewModel.SwitchViewCommand">
   SwitchViewCommand
-  <a class="header-action link-secondary" title="View source" href="https://bitbucket.org/mas-software/industrial-mes-net-platform-advanced/src/feature/OpenCV/ViewModels/Pages/ECharts/ProductionVolumeViewModel.cs#lines-180"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://bitbucket.org/mas-software/industrial-mes-net-platform-advanced/src/main/ViewModels/Pages/ECharts/ProductionVolumeViewModel.cs#lines-179"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>获取切换视图命令</p>
@@ -801,7 +775,7 @@ Class ProductionVolumeViewModel  <a class="header-action link-secondary" title="
 
   <h3 id="DataMaster_ViewModels_Pages_ECharts_ProductionVolumeViewModel_UpdateChartCommand" data-uid="DataMaster.ViewModels.Pages.ECharts.ProductionVolumeViewModel.UpdateChartCommand">
   UpdateChartCommand
-  <a class="header-action link-secondary" title="View source" href="https://bitbucket.org/mas-software/industrial-mes-net-platform-advanced/src/feature/OpenCV/ViewModels/Pages/ECharts/ProductionVolumeViewModel.cs#lines-164"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://bitbucket.org/mas-software/industrial-mes-net-platform-advanced/src/main/ViewModels/Pages/ECharts/ProductionVolumeViewModel.cs#lines-159"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>获取更新图表命令</p>
@@ -837,7 +811,7 @@ Class ProductionVolumeViewModel  <a class="header-action link-secondary" title="
 
   <h3 id="DataMaster_ViewModels_Pages_ECharts_ProductionVolumeViewModel_InitializeWebView2Service_Microsoft_Web_WebView2_Core_CoreWebView2_" data-uid="DataMaster.ViewModels.Pages.ECharts.ProductionVolumeViewModel.InitializeWebView2Service(Microsoft.Web.WebView2.Core.CoreWebView2)">
   InitializeWebView2Service(CoreWebView2)
-  <a class="header-action link-secondary" title="View source" href="https://bitbucket.org/mas-software/industrial-mes-net-platform-advanced/src/feature/OpenCV/ViewModels/Pages/ECharts/ProductionVolumeViewModel.cs#lines-233"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://bitbucket.org/mas-software/industrial-mes-net-platform-advanced/src/main/ViewModels/Pages/ECharts/ProductionVolumeViewModel.cs#lines-237"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>初始化 WebView2 服务</p>
@@ -870,7 +844,7 @@ Class ProductionVolumeViewModel  <a class="header-action link-secondary" title="
 
   <h3 id="DataMaster_ViewModels_Pages_ECharts_ProductionVolumeViewModel_OnNavigatedFrom" data-uid="DataMaster.ViewModels.Pages.ECharts.ProductionVolumeViewModel.OnNavigatedFrom">
   OnNavigatedFrom()
-  <a class="header-action link-secondary" title="View source" href="https://bitbucket.org/mas-software/industrial-mes-net-platform-advanced/src/feature/OpenCV/ViewModels/Pages/ECharts/ProductionVolumeViewModel.cs#lines-206"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://bitbucket.org/mas-software/industrial-mes-net-platform-advanced/src/main/ViewModels/Pages/ECharts/ProductionVolumeViewModel.cs#lines-210"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>导航离开当前页触发</p>
@@ -897,7 +871,7 @@ Class ProductionVolumeViewModel  <a class="header-action link-secondary" title="
 
   <h3 id="DataMaster_ViewModels_Pages_ECharts_ProductionVolumeViewModel_OnNavigatedTo" data-uid="DataMaster.ViewModels.Pages.ECharts.ProductionVolumeViewModel.OnNavigatedTo">
   OnNavigatedTo()
-  <a class="header-action link-secondary" title="View source" href="https://bitbucket.org/mas-software/industrial-mes-net-platform-advanced/src/feature/OpenCV/ViewModels/Pages/ECharts/ProductionVolumeViewModel.cs#lines-217"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://bitbucket.org/mas-software/industrial-mes-net-platform-advanced/src/main/ViewModels/Pages/ECharts/ProductionVolumeViewModel.cs#lines-221"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>导航到当前页触发</p>
@@ -924,7 +898,7 @@ Class ProductionVolumeViewModel  <a class="header-action link-secondary" title="
 </article>
 
         <div class="contribution d-print-none">
-          <a href="https://bitbucket.org/mas-software/industrial-mes-net-platform-advanced/src/feature/OpenCV/ViewModels/Pages/ECharts/ProductionVolumeViewModel.cs#lines-25" class="edit-link">Edit this page</a>
+          <a href="https://bitbucket.org/mas-software/industrial-mes-net-platform-advanced/src/main/ViewModels/Pages/ECharts/ProductionVolumeViewModel.cs#lines-25" class="edit-link">Edit this page</a>
         </div>
 
 

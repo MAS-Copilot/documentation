@@ -89,7 +89,7 @@
 
 
   <h1 id="DataMaster_ViewModels_Windows_Vision_ObjectDetectionSetViewModel" data-uid="DataMaster.ViewModels.Windows.Vision.ObjectDetectionSetViewModel" class="text-break">
-Class ObjectDetectionSetViewModel  <a class="header-action link-secondary" title="View source" href="https://bitbucket.org/mas-software/industrial-mes-net-platform-advanced/src/feature/OpenCV/ViewModels/Windows/Vision/ObjectDetectionSetViewModel.cs#lines-20"><i class="bi bi-code-slash"></i></a>
+Class ObjectDetectionSetViewModel  <a class="header-action link-secondary" title="View source" href="https://bitbucket.org/mas-software/industrial-mes-net-platform-advanced/src/main/ViewModels/Windows/Vision/ObjectDetectionSetViewModel.cs#lines-21"><i class="bi bi-code-slash"></i></a>
   </h1>
 
   <div class="facts text-secondary">
@@ -112,7 +112,7 @@ Class ObjectDetectionSetViewModel  <a class="header-action link-secondary" title
     <dt>Inheritance</dt>
     <dd>
       <div><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">object</a></div>
-      <div><a class="xref" href="DataMaster.ViewModels.ViewModelBase.html">ViewModelBase</a></div>
+      <div><a class="xref" href="DataMaster.Abstracts.ViewModelBase.html">ViewModelBase</a></div>
       <div><span class="xref">ObjectDetectionSetViewModel</span></div>
     </dd>
   </dl>
@@ -129,22 +129,25 @@ Class ObjectDetectionSetViewModel  <a class="header-action link-secondary" title
     <dt>Inherited Members</dt>
     <dd>
     <div>
-      <a class="xref" href="DataMaster.ViewModels.ViewModelBase.html#DataMaster_ViewModels_ViewModelBase_SystemLogger">ViewModelBase.SystemLogger</a>
+      <a class="xref" href="DataMaster.Abstracts.ViewModelBase.html#DataMaster_Abstracts_ViewModelBase_Config">ViewModelBase.Config</a>
     </div>
     <div>
-      <a class="xref" href="DataMaster.ViewModels.ViewModelBase.html#DataMaster_ViewModels_ViewModelBase_Config">ViewModelBase.Config</a>
+      <a class="xref" href="DataMaster.Abstracts.ViewModelBase.html#DataMaster_Abstracts_ViewModelBase_LanguageManager">ViewModelBase.LanguageManager</a>
     </div>
     <div>
-      <a class="xref" href="DataMaster.ViewModels.ViewModelBase.html#DataMaster_ViewModels_ViewModelBase_LanguageManager">ViewModelBase.LanguageManager</a>
+      <a class="xref" href="DataMaster.Abstracts.ViewModelBase.html#DataMaster_Abstracts_ViewModelBase_BusyCursor">ViewModelBase.BusyCursor</a>
     </div>
     <div>
-      <a class="xref" href="DataMaster.ViewModels.ViewModelBase.html#DataMaster_ViewModels_ViewModelBase_PropertyChanged">ViewModelBase.PropertyChanged</a>
+      <a class="xref" href="DataMaster.Abstracts.ViewModelBase.html#DataMaster_Abstracts_ViewModelBase_WorkingCursor">ViewModelBase.WorkingCursor</a>
     </div>
     <div>
-      <a class="xref" href="DataMaster.ViewModels.ViewModelBase.html#DataMaster_ViewModels_ViewModelBase_OnPropertyChanged_System_String_">ViewModelBase.OnPropertyChanged(string)</a>
+      <a class="xref" href="DataMaster.Abstracts.ViewModelBase.html#DataMaster_Abstracts_ViewModelBase_PropertyChanged">ViewModelBase.PropertyChanged</a>
     </div>
     <div>
-      <a class="xref" href="DataMaster.ViewModels.ViewModelBase.html#DataMaster_ViewModels_ViewModelBase_SetField__1___0____0_System_String_">ViewModelBase.SetField&lt;T&gt;(ref T, T, string)</a>
+      <a class="xref" href="DataMaster.Abstracts.ViewModelBase.html#DataMaster_Abstracts_ViewModelBase_OnPropertyChanged_System_String_">ViewModelBase.OnPropertyChanged(string)</a>
+    </div>
+    <div>
+      <a class="xref" href="DataMaster.Abstracts.ViewModelBase.html#DataMaster_Abstracts_ViewModelBase_SetField__1___0____0_System_String_">ViewModelBase.SetField&lt;T&gt;(ref T, T, string)</a>
     </div>
     <div>
       <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)">object.Equals(object)</a>
@@ -180,9 +183,9 @@ Class ObjectDetectionSetViewModel  <a class="header-action link-secondary" title
 
   <a id="DataMaster_ViewModels_Windows_Vision_ObjectDetectionSetViewModel__ctor_" data-uid="DataMaster.ViewModels.Windows.Vision.ObjectDetectionSetViewModel.#ctor*"></a>
 
-  <h3 id="DataMaster_ViewModels_Windows_Vision_ObjectDetectionSetViewModel__ctor_DataMaster_Modules_MAS_InstantMessage_Interfaces_IInstantMessageService_" data-uid="DataMaster.ViewModels.Windows.Vision.ObjectDetectionSetViewModel.#ctor(DataMaster.Modules.MAS.InstantMessage.Interfaces.IInstantMessageService)">
-  ObjectDetectionSetViewModel(IInstantMessageService)
-  <a class="header-action link-secondary" title="View source" href="https://bitbucket.org/mas-software/industrial-mes-net-platform-advanced/src/feature/OpenCV/ViewModels/Windows/Vision/ObjectDetectionSetViewModel.cs#lines-276"><i class="bi bi-code-slash"></i></a>
+  <h3 id="DataMaster_ViewModels_Windows_Vision_ObjectDetectionSetViewModel__ctor_DataMaster_Modules_MAS_InstantMessage_IInstantPublishMessageService_" data-uid="DataMaster.ViewModels.Windows.Vision.ObjectDetectionSetViewModel.#ctor(DataMaster.Modules.MAS.InstantMessage.IInstantPublishMessageService)">
+  ObjectDetectionSetViewModel(IInstantPublishMessageService)
+  <a class="header-action link-secondary" title="View source" href="https://bitbucket.org/mas-software/industrial-mes-net-platform-advanced/src/main/ViewModels/Windows/Vision/ObjectDetectionSetViewModel.cs#lines-277"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>构造函数，初始化 <a class="xref" href="DataMaster.ViewModels.Windows.Vision.ObjectDetectionSetViewModel.html">ObjectDetectionSetViewModel</a> 新实例</p>
@@ -190,12 +193,12 @@ Class ObjectDetectionSetViewModel  <a class="header-action link-secondary" title
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public ObjectDetectionSetViewModel(IInstantMessageService instantMessageService)</code></pre>
+    <pre><code class="lang-csharp hljs">public ObjectDetectionSetViewModel(IInstantPublishMessageService instantMessageService)</code></pre>
   </div>
 
   <h4 class="section">Parameters</h4>
   <dl class="parameters">
-    <dt><code>instantMessageService</code> <a class="xref" href="DataMaster.Modules.MAS.InstantMessage.Interfaces.IInstantMessageService.html">IInstantMessageService</a></dt>
+    <dt><code>instantMessageService</code> <a class="xref" href="DataMaster.Modules.MAS.InstantMessage.IInstantPublishMessageService.html">IInstantPublishMessageService</a></dt>
     <dd><p>即时信息发布服务</p>
 </dd>
   </dl>
@@ -219,7 +222,7 @@ Class ObjectDetectionSetViewModel  <a class="header-action link-secondary" title
 
   <h3 id="DataMaster_ViewModels_Windows_Vision_ObjectDetectionSetViewModel_BoundingBoxColor" data-uid="DataMaster.ViewModels.Windows.Vision.ObjectDetectionSetViewModel.BoundingBoxColor">
   BoundingBoxColor
-  <a class="header-action link-secondary" title="View source" href="https://bitbucket.org/mas-software/industrial-mes-net-platform-advanced/src/feature/OpenCV/ViewModels/Windows/Vision/ObjectDetectionSetViewModel.cs#lines-192"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://bitbucket.org/mas-software/industrial-mes-net-platform-advanced/src/main/ViewModels/Windows/Vision/ObjectDetectionSetViewModel.cs#lines-193"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>获取或设置检测框颜色</p>
@@ -251,7 +254,7 @@ Class ObjectDetectionSetViewModel  <a class="header-action link-secondary" title
 
   <h3 id="DataMaster_ViewModels_Windows_Vision_ObjectDetectionSetViewModel_CameraIndex" data-uid="DataMaster.ViewModels.Windows.Vision.ObjectDetectionSetViewModel.CameraIndex">
   CameraIndex
-  <a class="header-action link-secondary" title="View source" href="https://bitbucket.org/mas-software/industrial-mes-net-platform-advanced/src/feature/OpenCV/ViewModels/Windows/Vision/ObjectDetectionSetViewModel.cs#lines-34"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://bitbucket.org/mas-software/industrial-mes-net-platform-advanced/src/main/ViewModels/Windows/Vision/ObjectDetectionSetViewModel.cs#lines-35"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>获取或设置相机索引</p>
@@ -283,7 +286,7 @@ Class ObjectDetectionSetViewModel  <a class="header-action link-secondary" title
 
   <h3 id="DataMaster_ViewModels_Windows_Vision_ObjectDetectionSetViewModel_CameraIndexs" data-uid="DataMaster.ViewModels.Windows.Vision.ObjectDetectionSetViewModel.CameraIndexs">
   CameraIndexs
-  <a class="header-action link-secondary" title="View source" href="https://bitbucket.org/mas-software/industrial-mes-net-platform-advanced/src/feature/OpenCV/ViewModels/Windows/Vision/ObjectDetectionSetViewModel.cs#lines-245"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://bitbucket.org/mas-software/industrial-mes-net-platform-advanced/src/main/ViewModels/Windows/Vision/ObjectDetectionSetViewModel.cs#lines-246"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>获取可用摄像头索引列表</p>
@@ -315,7 +318,7 @@ Class ObjectDetectionSetViewModel  <a class="header-action link-secondary" title
 
   <h3 id="DataMaster_ViewModels_Windows_Vision_ObjectDetectionSetViewModel_ConfidenceThreshold" data-uid="DataMaster.ViewModels.Windows.Vision.ObjectDetectionSetViewModel.ConfidenceThreshold">
   ConfidenceThreshold
-  <a class="header-action link-secondary" title="View source" href="https://bitbucket.org/mas-software/industrial-mes-net-platform-advanced/src/feature/OpenCV/ViewModels/Windows/Vision/ObjectDetectionSetViewModel.cs#lines-60"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://bitbucket.org/mas-software/industrial-mes-net-platform-advanced/src/main/ViewModels/Windows/Vision/ObjectDetectionSetViewModel.cs#lines-61"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>获取或设置置信度阈值</p>
@@ -347,7 +350,7 @@ Class ObjectDetectionSetViewModel  <a class="header-action link-secondary" title
 
   <h3 id="DataMaster_ViewModels_Windows_Vision_ObjectDetectionSetViewModel_DetectedImagePath" data-uid="DataMaster.ViewModels.Windows.Vision.ObjectDetectionSetViewModel.DetectedImagePath">
   DetectedImagePath
-  <a class="header-action link-secondary" title="View source" href="https://bitbucket.org/mas-software/industrial-mes-net-platform-advanced/src/feature/OpenCV/ViewModels/Windows/Vision/ObjectDetectionSetViewModel.cs#lines-112"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://bitbucket.org/mas-software/industrial-mes-net-platform-advanced/src/main/ViewModels/Windows/Vision/ObjectDetectionSetViewModel.cs#lines-113"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>获取或设置检测到目标时图像保存的路径</p>
@@ -379,7 +382,7 @@ Class ObjectDetectionSetViewModel  <a class="header-action link-secondary" title
 
   <h3 id="DataMaster_ViewModels_Windows_Vision_ObjectDetectionSetViewModel_DetectionThreshold" data-uid="DataMaster.ViewModels.Windows.Vision.ObjectDetectionSetViewModel.DetectionThreshold">
   DetectionThreshold
-  <a class="header-action link-secondary" title="View source" href="https://bitbucket.org/mas-software/industrial-mes-net-platform-advanced/src/feature/OpenCV/ViewModels/Windows/Vision/ObjectDetectionSetViewModel.cs#lines-47"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://bitbucket.org/mas-software/industrial-mes-net-platform-advanced/src/main/ViewModels/Windows/Vision/ObjectDetectionSetViewModel.cs#lines-48"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>获取或设置检测阈值，表示连续指定帧是否检测到目标，用于连续模触发式</p>
@@ -411,7 +414,7 @@ Class ObjectDetectionSetViewModel  <a class="header-action link-secondary" title
 
   <h3 id="DataMaster_ViewModels_Windows_Vision_ObjectDetectionSetViewModel_EditStatus" data-uid="DataMaster.ViewModels.Windows.Vision.ObjectDetectionSetViewModel.EditStatus">
   EditStatus
-  <a class="header-action link-secondary" title="View source" href="https://bitbucket.org/mas-software/industrial-mes-net-platform-advanced/src/feature/OpenCV/ViewModels/Windows/Vision/ObjectDetectionSetViewModel.cs#lines-183"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://bitbucket.org/mas-software/industrial-mes-net-platform-advanced/src/main/ViewModels/Windows/Vision/ObjectDetectionSetViewModel.cs#lines-184"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>获取或设置编辑状态</p>
@@ -443,7 +446,7 @@ Class ObjectDetectionSetViewModel  <a class="header-action link-secondary" title
 
   <h3 id="DataMaster_ViewModels_Windows_Vision_ObjectDetectionSetViewModel_IsContinuousTrigger" data-uid="DataMaster.ViewModels.Windows.Vision.ObjectDetectionSetViewModel.IsContinuousTrigger">
   IsContinuousTrigger
-  <a class="header-action link-secondary" title="View source" href="https://bitbucket.org/mas-software/industrial-mes-net-platform-advanced/src/feature/OpenCV/ViewModels/Windows/Vision/ObjectDetectionSetViewModel.cs#lines-99"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://bitbucket.org/mas-software/industrial-mes-net-platform-advanced/src/main/ViewModels/Windows/Vision/ObjectDetectionSetViewModel.cs#lines-100"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>获取或设置是否连续触发</p>
@@ -475,7 +478,7 @@ Class ObjectDetectionSetViewModel  <a class="header-action link-secondary" title
 
   <h3 id="DataMaster_ViewModels_Windows_Vision_ObjectDetectionSetViewModel_IsEnableAutoImageSave" data-uid="DataMaster.ViewModels.Windows.Vision.ObjectDetectionSetViewModel.IsEnableAutoImageSave">
   IsEnableAutoImageSave
-  <a class="header-action link-secondary" title="View source" href="https://bitbucket.org/mas-software/industrial-mes-net-platform-advanced/src/feature/OpenCV/ViewModels/Windows/Vision/ObjectDetectionSetViewModel.cs#lines-159"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://bitbucket.org/mas-software/industrial-mes-net-platform-advanced/src/main/ViewModels/Windows/Vision/ObjectDetectionSetViewModel.cs#lines-160"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>获取或设置是否自动保存图像</p>
@@ -507,7 +510,7 @@ Class ObjectDetectionSetViewModel  <a class="header-action link-secondary" title
 
   <h3 id="DataMaster_ViewModels_Windows_Vision_ObjectDetectionSetViewModel_IsEnabledAutoImageSave" data-uid="DataMaster.ViewModels.Windows.Vision.ObjectDetectionSetViewModel.IsEnabledAutoImageSave">
   IsEnabledAutoImageSave
-  <a class="header-action link-secondary" title="View source" href="https://bitbucket.org/mas-software/industrial-mes-net-platform-advanced/src/feature/OpenCV/ViewModels/Windows/Vision/ObjectDetectionSetViewModel.cs#lines-174"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://bitbucket.org/mas-software/industrial-mes-net-platform-advanced/src/main/ViewModels/Windows/Vision/ObjectDetectionSetViewModel.cs#lines-175"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>获取或设置自动保存设置使能</p>
@@ -539,7 +542,7 @@ Class ObjectDetectionSetViewModel  <a class="header-action link-secondary" title
 
   <h3 id="DataMaster_ViewModels_Windows_Vision_ObjectDetectionSetViewModel_IsRefreshCameraIndexsInfo" data-uid="DataMaster.ViewModels.Windows.Vision.ObjectDetectionSetViewModel.IsRefreshCameraIndexsInfo">
   IsRefreshCameraIndexsInfo
-  <a class="header-action link-secondary" title="View source" href="https://bitbucket.org/mas-software/industrial-mes-net-platform-advanced/src/feature/OpenCV/ViewModels/Windows/Vision/ObjectDetectionSetViewModel.cs#lines-214"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://bitbucket.org/mas-software/industrial-mes-net-platform-advanced/src/main/ViewModels/Windows/Vision/ObjectDetectionSetViewModel.cs#lines-215"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>获取或设置是否显示刷新相机列表信息</p>
@@ -571,7 +574,7 @@ Class ObjectDetectionSetViewModel  <a class="header-action link-secondary" title
 
   <h3 id="DataMaster_ViewModels_Windows_Vision_ObjectDetectionSetViewModel_IsUseGPUAcceleration" data-uid="DataMaster.ViewModels.Windows.Vision.ObjectDetectionSetViewModel.IsUseGPUAcceleration">
   IsUseGPUAcceleration
-  <a class="header-action link-secondary" title="View source" href="https://bitbucket.org/mas-software/industrial-mes-net-platform-advanced/src/feature/OpenCV/ViewModels/Windows/Vision/ObjectDetectionSetViewModel.cs#lines-86"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://bitbucket.org/mas-software/industrial-mes-net-platform-advanced/src/main/ViewModels/Windows/Vision/ObjectDetectionSetViewModel.cs#lines-87"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>获取或设置是否使用GPU加速</p>
@@ -603,7 +606,7 @@ Class ObjectDetectionSetViewModel  <a class="header-action link-secondary" title
 
   <h3 id="DataMaster_ViewModels_Windows_Vision_ObjectDetectionSetViewModel_MaxSavedImage" data-uid="DataMaster.ViewModels.Windows.Vision.ObjectDetectionSetViewModel.MaxSavedImage">
   MaxSavedImage
-  <a class="header-action link-secondary" title="View source" href="https://bitbucket.org/mas-software/industrial-mes-net-platform-advanced/src/feature/OpenCV/ViewModels/Windows/Vision/ObjectDetectionSetViewModel.cs#lines-146"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://bitbucket.org/mas-software/industrial-mes-net-platform-advanced/src/main/ViewModels/Windows/Vision/ObjectDetectionSetViewModel.cs#lines-147"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>获取或设置保存历史图像的最大数量</p>
@@ -635,7 +638,7 @@ Class ObjectDetectionSetViewModel  <a class="header-action link-secondary" title
 
   <h3 id="DataMaster_ViewModels_Windows_Vision_ObjectDetectionSetViewModel_MaxSavedImages" data-uid="DataMaster.ViewModels.Windows.Vision.ObjectDetectionSetViewModel.MaxSavedImages">
   MaxSavedImages
-  <a class="header-action link-secondary" title="View source" href="https://bitbucket.org/mas-software/industrial-mes-net-platform-advanced/src/feature/OpenCV/ViewModels/Windows/Vision/ObjectDetectionSetViewModel.cs#lines-240"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://bitbucket.org/mas-software/industrial-mes-net-platform-advanced/src/main/ViewModels/Windows/Vision/ObjectDetectionSetViewModel.cs#lines-241"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>获取保存历史图像的最大数量选项列表</p>
@@ -667,7 +670,7 @@ Class ObjectDetectionSetViewModel  <a class="header-action link-secondary" title
 
   <h3 id="DataMaster_ViewModels_Windows_Vision_ObjectDetectionSetViewModel_NonDetectedImagePath" data-uid="DataMaster.ViewModels.Windows.Vision.ObjectDetectionSetViewModel.NonDetectedImagePath">
   NonDetectedImagePath
-  <a class="header-action link-secondary" title="View source" href="https://bitbucket.org/mas-software/industrial-mes-net-platform-advanced/src/feature/OpenCV/ViewModels/Windows/Vision/ObjectDetectionSetViewModel.cs#lines-129"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://bitbucket.org/mas-software/industrial-mes-net-platform-advanced/src/main/ViewModels/Windows/Vision/ObjectDetectionSetViewModel.cs#lines-130"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>获取或设置未检测到目标时图像保存的路径</p>
@@ -699,7 +702,7 @@ Class ObjectDetectionSetViewModel  <a class="header-action link-secondary" title
 
   <h3 id="DataMaster_ViewModels_Windows_Vision_ObjectDetectionSetViewModel_NonMaximumSuppression" data-uid="DataMaster.ViewModels.Windows.Vision.ObjectDetectionSetViewModel.NonMaximumSuppression">
   NonMaximumSuppression
-  <a class="header-action link-secondary" title="View source" href="https://bitbucket.org/mas-software/industrial-mes-net-platform-advanced/src/feature/OpenCV/ViewModels/Windows/Vision/ObjectDetectionSetViewModel.cs#lines-73"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://bitbucket.org/mas-software/industrial-mes-net-platform-advanced/src/main/ViewModels/Windows/Vision/ObjectDetectionSetViewModel.cs#lines-74"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>获取或设置非极大值抑制</p>
@@ -731,7 +734,7 @@ Class ObjectDetectionSetViewModel  <a class="header-action link-secondary" title
 
   <h3 id="DataMaster_ViewModels_Windows_Vision_ObjectDetectionSetViewModel_ObjectDetectionSetWindowVer" data-uid="DataMaster.ViewModels.Windows.Vision.ObjectDetectionSetViewModel.ObjectDetectionSetWindowVer">
   ObjectDetectionSetWindowVer
-  <a class="header-action link-secondary" title="View source" href="https://bitbucket.org/mas-software/industrial-mes-net-platform-advanced/src/feature/OpenCV/ViewModels/Windows/Vision/ObjectDetectionSetViewModel.cs#lines-28"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://bitbucket.org/mas-software/industrial-mes-net-platform-advanced/src/main/ViewModels/Windows/Vision/ObjectDetectionSetViewModel.cs#lines-29"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>获取目标检测设置窗口版本</p>
@@ -763,7 +766,7 @@ Class ObjectDetectionSetViewModel  <a class="header-action link-secondary" title
 
   <h3 id="DataMaster_ViewModels_Windows_Vision_ObjectDetectionSetViewModel_OpenSaveFailureFolderCommand" data-uid="DataMaster.ViewModels.Windows.Vision.ObjectDetectionSetViewModel.OpenSaveFailureFolderCommand">
   OpenSaveFailureFolderCommand
-  <a class="header-action link-secondary" title="View source" href="https://bitbucket.org/mas-software/industrial-mes-net-platform-advanced/src/feature/OpenCV/ViewModels/Windows/Vision/ObjectDetectionSetViewModel.cs#lines-260"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://bitbucket.org/mas-software/industrial-mes-net-platform-advanced/src/main/ViewModels/Windows/Vision/ObjectDetectionSetViewModel.cs#lines-261"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>获取打开保存未检测到目标图像的文件夹命令</p>
@@ -795,7 +798,7 @@ Class ObjectDetectionSetViewModel  <a class="header-action link-secondary" title
 
   <h3 id="DataMaster_ViewModels_Windows_Vision_ObjectDetectionSetViewModel_OpenSaveSuccessFolderCommand" data-uid="DataMaster.ViewModels.Windows.Vision.ObjectDetectionSetViewModel.OpenSaveSuccessFolderCommand">
   OpenSaveSuccessFolderCommand
-  <a class="header-action link-secondary" title="View source" href="https://bitbucket.org/mas-software/industrial-mes-net-platform-advanced/src/feature/OpenCV/ViewModels/Windows/Vision/ObjectDetectionSetViewModel.cs#lines-250"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://bitbucket.org/mas-software/industrial-mes-net-platform-advanced/src/main/ViewModels/Windows/Vision/ObjectDetectionSetViewModel.cs#lines-251"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>获取打开保存检测到目标图像的文件夹命令</p>
@@ -827,7 +830,7 @@ Class ObjectDetectionSetViewModel  <a class="header-action link-secondary" title
 
   <h3 id="DataMaster_ViewModels_Windows_Vision_ObjectDetectionSetViewModel_RefreshCameraIndexsCommand" data-uid="DataMaster.ViewModels.Windows.Vision.ObjectDetectionSetViewModel.RefreshCameraIndexsCommand">
   RefreshCameraIndexsCommand
-  <a class="header-action link-secondary" title="View source" href="https://bitbucket.org/mas-software/industrial-mes-net-platform-advanced/src/feature/OpenCV/ViewModels/Windows/Vision/ObjectDetectionSetViewModel.cs#lines-270"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://bitbucket.org/mas-software/industrial-mes-net-platform-advanced/src/main/ViewModels/Windows/Vision/ObjectDetectionSetViewModel.cs#lines-271"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>获取刷新摄像头索引列表命令</p>
@@ -859,7 +862,7 @@ Class ObjectDetectionSetViewModel  <a class="header-action link-secondary" title
 
   <h3 id="DataMaster_ViewModels_Windows_Vision_ObjectDetectionSetViewModel_RefreshCameraIndexsCursor" data-uid="DataMaster.ViewModels.Windows.Vision.ObjectDetectionSetViewModel.RefreshCameraIndexsCursor">
   RefreshCameraIndexsCursor
-  <a class="header-action link-secondary" title="View source" href="https://bitbucket.org/mas-software/industrial-mes-net-platform-advanced/src/feature/OpenCV/ViewModels/Windows/Vision/ObjectDetectionSetViewModel.cs#lines-205"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://bitbucket.org/mas-software/industrial-mes-net-platform-advanced/src/main/ViewModels/Windows/Vision/ObjectDetectionSetViewModel.cs#lines-206"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>获取或设置刷新摄像头列表的鼠标图标</p>
@@ -891,7 +894,7 @@ Class ObjectDetectionSetViewModel  <a class="header-action link-secondary" title
 
   <h3 id="DataMaster_ViewModels_Windows_Vision_ObjectDetectionSetViewModel_RefreshCameraIndexsInfo" data-uid="DataMaster.ViewModels.Windows.Vision.ObjectDetectionSetViewModel.RefreshCameraIndexsInfo">
   RefreshCameraIndexsInfo
-  <a class="header-action link-secondary" title="View source" href="https://bitbucket.org/mas-software/industrial-mes-net-platform-advanced/src/feature/OpenCV/ViewModels/Windows/Vision/ObjectDetectionSetViewModel.cs#lines-223"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://bitbucket.org/mas-software/industrial-mes-net-platform-advanced/src/main/ViewModels/Windows/Vision/ObjectDetectionSetViewModel.cs#lines-224"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>获取或设置刷新相机列表信息</p>
@@ -923,7 +926,7 @@ Class ObjectDetectionSetViewModel  <a class="header-action link-secondary" title
 
   <h3 id="DataMaster_ViewModels_Windows_Vision_ObjectDetectionSetViewModel_RefreshCameraIndexsInfoForeground" data-uid="DataMaster.ViewModels.Windows.Vision.ObjectDetectionSetViewModel.RefreshCameraIndexsInfoForeground">
   RefreshCameraIndexsInfoForeground
-  <a class="header-action link-secondary" title="View source" href="https://bitbucket.org/mas-software/industrial-mes-net-platform-advanced/src/feature/OpenCV/ViewModels/Windows/Vision/ObjectDetectionSetViewModel.cs#lines-232"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://bitbucket.org/mas-software/industrial-mes-net-platform-advanced/src/main/ViewModels/Windows/Vision/ObjectDetectionSetViewModel.cs#lines-233"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>获取或设置刷新相机列表的前景颜色</p>
@@ -955,7 +958,7 @@ Class ObjectDetectionSetViewModel  <a class="header-action link-secondary" title
 
   <h3 id="DataMaster_ViewModels_Windows_Vision_ObjectDetectionSetViewModel_SelectSaveFailurePathCommand" data-uid="DataMaster.ViewModels.Windows.Vision.ObjectDetectionSetViewModel.SelectSaveFailurePathCommand">
   SelectSaveFailurePathCommand
-  <a class="header-action link-secondary" title="View source" href="https://bitbucket.org/mas-software/industrial-mes-net-platform-advanced/src/feature/OpenCV/ViewModels/Windows/Vision/ObjectDetectionSetViewModel.cs#lines-265"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://bitbucket.org/mas-software/industrial-mes-net-platform-advanced/src/main/ViewModels/Windows/Vision/ObjectDetectionSetViewModel.cs#lines-266"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>获取选择保存未检测到的目标图像路径文件命令</p>
@@ -987,7 +990,7 @@ Class ObjectDetectionSetViewModel  <a class="header-action link-secondary" title
 
   <h3 id="DataMaster_ViewModels_Windows_Vision_ObjectDetectionSetViewModel_SelectSaveSuccessPathCommand" data-uid="DataMaster.ViewModels.Windows.Vision.ObjectDetectionSetViewModel.SelectSaveSuccessPathCommand">
   SelectSaveSuccessPathCommand
-  <a class="header-action link-secondary" title="View source" href="https://bitbucket.org/mas-software/industrial-mes-net-platform-advanced/src/feature/OpenCV/ViewModels/Windows/Vision/ObjectDetectionSetViewModel.cs#lines-255"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://bitbucket.org/mas-software/industrial-mes-net-platform-advanced/src/main/ViewModels/Windows/Vision/ObjectDetectionSetViewModel.cs#lines-256"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>获取选择保存检测成功的图像路径文件命令</p>
@@ -1023,7 +1026,7 @@ Class ObjectDetectionSetViewModel  <a class="header-action link-secondary" title
 
   <h3 id="DataMaster_ViewModels_Windows_Vision_ObjectDetectionSetViewModel_HandleWindowClosing" data-uid="DataMaster.ViewModels.Windows.Vision.ObjectDetectionSetViewModel.HandleWindowClosing">
   HandleWindowClosing()
-  <a class="header-action link-secondary" title="View source" href="https://bitbucket.org/mas-software/industrial-mes-net-platform-advanced/src/feature/OpenCV/ViewModels/Windows/Vision/ObjectDetectionSetViewModel.cs#lines-375"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://bitbucket.org/mas-software/industrial-mes-net-platform-advanced/src/main/ViewModels/Windows/Vision/ObjectDetectionSetViewModel.cs#lines-376"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>窗口关闭事件的处理</p>
@@ -1050,7 +1053,7 @@ Class ObjectDetectionSetViewModel  <a class="header-action link-secondary" title
 </article>
 
         <div class="contribution d-print-none">
-          <a href="https://bitbucket.org/mas-software/industrial-mes-net-platform-advanced/src/feature/OpenCV/ViewModels/Windows/Vision/ObjectDetectionSetViewModel.cs#lines-20" class="edit-link">Edit this page</a>
+          <a href="https://bitbucket.org/mas-software/industrial-mes-net-platform-advanced/src/main/ViewModels/Windows/Vision/ObjectDetectionSetViewModel.cs#lines-21" class="edit-link">Edit this page</a>
         </div>
 
 

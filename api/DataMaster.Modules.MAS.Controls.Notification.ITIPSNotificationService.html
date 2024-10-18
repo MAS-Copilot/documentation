@@ -2,11 +2,11 @@
 <html>
   <head>
     <meta charset="utf-8">
-      <title>Interface ITIPSNotificationService | DataMaster </title>
+      <title>Interface ITipsNotificationService | DataMaster </title>
       <meta name="viewport" content="width=device-width, initial-scale=1.0">
-      <meta name="title" content="Interface ITIPSNotificationService | DataMaster ">
+      <meta name="title" content="Interface ITipsNotificationService | DataMaster ">
       
-      <meta name="description" content="提示通知服务接口">
+      <meta name="description" content="Tips 通知提示服务接口">
       <link rel="icon" href="../images/favicon.ico">
       <link rel="stylesheet" href="../public/docfx.min.css">
       <link rel="stylesheet" href="../public/main.css">
@@ -84,12 +84,12 @@
           <nav id="breadcrumb"></nav>
         </div>
 
-        <article data-uid="DataMaster.Modules.MAS.Controls.Notification.ITIPSNotificationService">
+        <article data-uid="DataMaster.Modules.MAS.Controls.Notification.ITipsNotificationService">
 
 
 
-  <h1 id="DataMaster_Modules_MAS_Controls_Notification_ITIPSNotificationService" data-uid="DataMaster.Modules.MAS.Controls.Notification.ITIPSNotificationService" class="text-break">
-Interface ITIPSNotificationService  <a class="header-action link-secondary" title="View source" href="https://bitbucket.org/mas-software/industrial-mes-net-platform-advanced/src/feature/OpenCV/Modules/MAS.Controls/Notification/Interface/ITIPSNotification.cs#lines-16"><i class="bi bi-code-slash"></i></a>
+  <h1 id="DataMaster_Modules_MAS_Controls_Notification_ITipsNotificationService" data-uid="DataMaster.Modules.MAS.Controls.Notification.ITipsNotificationService" class="text-break">
+Interface ITipsNotificationService  <a class="header-action link-secondary" title="View source" href="https://bitbucket.org/mas-software/industrial-mes-net-platform-advanced/src/main/Modules/MAS.Controls/Notification/Interface/ITipsNotificationService.cs#lines-15"><i class="bi bi-code-slash"></i></a>
   </h1>
 
   <div class="facts text-secondary">
@@ -97,12 +97,12 @@ Interface ITIPSNotificationService  <a class="header-action link-secondary" titl
   <dl><dt>Assembly</dt><dd>DataMaster.dll</dd></dl>
   </div>
 
-  <div class="markdown summary"><p>提示通知服务接口</p>
+  <div class="markdown summary"><p>Tips 通知提示服务接口</p>
 </div>
   <div class="markdown conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public interface ITIPSNotificationService</code></pre>
+    <pre><code class="lang-csharp hljs">public interface ITipsNotificationService</code></pre>
   </div>
 
 
@@ -121,11 +121,11 @@ Interface ITIPSNotificationService  <a class="header-action link-secondary" titl
 </h2>
 
 
-  <a id="DataMaster_Modules_MAS_Controls_Notification_ITIPSNotificationService_Error_" data-uid="DataMaster.Modules.MAS.Controls.Notification.ITIPSNotificationService.Error*"></a>
+  <a id="DataMaster_Modules_MAS_Controls_Notification_ITipsNotificationService_Error_" data-uid="DataMaster.Modules.MAS.Controls.Notification.ITipsNotificationService.Error*"></a>
 
-  <h3 id="DataMaster_Modules_MAS_Controls_Notification_ITIPSNotificationService_Error_System_String_" data-uid="DataMaster.Modules.MAS.Controls.Notification.ITIPSNotificationService.Error(System.String)">
-  Error(string)
-  <a class="header-action link-secondary" title="View source" href="https://bitbucket.org/mas-software/industrial-mes-net-platform-advanced/src/feature/OpenCV/Modules/MAS.Controls/Notification/Interface/ITIPSNotification.cs#lines-39"><i class="bi bi-code-slash"></i></a>
+  <h3 id="DataMaster_Modules_MAS_Controls_Notification_ITipsNotificationService_Error_System_String_DataMaster_Modules_MAS_Controls_Notification_InfoPosition_System_Action_" data-uid="DataMaster.Modules.MAS.Controls.Notification.ITipsNotificationService.Error(System.String,DataMaster.Modules.MAS.Controls.Notification.InfoPosition,System.Action)">
+  Error(string, InfoPosition, Action?)
+  <a class="header-action link-secondary" title="View source" href="https://bitbucket.org/mas-software/industrial-mes-net-platform-advanced/src/main/Modules/MAS.Controls/Notification/Interface/ITipsNotificationService.cs#lines-94"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>错误提示</p>
@@ -133,13 +133,19 @@ Interface ITIPSNotificationService  <a class="header-action link-secondary" titl
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">void Error(string message)</code></pre>
+    <pre><code class="lang-csharp hljs">void Error(string message, InfoPosition position = InfoPosition.BottomRight, Action? onClick = null)</code></pre>
   </div>
 
   <h4 class="section">Parameters</h4>
   <dl class="parameters">
     <dt><code>message</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
     <dd><p>内容</p>
+</dd>
+    <dt><code>position</code> <a class="xref" href="DataMaster.Modules.MAS.Controls.Notification.InfoPosition.html">InfoPosition</a></dt>
+    <dd><p>通知显示的位置</p>
+</dd>
+    <dt><code>onClick</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.action">Action</a></dt>
+    <dd><p>点击时的回调操作</p>
 </dd>
   </dl>
 
@@ -150,15 +156,63 @@ Interface ITIPSNotificationService  <a class="header-action link-secondary" titl
 
 
 
+  <h4 class="section" id="DataMaster_Modules_MAS_Controls_Notification_ITipsNotificationService_Error_System_String_DataMaster_Modules_MAS_Controls_Notification_InfoPosition_System_Action__remarks">Remarks</h4>
+  <div class="markdown level1 remarks"><p>优先查找本地语言文化资源使用，如果未找到则使用原文本</p>
+</div>
 
 
 
 
-  <a id="DataMaster_Modules_MAS_Controls_Notification_ITIPSNotificationService_Info_" data-uid="DataMaster.Modules.MAS.Controls.Notification.ITIPSNotificationService.Info*"></a>
+  <a id="DataMaster_Modules_MAS_Controls_Notification_ITipsNotificationService_Error_" data-uid="DataMaster.Modules.MAS.Controls.Notification.ITipsNotificationService.Error*"></a>
 
-  <h3 id="DataMaster_Modules_MAS_Controls_Notification_ITIPSNotificationService_Info_System_String_" data-uid="DataMaster.Modules.MAS.Controls.Notification.ITIPSNotificationService.Info(System.String)">
-  Info(string)
-  <a class="header-action link-secondary" title="View source" href="https://bitbucket.org/mas-software/industrial-mes-net-platform-advanced/src/feature/OpenCV/Modules/MAS.Controls/Notification/Interface/ITIPSNotification.cs#lines-21"><i class="bi bi-code-slash"></i></a>
+  <h3 id="DataMaster_Modules_MAS_Controls_Notification_ITipsNotificationService_Error_System_String_System_String_DataMaster_Modules_MAS_Controls_Notification_InfoPosition_System_Action_" data-uid="DataMaster.Modules.MAS.Controls.Notification.ITipsNotificationService.Error(System.String,System.String,DataMaster.Modules.MAS.Controls.Notification.InfoPosition,System.Action)">
+  Error(string, string, InfoPosition, Action?)
+  <a class="header-action link-secondary" title="View source" href="https://bitbucket.org/mas-software/industrial-mes-net-platform-advanced/src/main/Modules/MAS.Controls/Notification/Interface/ITipsNotificationService.cs#lines-106"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>错误提示</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">void Error(string title, string message, InfoPosition position = InfoPosition.BottomRight, Action? onClick = null)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>title</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd><p>标题</p>
+</dd>
+    <dt><code>message</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd><p>内容</p>
+</dd>
+    <dt><code>position</code> <a class="xref" href="DataMaster.Modules.MAS.Controls.Notification.InfoPosition.html">InfoPosition</a></dt>
+    <dd><p>通知显示的位置</p>
+</dd>
+    <dt><code>onClick</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.action">Action</a></dt>
+    <dd><p>点击时的回调操作</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <h4 class="section" id="DataMaster_Modules_MAS_Controls_Notification_ITipsNotificationService_Error_System_String_System_String_DataMaster_Modules_MAS_Controls_Notification_InfoPosition_System_Action__remarks">Remarks</h4>
+  <div class="markdown level1 remarks"><p>优先查找本地语言文化资源使用，如果未找到则使用原文本</p>
+</div>
+
+
+
+
+  <a id="DataMaster_Modules_MAS_Controls_Notification_ITipsNotificationService_Info_" data-uid="DataMaster.Modules.MAS.Controls.Notification.ITipsNotificationService.Info*"></a>
+
+  <h3 id="DataMaster_Modules_MAS_Controls_Notification_ITipsNotificationService_Info_System_String_DataMaster_Modules_MAS_Controls_Notification_InfoPosition_System_Action_" data-uid="DataMaster.Modules.MAS.Controls.Notification.ITipsNotificationService.Info(System.String,DataMaster.Modules.MAS.Controls.Notification.InfoPosition,System.Action)">
+  Info(string, InfoPosition, Action?)
+  <a class="header-action link-secondary" title="View source" href="https://bitbucket.org/mas-software/industrial-mes-net-platform-advanced/src/main/Modules/MAS.Controls/Notification/Interface/ITipsNotificationService.cs#lines-25"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>信息提示</p>
@@ -166,13 +220,19 @@ Interface ITIPSNotificationService  <a class="header-action link-secondary" titl
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">void Info(string message)</code></pre>
+    <pre><code class="lang-csharp hljs">void Info(string message, InfoPosition position = InfoPosition.BottomRight, Action? onClick = null)</code></pre>
   </div>
 
   <h4 class="section">Parameters</h4>
   <dl class="parameters">
     <dt><code>message</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
     <dd><p>内容</p>
+</dd>
+    <dt><code>position</code> <a class="xref" href="DataMaster.Modules.MAS.Controls.Notification.InfoPosition.html">InfoPosition</a></dt>
+    <dd><p>通知显示的位置</p>
+</dd>
+    <dt><code>onClick</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.action">Action</a></dt>
+    <dd><p>点击时的回调操作</p>
 </dd>
   </dl>
 
@@ -183,15 +243,63 @@ Interface ITIPSNotificationService  <a class="header-action link-secondary" titl
 
 
 
+  <h4 class="section" id="DataMaster_Modules_MAS_Controls_Notification_ITipsNotificationService_Info_System_String_DataMaster_Modules_MAS_Controls_Notification_InfoPosition_System_Action__remarks">Remarks</h4>
+  <div class="markdown level1 remarks"><p>优先查找本地语言文化资源使用，如果未找到则使用原文本</p>
+</div>
 
 
 
 
-  <a id="DataMaster_Modules_MAS_Controls_Notification_ITIPSNotificationService_Success_" data-uid="DataMaster.Modules.MAS.Controls.Notification.ITIPSNotificationService.Success*"></a>
+  <a id="DataMaster_Modules_MAS_Controls_Notification_ITipsNotificationService_Info_" data-uid="DataMaster.Modules.MAS.Controls.Notification.ITipsNotificationService.Info*"></a>
 
-  <h3 id="DataMaster_Modules_MAS_Controls_Notification_ITIPSNotificationService_Success_System_String_" data-uid="DataMaster.Modules.MAS.Controls.Notification.ITIPSNotificationService.Success(System.String)">
-  Success(string)
-  <a class="header-action link-secondary" title="View source" href="https://bitbucket.org/mas-software/industrial-mes-net-platform-advanced/src/feature/OpenCV/Modules/MAS.Controls/Notification/Interface/ITIPSNotification.cs#lines-27"><i class="bi bi-code-slash"></i></a>
+  <h3 id="DataMaster_Modules_MAS_Controls_Notification_ITipsNotificationService_Info_System_String_System_String_DataMaster_Modules_MAS_Controls_Notification_InfoPosition_System_Action_" data-uid="DataMaster.Modules.MAS.Controls.Notification.ITipsNotificationService.Info(System.String,System.String,DataMaster.Modules.MAS.Controls.Notification.InfoPosition,System.Action)">
+  Info(string, string, InfoPosition, Action?)
+  <a class="header-action link-secondary" title="View source" href="https://bitbucket.org/mas-software/industrial-mes-net-platform-advanced/src/main/Modules/MAS.Controls/Notification/Interface/ITipsNotificationService.cs#lines-37"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>信息提示</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">void Info(string title, string message, InfoPosition position = InfoPosition.BottomRight, Action? onClick = null)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>title</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd><p>标题</p>
+</dd>
+    <dt><code>message</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd><p>内容</p>
+</dd>
+    <dt><code>position</code> <a class="xref" href="DataMaster.Modules.MAS.Controls.Notification.InfoPosition.html">InfoPosition</a></dt>
+    <dd><p>通知显示的位置</p>
+</dd>
+    <dt><code>onClick</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.action">Action</a></dt>
+    <dd><p>点击时的回调操作</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <h4 class="section" id="DataMaster_Modules_MAS_Controls_Notification_ITipsNotificationService_Info_System_String_System_String_DataMaster_Modules_MAS_Controls_Notification_InfoPosition_System_Action__remarks">Remarks</h4>
+  <div class="markdown level1 remarks"><p>优先查找本地语言文化资源使用，如果未找到则使用原文本</p>
+</div>
+
+
+
+
+  <a id="DataMaster_Modules_MAS_Controls_Notification_ITipsNotificationService_Success_" data-uid="DataMaster.Modules.MAS.Controls.Notification.ITipsNotificationService.Success*"></a>
+
+  <h3 id="DataMaster_Modules_MAS_Controls_Notification_ITipsNotificationService_Success_System_String_DataMaster_Modules_MAS_Controls_Notification_InfoPosition_System_Action_" data-uid="DataMaster.Modules.MAS.Controls.Notification.ITipsNotificationService.Success(System.String,DataMaster.Modules.MAS.Controls.Notification.InfoPosition,System.Action)">
+  Success(string, InfoPosition, Action?)
+  <a class="header-action link-secondary" title="View source" href="https://bitbucket.org/mas-software/industrial-mes-net-platform-advanced/src/main/Modules/MAS.Controls/Notification/Interface/ITipsNotificationService.cs#lines-48"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>成功提示</p>
@@ -199,13 +307,19 @@ Interface ITIPSNotificationService  <a class="header-action link-secondary" titl
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">void Success(string message)</code></pre>
+    <pre><code class="lang-csharp hljs">void Success(string message, InfoPosition position = InfoPosition.BottomRight, Action? onClick = null)</code></pre>
   </div>
 
   <h4 class="section">Parameters</h4>
   <dl class="parameters">
     <dt><code>message</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
     <dd><p>内容</p>
+</dd>
+    <dt><code>position</code> <a class="xref" href="DataMaster.Modules.MAS.Controls.Notification.InfoPosition.html">InfoPosition</a></dt>
+    <dd><p>通知显示的位置</p>
+</dd>
+    <dt><code>onClick</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.action">Action</a></dt>
+    <dd><p>点击时的回调操作</p>
 </dd>
   </dl>
 
@@ -216,15 +330,63 @@ Interface ITIPSNotificationService  <a class="header-action link-secondary" titl
 
 
 
+  <h4 class="section" id="DataMaster_Modules_MAS_Controls_Notification_ITipsNotificationService_Success_System_String_DataMaster_Modules_MAS_Controls_Notification_InfoPosition_System_Action__remarks">Remarks</h4>
+  <div class="markdown level1 remarks"><p>优先查找本地语言文化资源使用，如果未找到则使用原文本</p>
+</div>
 
 
 
 
-  <a id="DataMaster_Modules_MAS_Controls_Notification_ITIPSNotificationService_Warning_" data-uid="DataMaster.Modules.MAS.Controls.Notification.ITIPSNotificationService.Warning*"></a>
+  <a id="DataMaster_Modules_MAS_Controls_Notification_ITipsNotificationService_Success_" data-uid="DataMaster.Modules.MAS.Controls.Notification.ITipsNotificationService.Success*"></a>
 
-  <h3 id="DataMaster_Modules_MAS_Controls_Notification_ITIPSNotificationService_Warning_System_String_" data-uid="DataMaster.Modules.MAS.Controls.Notification.ITIPSNotificationService.Warning(System.String)">
-  Warning(string)
-  <a class="header-action link-secondary" title="View source" href="https://bitbucket.org/mas-software/industrial-mes-net-platform-advanced/src/feature/OpenCV/Modules/MAS.Controls/Notification/Interface/ITIPSNotification.cs#lines-33"><i class="bi bi-code-slash"></i></a>
+  <h3 id="DataMaster_Modules_MAS_Controls_Notification_ITipsNotificationService_Success_System_String_System_String_DataMaster_Modules_MAS_Controls_Notification_InfoPosition_System_Action_" data-uid="DataMaster.Modules.MAS.Controls.Notification.ITipsNotificationService.Success(System.String,System.String,DataMaster.Modules.MAS.Controls.Notification.InfoPosition,System.Action)">
+  Success(string, string, InfoPosition, Action?)
+  <a class="header-action link-secondary" title="View source" href="https://bitbucket.org/mas-software/industrial-mes-net-platform-advanced/src/main/Modules/MAS.Controls/Notification/Interface/ITipsNotificationService.cs#lines-60"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>成功提示</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">void Success(string title, string message, InfoPosition position = InfoPosition.BottomRight, Action? onClick = null)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>title</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd><p>标题</p>
+</dd>
+    <dt><code>message</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd><p>内容</p>
+</dd>
+    <dt><code>position</code> <a class="xref" href="DataMaster.Modules.MAS.Controls.Notification.InfoPosition.html">InfoPosition</a></dt>
+    <dd><p>通知显示的位置</p>
+</dd>
+    <dt><code>onClick</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.action">Action</a></dt>
+    <dd><p>点击时的回调操作</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <h4 class="section" id="DataMaster_Modules_MAS_Controls_Notification_ITipsNotificationService_Success_System_String_System_String_DataMaster_Modules_MAS_Controls_Notification_InfoPosition_System_Action__remarks">Remarks</h4>
+  <div class="markdown level1 remarks"><p>优先查找本地语言文化资源使用，如果未找到则使用原文本</p>
+</div>
+
+
+
+
+  <a id="DataMaster_Modules_MAS_Controls_Notification_ITipsNotificationService_Warning_" data-uid="DataMaster.Modules.MAS.Controls.Notification.ITipsNotificationService.Warning*"></a>
+
+  <h3 id="DataMaster_Modules_MAS_Controls_Notification_ITipsNotificationService_Warning_System_String_DataMaster_Modules_MAS_Controls_Notification_InfoPosition_System_Action_" data-uid="DataMaster.Modules.MAS.Controls.Notification.ITipsNotificationService.Warning(System.String,DataMaster.Modules.MAS.Controls.Notification.InfoPosition,System.Action)">
+  Warning(string, InfoPosition, Action?)
+  <a class="header-action link-secondary" title="View source" href="https://bitbucket.org/mas-software/industrial-mes-net-platform-advanced/src/main/Modules/MAS.Controls/Notification/Interface/ITipsNotificationService.cs#lines-71"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>警告提示</p>
@@ -232,13 +394,19 @@ Interface ITIPSNotificationService  <a class="header-action link-secondary" titl
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">void Warning(string message)</code></pre>
+    <pre><code class="lang-csharp hljs">void Warning(string message, InfoPosition position = InfoPosition.BottomRight, Action? onClick = null)</code></pre>
   </div>
 
   <h4 class="section">Parameters</h4>
   <dl class="parameters">
     <dt><code>message</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
     <dd><p>内容</p>
+</dd>
+    <dt><code>position</code> <a class="xref" href="DataMaster.Modules.MAS.Controls.Notification.InfoPosition.html">InfoPosition</a></dt>
+    <dd><p>通知显示的位置</p>
+</dd>
+    <dt><code>onClick</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.action">Action</a></dt>
+    <dd><p>点击时的回调操作</p>
 </dd>
   </dl>
 
@@ -249,6 +417,54 @@ Interface ITIPSNotificationService  <a class="header-action link-secondary" titl
 
 
 
+  <h4 class="section" id="DataMaster_Modules_MAS_Controls_Notification_ITipsNotificationService_Warning_System_String_DataMaster_Modules_MAS_Controls_Notification_InfoPosition_System_Action__remarks">Remarks</h4>
+  <div class="markdown level1 remarks"><p>优先查找本地语言文化资源使用，如果未找到则使用原文本</p>
+</div>
+
+
+
+
+  <a id="DataMaster_Modules_MAS_Controls_Notification_ITipsNotificationService_Warning_" data-uid="DataMaster.Modules.MAS.Controls.Notification.ITipsNotificationService.Warning*"></a>
+
+  <h3 id="DataMaster_Modules_MAS_Controls_Notification_ITipsNotificationService_Warning_System_String_System_String_DataMaster_Modules_MAS_Controls_Notification_InfoPosition_System_Action_" data-uid="DataMaster.Modules.MAS.Controls.Notification.ITipsNotificationService.Warning(System.String,System.String,DataMaster.Modules.MAS.Controls.Notification.InfoPosition,System.Action)">
+  Warning(string, string, InfoPosition, Action?)
+  <a class="header-action link-secondary" title="View source" href="https://bitbucket.org/mas-software/industrial-mes-net-platform-advanced/src/main/Modules/MAS.Controls/Notification/Interface/ITipsNotificationService.cs#lines-83"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>警告提示</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">void Warning(string title, string message, InfoPosition position = InfoPosition.BottomRight, Action? onClick = null)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>title</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd><p>标题</p>
+</dd>
+    <dt><code>message</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd><p>内容</p>
+</dd>
+    <dt><code>position</code> <a class="xref" href="DataMaster.Modules.MAS.Controls.Notification.InfoPosition.html">InfoPosition</a></dt>
+    <dd><p>通知显示的位置</p>
+</dd>
+    <dt><code>onClick</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.action">Action</a></dt>
+    <dd><p>点击时的回调操作</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <h4 class="section" id="DataMaster_Modules_MAS_Controls_Notification_ITipsNotificationService_Warning_System_String_System_String_DataMaster_Modules_MAS_Controls_Notification_InfoPosition_System_Action__remarks">Remarks</h4>
+  <div class="markdown level1 remarks"><p>优先查找本地语言文化资源使用，如果未找到则使用原文本</p>
+</div>
 
 
 
@@ -257,7 +473,7 @@ Interface ITIPSNotificationService  <a class="header-action link-secondary" titl
 </article>
 
         <div class="contribution d-print-none">
-          <a href="https://bitbucket.org/mas-software/industrial-mes-net-platform-advanced/src/feature/OpenCV/Modules/MAS.Controls/Notification/Interface/ITIPSNotification.cs#lines-16" class="edit-link">Edit this page</a>
+          <a href="https://bitbucket.org/mas-software/industrial-mes-net-platform-advanced/src/main/Modules/MAS.Controls/Notification/Interface/ITipsNotificationService.cs#lines-15" class="edit-link">Edit this page</a>
         </div>
 
 

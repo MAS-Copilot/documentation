@@ -89,7 +89,7 @@
 
 
   <h1 id="DataMaster_Interfaces_DisplayWindow_IWindowsProviderService" data-uid="DataMaster.Interfaces.DisplayWindow.IWindowsProviderService" class="text-break">
-Interface IWindowsProviderService  <a class="header-action link-secondary" title="View source" href="https://bitbucket.org/mas-software/industrial-mes-net-platform-advanced/src/feature/OpenCV/Interfaces/DisplayWindow/IWindowsProviderService.cs#lines-20"><i class="bi bi-code-slash"></i></a>
+Interface IWindowsProviderService  <a class="header-action link-secondary" title="View source" href="https://bitbucket.org/mas-software/industrial-mes-net-platform-advanced/src/main/Interfaces/DisplayWindow/IWindowsProviderService.cs#lines-20"><i class="bi bi-code-slash"></i></a>
   </h1>
 
   <div class="facts text-secondary">
@@ -121,11 +121,179 @@ Interface IWindowsProviderService  <a class="header-action link-secondary" title
 </h2>
 
 
+  <a id="DataMaster_Interfaces_DisplayWindow_IWindowsProviderService_Create_" data-uid="DataMaster.Interfaces.DisplayWindow.IWindowsProviderService.Create*"></a>
+
+  <h3 id="DataMaster_Interfaces_DisplayWindow_IWindowsProviderService_Create__1" data-uid="DataMaster.Interfaces.DisplayWindow.IWindowsProviderService.Create``1">
+  Create&lt;T&gt;()
+  <a class="header-action link-secondary" title="View source" href="https://bitbucket.org/mas-software/industrial-mes-net-platform-advanced/src/main/Interfaces/DisplayWindow/IWindowsProviderService.cs#lines-64"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>创建并返回指定类型的窗口实例</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">T Create&lt;T&gt;() where T : class</code></pre>
+  </div>
+
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><span class="xref">T</span></dt>
+    <dd><p>窗口实例</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Type Parameters</h4>
+  <dl class="parameters">
+    <dt><code>T</code></dt>
+    <dd><p>要创建的窗口类型，必须是Window的派生类</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+  <h4 class="section">Exceptions</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.invalidoperationexception">InvalidOperationException</a></dt>
+    <dd><p>如果T不是窗口的派生类，则抛出此异常</p>
+</dd>
+  </dl>
+
+
+
+  <a id="DataMaster_Interfaces_DisplayWindow_IWindowsProviderService_ShowDialog_" data-uid="DataMaster.Interfaces.DisplayWindow.IWindowsProviderService.ShowDialog*"></a>
+
+  <h3 id="DataMaster_Interfaces_DisplayWindow_IWindowsProviderService_ShowDialog_System_Type_" data-uid="DataMaster.Interfaces.DisplayWindow.IWindowsProviderService.ShowDialog(System.Type)">
+  ShowDialog(Type)
+  <a class="header-action link-secondary" title="View source" href="https://bitbucket.org/mas-software/industrial-mes-net-platform-advanced/src/main/Interfaces/DisplayWindow/IWindowsProviderService.cs#lines-48"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>显示指定类型的模态窗口</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">void ShowDialog(Type windowType)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>windowType</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.type">Type</a></dt>
+    <dd><p>要显示的窗口类型，必须是Window的派生类</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+  <h4 class="section">Exceptions</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.invalidoperationexception">InvalidOperationException</a></dt>
+    <dd><p>如果windowType不是窗口的派生类或服务未注册相应类型的窗口，则抛出此异常</p>
+</dd>
+  </dl>
+
+
+
+  <a id="DataMaster_Interfaces_DisplayWindow_IWindowsProviderService_ShowDialog_" data-uid="DataMaster.Interfaces.DisplayWindow.IWindowsProviderService.ShowDialog*"></a>
+
+  <h3 id="DataMaster_Interfaces_DisplayWindow_IWindowsProviderService_ShowDialog__1" data-uid="DataMaster.Interfaces.DisplayWindow.IWindowsProviderService.ShowDialog``1">
+  ShowDialog&lt;T&gt;()
+  <a class="header-action link-secondary" title="View source" href="https://bitbucket.org/mas-software/industrial-mes-net-platform-advanced/src/main/Interfaces/DisplayWindow/IWindowsProviderService.cs#lines-41"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>显示指定类型的模态窗口</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">void ShowDialog&lt;T&gt;() where T : class</code></pre>
+  </div>
+
+
+
+  <h4 class="section">Type Parameters</h4>
+  <dl class="parameters">
+    <dt><code>T</code></dt>
+    <dd><p>要显示的窗口类型，必须是Window的派生类</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+  <h4 class="section">Exceptions</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.invalidoperationexception">InvalidOperationException</a></dt>
+    <dd><p>如果T不是窗口的派生类或服务未注册相应类型的窗口，则抛出此异常</p>
+</dd>
+  </dl>
+
+
+
+  <a id="DataMaster_Interfaces_DisplayWindow_IWindowsProviderService_ShowDialog_" data-uid="DataMaster.Interfaces.DisplayWindow.IWindowsProviderService.ShowDialog*"></a>
+
+  <h3 id="DataMaster_Interfaces_DisplayWindow_IWindowsProviderService_ShowDialog__1_System_Object_" data-uid="DataMaster.Interfaces.DisplayWindow.IWindowsProviderService.ShowDialog``1(System.Object)">
+  ShowDialog&lt;T&gt;(object)
+  <a class="header-action link-secondary" title="View source" href="https://bitbucket.org/mas-software/industrial-mes-net-platform-advanced/src/main/Interfaces/DisplayWindow/IWindowsProviderService.cs#lines-56"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>显示指定类型的模态窗口，并传递一个参数实例</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">void ShowDialog&lt;T&gt;(object parameter) where T : class</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>parameter</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">object</a></dt>
+    <dd><p>要传递给窗口的参数实例</p>
+</dd>
+  </dl>
+
+
+  <h4 class="section">Type Parameters</h4>
+  <dl class="parameters">
+    <dt><code>T</code></dt>
+    <dd><p>要显示的窗口类型，必须是 Window 的派生类</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+  <h4 class="section">Exceptions</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.invalidoperationexception">InvalidOperationException</a></dt>
+    <dd><p>如果 T 不是 Window 的派生类或服务未注册相应类型的窗口，则抛出此异常</p>
+</dd>
+  </dl>
+
+
+
   <a id="DataMaster_Interfaces_DisplayWindow_IWindowsProviderService_Show_" data-uid="DataMaster.Interfaces.DisplayWindow.IWindowsProviderService.Show*"></a>
 
   <h3 id="DataMaster_Interfaces_DisplayWindow_IWindowsProviderService_Show__1" data-uid="DataMaster.Interfaces.DisplayWindow.IWindowsProviderService.Show``1">
   Show&lt;T&gt;()
-  <a class="header-action link-secondary" title="View source" href="https://bitbucket.org/mas-software/industrial-mes-net-platform-advanced/src/feature/OpenCV/Interfaces/DisplayWindow/IWindowsProviderService.cs#lines-26"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://bitbucket.org/mas-software/industrial-mes-net-platform-advanced/src/main/Interfaces/DisplayWindow/IWindowsProviderService.cs#lines-26"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>显示指定类型的窗口</p>
@@ -160,11 +328,56 @@ Interface IWindowsProviderService  <a class="header-action link-secondary" title
 
 
 
+  <a id="DataMaster_Interfaces_DisplayWindow_IWindowsProviderService_Show_" data-uid="DataMaster.Interfaces.DisplayWindow.IWindowsProviderService.Show*"></a>
+
+  <h3 id="DataMaster_Interfaces_DisplayWindow_IWindowsProviderService_Show__1_System_Object_" data-uid="DataMaster.Interfaces.DisplayWindow.IWindowsProviderService.Show``1(System.Object)">
+  Show&lt;T&gt;(object)
+  <a class="header-action link-secondary" title="View source" href="https://bitbucket.org/mas-software/industrial-mes-net-platform-advanced/src/main/Interfaces/DisplayWindow/IWindowsProviderService.cs#lines-34"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>显示指定类型的窗口，并传递一个参数实例</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">void Show&lt;T&gt;(object parameter) where T : class</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>parameter</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">object</a></dt>
+    <dd><p>要传递给窗口的参数实例</p>
+</dd>
+  </dl>
+
+
+  <h4 class="section">Type Parameters</h4>
+  <dl class="parameters">
+    <dt><code>T</code></dt>
+    <dd><p>要显示的窗口类型，必须是 Window 的派生类</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+  <h4 class="section">Exceptions</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.invalidoperationexception">InvalidOperationException</a></dt>
+    <dd><p>如果 T 不是 Window 的派生类或服务未注册相应类型的窗口，则抛出此异常</p>
+</dd>
+  </dl>
+
+
+
 
 </article>
 
         <div class="contribution d-print-none">
-          <a href="https://bitbucket.org/mas-software/industrial-mes-net-platform-advanced/src/feature/OpenCV/Interfaces/DisplayWindow/IWindowsProviderService.cs#lines-20" class="edit-link">Edit this page</a>
+          <a href="https://bitbucket.org/mas-software/industrial-mes-net-platform-advanced/src/main/Interfaces/DisplayWindow/IWindowsProviderService.cs#lines-20" class="edit-link">Edit this page</a>
         </div>
 
 
