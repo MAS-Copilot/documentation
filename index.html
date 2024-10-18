@@ -72,6 +72,16 @@
 
         <article data-uid="">
 
+<h2 id="-分支规范">🔀 分支规范</h2>
+<ul>
+<li>主分支（Main）：<code>main</code>为项目的主分支，存放最新的稳定版本</li>
+<li>开发分支（Development）：<code>develop</code>用于进行功能开发或整体项目的开发版本</li>
+<li>功能分支（Feature）：<code>feature/</code>每个新功能对应一个功能分支，从开发分支拉出</li>
+<li>修复分支（Bugfix）：<code>bugfix/</code>用于修复特定问题的分支，通常也从开发分支拉出</li>
+<li>发布分支（Release）：<code>release/</code>用于版本发布，进入发布阶段时从开发分支创建</li>
+<li>热修复分支（Hotfix）：<code>hotfix/</code>用于紧急修复生产环境问题，从主分支拉出并直接合并回主分支和开发分支</li>
+<li>文档分支（Docs）：<code>docs/</code>用于修改或新增文档内容的分支</li>
+</ul>
 <h2 id="-设计原则与最佳实践">📏 设计原则与最佳实践</h2>
 <p><strong>内存与资源管理：</strong></p>
 <ul>
