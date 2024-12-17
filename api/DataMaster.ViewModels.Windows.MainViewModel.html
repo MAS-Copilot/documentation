@@ -89,7 +89,7 @@
 
 
   <h1 id="DataMaster_ViewModels_Windows_MainViewModel" data-uid="DataMaster.ViewModels.Windows.MainViewModel" class="text-break">
-Class MainViewModel  <a class="header-action link-secondary" title="View source" href="https://bitbucket.org/mas-software/industrial-mes-net-platform-advanced/src/feature/database/ViewModels/Windows/MainViewModel.cs#lines-24"><i class="bi bi-code-slash"></i></a>
+Class MainViewModel  <a class="header-action link-secondary" title="View source" href="https://bitbucket.org/mas-software/industrial-mes-net-platform-advanced/src/main/ViewModels/Windows/MainViewModel.cs#lines-25"><i class="bi bi-code-slash"></i></a>
   </h1>
 
   <div class="facts text-secondary">
@@ -135,6 +135,9 @@ Class MainViewModel  <a class="header-action link-secondary" title="View source"
       <a class="xref" href="DataMaster.Abstracts.ViewModelBase.html#DataMaster_Abstracts_ViewModelBase_LanguageManager">ViewModelBase.LanguageManager</a>
     </div>
     <div>
+      <a class="xref" href="DataMaster.Abstracts.ViewModelBase.html#DataMaster_Abstracts_ViewModelBase_IsBusy">ViewModelBase.IsBusy</a>
+    </div>
+    <div>
       <a class="xref" href="DataMaster.Abstracts.ViewModelBase.html#DataMaster_Abstracts_ViewModelBase_BusyCursor">ViewModelBase.BusyCursor</a>
     </div>
     <div>
@@ -148,6 +151,15 @@ Class MainViewModel  <a class="header-action link-secondary" title="View source"
     </div>
     <div>
       <a class="xref" href="DataMaster.Abstracts.ViewModelBase.html#DataMaster_Abstracts_ViewModelBase_SetField__1___0____0_System_String_">ViewModelBase.SetField&lt;T&gt;(ref T, T, string)</a>
+    </div>
+    <div>
+      <a class="xref" href="DataMaster.Abstracts.ViewModelBase.html#DataMaster_Abstracts_ViewModelBase_ResetCursor">ViewModelBase.ResetCursor()</a>
+    </div>
+    <div>
+      <a class="xref" href="DataMaster.Abstracts.ViewModelBase.html#DataMaster_Abstracts_ViewModelBase_SetBusyCursor">ViewModelBase.SetBusyCursor()</a>
+    </div>
+    <div>
+      <a class="xref" href="DataMaster.Abstracts.ViewModelBase.html#DataMaster_Abstracts_ViewModelBase_SetWorkingCursor">ViewModelBase.SetWorkingCursor()</a>
     </div>
     <div>
       <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)">object.Equals(object)</a>
@@ -183,9 +195,9 @@ Class MainViewModel  <a class="header-action link-secondary" title="View source"
 
   <a id="DataMaster_ViewModels_Windows_MainViewModel__ctor_" data-uid="DataMaster.ViewModels.Windows.MainViewModel.#ctor*"></a>
 
-  <h3 id="DataMaster_ViewModels_Windows_MainViewModel__ctor_DataMaster_Modules_MAS_EventAggregator_IEventAggregatorService_DataMaster_Modules_MAS_Controls_Notification_INotificationHistoryService_" data-uid="DataMaster.ViewModels.Windows.MainViewModel.#ctor(DataMaster.Modules.MAS.EventAggregator.IEventAggregatorService,DataMaster.Modules.MAS.Controls.Notification.INotificationHistoryService)">
+  <h3 id="DataMaster_ViewModels_Windows_MainViewModel__ctor_MAS_EventAggregator_IEventAggregatorService_MAS_Controls_Notification_INotificationHistoryService_" data-uid="DataMaster.ViewModels.Windows.MainViewModel.#ctor(MAS.EventAggregator.IEventAggregatorService,MAS.Controls.Notification.INotificationHistoryService)">
   MainViewModel(IEventAggregatorService, INotificationHistoryService)
-  <a class="header-action link-secondary" title="View source" href="https://bitbucket.org/mas-software/industrial-mes-net-platform-advanced/src/feature/database/ViewModels/Windows/MainViewModel.cs#lines-117"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://bitbucket.org/mas-software/industrial-mes-net-platform-advanced/src/main/ViewModels/Windows/MainViewModel.cs#lines-93"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>构造函数，初始化 <a class="xref" href="DataMaster.ViewModels.Windows.MainViewModel.html">MainViewModel</a> 新实例</p>
@@ -198,7 +210,7 @@ Class MainViewModel  <a class="header-action link-secondary" title="View source"
 
   <h4 class="section">Parameters</h4>
   <dl class="parameters">
-    <dt><code>eventAggregatorService</code> <a class="xref" href="DataMaster.Modules.MAS.EventAggregator.IEventAggregatorService.html">IEventAggregatorService</a></dt>
+    <dt><code>eventAggregatorService</code> <a class="xref" href="MAS.EventAggregator.IEventAggregatorService.html">IEventAggregatorService</a></dt>
     <dd><p>事件聚合器服务</p>
 </dd>
     <dt><code>notificationHistoryService</code> <a class="xref" href="DataMaster.Modules.MAS.Controls.Notification.INotificationHistoryService.html">INotificationHistoryService</a></dt>
@@ -225,7 +237,7 @@ Class MainViewModel  <a class="header-action link-secondary" title="View source"
 
   <h3 id="DataMaster_ViewModels_Windows_MainViewModel_ApplicationTitle" data-uid="DataMaster.ViewModels.Windows.MainViewModel.ApplicationTitle">
   ApplicationTitle
-  <a class="header-action link-secondary" title="View source" href="https://bitbucket.org/mas-software/industrial-mes-net-platform-advanced/src/feature/database/ViewModels/Windows/MainViewModel.cs#lines-34"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://bitbucket.org/mas-software/industrial-mes-net-platform-advanced/src/main/ViewModels/Windows/MainViewModel.cs#lines-35"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>获取应用程序名称</p>
@@ -257,7 +269,7 @@ Class MainViewModel  <a class="header-action link-secondary" title="View source"
 
   <h3 id="DataMaster_ViewModels_Windows_MainViewModel_FooterMenuItems" data-uid="DataMaster.ViewModels.Windows.MainViewModel.FooterMenuItems">
   FooterMenuItems
-  <a class="header-action link-secondary" title="View source" href="https://bitbucket.org/mas-software/industrial-mes-net-platform-advanced/src/feature/database/ViewModels/Windows/MainViewModel.cs#lines-106"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://bitbucket.org/mas-software/industrial-mes-net-platform-advanced/src/main/ViewModels/Windows/MainViewModel.cs#lines-82"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>获取页脚菜单项</p>
@@ -289,7 +301,7 @@ Class MainViewModel  <a class="header-action link-secondary" title="View source"
 
   <h3 id="DataMaster_ViewModels_Windows_MainViewModel_MenuItems" data-uid="DataMaster.ViewModels.Windows.MainViewModel.MenuItems">
   MenuItems
-  <a class="header-action link-secondary" title="View source" href="https://bitbucket.org/mas-software/industrial-mes-net-platform-advanced/src/feature/database/ViewModels/Windows/MainViewModel.cs#lines-66"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://bitbucket.org/mas-software/industrial-mes-net-platform-advanced/src/main/ViewModels/Windows/MainViewModel.cs#lines-49"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>获取菜单项</p>
@@ -317,19 +329,19 @@ Class MainViewModel  <a class="header-action link-secondary" title="View source"
 
 
 
-  <a id="DataMaster_ViewModels_Windows_MainViewModel_MySqlServiceStatus_" data-uid="DataMaster.ViewModels.Windows.MainViewModel.MySqlServiceStatus*"></a>
+  <a id="DataMaster_ViewModels_Windows_MainViewModel_WindowTitle_" data-uid="DataMaster.ViewModels.Windows.MainViewModel.WindowTitle*"></a>
 
-  <h3 id="DataMaster_ViewModels_Windows_MainViewModel_MySqlServiceStatus" data-uid="DataMaster.ViewModels.Windows.MainViewModel.MySqlServiceStatus">
-  MySqlServiceStatus
-  <a class="header-action link-secondary" title="View source" href="https://bitbucket.org/mas-software/industrial-mes-net-platform-advanced/src/feature/database/ViewModels/Windows/MainViewModel.cs#lines-49"><i class="bi bi-code-slash"></i></a>
+  <h3 id="DataMaster_ViewModels_Windows_MainViewModel_WindowTitle" data-uid="DataMaster.ViewModels.Windows.MainViewModel.WindowTitle">
+  WindowTitle
+  <a class="header-action link-secondary" title="View source" href="https://bitbucket.org/mas-software/industrial-mes-net-platform-advanced/src/main/ViewModels/Windows/MainViewModel.cs#lines-41"><i class="bi bi-code-slash"></i></a>
   </h3>
 
-  <div class="markdown level1 summary"><p>获取或设置MySql服务状态</p>
+  <div class="markdown level1 summary"><p>获取或设置窗口标题</p>
 </div>
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public bool MySqlServiceStatus { get; set; }</code></pre>
+    <pre><code class="lang-csharp hljs">public string WindowTitle { get; set; }</code></pre>
   </div>
 
 
@@ -338,71 +350,7 @@ Class MainViewModel  <a class="header-action link-secondary" title="View source"
 
   <h4 class="section">Property Value</h4>
   <dl class="parameters">
-    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
-    <dd></dd>
-  </dl>
-
-
-
-
-
-
-
-
-  <a id="DataMaster_ViewModels_Windows_MainViewModel_PlcCommunicationStatus_" data-uid="DataMaster.ViewModels.Windows.MainViewModel.PlcCommunicationStatus*"></a>
-
-  <h3 id="DataMaster_ViewModels_Windows_MainViewModel_PlcCommunicationStatus" data-uid="DataMaster.ViewModels.Windows.MainViewModel.PlcCommunicationStatus">
-  PlcCommunicationStatus
-  <a class="header-action link-secondary" title="View source" href="https://bitbucket.org/mas-software/industrial-mes-net-platform-advanced/src/feature/database/ViewModels/Windows/MainViewModel.cs#lines-40"><i class="bi bi-code-slash"></i></a>
-  </h3>
-
-  <div class="markdown level1 summary"><p>获取或设置PLC 通讯状态</p>
-</div>
-  <div class="markdown level1 conceptual"></div>
-
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public bool PlcCommunicationStatus { get; set; }</code></pre>
-  </div>
-
-
-
-
-
-  <h4 class="section">Property Value</h4>
-  <dl class="parameters">
-    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
-    <dd></dd>
-  </dl>
-
-
-
-
-
-
-
-
-  <a id="DataMaster_ViewModels_Windows_MainViewModel_VisionStatus_" data-uid="DataMaster.ViewModels.Windows.MainViewModel.VisionStatus*"></a>
-
-  <h3 id="DataMaster_ViewModels_Windows_MainViewModel_VisionStatus" data-uid="DataMaster.ViewModels.Windows.MainViewModel.VisionStatus">
-  VisionStatus
-  <a class="header-action link-secondary" title="View source" href="https://bitbucket.org/mas-software/industrial-mes-net-platform-advanced/src/feature/database/ViewModels/Windows/MainViewModel.cs#lines-58"><i class="bi bi-code-slash"></i></a>
-  </h3>
-
-  <div class="markdown level1 summary"><p>获取或设置视觉状态</p>
-</div>
-  <div class="markdown level1 conceptual"></div>
-
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public bool VisionStatus { get; set; }</code></pre>
-  </div>
-
-
-
-
-
-  <h4 class="section">Property Value</h4>
-  <dl class="parameters">
-    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
     <dd></dd>
   </dl>
 
@@ -417,7 +365,7 @@ Class MainViewModel  <a class="header-action link-secondary" title="View source"
 </article>
 
         <div class="contribution d-print-none">
-          <a href="https://bitbucket.org/mas-software/industrial-mes-net-platform-advanced/src/feature/database/ViewModels/Windows/MainViewModel.cs#lines-24" class="edit-link">Edit this page</a>
+          <a href="https://bitbucket.org/mas-software/industrial-mes-net-platform-advanced/src/main/ViewModels/Windows/MainViewModel.cs#lines-25" class="edit-link">Edit this page</a>
         </div>
 
 

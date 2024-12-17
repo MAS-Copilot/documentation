@@ -89,7 +89,7 @@
 
 
   <h1 id="DataMaster_Commands_RelayCommand" data-uid="DataMaster.Commands.RelayCommand" class="text-break">
-Class RelayCommand  <a class="header-action link-secondary" title="View source" href="https://bitbucket.org/mas-software/industrial-mes-net-platform-advanced/src/feature/database/Commands/RelayCommand.cs#lines-27"><i class="bi bi-code-slash"></i></a>
+Class RelayCommand  <a class="header-action link-secondary" title="View source" href="https://bitbucket.org/mas-software/industrial-mes-net-platform-advanced/src/main/Commands/RelayCommand.cs#lines-30"><i class="bi bi-code-slash"></i></a>
   </h1>
 
   <div class="facts text-secondary">
@@ -166,7 +166,7 @@ Class RelayCommand  <a class="header-action link-secondary" title="View source" 
 
   <h3 id="DataMaster_Commands_RelayCommand__ctor_System_Action_System_Object__System_Predicate_System_Object__" data-uid="DataMaster.Commands.RelayCommand.#ctor(System.Action{System.Object},System.Predicate{System.Object})">
   RelayCommand(Action&lt;object?&gt;, Predicate&lt;object?&gt;?)
-  <a class="header-action link-secondary" title="View source" href="https://bitbucket.org/mas-software/industrial-mes-net-platform-advanced/src/feature/database/Commands/RelayCommand.cs#lines-27"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://bitbucket.org/mas-software/industrial-mes-net-platform-advanced/src/main/Commands/RelayCommand.cs#lines-30"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>根据特定逻辑执行和判断是否可以执行的命令</p>
@@ -209,10 +209,10 @@ Class RelayCommand  <a class="header-action link-secondary" title="View source" 
 
   <h3 id="DataMaster_Commands_RelayCommand_CanExecute_System_Object_" data-uid="DataMaster.Commands.RelayCommand.CanExecute(System.Object)">
   CanExecute(object?)
-  <a class="header-action link-secondary" title="View source" href="https://bitbucket.org/mas-software/industrial-mes-net-platform-advanced/src/feature/database/Commands/RelayCommand.cs#lines-48"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://bitbucket.org/mas-software/industrial-mes-net-platform-advanced/src/main/Commands/RelayCommand.cs#lines-39"><i class="bi bi-code-slash"></i></a>
   </h3>
 
-  <div class="markdown level1 summary"><p>判断命令是否可以执行</p>
+  <div class="markdown level1 summary"><p>Defines the method that determines whether the command can execute in its current state.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
 
@@ -223,14 +223,14 @@ Class RelayCommand  <a class="header-action link-secondary" title="View source" 
   <h4 class="section">Parameters</h4>
   <dl class="parameters">
     <dt><code>parameter</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">object</a></dt>
-    <dd><p>命令执行时可能需要的参数。可以为 null</p>
+    <dd><p>Data used by the command.  If the command does not require data to be passed, this object can be set to <a href="https://learn.microsoft.com/dotnet/csharp/language-reference/keywords/null">null</a>.</p>
 </dd>
   </dl>
 
   <h4 class="section">Returns</h4>
   <dl class="parameters">
     <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
-    <dd><p>如果命令可以执行，则为 true；否则为 false</p>
+    <dd><p><a href="https://learn.microsoft.com/dotnet/csharp/language-reference/builtin-types/bool">true</a> if this command can be executed; otherwise, <a href="https://learn.microsoft.com/dotnet/csharp/language-reference/builtin-types/bool">false</a>.</p>
 </dd>
   </dl>
 
@@ -248,10 +248,10 @@ Class RelayCommand  <a class="header-action link-secondary" title="View source" 
 
   <h3 id="DataMaster_Commands_RelayCommand_Execute_System_Object_" data-uid="DataMaster.Commands.RelayCommand.Execute(System.Object)">
   Execute(object?)
-  <a class="header-action link-secondary" title="View source" href="https://bitbucket.org/mas-software/industrial-mes-net-platform-advanced/src/feature/database/Commands/RelayCommand.cs#lines-56"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://bitbucket.org/mas-software/industrial-mes-net-platform-advanced/src/main/Commands/RelayCommand.cs#lines-42"><i class="bi bi-code-slash"></i></a>
   </h3>
 
-  <div class="markdown level1 summary"><p>执行命令</p>
+  <div class="markdown level1 summary"><p>Defines the method to be called when the command is invoked.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
 
@@ -262,7 +262,7 @@ Class RelayCommand  <a class="header-action link-secondary" title="View source" 
   <h4 class="section">Parameters</h4>
   <dl class="parameters">
     <dt><code>parameter</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">object</a></dt>
-    <dd><p>命令执行时可能需要的参数。可以为 null</p>
+    <dd><p>Data used by the command.  If the command does not require data to be passed, this object can be set to <a href="https://learn.microsoft.com/dotnet/csharp/language-reference/keywords/null">null</a>.</p>
 </dd>
   </dl>
 
@@ -281,7 +281,7 @@ Class RelayCommand  <a class="header-action link-secondary" title="View source" 
 
   <h3 id="DataMaster_Commands_RelayCommand_RaiseCanExecuteChanged" data-uid="DataMaster.Commands.RelayCommand.RaiseCanExecuteChanged">
   RaiseCanExecuteChanged()
-  <a class="header-action link-secondary" title="View source" href="https://bitbucket.org/mas-software/industrial-mes-net-platform-advanced/src/feature/database/Commands/RelayCommand.cs#lines-63"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://bitbucket.org/mas-software/industrial-mes-net-platform-advanced/src/main/Commands/RelayCommand.cs#lines-59"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>触发 CanExecuteChanged 事件, 通知命令的可执行状态可能已更改</p>
@@ -311,10 +311,10 @@ Class RelayCommand  <a class="header-action link-secondary" title="View source" 
 
   <h3 id="DataMaster_Commands_RelayCommand_CanExecuteChanged" data-uid="DataMaster.Commands.RelayCommand.CanExecuteChanged">
   CanExecuteChanged
-  <a class="header-action link-secondary" title="View source" href="https://bitbucket.org/mas-software/industrial-mes-net-platform-advanced/src/feature/database/Commands/RelayCommand.cs#lines-41"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://bitbucket.org/mas-software/industrial-mes-net-platform-advanced/src/main/Commands/RelayCommand.cs#lines-36"><i class="bi bi-code-slash"></i></a>
   </h3>
 
-  <div class="markdown level1 summary"><p>当发生影响是否执行命令的更改时发生</p>
+  <div class="markdown level1 summary"><p>Occurs when changes occur that affect whether or not the command should execute.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
 
@@ -343,7 +343,7 @@ Class RelayCommand  <a class="header-action link-secondary" title="View source" 
 </article>
 
         <div class="contribution d-print-none">
-          <a href="https://bitbucket.org/mas-software/industrial-mes-net-platform-advanced/src/feature/database/Commands/RelayCommand.cs#lines-27" class="edit-link">Edit this page</a>
+          <a href="https://bitbucket.org/mas-software/industrial-mes-net-platform-advanced/src/main/Commands/RelayCommand.cs#lines-30" class="edit-link">Edit this page</a>
         </div>
 
 

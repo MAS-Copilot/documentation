@@ -1,0 +1,706 @@
+﻿<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+      <title>Class DataExportSetViewModel | DataMaster </title>
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta name="title" content="Class DataExportSetViewModel | DataMaster ">
+      
+      <meta name="description" content="数据导出设置视图模型">
+      <link rel="icon" href="../images/favicon.ico">
+      <link rel="stylesheet" href="../public/docfx.min.css">
+      <link rel="stylesheet" href="../public/main.css">
+      <meta name="docfx:navrel" content="../toc.html">
+      <meta name="docfx:tocrel" content="toc.html">
+      
+      <meta name="docfx:rel" content="../">
+      
+      
+      
+      <meta name="loc:inThisArticle" content="In this article">
+      <meta name="loc:searchResultsCount" content="{count} results for &quot;{query}&quot;">
+      <meta name="loc:searchNoResults" content="No results for &quot;{query}&quot;">
+      <meta name="loc:tocFilter" content="Filter by title">
+      <meta name="loc:nextArticle" content="Next">
+      <meta name="loc:prevArticle" content="Previous">
+      <meta name="loc:themeLight" content="Light">
+      <meta name="loc:themeDark" content="Dark">
+      <meta name="loc:themeAuto" content="Auto">
+      <meta name="loc:changeTheme" content="Change theme">
+      <meta name="loc:copy" content="Copy">
+      <meta name="loc:downloadPdf" content="Download PDF">
+
+      <script type="module" src="./../public/docfx.min.js"></script>
+
+      <script>
+        const theme = localStorage.getItem('theme') || 'auto'
+        document.documentElement.setAttribute('data-bs-theme', theme === 'auto' ? (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light') : theme)
+      </script>
+
+  </head>
+
+  <body class="tex2jax_ignore" data-layout="" data-yaml-mime="ManagedReference">
+    <header class="bg-body border-bottom">
+      <nav id="autocollapse" class="navbar navbar-expand-md" role="navigation">
+        <div class="container-xxl flex-nowrap">
+          <a class="navbar-brand" href="../index.html">
+            <img id="logo" class="svg" src="../images/logo.svg" alt="DataMaster">
+            DataMaster
+          </a>
+          <button class="btn btn-lg d-md-none border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navpanel" aria-controls="navpanel" aria-expanded="false" aria-label="Toggle navigation">
+            <i class="bi bi-three-dots"></i>
+          </button>
+          <div class="collapse navbar-collapse" id="navpanel">
+            <div id="navbar">
+              <form class="search" role="search" id="search">
+                <i class="bi bi-search"></i>
+                <input class="form-control" id="search-query" type="search" disabled="" placeholder="Search" autocomplete="off" aria-label="Search">
+              </form>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <main class="container-xxl">
+      <div class="toc-offcanvas">
+        <div class="offcanvas-md offcanvas-start" tabindex="-1" id="tocOffcanvas" aria-labelledby="tocOffcanvasLabel">
+          <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="tocOffcanvasLabel">Table of Contents</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" data-bs-target="#tocOffcanvas" aria-label="Close"></button>
+          </div>
+          <div class="offcanvas-body">
+            <nav class="toc" id="toc"></nav>
+          </div>
+        </div>
+      </div>
+
+      <div class="content">
+        <div class="actionbar">
+          <button class="btn btn-lg border-0 d-md-none" type="button" data-bs-toggle="offcanvas" data-bs-target="#tocOffcanvas" aria-controls="tocOffcanvas" aria-expanded="false" aria-label="Show table of contents">
+            <i class="bi bi-list"></i>
+          </button>
+
+          <nav id="breadcrumb"></nav>
+        </div>
+
+        <article data-uid="DataMaster.ViewModels.Windows.DataExport.DataExportSetViewModel">
+
+
+
+  <h1 id="DataMaster_ViewModels_Windows_DataExport_DataExportSetViewModel" data-uid="DataMaster.ViewModels.Windows.DataExport.DataExportSetViewModel" class="text-break">
+Class DataExportSetViewModel  <a class="header-action link-secondary" title="View source" href="https://bitbucket.org/mas-software/industrial-mes-net-platform-advanced/src/main/ViewModels/Windows/DataExport/DataExportSetViewModel.cs#lines-19"><i class="bi bi-code-slash"></i></a>
+  </h1>
+
+  <div class="facts text-secondary">
+    <dl><dt>Namespace</dt><dd><a class="xref" href="DataMaster.html">DataMaster</a>.<a class="xref" href="DataMaster.ViewModels.html">ViewModels</a>.<a class="xref" href="DataMaster.ViewModels.Windows.html">Windows</a>.<a class="xref" href="DataMaster.ViewModels.Windows.DataExport.html">DataExport</a></dd></dl>
+  <dl><dt>Assembly</dt><dd>DataMaster.dll</dd></dl>
+  </div>
+
+  <div class="markdown summary"><p>数据导出设置视图模型</p>
+</div>
+  <div class="markdown conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public class DataExportSetViewModel : SetViewModelBase, INotifyPropertyChanged</code></pre>
+  </div>
+
+
+
+
+  <dl class="typelist inheritance">
+    <dt>Inheritance</dt>
+    <dd>
+      <div><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">object</a></div>
+      <div><a class="xref" href="DataMaster.Abstracts.ViewModelBase.html">ViewModelBase</a></div>
+      <div><a class="xref" href="DataMaster.Abstracts.SetViewModelBase.html">SetViewModelBase</a></div>
+      <div><span class="xref">DataExportSetViewModel</span></div>
+    </dd>
+  </dl>
+
+  <dl class="typelist implements">
+    <dt>Implements</dt>
+    <dd>
+      <div><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.componentmodel.inotifypropertychanged">INotifyPropertyChanged</a></div>
+    </dd>
+  </dl>
+
+
+  <dl class="typelist inheritedMembers">
+    <dt>Inherited Members</dt>
+    <dd>
+    <div>
+      <a class="xref" href="DataMaster.Abstracts.SetViewModelBase.html#DataMaster_Abstracts_SetViewModelBase_TipsNotification">SetViewModelBase.TipsNotification</a>
+    </div>
+    <div>
+      <a class="xref" href="DataMaster.Abstracts.SetViewModelBase.html#DataMaster_Abstracts_SetViewModelBase_IsConfigChanged">SetViewModelBase.IsConfigChanged</a>
+    </div>
+    <div>
+      <a class="xref" href="DataMaster.Abstracts.SetViewModelBase.html#DataMaster_Abstracts_SetViewModelBase_EditStatus">SetViewModelBase.EditStatus</a>
+    </div>
+    <div>
+      <a class="xref" href="DataMaster.Abstracts.SetViewModelBase.html#DataMaster_Abstracts_SetViewModelBase_SnackbarForeground">SetViewModelBase.SnackbarForeground</a>
+    </div>
+    <div>
+      <a class="xref" href="DataMaster.Abstracts.SetViewModelBase.html#DataMaster_Abstracts_SetViewModelBase_SnackbarMessage">SetViewModelBase.SnackbarMessage</a>
+    </div>
+    <div>
+      <a class="xref" href="DataMaster.Abstracts.SetViewModelBase.html#DataMaster_Abstracts_SetViewModelBase_IsSnackbar">SetViewModelBase.IsSnackbar</a>
+    </div>
+    <div>
+      <a class="xref" href="DataMaster.Abstracts.SetViewModelBase.html#DataMaster_Abstracts_SetViewModelBase_HandleWindowClosing">SetViewModelBase.HandleWindowClosing()</a>
+    </div>
+    <div>
+      <a class="xref" href="DataMaster.Abstracts.SetViewModelBase.html#DataMaster_Abstracts_SetViewModelBase_ShowSnackbar_System_String_System_String_">SetViewModelBase.ShowSnackbar(string, string)</a>
+    </div>
+    <div>
+      <a class="xref" href="DataMaster.Abstracts.SetViewModelBase.html#DataMaster_Abstracts_SetViewModelBase_ConfigChanged_System_Object_DataMaster_Models_ConfigurationChangedEventArgs_">SetViewModelBase.ConfigChanged(object, ConfigurationChangedEventArgs)</a>
+    </div>
+    <div>
+      <a class="xref" href="DataMaster.Abstracts.SetViewModelBase.html#DataMaster_Abstracts_SetViewModelBase_OnSaveSuccessfully">SetViewModelBase.OnSaveSuccessfully()</a>
+    </div>
+    <div>
+      <a class="xref" href="DataMaster.Abstracts.SetViewModelBase.html#DataMaster_Abstracts_SetViewModelBase_OnConfigChanged">SetViewModelBase.OnConfigChanged()</a>
+    </div>
+    <div>
+      <a class="xref" href="DataMaster.Abstracts.ViewModelBase.html#DataMaster_Abstracts_ViewModelBase_Config">ViewModelBase.Config</a>
+    </div>
+    <div>
+      <a class="xref" href="DataMaster.Abstracts.ViewModelBase.html#DataMaster_Abstracts_ViewModelBase_LanguageManager">ViewModelBase.LanguageManager</a>
+    </div>
+    <div>
+      <a class="xref" href="DataMaster.Abstracts.ViewModelBase.html#DataMaster_Abstracts_ViewModelBase_IsBusy">ViewModelBase.IsBusy</a>
+    </div>
+    <div>
+      <a class="xref" href="DataMaster.Abstracts.ViewModelBase.html#DataMaster_Abstracts_ViewModelBase_BusyCursor">ViewModelBase.BusyCursor</a>
+    </div>
+    <div>
+      <a class="xref" href="DataMaster.Abstracts.ViewModelBase.html#DataMaster_Abstracts_ViewModelBase_WorkingCursor">ViewModelBase.WorkingCursor</a>
+    </div>
+    <div>
+      <a class="xref" href="DataMaster.Abstracts.ViewModelBase.html#DataMaster_Abstracts_ViewModelBase_PropertyChanged">ViewModelBase.PropertyChanged</a>
+    </div>
+    <div>
+      <a class="xref" href="DataMaster.Abstracts.ViewModelBase.html#DataMaster_Abstracts_ViewModelBase_OnPropertyChanged_System_String_">ViewModelBase.OnPropertyChanged(string)</a>
+    </div>
+    <div>
+      <a class="xref" href="DataMaster.Abstracts.ViewModelBase.html#DataMaster_Abstracts_ViewModelBase_SetField__1___0____0_System_String_">ViewModelBase.SetField&lt;T&gt;(ref T, T, string)</a>
+    </div>
+    <div>
+      <a class="xref" href="DataMaster.Abstracts.ViewModelBase.html#DataMaster_Abstracts_ViewModelBase_ResetCursor">ViewModelBase.ResetCursor()</a>
+    </div>
+    <div>
+      <a class="xref" href="DataMaster.Abstracts.ViewModelBase.html#DataMaster_Abstracts_ViewModelBase_SetBusyCursor">ViewModelBase.SetBusyCursor()</a>
+    </div>
+    <div>
+      <a class="xref" href="DataMaster.Abstracts.ViewModelBase.html#DataMaster_Abstracts_ViewModelBase_SetWorkingCursor">ViewModelBase.SetWorkingCursor()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)">object.Equals(object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)">object.Equals(object, object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.gethashcode">object.GetHashCode()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.gettype">object.GetType()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone">object.MemberwiseClone()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.referenceequals">object.ReferenceEquals(object, object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.tostring">object.ToString()</a>
+    </div>
+  </dd></dl>
+
+
+
+
+
+
+  <h2 class="section" id="constructors">Constructors
+</h2>
+
+
+  <a id="DataMaster_ViewModels_Windows_DataExport_DataExportSetViewModel__ctor_" data-uid="DataMaster.ViewModels.Windows.DataExport.DataExportSetViewModel.#ctor*"></a>
+
+  <h3 id="DataMaster_ViewModels_Windows_DataExport_DataExportSetViewModel__ctor_MAS_DataExport_IDataExportServiceFactory_" data-uid="DataMaster.ViewModels.Windows.DataExport.DataExportSetViewModel.#ctor(MAS.DataExport.IDataExportServiceFactory)">
+  DataExportSetViewModel(IDataExportServiceFactory)
+  <a class="header-action link-secondary" title="View source" href="https://bitbucket.org/mas-software/industrial-mes-net-platform-advanced/src/main/ViewModels/Windows/DataExport/DataExportSetViewModel.cs#lines-101"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>构造函数，初始化 <a class="xref" href="DataMaster.ViewModels.Windows.DataExport.DataExportSetViewModel.html">DataExportSetViewModel</a> 新实例</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public DataExportSetViewModel(IDataExportServiceFactory dataExportServiceFactory)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>dataExportServiceFactory</code> <a class="xref" href="MAS.DataExport.IDataExportServiceFactory.html">IDataExportServiceFactory</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <h2 class="section" id="properties">Properties
+</h2>
+
+
+  <a id="DataMaster_ViewModels_Windows_DataExport_DataExportSetViewModel_CreateDataExportInstanceCommand_" data-uid="DataMaster.ViewModels.Windows.DataExport.DataExportSetViewModel.CreateDataExportInstanceCommand*"></a>
+
+  <h3 id="DataMaster_ViewModels_Windows_DataExport_DataExportSetViewModel_CreateDataExportInstanceCommand" data-uid="DataMaster.ViewModels.Windows.DataExport.DataExportSetViewModel.CreateDataExportInstanceCommand">
+  CreateDataExportInstanceCommand
+  <a class="header-action link-secondary" title="View source" href="https://bitbucket.org/mas-software/industrial-mes-net-platform-advanced/src/main/ViewModels/Windows/DataExport/DataExportSetViewModel.cs#lines-80"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>获取创建数据导出实例命令</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public RelayCommand CreateDataExportInstanceCommand { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="DataMaster.Commands.RelayCommand.html">RelayCommand</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="DataMaster_ViewModels_Windows_DataExport_DataExportSetViewModel_DataExportInstances_" data-uid="DataMaster.ViewModels.Windows.DataExport.DataExportSetViewModel.DataExportInstances*"></a>
+
+  <h3 id="DataMaster_ViewModels_Windows_DataExport_DataExportSetViewModel_DataExportInstances" data-uid="DataMaster.ViewModels.Windows.DataExport.DataExportSetViewModel.DataExportInstances">
+  DataExportInstances
+  <a class="header-action link-secondary" title="View source" href="https://bitbucket.org/mas-software/industrial-mes-net-platform-advanced/src/main/ViewModels/Windows/DataExport/DataExportSetViewModel.cs#lines-50"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>获取数据导出服务实例集合</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public ObservableCollection&lt;DataExportStatusModel&gt; DataExportInstances { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.objectmodel.observablecollection-1">ObservableCollection</a>&lt;<a class="xref" href="MAS.DataExport.DataExportStatusModel.html">DataExportStatusModel</a>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="DataMaster_ViewModels_Windows_DataExport_DataExportSetViewModel_DatabaseSetWindowVer_" data-uid="DataMaster.ViewModels.Windows.DataExport.DataExportSetViewModel.DatabaseSetWindowVer*"></a>
+
+  <h3 id="DataMaster_ViewModels_Windows_DataExport_DataExportSetViewModel_DatabaseSetWindowVer" data-uid="DataMaster.ViewModels.Windows.DataExport.DataExportSetViewModel.DatabaseSetWindowVer">
+  DatabaseSetWindowVer
+  <a class="header-action link-secondary" title="View source" href="https://bitbucket.org/mas-software/industrial-mes-net-platform-advanced/src/main/ViewModels/Windows/DataExport/DataExportSetViewModel.cs#lines-26"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>获取模板匹配设置窗口版本</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public string DatabaseSetWindowVer { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="DataMaster_ViewModels_Windows_DataExport_DataExportSetViewModel_InstanceNumber_" data-uid="DataMaster.ViewModels.Windows.DataExport.DataExportSetViewModel.InstanceNumber*"></a>
+
+  <h3 id="DataMaster_ViewModels_Windows_DataExport_DataExportSetViewModel_InstanceNumber" data-uid="DataMaster.ViewModels.Windows.DataExport.DataExportSetViewModel.InstanceNumber">
+  InstanceNumber
+  <a class="header-action link-secondary" title="View source" href="https://bitbucket.org/mas-software/industrial-mes-net-platform-advanced/src/main/ViewModels/Windows/DataExport/DataExportSetViewModel.cs#lines-37"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>获取或设置实例数量</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public short InstanceNumber { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int16">short</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="DataMaster_ViewModels_Windows_DataExport_DataExportSetViewModel_OpenBackupFolderCommand_" data-uid="DataMaster.ViewModels.Windows.DataExport.DataExportSetViewModel.OpenBackupFolderCommand*"></a>
+
+  <h3 id="DataMaster_ViewModels_Windows_DataExport_DataExportSetViewModel_OpenBackupFolderCommand" data-uid="DataMaster.ViewModels.Windows.DataExport.DataExportSetViewModel.OpenBackupFolderCommand">
+  OpenBackupFolderCommand
+  <a class="header-action link-secondary" title="View source" href="https://bitbucket.org/mas-software/industrial-mes-net-platform-advanced/src/main/ViewModels/Windows/DataExport/DataExportSetViewModel.cs#lines-75"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>获取打开保存数据备份的文件夹命令</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public RelayCommand OpenBackupFolderCommand { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="DataMaster.Commands.RelayCommand.html">RelayCommand</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="DataMaster_ViewModels_Windows_DataExport_DataExportSetViewModel_OpenExportFolderCommand_" data-uid="DataMaster.ViewModels.Windows.DataExport.DataExportSetViewModel.OpenExportFolderCommand*"></a>
+
+  <h3 id="DataMaster_ViewModels_Windows_DataExport_DataExportSetViewModel_OpenExportFolderCommand" data-uid="DataMaster.ViewModels.Windows.DataExport.DataExportSetViewModel.OpenExportFolderCommand">
+  OpenExportFolderCommand
+  <a class="header-action link-secondary" title="View source" href="https://bitbucket.org/mas-software/industrial-mes-net-platform-advanced/src/main/ViewModels/Windows/DataExport/DataExportSetViewModel.cs#lines-65"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>获取打开保存数据导出的文件夹命令</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public RelayCommand OpenExportFolderCommand { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="DataMaster.Commands.RelayCommand.html">RelayCommand</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="DataMaster_ViewModels_Windows_DataExport_DataExportSetViewModel_OpenInstancesBackupFolderCommand_" data-uid="DataMaster.ViewModels.Windows.DataExport.DataExportSetViewModel.OpenInstancesBackupFolderCommand*"></a>
+
+  <h3 id="DataMaster_ViewModels_Windows_DataExport_DataExportSetViewModel_OpenInstancesBackupFolderCommand" data-uid="DataMaster.ViewModels.Windows.DataExport.DataExportSetViewModel.OpenInstancesBackupFolderCommand">
+  OpenInstancesBackupFolderCommand
+  <a class="header-action link-secondary" title="View source" href="https://bitbucket.org/mas-software/industrial-mes-net-platform-advanced/src/main/ViewModels/Windows/DataExport/DataExportSetViewModel.cs#lines-95"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>获取打开实例备份文件夹命令</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public RelayCommand OpenInstancesBackupFolderCommand { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="DataMaster.Commands.RelayCommand.html">RelayCommand</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="DataMaster_ViewModels_Windows_DataExport_DataExportSetViewModel_OpenInstancesExprotFolderCommand_" data-uid="DataMaster.ViewModels.Windows.DataExport.DataExportSetViewModel.OpenInstancesExprotFolderCommand*"></a>
+
+  <h3 id="DataMaster_ViewModels_Windows_DataExport_DataExportSetViewModel_OpenInstancesExprotFolderCommand" data-uid="DataMaster.ViewModels.Windows.DataExport.DataExportSetViewModel.OpenInstancesExprotFolderCommand">
+  OpenInstancesExprotFolderCommand
+  <a class="header-action link-secondary" title="View source" href="https://bitbucket.org/mas-software/industrial-mes-net-platform-advanced/src/main/ViewModels/Windows/DataExport/DataExportSetViewModel.cs#lines-90"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>获取打开实例导出文件夹命令</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public RelayCommand OpenInstancesExprotFolderCommand { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="DataMaster.Commands.RelayCommand.html">RelayCommand</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="DataMaster_ViewModels_Windows_DataExport_DataExportSetViewModel_Placeholder_" data-uid="DataMaster.ViewModels.Windows.DataExport.DataExportSetViewModel.Placeholder*"></a>
+
+  <h3 id="DataMaster_ViewModels_Windows_DataExport_DataExportSetViewModel_Placeholder" data-uid="DataMaster.ViewModels.Windows.DataExport.DataExportSetViewModel.Placeholder">
+  Placeholder
+  <a class="header-action link-secondary" title="View source" href="https://bitbucket.org/mas-software/industrial-mes-net-platform-advanced/src/main/ViewModels/Windows/DataExport/DataExportSetViewModel.cs#lines-31"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>获取是否显示占位符的值</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool Placeholder { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="DataMaster_ViewModels_Windows_DataExport_DataExportSetViewModel_RemoveInstanceCommand_" data-uid="DataMaster.ViewModels.Windows.DataExport.DataExportSetViewModel.RemoveInstanceCommand*"></a>
+
+  <h3 id="DataMaster_ViewModels_Windows_DataExport_DataExportSetViewModel_RemoveInstanceCommand" data-uid="DataMaster.ViewModels.Windows.DataExport.DataExportSetViewModel.RemoveInstanceCommand">
+  RemoveInstanceCommand
+  <a class="header-action link-secondary" title="View source" href="https://bitbucket.org/mas-software/industrial-mes-net-platform-advanced/src/main/ViewModels/Windows/DataExport/DataExportSetViewModel.cs#lines-85"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>获取移除实例命令</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public RelayCommand RemoveInstanceCommand { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="DataMaster.Commands.RelayCommand.html">RelayCommand</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="DataMaster_ViewModels_Windows_DataExport_DataExportSetViewModel_SelectBackupPathCommand_" data-uid="DataMaster.ViewModels.Windows.DataExport.DataExportSetViewModel.SelectBackupPathCommand*"></a>
+
+  <h3 id="DataMaster_ViewModels_Windows_DataExport_DataExportSetViewModel_SelectBackupPathCommand" data-uid="DataMaster.ViewModels.Windows.DataExport.DataExportSetViewModel.SelectBackupPathCommand">
+  SelectBackupPathCommand
+  <a class="header-action link-secondary" title="View source" href="https://bitbucket.org/mas-software/industrial-mes-net-platform-advanced/src/main/ViewModels/Windows/DataExport/DataExportSetViewModel.cs#lines-70"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>获取选择数据备份路径文件命令</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public RelayCommand SelectBackupPathCommand { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="DataMaster.Commands.RelayCommand.html">RelayCommand</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="DataMaster_ViewModels_Windows_DataExport_DataExportSetViewModel_SelectExportPathCommand_" data-uid="DataMaster.ViewModels.Windows.DataExport.DataExportSetViewModel.SelectExportPathCommand*"></a>
+
+  <h3 id="DataMaster_ViewModels_Windows_DataExport_DataExportSetViewModel_SelectExportPathCommand" data-uid="DataMaster.ViewModels.Windows.DataExport.DataExportSetViewModel.SelectExportPathCommand">
+  SelectExportPathCommand
+  <a class="header-action link-secondary" title="View source" href="https://bitbucket.org/mas-software/industrial-mes-net-platform-advanced/src/main/ViewModels/Windows/DataExport/DataExportSetViewModel.cs#lines-60"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>获取选择数据导出路径文件命令</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public RelayCommand SelectExportPathCommand { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="DataMaster.Commands.RelayCommand.html">RelayCommand</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <h2 class="section" id="methods">Methods
+</h2>
+
+
+  <a id="DataMaster_ViewModels_Windows_DataExport_DataExportSetViewModel_OnClosing_" data-uid="DataMaster.ViewModels.Windows.DataExport.DataExportSetViewModel.OnClosing*"></a>
+
+  <h3 id="DataMaster_ViewModels_Windows_DataExport_DataExportSetViewModel_OnClosing" data-uid="DataMaster.ViewModels.Windows.DataExport.DataExportSetViewModel.OnClosing">
+  OnClosing()
+  <a class="header-action link-secondary" title="View source" href="https://bitbucket.org/mas-software/industrial-mes-net-platform-advanced/src/main/ViewModels/Windows/DataExport/DataExportSetViewModel.cs#lines-120"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>在窗口关闭时执行的钩子（Hook）</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected override void OnClosing()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</article>
+
+        <div class="contribution d-print-none">
+          <a href="https://bitbucket.org/mas-software/industrial-mes-net-platform-advanced/src/main/ViewModels/Windows/DataExport/DataExportSetViewModel.cs#lines-19" class="edit-link">Edit this page</a>
+        </div>
+
+
+      </div>
+
+      <div class="affix">
+        <nav id="affix"></nav>
+      </div>
+    </main>
+
+    <div class="container-xxl search-results" id="search-results"></div>
+
+    <footer class="border-top text-secondary">
+      <div class="container-xxl">
+        <div class="flex-fill">
+          <span>Made with <a href="https://dotnet.github.io/docfx" rel="noreferrer">docfx</a>,  | Copyright © 2024 MAS(厦门威光). All rights reserved.</span>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>

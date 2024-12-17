@@ -276,7 +276,7 @@
 </tr>
 </tbody>
 </table>
-<h3 id="设备每小时产量记录表-equipmenthourlyproductionrecord">设备每小时产量记录表 (EquipmentHourlyProductionRecord)</h3>
+<h3 id="设备每小时产量记录表-hourlyproductionrecord">设备每小时产量记录表 (HourlyProductionRecord)</h3>
 <table>
 <thead>
 <tr>
@@ -294,7 +294,7 @@
 <tr>
 <td>EquipmentID</td>
 <td>INT</td>
-<td>设备唯一标识符，外键，关联到<code>Equipment</code>表</td>
+<td>设备唯一标识符，外键，关联到<code>EquipmentData</code>表</td>
 </tr>
 <tr>
 <td>RecipeID</td>
@@ -323,7 +323,7 @@
 </tr>
 </tbody>
 </table>
-<h3 id="设备生产记录表-equipmentproductionrecord">设备生产记录表 (EquipmentProductionRecord)</h3>
+<h3 id="设备生产记录表-productionrecord">设备生产记录表 (ProductionRecord)</h3>
 <table>
 <thead>
 <tr>
@@ -341,7 +341,7 @@
 <tr>
 <td>EquipmentID</td>
 <td>INT</td>
-<td>设备唯一标识符，外键，关联到<code>Equipment</code>表</td>
+<td>设备唯一标识符，外键，关联到<code>EquipmentData</code>表</td>
 </tr>
 <tr>
 <td>ProductionDate</td>
@@ -366,12 +366,12 @@
 <tr>
 <td>ProductionTime</td>
 <td>DECIMAL(10,2)</td>
-<td>实际生产时间（小时）</td>
+<td>实际生产时间（分钟）</td>
 </tr>
 <tr>
 <td>Downtime</td>
 <td>DECIMAL(10,2)</td>
-<td>停机时间（小时）</td>
+<td>停机时间（分钟）</td>
 </tr>
 <tr>
 <td>CycleTime</td>
@@ -428,7 +428,7 @@
 <tr>
 <td>EquipmentID</td>
 <td>INT</td>
-<td>设备唯一标识符，外键，关联到Equipment表</td>
+<td>设备唯一标识符，外键，关联到 EquipmentData 表</td>
 </tr>
 <tr>
 <td>Hour</td>

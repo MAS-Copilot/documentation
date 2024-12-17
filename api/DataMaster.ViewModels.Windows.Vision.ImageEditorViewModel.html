@@ -89,7 +89,7 @@
 
 
   <h1 id="DataMaster_ViewModels_Windows_Vision_ImageEditorViewModel" data-uid="DataMaster.ViewModels.Windows.Vision.ImageEditorViewModel" class="text-break">
-Class ImageEditorViewModel  <a class="header-action link-secondary" title="View source" href="https://bitbucket.org/mas-software/industrial-mes-net-platform-advanced/src/feature/database/ViewModels/Windows/Vision/ImageEditorViewModel.cs#lines-19"><i class="bi bi-code-slash"></i></a>
+Class ImageEditorViewModel  <a class="header-action link-secondary" title="View source" href="https://bitbucket.org/mas-software/industrial-mes-net-platform-advanced/src/main/ViewModels/Windows/Vision/ImageEditorViewModel.cs#lines-24"><i class="bi bi-code-slash"></i></a>
   </h1>
 
   <div class="facts text-secondary">
@@ -102,7 +102,7 @@ Class ImageEditorViewModel  <a class="header-action link-secondary" title="View 
   <div class="markdown conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public class ImageEditorViewModel : ViewModelBase, INotifyPropertyChanged</code></pre>
+    <pre><code class="lang-csharp hljs">public class ImageEditorViewModel : CanvasViewModelBase, INotifyPropertyChanged</code></pre>
   </div>
 
 
@@ -113,6 +113,7 @@ Class ImageEditorViewModel  <a class="header-action link-secondary" title="View 
     <dd>
       <div><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">object</a></div>
       <div><a class="xref" href="DataMaster.Abstracts.ViewModelBase.html">ViewModelBase</a></div>
+      <div><a class="xref" href="DataMaster.Abstracts.CanvasViewModelBase.html">CanvasViewModelBase</a></div>
       <div><span class="xref">ImageEditorViewModel</span></div>
     </dd>
   </dl>
@@ -129,10 +130,139 @@ Class ImageEditorViewModel  <a class="header-action link-secondary" title="View 
     <dt>Inherited Members</dt>
     <dd>
     <div>
+      <a class="xref" href="DataMaster.Abstracts.CanvasViewModelBase.html#DataMaster_Abstracts_CanvasViewModelBase_projectMgr">CanvasViewModelBase.projectMgr</a>
+    </div>
+    <div>
+      <a class="xref" href="DataMaster.Abstracts.CanvasViewModelBase.html#DataMaster_Abstracts_CanvasViewModelBase_TipsNotification">CanvasViewModelBase.TipsNotification</a>
+    </div>
+    <div>
+      <a class="xref" href="DataMaster.Abstracts.CanvasViewModelBase.html#DataMaster_Abstracts_CanvasViewModelBase_LockIconKind">CanvasViewModelBase.LockIconKind</a>
+    </div>
+    <div>
+      <a class="xref" href="DataMaster.Abstracts.CanvasViewModelBase.html#DataMaster_Abstracts_CanvasViewModelBase_IsModuleInteractionEnabled">CanvasViewModelBase.IsModuleInteractionEnabled</a>
+    </div>
+    <div>
+      <a class="xref" href="DataMaster.Abstracts.CanvasViewModelBase.html#DataMaster_Abstracts_CanvasViewModelBase_IsEditCheck">CanvasViewModelBase.IsEditCheck</a>
+    </div>
+    <div>
+      <a class="xref" href="DataMaster.Abstracts.CanvasViewModelBase.html#DataMaster_Abstracts_CanvasViewModelBase_IsOpenSetPopup">CanvasViewModelBase.IsOpenSetPopup</a>
+    </div>
+    <div>
+      <a class="xref" href="DataMaster.Abstracts.CanvasViewModelBase.html#DataMaster_Abstracts_CanvasViewModelBase_CurrentProjectState">CanvasViewModelBase.CurrentProjectState</a>
+    </div>
+    <div>
+      <a class="xref" href="DataMaster.Abstracts.CanvasViewModelBase.html#DataMaster_Abstracts_CanvasViewModelBase_ScaleStep">CanvasViewModelBase.ScaleStep</a>
+    </div>
+    <div>
+      <a class="xref" href="DataMaster.Abstracts.CanvasViewModelBase.html#DataMaster_Abstracts_CanvasViewModelBase_MaxZoomLevel">CanvasViewModelBase.MaxZoomLevel</a>
+    </div>
+    <div>
+      <a class="xref" href="DataMaster.Abstracts.CanvasViewModelBase.html#DataMaster_Abstracts_CanvasViewModelBase_MinZoomLevel">CanvasViewModelBase.MinZoomLevel</a>
+    </div>
+    <div>
+      <a class="xref" href="DataMaster.Abstracts.CanvasViewModelBase.html#DataMaster_Abstracts_CanvasViewModelBase_ZoomLevel">CanvasViewModelBase.ZoomLevel</a>
+    </div>
+    <div>
+      <a class="xref" href="DataMaster.Abstracts.CanvasViewModelBase.html#DataMaster_Abstracts_CanvasViewModelBase_Scale">CanvasViewModelBase.Scale</a>
+    </div>
+    <div>
+      <a class="xref" href="DataMaster.Abstracts.CanvasViewModelBase.html#DataMaster_Abstracts_CanvasViewModelBase_TranslateX">CanvasViewModelBase.TranslateX</a>
+    </div>
+    <div>
+      <a class="xref" href="DataMaster.Abstracts.CanvasViewModelBase.html#DataMaster_Abstracts_CanvasViewModelBase_TranslateY">CanvasViewModelBase.TranslateY</a>
+    </div>
+    <div>
+      <a class="xref" href="DataMaster.Abstracts.CanvasViewModelBase.html#DataMaster_Abstracts_CanvasViewModelBase_PredefinedScales">CanvasViewModelBase.PredefinedScales</a>
+    </div>
+    <div>
+      <a class="xref" href="DataMaster.Abstracts.CanvasViewModelBase.html#DataMaster_Abstracts_CanvasViewModelBase_IsProgressVisible">CanvasViewModelBase.IsProgressVisible</a>
+    </div>
+    <div>
+      <a class="xref" href="DataMaster.Abstracts.CanvasViewModelBase.html#DataMaster_Abstracts_CanvasViewModelBase_CurrentProgress">CanvasViewModelBase.CurrentProgress</a>
+    </div>
+    <div>
+      <a class="xref" href="DataMaster.Abstracts.CanvasViewModelBase.html#DataMaster_Abstracts_CanvasViewModelBase_TotalProgress">CanvasViewModelBase.TotalProgress</a>
+    </div>
+    <div>
+      <a class="xref" href="DataMaster.Abstracts.CanvasViewModelBase.html#DataMaster_Abstracts_CanvasViewModelBase_StatusMessage">CanvasViewModelBase.StatusMessage</a>
+    </div>
+    <div>
+      <a class="xref" href="DataMaster.Abstracts.CanvasViewModelBase.html#DataMaster_Abstracts_CanvasViewModelBase_ProgressPercentage">CanvasViewModelBase.ProgressPercentage</a>
+    </div>
+    <div>
+      <a class="xref" href="DataMaster.Abstracts.CanvasViewModelBase.html#DataMaster_Abstracts_CanvasViewModelBase_ShortcutKeys">CanvasViewModelBase.ShortcutKeys</a>
+    </div>
+    <div>
+      <a class="xref" href="DataMaster.Abstracts.CanvasViewModelBase.html#DataMaster_Abstracts_CanvasViewModelBase_ZoomInCommand">CanvasViewModelBase.ZoomInCommand</a>
+    </div>
+    <div>
+      <a class="xref" href="DataMaster.Abstracts.CanvasViewModelBase.html#DataMaster_Abstracts_CanvasViewModelBase_ZoomOutCommand">CanvasViewModelBase.ZoomOutCommand</a>
+    </div>
+    <div>
+      <a class="xref" href="DataMaster.Abstracts.CanvasViewModelBase.html#DataMaster_Abstracts_CanvasViewModelBase_RestoreViewCommand">CanvasViewModelBase.RestoreViewCommand</a>
+    </div>
+    <div>
+      <a class="xref" href="DataMaster.Abstracts.CanvasViewModelBase.html#DataMaster_Abstracts_CanvasViewModelBase_FitViewCommand">CanvasViewModelBase.FitViewCommand</a>
+    </div>
+    <div>
+      <a class="xref" href="DataMaster.Abstracts.CanvasViewModelBase.html#DataMaster_Abstracts_CanvasViewModelBase_ProjectSavedCommand">CanvasViewModelBase.ProjectSavedCommand</a>
+    </div>
+    <div>
+      <a class="xref" href="DataMaster.Abstracts.CanvasViewModelBase.html#DataMaster_Abstracts_CanvasViewModelBase_OpenSetPopCommand">CanvasViewModelBase.OpenSetPopCommand</a>
+    </div>
+    <div>
+      <a class="xref" href="DataMaster.Abstracts.CanvasViewModelBase.html#DataMaster_Abstracts_CanvasViewModelBase_OnNotify">CanvasViewModelBase.OnNotify</a>
+    </div>
+    <div>
+      <a class="xref" href="DataMaster.Abstracts.CanvasViewModelBase.html#DataMaster_Abstracts_CanvasViewModelBase_ProjectCreated">CanvasViewModelBase.ProjectCreated</a>
+    </div>
+    <div>
+      <a class="xref" href="DataMaster.Abstracts.CanvasViewModelBase.html#DataMaster_Abstracts_CanvasViewModelBase_ProjectSaved">CanvasViewModelBase.ProjectSaved</a>
+    </div>
+    <div>
+      <a class="xref" href="DataMaster.Abstracts.CanvasViewModelBase.html#DataMaster_Abstracts_CanvasViewModelBase_ProjectOpened">CanvasViewModelBase.ProjectOpened</a>
+    </div>
+    <div>
+      <a class="xref" href="DataMaster.Abstracts.CanvasViewModelBase.html#DataMaster_Abstracts_CanvasViewModelBase_ProjectChanges">CanvasViewModelBase.ProjectChanges()</a>
+    </div>
+    <div>
+      <a class="xref" href="DataMaster.Abstracts.CanvasViewModelBase.html#DataMaster_Abstracts_CanvasViewModelBase_ExecuteZoomIn_System_Object_">CanvasViewModelBase.ExecuteZoomIn(object)</a>
+    </div>
+    <div>
+      <a class="xref" href="DataMaster.Abstracts.CanvasViewModelBase.html#DataMaster_Abstracts_CanvasViewModelBase_ExecuteZoomOut_System_Object_">CanvasViewModelBase.ExecuteZoomOut(object)</a>
+    </div>
+    <div>
+      <a class="xref" href="DataMaster.Abstracts.CanvasViewModelBase.html#DataMaster_Abstracts_CanvasViewModelBase_ExecuteRestoreView_System_Object_">CanvasViewModelBase.ExecuteRestoreView(object)</a>
+    </div>
+    <div>
+      <a class="xref" href="DataMaster.Abstracts.CanvasViewModelBase.html#DataMaster_Abstracts_CanvasViewModelBase_ExecuteFitView_System_Object_">CanvasViewModelBase.ExecuteFitView(object)</a>
+    </div>
+    <div>
+      <a class="xref" href="DataMaster.Abstracts.CanvasViewModelBase.html#DataMaster_Abstracts_CanvasViewModelBase_ExecuteProjectSaved_System_Object_">CanvasViewModelBase.ExecuteProjectSaved(object)</a>
+    </div>
+    <div>
+      <a class="xref" href="DataMaster.Abstracts.CanvasViewModelBase.html#DataMaster_Abstracts_CanvasViewModelBase_GetShortcutKeys">CanvasViewModelBase.GetShortcutKeys()</a>
+    </div>
+    <div>
+      <a class="xref" href="DataMaster.Abstracts.CanvasViewModelBase.html#DataMaster_Abstracts_CanvasViewModelBase_RaiseOnNotify_System_String_">CanvasViewModelBase.RaiseOnNotify(string)</a>
+    </div>
+    <div>
+      <a class="xref" href="DataMaster.Abstracts.CanvasViewModelBase.html#DataMaster_Abstracts_CanvasViewModelBase_RaiseProjectCreated_System_String_">CanvasViewModelBase.RaiseProjectCreated(string)</a>
+    </div>
+    <div>
+      <a class="xref" href="DataMaster.Abstracts.CanvasViewModelBase.html#DataMaster_Abstracts_CanvasViewModelBase_RaiseProjectSaved_System_String_">CanvasViewModelBase.RaiseProjectSaved(string)</a>
+    </div>
+    <div>
+      <a class="xref" href="DataMaster.Abstracts.CanvasViewModelBase.html#DataMaster_Abstracts_CanvasViewModelBase_RaiseProjectOpened_System_String_">CanvasViewModelBase.RaiseProjectOpened(string)</a>
+    </div>
+    <div>
       <a class="xref" href="DataMaster.Abstracts.ViewModelBase.html#DataMaster_Abstracts_ViewModelBase_Config">ViewModelBase.Config</a>
     </div>
     <div>
       <a class="xref" href="DataMaster.Abstracts.ViewModelBase.html#DataMaster_Abstracts_ViewModelBase_LanguageManager">ViewModelBase.LanguageManager</a>
+    </div>
+    <div>
+      <a class="xref" href="DataMaster.Abstracts.ViewModelBase.html#DataMaster_Abstracts_ViewModelBase_IsBusy">ViewModelBase.IsBusy</a>
     </div>
     <div>
       <a class="xref" href="DataMaster.Abstracts.ViewModelBase.html#DataMaster_Abstracts_ViewModelBase_BusyCursor">ViewModelBase.BusyCursor</a>
@@ -148,6 +278,15 @@ Class ImageEditorViewModel  <a class="header-action link-secondary" title="View 
     </div>
     <div>
       <a class="xref" href="DataMaster.Abstracts.ViewModelBase.html#DataMaster_Abstracts_ViewModelBase_SetField__1___0____0_System_String_">ViewModelBase.SetField&lt;T&gt;(ref T, T, string)</a>
+    </div>
+    <div>
+      <a class="xref" href="DataMaster.Abstracts.ViewModelBase.html#DataMaster_Abstracts_ViewModelBase_ResetCursor">ViewModelBase.ResetCursor()</a>
+    </div>
+    <div>
+      <a class="xref" href="DataMaster.Abstracts.ViewModelBase.html#DataMaster_Abstracts_ViewModelBase_SetBusyCursor">ViewModelBase.SetBusyCursor()</a>
+    </div>
+    <div>
+      <a class="xref" href="DataMaster.Abstracts.ViewModelBase.html#DataMaster_Abstracts_ViewModelBase_SetWorkingCursor">ViewModelBase.SetWorkingCursor()</a>
     </div>
     <div>
       <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)">object.Equals(object)</a>
@@ -183,9 +322,9 @@ Class ImageEditorViewModel  <a class="header-action link-secondary" title="View 
 
   <a id="DataMaster_ViewModels_Windows_Vision_ImageEditorViewModel__ctor_" data-uid="DataMaster.ViewModels.Windows.Vision.ImageEditorViewModel.#ctor*"></a>
 
-  <h3 id="DataMaster_ViewModels_Windows_Vision_ImageEditorViewModel__ctor_DataMaster_Modules_MAS_Vision_Interfaces_ITemplateImageStorage_" data-uid="DataMaster.ViewModels.Windows.Vision.ImageEditorViewModel.#ctor(DataMaster.Modules.MAS.Vision.Interfaces.ITemplateImageStorage)">
-  ImageEditorViewModel(ITemplateImageStorage)
-  <a class="header-action link-secondary" title="View source" href="https://bitbucket.org/mas-software/industrial-mes-net-platform-advanced/src/feature/database/ViewModels/Windows/Vision/ImageEditorViewModel.cs#lines-249"><i class="bi bi-code-slash"></i></a>
+  <h3 id="DataMaster_ViewModels_Windows_Vision_ImageEditorViewModel__ctor_MAS_Vision_ITemplateImageStorage_DataMaster_Interfaces_IProjectManager_MAS_Controls_Notification_ITipsNotificationService_" data-uid="DataMaster.ViewModels.Windows.Vision.ImageEditorViewModel.#ctor(MAS.Vision.ITemplateImageStorage,DataMaster.Interfaces.IProjectManager,MAS.Controls.Notification.ITipsNotificationService)">
+  ImageEditorViewModel(ITemplateImageStorage, IProjectManager, ITipsNotificationService)
+  <a class="header-action link-secondary" title="View source" href="https://bitbucket.org/mas-software/industrial-mes-net-platform-advanced/src/main/ViewModels/Windows/Vision/ImageEditorViewModel.cs#lines-233"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>构造函数，初始化 <a class="xref" href="DataMaster.ViewModels.Windows.Vision.ImageEditorViewModel.html">ImageEditorViewModel</a> 新实例</p>
@@ -193,13 +332,19 @@ Class ImageEditorViewModel  <a class="header-action link-secondary" title="View 
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public ImageEditorViewModel(ITemplateImageStorage templateImage)</code></pre>
+    <pre><code class="lang-csharp hljs">public ImageEditorViewModel(ITemplateImageStorage templateImage, IProjectManager projectManager, ITipsNotificationService tipsNotification)</code></pre>
   </div>
 
   <h4 class="section">Parameters</h4>
   <dl class="parameters">
-    <dt><code>templateImage</code> <a class="xref" href="DataMaster.Modules.MAS.Vision.Interfaces.ITemplateImageStorage.html">ITemplateImageStorage</a></dt>
+    <dt><code>templateImage</code> <a class="xref" href="MAS.Vision.ITemplateImageStorage.html">ITemplateImageStorage</a></dt>
     <dd><p>图像模板储存</p>
+</dd>
+    <dt><code>projectManager</code> <a class="xref" href="DataMaster.Interfaces.IProjectManager.html">IProjectManager</a></dt>
+    <dd><p>项目工程跟踪</p>
+</dd>
+    <dt><code>tipsNotification</code> <a class="xref" href="DataMaster.Modules.MAS.Controls.Notification.ITipsNotificationService.html">ITipsNotificationService</a></dt>
+    <dd><p>Tips 通知</p>
 </dd>
   </dl>
 
@@ -222,7 +367,7 @@ Class ImageEditorViewModel  <a class="header-action link-secondary" title="View 
 
   <h3 id="DataMaster_ViewModels_Windows_Vision_ImageEditorViewModel_CurrentImageIndex" data-uid="DataMaster.ViewModels.Windows.Vision.ImageEditorViewModel.CurrentImageIndex">
   CurrentImageIndex
-  <a class="header-action link-secondary" title="View source" href="https://bitbucket.org/mas-software/industrial-mes-net-platform-advanced/src/feature/database/ViewModels/Windows/Vision/ImageEditorViewModel.cs#lines-172"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://bitbucket.org/mas-software/industrial-mes-net-platform-advanced/src/main/ViewModels/Windows/Vision/ImageEditorViewModel.cs#lines-154"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>获取或设置当前图像的索引</p>
@@ -254,7 +399,7 @@ Class ImageEditorViewModel  <a class="header-action link-secondary" title="View 
 
   <h3 id="DataMaster_ViewModels_Windows_Vision_ImageEditorViewModel_EditStatus" data-uid="DataMaster.ViewModels.Windows.Vision.ImageEditorViewModel.EditStatus">
   EditStatus
-  <a class="header-action link-secondary" title="View source" href="https://bitbucket.org/mas-software/industrial-mes-net-platform-advanced/src/feature/database/ViewModels/Windows/Vision/ImageEditorViewModel.cs#lines-50"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://bitbucket.org/mas-software/industrial-mes-net-platform-advanced/src/main/ViewModels/Windows/Vision/ImageEditorViewModel.cs#lines-59"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>获取或设置编辑状态</p>
@@ -282,19 +427,19 @@ Class ImageEditorViewModel  <a class="header-action link-secondary" title="View 
 
 
 
-  <a id="DataMaster_ViewModels_Windows_Vision_ImageEditorViewModel_EnlargeImageCommand_" data-uid="DataMaster.ViewModels.Windows.Vision.ImageEditorViewModel.EnlargeImageCommand*"></a>
+  <a id="DataMaster_ViewModels_Windows_Vision_ImageEditorViewModel_ExitCommand_" data-uid="DataMaster.ViewModels.Windows.Vision.ImageEditorViewModel.ExitCommand*"></a>
 
-  <h3 id="DataMaster_ViewModels_Windows_Vision_ImageEditorViewModel_EnlargeImageCommand" data-uid="DataMaster.ViewModels.Windows.Vision.ImageEditorViewModel.EnlargeImageCommand">
-  EnlargeImageCommand
-  <a class="header-action link-secondary" title="View source" href="https://bitbucket.org/mas-software/industrial-mes-net-platform-advanced/src/feature/database/ViewModels/Windows/Vision/ImageEditorViewModel.cs#lines-207"><i class="bi bi-code-slash"></i></a>
+  <h3 id="DataMaster_ViewModels_Windows_Vision_ImageEditorViewModel_ExitCommand" data-uid="DataMaster.ViewModels.Windows.Vision.ImageEditorViewModel.ExitCommand">
+  ExitCommand
+  <a class="header-action link-secondary" title="View source" href="https://bitbucket.org/mas-software/industrial-mes-net-platform-advanced/src/main/ViewModels/Windows/Vision/ImageEditorViewModel.cs#lines-224"><i class="bi bi-code-slash"></i></a>
   </h3>
 
-  <div class="markdown level1 summary"><p>获取图片放大命令</p>
+  <div class="markdown level1 summary"><p>获取退出命令</p>
 </div>
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public RelayCommand EnlargeImageCommand { get; }</code></pre>
+    <pre><code class="lang-csharp hljs">public RelayCommand ExitCommand { get; }</code></pre>
   </div>
 
 
@@ -318,7 +463,7 @@ Class ImageEditorViewModel  <a class="header-action link-secondary" title="View 
 
   <h3 id="DataMaster_ViewModels_Windows_Vision_ImageEditorViewModel_FirstImageCommand" data-uid="DataMaster.ViewModels.Windows.Vision.ImageEditorViewModel.FirstImageCommand">
   FirstImageCommand
-  <a class="header-action link-secondary" title="View source" href="https://bitbucket.org/mas-software/industrial-mes-net-platform-advanced/src/feature/database/ViewModels/Windows/Vision/ImageEditorViewModel.cs#lines-222"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://bitbucket.org/mas-software/industrial-mes-net-platform-advanced/src/main/ViewModels/Windows/Vision/ImageEditorViewModel.cs#lines-189"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>获取转到第一张图片命令</p>
@@ -346,11 +491,43 @@ Class ImageEditorViewModel  <a class="header-action link-secondary" title="View 
 
 
 
+  <a id="DataMaster_ViewModels_Windows_Vision_ImageEditorViewModel_FolderOpenCommand_" data-uid="DataMaster.ViewModels.Windows.Vision.ImageEditorViewModel.FolderOpenCommand*"></a>
+
+  <h3 id="DataMaster_ViewModels_Windows_Vision_ImageEditorViewModel_FolderOpenCommand" data-uid="DataMaster.ViewModels.Windows.Vision.ImageEditorViewModel.FolderOpenCommand">
+  FolderOpenCommand
+  <a class="header-action link-secondary" title="View source" href="https://bitbucket.org/mas-software/industrial-mes-net-platform-advanced/src/main/ViewModels/Windows/Vision/ImageEditorViewModel.cs#lines-209"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>获取打开文件夹命令</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public RelayCommand FolderOpenCommand { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="DataMaster.Commands.RelayCommand.html">RelayCommand</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
   <a id="DataMaster_ViewModels_Windows_Vision_ImageEditorViewModel_Image_" data-uid="DataMaster.ViewModels.Windows.Vision.ImageEditorViewModel.Image*"></a>
 
   <h3 id="DataMaster_ViewModels_Windows_Vision_ImageEditorViewModel_Image" data-uid="DataMaster.ViewModels.Windows.Vision.ImageEditorViewModel.Image">
   Image
-  <a class="header-action link-secondary" title="View source" href="https://bitbucket.org/mas-software/industrial-mes-net-platform-advanced/src/feature/database/ViewModels/Windows/Vision/ImageEditorViewModel.cs#lines-37"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://bitbucket.org/mas-software/industrial-mes-net-platform-advanced/src/main/ViewModels/Windows/Vision/ImageEditorViewModel.cs#lines-46"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>获取或设置编辑的图像</p>
@@ -382,7 +559,7 @@ Class ImageEditorViewModel  <a class="header-action link-secondary" title="View 
 
   <h3 id="DataMaster_ViewModels_Windows_Vision_ImageEditorViewModel_ImageEditorWindowVer" data-uid="DataMaster.ViewModels.Windows.Vision.ImageEditorViewModel.ImageEditorWindowVer">
   ImageEditorWindowVer
-  <a class="header-action link-secondary" title="View source" href="https://bitbucket.org/mas-software/industrial-mes-net-platform-advanced/src/feature/database/ViewModels/Windows/Vision/ImageEditorViewModel.cs#lines-26"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://bitbucket.org/mas-software/industrial-mes-net-platform-advanced/src/main/ViewModels/Windows/Vision/ImageEditorViewModel.cs#lines-35"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>获取图像编辑窗口版本</p>
@@ -414,7 +591,7 @@ Class ImageEditorViewModel  <a class="header-action link-secondary" title="View 
 
   <h3 id="DataMaster_ViewModels_Windows_Vision_ImageEditorViewModel_ImageInfo" data-uid="DataMaster.ViewModels.Windows.Vision.ImageEditorViewModel.ImageInfo">
   ImageInfo
-  <a class="header-action link-secondary" title="View source" href="https://bitbucket.org/mas-software/industrial-mes-net-platform-advanced/src/feature/database/ViewModels/Windows/Vision/ImageEditorViewModel.cs#lines-59"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://bitbucket.org/mas-software/industrial-mes-net-platform-advanced/src/main/ViewModels/Windows/Vision/ImageEditorViewModel.cs#lines-68"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>获取或设置图像信息</p>
@@ -442,43 +619,11 @@ Class ImageEditorViewModel  <a class="header-action link-secondary" title="View 
 
 
 
-  <a id="DataMaster_ViewModels_Windows_Vision_ImageEditorViewModel_ImageReductionCommand_" data-uid="DataMaster.ViewModels.Windows.Vision.ImageEditorViewModel.ImageReductionCommand*"></a>
-
-  <h3 id="DataMaster_ViewModels_Windows_Vision_ImageEditorViewModel_ImageReductionCommand" data-uid="DataMaster.ViewModels.Windows.Vision.ImageEditorViewModel.ImageReductionCommand">
-  ImageReductionCommand
-  <a class="header-action link-secondary" title="View source" href="https://bitbucket.org/mas-software/industrial-mes-net-platform-advanced/src/feature/database/ViewModels/Windows/Vision/ImageEditorViewModel.cs#lines-212"><i class="bi bi-code-slash"></i></a>
-  </h3>
-
-  <div class="markdown level1 summary"><p>获取图片缩小命令</p>
-</div>
-  <div class="markdown level1 conceptual"></div>
-
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public RelayCommand ImageReductionCommand { get; }</code></pre>
-  </div>
-
-
-
-
-
-  <h4 class="section">Property Value</h4>
-  <dl class="parameters">
-    <dt><a class="xref" href="DataMaster.Commands.RelayCommand.html">RelayCommand</a></dt>
-    <dd></dd>
-  </dl>
-
-
-
-
-
-
-
-
   <a id="DataMaster_ViewModels_Windows_Vision_ImageEditorViewModel_ImageResizeCommand_" data-uid="DataMaster.ViewModels.Windows.Vision.ImageEditorViewModel.ImageResizeCommand*"></a>
 
   <h3 id="DataMaster_ViewModels_Windows_Vision_ImageEditorViewModel_ImageResizeCommand" data-uid="DataMaster.ViewModels.Windows.Vision.ImageEditorViewModel.ImageResizeCommand">
   ImageResizeCommand
-  <a class="header-action link-secondary" title="View source" href="https://bitbucket.org/mas-software/industrial-mes-net-platform-advanced/src/feature/database/ViewModels/Windows/Vision/ImageEditorViewModel.cs#lines-202"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://bitbucket.org/mas-software/industrial-mes-net-platform-advanced/src/main/ViewModels/Windows/Vision/ImageEditorViewModel.cs#lines-184"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>获取图像裁剪命令</p>
@@ -506,11 +651,43 @@ Class ImageEditorViewModel  <a class="header-action link-secondary" title="View 
 
 
 
+  <a id="DataMaster_ViewModels_Windows_Vision_ImageEditorViewModel_ImageSaveAsCommand_" data-uid="DataMaster.ViewModels.Windows.Vision.ImageEditorViewModel.ImageSaveAsCommand*"></a>
+
+  <h3 id="DataMaster_ViewModels_Windows_Vision_ImageEditorViewModel_ImageSaveAsCommand" data-uid="DataMaster.ViewModels.Windows.Vision.ImageEditorViewModel.ImageSaveAsCommand">
+  ImageSaveAsCommand
+  <a class="header-action link-secondary" title="View source" href="https://bitbucket.org/mas-software/industrial-mes-net-platform-advanced/src/main/ViewModels/Windows/Vision/ImageEditorViewModel.cs#lines-219"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>获取图像另存为命令</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public RelayCommand ImageSaveAsCommand { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="DataMaster.Commands.RelayCommand.html">RelayCommand</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
   <a id="DataMaster_ViewModels_Windows_Vision_ImageEditorViewModel_ImageSaveClosWindowCommand_" data-uid="DataMaster.ViewModels.Windows.Vision.ImageEditorViewModel.ImageSaveClosWindowCommand*"></a>
 
   <h3 id="DataMaster_ViewModels_Windows_Vision_ImageEditorViewModel_ImageSaveClosWindowCommand" data-uid="DataMaster.ViewModels.Windows.Vision.ImageEditorViewModel.ImageSaveClosWindowCommand">
   ImageSaveClosWindowCommand
-  <a class="header-action link-secondary" title="View source" href="https://bitbucket.org/mas-software/industrial-mes-net-platform-advanced/src/feature/database/ViewModels/Windows/Vision/ImageEditorViewModel.cs#lines-197"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://bitbucket.org/mas-software/industrial-mes-net-platform-advanced/src/main/ViewModels/Windows/Vision/ImageEditorViewModel.cs#lines-179"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>获取保存图像并关闭窗口命令</p>
@@ -538,11 +715,43 @@ Class ImageEditorViewModel  <a class="header-action link-secondary" title="View 
 
 
 
+  <a id="DataMaster_ViewModels_Windows_Vision_ImageEditorViewModel_ImageSaveCommand_" data-uid="DataMaster.ViewModels.Windows.Vision.ImageEditorViewModel.ImageSaveCommand*"></a>
+
+  <h3 id="DataMaster_ViewModels_Windows_Vision_ImageEditorViewModel_ImageSaveCommand" data-uid="DataMaster.ViewModels.Windows.Vision.ImageEditorViewModel.ImageSaveCommand">
+  ImageSaveCommand
+  <a class="header-action link-secondary" title="View source" href="https://bitbucket.org/mas-software/industrial-mes-net-platform-advanced/src/main/ViewModels/Windows/Vision/ImageEditorViewModel.cs#lines-214"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>获取图像保存命令</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public RelayCommand ImageSaveCommand { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="DataMaster.Commands.RelayCommand.html">RelayCommand</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
   <a id="DataMaster_ViewModels_Windows_Vision_ImageEditorViewModel_ImageSources_" data-uid="DataMaster.ViewModels.Windows.Vision.ImageEditorViewModel.ImageSources*"></a>
 
   <h3 id="DataMaster_ViewModels_Windows_Vision_ImageEditorViewModel_ImageSources" data-uid="DataMaster.ViewModels.Windows.Vision.ImageEditorViewModel.ImageSources">
   ImageSources
-  <a class="header-action link-secondary" title="View source" href="https://bitbucket.org/mas-software/industrial-mes-net-platform-advanced/src/feature/database/ViewModels/Windows/Vision/ImageEditorViewModel.cs#lines-190"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://bitbucket.org/mas-software/industrial-mes-net-platform-advanced/src/main/ViewModels/Windows/Vision/ImageEditorViewModel.cs#lines-172"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>获取保存的图像集合</p>
@@ -574,7 +783,7 @@ Class ImageEditorViewModel  <a class="header-action link-secondary" title="View 
 
   <h3 id="DataMaster_ViewModels_Windows_Vision_ImageEditorViewModel_IsSaved" data-uid="DataMaster.ViewModels.Windows.Vision.ImageEditorViewModel.IsSaved">
   IsSaved
-  <a class="header-action link-secondary" title="View source" href="https://bitbucket.org/mas-software/industrial-mes-net-platform-advanced/src/feature/database/ViewModels/Windows/Vision/ImageEditorViewModel.cs#lines-31"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://bitbucket.org/mas-software/industrial-mes-net-platform-advanced/src/main/ViewModels/Windows/Vision/ImageEditorViewModel.cs#lines-40"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>获取或设置是否保存编辑的图像模板</p>
@@ -606,7 +815,7 @@ Class ImageEditorViewModel  <a class="header-action link-secondary" title="View 
 
   <h3 id="DataMaster_ViewModels_Windows_Vision_ImageEditorViewModel_IsSelectedCoordinates" data-uid="DataMaster.ViewModels.Windows.Vision.ImageEditorViewModel.IsSelectedCoordinates">
   IsSelectedCoordinates
-  <a class="header-action link-secondary" title="View source" href="https://bitbucket.org/mas-software/industrial-mes-net-platform-advanced/src/feature/database/ViewModels/Windows/Vision/ImageEditorViewModel.cs#lines-77"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://bitbucket.org/mas-software/industrial-mes-net-platform-advanced/src/main/ViewModels/Windows/Vision/ImageEditorViewModel.cs#lines-86"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>获取或设置是否选中显示坐标</p>
@@ -638,7 +847,7 @@ Class ImageEditorViewModel  <a class="header-action link-secondary" title="View 
 
   <h3 id="DataMaster_ViewModels_Windows_Vision_ImageEditorViewModel_IsSelectedCropCropRectangle" data-uid="DataMaster.ViewModels.Windows.Vision.ImageEditorViewModel.IsSelectedCropCropRectangle">
   IsSelectedCropCropRectangle
-  <a class="header-action link-secondary" title="View source" href="https://bitbucket.org/mas-software/industrial-mes-net-platform-advanced/src/feature/database/ViewModels/Windows/Vision/ImageEditorViewModel.cs#lines-95"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://bitbucket.org/mas-software/industrial-mes-net-platform-advanced/src/main/ViewModels/Windows/Vision/ImageEditorViewModel.cs#lines-104"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>获取或设置是否选中裁剪矩形绘制</p>
@@ -670,7 +879,7 @@ Class ImageEditorViewModel  <a class="header-action link-secondary" title="View 
 
   <h3 id="DataMaster_ViewModels_Windows_Vision_ImageEditorViewModel_IsSelectedCursorDefault" data-uid="DataMaster.ViewModels.Windows.Vision.ImageEditorViewModel.IsSelectedCursorDefault">
   IsSelectedCursorDefault
-  <a class="header-action link-secondary" title="View source" href="https://bitbucket.org/mas-software/industrial-mes-net-platform-advanced/src/feature/database/ViewModels/Windows/Vision/ImageEditorViewModel.cs#lines-86"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://bitbucket.org/mas-software/industrial-mes-net-platform-advanced/src/main/ViewModels/Windows/Vision/ImageEditorViewModel.cs#lines-95"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>获取或设置是否选中默认，基础拖动等功能</p>
@@ -702,7 +911,7 @@ Class ImageEditorViewModel  <a class="header-action link-secondary" title="View 
 
   <h3 id="DataMaster_ViewModels_Windows_Vision_ImageEditorViewModel_IsSelectedShowGridLine" data-uid="DataMaster.ViewModels.Windows.Vision.ImageEditorViewModel.IsSelectedShowGridLine">
   IsSelectedShowGridLine
-  <a class="header-action link-secondary" title="View source" href="https://bitbucket.org/mas-software/industrial-mes-net-platform-advanced/src/feature/database/ViewModels/Windows/Vision/ImageEditorViewModel.cs#lines-68"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://bitbucket.org/mas-software/industrial-mes-net-platform-advanced/src/main/ViewModels/Windows/Vision/ImageEditorViewModel.cs#lines-77"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>获取或设置是否选中显示网格线条</p>
@@ -734,7 +943,7 @@ Class ImageEditorViewModel  <a class="header-action link-secondary" title="View 
 
   <h3 id="DataMaster_ViewModels_Windows_Vision_ImageEditorViewModel_LastImageCommand" data-uid="DataMaster.ViewModels.Windows.Vision.ImageEditorViewModel.LastImageCommand">
   LastImageCommand
-  <a class="header-action link-secondary" title="View source" href="https://bitbucket.org/mas-software/industrial-mes-net-platform-advanced/src/feature/database/ViewModels/Windows/Vision/ImageEditorViewModel.cs#lines-237"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://bitbucket.org/mas-software/industrial-mes-net-platform-advanced/src/main/ViewModels/Windows/Vision/ImageEditorViewModel.cs#lines-204"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>获取转到最后一张图片命令</p>
@@ -766,7 +975,7 @@ Class ImageEditorViewModel  <a class="header-action link-secondary" title="View 
 
   <h3 id="DataMaster_ViewModels_Windows_Vision_ImageEditorViewModel_MaxImageIndex" data-uid="DataMaster.ViewModels.Windows.Vision.ImageEditorViewModel.MaxImageIndex">
   MaxImageIndex
-  <a class="header-action link-secondary" title="View source" href="https://bitbucket.org/mas-software/industrial-mes-net-platform-advanced/src/feature/database/ViewModels/Windows/Vision/ImageEditorViewModel.cs#lines-166"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://bitbucket.org/mas-software/industrial-mes-net-platform-advanced/src/main/ViewModels/Windows/Vision/ImageEditorViewModel.cs#lines-148"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>获取图像列表最大索引</p>
@@ -798,7 +1007,7 @@ Class ImageEditorViewModel  <a class="header-action link-secondary" title="View 
 
   <h3 id="DataMaster_ViewModels_Windows_Vision_ImageEditorViewModel_NextImageCommand" data-uid="DataMaster.ViewModels.Windows.Vision.ImageEditorViewModel.NextImageCommand">
   NextImageCommand
-  <a class="header-action link-secondary" title="View source" href="https://bitbucket.org/mas-software/industrial-mes-net-platform-advanced/src/feature/database/ViewModels/Windows/Vision/ImageEditorViewModel.cs#lines-232"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://bitbucket.org/mas-software/industrial-mes-net-platform-advanced/src/main/ViewModels/Windows/Vision/ImageEditorViewModel.cs#lines-199"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>或者转到下一张图片命令</p>
@@ -830,7 +1039,7 @@ Class ImageEditorViewModel  <a class="header-action link-secondary" title="View 
 
   <h3 id="DataMaster_ViewModels_Windows_Vision_ImageEditorViewModel_PreviousImageCommand" data-uid="DataMaster.ViewModels.Windows.Vision.ImageEditorViewModel.PreviousImageCommand">
   PreviousImageCommand
-  <a class="header-action link-secondary" title="View source" href="https://bitbucket.org/mas-software/industrial-mes-net-platform-advanced/src/feature/database/ViewModels/Windows/Vision/ImageEditorViewModel.cs#lines-227"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://bitbucket.org/mas-software/industrial-mes-net-platform-advanced/src/main/ViewModels/Windows/Vision/ImageEditorViewModel.cs#lines-194"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>获取转到上一张图片命令</p>
@@ -858,43 +1067,11 @@ Class ImageEditorViewModel  <a class="header-action link-secondary" title="View 
 
 
 
-  <a id="DataMaster_ViewModels_Windows_Vision_ImageEditorViewModel_ResetImageCommand_" data-uid="DataMaster.ViewModels.Windows.Vision.ImageEditorViewModel.ResetImageCommand*"></a>
-
-  <h3 id="DataMaster_ViewModels_Windows_Vision_ImageEditorViewModel_ResetImageCommand" data-uid="DataMaster.ViewModels.Windows.Vision.ImageEditorViewModel.ResetImageCommand">
-  ResetImageCommand
-  <a class="header-action link-secondary" title="View source" href="https://bitbucket.org/mas-software/industrial-mes-net-platform-advanced/src/feature/database/ViewModels/Windows/Vision/ImageEditorViewModel.cs#lines-217"><i class="bi bi-code-slash"></i></a>
-  </h3>
-
-  <div class="markdown level1 summary"><p>获取图像复位命令</p>
-</div>
-  <div class="markdown level1 conceptual"></div>
-
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public RelayCommand ResetImageCommand { get; }</code></pre>
-  </div>
-
-
-
-
-
-  <h4 class="section">Property Value</h4>
-  <dl class="parameters">
-    <dt><a class="xref" href="DataMaster.Commands.RelayCommand.html">RelayCommand</a></dt>
-    <dd></dd>
-  </dl>
-
-
-
-
-
-
-
-
   <a id="DataMaster_ViewModels_Windows_Vision_ImageEditorViewModel_ResizeHeight_" data-uid="DataMaster.ViewModels.Windows.Vision.ImageEditorViewModel.ResizeHeight*"></a>
 
   <h3 id="DataMaster_ViewModels_Windows_Vision_ImageEditorViewModel_ResizeHeight" data-uid="DataMaster.ViewModels.Windows.Vision.ImageEditorViewModel.ResizeHeight">
   ResizeHeight
-  <a class="header-action link-secondary" title="View source" href="https://bitbucket.org/mas-software/industrial-mes-net-platform-advanced/src/feature/database/ViewModels/Windows/Vision/ImageEditorViewModel.cs#lines-131"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://bitbucket.org/mas-software/industrial-mes-net-platform-advanced/src/main/ViewModels/Windows/Vision/ImageEditorViewModel.cs#lines-140"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>获取或设置裁剪图像的高度</p>
@@ -926,7 +1103,7 @@ Class ImageEditorViewModel  <a class="header-action link-secondary" title="View 
 
   <h3 id="DataMaster_ViewModels_Windows_Vision_ImageEditorViewModel_ResizeWidth" data-uid="DataMaster.ViewModels.Windows.Vision.ImageEditorViewModel.ResizeWidth">
   ResizeWidth
-  <a class="header-action link-secondary" title="View source" href="https://bitbucket.org/mas-software/industrial-mes-net-platform-advanced/src/feature/database/ViewModels/Windows/Vision/ImageEditorViewModel.cs#lines-122"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://bitbucket.org/mas-software/industrial-mes-net-platform-advanced/src/main/ViewModels/Windows/Vision/ImageEditorViewModel.cs#lines-131"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>获取或设置裁剪图像的宽度</p>
@@ -958,7 +1135,7 @@ Class ImageEditorViewModel  <a class="header-action link-secondary" title="View 
 
   <h3 id="DataMaster_ViewModels_Windows_Vision_ImageEditorViewModel_ResizeX" data-uid="DataMaster.ViewModels.Windows.Vision.ImageEditorViewModel.ResizeX">
   ResizeX
-  <a class="header-action link-secondary" title="View source" href="https://bitbucket.org/mas-software/industrial-mes-net-platform-advanced/src/feature/database/ViewModels/Windows/Vision/ImageEditorViewModel.cs#lines-104"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://bitbucket.org/mas-software/industrial-mes-net-platform-advanced/src/main/ViewModels/Windows/Vision/ImageEditorViewModel.cs#lines-113"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>获取或设置裁剪图像的X坐标</p>
@@ -990,7 +1167,7 @@ Class ImageEditorViewModel  <a class="header-action link-secondary" title="View 
 
   <h3 id="DataMaster_ViewModels_Windows_Vision_ImageEditorViewModel_ResizeY" data-uid="DataMaster.ViewModels.Windows.Vision.ImageEditorViewModel.ResizeY">
   ResizeY
-  <a class="header-action link-secondary" title="View source" href="https://bitbucket.org/mas-software/industrial-mes-net-platform-advanced/src/feature/database/ViewModels/Windows/Vision/ImageEditorViewModel.cs#lines-113"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://bitbucket.org/mas-software/industrial-mes-net-platform-advanced/src/main/ViewModels/Windows/Vision/ImageEditorViewModel.cs#lines-122"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>获取或设置裁剪图像的Y坐标</p>
@@ -1018,179 +1195,11 @@ Class ImageEditorViewModel  <a class="header-action link-secondary" title="View 
 
 
 
-  <a id="DataMaster_ViewModels_Windows_Vision_ImageEditorViewModel_Scale_" data-uid="DataMaster.ViewModels.Windows.Vision.ImageEditorViewModel.Scale*"></a>
-
-  <h3 id="DataMaster_ViewModels_Windows_Vision_ImageEditorViewModel_Scale" data-uid="DataMaster.ViewModels.Windows.Vision.ImageEditorViewModel.Scale">
-  Scale
-  <a class="header-action link-secondary" title="View source" href="https://bitbucket.org/mas-software/industrial-mes-net-platform-advanced/src/feature/database/ViewModels/Windows/Vision/ImageEditorViewModel.cs#lines-140"><i class="bi bi-code-slash"></i></a>
-  </h3>
-
-  <div class="markdown level1 summary"><p>获取或设置图像缩放因子</p>
-</div>
-  <div class="markdown level1 conceptual"></div>
-
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public double Scale { get; set; }</code></pre>
-  </div>
-
-
-
-
-
-  <h4 class="section">Property Value</h4>
-  <dl class="parameters">
-    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.double">double</a></dt>
-    <dd></dd>
-  </dl>
-
-
-
-
-
-
-
-
-  <a id="DataMaster_ViewModels_Windows_Vision_ImageEditorViewModel_TranslateX_" data-uid="DataMaster.ViewModels.Windows.Vision.ImageEditorViewModel.TranslateX*"></a>
-
-  <h3 id="DataMaster_ViewModels_Windows_Vision_ImageEditorViewModel_TranslateX" data-uid="DataMaster.ViewModels.Windows.Vision.ImageEditorViewModel.TranslateX">
-  TranslateX
-  <a class="header-action link-secondary" title="View source" href="https://bitbucket.org/mas-software/industrial-mes-net-platform-advanced/src/feature/database/ViewModels/Windows/Vision/ImageEditorViewModel.cs#lines-149"><i class="bi bi-code-slash"></i></a>
-  </h3>
-
-  <div class="markdown level1 summary"><p>获取或设置图像的水平平移量</p>
-</div>
-  <div class="markdown level1 conceptual"></div>
-
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public double TranslateX { get; set; }</code></pre>
-  </div>
-
-
-
-
-
-  <h4 class="section">Property Value</h4>
-  <dl class="parameters">
-    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.double">double</a></dt>
-    <dd></dd>
-  </dl>
-
-
-
-
-
-
-
-
-  <a id="DataMaster_ViewModels_Windows_Vision_ImageEditorViewModel_TranslateY_" data-uid="DataMaster.ViewModels.Windows.Vision.ImageEditorViewModel.TranslateY*"></a>
-
-  <h3 id="DataMaster_ViewModels_Windows_Vision_ImageEditorViewModel_TranslateY" data-uid="DataMaster.ViewModels.Windows.Vision.ImageEditorViewModel.TranslateY">
-  TranslateY
-  <a class="header-action link-secondary" title="View source" href="https://bitbucket.org/mas-software/industrial-mes-net-platform-advanced/src/feature/database/ViewModels/Windows/Vision/ImageEditorViewModel.cs#lines-158"><i class="bi bi-code-slash"></i></a>
-  </h3>
-
-  <div class="markdown level1 summary"><p>获取或设置图像的垂直平移量</p>
-</div>
-  <div class="markdown level1 conceptual"></div>
-
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public double TranslateY { get; set; }</code></pre>
-  </div>
-
-
-
-
-
-  <h4 class="section">Property Value</h4>
-  <dl class="parameters">
-    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.double">double</a></dt>
-    <dd></dd>
-  </dl>
-
-
-
-
-
-
-
-
-  <h2 class="section" id="methods">Methods
-</h2>
-
-
-  <a id="DataMaster_ViewModels_Windows_Vision_ImageEditorViewModel_UpdateScale_" data-uid="DataMaster.ViewModels.Windows.Vision.ImageEditorViewModel.UpdateScale*"></a>
-
-  <h3 id="DataMaster_ViewModels_Windows_Vision_ImageEditorViewModel_UpdateScale_System_Double_" data-uid="DataMaster.ViewModels.Windows.Vision.ImageEditorViewModel.UpdateScale(System.Double)">
-  UpdateScale(double)
-  <a class="header-action link-secondary" title="View source" href="https://bitbucket.org/mas-software/industrial-mes-net-platform-advanced/src/feature/database/ViewModels/Windows/Vision/ImageEditorViewModel.cs#lines-284"><i class="bi bi-code-slash"></i></a>
-  </h3>
-
-  <div class="markdown level1 summary"><p>更新缩放因子</p>
-</div>
-  <div class="markdown level1 conceptual"></div>
-
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public void UpdateScale(double factor)</code></pre>
-  </div>
-
-  <h4 class="section">Parameters</h4>
-  <dl class="parameters">
-    <dt><code>factor</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.double">double</a></dt>
-    <dd><p>缩放倍数</p>
-</dd>
-  </dl>
-
-
-
-
-
-
-
-
-
-
-
-
-  <h2 class="section" id="events">Events
-</h2>
-
-
-
-  <h3 id="DataMaster_ViewModels_Windows_Vision_ImageEditorViewModel_RequestClose" data-uid="DataMaster.ViewModels.Windows.Vision.ImageEditorViewModel.RequestClose">
-  RequestClose
-  <a class="header-action link-secondary" title="View source" href="https://bitbucket.org/mas-software/industrial-mes-net-platform-advanced/src/feature/database/ViewModels/Windows/Vision/ImageEditorViewModel.cs#lines-243"><i class="bi bi-code-slash"></i></a>
-  </h3>
-
-  <div class="markdown level1 summary"><p>请求窗口关闭事件</p>
-</div>
-  <div class="markdown level1 conceptual"></div>
-
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public event Action? RequestClose</code></pre>
-  </div>
-
-
-
-
-
-
-  <h4 class="section">Event Type</h4>
-  <dl class="parameters">
-    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.action">Action</a></dt>
-    <dd></dd>
-  </dl>
-
-
-
-
-
-
-
 
 </article>
 
         <div class="contribution d-print-none">
-          <a href="https://bitbucket.org/mas-software/industrial-mes-net-platform-advanced/src/feature/database/ViewModels/Windows/Vision/ImageEditorViewModel.cs#lines-19" class="edit-link">Edit this page</a>
+          <a href="https://bitbucket.org/mas-software/industrial-mes-net-platform-advanced/src/main/ViewModels/Windows/Vision/ImageEditorViewModel.cs#lines-24" class="edit-link">Edit this page</a>
         </div>
 
 

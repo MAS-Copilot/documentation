@@ -1,0 +1,646 @@
+﻿<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+      <title>Class ImageHelper | DataMaster </title>
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta name="title" content="Class ImageHelper | DataMaster ">
+      
+      <meta name="description" content="图像辅助工具">
+      <link rel="icon" href="../images/favicon.ico">
+      <link rel="stylesheet" href="../public/docfx.min.css">
+      <link rel="stylesheet" href="../public/main.css">
+      <meta name="docfx:navrel" content="../toc.html">
+      <meta name="docfx:tocrel" content="toc.html">
+      
+      <meta name="docfx:rel" content="../">
+      
+      
+      
+      <meta name="loc:inThisArticle" content="In this article">
+      <meta name="loc:searchResultsCount" content="{count} results for &quot;{query}&quot;">
+      <meta name="loc:searchNoResults" content="No results for &quot;{query}&quot;">
+      <meta name="loc:tocFilter" content="Filter by title">
+      <meta name="loc:nextArticle" content="Next">
+      <meta name="loc:prevArticle" content="Previous">
+      <meta name="loc:themeLight" content="Light">
+      <meta name="loc:themeDark" content="Dark">
+      <meta name="loc:themeAuto" content="Auto">
+      <meta name="loc:changeTheme" content="Change theme">
+      <meta name="loc:copy" content="Copy">
+      <meta name="loc:downloadPdf" content="Download PDF">
+
+      <script type="module" src="./../public/docfx.min.js"></script>
+
+      <script>
+        const theme = localStorage.getItem('theme') || 'auto'
+        document.documentElement.setAttribute('data-bs-theme', theme === 'auto' ? (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light') : theme)
+      </script>
+
+  </head>
+
+  <body class="tex2jax_ignore" data-layout="" data-yaml-mime="ManagedReference">
+    <header class="bg-body border-bottom">
+      <nav id="autocollapse" class="navbar navbar-expand-md" role="navigation">
+        <div class="container-xxl flex-nowrap">
+          <a class="navbar-brand" href="../index.html">
+            <img id="logo" class="svg" src="../images/logo.svg" alt="DataMaster">
+            DataMaster
+          </a>
+          <button class="btn btn-lg d-md-none border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navpanel" aria-controls="navpanel" aria-expanded="false" aria-label="Toggle navigation">
+            <i class="bi bi-three-dots"></i>
+          </button>
+          <div class="collapse navbar-collapse" id="navpanel">
+            <div id="navbar">
+              <form class="search" role="search" id="search">
+                <i class="bi bi-search"></i>
+                <input class="form-control" id="search-query" type="search" disabled="" placeholder="Search" autocomplete="off" aria-label="Search">
+              </form>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <main class="container-xxl">
+      <div class="toc-offcanvas">
+        <div class="offcanvas-md offcanvas-start" tabindex="-1" id="tocOffcanvas" aria-labelledby="tocOffcanvasLabel">
+          <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="tocOffcanvasLabel">Table of Contents</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" data-bs-target="#tocOffcanvas" aria-label="Close"></button>
+          </div>
+          <div class="offcanvas-body">
+            <nav class="toc" id="toc"></nav>
+          </div>
+        </div>
+      </div>
+
+      <div class="content">
+        <div class="actionbar">
+          <button class="btn btn-lg border-0 d-md-none" type="button" data-bs-toggle="offcanvas" data-bs-target="#tocOffcanvas" aria-controls="tocOffcanvas" aria-expanded="false" aria-label="Show table of contents">
+            <i class="bi bi-list"></i>
+          </button>
+
+          <nav id="breadcrumb"></nav>
+        </div>
+
+        <article data-uid="MAS.Vision.ImageHelper">
+
+
+
+  <h1 id="MAS_Vision_ImageHelper" data-uid="MAS.Vision.ImageHelper" class="text-break">
+Class ImageHelper  <a class="header-action link-secondary" title="View source" href="https://bitbucket.org/mas-software/industrial-mes-net-platform-advanced/src/main/Modules/MAS.Vision/Helpers/ImageHelper.cs#lines-25"><i class="bi bi-code-slash"></i></a>
+  </h1>
+
+  <div class="facts text-secondary">
+    <dl><dt>Namespace</dt><dd><a class="xref" href="MAS.html">MAS</a>.<a class="xref" href="MAS.Vision.html">Vision</a></dd></dl>
+  <dl><dt>Assembly</dt><dd>DataMaster.dll</dd></dl>
+  </div>
+
+  <div class="markdown summary"><p>图像辅助工具</p>
+</div>
+  <div class="markdown conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static class ImageHelper</code></pre>
+  </div>
+
+
+
+
+  <dl class="typelist inheritance">
+    <dt>Inheritance</dt>
+    <dd>
+      <div><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">object</a></div>
+      <div><span class="xref">ImageHelper</span></div>
+    </dd>
+  </dl>
+
+
+
+  <dl class="typelist inheritedMembers">
+    <dt>Inherited Members</dt>
+    <dd>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)">object.Equals(object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)">object.Equals(object, object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.gethashcode">object.GetHashCode()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.gettype">object.GetType()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone">object.MemberwiseClone()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.referenceequals">object.ReferenceEquals(object, object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.tostring">object.ToString()</a>
+    </div>
+  </dd></dl>
+
+
+
+
+
+
+  <h2 class="section" id="methods">Methods
+</h2>
+
+
+  <a id="MAS_Vision_ImageHelper_CalculateFrameRate_" data-uid="MAS.Vision.ImageHelper.CalculateFrameRate*"></a>
+
+  <h3 id="MAS_Vision_ImageHelper_CalculateFrameRate_System_Nullable_System_DateTime___" data-uid="MAS.Vision.ImageHelper.CalculateFrameRate(System.Nullable{System.DateTime}@)">
+  CalculateFrameRate(ref DateTime?)
+  <a class="header-action link-secondary" title="View source" href="https://bitbucket.org/mas-software/industrial-mes-net-platform-advanced/src/main/Modules/MAS.Vision/Helpers/ImageHelper.cs#lines-132"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>计算当前帧的帧速率（FPS）</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static double? CalculateFrameRate(ref DateTime? lastFrameTime)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>lastFrameTime</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.datetime">DateTime</a>?</dt>
+    <dd><p>上次计算帧速率的时间</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.double">double</a>?</dt>
+    <dd><p>返回当前帧的帧速率，以每秒帧数表示，如果是首次调用，则返回null</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="MAS_Vision_ImageHelper_CenterCyropPlot_" data-uid="MAS.Vision.ImageHelper.CenterCyropPlot*"></a>
+
+  <h3 id="MAS_Vision_ImageHelper_CenterCyropPlot_OpenCvSharp_Mat_" data-uid="MAS.Vision.ImageHelper.CenterCyropPlot(OpenCvSharp.Mat)">
+  CenterCyropPlot(Mat)
+  <a class="header-action link-secondary" title="View source" href="https://bitbucket.org/mas-software/industrial-mes-net-platform-advanced/src/main/Modules/MAS.Vision/Helpers/ImageHelper.cs#lines-49"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>中心裁剪图像至640x640像素</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static Mat CenterCyropPlot(Mat frame)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>frame</code> <span class="xref">Mat</span></dt>
+    <dd><p>包含图像数据的源OpenCV Mat</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><span class="xref">Mat</span></dt>
+    <dd><p>裁剪后的 <span class="xref">OpenCvSharp.Mat</span> 对象</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="MAS_Vision_ImageHelper_CloneWritBmap_" data-uid="MAS.Vision.ImageHelper.CloneWritBmap*"></a>
+
+  <h3 id="MAS_Vision_ImageHelper_CloneWritBmap_System_Windows_Media_Imaging_WriteableBitmap_" data-uid="MAS.Vision.ImageHelper.CloneWritBmap(System.Windows.Media.Imaging.WriteableBitmap)">
+  CloneWritBmap(WriteableBitmap?)
+  <a class="header-action link-secondary" title="View source" href="https://bitbucket.org/mas-software/industrial-mes-net-platform-advanced/src/main/Modules/MAS.Vision/Helpers/ImageHelper.cs#lines-331"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>克隆一个 <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.windows.media.imaging.writeablebitmap">WriteableBitmap</a> 对象的深拷贝</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static WriteableBitmap? CloneWritBmap(WriteableBitmap? original)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>original</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.windows.media.imaging.writeablebitmap">WriteableBitmap</a></dt>
+    <dd><p>需要被复制的 WriteableBitmap 对象</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.windows.media.imaging.writeablebitmap">WriteableBitmap</a></dt>
+    <dd><p>原始 <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.windows.media.imaging.writeablebitmap">WriteableBitmap</a> 对象的深拷贝。如果原始对象为 null，则返回 null</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="MAS_Vision_ImageHelper_ConvertMatToTensorAsync_" data-uid="MAS.Vision.ImageHelper.ConvertMatToTensorAsync*"></a>
+
+  <h3 id="MAS_Vision_ImageHelper_ConvertMatToTensorAsync_OpenCvSharp_Mat_" data-uid="MAS.Vision.ImageHelper.ConvertMatToTensorAsync(OpenCvSharp.Mat)">
+  ConvertMatToTensorAsync(Mat)
+  <a class="header-action link-secondary" title="View source" href="https://bitbucket.org/mas-software/industrial-mes-net-platform-advanced/src/main/Modules/MAS.Vision/Helpers/ImageHelper.cs#lines-197"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>异步将OpenCV Mat对象转换为适合模型输入的 DenseTensor</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static Task&lt;Tensor&lt;float&gt;&gt; ConvertMatToTensorAsync(Mat frame)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>frame</code> <span class="xref">Mat</span></dt>
+    <dd><p>图像数据的输入 Mat 对象</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1">Task</a>&lt;<a class="xref" href="https://github.com/microsoft/onnxruntime/blob/c4fb724e810bb496165b9015c77f402727392933/csharp/src/Microsoft.ML.OnnxRuntime/Tensors/Tensor.shared.cs">Tensor</a>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a>&gt;&gt;</dt>
+    <dd><p>异步操作的任务结果，一个包含归一化图像数据，用于模型推断</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="MAS_Vision_ImageHelper_ConvertToWriteableBitmap_" data-uid="MAS.Vision.ImageHelper.ConvertToWriteableBitmap*"></a>
+
+  <h3 id="MAS_Vision_ImageHelper_ConvertToWriteableBitmap_System_Windows_Media_Imaging_BitmapImage_" data-uid="MAS.Vision.ImageHelper.ConvertToWriteableBitmap(System.Windows.Media.Imaging.BitmapImage)">
+  ConvertToWriteableBitmap(BitmapImage)
+  <a class="header-action link-secondary" title="View source" href="https://bitbucket.org/mas-software/industrial-mes-net-platform-advanced/src/main/Modules/MAS.Vision/Helpers/ImageHelper.cs#lines-98"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>将 BitmapImage 转换为 WriteableBitmap</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static WriteableBitmap ConvertToWriteableBitmap(BitmapImage bitmapImage)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>bitmapImage</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.windows.media.imaging.bitmapimage">BitmapImage</a></dt>
+    <dd><p>要转换的源 BitmapImage</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.windows.media.imaging.writeablebitmap">WriteableBitmap</a></dt>
+    <dd><p><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.windows.media.imaging.writeablebitmap">WriteableBitmap</a> 对象</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="MAS_Vision_ImageHelper_CopyMatToWriteableBitmap_" data-uid="MAS.Vision.ImageHelper.CopyMatToWriteableBitmap*"></a>
+
+  <h3 id="MAS_Vision_ImageHelper_CopyMatToWriteableBitmap_OpenCvSharp_Mat_System_Windows_Media_Imaging_WriteableBitmap_" data-uid="MAS.Vision.ImageHelper.CopyMatToWriteableBitmap(OpenCvSharp.Mat,System.Windows.Media.Imaging.WriteableBitmap)">
+  CopyMatToWriteableBitmap(Mat, WriteableBitmap)
+  <a class="header-action link-secondary" title="View source" href="https://bitbucket.org/mas-software/industrial-mes-net-platform-advanced/src/main/Modules/MAS.Vision/Helpers/ImageHelper.cs#lines-164"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>将数据从 OpenCV Mat 复制到 WriteableBitmap 以供显示</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void CopyMatToWriteableBitmap(Mat frame, WriteableBitmap writeableBitmap)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>frame</code> <span class="xref">Mat</span></dt>
+    <dd><p>包含图像数据的源OpenCV Mat</p>
+</dd>
+    <dt><code>writeableBitmap</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.windows.media.imaging.writeablebitmap">WriteableBitmap</a></dt>
+    <dd><p>目标 WriteableBitmap 显示图像</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="MAS_Vision_ImageHelper_CreateDeepCopyWritBmap_" data-uid="MAS.Vision.ImageHelper.CreateDeepCopyWritBmap*"></a>
+
+  <h3 id="MAS_Vision_ImageHelper_CreateDeepCopyWritBmap_System_Windows_Media_Imaging_BitmapSource_" data-uid="MAS.Vision.ImageHelper.CreateDeepCopyWritBmap(System.Windows.Media.Imaging.BitmapSource)">
+  CreateDeepCopyWritBmap(BitmapSource)
+  <a class="header-action link-secondary" title="View source" href="https://bitbucket.org/mas-software/industrial-mes-net-platform-advanced/src/main/Modules/MAS.Vision/Helpers/ImageHelper.cs#lines-297"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>创建深拷贝位图</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static WriteableBitmap CreateDeepCopyWritBmap(BitmapSource bitmapSource)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>bitmapSource</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.windows.media.imaging.bitmapsource">BitmapSource</a></dt>
+    <dd><p>图像源</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.windows.media.imaging.writeablebitmap">WriteableBitmap</a></dt>
+    <dd><p>拷贝至新的 <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.windows.media.imaging.writeablebitmap">WriteableBitmap</a> 对象</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="MAS_Vision_ImageHelper_DisplayFrameRateOnFrame_" data-uid="MAS.Vision.ImageHelper.DisplayFrameRateOnFrame*"></a>
+
+  <h3 id="MAS_Vision_ImageHelper_DisplayFrameRateOnFrame_OpenCvSharp_Mat_System_Nullable_System_Double__" data-uid="MAS.Vision.ImageHelper.DisplayFrameRateOnFrame(OpenCvSharp.Mat,System.Nullable{System.Double})">
+  DisplayFrameRateOnFrame(Mat, double?)
+  <a class="header-action link-secondary" title="View source" href="https://bitbucket.org/mas-software/industrial-mes-net-platform-advanced/src/main/Modules/MAS.Vision/Helpers/ImageHelper.cs#lines-148"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>在帧上显示帧速率</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void DisplayFrameRateOnFrame(Mat frame, double? fps)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>frame</code> <span class="xref">Mat</span></dt>
+    <dd><p>Mat 类型的图像帧，将在此帧上绘制帧速率信息</p>
+</dd>
+    <dt><code>fps</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.double">double</a>?</dt>
+    <dd><p>要显示的帧速率值，计算并转换为每秒帧数的形式</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="MAS_Vision_ImageHelper_DrawPredictionsAsync_" data-uid="MAS.Vision.ImageHelper.DrawPredictionsAsync*"></a>
+
+  <h3 id="MAS_Vision_ImageHelper_DrawPredictionsAsync_OpenCvSharp_Mat_Microsoft_ML_OnnxRuntime_Tensors_Tensor_System_Single__System_Single_System_Single_System_String_" data-uid="MAS.Vision.ImageHelper.DrawPredictionsAsync(OpenCvSharp.Mat,Microsoft.ML.OnnxRuntime.Tensors.Tensor{System.Single},System.Single,System.Single,System.String)">
+  DrawPredictionsAsync(Mat, Tensor&lt;float&gt;, float, float, string)
+  <a class="header-action link-secondary" title="View source" href="https://bitbucket.org/mas-software/industrial-mes-net-platform-advanced/src/main/Modules/MAS.Vision/Helpers/ImageHelper.cs#lines-246"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>异步在图像上绘制检测到的目标的边界框</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static Task&lt;ushort&gt; DrawPredictionsAsync(Mat frame, Tensor&lt;float&gt; predictions, float confidenceThreshold, float nmsThreshold, string colorHex)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>frame</code> <span class="xref">Mat</span></dt>
+    <dd><p>当前处理的图像帧，其将绘制边框</p>
+</dd>
+    <dt><code>predictions</code> <a class="xref" href="https://github.com/microsoft/onnxruntime/blob/c4fb724e810bb496165b9015c77f402727392933/csharp/src/Microsoft.ML.OnnxRuntime/Tensors/Tensor.shared.cs">Tensor</a>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a>&gt;</dt>
+    <dd><p>从目标检测模型返回的预测数据，应该包含每个检测目标的信息</p>
+</dd>
+    <dt><code>confidenceThreshold</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd><p>用于决定是否绘制目标边框的置信度阈值</p>
+</dd>
+    <dt><code>nmsThreshold</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd><p>非极大值抑制的阈值，用于控制重叠边界框的去除</p>
+</dd>
+    <dt><code>colorHex</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd><p>用于描绘边框的颜色十六进制</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1">Task</a>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uint16">ushort</a>&gt;</dt>
+    <dd><p>异步操作的任务结果，检测到的目标数量</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="MAS_Vision_ImageHelper_LoadBitmapImage_" data-uid="MAS.Vision.ImageHelper.LoadBitmapImage*"></a>
+
+  <h3 id="MAS_Vision_ImageHelper_LoadBitmapImage_System_String_" data-uid="MAS.Vision.ImageHelper.LoadBitmapImage(System.String)">
+  LoadBitmapImage(string)
+  <a class="header-action link-secondary" title="View source" href="https://bitbucket.org/mas-software/industrial-mes-net-platform-advanced/src/main/Modules/MAS.Vision/Helpers/ImageHelper.cs#lines-82"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>从文件中加载图像并返回 <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.windows.media.imaging.bitmapimage">BitmapImage</a> 对象</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static BitmapImage LoadBitmapImage(string filePath)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>filePath</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd><p>图像文件的完整路径</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.windows.media.imaging.bitmapimage">BitmapImage</a></dt>
+    <dd><p>从指定文件路径加载的 <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.windows.media.imaging.bitmapimage">BitmapImage</a> 对象</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="MAS_Vision_ImageHelper_ResizingImage_" data-uid="MAS.Vision.ImageHelper.ResizingImage*"></a>
+
+  <h3 id="MAS_Vision_ImageHelper_ResizingImage_OpenCvSharp_Mat_" data-uid="MAS.Vision.ImageHelper.ResizingImage(OpenCvSharp.Mat)">
+  ResizingImage(Mat)
+  <a class="header-action link-secondary" title="View source" href="https://bitbucket.org/mas-software/industrial-mes-net-platform-advanced/src/main/Modules/MAS.Vision/Helpers/ImageHelper.cs#lines-68"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>调整图像尺寸至 640x640 像素</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void ResizingImage(Mat frame)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>frame</code> <span class="xref">Mat</span></dt>
+    <dd><p>原始的OpenCV Mat对象</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="MAS_Vision_ImageHelper_SaveWriteableBitmap_" data-uid="MAS.Vision.ImageHelper.SaveWriteableBitmap*"></a>
+
+  <h3 id="MAS_Vision_ImageHelper_SaveWriteableBitmap_System_Windows_Media_Imaging_WriteableBitmap_System_String_" data-uid="MAS.Vision.ImageHelper.SaveWriteableBitmap(System.Windows.Media.Imaging.WriteableBitmap,System.String)">
+  SaveWriteableBitmap(WriteableBitmap, string)
+  <a class="header-action link-secondary" title="View source" href="https://bitbucket.org/mas-software/industrial-mes-net-platform-advanced/src/main/Modules/MAS.Vision/Helpers/ImageHelper.cs#lines-347"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>保存 WriteableBitmap 到指定路径，如已存在则覆盖原始图像</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void SaveWriteableBitmap(WriteableBitmap writeableBitmap, string filePath)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>writeableBitmap</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.windows.media.imaging.writeablebitmap">WriteableBitmap</a></dt>
+    <dd><p>要保存的 <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.windows.media.imaging.writeablebitmap">WriteableBitmap</a> 对象</p>
+</dd>
+    <dt><code>filePath</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd><p>目标文件路径</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+
+</article>
+
+        <div class="contribution d-print-none">
+          <a href="https://bitbucket.org/mas-software/industrial-mes-net-platform-advanced/src/main/Modules/MAS.Vision/Helpers/ImageHelper.cs#lines-25" class="edit-link">Edit this page</a>
+        </div>
+
+
+      </div>
+
+      <div class="affix">
+        <nav id="affix"></nav>
+      </div>
+    </main>
+
+    <div class="container-xxl search-results" id="search-results"></div>
+
+    <footer class="border-top text-secondary">
+      <div class="container-xxl">
+        <div class="flex-fill">
+          <span>Made with <a href="https://dotnet.github.io/docfx" rel="noreferrer">docfx</a>,  | Copyright © 2024 MAS(厦门威光). All rights reserved.</span>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>

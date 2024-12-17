@@ -1,0 +1,1156 @@
+﻿<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+      <title>Class BuildRunWorkbenchViewModel | DataMaster </title>
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta name="title" content="Class BuildRunWorkbenchViewModel | DataMaster ">
+      
+      <meta name="description" content="构建运行工作台页面视图模型">
+      <link rel="icon" href="../images/favicon.ico">
+      <link rel="stylesheet" href="../public/docfx.min.css">
+      <link rel="stylesheet" href="../public/main.css">
+      <meta name="docfx:navrel" content="../toc.html">
+      <meta name="docfx:tocrel" content="toc.html">
+      
+      <meta name="docfx:rel" content="../">
+      
+      
+      
+      <meta name="loc:inThisArticle" content="In this article">
+      <meta name="loc:searchResultsCount" content="{count} results for &quot;{query}&quot;">
+      <meta name="loc:searchNoResults" content="No results for &quot;{query}&quot;">
+      <meta name="loc:tocFilter" content="Filter by title">
+      <meta name="loc:nextArticle" content="Next">
+      <meta name="loc:prevArticle" content="Previous">
+      <meta name="loc:themeLight" content="Light">
+      <meta name="loc:themeDark" content="Dark">
+      <meta name="loc:themeAuto" content="Auto">
+      <meta name="loc:changeTheme" content="Change theme">
+      <meta name="loc:copy" content="Copy">
+      <meta name="loc:downloadPdf" content="Download PDF">
+
+      <script type="module" src="./../public/docfx.min.js"></script>
+
+      <script>
+        const theme = localStorage.getItem('theme') || 'auto'
+        document.documentElement.setAttribute('data-bs-theme', theme === 'auto' ? (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light') : theme)
+      </script>
+
+  </head>
+
+  <body class="tex2jax_ignore" data-layout="" data-yaml-mime="ManagedReference">
+    <header class="bg-body border-bottom">
+      <nav id="autocollapse" class="navbar navbar-expand-md" role="navigation">
+        <div class="container-xxl flex-nowrap">
+          <a class="navbar-brand" href="../index.html">
+            <img id="logo" class="svg" src="../images/logo.svg" alt="DataMaster">
+            DataMaster
+          </a>
+          <button class="btn btn-lg d-md-none border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navpanel" aria-controls="navpanel" aria-expanded="false" aria-label="Toggle navigation">
+            <i class="bi bi-three-dots"></i>
+          </button>
+          <div class="collapse navbar-collapse" id="navpanel">
+            <div id="navbar">
+              <form class="search" role="search" id="search">
+                <i class="bi bi-search"></i>
+                <input class="form-control" id="search-query" type="search" disabled="" placeholder="Search" autocomplete="off" aria-label="Search">
+              </form>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <main class="container-xxl">
+      <div class="toc-offcanvas">
+        <div class="offcanvas-md offcanvas-start" tabindex="-1" id="tocOffcanvas" aria-labelledby="tocOffcanvasLabel">
+          <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="tocOffcanvasLabel">Table of Contents</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" data-bs-target="#tocOffcanvas" aria-label="Close"></button>
+          </div>
+          <div class="offcanvas-body">
+            <nav class="toc" id="toc"></nav>
+          </div>
+        </div>
+      </div>
+
+      <div class="content">
+        <div class="actionbar">
+          <button class="btn btn-lg border-0 d-md-none" type="button" data-bs-toggle="offcanvas" data-bs-target="#tocOffcanvas" aria-controls="tocOffcanvas" aria-expanded="false" aria-label="Show table of contents">
+            <i class="bi bi-list"></i>
+          </button>
+
+          <nav id="breadcrumb"></nav>
+        </div>
+
+        <article data-uid="DataMaster.ViewModels.Pages.BuildRunWorkbenchViewModel">
+
+
+
+  <h1 id="DataMaster_ViewModels_Pages_BuildRunWorkbenchViewModel" data-uid="DataMaster.ViewModels.Pages.BuildRunWorkbenchViewModel" class="text-break">
+Class BuildRunWorkbenchViewModel  <a class="header-action link-secondary" title="View source" href="https://bitbucket.org/mas-software/industrial-mes-net-platform-advanced/src/main/ViewModels/Pages/BuildRunWorkbenchViewModel.cs#lines-35"><i class="bi bi-code-slash"></i></a>
+  </h1>
+
+  <div class="facts text-secondary">
+    <dl><dt>Namespace</dt><dd><a class="xref" href="DataMaster.html">DataMaster</a>.<a class="xref" href="DataMaster.ViewModels.html">ViewModels</a>.<a class="xref" href="DataMaster.ViewModels.Pages.html">Pages</a></dd></dl>
+  <dl><dt>Assembly</dt><dd>DataMaster.dll</dd></dl>
+  </div>
+
+  <div class="markdown summary"><p>构建运行工作台页面视图模型</p>
+</div>
+  <div class="markdown conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public class BuildRunWorkbenchViewModel : CanvasViewModelBase, INotifyPropertyChanged</code></pre>
+  </div>
+
+
+
+
+  <dl class="typelist inheritance">
+    <dt>Inheritance</dt>
+    <dd>
+      <div><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">object</a></div>
+      <div><a class="xref" href="DataMaster.Abstracts.ViewModelBase.html">ViewModelBase</a></div>
+      <div><a class="xref" href="DataMaster.Abstracts.CanvasViewModelBase.html">CanvasViewModelBase</a></div>
+      <div><span class="xref">BuildRunWorkbenchViewModel</span></div>
+    </dd>
+  </dl>
+
+  <dl class="typelist implements">
+    <dt>Implements</dt>
+    <dd>
+      <div><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.componentmodel.inotifypropertychanged">INotifyPropertyChanged</a></div>
+    </dd>
+  </dl>
+
+
+  <dl class="typelist inheritedMembers">
+    <dt>Inherited Members</dt>
+    <dd>
+    <div>
+      <a class="xref" href="DataMaster.Abstracts.CanvasViewModelBase.html#DataMaster_Abstracts_CanvasViewModelBase_projectMgr">CanvasViewModelBase.projectMgr</a>
+    </div>
+    <div>
+      <a class="xref" href="DataMaster.Abstracts.CanvasViewModelBase.html#DataMaster_Abstracts_CanvasViewModelBase_TipsNotification">CanvasViewModelBase.TipsNotification</a>
+    </div>
+    <div>
+      <a class="xref" href="DataMaster.Abstracts.CanvasViewModelBase.html#DataMaster_Abstracts_CanvasViewModelBase_LockIconKind">CanvasViewModelBase.LockIconKind</a>
+    </div>
+    <div>
+      <a class="xref" href="DataMaster.Abstracts.CanvasViewModelBase.html#DataMaster_Abstracts_CanvasViewModelBase_IsModuleInteractionEnabled">CanvasViewModelBase.IsModuleInteractionEnabled</a>
+    </div>
+    <div>
+      <a class="xref" href="DataMaster.Abstracts.CanvasViewModelBase.html#DataMaster_Abstracts_CanvasViewModelBase_IsEditCheck">CanvasViewModelBase.IsEditCheck</a>
+    </div>
+    <div>
+      <a class="xref" href="DataMaster.Abstracts.CanvasViewModelBase.html#DataMaster_Abstracts_CanvasViewModelBase_IsOpenSetPopup">CanvasViewModelBase.IsOpenSetPopup</a>
+    </div>
+    <div>
+      <a class="xref" href="DataMaster.Abstracts.CanvasViewModelBase.html#DataMaster_Abstracts_CanvasViewModelBase_CurrentProjectState">CanvasViewModelBase.CurrentProjectState</a>
+    </div>
+    <div>
+      <a class="xref" href="DataMaster.Abstracts.CanvasViewModelBase.html#DataMaster_Abstracts_CanvasViewModelBase_ScaleStep">CanvasViewModelBase.ScaleStep</a>
+    </div>
+    <div>
+      <a class="xref" href="DataMaster.Abstracts.CanvasViewModelBase.html#DataMaster_Abstracts_CanvasViewModelBase_MaxZoomLevel">CanvasViewModelBase.MaxZoomLevel</a>
+    </div>
+    <div>
+      <a class="xref" href="DataMaster.Abstracts.CanvasViewModelBase.html#DataMaster_Abstracts_CanvasViewModelBase_MinZoomLevel">CanvasViewModelBase.MinZoomLevel</a>
+    </div>
+    <div>
+      <a class="xref" href="DataMaster.Abstracts.CanvasViewModelBase.html#DataMaster_Abstracts_CanvasViewModelBase_ZoomLevel">CanvasViewModelBase.ZoomLevel</a>
+    </div>
+    <div>
+      <a class="xref" href="DataMaster.Abstracts.CanvasViewModelBase.html#DataMaster_Abstracts_CanvasViewModelBase_Scale">CanvasViewModelBase.Scale</a>
+    </div>
+    <div>
+      <a class="xref" href="DataMaster.Abstracts.CanvasViewModelBase.html#DataMaster_Abstracts_CanvasViewModelBase_TranslateX">CanvasViewModelBase.TranslateX</a>
+    </div>
+    <div>
+      <a class="xref" href="DataMaster.Abstracts.CanvasViewModelBase.html#DataMaster_Abstracts_CanvasViewModelBase_TranslateY">CanvasViewModelBase.TranslateY</a>
+    </div>
+    <div>
+      <a class="xref" href="DataMaster.Abstracts.CanvasViewModelBase.html#DataMaster_Abstracts_CanvasViewModelBase_PredefinedScales">CanvasViewModelBase.PredefinedScales</a>
+    </div>
+    <div>
+      <a class="xref" href="DataMaster.Abstracts.CanvasViewModelBase.html#DataMaster_Abstracts_CanvasViewModelBase_IsProgressVisible">CanvasViewModelBase.IsProgressVisible</a>
+    </div>
+    <div>
+      <a class="xref" href="DataMaster.Abstracts.CanvasViewModelBase.html#DataMaster_Abstracts_CanvasViewModelBase_CurrentProgress">CanvasViewModelBase.CurrentProgress</a>
+    </div>
+    <div>
+      <a class="xref" href="DataMaster.Abstracts.CanvasViewModelBase.html#DataMaster_Abstracts_CanvasViewModelBase_TotalProgress">CanvasViewModelBase.TotalProgress</a>
+    </div>
+    <div>
+      <a class="xref" href="DataMaster.Abstracts.CanvasViewModelBase.html#DataMaster_Abstracts_CanvasViewModelBase_StatusMessage">CanvasViewModelBase.StatusMessage</a>
+    </div>
+    <div>
+      <a class="xref" href="DataMaster.Abstracts.CanvasViewModelBase.html#DataMaster_Abstracts_CanvasViewModelBase_ProgressPercentage">CanvasViewModelBase.ProgressPercentage</a>
+    </div>
+    <div>
+      <a class="xref" href="DataMaster.Abstracts.CanvasViewModelBase.html#DataMaster_Abstracts_CanvasViewModelBase_ShortcutKeys">CanvasViewModelBase.ShortcutKeys</a>
+    </div>
+    <div>
+      <a class="xref" href="DataMaster.Abstracts.CanvasViewModelBase.html#DataMaster_Abstracts_CanvasViewModelBase_ZoomInCommand">CanvasViewModelBase.ZoomInCommand</a>
+    </div>
+    <div>
+      <a class="xref" href="DataMaster.Abstracts.CanvasViewModelBase.html#DataMaster_Abstracts_CanvasViewModelBase_ZoomOutCommand">CanvasViewModelBase.ZoomOutCommand</a>
+    </div>
+    <div>
+      <a class="xref" href="DataMaster.Abstracts.CanvasViewModelBase.html#DataMaster_Abstracts_CanvasViewModelBase_RestoreViewCommand">CanvasViewModelBase.RestoreViewCommand</a>
+    </div>
+    <div>
+      <a class="xref" href="DataMaster.Abstracts.CanvasViewModelBase.html#DataMaster_Abstracts_CanvasViewModelBase_FitViewCommand">CanvasViewModelBase.FitViewCommand</a>
+    </div>
+    <div>
+      <a class="xref" href="DataMaster.Abstracts.CanvasViewModelBase.html#DataMaster_Abstracts_CanvasViewModelBase_ProjectSavedCommand">CanvasViewModelBase.ProjectSavedCommand</a>
+    </div>
+    <div>
+      <a class="xref" href="DataMaster.Abstracts.CanvasViewModelBase.html#DataMaster_Abstracts_CanvasViewModelBase_OpenSetPopCommand">CanvasViewModelBase.OpenSetPopCommand</a>
+    </div>
+    <div>
+      <a class="xref" href="DataMaster.Abstracts.CanvasViewModelBase.html#DataMaster_Abstracts_CanvasViewModelBase_OnNotify">CanvasViewModelBase.OnNotify</a>
+    </div>
+    <div>
+      <a class="xref" href="DataMaster.Abstracts.CanvasViewModelBase.html#DataMaster_Abstracts_CanvasViewModelBase_ProjectCreated">CanvasViewModelBase.ProjectCreated</a>
+    </div>
+    <div>
+      <a class="xref" href="DataMaster.Abstracts.CanvasViewModelBase.html#DataMaster_Abstracts_CanvasViewModelBase_ProjectSaved">CanvasViewModelBase.ProjectSaved</a>
+    </div>
+    <div>
+      <a class="xref" href="DataMaster.Abstracts.CanvasViewModelBase.html#DataMaster_Abstracts_CanvasViewModelBase_ProjectOpened">CanvasViewModelBase.ProjectOpened</a>
+    </div>
+    <div>
+      <a class="xref" href="DataMaster.Abstracts.CanvasViewModelBase.html#DataMaster_Abstracts_CanvasViewModelBase_ProjectChanges">CanvasViewModelBase.ProjectChanges()</a>
+    </div>
+    <div>
+      <a class="xref" href="DataMaster.Abstracts.CanvasViewModelBase.html#DataMaster_Abstracts_CanvasViewModelBase_ExecuteZoomIn_System_Object_">CanvasViewModelBase.ExecuteZoomIn(object)</a>
+    </div>
+    <div>
+      <a class="xref" href="DataMaster.Abstracts.CanvasViewModelBase.html#DataMaster_Abstracts_CanvasViewModelBase_ExecuteZoomOut_System_Object_">CanvasViewModelBase.ExecuteZoomOut(object)</a>
+    </div>
+    <div>
+      <a class="xref" href="DataMaster.Abstracts.CanvasViewModelBase.html#DataMaster_Abstracts_CanvasViewModelBase_ExecuteRestoreView_System_Object_">CanvasViewModelBase.ExecuteRestoreView(object)</a>
+    </div>
+    <div>
+      <a class="xref" href="DataMaster.Abstracts.CanvasViewModelBase.html#DataMaster_Abstracts_CanvasViewModelBase_ExecuteFitView_System_Object_">CanvasViewModelBase.ExecuteFitView(object)</a>
+    </div>
+    <div>
+      <a class="xref" href="DataMaster.Abstracts.CanvasViewModelBase.html#DataMaster_Abstracts_CanvasViewModelBase_ExecuteProjectSaved_System_Object_">CanvasViewModelBase.ExecuteProjectSaved(object)</a>
+    </div>
+    <div>
+      <a class="xref" href="DataMaster.Abstracts.CanvasViewModelBase.html#DataMaster_Abstracts_CanvasViewModelBase_GetShortcutKeys">CanvasViewModelBase.GetShortcutKeys()</a>
+    </div>
+    <div>
+      <a class="xref" href="DataMaster.Abstracts.CanvasViewModelBase.html#DataMaster_Abstracts_CanvasViewModelBase_RaiseOnNotify_System_String_">CanvasViewModelBase.RaiseOnNotify(string)</a>
+    </div>
+    <div>
+      <a class="xref" href="DataMaster.Abstracts.CanvasViewModelBase.html#DataMaster_Abstracts_CanvasViewModelBase_RaiseProjectCreated_System_String_">CanvasViewModelBase.RaiseProjectCreated(string)</a>
+    </div>
+    <div>
+      <a class="xref" href="DataMaster.Abstracts.CanvasViewModelBase.html#DataMaster_Abstracts_CanvasViewModelBase_RaiseProjectSaved_System_String_">CanvasViewModelBase.RaiseProjectSaved(string)</a>
+    </div>
+    <div>
+      <a class="xref" href="DataMaster.Abstracts.CanvasViewModelBase.html#DataMaster_Abstracts_CanvasViewModelBase_RaiseProjectOpened_System_String_">CanvasViewModelBase.RaiseProjectOpened(string)</a>
+    </div>
+    <div>
+      <a class="xref" href="DataMaster.Abstracts.ViewModelBase.html#DataMaster_Abstracts_ViewModelBase_Config">ViewModelBase.Config</a>
+    </div>
+    <div>
+      <a class="xref" href="DataMaster.Abstracts.ViewModelBase.html#DataMaster_Abstracts_ViewModelBase_LanguageManager">ViewModelBase.LanguageManager</a>
+    </div>
+    <div>
+      <a class="xref" href="DataMaster.Abstracts.ViewModelBase.html#DataMaster_Abstracts_ViewModelBase_IsBusy">ViewModelBase.IsBusy</a>
+    </div>
+    <div>
+      <a class="xref" href="DataMaster.Abstracts.ViewModelBase.html#DataMaster_Abstracts_ViewModelBase_BusyCursor">ViewModelBase.BusyCursor</a>
+    </div>
+    <div>
+      <a class="xref" href="DataMaster.Abstracts.ViewModelBase.html#DataMaster_Abstracts_ViewModelBase_WorkingCursor">ViewModelBase.WorkingCursor</a>
+    </div>
+    <div>
+      <a class="xref" href="DataMaster.Abstracts.ViewModelBase.html#DataMaster_Abstracts_ViewModelBase_PropertyChanged">ViewModelBase.PropertyChanged</a>
+    </div>
+    <div>
+      <a class="xref" href="DataMaster.Abstracts.ViewModelBase.html#DataMaster_Abstracts_ViewModelBase_OnPropertyChanged_System_String_">ViewModelBase.OnPropertyChanged(string)</a>
+    </div>
+    <div>
+      <a class="xref" href="DataMaster.Abstracts.ViewModelBase.html#DataMaster_Abstracts_ViewModelBase_SetField__1___0____0_System_String_">ViewModelBase.SetField&lt;T&gt;(ref T, T, string)</a>
+    </div>
+    <div>
+      <a class="xref" href="DataMaster.Abstracts.ViewModelBase.html#DataMaster_Abstracts_ViewModelBase_ResetCursor">ViewModelBase.ResetCursor()</a>
+    </div>
+    <div>
+      <a class="xref" href="DataMaster.Abstracts.ViewModelBase.html#DataMaster_Abstracts_ViewModelBase_SetBusyCursor">ViewModelBase.SetBusyCursor()</a>
+    </div>
+    <div>
+      <a class="xref" href="DataMaster.Abstracts.ViewModelBase.html#DataMaster_Abstracts_ViewModelBase_SetWorkingCursor">ViewModelBase.SetWorkingCursor()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)">object.Equals(object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)">object.Equals(object, object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.gethashcode">object.GetHashCode()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.gettype">object.GetType()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone">object.MemberwiseClone()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.referenceequals">object.ReferenceEquals(object, object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.tostring">object.ToString()</a>
+    </div>
+  </dd></dl>
+
+
+
+
+
+
+  <h2 class="section" id="constructors">Constructors
+</h2>
+
+
+  <a id="DataMaster_ViewModels_Pages_BuildRunWorkbenchViewModel__ctor_" data-uid="DataMaster.ViewModels.Pages.BuildRunWorkbenchViewModel.#ctor*"></a>
+
+  <h3 id="DataMaster_ViewModels_Pages_BuildRunWorkbenchViewModel__ctor_MAS_Communication_IPlcCommunicationServiceFactory_MAS_Database_IDatabaseServiceFactory_MAS_DataExport_IDataExportServiceFactory_DataMaster_Interfaces_IProjectManager_MAS_Controls_Notification_ITipsNotificationService_MAS_EventAggregator_IEventAggregatorService_MAS_Controls_InteractiveDataFlow_IModuleControlManager_MAS_Compilation_ICompilationManager_MAS_Compilation_ICompilationService_" data-uid="DataMaster.ViewModels.Pages.BuildRunWorkbenchViewModel.#ctor(MAS.Communication.IPlcCommunicationServiceFactory,MAS.Database.IDatabaseServiceFactory,MAS.DataExport.IDataExportServiceFactory,DataMaster.Interfaces.IProjectManager,MAS.Controls.Notification.ITipsNotificationService,MAS.EventAggregator.IEventAggregatorService,MAS.Controls.InteractiveDataFlow.IModuleControlManager,MAS.Compilation.ICompilationManager,MAS.Compilation.ICompilationService)">
+  BuildRunWorkbenchViewModel(IPlcCommunicationServiceFactory, IDatabaseServiceFactory, IDataExportServiceFactory, IProjectManager, ITipsNotificationService, IEventAggregatorService, IModuleControlManager, ICompilationManager, ICompilationService)
+  <a class="header-action link-secondary" title="View source" href="https://bitbucket.org/mas-software/industrial-mes-net-platform-advanced/src/main/ViewModels/Pages/BuildRunWorkbenchViewModel.cs#lines-208"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>构造函数, 初始化 <a class="xref" href="DataMaster.ViewModels.Pages.BuildRunWorkbenchViewModel.html">BuildRunWorkbenchViewModel</a> 新实例</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public BuildRunWorkbenchViewModel(IPlcCommunicationServiceFactory communicationServiceFactory, IDatabaseServiceFactory databaseServiceFactory, IDataExportServiceFactory dataExportServiceFactory, IProjectManager projectManager, ITipsNotificationService tipsNotificationService, IEventAggregatorService eventAggregatorService, IModuleControlManager moduleControlManager, ICompilationManager compilationManager, ICompilationService compilationService)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>communicationServiceFactory</code> <a class="xref" href="MAS.Communication.IPlcCommunicationServiceFactory.html">IPlcCommunicationServiceFactory</a></dt>
+    <dd><p>PLC 通讯服务工厂</p>
+</dd>
+    <dt><code>databaseServiceFactory</code> <a class="xref" href="MAS.Database.IDatabaseServiceFactory.html">IDatabaseServiceFactory</a></dt>
+    <dd><p>数据库服务工厂</p>
+</dd>
+    <dt><code>dataExportServiceFactory</code> <a class="xref" href="MAS.DataExport.IDataExportServiceFactory.html">IDataExportServiceFactory</a></dt>
+    <dd><p>数据导出服务工厂</p>
+</dd>
+    <dt><code>projectManager</code> <a class="xref" href="DataMaster.Interfaces.IProjectManager.html">IProjectManager</a></dt>
+    <dd><p>项目工程跟踪</p>
+</dd>
+    <dt><code>tipsNotificationService</code> <a class="xref" href="DataMaster.Modules.MAS.Controls.Notification.ITipsNotificationService.html">ITipsNotificationService</a></dt>
+    <dd><p>Tips 通知服务</p>
+</dd>
+    <dt><code>eventAggregatorService</code> <a class="xref" href="MAS.EventAggregator.IEventAggregatorService.html">IEventAggregatorService</a></dt>
+    <dd><p>事件聚合器服务</p>
+</dd>
+    <dt><code>moduleControlManager</code> <a class="xref" href="MAS.Controls.InteractiveDataFlow.IModuleControlManager.html">IModuleControlManager</a></dt>
+    <dd><p>模块控件数据模型管理实例</p>
+</dd>
+    <dt><code>compilationManager</code> <a class="xref" href="MAS.Compilation.ICompilationManager.html">ICompilationManager</a></dt>
+    <dd><p>中央编译管理实例</p>
+</dd>
+    <dt><code>compilationService</code> <a class="xref" href="MAS.Compilation.ICompilationService.html">ICompilationService</a></dt>
+    <dd><p>编译服务</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <h2 class="section" id="properties">Properties
+</h2>
+
+
+  <a id="DataMaster_ViewModels_Pages_BuildRunWorkbenchViewModel_ApplyBuildConfigCommand_" data-uid="DataMaster.ViewModels.Pages.BuildRunWorkbenchViewModel.ApplyBuildConfigCommand*"></a>
+
+  <h3 id="DataMaster_ViewModels_Pages_BuildRunWorkbenchViewModel_ApplyBuildConfigCommand" data-uid="DataMaster.ViewModels.Pages.BuildRunWorkbenchViewModel.ApplyBuildConfigCommand">
+  ApplyBuildConfigCommand
+  <a class="header-action link-secondary" title="View source" href="https://bitbucket.org/mas-software/industrial-mes-net-platform-advanced/src/main/ViewModels/Pages/BuildRunWorkbenchViewModel.cs#lines-181"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>获取应用构建配置命令</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public RelayCommandAsync ApplyBuildConfigCommand { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="DataMaster.Commands.RelayCommandAsync.html">RelayCommandAsync</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="DataMaster_ViewModels_Pages_BuildRunWorkbenchViewModel_ApplyConfigObjCommand_" data-uid="DataMaster.ViewModels.Pages.BuildRunWorkbenchViewModel.ApplyConfigObjCommand*"></a>
+
+  <h3 id="DataMaster_ViewModels_Pages_BuildRunWorkbenchViewModel_ApplyConfigObjCommand" data-uid="DataMaster.ViewModels.Pages.BuildRunWorkbenchViewModel.ApplyConfigObjCommand">
+  ApplyConfigObjCommand
+  <a class="header-action link-secondary" title="View source" href="https://bitbucket.org/mas-software/industrial-mes-net-platform-advanced/src/main/ViewModels/Pages/BuildRunWorkbenchViewModel.cs#lines-156"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>获取应用实例配置命令</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public RelayCommand ApplyConfigObjCommand { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="DataMaster.Commands.RelayCommand.html">RelayCommand</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="DataMaster_ViewModels_Pages_BuildRunWorkbenchViewModel_AssemblyCount_" data-uid="DataMaster.ViewModels.Pages.BuildRunWorkbenchViewModel.AssemblyCount*"></a>
+
+  <h3 id="DataMaster_ViewModels_Pages_BuildRunWorkbenchViewModel_AssemblyCount" data-uid="DataMaster.ViewModels.Pages.BuildRunWorkbenchViewModel.AssemblyCount">
+  AssemblyCount
+  <a class="header-action link-secondary" title="View source" href="https://bitbucket.org/mas-software/industrial-mes-net-platform-advanced/src/main/ViewModels/Pages/BuildRunWorkbenchViewModel.cs#lines-76"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>获取或设置加载的程序集数量</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public short AssemblyCount { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int16">short</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="DataMaster_ViewModels_Pages_BuildRunWorkbenchViewModel_BuildConfig_" data-uid="DataMaster.ViewModels.Pages.BuildRunWorkbenchViewModel.BuildConfig*"></a>
+
+  <h3 id="DataMaster_ViewModels_Pages_BuildRunWorkbenchViewModel_BuildConfig" data-uid="DataMaster.ViewModels.Pages.BuildRunWorkbenchViewModel.BuildConfig">
+  BuildConfig
+  <a class="header-action link-secondary" title="View source" href="https://bitbucket.org/mas-software/industrial-mes-net-platform-advanced/src/main/ViewModels/Pages/BuildRunWorkbenchViewModel.cs#lines-126"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>获取或设置构建配置</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public BuildConfig BuildConfig { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="DataMaster.Models.Configurations.BuildConfig.html">BuildConfig</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="DataMaster_ViewModels_Pages_BuildRunWorkbenchViewModel_BuildOperationCommand_" data-uid="DataMaster.ViewModels.Pages.BuildRunWorkbenchViewModel.BuildOperationCommand*"></a>
+
+  <h3 id="DataMaster_ViewModels_Pages_BuildRunWorkbenchViewModel_BuildOperationCommand" data-uid="DataMaster.ViewModels.Pages.BuildRunWorkbenchViewModel.BuildOperationCommand">
+  BuildOperationCommand
+  <a class="header-action link-secondary" title="View source" href="https://bitbucket.org/mas-software/industrial-mes-net-platform-advanced/src/main/ViewModels/Pages/BuildRunWorkbenchViewModel.cs#lines-176"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>获取构建操作命令</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public RelayCommandAsync BuildOperationCommand { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="DataMaster.Commands.RelayCommandAsync.html">RelayCommandAsync</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="DataMaster_ViewModels_Pages_BuildRunWorkbenchViewModel_BuildState_" data-uid="DataMaster.ViewModels.Pages.BuildRunWorkbenchViewModel.BuildState*"></a>
+
+  <h3 id="DataMaster_ViewModels_Pages_BuildRunWorkbenchViewModel_BuildState" data-uid="DataMaster.ViewModels.Pages.BuildRunWorkbenchViewModel.BuildState">
+  BuildState
+  <a class="header-action link-secondary" title="View source" href="https://bitbucket.org/mas-software/industrial-mes-net-platform-advanced/src/main/ViewModels/Pages/BuildRunWorkbenchViewModel.cs#lines-120"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>获取构建状态</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public BuildStateModel BuildState { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="DataMaster.Models.BuildStateModel.html">BuildStateModel</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="DataMaster_ViewModels_Pages_BuildRunWorkbenchViewModel_CreateNewCommand_" data-uid="DataMaster.ViewModels.Pages.BuildRunWorkbenchViewModel.CreateNewCommand*"></a>
+
+  <h3 id="DataMaster_ViewModels_Pages_BuildRunWorkbenchViewModel_CreateNewCommand" data-uid="DataMaster.ViewModels.Pages.BuildRunWorkbenchViewModel.CreateNewCommand">
+  CreateNewCommand
+  <a class="header-action link-secondary" title="View source" href="https://bitbucket.org/mas-software/industrial-mes-net-platform-advanced/src/main/ViewModels/Pages/BuildRunWorkbenchViewModel.cs#lines-141"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>获取新建命令</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public RelayCommand CreateNewCommand { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="DataMaster.Commands.RelayCommand.html">RelayCommand</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="DataMaster_ViewModels_Pages_BuildRunWorkbenchViewModel_FromExistingTemplateCommand_" data-uid="DataMaster.ViewModels.Pages.BuildRunWorkbenchViewModel.FromExistingTemplateCommand*"></a>
+
+  <h3 id="DataMaster_ViewModels_Pages_BuildRunWorkbenchViewModel_FromExistingTemplateCommand" data-uid="DataMaster.ViewModels.Pages.BuildRunWorkbenchViewModel.FromExistingTemplateCommand">
+  FromExistingTemplateCommand
+  <a class="header-action link-secondary" title="View source" href="https://bitbucket.org/mas-software/industrial-mes-net-platform-advanced/src/main/ViewModels/Pages/BuildRunWorkbenchViewModel.cs#lines-146"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>获取从当前模板选择命令</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public RelayCommand FromExistingTemplateCommand { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="DataMaster.Commands.RelayCommand.html">RelayCommand</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="DataMaster_ViewModels_Pages_BuildRunWorkbenchViewModel_GenerateAssemblyCommand_" data-uid="DataMaster.ViewModels.Pages.BuildRunWorkbenchViewModel.GenerateAssemblyCommand*"></a>
+
+  <h3 id="DataMaster_ViewModels_Pages_BuildRunWorkbenchViewModel_GenerateAssemblyCommand" data-uid="DataMaster.ViewModels.Pages.BuildRunWorkbenchViewModel.GenerateAssemblyCommand">
+  GenerateAssemblyCommand
+  <a class="header-action link-secondary" title="View source" href="https://bitbucket.org/mas-software/industrial-mes-net-platform-advanced/src/main/ViewModels/Pages/BuildRunWorkbenchViewModel.cs#lines-166"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>获取生成程序集的 DLL 命令</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public RelayCommand GenerateAssemblyCommand { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="DataMaster.Commands.RelayCommand.html">RelayCommand</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="DataMaster_ViewModels_Pages_BuildRunWorkbenchViewModel_InstanceCount_" data-uid="DataMaster.ViewModels.Pages.BuildRunWorkbenchViewModel.InstanceCount*"></a>
+
+  <h3 id="DataMaster_ViewModels_Pages_BuildRunWorkbenchViewModel_InstanceCount" data-uid="DataMaster.ViewModels.Pages.BuildRunWorkbenchViewModel.InstanceCount">
+  InstanceCount
+  <a class="header-action link-secondary" title="View source" href="https://bitbucket.org/mas-software/industrial-mes-net-platform-advanced/src/main/ViewModels/Pages/BuildRunWorkbenchViewModel.cs#lines-48"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>获取实例数量</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public int InstanceCount { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="DataMaster_ViewModels_Pages_BuildRunWorkbenchViewModel_InstancesListModels_" data-uid="DataMaster.ViewModels.Pages.BuildRunWorkbenchViewModel.InstancesListModels*"></a>
+
+  <h3 id="DataMaster_ViewModels_Pages_BuildRunWorkbenchViewModel_InstancesListModels" data-uid="DataMaster.ViewModels.Pages.BuildRunWorkbenchViewModel.InstancesListModels">
+  InstancesListModels
+  <a class="header-action link-secondary" title="View source" href="https://bitbucket.org/mas-software/industrial-mes-net-platform-advanced/src/main/ViewModels/Pages/BuildRunWorkbenchViewModel.cs#lines-84"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>获取可用的实例列表数据集合</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public ObservableCollection&lt;InstancesItem&gt; InstancesListModels { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.objectmodel.observablecollection-1">ObservableCollection</a>&lt;<a class="xref" href="MAS.Controls.InteractiveDataFlow.InstancesItem.html">InstancesItem</a>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="DataMaster_ViewModels_Pages_BuildRunWorkbenchViewModel_IsConfigModified_" data-uid="DataMaster.ViewModels.Pages.BuildRunWorkbenchViewModel.IsConfigModified*"></a>
+
+  <h3 id="DataMaster_ViewModels_Pages_BuildRunWorkbenchViewModel_IsConfigModified" data-uid="DataMaster.ViewModels.Pages.BuildRunWorkbenchViewModel.IsConfigModified">
+  IsConfigModified
+  <a class="header-action link-secondary" title="View source" href="https://bitbucket.org/mas-software/industrial-mes-net-platform-advanced/src/main/ViewModels/Pages/BuildRunWorkbenchViewModel.cs#lines-54"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>获取或设置配置是否被修改</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool IsConfigModified { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="DataMaster_ViewModels_Pages_BuildRunWorkbenchViewModel_LastUpdateTime_" data-uid="DataMaster.ViewModels.Pages.BuildRunWorkbenchViewModel.LastUpdateTime*"></a>
+
+  <h3 id="DataMaster_ViewModels_Pages_BuildRunWorkbenchViewModel_LastUpdateTime" data-uid="DataMaster.ViewModels.Pages.BuildRunWorkbenchViewModel.LastUpdateTime">
+  LastUpdateTime
+  <a class="header-action link-secondary" title="View source" href="https://bitbucket.org/mas-software/industrial-mes-net-platform-advanced/src/main/ViewModels/Pages/BuildRunWorkbenchViewModel.cs#lines-67"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>获取或设置最后更新时间</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public DateTime? LastUpdateTime { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.datetime">DateTime</a>?</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="DataMaster_ViewModels_Pages_BuildRunWorkbenchViewModel_LoadedAssemblies_" data-uid="DataMaster.ViewModels.Pages.BuildRunWorkbenchViewModel.LoadedAssemblies*"></a>
+
+  <h3 id="DataMaster_ViewModels_Pages_BuildRunWorkbenchViewModel_LoadedAssemblies" data-uid="DataMaster.ViewModels.Pages.BuildRunWorkbenchViewModel.LoadedAssemblies">
+  LoadedAssemblies
+  <a class="header-action link-secondary" title="View source" href="https://bitbucket.org/mas-software/industrial-mes-net-platform-advanced/src/main/ViewModels/Pages/BuildRunWorkbenchViewModel.cs#lines-115"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>获取已加载的程序集列表</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public ObservableCollection&lt;LoadedAssemblyInfo&gt; LoadedAssemblies { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.objectmodel.observablecollection-1">ObservableCollection</a>&lt;<a class="xref" href="MAS.Compilation.LoadedAssemblyInfo.html">LoadedAssemblyInfo</a>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="DataMaster_ViewModels_Pages_BuildRunWorkbenchViewModel_LockObjectCommand_" data-uid="DataMaster.ViewModels.Pages.BuildRunWorkbenchViewModel.LockObjectCommand*"></a>
+
+  <h3 id="DataMaster_ViewModels_Pages_BuildRunWorkbenchViewModel_LockObjectCommand" data-uid="DataMaster.ViewModels.Pages.BuildRunWorkbenchViewModel.LockObjectCommand">
+  LockObjectCommand
+  <a class="header-action link-secondary" title="View source" href="https://bitbucket.org/mas-software/industrial-mes-net-platform-advanced/src/main/ViewModels/Pages/BuildRunWorkbenchViewModel.cs#lines-136"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>获取锁定对象命令，解锁或锁定所有模块交互状态</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public RelayCommand LockObjectCommand { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="DataMaster.Commands.RelayCommand.html">RelayCommand</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="DataMaster_ViewModels_Pages_BuildRunWorkbenchViewModel_OpenProjectCommand_" data-uid="DataMaster.ViewModels.Pages.BuildRunWorkbenchViewModel.OpenProjectCommand*"></a>
+
+  <h3 id="DataMaster_ViewModels_Pages_BuildRunWorkbenchViewModel_OpenProjectCommand" data-uid="DataMaster.ViewModels.Pages.BuildRunWorkbenchViewModel.OpenProjectCommand">
+  OpenProjectCommand
+  <a class="header-action link-secondary" title="View source" href="https://bitbucket.org/mas-software/industrial-mes-net-platform-advanced/src/main/ViewModels/Pages/BuildRunWorkbenchViewModel.cs#lines-151"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>获取打开工程命令</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public RelayCommand OpenProjectCommand { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="DataMaster.Commands.RelayCommand.html">RelayCommand</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="DataMaster_ViewModels_Pages_BuildRunWorkbenchViewModel_RefreshLoadedAssemblyInfoCommand_" data-uid="DataMaster.ViewModels.Pages.BuildRunWorkbenchViewModel.RefreshLoadedAssemblyInfoCommand*"></a>
+
+  <h3 id="DataMaster_ViewModels_Pages_BuildRunWorkbenchViewModel_RefreshLoadedAssemblyInfoCommand" data-uid="DataMaster.ViewModels.Pages.BuildRunWorkbenchViewModel.RefreshLoadedAssemblyInfoCommand">
+  RefreshLoadedAssemblyInfoCommand
+  <a class="header-action link-secondary" title="View source" href="https://bitbucket.org/mas-software/industrial-mes-net-platform-advanced/src/main/ViewModels/Pages/BuildRunWorkbenchViewModel.cs#lines-171"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>获取刷新程序集加载信息命令</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public RelayCommand RefreshLoadedAssemblyInfoCommand { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="DataMaster.Commands.RelayCommand.html">RelayCommand</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="DataMaster_ViewModels_Pages_BuildRunWorkbenchViewModel_SelectedInstance_" data-uid="DataMaster.ViewModels.Pages.BuildRunWorkbenchViewModel.SelectedInstance*"></a>
+
+  <h3 id="DataMaster_ViewModels_Pages_BuildRunWorkbenchViewModel_SelectedInstance" data-uid="DataMaster.ViewModels.Pages.BuildRunWorkbenchViewModel.SelectedInstance">
+  SelectedInstance
+  <a class="header-action link-secondary" title="View source" href="https://bitbucket.org/mas-software/industrial-mes-net-platform-advanced/src/main/ViewModels/Pages/BuildRunWorkbenchViewModel.cs#lines-90"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>获取或设置选中的实例对象配置</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public InstancesItem? SelectedInstance { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="MAS.Controls.InteractiveDataFlow.InstancesItem.html">InstancesItem</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="DataMaster_ViewModels_Pages_BuildRunWorkbenchViewModel_UnloadAllAssembliesCommand_" data-uid="DataMaster.ViewModels.Pages.BuildRunWorkbenchViewModel.UnloadAllAssembliesCommand*"></a>
+
+  <h3 id="DataMaster_ViewModels_Pages_BuildRunWorkbenchViewModel_UnloadAllAssembliesCommand" data-uid="DataMaster.ViewModels.Pages.BuildRunWorkbenchViewModel.UnloadAllAssembliesCommand">
+  UnloadAllAssembliesCommand
+  <a class="header-action link-secondary" title="View source" href="https://bitbucket.org/mas-software/industrial-mes-net-platform-advanced/src/main/ViewModels/Pages/BuildRunWorkbenchViewModel.cs#lines-186"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>获取卸载所有程序集命令</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public RelayCommand UnloadAllAssembliesCommand { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="DataMaster.Commands.RelayCommand.html">RelayCommand</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="DataMaster_ViewModels_Pages_BuildRunWorkbenchViewModel_UnloadAssemblyCommand_" data-uid="DataMaster.ViewModels.Pages.BuildRunWorkbenchViewModel.UnloadAssemblyCommand*"></a>
+
+  <h3 id="DataMaster_ViewModels_Pages_BuildRunWorkbenchViewModel_UnloadAssemblyCommand" data-uid="DataMaster.ViewModels.Pages.BuildRunWorkbenchViewModel.UnloadAssemblyCommand">
+  UnloadAssemblyCommand
+  <a class="header-action link-secondary" title="View source" href="https://bitbucket.org/mas-software/industrial-mes-net-platform-advanced/src/main/ViewModels/Pages/BuildRunWorkbenchViewModel.cs#lines-161"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>获取卸载程序集命令</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public RelayCommand UnloadAssemblyCommand { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="DataMaster.Commands.RelayCommand.html">RelayCommand</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <h2 class="section" id="methods">Methods
+</h2>
+
+
+  <a id="DataMaster_ViewModels_Pages_BuildRunWorkbenchViewModel_MarkItemAsAdded_" data-uid="DataMaster.ViewModels.Pages.BuildRunWorkbenchViewModel.MarkItemAsAdded*"></a>
+
+  <h3 id="DataMaster_ViewModels_Pages_BuildRunWorkbenchViewModel_MarkItemAsAdded_System_String_MAS_Controls_InteractiveDataFlow_ToolboxItemType_" data-uid="DataMaster.ViewModels.Pages.BuildRunWorkbenchViewModel.MarkItemAsAdded(System.String,MAS.Controls.InteractiveDataFlow.ToolboxItemType)">
+  MarkItemAsAdded(string, ToolboxItemType)
+  <a class="header-action link-secondary" title="View source" href="https://bitbucket.org/mas-software/industrial-mes-net-platform-advanced/src/main/ViewModels/Pages/BuildRunWorkbenchViewModel.cs#lines-246"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>标记项为已添加</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void MarkItemAsAdded(string key, ToolboxItemType type)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>key</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+    <dt><code>type</code> <a class="xref" href="MAS.Controls.InteractiveDataFlow.ToolboxItemType.html">ToolboxItemType</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="DataMaster_ViewModels_Pages_BuildRunWorkbenchViewModel_MarkItemAsRemoved_" data-uid="DataMaster.ViewModels.Pages.BuildRunWorkbenchViewModel.MarkItemAsRemoved*"></a>
+
+  <h3 id="DataMaster_ViewModels_Pages_BuildRunWorkbenchViewModel_MarkItemAsRemoved_System_String_MAS_Controls_InteractiveDataFlow_ToolboxItemType_" data-uid="DataMaster.ViewModels.Pages.BuildRunWorkbenchViewModel.MarkItemAsRemoved(System.String,MAS.Controls.InteractiveDataFlow.ToolboxItemType)">
+  MarkItemAsRemoved(string, ToolboxItemType)
+  <a class="header-action link-secondary" title="View source" href="https://bitbucket.org/mas-software/industrial-mes-net-platform-advanced/src/main/ViewModels/Pages/BuildRunWorkbenchViewModel.cs#lines-256"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>标记项为未添加</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void MarkItemAsRemoved(string key, ToolboxItemType type)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>key</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+    <dt><code>type</code> <a class="xref" href="MAS.Controls.InteractiveDataFlow.ToolboxItemType.html">ToolboxItemType</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <h2 class="section" id="events">Events
+</h2>
+
+
+
+  <h3 id="DataMaster_ViewModels_Pages_BuildRunWorkbenchViewModel_ModuleDeleted" data-uid="DataMaster.ViewModels.Pages.BuildRunWorkbenchViewModel.ModuleDeleted">
+  ModuleDeleted
+  <a class="header-action link-secondary" title="View source" href="https://bitbucket.org/mas-software/industrial-mes-net-platform-advanced/src/main/ViewModels/Pages/BuildRunWorkbenchViewModel.cs#lines-193"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>模块被删除时触发</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public event Action&lt;string&gt;? ModuleDeleted</code></pre>
+  </div>
+
+
+
+
+
+
+  <h4 class="section">Event Type</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.action-1">Action</a>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+</article>
+
+        <div class="contribution d-print-none">
+          <a href="https://bitbucket.org/mas-software/industrial-mes-net-platform-advanced/src/main/ViewModels/Pages/BuildRunWorkbenchViewModel.cs#lines-35" class="edit-link">Edit this page</a>
+        </div>
+
+
+      </div>
+
+      <div class="affix">
+        <nav id="affix"></nav>
+      </div>
+    </main>
+
+    <div class="container-xxl search-results" id="search-results"></div>
+
+    <footer class="border-top text-secondary">
+      <div class="container-xxl">
+        <div class="flex-fill">
+          <span>Made with <a href="https://dotnet.github.io/docfx" rel="noreferrer">docfx</a>,  | Copyright © 2024 MAS(厦门威光). All rights reserved.</span>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>

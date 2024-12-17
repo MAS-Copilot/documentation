@@ -89,7 +89,7 @@
 
 
   <h1 id="DataMaster_Models_Configurations_SettingsConfig" data-uid="DataMaster.Models.Configurations.SettingsConfig" class="text-break">
-Class SettingsConfig  <a class="header-action link-secondary" title="View source" href="https://bitbucket.org/mas-software/industrial-mes-net-platform-advanced/src/feature/database/Models/Configurations/SettingsConfig.cs#lines-33"><i class="bi bi-code-slash"></i></a>
+Class SettingsConfig  <a class="header-action link-secondary" title="View source" href="https://bitbucket.org/mas-software/industrial-mes-net-platform-advanced/src/main/Models/Configurations/SettingsConfig.cs#lines-32"><i class="bi bi-code-slash"></i></a>
   </h1>
 
   <div class="facts text-secondary">
@@ -167,7 +167,7 @@ Class SettingsConfig  <a class="header-action link-secondary" title="View source
 
   <h3 id="DataMaster_Models_Configurations_SettingsConfig_AppTheme" data-uid="DataMaster.Models.Configurations.SettingsConfig.AppTheme">
   AppTheme
-  <a class="header-action link-secondary" title="View source" href="https://bitbucket.org/mas-software/industrial-mes-net-platform-advanced/src/feature/database/Models/Configurations/SettingsConfig.cs#lines-116"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://bitbucket.org/mas-software/industrial-mes-net-platform-advanced/src/main/Models/Configurations/SettingsConfig.cs#lines-129"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>获取或设置主题</p>
@@ -195,19 +195,83 @@ Class SettingsConfig  <a class="header-action link-secondary" title="View source
 
 
 
-  <a id="DataMaster_Models_Configurations_SettingsConfig_Database_" data-uid="DataMaster.Models.Configurations.SettingsConfig.Database*"></a>
+  <a id="DataMaster_Models_Configurations_SettingsConfig_Build_" data-uid="DataMaster.Models.Configurations.SettingsConfig.Build*"></a>
 
-  <h3 id="DataMaster_Models_Configurations_SettingsConfig_Database" data-uid="DataMaster.Models.Configurations.SettingsConfig.Database">
-  Database
-  <a class="header-action link-secondary" title="View source" href="https://bitbucket.org/mas-software/industrial-mes-net-platform-advanced/src/feature/database/Models/Configurations/SettingsConfig.cs#lines-47"><i class="bi bi-code-slash"></i></a>
+  <h3 id="DataMaster_Models_Configurations_SettingsConfig_Build" data-uid="DataMaster.Models.Configurations.SettingsConfig.Build">
+  Build
+  <a class="header-action link-secondary" title="View source" href="https://bitbucket.org/mas-software/industrial-mes-net-platform-advanced/src/main/Models/Configurations/SettingsConfig.cs#lines-86"><i class="bi bi-code-slash"></i></a>
   </h3>
 
-  <div class="markdown level1 summary"><p>获取数据库配置信息</p>
+  <div class="markdown level1 summary"><p>获取或设置构建配置</p>
 </div>
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public DatabaseConfig Database { get; }</code></pre>
+    <pre><code class="lang-csharp hljs">public BuildConfig Build { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="DataMaster.Models.Configurations.BuildConfig.html">BuildConfig</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="DataMaster_Models_Configurations_SettingsConfig_DataExport_" data-uid="DataMaster.Models.Configurations.SettingsConfig.DataExport*"></a>
+
+  <h3 id="DataMaster_Models_Configurations_SettingsConfig_DataExport" data-uid="DataMaster.Models.Configurations.SettingsConfig.DataExport">
+  DataExport
+  <a class="header-action link-secondary" title="View source" href="https://bitbucket.org/mas-software/industrial-mes-net-platform-advanced/src/main/Models/Configurations/SettingsConfig.cs#lines-81"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>获取数据导出配置</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public DataExportConfig DataExport { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="DataMaster.Models.Configurations.DataExportConfig.html">DataExportConfig</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="DataMaster_Models_Configurations_SettingsConfig_Databases_" data-uid="DataMaster.Models.Configurations.SettingsConfig.Databases*"></a>
+
+  <h3 id="DataMaster_Models_Configurations_SettingsConfig_Databases" data-uid="DataMaster.Models.Configurations.SettingsConfig.Databases">
+  Databases
+  <a class="header-action link-secondary" title="View source" href="https://bitbucket.org/mas-software/industrial-mes-net-platform-advanced/src/main/Models/Configurations/SettingsConfig.cs#lines-46"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>获取数据库配置</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public DatabaseConfig Databases { get; }</code></pre>
   </div>
 
 
@@ -231,7 +295,7 @@ Class SettingsConfig  <a class="header-action link-secondary" title="View source
 
   <h3 id="DataMaster_Models_Configurations_SettingsConfig_Fonts" data-uid="DataMaster.Models.Configurations.SettingsConfig.Fonts">
   Fonts
-  <a class="header-action link-secondary" title="View source" href="https://bitbucket.org/mas-software/industrial-mes-net-platform-advanced/src/feature/database/Models/Configurations/SettingsConfig.cs#lines-128"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://bitbucket.org/mas-software/industrial-mes-net-platform-advanced/src/main/Models/Configurations/SettingsConfig.cs#lines-142"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>获取或设置字体</p>
@@ -259,11 +323,43 @@ Class SettingsConfig  <a class="header-action link-secondary" title="View source
 
 
 
+  <a id="DataMaster_Models_Configurations_SettingsConfig_IsClickEffectEnabled_" data-uid="DataMaster.Models.Configurations.SettingsConfig.IsClickEffectEnabled*"></a>
+
+  <h3 id="DataMaster_Models_Configurations_SettingsConfig_IsClickEffectEnabled" data-uid="DataMaster.Models.Configurations.SettingsConfig.IsClickEffectEnabled">
+  IsClickEffectEnabled
+  <a class="header-action link-secondary" title="View source" href="https://bitbucket.org/mas-software/industrial-mes-net-platform-advanced/src/main/Models/Configurations/SettingsConfig.cs#lines-168"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>获取或设置是否启用鼠标点击特效</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool IsClickEffectEnabled { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
   <a id="DataMaster_Models_Configurations_SettingsConfig_IsDeveloperMode_" data-uid="DataMaster.Models.Configurations.SettingsConfig.IsDeveloperMode*"></a>
 
   <h3 id="DataMaster_Models_Configurations_SettingsConfig_IsDeveloperMode" data-uid="DataMaster.Models.Configurations.SettingsConfig.IsDeveloperMode">
   IsDeveloperMode
-  <a class="header-action link-secondary" title="View source" href="https://bitbucket.org/mas-software/industrial-mes-net-platform-advanced/src/feature/database/Models/Configurations/SettingsConfig.cs#lines-138"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://bitbucket.org/mas-software/industrial-mes-net-platform-advanced/src/main/Models/Configurations/SettingsConfig.cs#lines-152"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>获取或设置是否在开发者模式</p>
@@ -291,20 +387,19 @@ Class SettingsConfig  <a class="header-action link-secondary" title="View source
 
 
 
-  <a id="DataMaster_Models_Configurations_SettingsConfig_IsModified_" data-uid="DataMaster.Models.Configurations.SettingsConfig.IsModified*"></a>
+  <a id="DataMaster_Models_Configurations_SettingsConfig_IsUseAppBasePath_" data-uid="DataMaster.Models.Configurations.SettingsConfig.IsUseAppBasePath*"></a>
 
-  <h3 id="DataMaster_Models_Configurations_SettingsConfig_IsModified" data-uid="DataMaster.Models.Configurations.SettingsConfig.IsModified">
-  IsModified
-  <a class="header-action link-secondary" title="View source" href="https://bitbucket.org/mas-software/industrial-mes-net-platform-advanced/src/feature/database/Models/Configurations/SettingsConfig.cs#lines-154"><i class="bi bi-code-slash"></i></a>
+  <h3 id="DataMaster_Models_Configurations_SettingsConfig_IsUseAppBasePath" data-uid="DataMaster.Models.Configurations.SettingsConfig.IsUseAppBasePath">
+  IsUseAppBasePath
+  <a class="header-action link-secondary" title="View source" href="https://bitbucket.org/mas-software/industrial-mes-net-platform-advanced/src/main/Models/Configurations/SettingsConfig.cs#lines-102"><i class="bi bi-code-slash"></i></a>
   </h3>
 
-  <div class="markdown level1 summary"><p>标识配置自上次保存以来是否已被修改</p>
+  <div class="markdown level1 summary"><p>获取或设置是否使用应用程序基础路径作为默认的数据存储路径，为 false 则使用公共数据路径</p>
 </div>
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">[JsonIgnore]
-public bool IsModified { get; set; }</code></pre>
+    <pre><code class="lang-csharp hljs">public bool IsUseAppBasePath { get; set; }</code></pre>
   </div>
 
 
@@ -328,7 +423,7 @@ public bool IsModified { get; set; }</code></pre>
 
   <h3 id="DataMaster_Models_Configurations_SettingsConfig_Language" data-uid="DataMaster.Models.Configurations.SettingsConfig.Language">
   Language
-  <a class="header-action link-secondary" title="View source" href="https://bitbucket.org/mas-software/industrial-mes-net-platform-advanced/src/feature/database/Models/Configurations/SettingsConfig.cs#lines-107"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://bitbucket.org/mas-software/industrial-mes-net-platform-advanced/src/main/Models/Configurations/SettingsConfig.cs#lines-120"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>获取或设置语言</p>
@@ -360,7 +455,7 @@ public bool IsModified { get; set; }</code></pre>
 
   <h3 id="DataMaster_Models_Configurations_SettingsConfig_LicenseKey" data-uid="DataMaster.Models.Configurations.SettingsConfig.LicenseKey">
   LicenseKey
-  <a class="header-action link-secondary" title="View source" href="https://bitbucket.org/mas-software/industrial-mes-net-platform-advanced/src/feature/database/Models/Configurations/SettingsConfig.cs#lines-98"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://bitbucket.org/mas-software/industrial-mes-net-platform-advanced/src/main/Models/Configurations/SettingsConfig.cs#lines-111"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>获取或设置产品的授权密钥</p>
@@ -392,7 +487,7 @@ public bool IsModified { get; set; }</code></pre>
 
   <h3 id="DataMaster_Models_Configurations_SettingsConfig_Log" data-uid="DataMaster.Models.Configurations.SettingsConfig.Log">
   Log
-  <a class="header-action link-secondary" title="View source" href="https://bitbucket.org/mas-software/industrial-mes-net-platform-advanced/src/feature/database/Models/Configurations/SettingsConfig.cs#lines-52"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://bitbucket.org/mas-software/industrial-mes-net-platform-advanced/src/main/Models/Configurations/SettingsConfig.cs#lines-51"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>获取日志配置信息</p>
@@ -424,7 +519,7 @@ public bool IsModified { get; set; }</code></pre>
 
   <h3 id="DataMaster_Models_Configurations_SettingsConfig_McProtocols" data-uid="DataMaster.Models.Configurations.SettingsConfig.McProtocols">
   McProtocols
-  <a class="header-action link-secondary" title="View source" href="https://bitbucket.org/mas-software/industrial-mes-net-platform-advanced/src/feature/database/Models/Configurations/SettingsConfig.cs#lines-37"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://bitbucket.org/mas-software/industrial-mes-net-platform-advanced/src/main/Models/Configurations/SettingsConfig.cs#lines-36"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>获取 MC 协议配置信息</p>
@@ -456,7 +551,7 @@ public bool IsModified { get; set; }</code></pre>
 
   <h3 id="DataMaster_Models_Configurations_SettingsConfig_MessageListStyle" data-uid="DataMaster.Models.Configurations.SettingsConfig.MessageListStyle">
   MessageListStyle
-  <a class="header-action link-secondary" title="View source" href="https://bitbucket.org/mas-software/industrial-mes-net-platform-advanced/src/feature/database/Models/Configurations/SettingsConfig.cs#lines-67"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://bitbucket.org/mas-software/industrial-mes-net-platform-advanced/src/main/Models/Configurations/SettingsConfig.cs#lines-61"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>获取消息列表样式配置信息</p>
@@ -488,7 +583,7 @@ public bool IsModified { get; set; }</code></pre>
 
   <h3 id="DataMaster_Models_Configurations_SettingsConfig_S7Protocols" data-uid="DataMaster.Models.Configurations.SettingsConfig.S7Protocols">
   S7Protocols
-  <a class="header-action link-secondary" title="View source" href="https://bitbucket.org/mas-software/industrial-mes-net-platform-advanced/src/feature/database/Models/Configurations/SettingsConfig.cs#lines-42"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://bitbucket.org/mas-software/industrial-mes-net-platform-advanced/src/main/Models/Configurations/SettingsConfig.cs#lines-41"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>获取 S7 协议配置信息</p>
@@ -520,7 +615,7 @@ public bool IsModified { get; set; }</code></pre>
 
   <h3 id="DataMaster_Models_Configurations_SettingsConfig_ServerUrls" data-uid="DataMaster.Models.Configurations.SettingsConfig.ServerUrls">
   ServerUrls
-  <a class="header-action link-secondary" title="View source" href="https://bitbucket.org/mas-software/industrial-mes-net-platform-advanced/src/feature/database/Models/Configurations/SettingsConfig.cs#lines-77"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://bitbucket.org/mas-software/industrial-mes-net-platform-advanced/src/main/Models/Configurations/SettingsConfig.cs#lines-71"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>获取服务地址列表</p>
@@ -548,43 +643,11 @@ public bool IsModified { get; set; }</code></pre>
 
 
 
-  <a id="DataMaster_Models_Configurations_SettingsConfig_StartWorkFile_" data-uid="DataMaster.Models.Configurations.SettingsConfig.StartWorkFile*"></a>
-
-  <h3 id="DataMaster_Models_Configurations_SettingsConfig_StartWorkFile" data-uid="DataMaster.Models.Configurations.SettingsConfig.StartWorkFile">
-  StartWorkFile
-  <a class="header-action link-secondary" title="View source" href="https://bitbucket.org/mas-software/industrial-mes-net-platform-advanced/src/feature/database/Models/Configurations/SettingsConfig.cs#lines-62"><i class="bi bi-code-slash"></i></a>
-  </h3>
-
-  <div class="markdown level1 summary"><p>获取启动时工作文件配置信息</p>
-</div>
-  <div class="markdown level1 conceptual"></div>
-
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public StartWorkFileConfig StartWorkFile { get; }</code></pre>
-  </div>
-
-
-
-
-
-  <h4 class="section">Property Value</h4>
-  <dl class="parameters">
-    <dt><a class="xref" href="DataMaster.Models.Configurations.StartWorkFileConfig.html">StartWorkFileConfig</a></dt>
-    <dd></dd>
-  </dl>
-
-
-
-
-
-
-
-
   <a id="DataMaster_Models_Configurations_SettingsConfig_StatisticalData_" data-uid="DataMaster.Models.Configurations.SettingsConfig.StatisticalData*"></a>
 
   <h3 id="DataMaster_Models_Configurations_SettingsConfig_StatisticalData" data-uid="DataMaster.Models.Configurations.SettingsConfig.StatisticalData">
   StatisticalData
-  <a class="header-action link-secondary" title="View source" href="https://bitbucket.org/mas-software/industrial-mes-net-platform-advanced/src/feature/database/Models/Configurations/SettingsConfig.cs#lines-72"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://bitbucket.org/mas-software/industrial-mes-net-platform-advanced/src/main/Models/Configurations/SettingsConfig.cs#lines-66"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>获取统计数据配置信息</p>
@@ -616,7 +679,7 @@ public bool IsModified { get; set; }</code></pre>
 
   <h3 id="DataMaster_Models_Configurations_SettingsConfig_UserCredentials" data-uid="DataMaster.Models.Configurations.SettingsConfig.UserCredentials">
   UserCredentials
-  <a class="header-action link-secondary" title="View source" href="https://bitbucket.org/mas-software/industrial-mes-net-platform-advanced/src/feature/database/Models/Configurations/SettingsConfig.cs#lines-57"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://bitbucket.org/mas-software/industrial-mes-net-platform-advanced/src/main/Models/Configurations/SettingsConfig.cs#lines-56"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>获取用户凭证配置的字典，键为用户名</p>
@@ -648,7 +711,7 @@ public bool IsModified { get; set; }</code></pre>
 
   <h3 id="DataMaster_Models_Configurations_SettingsConfig_Vision" data-uid="DataMaster.Models.Configurations.SettingsConfig.Vision">
   Vision
-  <a class="header-action link-secondary" title="View source" href="https://bitbucket.org/mas-software/industrial-mes-net-platform-advanced/src/feature/database/Models/Configurations/SettingsConfig.cs#lines-82"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://bitbucket.org/mas-software/industrial-mes-net-platform-advanced/src/main/Models/Configurations/SettingsConfig.cs#lines-76"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>获取视觉配置</p>
@@ -683,7 +746,7 @@ public bool IsModified { get; set; }</code></pre>
 
   <h3 id="DataMaster_Models_Configurations_SettingsConfig_OnAppTheme" data-uid="DataMaster.Models.Configurations.SettingsConfig.OnAppTheme">
   OnAppTheme
-  <a class="header-action link-secondary" title="View source" href="https://bitbucket.org/mas-software/industrial-mes-net-platform-advanced/src/feature/database/Models/Configurations/SettingsConfig.cs#lines-87"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://bitbucket.org/mas-software/industrial-mes-net-platform-advanced/src/main/Models/Configurations/SettingsConfig.cs#lines-91"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>主题更改事件</p>
@@ -714,7 +777,7 @@ public bool IsModified { get; set; }</code></pre>
 
   <h3 id="DataMaster_Models_Configurations_SettingsConfig_OnDeveloperModeChanged" data-uid="DataMaster.Models.Configurations.SettingsConfig.OnDeveloperModeChanged">
   OnDeveloperModeChanged
-  <a class="header-action link-secondary" title="View source" href="https://bitbucket.org/mas-software/industrial-mes-net-platform-advanced/src/feature/database/Models/Configurations/SettingsConfig.cs#lines-92"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://bitbucket.org/mas-software/industrial-mes-net-platform-advanced/src/main/Models/Configurations/SettingsConfig.cs#lines-96"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>开发者模式改变事件</p>
@@ -746,7 +809,7 @@ public bool IsModified { get; set; }</code></pre>
 </article>
 
         <div class="contribution d-print-none">
-          <a href="https://bitbucket.org/mas-software/industrial-mes-net-platform-advanced/src/feature/database/Models/Configurations/SettingsConfig.cs#lines-33" class="edit-link">Edit this page</a>
+          <a href="https://bitbucket.org/mas-software/industrial-mes-net-platform-advanced/src/main/Models/Configurations/SettingsConfig.cs#lines-32" class="edit-link">Edit this page</a>
         </div>
 
 

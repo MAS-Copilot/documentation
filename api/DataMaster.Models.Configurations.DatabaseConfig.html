@@ -89,7 +89,7 @@
 
 
   <h1 id="DataMaster_Models_Configurations_DatabaseConfig" data-uid="DataMaster.Models.Configurations.DatabaseConfig" class="text-break">
-Class DatabaseConfig  <a class="header-action link-secondary" title="View source" href="https://bitbucket.org/mas-software/industrial-mes-net-platform-advanced/src/feature/database/Models/Configurations/DatabaseConfig.cs#lines-31"><i class="bi bi-code-slash"></i></a>
+Class DatabaseConfig  <a class="header-action link-secondary" title="View source" href="https://bitbucket.org/mas-software/industrial-mes-net-platform-advanced/src/main/Models/Configurations/Database/DatabaseConfig.cs#lines-34"><i class="bi bi-code-slash"></i></a>
   </h1>
 
   <div class="facts text-secondary">
@@ -102,7 +102,7 @@ Class DatabaseConfig  <a class="header-action link-secondary" title="View source
   <div class="markdown conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public class DatabaseConfig : ConfigurationsBase, IDatabaseConfig</code></pre>
+    <pre><code class="lang-csharp hljs">public class DatabaseConfig : ConfigurationsBase, IDatabaseConfig, ICloneable</code></pre>
   </div>
 
 
@@ -120,7 +120,8 @@ Class DatabaseConfig  <a class="header-action link-secondary" title="View source
   <dl class="typelist implements">
     <dt>Implements</dt>
     <dd>
-      <div><a class="xref" href="DataMaster.Modules.MAS.DataAccess.IDatabaseConfig.html">IDatabaseConfig</a></div>
+      <div><a class="xref" href="MAS.Database.IDatabaseConfig.html">IDatabaseConfig</a></div>
+      <div><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.icloneable">ICloneable</a></div>
     </dd>
   </dl>
 
@@ -165,15 +166,142 @@ Class DatabaseConfig  <a class="header-action link-secondary" title="View source
 
 
 
+  <h2 class="section" id="constructors">Constructors
+</h2>
+
+
+  <a id="DataMaster_Models_Configurations_DatabaseConfig__ctor_" data-uid="DataMaster.Models.Configurations.DatabaseConfig.#ctor*"></a>
+
+  <h3 id="DataMaster_Models_Configurations_DatabaseConfig__ctor" data-uid="DataMaster.Models.Configurations.DatabaseConfig.#ctor">
+  DatabaseConfig()
+  <a class="header-action link-secondary" title="View source" href="https://bitbucket.org/mas-software/industrial-mes-net-platform-advanced/src/main/Models/Configurations/Database/DatabaseConfig.cs#lines-159"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>构造函数，初始化 <a class="xref" href="DataMaster.Models.Configurations.DatabaseConfig.html">DatabaseConfig</a> 新实例</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public DatabaseConfig()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
   <h2 class="section" id="properties">Properties
 </h2>
 
 
-  <a id="DataMaster_Models_Configurations_DatabaseConfig_Database_" data-uid="DataMaster.Models.Configurations.DatabaseConfig.Database*"></a>
+  <a id="DataMaster_Models_Configurations_DatabaseConfig_ActiveThreshold_" data-uid="DataMaster.Models.Configurations.DatabaseConfig.ActiveThreshold*"></a>
 
-  <h3 id="DataMaster_Models_Configurations_DatabaseConfig_Database" data-uid="DataMaster.Models.Configurations.DatabaseConfig.Database">
-  Database
-  <a class="header-action link-secondary" title="View source" href="https://bitbucket.org/mas-software/industrial-mes-net-platform-advanced/src/feature/database/Models/Configurations/DatabaseConfig.cs#lines-54"><i class="bi bi-code-slash"></i></a>
+  <h3 id="DataMaster_Models_Configurations_DatabaseConfig_ActiveThreshold" data-uid="DataMaster.Models.Configurations.DatabaseConfig.ActiveThreshold">
+  ActiveThreshold
+  <a class="header-action link-secondary" title="View source" href="https://bitbucket.org/mas-software/industrial-mes-net-platform-advanced/src/main/Models/Configurations/Database/DatabaseConfig.cs#lines-93"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>获取或设置实例活跃阈值，单位分钟，超过设置阈值则表示不活跃</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public ushort ActiveThreshold { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uint16">ushort</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="DataMaster_Models_Configurations_DatabaseConfig_Build_" data-uid="DataMaster.Models.Configurations.DatabaseConfig.Build*"></a>
+
+  <h3 id="DataMaster_Models_Configurations_DatabaseConfig_Build" data-uid="DataMaster.Models.Configurations.DatabaseConfig.Build">
+  Build
+  <a class="header-action link-secondary" title="View source" href="https://bitbucket.org/mas-software/industrial-mes-net-platform-advanced/src/main/Models/Configurations/Database/DatabaseConfig.cs#lines-130"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>获取构建相关的配置</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public IDbBuildConfig Build { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="MAS.Database.IDbBuildConfig.html">IDbBuildConfig</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="DataMaster_Models_Configurations_DatabaseConfig_ConnectionTimeout_" data-uid="DataMaster.Models.Configurations.DatabaseConfig.ConnectionTimeout*"></a>
+
+  <h3 id="DataMaster_Models_Configurations_DatabaseConfig_ConnectionTimeout" data-uid="DataMaster.Models.Configurations.DatabaseConfig.ConnectionTimeout">
+  ConnectionTimeout
+  <a class="header-action link-secondary" title="View source" href="https://bitbucket.org/mas-software/industrial-mes-net-platform-advanced/src/main/Models/Configurations/Database/DatabaseConfig.cs#lines-114"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>获取或设置连接数据库的超时时间（秒）</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public ushort ConnectionTimeout { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uint16">ushort</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="DataMaster_Models_Configurations_DatabaseConfig_DatabaseName_" data-uid="DataMaster.Models.Configurations.DatabaseConfig.DatabaseName*"></a>
+
+  <h3 id="DataMaster_Models_Configurations_DatabaseConfig_DatabaseName" data-uid="DataMaster.Models.Configurations.DatabaseConfig.DatabaseName">
+  DatabaseName
+  <a class="header-action link-secondary" title="View source" href="https://bitbucket.org/mas-software/industrial-mes-net-platform-advanced/src/main/Models/Configurations/Database/DatabaseConfig.cs#lines-76"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>获取或设置数据库名称</p>
@@ -181,7 +309,7 @@ Class DatabaseConfig  <a class="header-action link-secondary" title="View source
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public string Database { get; set; }</code></pre>
+    <pre><code class="lang-csharp hljs">public string DatabaseName { get; set; }</code></pre>
   </div>
 
 
@@ -201,11 +329,139 @@ Class DatabaseConfig  <a class="header-action link-secondary" title="View source
 
 
 
+  <a id="DataMaster_Models_Configurations_DatabaseConfig_ExecutionTimeout_" data-uid="DataMaster.Models.Configurations.DatabaseConfig.ExecutionTimeout*"></a>
+
+  <h3 id="DataMaster_Models_Configurations_DatabaseConfig_ExecutionTimeout" data-uid="DataMaster.Models.Configurations.DatabaseConfig.ExecutionTimeout">
+  ExecutionTimeout
+  <a class="header-action link-secondary" title="View source" href="https://bitbucket.org/mas-software/industrial-mes-net-platform-advanced/src/main/Models/Configurations/Database/DatabaseConfig.cs#lines-107"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>获取或设置执行超时时间（ms）</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public ushort ExecutionTimeout { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uint16">ushort</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="DataMaster_Models_Configurations_DatabaseConfig_ExpirationTime_" data-uid="DataMaster.Models.Configurations.DatabaseConfig.ExpirationTime*"></a>
+
+  <h3 id="DataMaster_Models_Configurations_DatabaseConfig_ExpirationTime" data-uid="DataMaster.Models.Configurations.DatabaseConfig.ExpirationTime">
+  ExpirationTime
+  <a class="header-action link-secondary" title="View source" href="https://bitbucket.org/mas-software/industrial-mes-net-platform-advanced/src/main/Models/Configurations/Database/DatabaseConfig.cs#lines-100"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>获取或设置实例过期时间，单位分钟，将清除过期的实例</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public ushort ExpirationTime { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uint16">ushort</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="DataMaster_Models_Configurations_DatabaseConfig_HeartbeatInterval_" data-uid="DataMaster.Models.Configurations.DatabaseConfig.HeartbeatInterval*"></a>
+
+  <h3 id="DataMaster_Models_Configurations_DatabaseConfig_HeartbeatInterval" data-uid="DataMaster.Models.Configurations.DatabaseConfig.HeartbeatInterval">
+  HeartbeatInterval
+  <a class="header-action link-secondary" title="View source" href="https://bitbucket.org/mas-software/industrial-mes-net-platform-advanced/src/main/Models/Configurations/Database/DatabaseConfig.cs#lines-127"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>获取或设置心跳间隔(s)</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public short HeartbeatInterval { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int16">short</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="DataMaster_Models_Configurations_DatabaseConfig_IsAutoClear_" data-uid="DataMaster.Models.Configurations.DatabaseConfig.IsAutoClear*"></a>
+
+  <h3 id="DataMaster_Models_Configurations_DatabaseConfig_IsAutoClear" data-uid="DataMaster.Models.Configurations.DatabaseConfig.IsAutoClear">
+  IsAutoClear
+  <a class="header-action link-secondary" title="View source" href="https://bitbucket.org/mas-software/industrial-mes-net-platform-advanced/src/main/Models/Configurations/Database/DatabaseConfig.cs#lines-121"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>获取或设置是否自动清除过期实例</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool IsAutoClear { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
   <a id="DataMaster_Models_Configurations_DatabaseConfig_Password_" data-uid="DataMaster.Models.Configurations.DatabaseConfig.Password*"></a>
 
   <h3 id="DataMaster_Models_Configurations_DatabaseConfig_Password" data-uid="DataMaster.Models.Configurations.DatabaseConfig.Password">
   Password
-  <a class="header-action link-secondary" title="View source" href="https://bitbucket.org/mas-software/industrial-mes-net-platform-advanced/src/feature/database/Models/Configurations/DatabaseConfig.cs#lines-71"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://bitbucket.org/mas-software/industrial-mes-net-platform-advanced/src/main/Models/Configurations/Database/DatabaseConfig.cs#lines-89"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>获取或设置数据库密码</p>
@@ -237,15 +493,15 @@ Class DatabaseConfig  <a class="header-action link-secondary" title="View source
 
   <h3 id="DataMaster_Models_Configurations_DatabaseConfig_Port" data-uid="DataMaster.Models.Configurations.DatabaseConfig.Port">
   Port
-  <a class="header-action link-secondary" title="View source" href="https://bitbucket.org/mas-software/industrial-mes-net-platform-advanced/src/feature/database/Models/Configurations/DatabaseConfig.cs#lines-63"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://bitbucket.org/mas-software/industrial-mes-net-platform-advanced/src/main/Models/Configurations/Database/DatabaseConfig.cs#lines-69"><i class="bi bi-code-slash"></i></a>
   </h3>
 
-  <div class="markdown level1 summary"><p>获取或设置数据库端口</p>
+  <div class="markdown level1 summary"><p>获取或设置数据库服务器端口</p>
 </div>
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public short Port { get; set; }</code></pre>
+    <pre><code class="lang-csharp hljs">public ushort Port { get; set; }</code></pre>
   </div>
 
 
@@ -254,7 +510,7 @@ Class DatabaseConfig  <a class="header-action link-secondary" title="View source
 
   <h4 class="section">Property Value</h4>
   <dl class="parameters">
-    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int16">short</a></dt>
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uint16">ushort</a></dt>
     <dd></dd>
   </dl>
 
@@ -269,10 +525,10 @@ Class DatabaseConfig  <a class="header-action link-secondary" title="View source
 
   <h3 id="DataMaster_Models_Configurations_DatabaseConfig_Server" data-uid="DataMaster.Models.Configurations.DatabaseConfig.Server">
   Server
-  <a class="header-action link-secondary" title="View source" href="https://bitbucket.org/mas-software/industrial-mes-net-platform-advanced/src/feature/database/Models/Configurations/DatabaseConfig.cs#lines-36"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://bitbucket.org/mas-software/industrial-mes-net-platform-advanced/src/main/Models/Configurations/Database/DatabaseConfig.cs#lines-62"><i class="bi bi-code-slash"></i></a>
   </h3>
 
-  <div class="markdown level1 summary"><p>获取或设置数据库服务器</p>
+  <div class="markdown level1 summary"><p>获取或设置数据库服务器地址</p>
 </div>
   <div class="markdown level1 conceptual"></div>
 
@@ -297,11 +553,76 @@ Class DatabaseConfig  <a class="header-action link-secondary" title="View source
 
 
 
+  <a id="DataMaster_Models_Configurations_DatabaseConfig_ServersOptions_" data-uid="DataMaster.Models.Configurations.DatabaseConfig.ServersOptions*"></a>
+
+  <h3 id="DataMaster_Models_Configurations_DatabaseConfig_ServersOptions" data-uid="DataMaster.Models.Configurations.DatabaseConfig.ServersOptions">
+  ServersOptions
+  <a class="header-action link-secondary" title="View source" href="https://bitbucket.org/mas-software/industrial-mes-net-platform-advanced/src/main/Models/Configurations/Database/DatabaseConfig.cs#lines-147"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>获取服务器选项集合</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[JsonIgnore]
+public ObservableCollection&lt;DatabaseType&gt; ServersOptions { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.objectmodel.observablecollection-1">ObservableCollection</a>&lt;<a class="xref" href="MAS.Database.DatabaseType.html">DatabaseType</a>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="DataMaster_Models_Configurations_DatabaseConfig_Type_" data-uid="DataMaster.Models.Configurations.DatabaseConfig.Type*"></a>
+
+  <h3 id="DataMaster_Models_Configurations_DatabaseConfig_Type" data-uid="DataMaster.Models.Configurations.DatabaseConfig.Type">
+  Type
+  <a class="header-action link-secondary" title="View source" href="https://bitbucket.org/mas-software/industrial-mes-net-platform-advanced/src/main/Models/Configurations/Database/DatabaseConfig.cs#lines-55"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>获取或设置数据库类型</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public DatabaseType Type { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="MAS.Database.DatabaseType.html">DatabaseType</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
   <a id="DataMaster_Models_Configurations_DatabaseConfig_User_" data-uid="DataMaster.Models.Configurations.DatabaseConfig.User*"></a>
 
   <h3 id="DataMaster_Models_Configurations_DatabaseConfig_User" data-uid="DataMaster.Models.Configurations.DatabaseConfig.User">
   User
-  <a class="header-action link-secondary" title="View source" href="https://bitbucket.org/mas-software/industrial-mes-net-platform-advanced/src/feature/database/Models/Configurations/DatabaseConfig.cs#lines-45"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://bitbucket.org/mas-software/industrial-mes-net-platform-advanced/src/main/Models/Configurations/Database/DatabaseConfig.cs#lines-83"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>获取或设置数据库用户名</p>
@@ -333,11 +654,83 @@ Class DatabaseConfig  <a class="header-action link-secondary" title="View source
 </h2>
 
 
+  <a id="DataMaster_Models_Configurations_DatabaseConfig_Clone_" data-uid="DataMaster.Models.Configurations.DatabaseConfig.Clone*"></a>
+
+  <h3 id="DataMaster_Models_Configurations_DatabaseConfig_Clone" data-uid="DataMaster.Models.Configurations.DatabaseConfig.Clone">
+  Clone()
+  <a class="header-action link-secondary" title="View source" href="https://bitbucket.org/mas-software/industrial-mes-net-platform-advanced/src/main/Models/Configurations/Database/DatabaseConfig.cs#lines-39"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>创建当前 <a class="xref" href="DataMaster.Models.Configurations.DatabaseConfig.html">DatabaseConfig</a> 实例的深表副本</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public object Clone()</code></pre>
+  </div>
+
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">object</a></dt>
+    <dd><p>这个实例的一个新的深表副本</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="DataMaster_Models_Configurations_DatabaseConfig_Clone_" data-uid="DataMaster.Models.Configurations.DatabaseConfig.Clone*"></a>
+
+  <h3 id="DataMaster_Models_Configurations_DatabaseConfig_Clone__1" data-uid="DataMaster.Models.Configurations.DatabaseConfig.Clone``1">
+  Clone&lt;T&gt;()
+  <a class="header-action link-secondary" title="View source" href="https://bitbucket.org/mas-software/industrial-mes-net-platform-advanced/src/main/Models/Configurations/Database/DatabaseConfig.cs#lines-48"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>泛型克隆方法，返回指定类型的克隆实例</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public T Clone&lt;T&gt;() where T : IDatabaseConfig, new()</code></pre>
+  </div>
+
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><span class="xref">T</span></dt>
+    <dd><p>克隆后的实例</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Type Parameters</h4>
+  <dl class="parameters">
+    <dt><code>T</code></dt>
+    <dd><p>克隆实例的类型，必须实现 <a class="xref" href="MAS.Database.IDatabaseConfig.html">IDatabaseConfig</a> 接口</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
   <a id="DataMaster_Models_Configurations_DatabaseConfig_GetConnectionString_" data-uid="DataMaster.Models.Configurations.DatabaseConfig.GetConnectionString*"></a>
 
   <h3 id="DataMaster_Models_Configurations_DatabaseConfig_GetConnectionString" data-uid="DataMaster.Models.Configurations.DatabaseConfig.GetConnectionString">
   GetConnectionString()
-  <a class="header-action link-secondary" title="View source" href="https://bitbucket.org/mas-software/industrial-mes-net-platform-advanced/src/feature/database/Models/Configurations/DatabaseConfig.cs#lines-77"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://bitbucket.org/mas-software/industrial-mes-net-platform-advanced/src/main/Models/Configurations/Database/DatabaseConfig.cs#lines-133"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>获取数据库连接字符串</p>
@@ -369,7 +762,7 @@ Class DatabaseConfig  <a class="header-action link-secondary" title="View source
 </article>
 
         <div class="contribution d-print-none">
-          <a href="https://bitbucket.org/mas-software/industrial-mes-net-platform-advanced/src/feature/database/Models/Configurations/DatabaseConfig.cs#lines-31" class="edit-link">Edit this page</a>
+          <a href="https://bitbucket.org/mas-software/industrial-mes-net-platform-advanced/src/main/Models/Configurations/Database/DatabaseConfig.cs#lines-34" class="edit-link">Edit this page</a>
         </div>
 
 

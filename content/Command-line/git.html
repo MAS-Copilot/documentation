@@ -187,44 +187,62 @@ git add .
 </code></pre>
 <p>这里<code>&lt;branch-name&gt;</code>是本地分支名称，<code>origin</code>是远程仓库的默认名称。这个命令不仅会推送你的更改，还会设置远程仓库和分支作为默认的上游，以便未来的<code>git pull</code>和<code>git push</code>可以自动同步。</p>
 <h3 id="撤销更改">撤销更改</h3>
-<p>撤销对指定<code>&lt;file-name&gt;</code>文件的修改（未添加到暂存区的修改）：</p>
+<p><strong>撤销对指定<code>&lt;file-name&gt;</code>文件的修改（未添加到暂存区的修改）：</strong></p>
 <pre><code class="lang-bash">git checkout --&lt;file-name&gt;
 </code></pre>
-<p>将已添加到暂存区指定的<code>&lt;file-name&gt;</code>文件撤回到工作目录：</p>
+<p><strong>将已添加到暂存区指定的<code>&lt;file-name&gt;</code>文件撤回到工作目录：</strong></p>
 <pre><code class="lang-bash">git reset HEAD &lt;file-name&gt;
 </code></pre>
-<p>修改最后一次提交（例如修改提交信息或添加遗漏的更改）：</p>
+<p><strong>修改最后一次提交（例如修改提交信息或添加遗漏的更改）：</strong></p>
 <pre><code class="lang-bash">git commit --amend
 </code></pre>
 <h3 id="分支操作">分支操作</h3>
-<p>查看本地分支列表：</p>
+<p><strong>查看本地分支列表：</strong></p>
 <pre><code class="lang-bash">git branch
 </code></pre>
-<p>创建<code>&lt;branch-name&gt;</code>新分支并切换到该分支：</p>
+<p><strong>查看远程分支：</strong></p>
+<pre><code class="lang-bash">git branch -r
+</code></pre>
+<p><strong>从所有远程仓库中获取最新的分支和标签：</strong></p>
+<pre><code class="lang-bash">git fetch --all
+</code></pre>
+<p><strong>获取远程仓库的最新数据的同时删除在远程仓库中已经不存在的本地跟踪的远程分支引用:</strong></p>
+<pre><code class="lang-bash">git fetch --all --prune
+</code></pre>
+<p><strong>定期清理无效的远程引用：</strong></p>
+<pre><code class="lang-bash">git remote prune origin
+</code></pre>
+<p><strong>创建<code>&lt;branch-name&gt;</code>新分支并切换到该分支：</strong></p>
 <pre><code class="lang-bash">git checkout -b &lt;branch-name&gt;
 </code></pre>
-<p>切换到指定<code>&lt;branch-name&gt;</code>分支：</p>
+<p><strong>设置远程跟踪：</strong></p>
+<pre><code class="lang-bash">git branch --set-upstream-to=origin/&lt;branch-name&gt; &lt;local-branch-name&gt;
+</code></pre>
+<p><strong>分支创建并设置跟踪：</strong></p>
+<pre><code class="lang-bash">git checkout -b &lt;local-branch-name&gt; origin/&lt;branch-name&gt;
+</code></pre>
+<p><strong>切换到指定<code>&lt;branch-name&gt;</code>分支：</strong></p>
 <pre><code class="lang-bash">git checkout &lt;branch-name&gt;
 </code></pre>
 <h3 id="合并分支">合并分支</h3>
-<p>将指定<code>&lt;branch-name&gt;</code>分支合并到当前分支：</p>
+<p><strong>将指定<code>&lt;branch-name&gt;</code>分支合并到当前分支：</strong></p>
 <pre><code class="lang-bash">git merge &lt;branch-name&gt;
 </code></pre>
 <h3 id="处理冲突">处理冲突</h3>
-<p>在合并发生冲突时，编辑冲突文件，手动解决冲突，然后使用：</p>
+<p><strong>在合并发生冲突时，编辑冲突文件，手动解决冲突，然后使用：</strong></p>
 <pre><code class="lang-bash">git add &lt;file-name&gt;
 git commit -m &quot;解决冲突&quot;
 </code></pre>
-<p>来完成合并。</p>
+<p>来完成合并</p>
 <h3 id="拉取与推送">拉取与推送</h3>
-<p>从远程仓库拉取最新更改并合并到当前分支：</p>
+<p><strong>从远程仓库拉取最新更改并合并到当前分支：</strong></p>
 <pre><code class="lang-bash">git pull
 </code></pre>
-<p>将本地分支的更新推送到远程仓库：</p>
+<p><strong>将本地分支的更新推送到远程仓库：</strong></p>
 <pre><code class="lang-bash">git push
 </code></pre>
 <h3 id="查看差异">查看差异</h3>
-<p>查看工作目录和暂存区的差异：</p>
+<p><strong>查看工作目录和暂存区的差异：</strong></p>
 <pre><code class="lang-bash">git diff
 </code></pre>
 <h3 id="标签创建">标签创建</h3>
@@ -234,7 +252,7 @@ git commit -m &quot;解决冲突&quot;
 </ul>
 <pre><code class="lang-bash">git tag v1.0.0
 </code></pre>
-<p>创建一个名为<code>v1.0</code>的轻量标签。</p>
+<p>创建一个名为<code>v1.0</code>的轻量标签</p>
 <ul>
 <li><strong>附注标签</strong>：附注标签是存储在Git数据库中的一个完整对象，它包含标签信息、标签创建者的名字、电子邮件和日期，有一个标签信息，并且可以被签名和验证。</li>
 </ul>

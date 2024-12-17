@@ -89,7 +89,7 @@
 
 
   <h1 id="DataMaster_Views_Windows_Vision_ImageEditorWindow" data-uid="DataMaster.Views.Windows.Vision.ImageEditorWindow" class="text-break">
-Class ImageEditorWindow  <a class="header-action link-secondary" title="View source" href="https://bitbucket.org/mas-software/industrial-mes-net-platform-advanced/src/feature/database/obj/Release/net8.0-windows7.0/Views/Windows/Vision/ImageEditorWindow.g.cs#lines-64"><i class="bi bi-code-slash"></i></a>
+Class ImageEditorWindow  <a class="header-action link-secondary" title="View source" href="https://bitbucket.org/mas-software/industrial-mes-net-platform-advanced/src/main/obj/Release/net8.0-windows7.0/Views/Windows/Vision/ImageEditorWindow.g.cs#lines-64"><i class="bi bi-code-slash"></i></a>
   </h1>
 
   <div class="facts text-secondary">
@@ -2219,9 +2219,9 @@ Class ImageEditorWindow  <a class="header-action link-secondary" title="View sou
 
   <a id="DataMaster_Views_Windows_Vision_ImageEditorWindow__ctor_" data-uid="DataMaster.Views.Windows.Vision.ImageEditorWindow.#ctor*"></a>
 
-  <h3 id="DataMaster_Views_Windows_Vision_ImageEditorWindow__ctor_DataMaster_ViewModels_Windows_Vision_ImageEditorViewModel_System_Windows_Media_Imaging_WriteableBitmap_" data-uid="DataMaster.Views.Windows.Vision.ImageEditorWindow.#ctor(DataMaster.ViewModels.Windows.Vision.ImageEditorViewModel,System.Windows.Media.Imaging.WriteableBitmap)">
-  ImageEditorWindow(ImageEditorViewModel, WriteableBitmap)
-  <a class="header-action link-secondary" title="View source" href="https://bitbucket.org/mas-software/industrial-mes-net-platform-advanced/src/feature/database/Views/Windows/Vision/ImageEditorWindow.xaml.cs#lines-47"><i class="bi bi-code-slash"></i></a>
+  <h3 id="DataMaster_Views_Windows_Vision_ImageEditorWindow__ctor_DataMaster_ViewModels_Windows_Vision_ImageEditorViewModel_MAS_Controls_Notification_INotificationService_" data-uid="DataMaster.Views.Windows.Vision.ImageEditorWindow.#ctor(DataMaster.ViewModels.Windows.Vision.ImageEditorViewModel,MAS.Controls.Notification.INotificationService)">
+  ImageEditorWindow(ImageEditorViewModel, INotificationService)
+  <a class="header-action link-secondary" title="View source" href="https://bitbucket.org/mas-software/industrial-mes-net-platform-advanced/src/main/Views/Windows/Vision/ImageEditorWindow.xaml.cs#lines-76"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>构造函数，初始化 <a class="xref" href="DataMaster.Views.Windows.Vision.ImageEditorWindow.html">ImageEditorWindow</a> 新实例</p>
@@ -2229,7 +2229,43 @@ Class ImageEditorWindow  <a class="header-action link-secondary" title="View sou
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public ImageEditorWindow(ImageEditorViewModel viewModel, WriteableBitmap bitmap)</code></pre>
+    <pre><code class="lang-csharp hljs">public ImageEditorWindow(ImageEditorViewModel viewModel, INotificationService notificationService)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>viewModel</code> <a class="xref" href="DataMaster.ViewModels.Windows.Vision.ImageEditorViewModel.html">ImageEditorViewModel</a></dt>
+    <dd><p>图像编辑的视图模型实例</p>
+</dd>
+    <dt><code>notificationService</code> <a class="xref" href="DataMaster.Modules.MAS.Controls.Notification.INotificationService.html">INotificationService</a></dt>
+    <dd><p>普通消息通知控件服务</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="DataMaster_Views_Windows_Vision_ImageEditorWindow__ctor_" data-uid="DataMaster.Views.Windows.Vision.ImageEditorWindow.#ctor*"></a>
+
+  <h3 id="DataMaster_Views_Windows_Vision_ImageEditorWindow__ctor_DataMaster_ViewModels_Windows_Vision_ImageEditorViewModel_System_Windows_Media_Imaging_WriteableBitmap_MAS_Controls_Notification_INotificationService_" data-uid="DataMaster.Views.Windows.Vision.ImageEditorWindow.#ctor(DataMaster.ViewModels.Windows.Vision.ImageEditorViewModel,System.Windows.Media.Imaging.WriteableBitmap,MAS.Controls.Notification.INotificationService)">
+  ImageEditorWindow(ImageEditorViewModel, WriteableBitmap, INotificationService)
+  <a class="header-action link-secondary" title="View source" href="https://bitbucket.org/mas-software/industrial-mes-net-platform-advanced/src/main/Views/Windows/Vision/ImageEditorWindow.xaml.cs#lines-53"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>构造函数，初始化 <a class="xref" href="DataMaster.Views.Windows.Vision.ImageEditorWindow.html">ImageEditorWindow</a> 新实例</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public ImageEditorWindow(ImageEditorViewModel viewModel, WriteableBitmap bitmap, INotificationService notificationService)</code></pre>
   </div>
 
   <h4 class="section">Parameters</h4>
@@ -2239,6 +2275,9 @@ Class ImageEditorWindow  <a class="header-action link-secondary" title="View sou
 </dd>
     <dt><code>bitmap</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.windows.media.imaging.writeablebitmap">WriteableBitmap</a></dt>
     <dd><p>要编辑的图像</p>
+</dd>
+    <dt><code>notificationService</code> <a class="xref" href="DataMaster.Modules.MAS.Controls.Notification.INotificationService.html">INotificationService</a></dt>
+    <dd><p>普通消息通知控件服务</p>
 </dd>
   </dl>
 
@@ -2261,7 +2300,7 @@ Class ImageEditorWindow  <a class="header-action link-secondary" title="View sou
 
   <h3 id="DataMaster_Views_Windows_Vision_ImageEditorWindow_InitializeComponent" data-uid="DataMaster.Views.Windows.Vision.ImageEditorWindow.InitializeComponent">
   InitializeComponent()
-  <a class="header-action link-secondary" title="View source" href="https://bitbucket.org/mas-software/industrial-mes-net-platform-advanced/src/feature/database/obj/Release/net8.0-windows7.0/Views/Windows/Vision/ImageEditorWindow.g.cs#lines-135"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://bitbucket.org/mas-software/industrial-mes-net-platform-advanced/src/main/obj/Release/net8.0-windows7.0/Views/Windows/Vision/ImageEditorWindow.g.cs#lines-143"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>InitializeComponent</p>
@@ -2291,7 +2330,7 @@ Class ImageEditorWindow  <a class="header-action link-secondary" title="View sou
 
   <h3 id="DataMaster_Views_Windows_Vision_ImageEditorWindow_ImageEditorClosed" data-uid="DataMaster.Views.Windows.Vision.ImageEditorWindow.ImageEditorClosed">
   ImageEditorClosed
-  <a class="header-action link-secondary" title="View source" href="https://bitbucket.org/mas-software/industrial-mes-net-platform-advanced/src/feature/database/Views/Windows/Vision/ImageEditorWindow.xaml.cs#lines-40"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://bitbucket.org/mas-software/industrial-mes-net-platform-advanced/src/main/Views/Windows/Vision/ImageEditorWindow.xaml.cs#lines-45"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>在图像编辑窗口关闭时触发的事件</p>
@@ -2323,7 +2362,7 @@ Class ImageEditorWindow  <a class="header-action link-secondary" title="View sou
 </article>
 
         <div class="contribution d-print-none">
-          <a href="https://bitbucket.org/mas-software/industrial-mes-net-platform-advanced/src/feature/database/obj/Release/net8.0-windows7.0/Views/Windows/Vision/ImageEditorWindow.g.cs#lines-64" class="edit-link">Edit this page</a>
+          <a href="https://bitbucket.org/mas-software/industrial-mes-net-platform-advanced/src/main/obj/Release/net8.0-windows7.0/Views/Windows/Vision/ImageEditorWindow.g.cs#lines-64" class="edit-link">Edit this page</a>
         </div>
 
 

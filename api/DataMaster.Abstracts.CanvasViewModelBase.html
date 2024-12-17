@@ -1,0 +1,1626 @@
+﻿<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+      <title>Class CanvasViewModelBase | DataMaster </title>
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta name="title" content="Class CanvasViewModelBase | DataMaster ">
+      
+      <meta name="description" content="提供视图模型的画布功能基类，包括缩放级别、缩放因子、画布重建进度等属性，以及相应的操作方法">
+      <link rel="icon" href="../images/favicon.ico">
+      <link rel="stylesheet" href="../public/docfx.min.css">
+      <link rel="stylesheet" href="../public/main.css">
+      <meta name="docfx:navrel" content="../toc.html">
+      <meta name="docfx:tocrel" content="toc.html">
+      
+      <meta name="docfx:rel" content="../">
+      
+      
+      
+      <meta name="loc:inThisArticle" content="In this article">
+      <meta name="loc:searchResultsCount" content="{count} results for &quot;{query}&quot;">
+      <meta name="loc:searchNoResults" content="No results for &quot;{query}&quot;">
+      <meta name="loc:tocFilter" content="Filter by title">
+      <meta name="loc:nextArticle" content="Next">
+      <meta name="loc:prevArticle" content="Previous">
+      <meta name="loc:themeLight" content="Light">
+      <meta name="loc:themeDark" content="Dark">
+      <meta name="loc:themeAuto" content="Auto">
+      <meta name="loc:changeTheme" content="Change theme">
+      <meta name="loc:copy" content="Copy">
+      <meta name="loc:downloadPdf" content="Download PDF">
+
+      <script type="module" src="./../public/docfx.min.js"></script>
+
+      <script>
+        const theme = localStorage.getItem('theme') || 'auto'
+        document.documentElement.setAttribute('data-bs-theme', theme === 'auto' ? (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light') : theme)
+      </script>
+
+  </head>
+
+  <body class="tex2jax_ignore" data-layout="" data-yaml-mime="ManagedReference">
+    <header class="bg-body border-bottom">
+      <nav id="autocollapse" class="navbar navbar-expand-md" role="navigation">
+        <div class="container-xxl flex-nowrap">
+          <a class="navbar-brand" href="../index.html">
+            <img id="logo" class="svg" src="../images/logo.svg" alt="DataMaster">
+            DataMaster
+          </a>
+          <button class="btn btn-lg d-md-none border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navpanel" aria-controls="navpanel" aria-expanded="false" aria-label="Toggle navigation">
+            <i class="bi bi-three-dots"></i>
+          </button>
+          <div class="collapse navbar-collapse" id="navpanel">
+            <div id="navbar">
+              <form class="search" role="search" id="search">
+                <i class="bi bi-search"></i>
+                <input class="form-control" id="search-query" type="search" disabled="" placeholder="Search" autocomplete="off" aria-label="Search">
+              </form>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <main class="container-xxl">
+      <div class="toc-offcanvas">
+        <div class="offcanvas-md offcanvas-start" tabindex="-1" id="tocOffcanvas" aria-labelledby="tocOffcanvasLabel">
+          <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="tocOffcanvasLabel">Table of Contents</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" data-bs-target="#tocOffcanvas" aria-label="Close"></button>
+          </div>
+          <div class="offcanvas-body">
+            <nav class="toc" id="toc"></nav>
+          </div>
+        </div>
+      </div>
+
+      <div class="content">
+        <div class="actionbar">
+          <button class="btn btn-lg border-0 d-md-none" type="button" data-bs-toggle="offcanvas" data-bs-target="#tocOffcanvas" aria-controls="tocOffcanvas" aria-expanded="false" aria-label="Show table of contents">
+            <i class="bi bi-list"></i>
+          </button>
+
+          <nav id="breadcrumb"></nav>
+        </div>
+
+        <article data-uid="DataMaster.Abstracts.CanvasViewModelBase">
+
+
+
+  <h1 id="DataMaster_Abstracts_CanvasViewModelBase" data-uid="DataMaster.Abstracts.CanvasViewModelBase" class="text-break">
+Class CanvasViewModelBase  <a class="header-action link-secondary" title="View source" href="https://bitbucket.org/mas-software/industrial-mes-net-platform-advanced/src/main/Abstracts/CanvasViewModelBase.cs#lines-23"><i class="bi bi-code-slash"></i></a>
+  </h1>
+
+  <div class="facts text-secondary">
+    <dl><dt>Namespace</dt><dd><a class="xref" href="DataMaster.html">DataMaster</a>.<a class="xref" href="DataMaster.Abstracts.html">Abstracts</a></dd></dl>
+  <dl><dt>Assembly</dt><dd>DataMaster.dll</dd></dl>
+  </div>
+
+  <div class="markdown summary"><p>提供视图模型的画布功能基类，包括缩放级别、缩放因子、画布重建进度等属性，以及相应的操作方法</p>
+</div>
+  <div class="markdown conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public abstract class CanvasViewModelBase : ViewModelBase, INotifyPropertyChanged</code></pre>
+  </div>
+
+
+
+
+  <dl class="typelist inheritance">
+    <dt>Inheritance</dt>
+    <dd>
+      <div><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">object</a></div>
+      <div><a class="xref" href="DataMaster.Abstracts.ViewModelBase.html">ViewModelBase</a></div>
+      <div><span class="xref">CanvasViewModelBase</span></div>
+    </dd>
+  </dl>
+
+  <dl class="typelist implements">
+    <dt>Implements</dt>
+    <dd>
+      <div><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.componentmodel.inotifypropertychanged">INotifyPropertyChanged</a></div>
+    </dd>
+  </dl>
+
+  <dl class="typelist derived">
+    <dt>Derived</dt>
+    <dd>
+      <div><a class="xref" href="DataMaster.ViewModels.Pages.BuildRunWorkbenchViewModel.html">BuildRunWorkbenchViewModel</a></div>
+      <div><a class="xref" href="DataMaster.ViewModels.Windows.Vision.ImageEditorViewModel.html">ImageEditorViewModel</a></div>
+      <div><a class="xref" href="DataMaster.ViewModels.Windows.Vision.ImageProceFlowViewModel.html">ImageProceFlowViewModel</a></div>
+      <div><a class="xref" href="DataMaster.ViewModels.Windows.Vision.VisionProjectViewModel.html">VisionProjectViewModel</a></div>
+    </dd>
+  </dl>
+
+  <dl class="typelist inheritedMembers">
+    <dt>Inherited Members</dt>
+    <dd>
+    <div>
+      <a class="xref" href="DataMaster.Abstracts.ViewModelBase.html#DataMaster_Abstracts_ViewModelBase_Config">ViewModelBase.Config</a>
+    </div>
+    <div>
+      <a class="xref" href="DataMaster.Abstracts.ViewModelBase.html#DataMaster_Abstracts_ViewModelBase_LanguageManager">ViewModelBase.LanguageManager</a>
+    </div>
+    <div>
+      <a class="xref" href="DataMaster.Abstracts.ViewModelBase.html#DataMaster_Abstracts_ViewModelBase_IsBusy">ViewModelBase.IsBusy</a>
+    </div>
+    <div>
+      <a class="xref" href="DataMaster.Abstracts.ViewModelBase.html#DataMaster_Abstracts_ViewModelBase_BusyCursor">ViewModelBase.BusyCursor</a>
+    </div>
+    <div>
+      <a class="xref" href="DataMaster.Abstracts.ViewModelBase.html#DataMaster_Abstracts_ViewModelBase_WorkingCursor">ViewModelBase.WorkingCursor</a>
+    </div>
+    <div>
+      <a class="xref" href="DataMaster.Abstracts.ViewModelBase.html#DataMaster_Abstracts_ViewModelBase_PropertyChanged">ViewModelBase.PropertyChanged</a>
+    </div>
+    <div>
+      <a class="xref" href="DataMaster.Abstracts.ViewModelBase.html#DataMaster_Abstracts_ViewModelBase_OnPropertyChanged_System_String_">ViewModelBase.OnPropertyChanged(string)</a>
+    </div>
+    <div>
+      <a class="xref" href="DataMaster.Abstracts.ViewModelBase.html#DataMaster_Abstracts_ViewModelBase_SetField__1___0____0_System_String_">ViewModelBase.SetField&lt;T&gt;(ref T, T, string)</a>
+    </div>
+    <div>
+      <a class="xref" href="DataMaster.Abstracts.ViewModelBase.html#DataMaster_Abstracts_ViewModelBase_ResetCursor">ViewModelBase.ResetCursor()</a>
+    </div>
+    <div>
+      <a class="xref" href="DataMaster.Abstracts.ViewModelBase.html#DataMaster_Abstracts_ViewModelBase_SetBusyCursor">ViewModelBase.SetBusyCursor()</a>
+    </div>
+    <div>
+      <a class="xref" href="DataMaster.Abstracts.ViewModelBase.html#DataMaster_Abstracts_ViewModelBase_SetWorkingCursor">ViewModelBase.SetWorkingCursor()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)">object.Equals(object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)">object.Equals(object, object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.gethashcode">object.GetHashCode()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.gettype">object.GetType()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone">object.MemberwiseClone()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.referenceequals">object.ReferenceEquals(object, object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.tostring">object.ToString()</a>
+    </div>
+  </dd></dl>
+
+
+
+
+
+
+  <h2 class="section" id="constructors">Constructors
+</h2>
+
+
+  <a id="DataMaster_Abstracts_CanvasViewModelBase__ctor_" data-uid="DataMaster.Abstracts.CanvasViewModelBase.#ctor*"></a>
+
+  <h3 id="DataMaster_Abstracts_CanvasViewModelBase__ctor_DataMaster_Interfaces_IProjectManager_MAS_Controls_Notification_ITipsNotificationService_" data-uid="DataMaster.Abstracts.CanvasViewModelBase.#ctor(DataMaster.Interfaces.IProjectManager,MAS.Controls.Notification.ITipsNotificationService)">
+  CanvasViewModelBase(IProjectManager, ITipsNotificationService)
+  <a class="header-action link-secondary" title="View source" href="https://bitbucket.org/mas-software/industrial-mes-net-platform-advanced/src/main/Abstracts/CanvasViewModelBase.cs#lines-285"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>构造函数，初始化 <a class="xref" href="DataMaster.Abstracts.CanvasViewModelBase.html">CanvasViewModelBase</a> 新实例</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public CanvasViewModelBase(IProjectManager projectManager, ITipsNotificationService tipsNotificationService)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>projectManager</code> <a class="xref" href="DataMaster.Interfaces.IProjectManager.html">IProjectManager</a></dt>
+    <dd></dd>
+    <dt><code>tipsNotificationService</code> <a class="xref" href="DataMaster.Modules.MAS.Controls.Notification.ITipsNotificationService.html">ITipsNotificationService</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <h2 class="section" id="fields">Fields
+</h2>
+
+
+
+  <h3 id="DataMaster_Abstracts_CanvasViewModelBase_TipsNotification" data-uid="DataMaster.Abstracts.CanvasViewModelBase.TipsNotification">
+  TipsNotification
+  <a class="header-action link-secondary" title="View source" href="https://bitbucket.org/mas-software/industrial-mes-net-platform-advanced/src/main/Abstracts/CanvasViewModelBase.cs#lines-32"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Tips 通知</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public readonly ITipsNotificationService TipsNotification</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="DataMaster.Modules.MAS.Controls.Notification.ITipsNotificationService.html">ITipsNotificationService</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="DataMaster_Abstracts_CanvasViewModelBase_projectMgr" data-uid="DataMaster.Abstracts.CanvasViewModelBase.projectMgr">
+  projectMgr
+  <a class="header-action link-secondary" title="View source" href="https://bitbucket.org/mas-software/industrial-mes-net-platform-advanced/src/main/Abstracts/CanvasViewModelBase.cs#lines-27"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>跟踪当前工程状态</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public readonly IProjectManager projectMgr</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="DataMaster.Interfaces.IProjectManager.html">IProjectManager</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+  <h2 class="section" id="properties">Properties
+</h2>
+
+
+  <a id="DataMaster_Abstracts_CanvasViewModelBase_CurrentProgress_" data-uid="DataMaster.Abstracts.CanvasViewModelBase.CurrentProgress*"></a>
+
+  <h3 id="DataMaster_Abstracts_CanvasViewModelBase_CurrentProgress" data-uid="DataMaster.Abstracts.CanvasViewModelBase.CurrentProgress">
+  CurrentProgress
+  <a class="header-action link-secondary" title="View source" href="https://bitbucket.org/mas-software/industrial-mes-net-platform-advanced/src/main/Abstracts/CanvasViewModelBase.cs#lines-180"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>获取或设置当前进度</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public int CurrentProgress { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="DataMaster_Abstracts_CanvasViewModelBase_CurrentProjectState_" data-uid="DataMaster.Abstracts.CanvasViewModelBase.CurrentProjectState*"></a>
+
+  <h3 id="DataMaster_Abstracts_CanvasViewModelBase_CurrentProjectState" data-uid="DataMaster.Abstracts.CanvasViewModelBase.CurrentProjectState">
+  CurrentProjectState
+  <a class="header-action link-secondary" title="View source" href="https://bitbucket.org/mas-software/industrial-mes-net-platform-advanced/src/main/Abstracts/CanvasViewModelBase.cs#lines-74"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>获取或设置当前工程文件的状态</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public ProjectState CurrentProjectState { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="DataMaster.Models.ProjectState.html">ProjectState</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="DataMaster_Abstracts_CanvasViewModelBase_FitViewCommand_" data-uid="DataMaster.Abstracts.CanvasViewModelBase.FitViewCommand*"></a>
+
+  <h3 id="DataMaster_Abstracts_CanvasViewModelBase_FitViewCommand" data-uid="DataMaster.Abstracts.CanvasViewModelBase.FitViewCommand">
+  FitViewCommand
+  <a class="header-action link-secondary" title="View source" href="https://bitbucket.org/mas-software/industrial-mes-net-platform-advanced/src/main/Abstracts/CanvasViewModelBase.cs#lines-247"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>获取自适应视图命令</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public RelayCommand FitViewCommand { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="DataMaster.Commands.RelayCommand.html">RelayCommand</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="DataMaster_Abstracts_CanvasViewModelBase_IsEditCheck_" data-uid="DataMaster.Abstracts.CanvasViewModelBase.IsEditCheck*"></a>
+
+  <h3 id="DataMaster_Abstracts_CanvasViewModelBase_IsEditCheck" data-uid="DataMaster.Abstracts.CanvasViewModelBase.IsEditCheck">
+  IsEditCheck
+  <a class="header-action link-secondary" title="View source" href="https://bitbucket.org/mas-software/industrial-mes-net-platform-advanced/src/main/Abstracts/CanvasViewModelBase.cs#lines-57"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>获取或设置是否通过编辑检查</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool IsEditCheck { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="DataMaster_Abstracts_CanvasViewModelBase_IsModuleInteractionEnabled_" data-uid="DataMaster.Abstracts.CanvasViewModelBase.IsModuleInteractionEnabled*"></a>
+
+  <h3 id="DataMaster_Abstracts_CanvasViewModelBase_IsModuleInteractionEnabled" data-uid="DataMaster.Abstracts.CanvasViewModelBase.IsModuleInteractionEnabled">
+  IsModuleInteractionEnabled
+  <a class="header-action link-secondary" title="View source" href="https://bitbucket.org/mas-software/industrial-mes-net-platform-advanced/src/main/Abstracts/CanvasViewModelBase.cs#lines-48"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>获取或设置是否允许与 ContentCanvas 中的模块进行交互</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool IsModuleInteractionEnabled { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="DataMaster_Abstracts_CanvasViewModelBase_IsOpenSetPopup_" data-uid="DataMaster.Abstracts.CanvasViewModelBase.IsOpenSetPopup*"></a>
+
+  <h3 id="DataMaster_Abstracts_CanvasViewModelBase_IsOpenSetPopup" data-uid="DataMaster.Abstracts.CanvasViewModelBase.IsOpenSetPopup">
+  IsOpenSetPopup
+  <a class="header-action link-secondary" title="View source" href="https://bitbucket.org/mas-software/industrial-mes-net-platform-advanced/src/main/Abstracts/CanvasViewModelBase.cs#lines-66"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>获取或设置是否打开设置弹出</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool IsOpenSetPopup { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="DataMaster_Abstracts_CanvasViewModelBase_IsProgressVisible_" data-uid="DataMaster.Abstracts.CanvasViewModelBase.IsProgressVisible*"></a>
+
+  <h3 id="DataMaster_Abstracts_CanvasViewModelBase_IsProgressVisible" data-uid="DataMaster.Abstracts.CanvasViewModelBase.IsProgressVisible">
+  IsProgressVisible
+  <a class="header-action link-secondary" title="View source" href="https://bitbucket.org/mas-software/industrial-mes-net-platform-advanced/src/main/Abstracts/CanvasViewModelBase.cs#lines-165"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>获取或设置进度是否可见</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool IsProgressVisible { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="DataMaster_Abstracts_CanvasViewModelBase_LockIconKind_" data-uid="DataMaster.Abstracts.CanvasViewModelBase.LockIconKind*"></a>
+
+  <h3 id="DataMaster_Abstracts_CanvasViewModelBase_LockIconKind" data-uid="DataMaster.Abstracts.CanvasViewModelBase.LockIconKind">
+  LockIconKind
+  <a class="header-action link-secondary" title="View source" href="https://bitbucket.org/mas-software/industrial-mes-net-platform-advanced/src/main/Abstracts/CanvasViewModelBase.cs#lines-39"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>获取或设置锁定状态图标</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public PackIconKind LockIconKind { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://github.com/MaterialDesignInXAML/MaterialDesignInXamlToolkit/blob/cd05f577125e1eef397d07c77fead99559bc00fd/src/MaterialDesignThemes.Wpf/PackIconKind.cs">PackIconKind</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="DataMaster_Abstracts_CanvasViewModelBase_MaxZoomLevel_" data-uid="DataMaster.Abstracts.CanvasViewModelBase.MaxZoomLevel*"></a>
+
+  <h3 id="DataMaster_Abstracts_CanvasViewModelBase_MaxZoomLevel" data-uid="DataMaster.Abstracts.CanvasViewModelBase.MaxZoomLevel">
+  MaxZoomLevel
+  <a class="header-action link-secondary" title="View source" href="https://bitbucket.org/mas-software/industrial-mes-net-platform-advanced/src/main/Abstracts/CanvasViewModelBase.cs#lines-90"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>获取或设置最大缩放级别</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public short MaxZoomLevel { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int16">short</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="DataMaster_Abstracts_CanvasViewModelBase_MinZoomLevel_" data-uid="DataMaster.Abstracts.CanvasViewModelBase.MinZoomLevel*"></a>
+
+  <h3 id="DataMaster_Abstracts_CanvasViewModelBase_MinZoomLevel" data-uid="DataMaster.Abstracts.CanvasViewModelBase.MinZoomLevel">
+  MinZoomLevel
+  <a class="header-action link-secondary" title="View source" href="https://bitbucket.org/mas-software/industrial-mes-net-platform-advanced/src/main/Abstracts/CanvasViewModelBase.cs#lines-99"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>获取最小缩放级别</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public short MinZoomLevel { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int16">short</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="DataMaster_Abstracts_CanvasViewModelBase_OpenSetPopCommand_" data-uid="DataMaster.Abstracts.CanvasViewModelBase.OpenSetPopCommand*"></a>
+
+  <h3 id="DataMaster_Abstracts_CanvasViewModelBase_OpenSetPopCommand" data-uid="DataMaster.Abstracts.CanvasViewModelBase.OpenSetPopCommand">
+  OpenSetPopCommand
+  <a class="header-action link-secondary" title="View source" href="https://bitbucket.org/mas-software/industrial-mes-net-platform-advanced/src/main/Abstracts/CanvasViewModelBase.cs#lines-257"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>获取打开弹出设置命令</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public RelayCommand OpenSetPopCommand { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="DataMaster.Commands.RelayCommand.html">RelayCommand</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="DataMaster_Abstracts_CanvasViewModelBase_PredefinedScales_" data-uid="DataMaster.Abstracts.CanvasViewModelBase.PredefinedScales*"></a>
+
+  <h3 id="DataMaster_Abstracts_CanvasViewModelBase_PredefinedScales" data-uid="DataMaster.Abstracts.CanvasViewModelBase.PredefinedScales">
+  PredefinedScales
+  <a class="header-action link-secondary" title="View source" href="https://bitbucket.org/mas-software/industrial-mes-net-platform-advanced/src/main/Abstracts/CanvasViewModelBase.cs#lines-155"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>获取预设缩放比例</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public ObservableCollection&lt;double&gt; PredefinedScales { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.objectmodel.observablecollection-1">ObservableCollection</a>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.double">double</a>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="DataMaster_Abstracts_CanvasViewModelBase_ProgressPercentage_" data-uid="DataMaster.Abstracts.CanvasViewModelBase.ProgressPercentage*"></a>
+
+  <h3 id="DataMaster_Abstracts_CanvasViewModelBase_ProgressPercentage" data-uid="DataMaster.Abstracts.CanvasViewModelBase.ProgressPercentage">
+  ProgressPercentage
+  <a class="header-action link-secondary" title="View source" href="https://bitbucket.org/mas-software/industrial-mes-net-platform-advanced/src/main/Abstracts/CanvasViewModelBase.cs#lines-210"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>获取当前进度百分比</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public string ProgressPercentage { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="DataMaster_Abstracts_CanvasViewModelBase_ProjectSavedCommand_" data-uid="DataMaster.Abstracts.CanvasViewModelBase.ProjectSavedCommand*"></a>
+
+  <h3 id="DataMaster_Abstracts_CanvasViewModelBase_ProjectSavedCommand" data-uid="DataMaster.Abstracts.CanvasViewModelBase.ProjectSavedCommand">
+  ProjectSavedCommand
+  <a class="header-action link-secondary" title="View source" href="https://bitbucket.org/mas-software/industrial-mes-net-platform-advanced/src/main/Abstracts/CanvasViewModelBase.cs#lines-252"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>获取工程保存命令</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public RelayCommand ProjectSavedCommand { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="DataMaster.Commands.RelayCommand.html">RelayCommand</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="DataMaster_Abstracts_CanvasViewModelBase_RestoreViewCommand_" data-uid="DataMaster.Abstracts.CanvasViewModelBase.RestoreViewCommand*"></a>
+
+  <h3 id="DataMaster_Abstracts_CanvasViewModelBase_RestoreViewCommand" data-uid="DataMaster.Abstracts.CanvasViewModelBase.RestoreViewCommand">
+  RestoreViewCommand
+  <a class="header-action link-secondary" title="View source" href="https://bitbucket.org/mas-software/industrial-mes-net-platform-advanced/src/main/Abstracts/CanvasViewModelBase.cs#lines-242"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>获取还原视图命令</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public RelayCommand RestoreViewCommand { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="DataMaster.Commands.RelayCommand.html">RelayCommand</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="DataMaster_Abstracts_CanvasViewModelBase_Scale_" data-uid="DataMaster.Abstracts.CanvasViewModelBase.Scale*"></a>
+
+  <h3 id="DataMaster_Abstracts_CanvasViewModelBase_Scale" data-uid="DataMaster.Abstracts.CanvasViewModelBase.Scale">
+  Scale
+  <a class="header-action link-secondary" title="View source" href="https://bitbucket.org/mas-software/industrial-mes-net-platform-advanced/src/main/Abstracts/CanvasViewModelBase.cs#lines-124"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>获取或设置图像缩放因子</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public double Scale { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.double">double</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="DataMaster_Abstracts_CanvasViewModelBase_ScaleStep_" data-uid="DataMaster.Abstracts.CanvasViewModelBase.ScaleStep*"></a>
+
+  <h3 id="DataMaster_Abstracts_CanvasViewModelBase_ScaleStep" data-uid="DataMaster.Abstracts.CanvasViewModelBase.ScaleStep">
+  ScaleStep
+  <a class="header-action link-secondary" title="View source" href="https://bitbucket.org/mas-software/industrial-mes-net-platform-advanced/src/main/Abstracts/CanvasViewModelBase.cs#lines-81"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>获取或设置缩放步长，示例：0.1 == 10%</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public double ScaleStep { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.double">double</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="DataMaster_Abstracts_CanvasViewModelBase_ShortcutKeys_" data-uid="DataMaster.Abstracts.CanvasViewModelBase.ShortcutKeys*"></a>
+
+  <h3 id="DataMaster_Abstracts_CanvasViewModelBase_ShortcutKeys" data-uid="DataMaster.Abstracts.CanvasViewModelBase.ShortcutKeys">
+  ShortcutKeys
+  <a class="header-action link-secondary" title="View source" href="https://bitbucket.org/mas-software/industrial-mes-net-platform-advanced/src/main/Abstracts/CanvasViewModelBase.cs#lines-225"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>获取快捷键列表</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public ObservableCollection&lt;ShortcutKeyModel&gt; ShortcutKeys { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.objectmodel.observablecollection-1">ObservableCollection</a>&lt;<a class="xref" href="DataMaster.Models.ShortcutKeyModel.html">ShortcutKeyModel</a>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="DataMaster_Abstracts_CanvasViewModelBase_StatusMessage_" data-uid="DataMaster.Abstracts.CanvasViewModelBase.StatusMessage*"></a>
+
+  <h3 id="DataMaster_Abstracts_CanvasViewModelBase_StatusMessage" data-uid="DataMaster.Abstracts.CanvasViewModelBase.StatusMessage">
+  StatusMessage
+  <a class="header-action link-secondary" title="View source" href="https://bitbucket.org/mas-software/industrial-mes-net-platform-advanced/src/main/Abstracts/CanvasViewModelBase.cs#lines-202"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>获取或设置状态信息</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public string StatusMessage { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="DataMaster_Abstracts_CanvasViewModelBase_TotalProgress_" data-uid="DataMaster.Abstracts.CanvasViewModelBase.TotalProgress*"></a>
+
+  <h3 id="DataMaster_Abstracts_CanvasViewModelBase_TotalProgress" data-uid="DataMaster.Abstracts.CanvasViewModelBase.TotalProgress">
+  TotalProgress
+  <a class="header-action link-secondary" title="View source" href="https://bitbucket.org/mas-software/industrial-mes-net-platform-advanced/src/main/Abstracts/CanvasViewModelBase.cs#lines-193"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>获取或设置总进度</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public int TotalProgress { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="DataMaster_Abstracts_CanvasViewModelBase_TranslateX_" data-uid="DataMaster.Abstracts.CanvasViewModelBase.TranslateX*"></a>
+
+  <h3 id="DataMaster_Abstracts_CanvasViewModelBase_TranslateX" data-uid="DataMaster.Abstracts.CanvasViewModelBase.TranslateX">
+  TranslateX
+  <a class="header-action link-secondary" title="View source" href="https://bitbucket.org/mas-software/industrial-mes-net-platform-advanced/src/main/Abstracts/CanvasViewModelBase.cs#lines-138"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>获取或设置图像的水平平移量</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public double TranslateX { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.double">double</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="DataMaster_Abstracts_CanvasViewModelBase_TranslateY_" data-uid="DataMaster.Abstracts.CanvasViewModelBase.TranslateY*"></a>
+
+  <h3 id="DataMaster_Abstracts_CanvasViewModelBase_TranslateY" data-uid="DataMaster.Abstracts.CanvasViewModelBase.TranslateY">
+  TranslateY
+  <a class="header-action link-secondary" title="View source" href="https://bitbucket.org/mas-software/industrial-mes-net-platform-advanced/src/main/Abstracts/CanvasViewModelBase.cs#lines-147"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>获取或设置图像的垂直平移量</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public double TranslateY { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.double">double</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="DataMaster_Abstracts_CanvasViewModelBase_ZoomInCommand_" data-uid="DataMaster.Abstracts.CanvasViewModelBase.ZoomInCommand*"></a>
+
+  <h3 id="DataMaster_Abstracts_CanvasViewModelBase_ZoomInCommand" data-uid="DataMaster.Abstracts.CanvasViewModelBase.ZoomInCommand">
+  ZoomInCommand
+  <a class="header-action link-secondary" title="View source" href="https://bitbucket.org/mas-software/industrial-mes-net-platform-advanced/src/main/Abstracts/CanvasViewModelBase.cs#lines-232"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>获取放大命令</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public RelayCommand ZoomInCommand { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="DataMaster.Commands.RelayCommand.html">RelayCommand</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="DataMaster_Abstracts_CanvasViewModelBase_ZoomLevel_" data-uid="DataMaster.Abstracts.CanvasViewModelBase.ZoomLevel*"></a>
+
+  <h3 id="DataMaster_Abstracts_CanvasViewModelBase_ZoomLevel" data-uid="DataMaster.Abstracts.CanvasViewModelBase.ZoomLevel">
+  ZoomLevel
+  <a class="header-action link-secondary" title="View source" href="https://bitbucket.org/mas-software/industrial-mes-net-platform-advanced/src/main/Abstracts/CanvasViewModelBase.cs#lines-108"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>获取或设置当前缩放级别，100%（原始大小）</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public short ZoomLevel { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int16">short</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="DataMaster_Abstracts_CanvasViewModelBase_ZoomOutCommand_" data-uid="DataMaster.Abstracts.CanvasViewModelBase.ZoomOutCommand*"></a>
+
+  <h3 id="DataMaster_Abstracts_CanvasViewModelBase_ZoomOutCommand" data-uid="DataMaster.Abstracts.CanvasViewModelBase.ZoomOutCommand">
+  ZoomOutCommand
+  <a class="header-action link-secondary" title="View source" href="https://bitbucket.org/mas-software/industrial-mes-net-platform-advanced/src/main/Abstracts/CanvasViewModelBase.cs#lines-237"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>获取缩小命令</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public RelayCommand ZoomOutCommand { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="DataMaster.Commands.RelayCommand.html">RelayCommand</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <h2 class="section" id="methods">Methods
+</h2>
+
+
+  <a id="DataMaster_Abstracts_CanvasViewModelBase_ExecuteFitView_" data-uid="DataMaster.Abstracts.CanvasViewModelBase.ExecuteFitView*"></a>
+
+  <h3 id="DataMaster_Abstracts_CanvasViewModelBase_ExecuteFitView_System_Object_" data-uid="DataMaster.Abstracts.CanvasViewModelBase.ExecuteFitView(System.Object)">
+  ExecuteFitView(object?)
+  <a class="header-action link-secondary" title="View source" href="https://bitbucket.org/mas-software/industrial-mes-net-platform-advanced/src/main/Abstracts/CanvasViewModelBase.cs#lines-343"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>执行自适应视图操作</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void ExecuteFitView(object? parameter)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>parameter</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">object</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="DataMaster_Abstracts_CanvasViewModelBase_ExecuteProjectSaved_" data-uid="DataMaster.Abstracts.CanvasViewModelBase.ExecuteProjectSaved*"></a>
+
+  <h3 id="DataMaster_Abstracts_CanvasViewModelBase_ExecuteProjectSaved_System_Object_" data-uid="DataMaster.Abstracts.CanvasViewModelBase.ExecuteProjectSaved(System.Object)">
+  ExecuteProjectSaved(object?)
+  <a class="header-action link-secondary" title="View source" href="https://bitbucket.org/mas-software/industrial-mes-net-platform-advanced/src/main/Abstracts/CanvasViewModelBase.cs#lines-351"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>执行工程保存</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void ExecuteProjectSaved(object? parameter)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>parameter</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">object</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="DataMaster_Abstracts_CanvasViewModelBase_ExecuteRestoreView_" data-uid="DataMaster.Abstracts.CanvasViewModelBase.ExecuteRestoreView*"></a>
+
+  <h3 id="DataMaster_Abstracts_CanvasViewModelBase_ExecuteRestoreView_System_Object_" data-uid="DataMaster.Abstracts.CanvasViewModelBase.ExecuteRestoreView(System.Object)">
+  ExecuteRestoreView(object?)
+  <a class="header-action link-secondary" title="View source" href="https://bitbucket.org/mas-software/industrial-mes-net-platform-advanced/src/main/Abstracts/CanvasViewModelBase.cs#lines-334"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>执行还原视图操作</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void ExecuteRestoreView(object? parameter)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>parameter</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">object</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="DataMaster_Abstracts_CanvasViewModelBase_ExecuteZoomIn_" data-uid="DataMaster.Abstracts.CanvasViewModelBase.ExecuteZoomIn*"></a>
+
+  <h3 id="DataMaster_Abstracts_CanvasViewModelBase_ExecuteZoomIn_System_Object_" data-uid="DataMaster.Abstracts.CanvasViewModelBase.ExecuteZoomIn(System.Object)">
+  ExecuteZoomIn(object?)
+  <a class="header-action link-secondary" title="View source" href="https://bitbucket.org/mas-software/industrial-mes-net-platform-advanced/src/main/Abstracts/CanvasViewModelBase.cs#lines-320"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>执行放大操作</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void ExecuteZoomIn(object? parameter)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>parameter</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">object</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="DataMaster_Abstracts_CanvasViewModelBase_ExecuteZoomOut_" data-uid="DataMaster.Abstracts.CanvasViewModelBase.ExecuteZoomOut*"></a>
+
+  <h3 id="DataMaster_Abstracts_CanvasViewModelBase_ExecuteZoomOut_System_Object_" data-uid="DataMaster.Abstracts.CanvasViewModelBase.ExecuteZoomOut(System.Object)">
+  ExecuteZoomOut(object?)
+  <a class="header-action link-secondary" title="View source" href="https://bitbucket.org/mas-software/industrial-mes-net-platform-advanced/src/main/Abstracts/CanvasViewModelBase.cs#lines-327"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>执行缩小操作</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void ExecuteZoomOut(object? parameter)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>parameter</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">object</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="DataMaster_Abstracts_CanvasViewModelBase_GetShortcutKeys_" data-uid="DataMaster.Abstracts.CanvasViewModelBase.GetShortcutKeys*"></a>
+
+  <h3 id="DataMaster_Abstracts_CanvasViewModelBase_GetShortcutKeys" data-uid="DataMaster.Abstracts.CanvasViewModelBase.GetShortcutKeys">
+  GetShortcutKeys()
+  <a class="header-action link-secondary" title="View source" href="https://bitbucket.org/mas-software/industrial-mes-net-platform-advanced/src/main/Abstracts/CanvasViewModelBase.cs#lines-367"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>获取快捷键的默认定义</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected virtual ObservableCollection&lt;ShortcutKeyModel&gt; GetShortcutKeys()</code></pre>
+  </div>
+
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.objectmodel.observablecollection-1">ObservableCollection</a>&lt;<a class="xref" href="DataMaster.Models.ShortcutKeyModel.html">ShortcutKeyModel</a>&gt;</dt>
+    <dd><p>快捷键信息列表</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="DataMaster_Abstracts_CanvasViewModelBase_ProjectChanges_" data-uid="DataMaster.Abstracts.CanvasViewModelBase.ProjectChanges*"></a>
+
+  <h3 id="DataMaster_Abstracts_CanvasViewModelBase_ProjectChanges" data-uid="DataMaster.Abstracts.CanvasViewModelBase.ProjectChanges">
+  ProjectChanges()
+  <a class="header-action link-secondary" title="View source" href="https://bitbucket.org/mas-software/industrial-mes-net-platform-advanced/src/main/Abstracts/CanvasViewModelBase.cs#lines-310"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>工程状态改变</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void ProjectChanges()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="DataMaster_Abstracts_CanvasViewModelBase_RaiseOnNotify_" data-uid="DataMaster.Abstracts.CanvasViewModelBase.RaiseOnNotify*"></a>
+
+  <h3 id="DataMaster_Abstracts_CanvasViewModelBase_RaiseOnNotify_System_String_" data-uid="DataMaster.Abstracts.CanvasViewModelBase.RaiseOnNotify(System.String)">
+  RaiseOnNotify(string)
+  <a class="header-action link-secondary" title="View source" href="https://bitbucket.org/mas-software/industrial-mes-net-platform-advanced/src/main/Abstracts/CanvasViewModelBase.cs#lines-386"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>触发 OnNotify 事件</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected void RaiseOnNotify(string message)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>message</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <h4 class="section" id="DataMaster_Abstracts_CanvasViewModelBase_RaiseOnNotify_System_String__remarks">Remarks</h4>
+  <div class="markdown level1 remarks"><p>消息通知事件</p>
+</div>
+
+
+
+
+  <a id="DataMaster_Abstracts_CanvasViewModelBase_RaiseProjectCreated_" data-uid="DataMaster.Abstracts.CanvasViewModelBase.RaiseProjectCreated*"></a>
+
+  <h3 id="DataMaster_Abstracts_CanvasViewModelBase_RaiseProjectCreated_System_String_" data-uid="DataMaster.Abstracts.CanvasViewModelBase.RaiseProjectCreated(System.String)">
+  RaiseProjectCreated(string)
+  <a class="header-action link-secondary" title="View source" href="https://bitbucket.org/mas-software/industrial-mes-net-platform-advanced/src/main/Abstracts/CanvasViewModelBase.cs#lines-396"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>触发 ProjectCreated 事件</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected void RaiseProjectCreated(string message)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>message</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <h4 class="section" id="DataMaster_Abstracts_CanvasViewModelBase_RaiseProjectCreated_System_String__remarks">Remarks</h4>
+  <div class="markdown level1 remarks"><p>消息通知事件</p>
+</div>
+
+
+
+
+  <a id="DataMaster_Abstracts_CanvasViewModelBase_RaiseProjectOpened_" data-uid="DataMaster.Abstracts.CanvasViewModelBase.RaiseProjectOpened*"></a>
+
+  <h3 id="DataMaster_Abstracts_CanvasViewModelBase_RaiseProjectOpened_System_String_" data-uid="DataMaster.Abstracts.CanvasViewModelBase.RaiseProjectOpened(System.String)">
+  RaiseProjectOpened(string)
+  <a class="header-action link-secondary" title="View source" href="https://bitbucket.org/mas-software/industrial-mes-net-platform-advanced/src/main/Abstracts/CanvasViewModelBase.cs#lines-416"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>触发 ProjectOpened 事件</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected void RaiseProjectOpened(string message)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>message</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <h4 class="section" id="DataMaster_Abstracts_CanvasViewModelBase_RaiseProjectOpened_System_String__remarks">Remarks</h4>
+  <div class="markdown level1 remarks"><p>消息通知事件</p>
+</div>
+
+
+
+
+  <a id="DataMaster_Abstracts_CanvasViewModelBase_RaiseProjectSaved_" data-uid="DataMaster.Abstracts.CanvasViewModelBase.RaiseProjectSaved*"></a>
+
+  <h3 id="DataMaster_Abstracts_CanvasViewModelBase_RaiseProjectSaved_System_String_" data-uid="DataMaster.Abstracts.CanvasViewModelBase.RaiseProjectSaved(System.String)">
+  RaiseProjectSaved(string)
+  <a class="header-action link-secondary" title="View source" href="https://bitbucket.org/mas-software/industrial-mes-net-platform-advanced/src/main/Abstracts/CanvasViewModelBase.cs#lines-406"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>触发 ProjectSaved 事件</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected void RaiseProjectSaved(string message)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>message</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <h4 class="section" id="DataMaster_Abstracts_CanvasViewModelBase_RaiseProjectSaved_System_String__remarks">Remarks</h4>
+  <div class="markdown level1 remarks"><p>消息通知事件</p>
+</div>
+
+
+
+
+  <h2 class="section" id="events">Events
+</h2>
+
+
+
+  <h3 id="DataMaster_Abstracts_CanvasViewModelBase_OnNotify" data-uid="DataMaster.Abstracts.CanvasViewModelBase.OnNotify">
+  OnNotify
+  <a class="header-action link-secondary" title="View source" href="https://bitbucket.org/mas-software/industrial-mes-net-platform-advanced/src/main/Abstracts/CanvasViewModelBase.cs#lines-264"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>消息通知事件</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public event Action&lt;string&gt;? OnNotify</code></pre>
+  </div>
+
+
+
+
+
+
+  <h4 class="section">Event Type</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.action-1">Action</a>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <h3 id="DataMaster_Abstracts_CanvasViewModelBase_ProjectCreated" data-uid="DataMaster.Abstracts.CanvasViewModelBase.ProjectCreated">
+  ProjectCreated
+  <a class="header-action link-secondary" title="View source" href="https://bitbucket.org/mas-software/industrial-mes-net-platform-advanced/src/main/Abstracts/CanvasViewModelBase.cs#lines-269"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>工程被新建时触发，用于在前端刷新工作区</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public event Action&lt;string&gt;? ProjectCreated</code></pre>
+  </div>
+
+
+
+
+
+
+  <h4 class="section">Event Type</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.action-1">Action</a>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <h3 id="DataMaster_Abstracts_CanvasViewModelBase_ProjectOpened" data-uid="DataMaster.Abstracts.CanvasViewModelBase.ProjectOpened">
+  ProjectOpened
+  <a class="header-action link-secondary" title="View source" href="https://bitbucket.org/mas-software/industrial-mes-net-platform-advanced/src/main/Abstracts/CanvasViewModelBase.cs#lines-279"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>工程被打开时触发，用于在前端反序列化重建控件数据模型</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public event Action&lt;string&gt;? ProjectOpened</code></pre>
+  </div>
+
+
+
+
+
+
+  <h4 class="section">Event Type</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.action-1">Action</a>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <h3 id="DataMaster_Abstracts_CanvasViewModelBase_ProjectSaved" data-uid="DataMaster.Abstracts.CanvasViewModelBase.ProjectSaved">
+  ProjectSaved
+  <a class="header-action link-secondary" title="View source" href="https://bitbucket.org/mas-software/industrial-mes-net-platform-advanced/src/main/Abstracts/CanvasViewModelBase.cs#lines-274"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>工程被保存时触发，用于在前端进行控件数据模型序列化</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public event Action&lt;string&gt;? ProjectSaved</code></pre>
+  </div>
+
+
+
+
+
+
+  <h4 class="section">Event Type</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.action-1">Action</a>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+</article>
+
+        <div class="contribution d-print-none">
+          <a href="https://bitbucket.org/mas-software/industrial-mes-net-platform-advanced/src/main/Abstracts/CanvasViewModelBase.cs#lines-23" class="edit-link">Edit this page</a>
+        </div>
+
+
+      </div>
+
+      <div class="affix">
+        <nav id="affix"></nav>
+      </div>
+    </main>
+
+    <div class="container-xxl search-results" id="search-results"></div>
+
+    <footer class="border-top text-secondary">
+      <div class="container-xxl">
+        <div class="flex-fill">
+          <span>Made with <a href="https://dotnet.github.io/docfx" rel="noreferrer">docfx</a>,  | Copyright © 2024 MAS(厦门威光). All rights reserved.</span>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>

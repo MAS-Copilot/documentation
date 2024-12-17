@@ -89,7 +89,7 @@
 
 
   <h1 id="DataMaster_ViewModels_Windows_Vision_MatchTemplateSetViewModel" data-uid="DataMaster.ViewModels.Windows.Vision.MatchTemplateSetViewModel" class="text-break">
-Class MatchTemplateSetViewModel  <a class="header-action link-secondary" title="View source" href="https://bitbucket.org/mas-software/industrial-mes-net-platform-advanced/src/feature/database/ViewModels/Windows/Vision/MatchTemplateSetViewModel.cs#lines-21"><i class="bi bi-code-slash"></i></a>
+Class MatchTemplateSetViewModel  <a class="header-action link-secondary" title="View source" href="https://bitbucket.org/mas-software/industrial-mes-net-platform-advanced/src/main/ViewModels/Windows/Vision/MatchTemplateSetViewModel.cs#lines-21"><i class="bi bi-code-slash"></i></a>
   </h1>
 
   <div class="facts text-secondary">
@@ -102,7 +102,7 @@ Class MatchTemplateSetViewModel  <a class="header-action link-secondary" title="
   <div class="markdown conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public class MatchTemplateSetViewModel : ViewModelBase, INotifyPropertyChanged</code></pre>
+    <pre><code class="lang-csharp hljs">public class MatchTemplateSetViewModel : SetViewModelBase, INotifyPropertyChanged</code></pre>
   </div>
 
 
@@ -113,6 +113,7 @@ Class MatchTemplateSetViewModel  <a class="header-action link-secondary" title="
     <dd>
       <div><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">object</a></div>
       <div><a class="xref" href="DataMaster.Abstracts.ViewModelBase.html">ViewModelBase</a></div>
+      <div><a class="xref" href="DataMaster.Abstracts.SetViewModelBase.html">SetViewModelBase</a></div>
       <div><span class="xref">MatchTemplateSetViewModel</span></div>
     </dd>
   </dl>
@@ -129,10 +130,46 @@ Class MatchTemplateSetViewModel  <a class="header-action link-secondary" title="
     <dt>Inherited Members</dt>
     <dd>
     <div>
+      <a class="xref" href="DataMaster.Abstracts.SetViewModelBase.html#DataMaster_Abstracts_SetViewModelBase_TipsNotification">SetViewModelBase.TipsNotification</a>
+    </div>
+    <div>
+      <a class="xref" href="DataMaster.Abstracts.SetViewModelBase.html#DataMaster_Abstracts_SetViewModelBase_IsConfigChanged">SetViewModelBase.IsConfigChanged</a>
+    </div>
+    <div>
+      <a class="xref" href="DataMaster.Abstracts.SetViewModelBase.html#DataMaster_Abstracts_SetViewModelBase_EditStatus">SetViewModelBase.EditStatus</a>
+    </div>
+    <div>
+      <a class="xref" href="DataMaster.Abstracts.SetViewModelBase.html#DataMaster_Abstracts_SetViewModelBase_SnackbarForeground">SetViewModelBase.SnackbarForeground</a>
+    </div>
+    <div>
+      <a class="xref" href="DataMaster.Abstracts.SetViewModelBase.html#DataMaster_Abstracts_SetViewModelBase_SnackbarMessage">SetViewModelBase.SnackbarMessage</a>
+    </div>
+    <div>
+      <a class="xref" href="DataMaster.Abstracts.SetViewModelBase.html#DataMaster_Abstracts_SetViewModelBase_IsSnackbar">SetViewModelBase.IsSnackbar</a>
+    </div>
+    <div>
+      <a class="xref" href="DataMaster.Abstracts.SetViewModelBase.html#DataMaster_Abstracts_SetViewModelBase_ShowSnackbar_System_String_System_String_">SetViewModelBase.ShowSnackbar(string, string)</a>
+    </div>
+    <div>
+      <a class="xref" href="DataMaster.Abstracts.SetViewModelBase.html#DataMaster_Abstracts_SetViewModelBase_ConfigChanged_System_Object_DataMaster_Models_ConfigurationChangedEventArgs_">SetViewModelBase.ConfigChanged(object, ConfigurationChangedEventArgs)</a>
+    </div>
+    <div>
+      <a class="xref" href="DataMaster.Abstracts.SetViewModelBase.html#DataMaster_Abstracts_SetViewModelBase_OnSaveSuccessfully">SetViewModelBase.OnSaveSuccessfully()</a>
+    </div>
+    <div>
+      <a class="xref" href="DataMaster.Abstracts.SetViewModelBase.html#DataMaster_Abstracts_SetViewModelBase_OnClosing">SetViewModelBase.OnClosing()</a>
+    </div>
+    <div>
+      <a class="xref" href="DataMaster.Abstracts.SetViewModelBase.html#DataMaster_Abstracts_SetViewModelBase_OnConfigChanged">SetViewModelBase.OnConfigChanged()</a>
+    </div>
+    <div>
       <a class="xref" href="DataMaster.Abstracts.ViewModelBase.html#DataMaster_Abstracts_ViewModelBase_Config">ViewModelBase.Config</a>
     </div>
     <div>
       <a class="xref" href="DataMaster.Abstracts.ViewModelBase.html#DataMaster_Abstracts_ViewModelBase_LanguageManager">ViewModelBase.LanguageManager</a>
+    </div>
+    <div>
+      <a class="xref" href="DataMaster.Abstracts.ViewModelBase.html#DataMaster_Abstracts_ViewModelBase_IsBusy">ViewModelBase.IsBusy</a>
     </div>
     <div>
       <a class="xref" href="DataMaster.Abstracts.ViewModelBase.html#DataMaster_Abstracts_ViewModelBase_BusyCursor">ViewModelBase.BusyCursor</a>
@@ -148,6 +185,15 @@ Class MatchTemplateSetViewModel  <a class="header-action link-secondary" title="
     </div>
     <div>
       <a class="xref" href="DataMaster.Abstracts.ViewModelBase.html#DataMaster_Abstracts_ViewModelBase_SetField__1___0____0_System_String_">ViewModelBase.SetField&lt;T&gt;(ref T, T, string)</a>
+    </div>
+    <div>
+      <a class="xref" href="DataMaster.Abstracts.ViewModelBase.html#DataMaster_Abstracts_ViewModelBase_ResetCursor">ViewModelBase.ResetCursor()</a>
+    </div>
+    <div>
+      <a class="xref" href="DataMaster.Abstracts.ViewModelBase.html#DataMaster_Abstracts_ViewModelBase_SetBusyCursor">ViewModelBase.SetBusyCursor()</a>
+    </div>
+    <div>
+      <a class="xref" href="DataMaster.Abstracts.ViewModelBase.html#DataMaster_Abstracts_ViewModelBase_SetWorkingCursor">ViewModelBase.SetWorkingCursor()</a>
     </div>
     <div>
       <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)">object.Equals(object)</a>
@@ -183,9 +229,9 @@ Class MatchTemplateSetViewModel  <a class="header-action link-secondary" title="
 
   <a id="DataMaster_ViewModels_Windows_Vision_MatchTemplateSetViewModel__ctor_" data-uid="DataMaster.ViewModels.Windows.Vision.MatchTemplateSetViewModel.#ctor*"></a>
 
-  <h3 id="DataMaster_ViewModels_Windows_Vision_MatchTemplateSetViewModel__ctor_DataMaster_Modules_MAS_InstantMessage_IInstantPublishMessageService_" data-uid="DataMaster.ViewModels.Windows.Vision.MatchTemplateSetViewModel.#ctor(DataMaster.Modules.MAS.InstantMessage.IInstantPublishMessageService)">
+  <h3 id="DataMaster_ViewModels_Windows_Vision_MatchTemplateSetViewModel__ctor_MAS_InstantMessage_IInstantPublishMessageService_" data-uid="DataMaster.ViewModels.Windows.Vision.MatchTemplateSetViewModel.#ctor(MAS.InstantMessage.IInstantPublishMessageService)">
   MatchTemplateSetViewModel(IInstantPublishMessageService)
-  <a class="header-action link-secondary" title="View source" href="https://bitbucket.org/mas-software/industrial-mes-net-platform-advanced/src/feature/database/ViewModels/Windows/Vision/MatchTemplateSetViewModel.cs#lines-229"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://bitbucket.org/mas-software/industrial-mes-net-platform-advanced/src/main/ViewModels/Windows/Vision/MatchTemplateSetViewModel.cs#lines-218"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>构造函数，初始化 <a class="xref" href="DataMaster.ViewModels.Windows.Vision.MatchTemplateSetViewModel.html">MatchTemplateSetViewModel</a> 新实例</p>
@@ -198,7 +244,7 @@ Class MatchTemplateSetViewModel  <a class="header-action link-secondary" title="
 
   <h4 class="section">Parameters</h4>
   <dl class="parameters">
-    <dt><code>instantMessageService</code> <a class="xref" href="DataMaster.Modules.MAS.InstantMessage.IInstantPublishMessageService.html">IInstantPublishMessageService</a></dt>
+    <dt><code>instantMessageService</code> <a class="xref" href="MAS.InstantMessage.IInstantPublishMessageService.html">IInstantPublishMessageService</a></dt>
     <dd><p>即时信息发布服务</p>
 </dd>
   </dl>
@@ -222,7 +268,7 @@ Class MatchTemplateSetViewModel  <a class="header-action link-secondary" title="
 
   <h3 id="DataMaster_ViewModels_Windows_Vision_MatchTemplateSetViewModel_CameraIndex" data-uid="DataMaster.ViewModels.Windows.Vision.MatchTemplateSetViewModel.CameraIndex">
   CameraIndex
-  <a class="header-action link-secondary" title="View source" href="https://bitbucket.org/mas-software/industrial-mes-net-platform-advanced/src/feature/database/ViewModels/Windows/Vision/MatchTemplateSetViewModel.cs#lines-36"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://bitbucket.org/mas-software/industrial-mes-net-platform-advanced/src/main/ViewModels/Windows/Vision/MatchTemplateSetViewModel.cs#lines-34"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>获取或设置相机索引</p>
@@ -254,7 +300,7 @@ Class MatchTemplateSetViewModel  <a class="header-action link-secondary" title="
 
   <h3 id="DataMaster_ViewModels_Windows_Vision_MatchTemplateSetViewModel_CameraIndexs" data-uid="DataMaster.ViewModels.Windows.Vision.MatchTemplateSetViewModel.CameraIndexs">
   CameraIndexs
-  <a class="header-action link-secondary" title="View source" href="https://bitbucket.org/mas-software/industrial-mes-net-platform-advanced/src/feature/database/ViewModels/Windows/Vision/MatchTemplateSetViewModel.cs#lines-195"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://bitbucket.org/mas-software/industrial-mes-net-platform-advanced/src/main/ViewModels/Windows/Vision/MatchTemplateSetViewModel.cs#lines-184"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>获取可用摄像头索引列表</p>
@@ -286,7 +332,7 @@ Class MatchTemplateSetViewModel  <a class="header-action link-secondary" title="
 
   <h3 id="DataMaster_ViewModels_Windows_Vision_MatchTemplateSetViewModel_DetectedImagePath" data-uid="DataMaster.ViewModels.Windows.Vision.MatchTemplateSetViewModel.DetectedImagePath">
   DetectedImagePath
-  <a class="header-action link-secondary" title="View source" href="https://bitbucket.org/mas-software/industrial-mes-net-platform-advanced/src/feature/database/ViewModels/Windows/Vision/MatchTemplateSetViewModel.cs#lines-75"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://bitbucket.org/mas-software/industrial-mes-net-platform-advanced/src/main/ViewModels/Windows/Vision/MatchTemplateSetViewModel.cs#lines-73"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>获取或设置检测到目标时图像保存的路径</p>
@@ -314,43 +360,11 @@ Class MatchTemplateSetViewModel  <a class="header-action link-secondary" title="
 
 
 
-  <a id="DataMaster_ViewModels_Windows_Vision_MatchTemplateSetViewModel_EditStatus_" data-uid="DataMaster.ViewModels.Windows.Vision.MatchTemplateSetViewModel.EditStatus*"></a>
-
-  <h3 id="DataMaster_ViewModels_Windows_Vision_MatchTemplateSetViewModel_EditStatus" data-uid="DataMaster.ViewModels.Windows.Vision.MatchTemplateSetViewModel.EditStatus">
-  EditStatus
-  <a class="header-action link-secondary" title="View source" href="https://bitbucket.org/mas-software/industrial-mes-net-platform-advanced/src/feature/database/ViewModels/Windows/Vision/MatchTemplateSetViewModel.cs#lines-146"><i class="bi bi-code-slash"></i></a>
-  </h3>
-
-  <div class="markdown level1 summary"><p>获取或设置编辑状态</p>
-</div>
-  <div class="markdown level1 conceptual"></div>
-
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public string? EditStatus { get; set; }</code></pre>
-  </div>
-
-
-
-
-
-  <h4 class="section">Property Value</h4>
-  <dl class="parameters">
-    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
-    <dd></dd>
-  </dl>
-
-
-
-
-
-
-
-
   <a id="DataMaster_ViewModels_Windows_Vision_MatchTemplateSetViewModel_IsContinuousTrigger_" data-uid="DataMaster.ViewModels.Windows.Vision.MatchTemplateSetViewModel.IsContinuousTrigger*"></a>
 
   <h3 id="DataMaster_ViewModels_Windows_Vision_MatchTemplateSetViewModel_IsContinuousTrigger" data-uid="DataMaster.ViewModels.Windows.Vision.MatchTemplateSetViewModel.IsContinuousTrigger">
   IsContinuousTrigger
-  <a class="header-action link-secondary" title="View source" href="https://bitbucket.org/mas-software/industrial-mes-net-platform-advanced/src/feature/database/ViewModels/Windows/Vision/MatchTemplateSetViewModel.cs#lines-62"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://bitbucket.org/mas-software/industrial-mes-net-platform-advanced/src/main/ViewModels/Windows/Vision/MatchTemplateSetViewModel.cs#lines-60"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>获取或设置是否连续触发</p>
@@ -382,7 +396,7 @@ Class MatchTemplateSetViewModel  <a class="header-action link-secondary" title="
 
   <h3 id="DataMaster_ViewModels_Windows_Vision_MatchTemplateSetViewModel_IsEnableAutoImageSave" data-uid="DataMaster.ViewModels.Windows.Vision.MatchTemplateSetViewModel.IsEnableAutoImageSave">
   IsEnableAutoImageSave
-  <a class="header-action link-secondary" title="View source" href="https://bitbucket.org/mas-software/industrial-mes-net-platform-advanced/src/feature/database/ViewModels/Windows/Vision/MatchTemplateSetViewModel.cs#lines-122"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://bitbucket.org/mas-software/industrial-mes-net-platform-advanced/src/main/ViewModels/Windows/Vision/MatchTemplateSetViewModel.cs#lines-120"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>获取或设置是否自动保存图像</p>
@@ -414,7 +428,7 @@ Class MatchTemplateSetViewModel  <a class="header-action link-secondary" title="
 
   <h3 id="DataMaster_ViewModels_Windows_Vision_MatchTemplateSetViewModel_IsEnabledAutoImageSave" data-uid="DataMaster.ViewModels.Windows.Vision.MatchTemplateSetViewModel.IsEnabledAutoImageSave">
   IsEnabledAutoImageSave
-  <a class="header-action link-secondary" title="View source" href="https://bitbucket.org/mas-software/industrial-mes-net-platform-advanced/src/feature/database/ViewModels/Windows/Vision/MatchTemplateSetViewModel.cs#lines-137"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://bitbucket.org/mas-software/industrial-mes-net-platform-advanced/src/main/ViewModels/Windows/Vision/MatchTemplateSetViewModel.cs#lines-135"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>获取或设置自动保存设置使能</p>
@@ -446,7 +460,7 @@ Class MatchTemplateSetViewModel  <a class="header-action link-secondary" title="
 
   <h3 id="DataMaster_ViewModels_Windows_Vision_MatchTemplateSetViewModel_IsRefreshCameraIndexsInfo" data-uid="DataMaster.ViewModels.Windows.Vision.MatchTemplateSetViewModel.IsRefreshCameraIndexsInfo">
   IsRefreshCameraIndexsInfo
-  <a class="header-action link-secondary" title="View source" href="https://bitbucket.org/mas-software/industrial-mes-net-platform-advanced/src/feature/database/ViewModels/Windows/Vision/MatchTemplateSetViewModel.cs#lines-164"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://bitbucket.org/mas-software/industrial-mes-net-platform-advanced/src/main/ViewModels/Windows/Vision/MatchTemplateSetViewModel.cs#lines-153"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>获取或设置是否显示刷新相机列表信息</p>
@@ -478,7 +492,7 @@ Class MatchTemplateSetViewModel  <a class="header-action link-secondary" title="
 
   <h3 id="DataMaster_ViewModels_Windows_Vision_MatchTemplateSetViewModel_IsUseGPUAcceleration" data-uid="DataMaster.ViewModels.Windows.Vision.MatchTemplateSetViewModel.IsUseGPUAcceleration">
   IsUseGPUAcceleration
-  <a class="header-action link-secondary" title="View source" href="https://bitbucket.org/mas-software/industrial-mes-net-platform-advanced/src/feature/database/ViewModels/Windows/Vision/MatchTemplateSetViewModel.cs#lines-49"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://bitbucket.org/mas-software/industrial-mes-net-platform-advanced/src/main/ViewModels/Windows/Vision/MatchTemplateSetViewModel.cs#lines-47"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>获取或设置是否使用GPU加速</p>
@@ -510,7 +524,7 @@ Class MatchTemplateSetViewModel  <a class="header-action link-secondary" title="
 
   <h3 id="DataMaster_ViewModels_Windows_Vision_MatchTemplateSetViewModel_MatchTemplateSetWindowVer" data-uid="DataMaster.ViewModels.Windows.Vision.MatchTemplateSetViewModel.MatchTemplateSetWindowVer">
   MatchTemplateSetWindowVer
-  <a class="header-action link-secondary" title="View source" href="https://bitbucket.org/mas-software/industrial-mes-net-platform-advanced/src/feature/database/ViewModels/Windows/Vision/MatchTemplateSetViewModel.cs#lines-30"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://bitbucket.org/mas-software/industrial-mes-net-platform-advanced/src/main/ViewModels/Windows/Vision/MatchTemplateSetViewModel.cs#lines-28"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>获取模板匹配设置窗口版本</p>
@@ -542,7 +556,7 @@ Class MatchTemplateSetViewModel  <a class="header-action link-secondary" title="
 
   <h3 id="DataMaster_ViewModels_Windows_Vision_MatchTemplateSetViewModel_MaxSavedImage" data-uid="DataMaster.ViewModels.Windows.Vision.MatchTemplateSetViewModel.MaxSavedImage">
   MaxSavedImage
-  <a class="header-action link-secondary" title="View source" href="https://bitbucket.org/mas-software/industrial-mes-net-platform-advanced/src/feature/database/ViewModels/Windows/Vision/MatchTemplateSetViewModel.cs#lines-109"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://bitbucket.org/mas-software/industrial-mes-net-platform-advanced/src/main/ViewModels/Windows/Vision/MatchTemplateSetViewModel.cs#lines-107"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>获取或设置保存历史图像的最大数量</p>
@@ -574,7 +588,7 @@ Class MatchTemplateSetViewModel  <a class="header-action link-secondary" title="
 
   <h3 id="DataMaster_ViewModels_Windows_Vision_MatchTemplateSetViewModel_MaxSavedImages" data-uid="DataMaster.ViewModels.Windows.Vision.MatchTemplateSetViewModel.MaxSavedImages">
   MaxSavedImages
-  <a class="header-action link-secondary" title="View source" href="https://bitbucket.org/mas-software/industrial-mes-net-platform-advanced/src/feature/database/ViewModels/Windows/Vision/MatchTemplateSetViewModel.cs#lines-190"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://bitbucket.org/mas-software/industrial-mes-net-platform-advanced/src/main/ViewModels/Windows/Vision/MatchTemplateSetViewModel.cs#lines-179"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>获取保存历史图像的最大数量选项列表</p>
@@ -606,7 +620,7 @@ Class MatchTemplateSetViewModel  <a class="header-action link-secondary" title="
 
   <h3 id="DataMaster_ViewModels_Windows_Vision_MatchTemplateSetViewModel_NonDetectedImagePath" data-uid="DataMaster.ViewModels.Windows.Vision.MatchTemplateSetViewModel.NonDetectedImagePath">
   NonDetectedImagePath
-  <a class="header-action link-secondary" title="View source" href="https://bitbucket.org/mas-software/industrial-mes-net-platform-advanced/src/feature/database/ViewModels/Windows/Vision/MatchTemplateSetViewModel.cs#lines-92"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://bitbucket.org/mas-software/industrial-mes-net-platform-advanced/src/main/ViewModels/Windows/Vision/MatchTemplateSetViewModel.cs#lines-90"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>获取或设置未检测到目标时图像保存的路径</p>
@@ -638,7 +652,7 @@ Class MatchTemplateSetViewModel  <a class="header-action link-secondary" title="
 
   <h3 id="DataMaster_ViewModels_Windows_Vision_MatchTemplateSetViewModel_OpenSaveFailureFolderCommand" data-uid="DataMaster.ViewModels.Windows.Vision.MatchTemplateSetViewModel.OpenSaveFailureFolderCommand">
   OpenSaveFailureFolderCommand
-  <a class="header-action link-secondary" title="View source" href="https://bitbucket.org/mas-software/industrial-mes-net-platform-advanced/src/feature/database/ViewModels/Windows/Vision/MatchTemplateSetViewModel.cs#lines-212"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://bitbucket.org/mas-software/industrial-mes-net-platform-advanced/src/main/ViewModels/Windows/Vision/MatchTemplateSetViewModel.cs#lines-201"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>获取打开保存未检测到目标图像的文件夹命令</p>
@@ -670,7 +684,7 @@ Class MatchTemplateSetViewModel  <a class="header-action link-secondary" title="
 
   <h3 id="DataMaster_ViewModels_Windows_Vision_MatchTemplateSetViewModel_OpenSaveSuccessFolderCommand" data-uid="DataMaster.ViewModels.Windows.Vision.MatchTemplateSetViewModel.OpenSaveSuccessFolderCommand">
   OpenSaveSuccessFolderCommand
-  <a class="header-action link-secondary" title="View source" href="https://bitbucket.org/mas-software/industrial-mes-net-platform-advanced/src/feature/database/ViewModels/Windows/Vision/MatchTemplateSetViewModel.cs#lines-202"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://bitbucket.org/mas-software/industrial-mes-net-platform-advanced/src/main/ViewModels/Windows/Vision/MatchTemplateSetViewModel.cs#lines-191"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>获取打开保存检测到目标图像的文件夹命令</p>
@@ -702,7 +716,7 @@ Class MatchTemplateSetViewModel  <a class="header-action link-secondary" title="
 
   <h3 id="DataMaster_ViewModels_Windows_Vision_MatchTemplateSetViewModel_RefreshCameraIndexsCommand" data-uid="DataMaster.ViewModels.Windows.Vision.MatchTemplateSetViewModel.RefreshCameraIndexsCommand">
   RefreshCameraIndexsCommand
-  <a class="header-action link-secondary" title="View source" href="https://bitbucket.org/mas-software/industrial-mes-net-platform-advanced/src/feature/database/ViewModels/Windows/Vision/MatchTemplateSetViewModel.cs#lines-222"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://bitbucket.org/mas-software/industrial-mes-net-platform-advanced/src/main/ViewModels/Windows/Vision/MatchTemplateSetViewModel.cs#lines-211"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>获取刷新摄像头索引列表命令</p>
@@ -734,7 +748,7 @@ Class MatchTemplateSetViewModel  <a class="header-action link-secondary" title="
 
   <h3 id="DataMaster_ViewModels_Windows_Vision_MatchTemplateSetViewModel_RefreshCameraIndexsCursor" data-uid="DataMaster.ViewModels.Windows.Vision.MatchTemplateSetViewModel.RefreshCameraIndexsCursor">
   RefreshCameraIndexsCursor
-  <a class="header-action link-secondary" title="View source" href="https://bitbucket.org/mas-software/industrial-mes-net-platform-advanced/src/feature/database/ViewModels/Windows/Vision/MatchTemplateSetViewModel.cs#lines-155"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://bitbucket.org/mas-software/industrial-mes-net-platform-advanced/src/main/ViewModels/Windows/Vision/MatchTemplateSetViewModel.cs#lines-144"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>获取或设置刷新摄像头列表的鼠标图标</p>
@@ -766,7 +780,7 @@ Class MatchTemplateSetViewModel  <a class="header-action link-secondary" title="
 
   <h3 id="DataMaster_ViewModels_Windows_Vision_MatchTemplateSetViewModel_RefreshCameraIndexsInfo" data-uid="DataMaster.ViewModels.Windows.Vision.MatchTemplateSetViewModel.RefreshCameraIndexsInfo">
   RefreshCameraIndexsInfo
-  <a class="header-action link-secondary" title="View source" href="https://bitbucket.org/mas-software/industrial-mes-net-platform-advanced/src/feature/database/ViewModels/Windows/Vision/MatchTemplateSetViewModel.cs#lines-173"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://bitbucket.org/mas-software/industrial-mes-net-platform-advanced/src/main/ViewModels/Windows/Vision/MatchTemplateSetViewModel.cs#lines-162"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>获取或设置刷新相机列表信息</p>
@@ -798,7 +812,7 @@ Class MatchTemplateSetViewModel  <a class="header-action link-secondary" title="
 
   <h3 id="DataMaster_ViewModels_Windows_Vision_MatchTemplateSetViewModel_RefreshCameraIndexsInfoForeground" data-uid="DataMaster.ViewModels.Windows.Vision.MatchTemplateSetViewModel.RefreshCameraIndexsInfoForeground">
   RefreshCameraIndexsInfoForeground
-  <a class="header-action link-secondary" title="View source" href="https://bitbucket.org/mas-software/industrial-mes-net-platform-advanced/src/feature/database/ViewModels/Windows/Vision/MatchTemplateSetViewModel.cs#lines-182"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://bitbucket.org/mas-software/industrial-mes-net-platform-advanced/src/main/ViewModels/Windows/Vision/MatchTemplateSetViewModel.cs#lines-171"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>获取或设置刷新相机列表的前景颜色</p>
@@ -830,7 +844,7 @@ Class MatchTemplateSetViewModel  <a class="header-action link-secondary" title="
 
   <h3 id="DataMaster_ViewModels_Windows_Vision_MatchTemplateSetViewModel_SelectSaveFailurePathCommand" data-uid="DataMaster.ViewModels.Windows.Vision.MatchTemplateSetViewModel.SelectSaveFailurePathCommand">
   SelectSaveFailurePathCommand
-  <a class="header-action link-secondary" title="View source" href="https://bitbucket.org/mas-software/industrial-mes-net-platform-advanced/src/feature/database/ViewModels/Windows/Vision/MatchTemplateSetViewModel.cs#lines-217"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://bitbucket.org/mas-software/industrial-mes-net-platform-advanced/src/main/ViewModels/Windows/Vision/MatchTemplateSetViewModel.cs#lines-206"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>获取选择保存未检测到的目标图像路径文件命令</p>
@@ -862,7 +876,7 @@ Class MatchTemplateSetViewModel  <a class="header-action link-secondary" title="
 
   <h3 id="DataMaster_ViewModels_Windows_Vision_MatchTemplateSetViewModel_SelectSaveSuccessPathCommand" data-uid="DataMaster.ViewModels.Windows.Vision.MatchTemplateSetViewModel.SelectSaveSuccessPathCommand">
   SelectSaveSuccessPathCommand
-  <a class="header-action link-secondary" title="View source" href="https://bitbucket.org/mas-software/industrial-mes-net-platform-advanced/src/feature/database/ViewModels/Windows/Vision/MatchTemplateSetViewModel.cs#lines-207"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://bitbucket.org/mas-software/industrial-mes-net-platform-advanced/src/main/ViewModels/Windows/Vision/MatchTemplateSetViewModel.cs#lines-196"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>获取选择保存检测成功的图像路径文件命令</p>
@@ -898,7 +912,7 @@ Class MatchTemplateSetViewModel  <a class="header-action link-secondary" title="
 
   <h3 id="DataMaster_ViewModels_Windows_Vision_MatchTemplateSetViewModel_HandleWindowClosing" data-uid="DataMaster.ViewModels.Windows.Vision.MatchTemplateSetViewModel.HandleWindowClosing">
   HandleWindowClosing()
-  <a class="header-action link-secondary" title="View source" href="https://bitbucket.org/mas-software/industrial-mes-net-platform-advanced/src/feature/database/ViewModels/Windows/Vision/MatchTemplateSetViewModel.cs#lines-328"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://bitbucket.org/mas-software/industrial-mes-net-platform-advanced/src/main/ViewModels/Windows/Vision/MatchTemplateSetViewModel.cs#lines-232"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>窗口关闭事件的处理</p>
@@ -906,7 +920,7 @@ Class MatchTemplateSetViewModel  <a class="header-action link-secondary" title="
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public void HandleWindowClosing()</code></pre>
+    <pre><code class="lang-csharp hljs">public override void HandleWindowClosing()</code></pre>
   </div>
 
 
@@ -925,7 +939,7 @@ Class MatchTemplateSetViewModel  <a class="header-action link-secondary" title="
 </article>
 
         <div class="contribution d-print-none">
-          <a href="https://bitbucket.org/mas-software/industrial-mes-net-platform-advanced/src/feature/database/ViewModels/Windows/Vision/MatchTemplateSetViewModel.cs#lines-21" class="edit-link">Edit this page</a>
+          <a href="https://bitbucket.org/mas-software/industrial-mes-net-platform-advanced/src/main/ViewModels/Windows/Vision/MatchTemplateSetViewModel.cs#lines-21" class="edit-link">Edit this page</a>
         </div>
 
 

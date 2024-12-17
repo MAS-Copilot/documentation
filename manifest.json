@@ -12,6 +12,16 @@
     },
     {
       "type": "ManagedReference",
+      "source_relative_path": "api/DataMaster.Abstracts.CanvasViewModelBase.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DataMaster.Abstracts.CanvasViewModelBase.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
       "source_relative_path": "api/DataMaster.Abstracts.SetViewModelBase.yml",
       "output": {
         ".html": {
@@ -102,6 +112,16 @@
     },
     {
       "type": "ManagedReference",
+      "source_relative_path": "api/DataMaster.Common.GlobalDefaultPath.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DataMaster.Common.GlobalDefaultPath.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
       "source_relative_path": "api/DataMaster.Common.GlobalEnvironment.yml",
       "output": {
         ".html": {
@@ -122,6 +142,16 @@
     },
     {
       "type": "ManagedReference",
+      "source_relative_path": "api/DataMaster.Common.GlobalRuntime.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DataMaster.Common.GlobalRuntime.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
       "source_relative_path": "api/DataMaster.Common.yml",
       "output": {
         ".html": {
@@ -132,10 +162,40 @@
     },
     {
       "type": "ManagedReference",
+      "source_relative_path": "api/DataMaster.Extensions.ServiceCollectionExtensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DataMaster.Extensions.ServiceCollectionExtensions.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/DataMaster.Extensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DataMaster.Extensions.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
       "source_relative_path": "api/DataMaster.Helpers.ButtonOption.yml",
       "output": {
         ".html": {
           "relative_path": "api/DataMaster.Helpers.ButtonOption.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/DataMaster.Helpers.DebounceDispatcherHelper.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DataMaster.Helpers.DebounceDispatcherHelper.html"
         }
       },
       "version": ""
@@ -296,6 +356,16 @@
       "output": {
         ".html": {
           "relative_path": "api/DataMaster.Helpers.ServiceControllerHelpers.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/DataMaster.Helpers.TextEditorBindingHelper.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DataMaster.Helpers.TextEditorBindingHelper.html"
         }
       },
       "version": ""
@@ -472,6 +542,26 @@
     },
     {
       "type": "ManagedReference",
+      "source_relative_path": "api/DataMaster.Managers.ComponentManager.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DataMaster.Managers.ComponentManager.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/DataMaster.Managers.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DataMaster.Managers.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
       "source_relative_path": "api/DataMaster.Models.AllConfigurationCards.yml",
       "output": {
         ".html": {
@@ -486,6 +576,26 @@
       "output": {
         ".html": {
           "relative_path": "api/DataMaster.Models.ApplicationInformation.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/DataMaster.Models.BuildStateModel.BuildState.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DataMaster.Models.BuildStateModel.BuildState.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/DataMaster.Models.BuildStateModel.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DataMaster.Models.BuildStateModel.html"
         }
       },
       "version": ""
@@ -542,6 +652,16 @@
     },
     {
       "type": "ManagedReference",
+      "source_relative_path": "api/DataMaster.Models.CommTaskHandler.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DataMaster.Models.CommTaskHandler.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
       "source_relative_path": "api/DataMaster.Models.ConfigurationChangedEventArgs.yml",
       "output": {
         ".html": {
@@ -572,6 +692,16 @@
     },
     {
       "type": "ManagedReference",
+      "source_relative_path": "api/DataMaster.Models.Configurations.BuildConfig.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DataMaster.Models.Configurations.BuildConfig.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
       "source_relative_path": "api/DataMaster.Models.Configurations.CapacityUtilizationConfig.yml",
       "output": {
         ".html": {
@@ -592,10 +722,30 @@
     },
     {
       "type": "ManagedReference",
+      "source_relative_path": "api/DataMaster.Models.Configurations.CommBuildConfig.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DataMaster.Models.Configurations.CommBuildConfig.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
       "source_relative_path": "api/DataMaster.Models.Configurations.CycleTimeConfig.yml",
       "output": {
         ".html": {
           "relative_path": "api/DataMaster.Models.Configurations.CycleTimeConfig.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/DataMaster.Models.Configurations.DataExportConfig.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DataMaster.Models.Configurations.DataExportConfig.html"
         }
       },
       "version": ""
@@ -812,6 +962,16 @@
     },
     {
       "type": "ManagedReference",
+      "source_relative_path": "api/DataMaster.Models.DependentComponent.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DataMaster.Models.DependentComponent.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
       "source_relative_path": "api/DataMaster.Models.FontInfo.yml",
       "output": {
         ".html": {
@@ -832,10 +992,30 @@
     },
     {
       "type": "ManagedReference",
+      "source_relative_path": "api/DataMaster.Models.ProjectItem.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DataMaster.Models.ProjectItem.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
       "source_relative_path": "api/DataMaster.Models.ProjectState.yml",
       "output": {
         ".html": {
           "relative_path": "api/DataMaster.Models.ProjectState.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/DataMaster.Models.ShortcutKeyModel.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DataMaster.Models.ShortcutKeyModel.html"
         }
       },
       "version": ""
@@ -3432,6 +3612,26 @@
     },
     {
       "type": "ManagedReference",
+      "source_relative_path": "api/DataMaster.ViewModels.Pages.BuildRunWorkbenchViewModel.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DataMaster.ViewModels.Pages.BuildRunWorkbenchViewModel.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/DataMaster.ViewModels.Pages.Communication.CommunicationViewModel.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DataMaster.ViewModels.Pages.Communication.CommunicationViewModel.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
       "source_relative_path": "api/DataMaster.ViewModels.Pages.Communication.DataExchangeViewModel.yml",
       "output": {
         ".html": {
@@ -3492,6 +3692,16 @@
     },
     {
       "type": "ManagedReference",
+      "source_relative_path": "api/DataMaster.ViewModels.Pages.DataBase.DatabaseViewModel.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DataMaster.ViewModels.Pages.DataBase.DatabaseViewModel.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
       "source_relative_path": "api/DataMaster.ViewModels.Pages.DataBase.QueryDataViewModel.yml",
       "output": {
         ".html": {
@@ -3532,6 +3742,16 @@
     },
     {
       "type": "ManagedReference",
+      "source_relative_path": "api/DataMaster.ViewModels.Pages.ECharts.ChartsViewModel.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DataMaster.ViewModels.Pages.ECharts.ChartsViewModel.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
       "source_relative_path": "api/DataMaster.ViewModels.Pages.ECharts.CycleTimeViewModel.yml",
       "output": {
         ".html": {
@@ -3546,6 +3766,16 @@
       "output": {
         ".html": {
           "relative_path": "api/DataMaster.ViewModels.Pages.ECharts.FreeTimeViewModel.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/DataMaster.ViewModels.Pages.ECharts.PlaygroundViewModel.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DataMaster.ViewModels.Pages.ECharts.PlaygroundViewModel.html"
         }
       },
       "version": ""
@@ -3632,6 +3862,16 @@
     },
     {
       "type": "ManagedReference",
+      "source_relative_path": "api/DataMaster.ViewModels.Pages.Vision.VisionViewModel.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DataMaster.ViewModels.Pages.Vision.VisionViewModel.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
       "source_relative_path": "api/DataMaster.ViewModels.Pages.Vision.WorkbenchViewModel.yml",
       "output": {
         ".html": {
@@ -3662,6 +3902,36 @@
     },
     {
       "type": "ManagedReference",
+      "source_relative_path": "api/DataMaster.ViewModels.Windows.CodeEditorViewModel.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DataMaster.ViewModels.Windows.CodeEditorViewModel.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/DataMaster.ViewModels.Windows.Communication.DataExchangeViewModel.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DataMaster.ViewModels.Windows.Communication.DataExchangeViewModel.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/DataMaster.ViewModels.Windows.Communication.InputDialogViewModel.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DataMaster.ViewModels.Windows.Communication.InputDialogViewModel.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
       "source_relative_path": "api/DataMaster.ViewModels.Windows.Communication.OpcUaClientSetViewModel.yml",
       "output": {
         ".html": {
@@ -3686,6 +3956,86 @@
       "output": {
         ".html": {
           "relative_path": "api/DataMaster.ViewModels.Windows.Communication.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/DataMaster.ViewModels.Windows.DataExport.DataExportSetViewModel.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DataMaster.ViewModels.Windows.DataExport.DataExportSetViewModel.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/DataMaster.ViewModels.Windows.DataExport.DefineDataExportViewModel.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DataMaster.ViewModels.Windows.DataExport.DefineDataExportViewModel.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/DataMaster.ViewModels.Windows.DataExport.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DataMaster.ViewModels.Windows.DataExport.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/DataMaster.ViewModels.Windows.Database.DataExchangeViewModel.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DataMaster.ViewModels.Windows.Database.DataExchangeViewModel.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/DataMaster.ViewModels.Windows.Database.DatabaseSetViewModel.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DataMaster.ViewModels.Windows.Database.DatabaseSetViewModel.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/DataMaster.ViewModels.Windows.Database.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DataMaster.ViewModels.Windows.Database.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/DataMaster.ViewModels.Windows.ECharts.PlaygroundViewModel.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DataMaster.ViewModels.Windows.ECharts.PlaygroundViewModel.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/DataMaster.ViewModels.Windows.ECharts.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DataMaster.ViewModels.Windows.ECharts.html"
         }
       },
       "version": ""
@@ -3792,6 +4142,16 @@
     },
     {
       "type": "ManagedReference",
+      "source_relative_path": "api/DataMaster.ViewModels.Windows.Vision.VisionProjectViewModel.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DataMaster.ViewModels.Windows.Vision.VisionProjectViewModel.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
       "source_relative_path": "api/DataMaster.ViewModels.Windows.Vision.WorkbenchSetViewModel.yml",
       "output": {
         ".html": {
@@ -3826,6 +4186,26 @@
       "output": {
         ".html": {
           "relative_path": "api/DataMaster.Views.Pages.AllConfigurationPage.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/DataMaster.Views.Pages.BuildRunWorkbenchPage.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DataMaster.Views.Pages.BuildRunWorkbenchPage.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/DataMaster.Views.Pages.Communication.CommunicationPage.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DataMaster.Views.Pages.Communication.CommunicationPage.html"
         }
       },
       "version": ""
@@ -3892,6 +4272,16 @@
     },
     {
       "type": "ManagedReference",
+      "source_relative_path": "api/DataMaster.Views.Pages.DataBase.DatabasePage.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DataMaster.Views.Pages.DataBase.DatabasePage.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
       "source_relative_path": "api/DataMaster.Views.Pages.DataBase.QueryDataPage.yml",
       "output": {
         ".html": {
@@ -3932,6 +4322,16 @@
     },
     {
       "type": "ManagedReference",
+      "source_relative_path": "api/DataMaster.Views.Pages.ECharts.ChartsPage.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DataMaster.Views.Pages.ECharts.ChartsPage.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
       "source_relative_path": "api/DataMaster.Views.Pages.ECharts.CycleTimePage.yml",
       "output": {
         ".html": {
@@ -3946,6 +4346,16 @@
       "output": {
         ".html": {
           "relative_path": "api/DataMaster.Views.Pages.ECharts.FreeTimePage.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/DataMaster.Views.Pages.ECharts.PlaygroundPage.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DataMaster.Views.Pages.ECharts.PlaygroundPage.html"
         }
       },
       "version": ""
@@ -4032,6 +4442,16 @@
     },
     {
       "type": "ManagedReference",
+      "source_relative_path": "api/DataMaster.Views.Pages.Vision.VisionPage.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DataMaster.Views.Pages.Vision.VisionPage.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
       "source_relative_path": "api/DataMaster.Views.Pages.Vision.WorkbenchPage.yml",
       "output": {
         ".html": {
@@ -4062,6 +4482,36 @@
     },
     {
       "type": "ManagedReference",
+      "source_relative_path": "api/DataMaster.Views.Windows.CodeEditorWindow.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DataMaster.Views.Windows.CodeEditorWindow.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/DataMaster.Views.Windows.Communication.DataExchangeWindow.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DataMaster.Views.Windows.Communication.DataExchangeWindow.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/DataMaster.Views.Windows.Communication.InputDialogWindow.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DataMaster.Views.Windows.Communication.InputDialogWindow.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
       "source_relative_path": "api/DataMaster.Views.Windows.Communication.OpcUaClientSetWindow.yml",
       "output": {
         ".html": {
@@ -4086,6 +4536,86 @@
       "output": {
         ".html": {
           "relative_path": "api/DataMaster.Views.Windows.Communication.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/DataMaster.Views.Windows.DataExport.DataExportSetWindow.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DataMaster.Views.Windows.DataExport.DataExportSetWindow.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/DataMaster.Views.Windows.DataExport.DefineDataExportWindow.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DataMaster.Views.Windows.DataExport.DefineDataExportWindow.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/DataMaster.Views.Windows.DataExport.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DataMaster.Views.Windows.DataExport.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/DataMaster.Views.Windows.Database.DataExchangeWindow.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DataMaster.Views.Windows.Database.DataExchangeWindow.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/DataMaster.Views.Windows.Database.DatabaseSetWindow.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DataMaster.Views.Windows.Database.DatabaseSetWindow.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/DataMaster.Views.Windows.Database.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DataMaster.Views.Windows.Database.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/DataMaster.Views.Windows.ECharts.PlaygroundWindow.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DataMaster.Views.Windows.ECharts.PlaygroundWindow.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/DataMaster.Views.Windows.ECharts.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DataMaster.Views.Windows.ECharts.html"
         }
       },
       "version": ""
@@ -4212,6 +4742,16 @@
     },
     {
       "type": "ManagedReference",
+      "source_relative_path": "api/DataMaster.Views.Windows.Vision.VisionProjectWindow.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DataMaster.Views.Windows.Vision.VisionProjectWindow.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
       "source_relative_path": "api/DataMaster.Views.Windows.Vision.WorkbenchSetWindow.yml",
       "output": {
         ".html": {
@@ -4251,6 +4791,3036 @@
       "version": ""
     },
     {
+      "type": "ManagedReference",
+      "source_relative_path": "api/MAS.Charts.ChartCreationModel.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MAS.Charts.ChartCreationModel.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/MAS.Charts.ChartType.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MAS.Charts.ChartType.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/MAS.Charts.DateHelper.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MAS.Charts.DateHelper.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/MAS.Charts.IPlaygroundChartService.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MAS.Charts.IPlaygroundChartService.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/MAS.Charts.IProductionVolumeChartService.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MAS.Charts.IProductionVolumeChartService.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/MAS.Charts.IStatisticsChartService.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MAS.Charts.IStatisticsChartService.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/MAS.Charts.IStatsService.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MAS.Charts.IStatsService.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/MAS.Charts.IStatsServiceFactory.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MAS.Charts.IStatsServiceFactory.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/MAS.Charts.PlaygroundChartCard.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MAS.Charts.PlaygroundChartCard.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/MAS.Charts.ProductionVolume.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MAS.Charts.ProductionVolume.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/MAS.Charts.ProductionVolumeChartType.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MAS.Charts.ProductionVolumeChartType.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/MAS.Charts.ProductionVolumeService.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MAS.Charts.ProductionVolumeService.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/MAS.Charts.StatsServiceBase.CacheKeys.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MAS.Charts.StatsServiceBase.CacheKeys.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/MAS.Charts.StatsServiceBase.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MAS.Charts.StatsServiceBase.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/MAS.Charts.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MAS.Charts.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/MAS.Communication.CapacityUtilizationStruct.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MAS.Communication.CapacityUtilizationStruct.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/MAS.Communication.CommProtocol.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MAS.Communication.CommProtocol.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/MAS.Communication.CommunicationModuleHandler.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MAS.Communication.CommunicationModuleHandler.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/MAS.Communication.EquipmentDataStruct.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MAS.Communication.EquipmentDataStruct.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/MAS.Communication.ExecutionMode.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MAS.Communication.ExecutionMode.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/MAS.Communication.HourlyProductionRecordStruct.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MAS.Communication.HourlyProductionRecordStruct.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/MAS.Communication.ICommBuildConfig.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MAS.Communication.ICommBuildConfig.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/MAS.Communication.ICommunicationConfig.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MAS.Communication.ICommunicationConfig.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/MAS.Communication.IPlcCommServiceWrapperManager.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MAS.Communication.IPlcCommServiceWrapperManager.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/MAS.Communication.IPlcCommunicationService.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MAS.Communication.IPlcCommunicationService.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/MAS.Communication.IPlcCommunicationServiceFactory.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MAS.Communication.IPlcCommunicationServiceFactory.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/MAS.Communication.IPlcTaskHandler.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MAS.Communication.IPlcTaskHandler.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/MAS.Communication.IProtocol.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MAS.Communication.IProtocol.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/MAS.Communication.IVisionPlcComm.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MAS.Communication.IVisionPlcComm.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/MAS.Communication.IVisionPlcCommFactory.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MAS.Communication.IVisionPlcCommFactory.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/MAS.Communication.InstanceCreateEventArgs.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MAS.Communication.InstanceCreateEventArgs.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/MAS.Communication.InstanceExpiredRemovedEventArgs.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MAS.Communication.InstanceExpiredRemovedEventArgs.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/MAS.Communication.InstanceRemovedEventArgs.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MAS.Communication.InstanceRemovedEventArgs.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/MAS.Communication.McProtocols.IMcCommunicationConfig.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MAS.Communication.McProtocols.IMcCommunicationConfig.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/MAS.Communication.McProtocols.McInstanceCreateEventArgs.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MAS.Communication.McProtocols.McInstanceCreateEventArgs.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/MAS.Communication.McProtocols.McProtocolHelper.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MAS.Communication.McProtocols.McProtocolHelper.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/MAS.Communication.McProtocols.McProtocolStatusModel.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MAS.Communication.McProtocols.McProtocolStatusModel.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/MAS.Communication.McProtocols.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MAS.Communication.McProtocols.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/MAS.Communication.Opc.Ua.Helpers.MonitoredItemHelper.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MAS.Communication.Opc.Ua.Helpers.MonitoredItemHelper.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/MAS.Communication.Opc.Ua.Helpers.SubscriptionHelper.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MAS.Communication.Opc.Ua.Helpers.SubscriptionHelper.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/MAS.Communication.Opc.Ua.Helpers.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MAS.Communication.Opc.Ua.Helpers.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/MAS.Communication.Opc.Ua.Interface.IMonitoredItemSettings.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MAS.Communication.Opc.Ua.Interface.IMonitoredItemSettings.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/MAS.Communication.Opc.Ua.Interface.IOpcAdvancedSubscription.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MAS.Communication.Opc.Ua.Interface.IOpcAdvancedSubscription.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/MAS.Communication.Opc.Ua.Interface.IOpcSecurity.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MAS.Communication.Opc.Ua.Interface.IOpcSecurity.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/MAS.Communication.Opc.Ua.Interface.IOpcSessionManagement.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MAS.Communication.Opc.Ua.Interface.IOpcSessionManagement.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/MAS.Communication.Opc.Ua.Interface.IOpcUaClient.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MAS.Communication.Opc.Ua.Interface.IOpcUaClient.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/MAS.Communication.Opc.Ua.Interface.ISubscriptionSettings.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MAS.Communication.Opc.Ua.Interface.ISubscriptionSettings.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/MAS.Communication.Opc.Ua.Interface.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MAS.Communication.Opc.Ua.Interface.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/MAS.Communication.Opc.Ua.Modles.OpcNodeInfo.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MAS.Communication.Opc.Ua.Modles.OpcNodeInfo.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/MAS.Communication.Opc.Ua.Modles.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MAS.Communication.Opc.Ua.Modles.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/MAS.Communication.PlcCommServiceWrapperEventArgs.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MAS.Communication.PlcCommServiceWrapperEventArgs.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/MAS.Communication.PlcCommunicationServiceWrapper.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MAS.Communication.PlcCommunicationServiceWrapper.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/MAS.Communication.PlcConnectionEventArgs.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MAS.Communication.PlcConnectionEventArgs.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/MAS.Communication.ProductionRecordStruct.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MAS.Communication.ProductionRecordStruct.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/MAS.Communication.ProtocolModelBase.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MAS.Communication.ProtocolModelBase.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/MAS.Communication.S7Protocols.IS7CommunicationConfig.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MAS.Communication.S7Protocols.IS7CommunicationConfig.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/MAS.Communication.S7Protocols.IS7Protocol.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MAS.Communication.S7Protocols.IS7Protocol.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/MAS.Communication.S7Protocols.S7InstanceCreateEventArgs.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MAS.Communication.S7Protocols.S7InstanceCreateEventArgs.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/MAS.Communication.S7Protocols.S7ProtocolHelper.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MAS.Communication.S7Protocols.S7ProtocolHelper.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/MAS.Communication.S7Protocols.S7ProtocolStatusModel.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MAS.Communication.S7Protocols.S7ProtocolStatusModel.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/MAS.Communication.S7Protocols.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MAS.Communication.S7Protocols.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/MAS.Communication.TaskFieldAttribute.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MAS.Communication.TaskFieldAttribute.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/MAS.Communication.TaskHandlerStruct.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MAS.Communication.TaskHandlerStruct.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/MAS.Communication.VisionDataType.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MAS.Communication.VisionDataType.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/MAS.Communication.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MAS.Communication.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/MAS.Compilation.AssemblyInfo.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MAS.Compilation.AssemblyInfo.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/MAS.Compilation.CodeTemplateHelper.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MAS.Compilation.CodeTemplateHelper.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/MAS.Compilation.CompilationResult.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MAS.Compilation.CompilationResult.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/MAS.Compilation.DataAccessTypeDetails.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MAS.Compilation.DataAccessTypeDetails.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/MAS.Compilation.DataExportTypeDetails.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MAS.Compilation.DataExportTypeDetails.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/MAS.Compilation.IBuildConfig.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MAS.Compilation.IBuildConfig.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/MAS.Compilation.ICommCompilationService.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MAS.Compilation.ICommCompilationService.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/MAS.Compilation.ICompilationManager.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MAS.Compilation.ICompilationManager.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/MAS.Compilation.ICompilationService.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MAS.Compilation.ICompilationService.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/MAS.Compilation.ICompilationServiceFactory.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MAS.Compilation.ICompilationServiceFactory.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/MAS.Compilation.IDataAccessCompilationService.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MAS.Compilation.IDataAccessCompilationService.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/MAS.Compilation.IDataExportCompilationService.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MAS.Compilation.IDataExportCompilationService.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/MAS.Compilation.LoadedAssemblyInfo.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MAS.Compilation.LoadedAssemblyInfo.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/MAS.Compilation.NamespaceHelper.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MAS.Compilation.NamespaceHelper.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/MAS.Compilation.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MAS.Compilation.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/MAS.Controls.GalleryAssembly.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MAS.Controls.GalleryAssembly.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/MAS.Controls.GalleryNavigationPresenter.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MAS.Controls.GalleryNavigationPresenter.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/MAS.Controls.GraphicsProcControl.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MAS.Controls.GraphicsProcControl.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/MAS.Controls.ImageEditor.CropRectangleControl.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MAS.Controls.ImageEditor.CropRectangleControl.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/MAS.Controls.ImageEditor.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MAS.Controls.ImageEditor.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/MAS.Controls.ImageProceFlow.CameraControl.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MAS.Controls.ImageProceFlow.CameraControl.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/MAS.Controls.ImageProceFlow.CameraViewModel.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MAS.Controls.ImageProceFlow.CameraViewModel.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/MAS.Controls.ImageProceFlow.ColorConversionOption.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MAS.Controls.ImageProceFlow.ColorConversionOption.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/MAS.Controls.ImageProceFlow.ColorConvertControl.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MAS.Controls.ImageProceFlow.ColorConvertControl.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/MAS.Controls.ImageProceFlow.ColorConvertViewModel.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MAS.Controls.ImageProceFlow.ColorConvertViewModel.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/MAS.Controls.ImageProceFlow.ColorPreset.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MAS.Controls.ImageProceFlow.ColorPreset.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/MAS.Controls.ImageProceFlow.ColorRecognitionControl.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MAS.Controls.ImageProceFlow.ColorRecognitionControl.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/MAS.Controls.ImageProceFlow.ColorRecognitionViewModel.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MAS.Controls.ImageProceFlow.ColorRecognitionViewModel.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/MAS.Controls.ImageProceFlow.ConnectionLine.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MAS.Controls.ImageProceFlow.ConnectionLine.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/MAS.Controls.ImageProceFlow.ConnectionLineEventArgs.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MAS.Controls.ImageProceFlow.ConnectionLineEventArgs.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/MAS.Controls.ImageProceFlow.ControlModel.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MAS.Controls.ImageProceFlow.ControlModel.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/MAS.Controls.ImageProceFlow.DenoiseControl.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MAS.Controls.ImageProceFlow.DenoiseControl.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/MAS.Controls.ImageProceFlow.DenoiseViewModel.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MAS.Controls.ImageProceFlow.DenoiseViewModel.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/MAS.Controls.ImageProceFlow.IConnectionLineManager.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MAS.Controls.ImageProceFlow.IConnectionLineManager.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/MAS.Controls.ImageProceFlow.IExecutionFlowManager.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MAS.Controls.ImageProceFlow.IExecutionFlowManager.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/MAS.Controls.ImageProceFlow.IImageInfor.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MAS.Controls.ImageProceFlow.IImageInfor.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/MAS.Controls.ImageProceFlow.IImageProceFlowControlsFactory.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MAS.Controls.ImageProceFlow.IImageProceFlowControlsFactory.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/MAS.Controls.ImageProceFlow.IModule.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MAS.Controls.ImageProceFlow.IModule.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/MAS.Controls.ImageProceFlow.IModuleConnectionService.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MAS.Controls.ImageProceFlow.IModuleConnectionService.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/MAS.Controls.ImageProceFlow.IModuleControlManager.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MAS.Controls.ImageProceFlow.IModuleControlManager.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/MAS.Controls.ImageProceFlow.IVisionProjectManager.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MAS.Controls.ImageProceFlow.IVisionProjectManager.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/MAS.Controls.ImageProceFlow.ImageInfo.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MAS.Controls.ImageProceFlow.ImageInfo.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/MAS.Controls.ImageProceFlow.ImageInfoControl.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MAS.Controls.ImageProceFlow.ImageInfoControl.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/MAS.Controls.ImageProceFlow.ImageInfoViewModel.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MAS.Controls.ImageProceFlow.ImageInfoViewModel.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/MAS.Controls.ImageProceFlow.ImageSourceControl.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MAS.Controls.ImageProceFlow.ImageSourceControl.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/MAS.Controls.ImageProceFlow.ImageSourceViewModel.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MAS.Controls.ImageProceFlow.ImageSourceViewModel.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/MAS.Controls.ImageProceFlow.ImageViewerControl.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MAS.Controls.ImageProceFlow.ImageViewerControl.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/MAS.Controls.ImageProceFlow.ImageViewerViewModel.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MAS.Controls.ImageProceFlow.ImageViewerViewModel.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/MAS.Controls.ImageProceFlow.ModelTypes.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MAS.Controls.ImageProceFlow.ModelTypes.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/MAS.Controls.ImageProceFlow.ModuleConnection.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MAS.Controls.ImageProceFlow.ModuleConnection.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/MAS.Controls.ImageProceFlow.ModuleConnectionEventArgs.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MAS.Controls.ImageProceFlow.ModuleConnectionEventArgs.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/MAS.Controls.ImageProceFlow.ModuleInfo.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MAS.Controls.ImageProceFlow.ModuleInfo.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/MAS.Controls.ImageProceFlow.ModuleInputData.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MAS.Controls.ImageProceFlow.ModuleInputData.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/MAS.Controls.ImageProceFlow.ModuleViewModelData.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MAS.Controls.ImageProceFlow.ModuleViewModelData.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/MAS.Controls.ImageProceFlow.ModuleWithConnections.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MAS.Controls.ImageProceFlow.ModuleWithConnections.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/MAS.Controls.ImageProceFlow.ModulesControlBase-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MAS.Controls.ImageProceFlow.ModulesControlBase-1.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/MAS.Controls.ImageProceFlow.ModulesViewModelBase.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MAS.Controls.ImageProceFlow.ModulesViewModelBase.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/MAS.Controls.ImageProceFlow.TemplateMatchingControl.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MAS.Controls.ImageProceFlow.TemplateMatchingControl.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/MAS.Controls.ImageProceFlow.TemplateMatchingOption.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MAS.Controls.ImageProceFlow.TemplateMatchingOption.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/MAS.Controls.ImageProceFlow.TemplateMatchingViewModel.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MAS.Controls.ImageProceFlow.TemplateMatchingViewModel.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/MAS.Controls.ImageProceFlow.VisionProjectEventArgs.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MAS.Controls.ImageProceFlow.VisionProjectEventArgs.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/MAS.Controls.ImageProceFlow.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MAS.Controls.ImageProceFlow.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/MAS.Controls.InteractiveDataFlow.CommInstantControl.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MAS.Controls.InteractiveDataFlow.CommInstantControl.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/MAS.Controls.InteractiveDataFlow.CommInstantViewModel.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MAS.Controls.InteractiveDataFlow.CommInstantViewModel.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/MAS.Controls.InteractiveDataFlow.ControlModel.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MAS.Controls.InteractiveDataFlow.ControlModel.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/MAS.Controls.InteractiveDataFlow.DataExportControl.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MAS.Controls.InteractiveDataFlow.DataExportControl.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/MAS.Controls.InteractiveDataFlow.DataExportViewModel.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MAS.Controls.InteractiveDataFlow.DataExportViewModel.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/MAS.Controls.InteractiveDataFlow.DbInstantControl.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MAS.Controls.InteractiveDataFlow.DbInstantControl.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/MAS.Controls.InteractiveDataFlow.DbInstantViewModel.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MAS.Controls.InteractiveDataFlow.DbInstantViewModel.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/MAS.Controls.InteractiveDataFlow.IInstanceCreateEventArgs.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MAS.Controls.InteractiveDataFlow.IInstanceCreateEventArgs.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/MAS.Controls.InteractiveDataFlow.IInstanceExpiredRemovedEventArgs.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MAS.Controls.InteractiveDataFlow.IInstanceExpiredRemovedEventArgs.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/MAS.Controls.InteractiveDataFlow.IInstanceRemovedEventArgs.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MAS.Controls.InteractiveDataFlow.IInstanceRemovedEventArgs.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/MAS.Controls.InteractiveDataFlow.IModule.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MAS.Controls.InteractiveDataFlow.IModule.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/MAS.Controls.InteractiveDataFlow.IModuleControlManager.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MAS.Controls.InteractiveDataFlow.IModuleControlManager.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/MAS.Controls.InteractiveDataFlow.IModuleControslFactory.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MAS.Controls.InteractiveDataFlow.IModuleControslFactory.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/MAS.Controls.InteractiveDataFlow.IModuleHandler.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MAS.Controls.InteractiveDataFlow.IModuleHandler.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/MAS.Controls.InteractiveDataFlow.IModuleLifecycle.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MAS.Controls.InteractiveDataFlow.IModuleLifecycle.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/MAS.Controls.InteractiveDataFlow.InstancesItem.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MAS.Controls.InteractiveDataFlow.InstancesItem.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/MAS.Controls.InteractiveDataFlow.ModulesControlBase-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MAS.Controls.InteractiveDataFlow.ModulesControlBase-1.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/MAS.Controls.InteractiveDataFlow.ModulesViewModelBase.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MAS.Controls.InteractiveDataFlow.ModulesViewModelBase.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/MAS.Controls.InteractiveDataFlow.ToolboxItemType.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MAS.Controls.InteractiveDataFlow.ToolboxItemType.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/MAS.Controls.InteractiveDataFlow.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MAS.Controls.InteractiveDataFlow.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/MAS.Controls.LoadAnimation.ILoadingService.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MAS.Controls.LoadAnimation.ILoadingService.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/MAS.Controls.LoadAnimation.LoadAnimationControl.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MAS.Controls.LoadAnimation.LoadAnimationControl.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/MAS.Controls.LoadAnimation.LoadingCircle.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MAS.Controls.LoadAnimation.LoadingCircle.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/MAS.Controls.LoadAnimation.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MAS.Controls.LoadAnimation.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/MAS.Controls.Models.NavigationCard.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MAS.Controls.Models.NavigationCard.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/MAS.Controls.Models.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MAS.Controls.Models.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/MAS.Controls.Notification.INotificationHistoryService.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MAS.Controls.Notification.INotificationHistoryService.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/MAS.Controls.Notification.INotificationService.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MAS.Controls.Notification.INotificationService.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/MAS.Controls.Notification.ITipsNotificationService.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MAS.Controls.Notification.ITipsNotificationService.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/MAS.Controls.Notification.ITrayNotificationService.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MAS.Controls.Notification.ITrayNotificationService.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/MAS.Controls.Notification.InfoPosition.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MAS.Controls.Notification.InfoPosition.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/MAS.Controls.Notification.NotificationRecord.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MAS.Controls.Notification.NotificationRecord.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/MAS.Controls.Notification.NotificationType.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MAS.Controls.Notification.NotificationType.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/MAS.Controls.Notification.RoundNotification.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MAS.Controls.Notification.RoundNotification.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/MAS.Controls.Notification.TipsNotificationControl.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MAS.Controls.Notification.TipsNotificationControl.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/MAS.Controls.Notification.ToastNotification.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MAS.Controls.Notification.ToastNotification.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/MAS.Controls.Notification.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MAS.Controls.Notification.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/MAS.Controls.NumberAnimation.ChartsNumberAnimationControl.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MAS.Controls.NumberAnimation.ChartsNumberAnimationControl.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/MAS.Controls.NumberAnimation.RollingNumberItemControl.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MAS.Controls.NumberAnimation.RollingNumberItemControl.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/MAS.Controls.NumberAnimation.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MAS.Controls.NumberAnimation.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/MAS.Controls.ProjectCardControl.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MAS.Controls.ProjectCardControl.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/MAS.Controls.ResizablePopupControl.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MAS.Controls.ResizablePopupControl.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/MAS.Controls.RunState.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MAS.Controls.RunState.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/MAS.Controls.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MAS.Controls.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/MAS.DataCache.IDataCacheService.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MAS.DataCache.IDataCacheService.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/MAS.DataCache.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MAS.DataCache.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/MAS.DataExport.DataExportModuleHandler.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MAS.DataExport.DataExportModuleHandler.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/MAS.DataExport.DataExportServiceWrapper.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MAS.DataExport.DataExportServiceWrapper.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/MAS.DataExport.DataExportStatusModel.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MAS.DataExport.DataExportStatusModel.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/MAS.DataExport.ExcelExporterHelper.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MAS.DataExport.ExcelExporterHelper.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/MAS.DataExport.ExportOptions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MAS.DataExport.ExportOptions.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/MAS.DataExport.ExportScriptAttribute.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MAS.DataExport.ExportScriptAttribute.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/MAS.DataExport.IDataExportBuildConfig.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MAS.DataExport.IDataExportBuildConfig.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/MAS.DataExport.IDataExportConfig.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MAS.DataExport.IDataExportConfig.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/MAS.DataExport.IDataExportService.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MAS.DataExport.IDataExportService.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/MAS.DataExport.IDataExportServiceFactory.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MAS.DataExport.IDataExportServiceFactory.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/MAS.DataExport.IDataExportTaskHandler.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MAS.DataExport.IDataExportTaskHandler.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/MAS.DataExport.IDataExportTaskHandlerFactory.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MAS.DataExport.IDataExportTaskHandlerFactory.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/MAS.DataExport.IExportScript-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MAS.DataExport.IExportScript-1.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/MAS.DataExport.IgnoreInExcelExportAttribute.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MAS.DataExport.IgnoreInExcelExportAttribute.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/MAS.DataExport.ImageInserterHelper.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MAS.DataExport.ImageInserterHelper.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/MAS.DataExport.ImageSize.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MAS.DataExport.ImageSize.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/MAS.DataExport.InstanceCreateEventArgs.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MAS.DataExport.InstanceCreateEventArgs.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/MAS.DataExport.InstanceRemovedEventArgs.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MAS.DataExport.InstanceRemovedEventArgs.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/MAS.DataExport.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MAS.DataExport.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/MAS.Database.ColumnAttribute.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MAS.Database.ColumnAttribute.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/MAS.Database.DataAccess.CapacityUtilizationEntity.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MAS.Database.DataAccess.CapacityUtilizationEntity.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/MAS.Database.DataAccess.EquipmentDataEntity.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MAS.Database.DataAccess.EquipmentDataEntity.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/MAS.Database.DataAccess.GenerateGetAllSqlHelper.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MAS.Database.DataAccess.GenerateGetAllSqlHelper.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/MAS.Database.DataAccess.GenerateSqlHelper.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MAS.Database.DataAccess.GenerateSqlHelper.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/MAS.Database.DataAccess.HourlyProductionRecordEntity.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MAS.Database.DataAccess.HourlyProductionRecordEntity.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/MAS.Database.DataAccess.ICrudHandler-2.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MAS.Database.DataAccess.ICrudHandler-2.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/MAS.Database.DataAccess.IDataMapper-2.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MAS.Database.DataAccess.IDataMapper-2.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/MAS.Database.DataAccess.IRepository-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MAS.Database.DataAccess.IRepository-1.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/MAS.Database.DataAccess.MetadataQueriesHelper.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MAS.Database.DataAccess.MetadataQueriesHelper.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/MAS.Database.DataAccess.ProductionRecordEntity.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MAS.Database.DataAccess.ProductionRecordEntity.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/MAS.Database.DataAccess.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MAS.Database.DataAccess.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/MAS.Database.DataReaderExtensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MAS.Database.DataReaderExtensions.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/MAS.Database.DatabaseHandlerAttribute.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MAS.Database.DatabaseHandlerAttribute.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/MAS.Database.DatabaseModel.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MAS.Database.DatabaseModel.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/MAS.Database.DatabaseModuleHandler.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MAS.Database.DatabaseModuleHandler.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/MAS.Database.DatabaseServiceWrapper.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MAS.Database.DatabaseServiceWrapper.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/MAS.Database.DatabaseType.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MAS.Database.DatabaseType.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/MAS.Database.DbCommandExtensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MAS.Database.DbCommandExtensions.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/MAS.Database.DbHelper.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MAS.Database.DbHelper.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/MAS.Database.EfficiencyHelper.EfficiencyLevel.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MAS.Database.EfficiencyHelper.EfficiencyLevel.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/MAS.Database.EfficiencyHelper.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MAS.Database.EfficiencyHelper.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/MAS.Database.IDatabaseConfig.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MAS.Database.IDatabaseConfig.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/MAS.Database.IDatabaseOperations.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MAS.Database.IDatabaseOperations.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/MAS.Database.IDatabaseService.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MAS.Database.IDatabaseService.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/MAS.Database.IDatabaseServiceFactory.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MAS.Database.IDatabaseServiceFactory.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/MAS.Database.IDatabaseTaskHandler.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MAS.Database.IDatabaseTaskHandler.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/MAS.Database.IDbBuildConfig.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MAS.Database.IDbBuildConfig.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/MAS.Database.InstanceCreateEventArgs.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MAS.Database.InstanceCreateEventArgs.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/MAS.Database.InstanceExpiredRemovedEventArgs.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MAS.Database.InstanceExpiredRemovedEventArgs.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/MAS.Database.InstanceRemovedEventArgs.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MAS.Database.InstanceRemovedEventArgs.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/MAS.Database.SkipUpdateIfValueAttribute.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MAS.Database.SkipUpdateIfValueAttribute.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/MAS.Database.TableAttribute.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MAS.Database.TableAttribute.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/MAS.Database.ValidationHelper.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MAS.Database.ValidationHelper.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/MAS.Database.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MAS.Database.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/MAS.EventAggregator.IEventAggregatorService.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MAS.EventAggregator.IEventAggregatorService.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/MAS.EventAggregator.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MAS.EventAggregator.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/MAS.Events.DataUpdateEvent-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MAS.Events.DataUpdateEvent-1.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/MAS.Events.ImageProceFlow.ConnectionSetupEvent.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MAS.Events.ImageProceFlow.ConnectionSetupEvent.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/MAS.Events.ImageProceFlow.ModuleDeletionEvent.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MAS.Events.ImageProceFlow.ModuleDeletionEvent.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/MAS.Events.ImageProceFlow.OutputMouseEvent.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MAS.Events.ImageProceFlow.OutputMouseEvent.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/MAS.Events.ImageProceFlow.OutputMouseLeftButtonDownEvent.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MAS.Events.ImageProceFlow.OutputMouseLeftButtonDownEvent.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/MAS.Events.ImageProceFlow.OutputMouseUpEvent.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MAS.Events.ImageProceFlow.OutputMouseUpEvent.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/MAS.Events.ImageProceFlow.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MAS.Events.ImageProceFlow.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/MAS.Events.InstantInformation.ControlsDeleteEvent.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MAS.Events.InstantInformation.ControlsDeleteEvent.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/MAS.Events.InstantInformation.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MAS.Events.InstantInformation.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/MAS.Events.InstantMessageEvent.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MAS.Events.InstantMessageEvent.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/MAS.Events.NavigationEvent.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MAS.Events.NavigationEvent.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/MAS.Events.ObjectDetectionEvent.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MAS.Events.ObjectDetectionEvent.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/MAS.Events.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MAS.Events.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/MAS.FileSystem.FileHelper.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MAS.FileSystem.FileHelper.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/MAS.FileSystem.IFileSavingService.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MAS.FileSystem.IFileSavingService.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/MAS.FileSystem.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MAS.FileSystem.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/MAS.InstantMessage.IInstantMessagingService.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MAS.InstantMessage.IInstantMessagingService.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/MAS.InstantMessage.IInstantPublishMessageService.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MAS.InstantMessage.IInstantPublishMessageService.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/MAS.InstantMessage.InfoLevel.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MAS.InstantMessage.InfoLevel.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/MAS.InstantMessage.InstantMessageHelper.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MAS.InstantMessage.InstantMessageHelper.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/MAS.InstantMessage.InstantMessageModel.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MAS.InstantMessage.InstantMessageModel.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/MAS.InstantMessage.MessageType.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MAS.InstantMessage.MessageType.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/MAS.InstantMessage.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MAS.InstantMessage.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/MAS.Loggers.ICommunicationLogger.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MAS.Loggers.ICommunicationLogger.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/MAS.Loggers.ILogger.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MAS.Loggers.ILogger.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/MAS.Loggers.INetworkLogger.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MAS.Loggers.INetworkLogger.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/MAS.Loggers.ISystemLogger.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MAS.Loggers.ISystemLogger.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/MAS.Loggers.LoggerHelper.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MAS.Loggers.LoggerHelper.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/MAS.Loggers.NLogService.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MAS.Loggers.NLogService.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/MAS.Loggers.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MAS.Loggers.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/MAS.Monaco.BaseMessage.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MAS.Monaco.BaseMessage.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/MAS.Monaco.CompileStatusMessage.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MAS.Monaco.CompileStatusMessage.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/MAS.Monaco.EditorStatusMessage.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MAS.Monaco.EditorStatusMessage.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/MAS.Monaco.IMonacoService.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MAS.Monaco.IMonacoService.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/MAS.Monaco.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MAS.Monaco.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/MAS.Security.IEncryptionService.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MAS.Security.IEncryptionService.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/MAS.Security.IUserRightsService.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MAS.Security.IUserRightsService.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/MAS.Security.PasswordHelper.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MAS.Security.PasswordHelper.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/MAS.Security.UserEventArgs.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MAS.Security.UserEventArgs.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/MAS.Security.UserInfo.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MAS.Security.UserInfo.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/MAS.Security.UserPermission.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MAS.Security.UserPermission.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/MAS.Security.ValidationResult.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MAS.Security.ValidationResult.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/MAS.Security.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MAS.Security.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/MAS.Vision.Helpers.TemplateMatchingHelper.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MAS.Vision.Helpers.TemplateMatchingHelper.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/MAS.Vision.Helpers.VideoCaptureHelper.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MAS.Vision.Helpers.VideoCaptureHelper.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/MAS.Vision.Helpers.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MAS.Vision.Helpers.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/MAS.Vision.ICameraParametersConfig.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MAS.Vision.ICameraParametersConfig.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/MAS.Vision.IImageTypeConversion.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MAS.Vision.IImageTypeConversion.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/MAS.Vision.IMatchTemplateConfig.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MAS.Vision.IMatchTemplateConfig.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/MAS.Vision.IMatchTemplateService.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MAS.Vision.IMatchTemplateService.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/MAS.Vision.IObjectDetectionCommService.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MAS.Vision.IObjectDetectionCommService.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/MAS.Vision.IObjectDetectionConfig.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MAS.Vision.IObjectDetectionConfig.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/MAS.Vision.IObjectDetectionService.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MAS.Vision.IObjectDetectionService.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/MAS.Vision.IPreprocessingImageTools.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MAS.Vision.IPreprocessingImageTools.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/MAS.Vision.ITemplateImageStorage.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MAS.Vision.ITemplateImageStorage.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/MAS.Vision.IVisionConfigBase.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MAS.Vision.IVisionConfigBase.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/MAS.Vision.ImageHelper.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MAS.Vision.ImageHelper.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/MAS.Vision.ImageInfoHelper.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MAS.Vision.ImageInfoHelper.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/MAS.Vision.ImageInfoModel.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MAS.Vision.ImageInfoModel.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/MAS.Vision.ImagePreprocessingAlgorithm.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MAS.Vision.ImagePreprocessingAlgorithm.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/MAS.Vision.ImageProceFlow.ICamera.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MAS.Vision.ImageProceFlow.ICamera.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/MAS.Vision.ImageProceFlow.IColorConvertsions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MAS.Vision.ImageProceFlow.IColorConvertsions.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/MAS.Vision.ImageProceFlow.IColorRecognizer.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MAS.Vision.ImageProceFlow.IColorRecognizer.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/MAS.Vision.ImageProceFlow.ITemplateMatcher.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MAS.Vision.ImageProceFlow.ITemplateMatcher.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/MAS.Vision.ImageProceFlow.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MAS.Vision.ImageProceFlow.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/MAS.Vision.ImageProcessingAlgorithm.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MAS.Vision.ImageProcessingAlgorithm.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/MAS.Vision.ImageTemplateModel.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MAS.Vision.ImageTemplateModel.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/MAS.Vision.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MAS.Vision.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/MAS.WebView.IWebViewService.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MAS.WebView.IWebViewService.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/MAS.WebView.WebViewHelpers.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MAS.WebView.WebViewHelpers.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/MAS.WebView.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MAS.WebView.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Models.Configurations.DataExportBuildConfig.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Models.Configurations.DataExportBuildConfig.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Models.Configurations.DbBuildConfig.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Models.Configurations.DbBuildConfig.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Models.Configurations.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Models.Configurations.html"
+        }
+      },
+      "version": ""
+    },
+    {
       "type": "Toc",
       "source_relative_path": "api/toc.yml",
       "output": {
@@ -4269,6 +7839,26 @@
       "output": {
         ".html": {
           "relative_path": "content/App-Feature.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "content/BuildRun.md",
+      "output": {
+        ".html": {
+          "relative_path": "content/BuildRun.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "content/Command-line/docker.md",
+      "output": {
+        ".html": {
+          "relative_path": "content/Command-line/docker.html"
         }
       },
       "version": ""
@@ -4305,6 +7895,16 @@
     },
     {
       "type": "Conceptual",
+      "source_relative_path": "content/MAS-Communication/MultiNICStaticRoute.md",
+      "output": {
+        ".html": {
+          "relative_path": "content/MAS-Communication/MultiNICStaticRoute.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
       "source_relative_path": "content/MAS-Communication/OPC.UA.md",
       "output": {
         ".html": {
@@ -4319,6 +7919,16 @@
       "output": {
         ".html": {
           "relative_path": "content/MAS-Communication/S7Communication.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "content/MAS-Modules/MAS.Compilation.md",
+      "output": {
+        ".html": {
+          "relative_path": "content/MAS-Modules/MAS.Compilation.html"
         }
       },
       "version": ""
@@ -4365,6 +7975,16 @@
     },
     {
       "type": "Conceptual",
+      "source_relative_path": "content/MAS-Modules/MAS.Monaco.md",
+      "output": {
+        ".html": {
+          "relative_path": "content/MAS-Modules/MAS.Monaco.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
       "source_relative_path": "content/MAS-Modules/MAS.Vision.md",
       "output": {
         ".html": {
@@ -4382,6 +8002,16 @@
         },
         ".json": {
           "relative_path": "content/toc.json"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "documentation/README.md",
+      "output": {
+        ".html": {
+          "relative_path": "documentation/README.html"
         }
       },
       "version": ""

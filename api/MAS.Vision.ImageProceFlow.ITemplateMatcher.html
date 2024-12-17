@@ -1,0 +1,644 @@
+﻿<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+      <title>Interface ITemplateMatcher | DataMaster </title>
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta name="title" content="Interface ITemplateMatcher | DataMaster ">
+      
+      <meta name="description" content="模板匹配接口">
+      <link rel="icon" href="../images/favicon.ico">
+      <link rel="stylesheet" href="../public/docfx.min.css">
+      <link rel="stylesheet" href="../public/main.css">
+      <meta name="docfx:navrel" content="../toc.html">
+      <meta name="docfx:tocrel" content="toc.html">
+      
+      <meta name="docfx:rel" content="../">
+      
+      
+      
+      <meta name="loc:inThisArticle" content="In this article">
+      <meta name="loc:searchResultsCount" content="{count} results for &quot;{query}&quot;">
+      <meta name="loc:searchNoResults" content="No results for &quot;{query}&quot;">
+      <meta name="loc:tocFilter" content="Filter by title">
+      <meta name="loc:nextArticle" content="Next">
+      <meta name="loc:prevArticle" content="Previous">
+      <meta name="loc:themeLight" content="Light">
+      <meta name="loc:themeDark" content="Dark">
+      <meta name="loc:themeAuto" content="Auto">
+      <meta name="loc:changeTheme" content="Change theme">
+      <meta name="loc:copy" content="Copy">
+      <meta name="loc:downloadPdf" content="Download PDF">
+
+      <script type="module" src="./../public/docfx.min.js"></script>
+
+      <script>
+        const theme = localStorage.getItem('theme') || 'auto'
+        document.documentElement.setAttribute('data-bs-theme', theme === 'auto' ? (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light') : theme)
+      </script>
+
+  </head>
+
+  <body class="tex2jax_ignore" data-layout="" data-yaml-mime="ManagedReference">
+    <header class="bg-body border-bottom">
+      <nav id="autocollapse" class="navbar navbar-expand-md" role="navigation">
+        <div class="container-xxl flex-nowrap">
+          <a class="navbar-brand" href="../index.html">
+            <img id="logo" class="svg" src="../images/logo.svg" alt="DataMaster">
+            DataMaster
+          </a>
+          <button class="btn btn-lg d-md-none border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navpanel" aria-controls="navpanel" aria-expanded="false" aria-label="Toggle navigation">
+            <i class="bi bi-three-dots"></i>
+          </button>
+          <div class="collapse navbar-collapse" id="navpanel">
+            <div id="navbar">
+              <form class="search" role="search" id="search">
+                <i class="bi bi-search"></i>
+                <input class="form-control" id="search-query" type="search" disabled="" placeholder="Search" autocomplete="off" aria-label="Search">
+              </form>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <main class="container-xxl">
+      <div class="toc-offcanvas">
+        <div class="offcanvas-md offcanvas-start" tabindex="-1" id="tocOffcanvas" aria-labelledby="tocOffcanvasLabel">
+          <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="tocOffcanvasLabel">Table of Contents</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" data-bs-target="#tocOffcanvas" aria-label="Close"></button>
+          </div>
+          <div class="offcanvas-body">
+            <nav class="toc" id="toc"></nav>
+          </div>
+        </div>
+      </div>
+
+      <div class="content">
+        <div class="actionbar">
+          <button class="btn btn-lg border-0 d-md-none" type="button" data-bs-toggle="offcanvas" data-bs-target="#tocOffcanvas" aria-controls="tocOffcanvas" aria-expanded="false" aria-label="Show table of contents">
+            <i class="bi bi-list"></i>
+          </button>
+
+          <nav id="breadcrumb"></nav>
+        </div>
+
+        <article data-uid="MAS.Vision.ImageProceFlow.ITemplateMatcher">
+
+
+
+  <h1 id="MAS_Vision_ImageProceFlow_ITemplateMatcher" data-uid="MAS.Vision.ImageProceFlow.ITemplateMatcher" class="text-break">
+Interface ITemplateMatcher  <a class="header-action link-secondary" title="View source" href="https://bitbucket.org/mas-software/industrial-mes-net-platform-advanced/src/main/Modules/MAS.Vision/Interfaces/ImageProceFlow/ITemplateMatcher.cs#lines-19"><i class="bi bi-code-slash"></i></a>
+  </h1>
+
+  <div class="facts text-secondary">
+    <dl><dt>Namespace</dt><dd><a class="xref" href="MAS.html">MAS</a>.<a class="xref" href="MAS.Vision.html">Vision</a>.<a class="xref" href="MAS.Vision.ImageProceFlow.html">ImageProceFlow</a></dd></dl>
+  <dl><dt>Assembly</dt><dd>DataMaster.dll</dd></dl>
+  </div>
+
+  <div class="markdown summary"><p>模板匹配接口</p>
+</div>
+  <div class="markdown conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public interface ITemplateMatcher</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <h2 class="section" id="methods">Methods
+</h2>
+
+
+  <a id="MAS_Vision_ImageProceFlow_ITemplateMatcher_ProcessImage_" data-uid="MAS.Vision.ImageProceFlow.ITemplateMatcher.ProcessImage*"></a>
+
+  <h3 id="MAS_Vision_ImageProceFlow_ITemplateMatcher_ProcessImage_OpenCvSharp_Mat_OpenCvSharp_Mat_System_Double_OpenCvSharp_TemplateMatchModes_" data-uid="MAS.Vision.ImageProceFlow.ITemplateMatcher.ProcessImage(OpenCvSharp.Mat,OpenCvSharp.Mat,System.Double,OpenCvSharp.TemplateMatchModes)">
+  ProcessImage(Mat, Mat, double, TemplateMatchModes)
+  <a class="header-action link-secondary" title="View source" href="https://bitbucket.org/mas-software/industrial-mes-net-platform-advanced/src/main/Modules/MAS.Vision/Interfaces/ImageProceFlow/ITemplateMatcher.cs#lines-41"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>处理图像匹配</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">bool ProcessImage(Mat image, Mat template, double matchingValue, TemplateMatchModes matchMode)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>image</code> <span class="xref">Mat</span></dt>
+    <dd><p>图像</p>
+</dd>
+    <dt><code>template</code> <span class="xref">Mat</span></dt>
+    <dd><p>模板</p>
+</dd>
+    <dt><code>matchingValue</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.double">double</a></dt>
+    <dd><p>匹配阈值</p>
+</dd>
+    <dt><code>matchMode</code> <span class="xref">TemplateMatchModes</span></dt>
+    <dd><p>匹配方法</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd><p>如果匹配成功返回true，否则返回false</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="MAS_Vision_ImageProceFlow_ITemplateMatcher_ProcessImage_" data-uid="MAS.Vision.ImageProceFlow.ITemplateMatcher.ProcessImage*"></a>
+
+  <h3 id="MAS_Vision_ImageProceFlow_ITemplateMatcher_ProcessImage_OpenCvSharp_Mat_System_Collections_Generic_List_OpenCvSharp_Mat__System_Double_OpenCvSharp_TemplateMatchModes_" data-uid="MAS.Vision.ImageProceFlow.ITemplateMatcher.ProcessImage(OpenCvSharp.Mat,System.Collections.Generic.List{OpenCvSharp.Mat},System.Double,OpenCvSharp.TemplateMatchModes)">
+  ProcessImage(Mat, List&lt;Mat?&gt;, double, TemplateMatchModes)
+  <a class="header-action link-secondary" title="View source" href="https://bitbucket.org/mas-software/industrial-mes-net-platform-advanced/src/main/Modules/MAS.Vision/Interfaces/ImageProceFlow/ITemplateMatcher.cs#lines-31"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>处理图像匹配</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">bool ProcessImage(Mat image, List&lt;Mat?&gt; templates, double matchingValue, TemplateMatchModes matchMode)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>image</code> <span class="xref">Mat</span></dt>
+    <dd><p>图像</p>
+</dd>
+    <dt><code>templates</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1">List</a>&lt;<span class="xref">Mat</span>&gt;</dt>
+    <dd><p>模板列表</p>
+</dd>
+    <dt><code>matchingValue</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.double">double</a></dt>
+    <dd><p>匹配阈值</p>
+</dd>
+    <dt><code>matchMode</code> <span class="xref">TemplateMatchModes</span></dt>
+    <dd><p>匹配方法</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd><p>如果匹配成功返回true，否则返回false</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+  <h4 class="section" id="MAS_Vision_ImageProceFlow_ITemplateMatcher_ProcessImage_OpenCvSharp_Mat_System_Collections_Generic_List_OpenCvSharp_Mat__System_Double_OpenCvSharp_TemplateMatchModes__remarks">Remarks</h4>
+  <div class="markdown level1 remarks"><p>对模板列表进行匹配，直到成功或遍历结束</p>
+</div>
+
+
+
+
+  <a id="MAS_Vision_ImageProceFlow_ITemplateMatcher_ProcessImage_" data-uid="MAS.Vision.ImageProceFlow.ITemplateMatcher.ProcessImage*"></a>
+
+  <h3 id="MAS_Vision_ImageProceFlow_ITemplateMatcher_ProcessImage_System_Object_System_Collections_Generic_List_System_Object__System_Double_OpenCvSharp_TemplateMatchModes_" data-uid="MAS.Vision.ImageProceFlow.ITemplateMatcher.ProcessImage(System.Object,System.Collections.Generic.List{System.Object},System.Double,OpenCvSharp.TemplateMatchModes)">
+  ProcessImage(object, List&lt;object?&gt;, double, TemplateMatchModes)
+  <a class="header-action link-secondary" title="View source" href="https://bitbucket.org/mas-software/industrial-mes-net-platform-advanced/src/main/Modules/MAS.Vision/Interfaces/ImageProceFlow/ITemplateMatcher.cs#lines-54"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>处理图像匹配</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">bool ProcessImage(object image, List&lt;object?&gt; templates, double matchingValue, TemplateMatchModes matchMode)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>image</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">object</a></dt>
+    <dd><p>图像</p>
+</dd>
+    <dt><code>templates</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1">List</a>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">object</a>&gt;</dt>
+    <dd><p>模板列表</p>
+</dd>
+    <dt><code>matchingValue</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.double">double</a></dt>
+    <dd><p>匹配阈值</p>
+</dd>
+    <dt><code>matchMode</code> <span class="xref">TemplateMatchModes</span></dt>
+    <dd><p>匹配方法</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd><p>如果匹配成功返回true，否则返回false</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+  <h4 class="section" id="MAS_Vision_ImageProceFlow_ITemplateMatcher_ProcessImage_System_Object_System_Collections_Generic_List_System_Object__System_Double_OpenCvSharp_TemplateMatchModes__remarks">Remarks</h4>
+  <div class="markdown level1 remarks"><p>对模板列表进行匹配，直到成功或遍历结束</p>
+</div>
+
+
+
+
+  <a id="MAS_Vision_ImageProceFlow_ITemplateMatcher_ProcessImage_" data-uid="MAS.Vision.ImageProceFlow.ITemplateMatcher.ProcessImage*"></a>
+
+  <h3 id="MAS_Vision_ImageProceFlow_ITemplateMatcher_ProcessImage_System_Object_System_Object_System_Double_OpenCvSharp_TemplateMatchModes_" data-uid="MAS.Vision.ImageProceFlow.ITemplateMatcher.ProcessImage(System.Object,System.Object,System.Double,OpenCvSharp.TemplateMatchModes)">
+  ProcessImage(object, object, double, TemplateMatchModes)
+  <a class="header-action link-secondary" title="View source" href="https://bitbucket.org/mas-software/industrial-mes-net-platform-advanced/src/main/Modules/MAS.Vision/Interfaces/ImageProceFlow/ITemplateMatcher.cs#lines-64"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>处理图像匹配</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">bool ProcessImage(object image, object template, double matchingValue, TemplateMatchModes matchMode)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>image</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">object</a></dt>
+    <dd><p>图像</p>
+</dd>
+    <dt><code>template</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">object</a></dt>
+    <dd><p>模板</p>
+</dd>
+    <dt><code>matchingValue</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.double">double</a></dt>
+    <dd><p>匹配阈值</p>
+</dd>
+    <dt><code>matchMode</code> <span class="xref">TemplateMatchModes</span></dt>
+    <dd><p>匹配方法</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd><p>如果匹配成功返回true，否则返回false</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="MAS_Vision_ImageProceFlow_ITemplateMatcher_ProcessImage_" data-uid="MAS.Vision.ImageProceFlow.ITemplateMatcher.ProcessImage*"></a>
+
+  <h3 id="MAS_Vision_ImageProceFlow_ITemplateMatcher_ProcessImage_System_Windows_Media_ImageSource_System_Collections_Generic_List_System_Windows_Media_ImageSource__System_Double_OpenCvSharp_TemplateMatchModes_" data-uid="MAS.Vision.ImageProceFlow.ITemplateMatcher.ProcessImage(System.Windows.Media.ImageSource,System.Collections.Generic.List{System.Windows.Media.ImageSource},System.Double,OpenCvSharp.TemplateMatchModes)">
+  ProcessImage(ImageSource, List&lt;ImageSource?&gt;, double, TemplateMatchModes)
+  <a class="header-action link-secondary" title="View source" href="https://bitbucket.org/mas-software/industrial-mes-net-platform-advanced/src/main/Modules/MAS.Vision/Interfaces/ImageProceFlow/ITemplateMatcher.cs#lines-77"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>处理图像匹配</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">bool ProcessImage(ImageSource image, List&lt;ImageSource?&gt; templates, double matchingValue, TemplateMatchModes matchMode)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>image</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.windows.media.imagesource">ImageSource</a></dt>
+    <dd><p>图像</p>
+</dd>
+    <dt><code>templates</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1">List</a>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.windows.media.imagesource">ImageSource</a>&gt;</dt>
+    <dd><p>模板列表</p>
+</dd>
+    <dt><code>matchingValue</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.double">double</a></dt>
+    <dd><p>匹配阈值</p>
+</dd>
+    <dt><code>matchMode</code> <span class="xref">TemplateMatchModes</span></dt>
+    <dd><p>匹配方法</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd><p>如果匹配成功返回true，否则返回false</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+  <h4 class="section" id="MAS_Vision_ImageProceFlow_ITemplateMatcher_ProcessImage_System_Windows_Media_ImageSource_System_Collections_Generic_List_System_Windows_Media_ImageSource__System_Double_OpenCvSharp_TemplateMatchModes__remarks">Remarks</h4>
+  <div class="markdown level1 remarks"><p>对模板列表进行匹配，直到成功或遍历结束</p>
+</div>
+
+
+
+
+  <a id="MAS_Vision_ImageProceFlow_ITemplateMatcher_ProcessImage_" data-uid="MAS.Vision.ImageProceFlow.ITemplateMatcher.ProcessImage*"></a>
+
+  <h3 id="MAS_Vision_ImageProceFlow_ITemplateMatcher_ProcessImage_System_Windows_Media_ImageSource_System_Windows_Media_ImageSource_System_Double_OpenCvSharp_TemplateMatchModes_" data-uid="MAS.Vision.ImageProceFlow.ITemplateMatcher.ProcessImage(System.Windows.Media.ImageSource,System.Windows.Media.ImageSource,System.Double,OpenCvSharp.TemplateMatchModes)">
+  ProcessImage(ImageSource, ImageSource, double, TemplateMatchModes)
+  <a class="header-action link-secondary" title="View source" href="https://bitbucket.org/mas-software/industrial-mes-net-platform-advanced/src/main/Modules/MAS.Vision/Interfaces/ImageProceFlow/ITemplateMatcher.cs#lines-87"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>处理图像匹配</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">bool ProcessImage(ImageSource image, ImageSource template, double matchingValue, TemplateMatchModes matchMode)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>image</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.windows.media.imagesource">ImageSource</a></dt>
+    <dd><p>图像</p>
+</dd>
+    <dt><code>template</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.windows.media.imagesource">ImageSource</a></dt>
+    <dd><p>模板</p>
+</dd>
+    <dt><code>matchingValue</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.double">double</a></dt>
+    <dd><p>匹配阈值</p>
+</dd>
+    <dt><code>matchMode</code> <span class="xref">TemplateMatchModes</span></dt>
+    <dd><p>匹配方法</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd><p>如果匹配成功返回true，否则返回false</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="MAS_Vision_ImageProceFlow_ITemplateMatcher_ProcessImage_" data-uid="MAS.Vision.ImageProceFlow.ITemplateMatcher.ProcessImage*"></a>
+
+  <h3 id="MAS_Vision_ImageProceFlow_ITemplateMatcher_ProcessImage_System_Windows_Media_Imaging_BitmapSource_System_Collections_Generic_List_System_Windows_Media_Imaging_BitmapSource__System_Double_OpenCvSharp_TemplateMatchModes_" data-uid="MAS.Vision.ImageProceFlow.ITemplateMatcher.ProcessImage(System.Windows.Media.Imaging.BitmapSource,System.Collections.Generic.List{System.Windows.Media.Imaging.BitmapSource},System.Double,OpenCvSharp.TemplateMatchModes)">
+  ProcessImage(BitmapSource, List&lt;BitmapSource?&gt;, double, TemplateMatchModes)
+  <a class="header-action link-secondary" title="View source" href="https://bitbucket.org/mas-software/industrial-mes-net-platform-advanced/src/main/Modules/MAS.Vision/Interfaces/ImageProceFlow/ITemplateMatcher.cs#lines-123"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>处理图像匹配</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">bool ProcessImage(BitmapSource image, List&lt;BitmapSource?&gt; templates, double matchingValue, TemplateMatchModes matchMode)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>image</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.windows.media.imaging.bitmapsource">BitmapSource</a></dt>
+    <dd><p>图像</p>
+</dd>
+    <dt><code>templates</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1">List</a>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.windows.media.imaging.bitmapsource">BitmapSource</a>&gt;</dt>
+    <dd><p>模板列表</p>
+</dd>
+    <dt><code>matchingValue</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.double">double</a></dt>
+    <dd><p>匹配阈值</p>
+</dd>
+    <dt><code>matchMode</code> <span class="xref">TemplateMatchModes</span></dt>
+    <dd><p>匹配方法</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd><p>如果匹配成功返回true，否则返回false</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+  <h4 class="section" id="MAS_Vision_ImageProceFlow_ITemplateMatcher_ProcessImage_System_Windows_Media_Imaging_BitmapSource_System_Collections_Generic_List_System_Windows_Media_Imaging_BitmapSource__System_Double_OpenCvSharp_TemplateMatchModes__remarks">Remarks</h4>
+  <div class="markdown level1 remarks"><p>对模板列表进行匹配，直到成功或遍历结束</p>
+</div>
+
+
+
+
+  <a id="MAS_Vision_ImageProceFlow_ITemplateMatcher_ProcessImage_" data-uid="MAS.Vision.ImageProceFlow.ITemplateMatcher.ProcessImage*"></a>
+
+  <h3 id="MAS_Vision_ImageProceFlow_ITemplateMatcher_ProcessImage_System_Windows_Media_Imaging_BitmapSource_System_Windows_Media_Imaging_BitmapSource_System_Double_OpenCvSharp_TemplateMatchModes_" data-uid="MAS.Vision.ImageProceFlow.ITemplateMatcher.ProcessImage(System.Windows.Media.Imaging.BitmapSource,System.Windows.Media.Imaging.BitmapSource,System.Double,OpenCvSharp.TemplateMatchModes)">
+  ProcessImage(BitmapSource, BitmapSource, double, TemplateMatchModes)
+  <a class="header-action link-secondary" title="View source" href="https://bitbucket.org/mas-software/industrial-mes-net-platform-advanced/src/main/Modules/MAS.Vision/Interfaces/ImageProceFlow/ITemplateMatcher.cs#lines-133"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>处理图像匹配</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">bool ProcessImage(BitmapSource image, BitmapSource template, double matchingValue, TemplateMatchModes matchMode)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>image</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.windows.media.imaging.bitmapsource">BitmapSource</a></dt>
+    <dd><p>图像</p>
+</dd>
+    <dt><code>template</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.windows.media.imaging.bitmapsource">BitmapSource</a></dt>
+    <dd><p>模板</p>
+</dd>
+    <dt><code>matchingValue</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.double">double</a></dt>
+    <dd><p>匹配阈值</p>
+</dd>
+    <dt><code>matchMode</code> <span class="xref">TemplateMatchModes</span></dt>
+    <dd><p>匹配方法</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd><p>如果匹配成功返回true，否则返回false</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="MAS_Vision_ImageProceFlow_ITemplateMatcher_ProcessImage_" data-uid="MAS.Vision.ImageProceFlow.ITemplateMatcher.ProcessImage*"></a>
+
+  <h3 id="MAS_Vision_ImageProceFlow_ITemplateMatcher_ProcessImage_System_Windows_Media_Imaging_WriteableBitmap_System_Collections_Generic_List_System_Windows_Media_Imaging_WriteableBitmap__System_Double_OpenCvSharp_TemplateMatchModes_" data-uid="MAS.Vision.ImageProceFlow.ITemplateMatcher.ProcessImage(System.Windows.Media.Imaging.WriteableBitmap,System.Collections.Generic.List{System.Windows.Media.Imaging.WriteableBitmap},System.Double,OpenCvSharp.TemplateMatchModes)">
+  ProcessImage(WriteableBitmap, List&lt;WriteableBitmap?&gt;, double, TemplateMatchModes)
+  <a class="header-action link-secondary" title="View source" href="https://bitbucket.org/mas-software/industrial-mes-net-platform-advanced/src/main/Modules/MAS.Vision/Interfaces/ImageProceFlow/ITemplateMatcher.cs#lines-100"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>处理图像匹配</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">bool ProcessImage(WriteableBitmap image, List&lt;WriteableBitmap?&gt; templates, double matchingValue, TemplateMatchModes matchMode)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>image</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.windows.media.imaging.writeablebitmap">WriteableBitmap</a></dt>
+    <dd><p>图像</p>
+</dd>
+    <dt><code>templates</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1">List</a>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.windows.media.imaging.writeablebitmap">WriteableBitmap</a>&gt;</dt>
+    <dd><p>模板列表</p>
+</dd>
+    <dt><code>matchingValue</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.double">double</a></dt>
+    <dd><p>匹配阈值</p>
+</dd>
+    <dt><code>matchMode</code> <span class="xref">TemplateMatchModes</span></dt>
+    <dd><p>匹配方法</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd><p>如果匹配成功返回true，否则返回false</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+  <h4 class="section" id="MAS_Vision_ImageProceFlow_ITemplateMatcher_ProcessImage_System_Windows_Media_Imaging_WriteableBitmap_System_Collections_Generic_List_System_Windows_Media_Imaging_WriteableBitmap__System_Double_OpenCvSharp_TemplateMatchModes__remarks">Remarks</h4>
+  <div class="markdown level1 remarks"><p>对模板列表进行匹配，直到成功或遍历结束</p>
+</div>
+
+
+
+
+  <a id="MAS_Vision_ImageProceFlow_ITemplateMatcher_ProcessImage_" data-uid="MAS.Vision.ImageProceFlow.ITemplateMatcher.ProcessImage*"></a>
+
+  <h3 id="MAS_Vision_ImageProceFlow_ITemplateMatcher_ProcessImage_System_Windows_Media_Imaging_WriteableBitmap_System_Windows_Media_Imaging_WriteableBitmap_System_Double_OpenCvSharp_TemplateMatchModes_" data-uid="MAS.Vision.ImageProceFlow.ITemplateMatcher.ProcessImage(System.Windows.Media.Imaging.WriteableBitmap,System.Windows.Media.Imaging.WriteableBitmap,System.Double,OpenCvSharp.TemplateMatchModes)">
+  ProcessImage(WriteableBitmap, WriteableBitmap, double, TemplateMatchModes)
+  <a class="header-action link-secondary" title="View source" href="https://bitbucket.org/mas-software/industrial-mes-net-platform-advanced/src/main/Modules/MAS.Vision/Interfaces/ImageProceFlow/ITemplateMatcher.cs#lines-110"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>处理图像匹配</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">bool ProcessImage(WriteableBitmap image, WriteableBitmap template, double matchingValue, TemplateMatchModes matchMode)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>image</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.windows.media.imaging.writeablebitmap">WriteableBitmap</a></dt>
+    <dd><p>图像</p>
+</dd>
+    <dt><code>template</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.windows.media.imaging.writeablebitmap">WriteableBitmap</a></dt>
+    <dd><p>模板</p>
+</dd>
+    <dt><code>matchingValue</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.double">double</a></dt>
+    <dd><p>匹配阈值</p>
+</dd>
+    <dt><code>matchMode</code> <span class="xref">TemplateMatchModes</span></dt>
+    <dd><p>匹配方法</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd><p>如果匹配成功返回true，否则返回false</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+</article>
+
+        <div class="contribution d-print-none">
+          <a href="https://bitbucket.org/mas-software/industrial-mes-net-platform-advanced/src/main/Modules/MAS.Vision/Interfaces/ImageProceFlow/ITemplateMatcher.cs#lines-19" class="edit-link">Edit this page</a>
+        </div>
+
+
+      </div>
+
+      <div class="affix">
+        <nav id="affix"></nav>
+      </div>
+    </main>
+
+    <div class="container-xxl search-results" id="search-results"></div>
+
+    <footer class="border-top text-secondary">
+      <div class="container-xxl">
+        <div class="flex-fill">
+          <span>Made with <a href="https://dotnet.github.io/docfx" rel="noreferrer">docfx</a>,  | Copyright © 2024 MAS(厦门威光). All rights reserved.</span>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>

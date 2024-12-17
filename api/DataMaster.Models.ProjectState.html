@@ -89,7 +89,7 @@
 
 
   <h1 id="DataMaster_Models_ProjectState" data-uid="DataMaster.Models.ProjectState" class="text-break">
-Class ProjectState  <a class="header-action link-secondary" title="View source" href="https://bitbucket.org/mas-software/industrial-mes-net-platform-advanced/src/feature/database/Models/ProjectState.cs#lines-31"><i class="bi bi-code-slash"></i></a>
+Class ProjectState  <a class="header-action link-secondary" title="View source" href="https://bitbucket.org/mas-software/industrial-mes-net-platform-advanced/src/main/Models/ProjectState.cs#lines-31"><i class="bi bi-code-slash"></i></a>
   </h1>
 
   <div class="facts text-secondary">
@@ -135,6 +135,9 @@ Class ProjectState  <a class="header-action link-secondary" title="View source" 
       <a class="xref" href="DataMaster.Abstracts.ViewModelBase.html#DataMaster_Abstracts_ViewModelBase_LanguageManager">ViewModelBase.LanguageManager</a>
     </div>
     <div>
+      <a class="xref" href="DataMaster.Abstracts.ViewModelBase.html#DataMaster_Abstracts_ViewModelBase_IsBusy">ViewModelBase.IsBusy</a>
+    </div>
+    <div>
       <a class="xref" href="DataMaster.Abstracts.ViewModelBase.html#DataMaster_Abstracts_ViewModelBase_BusyCursor">ViewModelBase.BusyCursor</a>
     </div>
     <div>
@@ -148,6 +151,15 @@ Class ProjectState  <a class="header-action link-secondary" title="View source" 
     </div>
     <div>
       <a class="xref" href="DataMaster.Abstracts.ViewModelBase.html#DataMaster_Abstracts_ViewModelBase_SetField__1___0____0_System_String_">ViewModelBase.SetField&lt;T&gt;(ref T, T, string)</a>
+    </div>
+    <div>
+      <a class="xref" href="DataMaster.Abstracts.ViewModelBase.html#DataMaster_Abstracts_ViewModelBase_ResetCursor">ViewModelBase.ResetCursor()</a>
+    </div>
+    <div>
+      <a class="xref" href="DataMaster.Abstracts.ViewModelBase.html#DataMaster_Abstracts_ViewModelBase_SetBusyCursor">ViewModelBase.SetBusyCursor()</a>
+    </div>
+    <div>
+      <a class="xref" href="DataMaster.Abstracts.ViewModelBase.html#DataMaster_Abstracts_ViewModelBase_SetWorkingCursor">ViewModelBase.SetWorkingCursor()</a>
     </div>
     <div>
       <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)">object.Equals(object)</a>
@@ -185,7 +197,7 @@ Class ProjectState  <a class="header-action link-secondary" title="View source" 
 
   <h3 id="DataMaster_Models_ProjectState_FileDescription" data-uid="DataMaster.Models.ProjectState.FileDescription">
   FileDescription
-  <a class="header-action link-secondary" title="View source" href="https://bitbucket.org/mas-software/industrial-mes-net-platform-advanced/src/feature/database/Models/ProjectState.cs#lines-45"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://bitbucket.org/mas-software/industrial-mes-net-platform-advanced/src/main/Models/ProjectState.cs#lines-49"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>获取或设置工程描述，新建 or 打开</p>
@@ -217,7 +229,7 @@ Class ProjectState  <a class="header-action link-secondary" title="View source" 
 
   <h3 id="DataMaster_Models_ProjectState_FileName" data-uid="DataMaster.Models.ProjectState.FileName">
   FileName
-  <a class="header-action link-secondary" title="View source" href="https://bitbucket.org/mas-software/industrial-mes-net-platform-advanced/src/feature/database/Models/ProjectState.cs#lines-54"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://bitbucket.org/mas-software/industrial-mes-net-platform-advanced/src/main/Models/ProjectState.cs#lines-58"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>获取或设置文件名</p>
@@ -225,7 +237,7 @@ Class ProjectState  <a class="header-action link-secondary" title="View source" 
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public string FileName { get; set; }</code></pre>
+    <pre><code class="lang-csharp hljs">public string? FileName { get; set; }</code></pre>
   </div>
 
 
@@ -249,7 +261,7 @@ Class ProjectState  <a class="header-action link-secondary" title="View source" 
 
   <h3 id="DataMaster_Models_ProjectState_FilePath" data-uid="DataMaster.Models.ProjectState.FilePath">
   FilePath
-  <a class="header-action link-secondary" title="View source" href="https://bitbucket.org/mas-software/industrial-mes-net-platform-advanced/src/feature/database/Models/ProjectState.cs#lines-36"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://bitbucket.org/mas-software/industrial-mes-net-platform-advanced/src/main/Models/ProjectState.cs#lines-36"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>获取或设置文件路径</p>
@@ -257,7 +269,7 @@ Class ProjectState  <a class="header-action link-secondary" title="View source" 
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public string FilePath { get; set; }</code></pre>
+    <pre><code class="lang-csharp hljs">public string? FilePath { get; set; }</code></pre>
   </div>
 
 
@@ -277,11 +289,43 @@ Class ProjectState  <a class="header-action link-secondary" title="View source" 
 
 
 
+  <a id="DataMaster_Models_ProjectState_HasEverChanged_" data-uid="DataMaster.Models.ProjectState.HasEverChanged*"></a>
+
+  <h3 id="DataMaster_Models_ProjectState_HasEverChanged" data-uid="DataMaster.Models.ProjectState.HasEverChanged">
+  HasEverChanged
+  <a class="header-action link-secondary" title="View source" href="https://bitbucket.org/mas-software/industrial-mes-net-platform-advanced/src/main/Models/ProjectState.cs#lines-98"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>获取是否在整个周期中曾经被更改并且保存</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool HasEverChanged { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
   <a id="DataMaster_Models_ProjectState_IsDirty_" data-uid="DataMaster.Models.ProjectState.IsDirty*"></a>
 
   <h3 id="DataMaster_Models_ProjectState_IsDirty" data-uid="DataMaster.Models.ProjectState.IsDirty">
   IsDirty
-  <a class="header-action link-secondary" title="View source" href="https://bitbucket.org/mas-software/industrial-mes-net-platform-advanced/src/feature/database/Models/ProjectState.cs#lines-64"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://bitbucket.org/mas-software/industrial-mes-net-platform-advanced/src/main/Models/ProjectState.cs#lines-72"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>获取或设置是否更新保存</p>
@@ -312,11 +356,43 @@ Class ProjectState  <a class="header-action link-secondary" title="View source" 
 
 
 
+  <a id="DataMaster_Models_ProjectState_IsFilePathNotNull_" data-uid="DataMaster.Models.ProjectState.IsFilePathNotNull*"></a>
+
+  <h3 id="DataMaster_Models_ProjectState_IsFilePathNotNull" data-uid="DataMaster.Models.ProjectState.IsFilePathNotNull">
+  IsFilePathNotNull
+  <a class="header-action link-secondary" title="View source" href="https://bitbucket.org/mas-software/industrial-mes-net-platform-advanced/src/main/Models/ProjectState.cs#lines-106"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>指示 FilePath 是否不为 null</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool IsFilePathNotNull { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
   <a id="DataMaster_Models_ProjectState_IsNew_" data-uid="DataMaster.Models.ProjectState.IsNew*"></a>
 
   <h3 id="DataMaster_Models_ProjectState_IsNew" data-uid="DataMaster.Models.ProjectState.IsNew">
   IsNew
-  <a class="header-action link-secondary" title="View source" href="https://bitbucket.org/mas-software/industrial-mes-net-platform-advanced/src/feature/database/Models/ProjectState.cs#lines-73"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://bitbucket.org/mas-software/industrial-mes-net-platform-advanced/src/main/Models/ProjectState.cs#lines-89"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>获取或设置是否是新建的工程文件</p>
@@ -344,11 +420,43 @@ Class ProjectState  <a class="header-action link-secondary" title="View source" 
 
 
 
+  <a id="DataMaster_Models_ProjectState_LastModifiedTime_" data-uid="DataMaster.Models.ProjectState.LastModifiedTime*"></a>
+
+  <h3 id="DataMaster_Models_ProjectState_LastModifiedTime" data-uid="DataMaster.Models.ProjectState.LastModifiedTime">
+  LastModifiedTime
+  <a class="header-action link-secondary" title="View source" href="https://bitbucket.org/mas-software/industrial-mes-net-platform-advanced/src/main/Models/ProjectState.cs#lines-112"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>获取项目的最后修改时间</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public DateTime? LastModifiedTime { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.datetime">DateTime</a>?</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
 
 </article>
 
         <div class="contribution d-print-none">
-          <a href="https://bitbucket.org/mas-software/industrial-mes-net-platform-advanced/src/feature/database/Models/ProjectState.cs#lines-31" class="edit-link">Edit this page</a>
+          <a href="https://bitbucket.org/mas-software/industrial-mes-net-platform-advanced/src/main/Models/ProjectState.cs#lines-31" class="edit-link">Edit this page</a>
         </div>
 
 

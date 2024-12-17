@@ -169,6 +169,12 @@
 <li>禁止使用触发器、函数、存储过程</li>
 <li>制定备份计划，并定期备份数据库，以防止数据丢失</li>
 </ul>
+<h2 id="mysql-中的-ddl-语句与事务">MySQL 中的 DDL 语句与事务</h2>
+<p>在 MySQL 中，大多数<code>DDL(用于定义和修改数据库的结构而不是操作具体的数据内容)</code>语句（如<code>CREATE TABLE</code>、<code>ALTER TABLE</code>、<code>DROP TABLE</code>等）会导致隐式提交（Implicit Commit）。这意味着：</p>
+<ul>
+<li>隐式提交：执行 DDL 语句时，当前事务会自动提交，即使您在事务内执行这些语句，事务也无法回滚这些操作</li>
+<li>事务无效：由于 DDL 语句会自动提交，包裹这些语句的事务无法确保原子性（即要么全部成功，要么全部失败）</li>
+</ul>
 
 </article>
 

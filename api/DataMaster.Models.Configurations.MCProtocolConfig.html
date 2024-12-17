@@ -89,7 +89,7 @@
 
 
   <h1 id="DataMaster_Models_Configurations_McProtocolConfig" data-uid="DataMaster.Models.Configurations.McProtocolConfig" class="text-break">
-Class McProtocolConfig  <a class="header-action link-secondary" title="View source" href="https://bitbucket.org/mas-software/industrial-mes-net-platform-advanced/src/feature/database/Models/Configurations/MCProtocolConfig.cs#lines-34"><i class="bi bi-code-slash"></i></a>
+Class McProtocolConfig  <a class="header-action link-secondary" title="View source" href="https://bitbucket.org/mas-software/industrial-mes-net-platform-advanced/src/main/Models/Configurations/Communication/MCProtocolConfig.cs#lines-34"><i class="bi bi-code-slash"></i></a>
   </h1>
 
   <div class="facts text-secondary">
@@ -120,8 +120,8 @@ Class McProtocolConfig  <a class="header-action link-secondary" title="View sour
   <dl class="typelist implements">
     <dt>Implements</dt>
     <dd>
-      <div><a class="xref" href="DataMaster.Modules.MAS.Communication.McProtocols.IMcCommunicationConfig.html">IMcCommunicationConfig</a></div>
-      <div><a class="xref" href="DataMaster.Modules.MAS.Communication.ICommunicationConfig.html">ICommunicationConfig</a></div>
+      <div><a class="xref" href="MAS.Communication.McProtocols.IMcCommunicationConfig.html">IMcCommunicationConfig</a></div>
+      <div><a class="xref" href="MAS.Communication.ICommunicationConfig.html">ICommunicationConfig</a></div>
       <div><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.icloneable">ICloneable</a></div>
     </dd>
   </dl>
@@ -167,6 +167,37 @@ Class McProtocolConfig  <a class="header-action link-secondary" title="View sour
 
 
 
+  <h2 class="section" id="constructors">Constructors
+</h2>
+
+
+  <a id="DataMaster_Models_Configurations_McProtocolConfig__ctor_" data-uid="DataMaster.Models.Configurations.McProtocolConfig.#ctor*"></a>
+
+  <h3 id="DataMaster_Models_Configurations_McProtocolConfig__ctor" data-uid="DataMaster.Models.Configurations.McProtocolConfig.#ctor">
+  McProtocolConfig()
+  <a class="header-action link-secondary" title="View source" href="https://bitbucket.org/mas-software/industrial-mes-net-platform-advanced/src/main/Models/Configurations/Communication/MCProtocolConfig.cs#lines-255"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>构造函数，初始化 <a class="xref" href="DataMaster.Models.Configurations.McProtocolConfig.html">McProtocolConfig</a> 新实例</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public McProtocolConfig()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
   <h2 class="section" id="properties">Properties
 </h2>
 
@@ -175,7 +206,7 @@ Class McProtocolConfig  <a class="header-action link-secondary" title="View sour
 
   <h3 id="DataMaster_Models_Configurations_McProtocolConfig_ActiveThreshold" data-uid="DataMaster.Models.Configurations.McProtocolConfig.ActiveThreshold">
   ActiveThreshold
-  <a class="header-action link-secondary" title="View source" href="https://bitbucket.org/mas-software/industrial-mes-net-platform-advanced/src/feature/database/Models/Configurations/MCProtocolConfig.cs#lines-224"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://bitbucket.org/mas-software/industrial-mes-net-platform-advanced/src/main/Models/Configurations/Communication/MCProtocolConfig.cs#lines-181"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>获取或设置实例活跃阈值，单位分钟，超过设置阈值则表示不活跃</p>
@@ -207,7 +238,7 @@ Class McProtocolConfig  <a class="header-action link-secondary" title="View sour
 
   <h3 id="DataMaster_Models_Configurations_McProtocolConfig_BitAddressRange" data-uid="DataMaster.Models.Configurations.McProtocolConfig.BitAddressRange">
   BitAddressRange
-  <a class="header-action link-secondary" title="View source" href="https://bitbucket.org/mas-software/industrial-mes-net-platform-advanced/src/feature/database/Models/Configurations/MCProtocolConfig.cs#lines-134"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://bitbucket.org/mas-software/industrial-mes-net-platform-advanced/src/main/Models/Configurations/Communication/MCProtocolConfig.cs#lines-111"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>获取或设置位地址范围</p>
@@ -239,7 +270,7 @@ Class McProtocolConfig  <a class="header-action link-secondary" title="View sour
 
   <h3 id="DataMaster_Models_Configurations_McProtocolConfig_BitReceiveRegister" data-uid="DataMaster.Models.Configurations.McProtocolConfig.BitReceiveRegister">
   BitReceiveRegister
-  <a class="header-action link-secondary" title="View source" href="https://bitbucket.org/mas-software/industrial-mes-net-platform-advanced/src/feature/database/Models/Configurations/MCProtocolConfig.cs#lines-116"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://bitbucket.org/mas-software/industrial-mes-net-platform-advanced/src/main/Models/Configurations/Communication/MCProtocolConfig.cs#lines-97"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>获取或设置接收位信号使用的寄存器类型</p>
@@ -271,7 +302,7 @@ Class McProtocolConfig  <a class="header-action link-secondary" title="View sour
 
   <h3 id="DataMaster_Models_Configurations_McProtocolConfig_BitReceiveStartAddress" data-uid="DataMaster.Models.Configurations.McProtocolConfig.BitReceiveStartAddress">
   BitReceiveStartAddress
-  <a class="header-action link-secondary" title="View source" href="https://bitbucket.org/mas-software/industrial-mes-net-platform-advanced/src/feature/database/Models/Configurations/MCProtocolConfig.cs#lines-125"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://bitbucket.org/mas-software/industrial-mes-net-platform-advanced/src/main/Models/Configurations/Communication/MCProtocolConfig.cs#lines-104"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>获取或设置接收位信号寄存器的起始地址</p>
@@ -303,7 +334,7 @@ Class McProtocolConfig  <a class="header-action link-secondary" title="View sour
 
   <h3 id="DataMaster_Models_Configurations_McProtocolConfig_BitSendRegister" data-uid="DataMaster.Models.Configurations.McProtocolConfig.BitSendRegister">
   BitSendRegister
-  <a class="header-action link-secondary" title="View source" href="https://bitbucket.org/mas-software/industrial-mes-net-platform-advanced/src/feature/database/Models/Configurations/MCProtocolConfig.cs#lines-98"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://bitbucket.org/mas-software/industrial-mes-net-platform-advanced/src/main/Models/Configurations/Communication/MCProtocolConfig.cs#lines-83"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>获取或设置发送位信号使用的寄存器类型</p>
@@ -335,7 +366,7 @@ Class McProtocolConfig  <a class="header-action link-secondary" title="View sour
 
   <h3 id="DataMaster_Models_Configurations_McProtocolConfig_BitSendStartAddress" data-uid="DataMaster.Models.Configurations.McProtocolConfig.BitSendStartAddress">
   BitSendStartAddress
-  <a class="header-action link-secondary" title="View source" href="https://bitbucket.org/mas-software/industrial-mes-net-platform-advanced/src/feature/database/Models/Configurations/MCProtocolConfig.cs#lines-107"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://bitbucket.org/mas-software/industrial-mes-net-platform-advanced/src/main/Models/Configurations/Communication/MCProtocolConfig.cs#lines-90"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>获取或设置发送位信号寄存器的起始地址</p>
@@ -363,14 +394,46 @@ Class McProtocolConfig  <a class="header-action link-secondary" title="View sour
 
 
 
+  <a id="DataMaster_Models_Configurations_McProtocolConfig_Build_" data-uid="DataMaster.Models.Configurations.McProtocolConfig.Build*"></a>
+
+  <h3 id="DataMaster_Models_Configurations_McProtocolConfig_Build" data-uid="DataMaster.Models.Configurations.McProtocolConfig.Build">
+  Build
+  <a class="header-action link-secondary" title="View source" href="https://bitbucket.org/mas-software/industrial-mes-net-platform-advanced/src/main/Models/Configurations/Communication/MCProtocolConfig.cs#lines-215"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>获取构建相关的配置</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public ICommBuildConfig Build { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="MAS.Communication.ICommBuildConfig.html">ICommBuildConfig</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
   <a id="DataMaster_Models_Configurations_McProtocolConfig_ExecutionMode_" data-uid="DataMaster.Models.Configurations.McProtocolConfig.ExecutionMode*"></a>
 
   <h3 id="DataMaster_Models_Configurations_McProtocolConfig_ExecutionMode" data-uid="DataMaster.Models.Configurations.McProtocolConfig.ExecutionMode">
   ExecutionMode
-  <a class="header-action link-secondary" title="View source" href="https://bitbucket.org/mas-software/industrial-mes-net-platform-advanced/src/feature/database/Models/Configurations/MCProtocolConfig.cs#lines-197"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://bitbucket.org/mas-software/industrial-mes-net-platform-advanced/src/main/Models/Configurations/Communication/MCProtocolConfig.cs#lines-160"><i class="bi bi-code-slash"></i></a>
   </h3>
 
-  <div class="markdown level1 summary"><p>获取或设置执行模式</p>
+  <div class="markdown level1 summary"><p>获取或设置执行模式。Sequential 顺序执行 Concurrent 并行执行</p>
 </div>
   <div class="markdown level1 conceptual"></div>
 
@@ -399,10 +462,10 @@ Class McProtocolConfig  <a class="header-action link-secondary" title="View sour
 
   <h3 id="DataMaster_Models_Configurations_McProtocolConfig_ExecutionTimeout" data-uid="DataMaster.Models.Configurations.McProtocolConfig.ExecutionTimeout">
   ExecutionTimeout
-  <a class="header-action link-secondary" title="View source" href="https://bitbucket.org/mas-software/industrial-mes-net-platform-advanced/src/feature/database/Models/Configurations/MCProtocolConfig.cs#lines-261"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://bitbucket.org/mas-software/industrial-mes-net-platform-advanced/src/main/Models/Configurations/Communication/MCProtocolConfig.cs#lines-209"><i class="bi bi-code-slash"></i></a>
   </h3>
 
-  <div class="markdown level1 summary"><p>获取或设置执行超时时间（毫秒）</p>
+  <div class="markdown level1 summary"><p>获取或设置执行超时时间（ms）</p>
 </div>
   <div class="markdown level1 conceptual"></div>
 
@@ -431,7 +494,7 @@ Class McProtocolConfig  <a class="header-action link-secondary" title="View sour
 
   <h3 id="DataMaster_Models_Configurations_McProtocolConfig_ExpirationTime" data-uid="DataMaster.Models.Configurations.McProtocolConfig.ExpirationTime">
   ExpirationTime
-  <a class="header-action link-secondary" title="View source" href="https://bitbucket.org/mas-software/industrial-mes-net-platform-advanced/src/feature/database/Models/Configurations/MCProtocolConfig.cs#lines-215"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://bitbucket.org/mas-software/industrial-mes-net-platform-advanced/src/main/Models/Configurations/Communication/MCProtocolConfig.cs#lines-174"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>获取或设置实例过期时间，单位分钟，将清除过期的实例</p>
@@ -463,10 +526,10 @@ Class McProtocolConfig  <a class="header-action link-secondary" title="View sour
 
   <h3 id="DataMaster_Models_Configurations_McProtocolConfig_HeartbeatInterval" data-uid="DataMaster.Models.Configurations.McProtocolConfig.HeartbeatInterval">
   HeartbeatInterval
-  <a class="header-action link-secondary" title="View source" href="https://bitbucket.org/mas-software/industrial-mes-net-platform-advanced/src/feature/database/Models/Configurations/MCProtocolConfig.cs#lines-89"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://bitbucket.org/mas-software/industrial-mes-net-platform-advanced/src/main/Models/Configurations/Communication/MCProtocolConfig.cs#lines-76"><i class="bi bi-code-slash"></i></a>
   </h3>
 
-  <div class="markdown level1 summary"><p>获取或设置心跳信号发送间隔</p>
+  <div class="markdown level1 summary"><p>获取或设置心跳发送间隔(s)</p>
 </div>
   <div class="markdown level1 conceptual"></div>
 
@@ -491,46 +554,14 @@ Class McProtocolConfig  <a class="header-action link-secondary" title="View sour
 
 
 
-  <a id="DataMaster_Models_Configurations_McProtocolConfig_Id_" data-uid="DataMaster.Models.Configurations.McProtocolConfig.Id*"></a>
-
-  <h3 id="DataMaster_Models_Configurations_McProtocolConfig_Id" data-uid="DataMaster.Models.Configurations.McProtocolConfig.Id">
-  Id
-  <a class="header-action link-secondary" title="View source" href="https://bitbucket.org/mas-software/industrial-mes-net-platform-advanced/src/feature/database/Models/Configurations/MCProtocolConfig.cs#lines-56"><i class="bi bi-code-slash"></i></a>
-  </h3>
-
-  <div class="markdown level1 summary"><p>获取或设置配置实例的唯一标识键</p>
-</div>
-  <div class="markdown level1 conceptual"></div>
-
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public Guid Id { get; set; }</code></pre>
-  </div>
-
-
-
-
-
-  <h4 class="section">Property Value</h4>
-  <dl class="parameters">
-    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.guid">Guid</a></dt>
-    <dd></dd>
-  </dl>
-
-
-
-
-
-
-
-
   <a id="DataMaster_Models_Configurations_McProtocolConfig_Ip_" data-uid="DataMaster.Models.Configurations.McProtocolConfig.Ip*"></a>
 
   <h3 id="DataMaster_Models_Configurations_McProtocolConfig_Ip" data-uid="DataMaster.Models.Configurations.McProtocolConfig.Ip">
   Ip
-  <a class="header-action link-secondary" title="View source" href="https://bitbucket.org/mas-software/industrial-mes-net-platform-advanced/src/feature/database/Models/Configurations/MCProtocolConfig.cs#lines-62"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://bitbucket.org/mas-software/industrial-mes-net-platform-advanced/src/main/Models/Configurations/Communication/MCProtocolConfig.cs#lines-55"><i class="bi bi-code-slash"></i></a>
   </h3>
 
-  <div class="markdown level1 summary"><p>获取或设置PLC的IP地址</p>
+  <div class="markdown level1 summary"><p>获取或设置 Ip 地址</p>
 </div>
   <div class="markdown level1 conceptual"></div>
 
@@ -559,7 +590,7 @@ Class McProtocolConfig  <a class="header-action link-secondary" title="View sour
 
   <h3 id="DataMaster_Models_Configurations_McProtocolConfig_IsAutoClear" data-uid="DataMaster.Models.Configurations.McProtocolConfig.IsAutoClear">
   IsAutoClear
-  <a class="header-action link-secondary" title="View source" href="https://bitbucket.org/mas-software/industrial-mes-net-platform-advanced/src/feature/database/Models/Configurations/MCProtocolConfig.cs#lines-234"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://bitbucket.org/mas-software/industrial-mes-net-platform-advanced/src/main/Models/Configurations/Communication/MCProtocolConfig.cs#lines-188"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>获取或设置是否自动清除过期实例</p>
@@ -591,10 +622,10 @@ Class McProtocolConfig  <a class="header-action link-secondary" title="View sour
 
   <h3 id="DataMaster_Models_Configurations_McProtocolConfig_MaxRetries" data-uid="DataMaster.Models.Configurations.McProtocolConfig.MaxRetries">
   MaxRetries
-  <a class="header-action link-secondary" title="View source" href="https://bitbucket.org/mas-software/industrial-mes-net-platform-advanced/src/feature/database/Models/Configurations/MCProtocolConfig.cs#lines-206"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://bitbucket.org/mas-software/industrial-mes-net-platform-advanced/src/main/Models/Configurations/Communication/MCProtocolConfig.cs#lines-167"><i class="bi bi-code-slash"></i></a>
   </h3>
 
-  <div class="markdown level1 summary"><p>获取或设置连接失败时的最大重试次数</p>
+  <div class="markdown level1 summary"><p>获取或设置连接失败时的重试次数上限</p>
 </div>
   <div class="markdown level1 conceptual"></div>
 
@@ -623,10 +654,10 @@ Class McProtocolConfig  <a class="header-action link-secondary" title="View sour
 
   <h3 id="DataMaster_Models_Configurations_McProtocolConfig_Port" data-uid="DataMaster.Models.Configurations.McProtocolConfig.Port">
   Port
-  <a class="header-action link-secondary" title="View source" href="https://bitbucket.org/mas-software/industrial-mes-net-platform-advanced/src/feature/database/Models/Configurations/MCProtocolConfig.cs#lines-80"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://bitbucket.org/mas-software/industrial-mes-net-platform-advanced/src/main/Models/Configurations/Communication/MCProtocolConfig.cs#lines-69"><i class="bi bi-code-slash"></i></a>
   </h3>
 
-  <div class="markdown level1 summary"><p>获取或设置PLC端口号</p>
+  <div class="markdown level1 summary"><p>获取或设置端口</p>
 </div>
   <div class="markdown level1 conceptual"></div>
 
@@ -655,7 +686,7 @@ Class McProtocolConfig  <a class="header-action link-secondary" title="View sour
 
   <h3 id="DataMaster_Models_Configurations_McProtocolConfig_ProtocolFrame" data-uid="DataMaster.Models.Configurations.McProtocolConfig.ProtocolFrame">
   ProtocolFrame
-  <a class="header-action link-secondary" title="View source" href="https://bitbucket.org/mas-software/industrial-mes-net-platform-advanced/src/feature/database/Models/Configurations/MCProtocolConfig.cs#lines-71"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://bitbucket.org/mas-software/industrial-mes-net-platform-advanced/src/main/Models/Configurations/Communication/MCProtocolConfig.cs#lines-62"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>获取或设置协议帧</p>
@@ -687,16 +718,16 @@ Class McProtocolConfig  <a class="header-action link-secondary" title="View sour
 
   <h3 id="DataMaster_Models_Configurations_McProtocolConfig_ProtocolFrameOptions" data-uid="DataMaster.Models.Configurations.McProtocolConfig.ProtocolFrameOptions">
   ProtocolFrameOptions
-  <a class="header-action link-secondary" title="View source" href="https://bitbucket.org/mas-software/industrial-mes-net-platform-advanced/src/feature/database/Models/Configurations/MCProtocolConfig.cs#lines-270"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://bitbucket.org/mas-software/industrial-mes-net-platform-advanced/src/main/Models/Configurations/Communication/MCProtocolConfig.cs#lines-220"><i class="bi bi-code-slash"></i></a>
   </h3>
 
-  <div class="markdown level1 summary"><p>协议帧选项</p>
+  <div class="markdown level1 summary"><p>获取协议帧选项</p>
 </div>
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">[JsonIgnore]
-public ObservableCollection&lt;string&gt; ProtocolFrameOptions { get; set; }</code></pre>
+public ObservableCollection&lt;string&gt; ProtocolFrameOptions { get; }</code></pre>
   </div>
 
 
@@ -720,10 +751,10 @@ public ObservableCollection&lt;string&gt; ProtocolFrameOptions { get; set; }</co
 
   <h3 id="DataMaster_Models_Configurations_McProtocolConfig_ReadTimeout" data-uid="DataMaster.Models.Configurations.McProtocolConfig.ReadTimeout">
   ReadTimeout
-  <a class="header-action link-secondary" title="View source" href="https://bitbucket.org/mas-software/industrial-mes-net-platform-advanced/src/feature/database/Models/Configurations/MCProtocolConfig.cs#lines-243"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://bitbucket.org/mas-software/industrial-mes-net-platform-advanced/src/main/Models/Configurations/Communication/MCProtocolConfig.cs#lines-195"><i class="bi bi-code-slash"></i></a>
   </h3>
 
-  <div class="markdown level1 summary"><p>获取或设置读取超时时间(毫秒)</p>
+  <div class="markdown level1 summary"><p>获取或设置读取超时时间(ms)</p>
 </div>
   <div class="markdown level1 conceptual"></div>
 
@@ -752,16 +783,16 @@ public ObservableCollection&lt;string&gt; ProtocolFrameOptions { get; set; }</co
 
   <h3 id="DataMaster_Models_Configurations_McProtocolConfig_ReceiveBitRegisterOptions" data-uid="DataMaster.Models.Configurations.McProtocolConfig.ReceiveBitRegisterOptions">
   ReceiveBitRegisterOptions
-  <a class="header-action link-secondary" title="View source" href="https://bitbucket.org/mas-software/industrial-mes-net-platform-advanced/src/feature/database/Models/Configurations/MCProtocolConfig.cs#lines-300"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://bitbucket.org/mas-software/industrial-mes-net-platform-advanced/src/main/Models/Configurations/Communication/MCProtocolConfig.cs#lines-241"><i class="bi bi-code-slash"></i></a>
   </h3>
 
-  <div class="markdown level1 summary"><p>接收位寄存器选项</p>
+  <div class="markdown level1 summary"><p>获取接收位寄存器选项</p>
 </div>
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">[JsonIgnore]
-public ObservableCollection&lt;string&gt; ReceiveBitRegisterOptions { get; set; }</code></pre>
+public ObservableCollection&lt;string&gt; ReceiveBitRegisterOptions { get; }</code></pre>
   </div>
 
 
@@ -785,16 +816,16 @@ public ObservableCollection&lt;string&gt; ReceiveBitRegisterOptions { get; set; 
 
   <h3 id="DataMaster_Models_Configurations_McProtocolConfig_ReceiveWordRegisterOptions" data-uid="DataMaster.Models.Configurations.McProtocolConfig.ReceiveWordRegisterOptions">
   ReceiveWordRegisterOptions
-  <a class="header-action link-secondary" title="View source" href="https://bitbucket.org/mas-software/industrial-mes-net-platform-advanced/src/feature/database/Models/Configurations/MCProtocolConfig.cs#lines-310"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://bitbucket.org/mas-software/industrial-mes-net-platform-advanced/src/main/Models/Configurations/Communication/MCProtocolConfig.cs#lines-248"><i class="bi bi-code-slash"></i></a>
   </h3>
 
-  <div class="markdown level1 summary"><p>接收字寄存器选项</p>
+  <div class="markdown level1 summary"><p>获取接收字寄存器选项</p>
 </div>
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">[JsonIgnore]
-public ObservableCollection&lt;string&gt; ReceiveWordRegisterOptions { get; set; }</code></pre>
+public ObservableCollection&lt;string&gt; ReceiveWordRegisterOptions { get; }</code></pre>
   </div>
 
 
@@ -818,10 +849,10 @@ public ObservableCollection&lt;string&gt; ReceiveWordRegisterOptions { get; set;
 
   <h3 id="DataMaster_Models_Configurations_McProtocolConfig_RunSleepTime" data-uid="DataMaster.Models.Configurations.McProtocolConfig.RunSleepTime">
   RunSleepTime
-  <a class="header-action link-secondary" title="View source" href="https://bitbucket.org/mas-software/industrial-mes-net-platform-advanced/src/feature/database/Models/Configurations/MCProtocolConfig.cs#lines-188"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://bitbucket.org/mas-software/industrial-mes-net-platform-advanced/src/main/Models/Configurations/Communication/MCProtocolConfig.cs#lines-153"><i class="bi bi-code-slash"></i></a>
   </h3>
 
-  <div class="markdown level1 summary"><p>获取或设置运行睡眠时间</p>
+  <div class="markdown level1 summary"><p>获取或设置运行休眠时间(ms)</p>
 </div>
   <div class="markdown level1 conceptual"></div>
 
@@ -850,16 +881,16 @@ public ObservableCollection&lt;string&gt; ReceiveWordRegisterOptions { get; set;
 
   <h3 id="DataMaster_Models_Configurations_McProtocolConfig_SendBitRegisterOptions" data-uid="DataMaster.Models.Configurations.McProtocolConfig.SendBitRegisterOptions">
   SendBitRegisterOptions
-  <a class="header-action link-secondary" title="View source" href="https://bitbucket.org/mas-software/industrial-mes-net-platform-advanced/src/feature/database/Models/Configurations/MCProtocolConfig.cs#lines-280"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://bitbucket.org/mas-software/industrial-mes-net-platform-advanced/src/main/Models/Configurations/Communication/MCProtocolConfig.cs#lines-227"><i class="bi bi-code-slash"></i></a>
   </h3>
 
-  <div class="markdown level1 summary"><p>发送位寄存器选项</p>
+  <div class="markdown level1 summary"><p>获取发送位寄存器选项</p>
 </div>
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">[JsonIgnore]
-public ObservableCollection&lt;string&gt; SendBitRegisterOptions { get; set; }</code></pre>
+public ObservableCollection&lt;string&gt; SendBitRegisterOptions { get; }</code></pre>
   </div>
 
 
@@ -883,16 +914,16 @@ public ObservableCollection&lt;string&gt; SendBitRegisterOptions { get; set; }</
 
   <h3 id="DataMaster_Models_Configurations_McProtocolConfig_SendWordRegisterOptions" data-uid="DataMaster.Models.Configurations.McProtocolConfig.SendWordRegisterOptions">
   SendWordRegisterOptions
-  <a class="header-action link-secondary" title="View source" href="https://bitbucket.org/mas-software/industrial-mes-net-platform-advanced/src/feature/database/Models/Configurations/MCProtocolConfig.cs#lines-290"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://bitbucket.org/mas-software/industrial-mes-net-platform-advanced/src/main/Models/Configurations/Communication/MCProtocolConfig.cs#lines-234"><i class="bi bi-code-slash"></i></a>
   </h3>
 
-  <div class="markdown level1 summary"><p>发送字寄存器选项</p>
+  <div class="markdown level1 summary"><p>获取发送字寄存器选项</p>
 </div>
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">[JsonIgnore]
-public ObservableCollection&lt;string&gt; SendWordRegisterOptions { get; set; }</code></pre>
+public ObservableCollection&lt;string&gt; SendWordRegisterOptions { get; }</code></pre>
   </div>
 
 
@@ -916,7 +947,7 @@ public ObservableCollection&lt;string&gt; SendWordRegisterOptions { get; set; }<
 
   <h3 id="DataMaster_Models_Configurations_McProtocolConfig_WordAddressRange" data-uid="DataMaster.Models.Configurations.McProtocolConfig.WordAddressRange">
   WordAddressRange
-  <a class="header-action link-secondary" title="View source" href="https://bitbucket.org/mas-software/industrial-mes-net-platform-advanced/src/feature/database/Models/Configurations/MCProtocolConfig.cs#lines-179"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://bitbucket.org/mas-software/industrial-mes-net-platform-advanced/src/main/Models/Configurations/Communication/MCProtocolConfig.cs#lines-146"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>获取或设置字地址范围</p>
@@ -948,7 +979,7 @@ public ObservableCollection&lt;string&gt; SendWordRegisterOptions { get; set; }<
 
   <h3 id="DataMaster_Models_Configurations_McProtocolConfig_WordReceiveRegister" data-uid="DataMaster.Models.Configurations.McProtocolConfig.WordReceiveRegister">
   WordReceiveRegister
-  <a class="header-action link-secondary" title="View source" href="https://bitbucket.org/mas-software/industrial-mes-net-platform-advanced/src/feature/database/Models/Configurations/MCProtocolConfig.cs#lines-161"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://bitbucket.org/mas-software/industrial-mes-net-platform-advanced/src/main/Models/Configurations/Communication/MCProtocolConfig.cs#lines-132"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>获取或设置接收字信号使用的寄存器类型</p>
@@ -980,7 +1011,7 @@ public ObservableCollection&lt;string&gt; SendWordRegisterOptions { get; set; }<
 
   <h3 id="DataMaster_Models_Configurations_McProtocolConfig_WordReceiveStartAddress" data-uid="DataMaster.Models.Configurations.McProtocolConfig.WordReceiveStartAddress">
   WordReceiveStartAddress
-  <a class="header-action link-secondary" title="View source" href="https://bitbucket.org/mas-software/industrial-mes-net-platform-advanced/src/feature/database/Models/Configurations/MCProtocolConfig.cs#lines-170"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://bitbucket.org/mas-software/industrial-mes-net-platform-advanced/src/main/Models/Configurations/Communication/MCProtocolConfig.cs#lines-139"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>获取或设置接收字信号寄存器的起始地址</p>
@@ -1012,7 +1043,7 @@ public ObservableCollection&lt;string&gt; SendWordRegisterOptions { get; set; }<
 
   <h3 id="DataMaster_Models_Configurations_McProtocolConfig_WordSendRegister" data-uid="DataMaster.Models.Configurations.McProtocolConfig.WordSendRegister">
   WordSendRegister
-  <a class="header-action link-secondary" title="View source" href="https://bitbucket.org/mas-software/industrial-mes-net-platform-advanced/src/feature/database/Models/Configurations/MCProtocolConfig.cs#lines-143"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://bitbucket.org/mas-software/industrial-mes-net-platform-advanced/src/main/Models/Configurations/Communication/MCProtocolConfig.cs#lines-118"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>获取或设置发送字信号使用的寄存器类型</p>
@@ -1044,7 +1075,7 @@ public ObservableCollection&lt;string&gt; SendWordRegisterOptions { get; set; }<
 
   <h3 id="DataMaster_Models_Configurations_McProtocolConfig_WordSendStartAddress" data-uid="DataMaster.Models.Configurations.McProtocolConfig.WordSendStartAddress">
   WordSendStartAddress
-  <a class="header-action link-secondary" title="View source" href="https://bitbucket.org/mas-software/industrial-mes-net-platform-advanced/src/feature/database/Models/Configurations/MCProtocolConfig.cs#lines-152"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://bitbucket.org/mas-software/industrial-mes-net-platform-advanced/src/main/Models/Configurations/Communication/MCProtocolConfig.cs#lines-125"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>获取或设置发送字信号寄存器的起始地址</p>
@@ -1076,10 +1107,10 @@ public ObservableCollection&lt;string&gt; SendWordRegisterOptions { get; set; }<
 
   <h3 id="DataMaster_Models_Configurations_McProtocolConfig_WriteTimeout" data-uid="DataMaster.Models.Configurations.McProtocolConfig.WriteTimeout">
   WriteTimeout
-  <a class="header-action link-secondary" title="View source" href="https://bitbucket.org/mas-software/industrial-mes-net-platform-advanced/src/feature/database/Models/Configurations/MCProtocolConfig.cs#lines-252"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://bitbucket.org/mas-software/industrial-mes-net-platform-advanced/src/main/Models/Configurations/Communication/MCProtocolConfig.cs#lines-202"><i class="bi bi-code-slash"></i></a>
   </h3>
 
-  <div class="markdown level1 summary"><p>获取或设置写入超时时间（毫秒）</p>
+  <div class="markdown level1 summary"><p>获取或设置写入超时时间（ms）</p>
 </div>
   <div class="markdown level1 conceptual"></div>
 
@@ -1112,7 +1143,7 @@ public ObservableCollection&lt;string&gt; SendWordRegisterOptions { get; set; }<
 
   <h3 id="DataMaster_Models_Configurations_McProtocolConfig_Clone" data-uid="DataMaster.Models.Configurations.McProtocolConfig.Clone">
   Clone()
-  <a class="header-action link-secondary" title="View source" href="https://bitbucket.org/mas-software/industrial-mes-net-platform-advanced/src/feature/database/Models/Configurations/MCProtocolConfig.cs#lines-39"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://bitbucket.org/mas-software/industrial-mes-net-platform-advanced/src/main/Models/Configurations/Communication/MCProtocolConfig.cs#lines-39"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>创建当前 <a class="xref" href="DataMaster.Models.Configurations.McProtocolConfig.html">McProtocolConfig</a> 实例的深表副本</p>
@@ -1145,7 +1176,7 @@ public ObservableCollection&lt;string&gt; SendWordRegisterOptions { get; set; }<
 
   <h3 id="DataMaster_Models_Configurations_McProtocolConfig_Clone__1" data-uid="DataMaster.Models.Configurations.McProtocolConfig.Clone``1">
   Clone&lt;T&gt;()
-  <a class="header-action link-secondary" title="View source" href="https://bitbucket.org/mas-software/industrial-mes-net-platform-advanced/src/feature/database/Models/Configurations/MCProtocolConfig.cs#lines-48"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://bitbucket.org/mas-software/industrial-mes-net-platform-advanced/src/main/Models/Configurations/Communication/MCProtocolConfig.cs#lines-48"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>以指定的类型创建当前实例的深表副本</p>
@@ -1167,7 +1198,7 @@ public ObservableCollection&lt;string&gt; SendWordRegisterOptions { get; set; }<
   <h4 class="section">Type Parameters</h4>
   <dl class="parameters">
     <dt><code>T</code></dt>
-    <dd><p>要克隆的对象的类型，该类型必须实现 <a class="xref" href="DataMaster.Modules.MAS.Communication.ICommunicationConfig.html">ICommunicationConfig</a></p>
+    <dd><p>要克隆的对象的类型，该类型必须实现 <a class="xref" href="MAS.Communication.ICommunicationConfig.html">ICommunicationConfig</a></p>
 </dd>
   </dl>
 
@@ -1184,7 +1215,7 @@ public ObservableCollection&lt;string&gt; SendWordRegisterOptions { get; set; }<
 </article>
 
         <div class="contribution d-print-none">
-          <a href="https://bitbucket.org/mas-software/industrial-mes-net-platform-advanced/src/feature/database/Models/Configurations/MCProtocolConfig.cs#lines-34" class="edit-link">Edit this page</a>
+          <a href="https://bitbucket.org/mas-software/industrial-mes-net-platform-advanced/src/main/Models/Configurations/Communication/MCProtocolConfig.cs#lines-34" class="edit-link">Edit this page</a>
         </div>
 
 

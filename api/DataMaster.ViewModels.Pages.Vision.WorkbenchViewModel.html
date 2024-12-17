@@ -89,7 +89,7 @@
 
 
   <h1 id="DataMaster_ViewModels_Pages_Vision_WorkbenchViewModel" data-uid="DataMaster.ViewModels.Pages.Vision.WorkbenchViewModel" class="text-break">
-Class WorkbenchViewModel  <a class="header-action link-secondary" title="View source" href="https://bitbucket.org/mas-software/industrial-mes-net-platform-advanced/src/feature/database/ViewModels/Pages/Vision/WorkbenchViewModel.cs#lines-25"><i class="bi bi-code-slash"></i></a>
+Class WorkbenchViewModel  <a class="header-action link-secondary" title="View source" href="https://bitbucket.org/mas-software/industrial-mes-net-platform-advanced/src/main/ViewModels/Pages/Vision/WorkbenchViewModel.cs#lines-29"><i class="bi bi-code-slash"></i></a>
   </h1>
 
   <div class="facts text-secondary">
@@ -135,6 +135,9 @@ Class WorkbenchViewModel  <a class="header-action link-secondary" title="View so
       <a class="xref" href="DataMaster.Abstracts.ViewModelBase.html#DataMaster_Abstracts_ViewModelBase_LanguageManager">ViewModelBase.LanguageManager</a>
     </div>
     <div>
+      <a class="xref" href="DataMaster.Abstracts.ViewModelBase.html#DataMaster_Abstracts_ViewModelBase_IsBusy">ViewModelBase.IsBusy</a>
+    </div>
+    <div>
       <a class="xref" href="DataMaster.Abstracts.ViewModelBase.html#DataMaster_Abstracts_ViewModelBase_BusyCursor">ViewModelBase.BusyCursor</a>
     </div>
     <div>
@@ -148,6 +151,15 @@ Class WorkbenchViewModel  <a class="header-action link-secondary" title="View so
     </div>
     <div>
       <a class="xref" href="DataMaster.Abstracts.ViewModelBase.html#DataMaster_Abstracts_ViewModelBase_SetField__1___0____0_System_String_">ViewModelBase.SetField&lt;T&gt;(ref T, T, string)</a>
+    </div>
+    <div>
+      <a class="xref" href="DataMaster.Abstracts.ViewModelBase.html#DataMaster_Abstracts_ViewModelBase_ResetCursor">ViewModelBase.ResetCursor()</a>
+    </div>
+    <div>
+      <a class="xref" href="DataMaster.Abstracts.ViewModelBase.html#DataMaster_Abstracts_ViewModelBase_SetBusyCursor">ViewModelBase.SetBusyCursor()</a>
+    </div>
+    <div>
+      <a class="xref" href="DataMaster.Abstracts.ViewModelBase.html#DataMaster_Abstracts_ViewModelBase_SetWorkingCursor">ViewModelBase.SetWorkingCursor()</a>
     </div>
     <div>
       <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)">object.Equals(object)</a>
@@ -183,9 +195,9 @@ Class WorkbenchViewModel  <a class="header-action link-secondary" title="View so
 
   <a id="DataMaster_ViewModels_Pages_Vision_WorkbenchViewModel__ctor_" data-uid="DataMaster.ViewModels.Pages.Vision.WorkbenchViewModel.#ctor*"></a>
 
-  <h3 id="DataMaster_ViewModels_Pages_Vision_WorkbenchViewModel__ctor_DataMaster_Interfaces_DisplayWindow_IWindowsProviderService_DataMaster_Modules_MAS_Controls_Notification_ITipsNotificationService_DataMaster_Interfaces_IVisionProjectService_" data-uid="DataMaster.ViewModels.Pages.Vision.WorkbenchViewModel.#ctor(DataMaster.Interfaces.DisplayWindow.IWindowsProviderService,DataMaster.Modules.MAS.Controls.Notification.ITipsNotificationService,DataMaster.Interfaces.IVisionProjectService)">
-  WorkbenchViewModel(IWindowsProviderService, ITipsNotificationService, IVisionProjectService)
-  <a class="header-action link-secondary" title="View source" href="https://bitbucket.org/mas-software/industrial-mes-net-platform-advanced/src/feature/database/ViewModels/Pages/Vision/WorkbenchViewModel.cs#lines-92"><i class="bi bi-code-slash"></i></a>
+  <h3 id="DataMaster_ViewModels_Pages_Vision_WorkbenchViewModel__ctor_DataMaster_Interfaces_DisplayWindow_IWindowsProviderService_MAS_Controls_Notification_ITipsNotificationService_DataMaster_Interfaces_IVisionProjectService_MAS_Vision_ITemplateImageStorage_MAS_Controls_ImageProceFlow_IConnectionLineManager_MAS_Controls_ImageProceFlow_IModuleConnectionService_" data-uid="DataMaster.ViewModels.Pages.Vision.WorkbenchViewModel.#ctor(DataMaster.Interfaces.DisplayWindow.IWindowsProviderService,MAS.Controls.Notification.ITipsNotificationService,DataMaster.Interfaces.IVisionProjectService,MAS.Vision.ITemplateImageStorage,MAS.Controls.ImageProceFlow.IConnectionLineManager,MAS.Controls.ImageProceFlow.IModuleConnectionService)">
+  WorkbenchViewModel(IWindowsProviderService, ITipsNotificationService, IVisionProjectService, ITemplateImageStorage, IConnectionLineManager, IModuleConnectionService)
+  <a class="header-action link-secondary" title="View source" href="https://bitbucket.org/mas-software/industrial-mes-net-platform-advanced/src/main/ViewModels/Pages/Vision/WorkbenchViewModel.cs#lines-209"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>构造函数，初始化 <a class="xref" href="DataMaster.ViewModels.Pages.Vision.WorkbenchViewModel.html">WorkbenchViewModel</a> 新实例</p>
@@ -193,7 +205,7 @@ Class WorkbenchViewModel  <a class="header-action link-secondary" title="View so
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public WorkbenchViewModel(IWindowsProviderService windowsProviderService, ITipsNotificationService tipsNotificationService, IVisionProjectService visionProjectService)</code></pre>
+    <pre><code class="lang-csharp hljs">public WorkbenchViewModel(IWindowsProviderService windowsProviderService, ITipsNotificationService tipsNotificationService, IVisionProjectService visionProjectService, ITemplateImageStorage templateImageStorage, IConnectionLineManager connectionLineManager, IModuleConnectionService moduleConnection)</code></pre>
   </div>
 
   <h4 class="section">Parameters</h4>
@@ -206,6 +218,15 @@ Class WorkbenchViewModel  <a class="header-action link-secondary" title="View so
 </dd>
     <dt><code>visionProjectService</code> <a class="xref" href="DataMaster.Interfaces.IVisionProjectService.html">IVisionProjectService</a></dt>
     <dd><p>管理视觉工程实例服务</p>
+</dd>
+    <dt><code>templateImageStorage</code> <a class="xref" href="MAS.Vision.ITemplateImageStorage.html">ITemplateImageStorage</a></dt>
+    <dd><p>图像模板存储</p>
+</dd>
+    <dt><code>connectionLineManager</code> <a class="xref" href="DataMaster.Modules.MAS.Controls.ImageProceFlow.IConnectionLineManager.html">IConnectionLineManager</a></dt>
+    <dd><p>连接管理实例</p>
+</dd>
+    <dt><code>moduleConnection</code> <a class="xref" href="DataMaster.Modules.MAS.Controls.ImageProceFlow.IModuleConnectionService.html">IModuleConnectionService</a></dt>
+    <dd><p>模块连接服务管理</p>
 </dd>
   </dl>
 
@@ -224,19 +245,19 @@ Class WorkbenchViewModel  <a class="header-action link-secondary" title="View so
 </h2>
 
 
-  <a id="DataMaster_ViewModels_Pages_Vision_WorkbenchViewModel_IsProjectVisible_" data-uid="DataMaster.ViewModels.Pages.Vision.WorkbenchViewModel.IsProjectVisible*"></a>
+  <a id="DataMaster_ViewModels_Pages_Vision_WorkbenchViewModel_CloseSuspendedWindowCommand_" data-uid="DataMaster.ViewModels.Pages.Vision.WorkbenchViewModel.CloseSuspendedWindowCommand*"></a>
 
-  <h3 id="DataMaster_ViewModels_Pages_Vision_WorkbenchViewModel_IsProjectVisible" data-uid="DataMaster.ViewModels.Pages.Vision.WorkbenchViewModel.IsProjectVisible">
-  IsProjectVisible
-  <a class="header-action link-secondary" title="View source" href="https://bitbucket.org/mas-software/industrial-mes-net-platform-advanced/src/feature/database/ViewModels/Pages/Vision/WorkbenchViewModel.cs#lines-44"><i class="bi bi-code-slash"></i></a>
+  <h3 id="DataMaster_ViewModels_Pages_Vision_WorkbenchViewModel_CloseSuspendedWindowCommand" data-uid="DataMaster.ViewModels.Pages.Vision.WorkbenchViewModel.CloseSuspendedWindowCommand">
+  CloseSuspendedWindowCommand
+  <a class="header-action link-secondary" title="View source" href="https://bitbucket.org/mas-software/industrial-mes-net-platform-advanced/src/main/ViewModels/Pages/Vision/WorkbenchViewModel.cs#lines-187"><i class="bi bi-code-slash"></i></a>
   </h3>
 
-  <div class="markdown level1 summary"><p>获取或设置实例列表可见性</p>
+  <div class="markdown level1 summary"><p>获取关闭已挂起的窗口命令</p>
 </div>
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public bool IsProjectVisible { get; set; }</code></pre>
+    <pre><code class="lang-csharp hljs">public RelayCommand CloseSuspendedWindowCommand { get; }</code></pre>
   </div>
 
 
@@ -245,7 +266,71 @@ Class WorkbenchViewModel  <a class="header-action link-secondary" title="View so
 
   <h4 class="section">Property Value</h4>
   <dl class="parameters">
-    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dt><a class="xref" href="DataMaster.Commands.RelayCommand.html">RelayCommand</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="DataMaster_ViewModels_Pages_Vision_WorkbenchViewModel_ConnectionLines_" data-uid="DataMaster.ViewModels.Pages.Vision.WorkbenchViewModel.ConnectionLines*"></a>
+
+  <h3 id="DataMaster_ViewModels_Pages_Vision_WorkbenchViewModel_ConnectionLines" data-uid="DataMaster.ViewModels.Pages.Vision.WorkbenchViewModel.ConnectionLines">
+  ConnectionLines
+  <a class="header-action link-secondary" title="View source" href="https://bitbucket.org/mas-software/industrial-mes-net-platform-advanced/src/main/ViewModels/Pages/Vision/WorkbenchViewModel.cs#lines-145"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>获取模块之间的连接线数据模型列表</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public ObservableCollection&lt;ConnectionLine&gt; ConnectionLines { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.objectmodel.observablecollection-1">ObservableCollection</a>&lt;<a class="xref" href="MAS.Controls.ImageProceFlow.ConnectionLine.html">ConnectionLine</a>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="DataMaster_ViewModels_Pages_Vision_WorkbenchViewModel_FilteredVisionProjectCards_" data-uid="DataMaster.ViewModels.Pages.Vision.WorkbenchViewModel.FilteredVisionProjectCards*"></a>
+
+  <h3 id="DataMaster_ViewModels_Pages_Vision_WorkbenchViewModel_FilteredVisionProjectCards" data-uid="DataMaster.ViewModels.Pages.Vision.WorkbenchViewModel.FilteredVisionProjectCards">
+  FilteredVisionProjectCards
+  <a class="header-action link-secondary" title="View source" href="https://bitbucket.org/mas-software/industrial-mes-net-platform-advanced/src/main/ViewModels/Pages/Vision/WorkbenchViewModel.cs#lines-132"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>获取或设置过滤后的项目集合</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public ICollectionView? FilteredVisionProjectCards { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.componentmodel.icollectionview">ICollectionView</a></dt>
     <dd></dd>
   </dl>
 
@@ -260,7 +345,7 @@ Class WorkbenchViewModel  <a class="header-action link-secondary" title="View so
 
   <h3 id="DataMaster_ViewModels_Pages_Vision_WorkbenchViewModel_IsRefresh" data-uid="DataMaster.ViewModels.Pages.Vision.WorkbenchViewModel.IsRefresh">
   IsRefresh
-  <a class="header-action link-secondary" title="View source" href="https://bitbucket.org/mas-software/industrial-mes-net-platform-advanced/src/feature/database/ViewModels/Pages/Vision/WorkbenchViewModel.cs#lines-53"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://bitbucket.org/mas-software/industrial-mes-net-platform-advanced/src/main/ViewModels/Pages/Vision/WorkbenchViewModel.cs#lines-42"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>获取或设置是否在刷新中</p>
@@ -288,19 +373,19 @@ Class WorkbenchViewModel  <a class="header-action link-secondary" title="View so
 
 
 
-  <a id="DataMaster_ViewModels_Pages_Vision_WorkbenchViewModel_IsStartVisible_" data-uid="DataMaster.ViewModels.Pages.Vision.WorkbenchViewModel.IsStartVisible*"></a>
+  <a id="DataMaster_ViewModels_Pages_Vision_WorkbenchViewModel_Items_" data-uid="DataMaster.ViewModels.Pages.Vision.WorkbenchViewModel.Items*"></a>
 
-  <h3 id="DataMaster_ViewModels_Pages_Vision_WorkbenchViewModel_IsStartVisible" data-uid="DataMaster.ViewModels.Pages.Vision.WorkbenchViewModel.IsStartVisible">
-  IsStartVisible
-  <a class="header-action link-secondary" title="View source" href="https://bitbucket.org/mas-software/industrial-mes-net-platform-advanced/src/feature/database/ViewModels/Pages/Vision/WorkbenchViewModel.cs#lines-35"><i class="bi bi-code-slash"></i></a>
+  <h3 id="DataMaster_ViewModels_Pages_Vision_WorkbenchViewModel_Items" data-uid="DataMaster.ViewModels.Pages.Vision.WorkbenchViewModel.Items">
+  Items
+  <a class="header-action link-secondary" title="View source" href="https://bitbucket.org/mas-software/industrial-mes-net-platform-advanced/src/main/ViewModels/Pages/Vision/WorkbenchViewModel.cs#lines-69"><i class="bi bi-code-slash"></i></a>
   </h3>
 
-  <div class="markdown level1 summary"><p>获取或设置启动页面可见性</p>
+  <div class="markdown level1 summary"><p>获取或设置条目数</p>
 </div>
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public bool IsStartVisible { get; set; }</code></pre>
+    <pre><code class="lang-csharp hljs">public short Items { get; set; }</code></pre>
   </div>
 
 
@@ -309,7 +394,231 @@ Class WorkbenchViewModel  <a class="header-action link-secondary" title="View so
 
   <h4 class="section">Property Value</h4>
   <dl class="parameters">
-    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int16">short</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="DataMaster_ViewModels_Pages_Vision_WorkbenchViewModel_LastUpdateTime_" data-uid="DataMaster.ViewModels.Pages.Vision.WorkbenchViewModel.LastUpdateTime*"></a>
+
+  <h3 id="DataMaster_ViewModels_Pages_Vision_WorkbenchViewModel_LastUpdateTime" data-uid="DataMaster.ViewModels.Pages.Vision.WorkbenchViewModel.LastUpdateTime">
+  LastUpdateTime
+  <a class="header-action link-secondary" title="View source" href="https://bitbucket.org/mas-software/industrial-mes-net-platform-advanced/src/main/ViewModels/Pages/Vision/WorkbenchViewModel.cs#lines-114"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>获取或设置最后更新时间</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public string LastUpdateTime { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="DataMaster_ViewModels_Pages_Vision_WorkbenchViewModel_LinesLastUpdateTime_" data-uid="DataMaster.ViewModels.Pages.Vision.WorkbenchViewModel.LinesLastUpdateTime*"></a>
+
+  <h3 id="DataMaster_ViewModels_Pages_Vision_WorkbenchViewModel_LinesLastUpdateTime" data-uid="DataMaster.ViewModels.Pages.Vision.WorkbenchViewModel.LinesLastUpdateTime">
+  LinesLastUpdateTime
+  <a class="header-action link-secondary" title="View source" href="https://bitbucket.org/mas-software/industrial-mes-net-platform-advanced/src/main/ViewModels/Pages/Vision/WorkbenchViewModel.cs#lines-51"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>获取或设置连接线最后更新时间</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public DateTime LinesLastUpdateTime { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.datetime">DateTime</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="DataMaster_ViewModels_Pages_Vision_WorkbenchViewModel_ModuleConnections_" data-uid="DataMaster.ViewModels.Pages.Vision.WorkbenchViewModel.ModuleConnections*"></a>
+
+  <h3 id="DataMaster_ViewModels_Pages_Vision_WorkbenchViewModel_ModuleConnections" data-uid="DataMaster.ViewModels.Pages.Vision.WorkbenchViewModel.ModuleConnections">
+  ModuleConnections
+  <a class="header-action link-secondary" title="View source" href="https://bitbucket.org/mas-software/industrial-mes-net-platform-advanced/src/main/ViewModels/Pages/Vision/WorkbenchViewModel.cs#lines-150"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>获取模块连接数据模型列表</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public ObservableCollection&lt;ModuleConnection&gt; ModuleConnections { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.objectmodel.observablecollection-1">ObservableCollection</a>&lt;<a class="xref" href="MAS.Controls.ImageProceFlow.ModuleConnection.html">ModuleConnection</a>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="DataMaster_ViewModels_Pages_Vision_WorkbenchViewModel_ModuleLastUpdateTime_" data-uid="DataMaster.ViewModels.Pages.Vision.WorkbenchViewModel.ModuleLastUpdateTime*"></a>
+
+  <h3 id="DataMaster_ViewModels_Pages_Vision_WorkbenchViewModel_ModuleLastUpdateTime" data-uid="DataMaster.ViewModels.Pages.Vision.WorkbenchViewModel.ModuleLastUpdateTime">
+  ModuleLastUpdateTime
+  <a class="header-action link-secondary" title="View source" href="https://bitbucket.org/mas-software/industrial-mes-net-platform-advanced/src/main/ViewModels/Pages/Vision/WorkbenchViewModel.cs#lines-60"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>获取或设置模块连接最后更新时间</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public DateTime ModuleLastUpdateTime { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.datetime">DateTime</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="DataMaster_ViewModels_Pages_Vision_WorkbenchViewModel_NotRunningCount_" data-uid="DataMaster.ViewModels.Pages.Vision.WorkbenchViewModel.NotRunningCount*"></a>
+
+  <h3 id="DataMaster_ViewModels_Pages_Vision_WorkbenchViewModel_NotRunningCount" data-uid="DataMaster.ViewModels.Pages.Vision.WorkbenchViewModel.NotRunningCount">
+  NotRunningCount
+  <a class="header-action link-secondary" title="View source" href="https://bitbucket.org/mas-software/industrial-mes-net-platform-advanced/src/main/ViewModels/Pages/Vision/WorkbenchViewModel.cs#lines-96"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>获取或设置未运行的实例数</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public short NotRunningCount { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int16">short</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="DataMaster_ViewModels_Pages_Vision_WorkbenchViewModel_OpenCodeEictCommand_" data-uid="DataMaster.ViewModels.Pages.Vision.WorkbenchViewModel.OpenCodeEictCommand*"></a>
+
+  <h3 id="DataMaster_ViewModels_Pages_Vision_WorkbenchViewModel_OpenCodeEictCommand" data-uid="DataMaster.ViewModels.Pages.Vision.WorkbenchViewModel.OpenCodeEictCommand">
+  OpenCodeEictCommand
+  <a class="header-action link-secondary" title="View source" href="https://bitbucket.org/mas-software/industrial-mes-net-platform-advanced/src/main/ViewModels/Pages/Vision/WorkbenchViewModel.cs#lines-197"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>获取打开代码编辑命令</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public RelayCommand OpenCodeEictCommand { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="DataMaster.Commands.RelayCommand.html">RelayCommand</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="DataMaster_ViewModels_Pages_Vision_WorkbenchViewModel_OpenImageEditorCommand_" data-uid="DataMaster.ViewModels.Pages.Vision.WorkbenchViewModel.OpenImageEditorCommand*"></a>
+
+  <h3 id="DataMaster_ViewModels_Pages_Vision_WorkbenchViewModel_OpenImageEditorCommand" data-uid="DataMaster.ViewModels.Pages.Vision.WorkbenchViewModel.OpenImageEditorCommand">
+  OpenImageEditorCommand
+  <a class="header-action link-secondary" title="View source" href="https://bitbucket.org/mas-software/industrial-mes-net-platform-advanced/src/main/ViewModels/Pages/Vision/WorkbenchViewModel.cs#lines-177"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>获取打开图像编辑命令</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public RelayCommand OpenImageEditorCommand { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="DataMaster.Commands.RelayCommand.html">RelayCommand</a></dt>
     <dd></dd>
   </dl>
 
@@ -324,7 +633,7 @@ Class WorkbenchViewModel  <a class="header-action link-secondary" title="View so
 
   <h3 id="DataMaster_ViewModels_Pages_Vision_WorkbenchViewModel_OpenProcessFlowCommand" data-uid="DataMaster.ViewModels.Pages.Vision.WorkbenchViewModel.OpenProcessFlowCommand">
   OpenProcessFlowCommand
-  <a class="header-action link-secondary" title="View source" href="https://bitbucket.org/mas-software/industrial-mes-net-platform-advanced/src/feature/database/ViewModels/Pages/Vision/WorkbenchViewModel.cs#lines-78"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://bitbucket.org/mas-software/industrial-mes-net-platform-advanced/src/main/ViewModels/Pages/Vision/WorkbenchViewModel.cs#lines-162"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>获取打开处理流程命令</p>
@@ -356,7 +665,7 @@ Class WorkbenchViewModel  <a class="header-action link-secondary" title="View so
 
   <h3 id="DataMaster_ViewModels_Pages_Vision_WorkbenchViewModel_OpenSettingsWindowCommand" data-uid="DataMaster.ViewModels.Pages.Vision.WorkbenchViewModel.OpenSettingsWindowCommand">
   OpenSettingsWindowCommand
-  <a class="header-action link-secondary" title="View source" href="https://bitbucket.org/mas-software/industrial-mes-net-platform-advanced/src/feature/database/ViewModels/Pages/Vision/WorkbenchViewModel.cs#lines-73"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://bitbucket.org/mas-software/industrial-mes-net-platform-advanced/src/main/ViewModels/Pages/Vision/WorkbenchViewModel.cs#lines-157"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>获取打开参数设置窗口</p>
@@ -384,11 +693,43 @@ Class WorkbenchViewModel  <a class="header-action link-secondary" title="View so
 
 
 
+  <a id="DataMaster_ViewModels_Pages_Vision_WorkbenchViewModel_OpenTemplateCommand_" data-uid="DataMaster.ViewModels.Pages.Vision.WorkbenchViewModel.OpenTemplateCommand*"></a>
+
+  <h3 id="DataMaster_ViewModels_Pages_Vision_WorkbenchViewModel_OpenTemplateCommand" data-uid="DataMaster.ViewModels.Pages.Vision.WorkbenchViewModel.OpenTemplateCommand">
+  OpenTemplateCommand
+  <a class="header-action link-secondary" title="View source" href="https://bitbucket.org/mas-software/industrial-mes-net-platform-advanced/src/main/ViewModels/Pages/Vision/WorkbenchViewModel.cs#lines-172"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>获取打开模板命令</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public RelayCommand OpenTemplateCommand { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="DataMaster.Commands.RelayCommand.html">RelayCommand</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
   <a id="DataMaster_ViewModels_Pages_Vision_WorkbenchViewModel_RefreshCommand_" data-uid="DataMaster.ViewModels.Pages.Vision.WorkbenchViewModel.RefreshCommand*"></a>
 
   <h3 id="DataMaster_ViewModels_Pages_Vision_WorkbenchViewModel_RefreshCommand" data-uid="DataMaster.ViewModels.Pages.Vision.WorkbenchViewModel.RefreshCommand">
   RefreshCommand
-  <a class="header-action link-secondary" title="View source" href="https://bitbucket.org/mas-software/industrial-mes-net-platform-advanced/src/feature/database/ViewModels/Pages/Vision/WorkbenchViewModel.cs#lines-83"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://bitbucket.org/mas-software/industrial-mes-net-platform-advanced/src/main/ViewModels/Pages/Vision/WorkbenchViewModel.cs#lines-167"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>获取刷新命令</p>
@@ -416,19 +757,115 @@ Class WorkbenchViewModel  <a class="header-action link-secondary" title="View so
 
 
 
-  <a id="DataMaster_ViewModels_Pages_Vision_WorkbenchViewModel_SwitchViewCommand_" data-uid="DataMaster.ViewModels.Pages.Vision.WorkbenchViewModel.SwitchViewCommand*"></a>
+  <a id="DataMaster_ViewModels_Pages_Vision_WorkbenchViewModel_RunningCount_" data-uid="DataMaster.ViewModels.Pages.Vision.WorkbenchViewModel.RunningCount*"></a>
 
-  <h3 id="DataMaster_ViewModels_Pages_Vision_WorkbenchViewModel_SwitchViewCommand" data-uid="DataMaster.ViewModels.Pages.Vision.WorkbenchViewModel.SwitchViewCommand">
-  SwitchViewCommand
-  <a class="header-action link-secondary" title="View source" href="https://bitbucket.org/mas-software/industrial-mes-net-platform-advanced/src/feature/database/ViewModels/Pages/Vision/WorkbenchViewModel.cs#lines-68"><i class="bi bi-code-slash"></i></a>
+  <h3 id="DataMaster_ViewModels_Pages_Vision_WorkbenchViewModel_RunningCount" data-uid="DataMaster.ViewModels.Pages.Vision.WorkbenchViewModel.RunningCount">
+  RunningCount
+  <a class="header-action link-secondary" title="View source" href="https://bitbucket.org/mas-software/industrial-mes-net-platform-advanced/src/main/ViewModels/Pages/Vision/WorkbenchViewModel.cs#lines-78"><i class="bi bi-code-slash"></i></a>
   </h3>
 
-  <div class="markdown level1 summary"><p>获取切换视图命令</p>
+  <div class="markdown level1 summary"><p>获取或设置运行中的实例数</p>
 </div>
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public RelayCommand SwitchViewCommand { get; }</code></pre>
+    <pre><code class="lang-csharp hljs">public short RunningCount { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int16">short</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="DataMaster_ViewModels_Pages_Vision_WorkbenchViewModel_SearchText_" data-uid="DataMaster.ViewModels.Pages.Vision.WorkbenchViewModel.SearchText*"></a>
+
+  <h3 id="DataMaster_ViewModels_Pages_Vision_WorkbenchViewModel_SearchText" data-uid="DataMaster.ViewModels.Pages.Vision.WorkbenchViewModel.SearchText">
+  SearchText
+  <a class="header-action link-secondary" title="View source" href="https://bitbucket.org/mas-software/industrial-mes-net-platform-advanced/src/main/ViewModels/Pages/Vision/WorkbenchViewModel.cs#lines-123"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>获取或设置搜索框文本</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public string? SearchText { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="DataMaster_ViewModels_Pages_Vision_WorkbenchViewModel_StartingCount_" data-uid="DataMaster.ViewModels.Pages.Vision.WorkbenchViewModel.StartingCount*"></a>
+
+  <h3 id="DataMaster_ViewModels_Pages_Vision_WorkbenchViewModel_StartingCount" data-uid="DataMaster.ViewModels.Pages.Vision.WorkbenchViewModel.StartingCount">
+  StartingCount
+  <a class="header-action link-secondary" title="View source" href="https://bitbucket.org/mas-software/industrial-mes-net-platform-advanced/src/main/ViewModels/Pages/Vision/WorkbenchViewModel.cs#lines-87"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>获取或设置启动中的实例数</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public short StartingCount { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int16">short</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="DataMaster_ViewModels_Pages_Vision_WorkbenchViewModel_StopAllInstancesCommand_" data-uid="DataMaster.ViewModels.Pages.Vision.WorkbenchViewModel.StopAllInstancesCommand*"></a>
+
+  <h3 id="DataMaster_ViewModels_Pages_Vision_WorkbenchViewModel_StopAllInstancesCommand" data-uid="DataMaster.ViewModels.Pages.Vision.WorkbenchViewModel.StopAllInstancesCommand">
+  StopAllInstancesCommand
+  <a class="header-action link-secondary" title="View source" href="https://bitbucket.org/mas-software/industrial-mes-net-platform-advanced/src/main/ViewModels/Pages/Vision/WorkbenchViewModel.cs#lines-192"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>获取终止运行中的实例命令</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public RelayCommand StopAllInstancesCommand { get; }</code></pre>
   </div>
 
 
@@ -448,11 +885,75 @@ Class WorkbenchViewModel  <a class="header-action link-secondary" title="View so
 
 
 
+  <a id="DataMaster_ViewModels_Pages_Vision_WorkbenchViewModel_SuspendWindowCommand_" data-uid="DataMaster.ViewModels.Pages.Vision.WorkbenchViewModel.SuspendWindowCommand*"></a>
+
+  <h3 id="DataMaster_ViewModels_Pages_Vision_WorkbenchViewModel_SuspendWindowCommand" data-uid="DataMaster.ViewModels.Pages.Vision.WorkbenchViewModel.SuspendWindowCommand">
+  SuspendWindowCommand
+  <a class="header-action link-secondary" title="View source" href="https://bitbucket.org/mas-software/industrial-mes-net-platform-advanced/src/main/ViewModels/Pages/Vision/WorkbenchViewModel.cs#lines-182"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>获取挂起已运行的窗口命令</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public RelayCommand SuspendWindowCommand { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="DataMaster.Commands.RelayCommand.html">RelayCommand</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="DataMaster_ViewModels_Pages_Vision_WorkbenchViewModel_SuspendedWindowCount_" data-uid="DataMaster.ViewModels.Pages.Vision.WorkbenchViewModel.SuspendedWindowCount*"></a>
+
+  <h3 id="DataMaster_ViewModels_Pages_Vision_WorkbenchViewModel_SuspendedWindowCount" data-uid="DataMaster.ViewModels.Pages.Vision.WorkbenchViewModel.SuspendedWindowCount">
+  SuspendedWindowCount
+  <a class="header-action link-secondary" title="View source" href="https://bitbucket.org/mas-software/industrial-mes-net-platform-advanced/src/main/ViewModels/Pages/Vision/WorkbenchViewModel.cs#lines-105"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>获取或设置挂起的窗口数量</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public short SuspendedWindowCount { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int16">short</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
   <a id="DataMaster_ViewModels_Pages_Vision_WorkbenchViewModel_VisionProjectCards_" data-uid="DataMaster.ViewModels.Pages.Vision.WorkbenchViewModel.VisionProjectCards*"></a>
 
   <h3 id="DataMaster_ViewModels_Pages_Vision_WorkbenchViewModel_VisionProjectCards" data-uid="DataMaster.ViewModels.Pages.Vision.WorkbenchViewModel.VisionProjectCards">
   VisionProjectCards
-  <a class="header-action link-secondary" title="View source" href="https://bitbucket.org/mas-software/industrial-mes-net-platform-advanced/src/feature/database/ViewModels/Pages/Vision/WorkbenchViewModel.cs#lines-61"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://bitbucket.org/mas-software/industrial-mes-net-platform-advanced/src/main/ViewModels/Pages/Vision/WorkbenchViewModel.cs#lines-140"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>获取或设置视觉工程项目实例卡片列表</p>
@@ -480,11 +981,42 @@ Class WorkbenchViewModel  <a class="header-action link-secondary" title="View so
 
 
 
+  <h2 class="section" id="methods">Methods
+</h2>
+
+
+  <a id="DataMaster_ViewModels_Pages_Vision_WorkbenchViewModel_SubmitSearch_" data-uid="DataMaster.ViewModels.Pages.Vision.WorkbenchViewModel.SubmitSearch*"></a>
+
+  <h3 id="DataMaster_ViewModels_Pages_Vision_WorkbenchViewModel_SubmitSearch" data-uid="DataMaster.ViewModels.Pages.Vision.WorkbenchViewModel.SubmitSearch">
+  SubmitSearch()
+  <a class="header-action link-secondary" title="View source" href="https://bitbucket.org/mas-software/industrial-mes-net-platform-advanced/src/main/ViewModels/Pages/Vision/WorkbenchViewModel.cs#lines-516"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>提交搜索，触发过滤</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void SubmitSearch()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 </article>
 
         <div class="contribution d-print-none">
-          <a href="https://bitbucket.org/mas-software/industrial-mes-net-platform-advanced/src/feature/database/ViewModels/Pages/Vision/WorkbenchViewModel.cs#lines-25" class="edit-link">Edit this page</a>
+          <a href="https://bitbucket.org/mas-software/industrial-mes-net-platform-advanced/src/main/ViewModels/Pages/Vision/WorkbenchViewModel.cs#lines-29" class="edit-link">Edit this page</a>
         </div>
 
 

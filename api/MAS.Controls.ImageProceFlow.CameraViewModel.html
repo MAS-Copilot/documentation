@@ -1,0 +1,878 @@
+﻿<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+      <title>Class CameraViewModel | DataMaster </title>
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta name="title" content="Class CameraViewModel | DataMaster ">
+      
+      <meta name="description" content="相机控件模块视图模型">
+      <link rel="icon" href="../images/favicon.ico">
+      <link rel="stylesheet" href="../public/docfx.min.css">
+      <link rel="stylesheet" href="../public/main.css">
+      <meta name="docfx:navrel" content="../toc.html">
+      <meta name="docfx:tocrel" content="toc.html">
+      
+      <meta name="docfx:rel" content="../">
+      
+      
+      
+      <meta name="loc:inThisArticle" content="In this article">
+      <meta name="loc:searchResultsCount" content="{count} results for &quot;{query}&quot;">
+      <meta name="loc:searchNoResults" content="No results for &quot;{query}&quot;">
+      <meta name="loc:tocFilter" content="Filter by title">
+      <meta name="loc:nextArticle" content="Next">
+      <meta name="loc:prevArticle" content="Previous">
+      <meta name="loc:themeLight" content="Light">
+      <meta name="loc:themeDark" content="Dark">
+      <meta name="loc:themeAuto" content="Auto">
+      <meta name="loc:changeTheme" content="Change theme">
+      <meta name="loc:copy" content="Copy">
+      <meta name="loc:downloadPdf" content="Download PDF">
+
+      <script type="module" src="./../public/docfx.min.js"></script>
+
+      <script>
+        const theme = localStorage.getItem('theme') || 'auto'
+        document.documentElement.setAttribute('data-bs-theme', theme === 'auto' ? (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light') : theme)
+      </script>
+
+  </head>
+
+  <body class="tex2jax_ignore" data-layout="" data-yaml-mime="ManagedReference">
+    <header class="bg-body border-bottom">
+      <nav id="autocollapse" class="navbar navbar-expand-md" role="navigation">
+        <div class="container-xxl flex-nowrap">
+          <a class="navbar-brand" href="../index.html">
+            <img id="logo" class="svg" src="../images/logo.svg" alt="DataMaster">
+            DataMaster
+          </a>
+          <button class="btn btn-lg d-md-none border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navpanel" aria-controls="navpanel" aria-expanded="false" aria-label="Toggle navigation">
+            <i class="bi bi-three-dots"></i>
+          </button>
+          <div class="collapse navbar-collapse" id="navpanel">
+            <div id="navbar">
+              <form class="search" role="search" id="search">
+                <i class="bi bi-search"></i>
+                <input class="form-control" id="search-query" type="search" disabled="" placeholder="Search" autocomplete="off" aria-label="Search">
+              </form>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <main class="container-xxl">
+      <div class="toc-offcanvas">
+        <div class="offcanvas-md offcanvas-start" tabindex="-1" id="tocOffcanvas" aria-labelledby="tocOffcanvasLabel">
+          <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="tocOffcanvasLabel">Table of Contents</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" data-bs-target="#tocOffcanvas" aria-label="Close"></button>
+          </div>
+          <div class="offcanvas-body">
+            <nav class="toc" id="toc"></nav>
+          </div>
+        </div>
+      </div>
+
+      <div class="content">
+        <div class="actionbar">
+          <button class="btn btn-lg border-0 d-md-none" type="button" data-bs-toggle="offcanvas" data-bs-target="#tocOffcanvas" aria-controls="tocOffcanvas" aria-expanded="false" aria-label="Show table of contents">
+            <i class="bi bi-list"></i>
+          </button>
+
+          <nav id="breadcrumb"></nav>
+        </div>
+
+        <article data-uid="MAS.Controls.ImageProceFlow.CameraViewModel">
+
+
+
+  <h1 id="MAS_Controls_ImageProceFlow_CameraViewModel" data-uid="MAS.Controls.ImageProceFlow.CameraViewModel" class="text-break">
+Class CameraViewModel  <a class="header-action link-secondary" title="View source" href="https://bitbucket.org/mas-software/industrial-mes-net-platform-advanced/src/main/Modules/MAS.Controls/ImageProceFlow/ViewModels/Prepare/CameraViewModel.cs#lines-20"><i class="bi bi-code-slash"></i></a>
+  </h1>
+
+  <div class="facts text-secondary">
+    <dl><dt>Namespace</dt><dd><a class="xref" href="MAS.html">MAS</a>.<a class="xref" href="MAS.Controls.html">Controls</a>.<a class="xref" href="MAS.Controls.ImageProceFlow.html">ImageProceFlow</a></dd></dl>
+  <dl><dt>Assembly</dt><dd>DataMaster.dll</dd></dl>
+  </div>
+
+  <div class="markdown summary"><p>相机控件模块视图模型</p>
+</div>
+  <div class="markdown conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public class CameraViewModel : ModulesViewModelBase, INotifyPropertyChanged, IDisposable, IModule</code></pre>
+  </div>
+
+
+
+
+  <dl class="typelist inheritance">
+    <dt>Inheritance</dt>
+    <dd>
+      <div><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">object</a></div>
+      <div><a class="xref" href="DataMaster.Modules.MAS.Controls.ImageProceFlow.ModulesViewModelBase.html">ModulesViewModelBase</a></div>
+      <div><span class="xref">CameraViewModel</span></div>
+    </dd>
+  </dl>
+
+  <dl class="typelist implements">
+    <dt>Implements</dt>
+    <dd>
+      <div><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.componentmodel.inotifypropertychanged">INotifyPropertyChanged</a></div>
+      <div><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.idisposable">IDisposable</a></div>
+      <div><a class="xref" href="DataMaster.Modules.MAS.Controls.ImageProceFlow.IModule.html">IModule</a></div>
+    </dd>
+  </dl>
+
+
+  <dl class="typelist inheritedMembers">
+    <dt>Inherited Members</dt>
+    <dd>
+    <div>
+      <a class="xref" href="DataMaster.Modules.MAS.Controls.ImageProceFlow.ModulesViewModelBase.html#MAS_Controls_ImageProceFlow_ModulesViewModelBase_EventAggregatorServices">ModulesViewModelBase.EventAggregatorServices</a>
+    </div>
+    <div>
+      <a class="xref" href="DataMaster.Modules.MAS.Controls.ImageProceFlow.ModulesViewModelBase.html#MAS_Controls_ImageProceFlow_ModulesViewModelBase_ModuleConnectionService">ModulesViewModelBase.ModuleConnectionService</a>
+    </div>
+    <div>
+      <a class="xref" href="DataMaster.Modules.MAS.Controls.ImageProceFlow.ModulesViewModelBase.html#MAS_Controls_ImageProceFlow_ModulesViewModelBase_TipsNotificationService">ModulesViewModelBase.TipsNotificationService</a>
+    </div>
+    <div>
+      <a class="xref" href="DataMaster.Modules.MAS.Controls.ImageProceFlow.ModulesViewModelBase.html#MAS_Controls_ImageProceFlow_ModulesViewModelBase_Config">ModulesViewModelBase.Config</a>
+    </div>
+    <div>
+      <a class="xref" href="DataMaster.Modules.MAS.Controls.ImageProceFlow.ModulesViewModelBase.html#MAS_Controls_ImageProceFlow_ModulesViewModelBase_BusyCursor">ModulesViewModelBase.BusyCursor</a>
+    </div>
+    <div>
+      <a class="xref" href="DataMaster.Modules.MAS.Controls.ImageProceFlow.ModulesViewModelBase.html#MAS_Controls_ImageProceFlow_ModulesViewModelBase_WorkingCursor">ModulesViewModelBase.WorkingCursor</a>
+    </div>
+    <div>
+      <a class="xref" href="MAS.Controls.ImageProceFlow.ModulesViewModelBase.html#MAS_Controls_ImageProceFlow_ModulesViewModelBase_CacheInputData">ModulesViewModelBase.CacheInputData</a>
+    </div>
+    <div>
+      <a class="xref" href="DataMaster.Modules.MAS.Controls.ImageProceFlow.ModulesViewModelBase.html#MAS_Controls_ImageProceFlow_ModulesViewModelBase_IsHighlightedInputPoint">ModulesViewModelBase.IsHighlightedInputPoint</a>
+    </div>
+    <div>
+      <a class="xref" href="DataMaster.Modules.MAS.Controls.ImageProceFlow.ModulesViewModelBase.html#MAS_Controls_ImageProceFlow_ModulesViewModelBase_InputModuleIds">ModulesViewModelBase.InputModuleIds</a>
+    </div>
+    <div>
+      <a class="xref" href="DataMaster.Modules.MAS.Controls.ImageProceFlow.ModulesViewModelBase.html#MAS_Controls_ImageProceFlow_ModulesViewModelBase_OutputModuleIds">ModulesViewModelBase.OutputModuleIds</a>
+    </div>
+    <div>
+      <a class="xref" href="DataMaster.Modules.MAS.Controls.ImageProceFlow.ModulesViewModelBase.html#MAS_Controls_ImageProceFlow_ModulesViewModelBase_ModuleId">ModulesViewModelBase.ModuleId</a>
+    </div>
+    <div>
+      <a class="xref" href="MAS.Controls.ImageProceFlow.ModulesViewModelBase.html#MAS_Controls_ImageProceFlow_ModulesViewModelBase_Version">ModulesViewModelBase.Version</a>
+    </div>
+    <div>
+      <a class="xref" href="DataMaster.Modules.MAS.Controls.ImageProceFlow.ModulesViewModelBase.html#MAS_Controls_ImageProceFlow_ModulesViewModelBase_AcceptableInputTypes">ModulesViewModelBase.AcceptableInputTypes</a>
+    </div>
+    <div>
+      <a class="xref" href="DataMaster.Modules.MAS.Controls.ImageProceFlow.ModulesViewModelBase.html#MAS_Controls_ImageProceFlow_ModulesViewModelBase_OutputTypes">ModulesViewModelBase.OutputTypes</a>
+    </div>
+    <div>
+      <a class="xref" href="DataMaster.Modules.MAS.Controls.ImageProceFlow.ModulesViewModelBase.html#MAS_Controls_ImageProceFlow_ModulesViewModelBase_SetOutputType">ModulesViewModelBase.SetOutputType</a>
+    </div>
+    <div>
+      <a class="xref" href="DataMaster.Modules.MAS.Controls.ImageProceFlow.ModulesViewModelBase.html#MAS_Controls_ImageProceFlow_ModulesViewModelBase_SetAcceptableInputType">ModulesViewModelBase.SetAcceptableInputType</a>
+    </div>
+    <div>
+      <a class="xref" href="MAS.Controls.ImageProceFlow.ModulesViewModelBase.html#MAS_Controls_ImageProceFlow_ModulesViewModelBase_IsOpenInputImagePopup">ModulesViewModelBase.IsOpenInputImagePopup</a>
+    </div>
+    <div>
+      <a class="xref" href="MAS.Controls.ImageProceFlow.ModulesViewModelBase.html#MAS_Controls_ImageProceFlow_ModulesViewModelBase_IsOpenOutputImagePopup">ModulesViewModelBase.IsOpenOutputImagePopup</a>
+    </div>
+    <div>
+      <a class="xref" href="MAS.Controls.ImageProceFlow.ModulesViewModelBase.html#MAS_Controls_ImageProceFlow_ModulesViewModelBase_IsHighlightRectangle">ModulesViewModelBase.IsHighlightRectangle</a>
+    </div>
+    <div>
+      <a class="xref" href="DataMaster.Modules.MAS.Controls.ImageProceFlow.ModulesViewModelBase.html#MAS_Controls_ImageProceFlow_ModulesViewModelBase_BorderBrush">ModulesViewModelBase.BorderBrush</a>
+    </div>
+    <div>
+      <a class="xref" href="DataMaster.Modules.MAS.Controls.ImageProceFlow.ModulesViewModelBase.html#MAS_Controls_ImageProceFlow_ModulesViewModelBase_DeleteControlCommand">ModulesViewModelBase.DeleteControlCommand</a>
+    </div>
+    <div>
+      <a class="xref" href="MAS.Controls.ImageProceFlow.ModulesViewModelBase.html#MAS_Controls_ImageProceFlow_ModulesViewModelBase_OpenInputImagePopupCommand">ModulesViewModelBase.OpenInputImagePopupCommand</a>
+    </div>
+    <div>
+      <a class="xref" href="MAS.Controls.ImageProceFlow.ModulesViewModelBase.html#MAS_Controls_ImageProceFlow_ModulesViewModelBase_OpenOutputImagePopupCommand">ModulesViewModelBase.OpenOutputImagePopupCommand</a>
+    </div>
+    <div>
+      <a class="xref" href="DataMaster.Modules.MAS.Controls.ImageProceFlow.ModulesViewModelBase.html#MAS_Controls_ImageProceFlow_ModulesViewModelBase_PropertyChanged">ModulesViewModelBase.PropertyChanged</a>
+    </div>
+    <div>
+      <a class="xref" href="MAS.Controls.ImageProceFlow.ModulesViewModelBase.html#MAS_Controls_ImageProceFlow_ModulesViewModelBase_ModuleConfigChanged">ModulesViewModelBase.ModuleConfigChanged</a>
+    </div>
+    <div>
+      <a class="xref" href="DataMaster.Modules.MAS.Controls.ImageProceFlow.ModulesViewModelBase.html#MAS_Controls_ImageProceFlow_ModulesViewModelBase_OnDestroyControl">ModulesViewModelBase.OnDestroyControl</a>
+    </div>
+    <div>
+      <a class="xref" href="DataMaster.Modules.MAS.Controls.ImageProceFlow.ModulesViewModelBase.html#MAS_Controls_ImageProceFlow_ModulesViewModelBase_Dispose">ModulesViewModelBase.Dispose()</a>
+    </div>
+    <div>
+      <a class="xref" href="DataMaster.Modules.MAS.Controls.ImageProceFlow.ModulesViewModelBase.html#MAS_Controls_ImageProceFlow_ModulesViewModelBase_OnPropertyChanged_System_String_">ModulesViewModelBase.OnPropertyChanged(string)</a>
+    </div>
+    <div>
+      <a class="xref" href="MAS.Controls.ImageProceFlow.ModulesViewModelBase.html#MAS_Controls_ImageProceFlow_ModulesViewModelBase_OnModuleConfigChanged_System_EventArgs_">ModulesViewModelBase.OnModuleConfigChanged(EventArgs)</a>
+    </div>
+    <div>
+      <a class="xref" href="MAS.Controls.ImageProceFlow.ModulesViewModelBase.html#MAS_Controls_ImageProceFlow_ModulesViewModelBase_SetField__1___0____0_System_String_System_Boolean_">ModulesViewModelBase.SetField&lt;T&gt;(ref T, T, string, bool)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)">object.Equals(object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)">object.Equals(object, object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.gethashcode">object.GetHashCode()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.gettype">object.GetType()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone">object.MemberwiseClone()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.referenceequals">object.ReferenceEquals(object, object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.tostring">object.ToString()</a>
+    </div>
+  </dd></dl>
+
+
+
+
+
+
+  <h2 class="section" id="constructors">Constructors
+</h2>
+
+
+  <a id="MAS_Controls_ImageProceFlow_CameraViewModel__ctor_" data-uid="MAS.Controls.ImageProceFlow.CameraViewModel.#ctor*"></a>
+
+  <h3 id="MAS_Controls_ImageProceFlow_CameraViewModel__ctor_System_IServiceProvider_MAS_Vision_ImageProceFlow_ICamera_" data-uid="MAS.Controls.ImageProceFlow.CameraViewModel.#ctor(System.IServiceProvider,MAS.Vision.ImageProceFlow.ICamera)">
+  CameraViewModel(IServiceProvider, ICamera)
+  <a class="header-action link-secondary" title="View source" href="https://bitbucket.org/mas-software/industrial-mes-net-platform-advanced/src/main/Modules/MAS.Controls/ImageProceFlow/ViewModels/Prepare/CameraViewModel.cs#lines-124"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>构造函数，初始化 <a class="xref" href="DataMaster.Modules.MAS.Controls.ImageProceFlow.CameraViewModel.html">CameraViewModel</a> 新实例</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public CameraViewModel(IServiceProvider serviceProvider, ICamera camera)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>serviceProvider</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.iserviceprovider">IServiceProvider</a></dt>
+    <dd><p>服务提供者</p>
+</dd>
+    <dt><code>camera</code> <a class="xref" href="MAS.Vision.ImageProceFlow.ICamera.html">ICamera</a></dt>
+    <dd><p>相机服务实例</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <h2 class="section" id="properties">Properties
+</h2>
+
+
+  <a id="MAS_Controls_ImageProceFlow_CameraViewModel_AvailableSizes_" data-uid="MAS.Controls.ImageProceFlow.CameraViewModel.AvailableSizes*"></a>
+
+  <h3 id="MAS_Controls_ImageProceFlow_CameraViewModel_AvailableSizes" data-uid="MAS.Controls.ImageProceFlow.CameraViewModel.AvailableSizes">
+  AvailableSizes
+  <a class="header-action link-secondary" title="View source" href="https://bitbucket.org/mas-software/industrial-mes-net-platform-advanced/src/main/Modules/MAS.Controls/ImageProceFlow/ViewModels/Prepare/CameraViewModel.cs#lines-59"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>获取或设置图像可用尺寸列表</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public List&lt;Size&gt; AvailableSizes { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1">List</a>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.windows.size">Size</a>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="MAS_Controls_ImageProceFlow_CameraViewModel_CameraButtonText_" data-uid="MAS.Controls.ImageProceFlow.CameraViewModel.CameraButtonText*"></a>
+
+  <h3 id="MAS_Controls_ImageProceFlow_CameraViewModel_CameraButtonText" data-uid="MAS.Controls.ImageProceFlow.CameraViewModel.CameraButtonText">
+  CameraButtonText
+  <a class="header-action link-secondary" title="View source" href="https://bitbucket.org/mas-software/industrial-mes-net-platform-advanced/src/main/Modules/MAS.Controls/ImageProceFlow/ViewModels/Prepare/CameraViewModel.cs#lines-84"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>获取相机按钮文本</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public string CameraButtonText { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="MAS_Controls_ImageProceFlow_CameraViewModel_IsCameraOpen_" data-uid="MAS.Controls.ImageProceFlow.CameraViewModel.IsCameraOpen*"></a>
+
+  <h3 id="MAS_Controls_ImageProceFlow_CameraViewModel_IsCameraOpen" data-uid="MAS.Controls.ImageProceFlow.CameraViewModel.IsCameraOpen">
+  IsCameraOpen
+  <a class="header-action link-secondary" title="View source" href="https://bitbucket.org/mas-software/industrial-mes-net-platform-advanced/src/main/Modules/MAS.Controls/ImageProceFlow/ViewModels/Prepare/CameraViewModel.cs#lines-92"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>获取或设置相机是否打开</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool IsCameraOpen { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="MAS_Controls_ImageProceFlow_CameraViewModel_IsConnect_" data-uid="MAS.Controls.ImageProceFlow.CameraViewModel.IsConnect*"></a>
+
+  <h3 id="MAS_Controls_ImageProceFlow_CameraViewModel_IsConnect" data-uid="MAS.Controls.ImageProceFlow.CameraViewModel.IsConnect">
+  IsConnect
+  <a class="header-action link-secondary" title="View source" href="https://bitbucket.org/mas-software/industrial-mes-net-platform-advanced/src/main/Modules/MAS.Controls/ImageProceFlow/ViewModels/Prepare/CameraViewModel.cs#lines-105"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>获取或设置是否连接，将禁用图像调整</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool IsConnect { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="MAS_Controls_ImageProceFlow_CameraViewModel_ModelType_" data-uid="MAS.Controls.ImageProceFlow.CameraViewModel.ModelType*"></a>
+
+  <h3 id="MAS_Controls_ImageProceFlow_CameraViewModel_ModelType" data-uid="MAS.Controls.ImageProceFlow.CameraViewModel.ModelType">
+  ModelType
+  <a class="header-action link-secondary" title="View source" href="https://bitbucket.org/mas-software/industrial-mes-net-platform-advanced/src/main/Modules/MAS.Controls/ImageProceFlow/ViewModels/Prepare/CameraViewModel.cs#lines-28"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>获取模块的类型，仅在初始化时可设置</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public override ModelTypes ModelType { get; init; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="DataMaster.Modules.MAS.Controls.ImageProceFlow.ModelTypes.html">ModelTypes</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="MAS_Controls_ImageProceFlow_CameraViewModel_Name_" data-uid="MAS.Controls.ImageProceFlow.CameraViewModel.Name*"></a>
+
+  <h3 id="MAS_Controls_ImageProceFlow_CameraViewModel_Name" data-uid="MAS.Controls.ImageProceFlow.CameraViewModel.Name">
+  Name
+  <a class="header-action link-secondary" title="View source" href="https://bitbucket.org/mas-software/industrial-mes-net-platform-advanced/src/main/Modules/MAS.Controls/ImageProceFlow/ViewModels/Prepare/CameraViewModel.cs#lines-25"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>获取模块的名称，仅在初始化时可设置</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public override string Name { get; init; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="MAS_Controls_ImageProceFlow_CameraViewModel_SelectedSize_" data-uid="MAS.Controls.ImageProceFlow.CameraViewModel.SelectedSize*"></a>
+
+  <h3 id="MAS_Controls_ImageProceFlow_CameraViewModel_SelectedSize" data-uid="MAS.Controls.ImageProceFlow.CameraViewModel.SelectedSize">
+  SelectedSize
+  <a class="header-action link-secondary" title="View source" href="https://bitbucket.org/mas-software/industrial-mes-net-platform-advanced/src/main/Modules/MAS.Controls/ImageProceFlow/ViewModels/Prepare/CameraViewModel.cs#lines-43"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>获取或设置当前选择的图像尺寸</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Size SelectedSize { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.windows.size">Size</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="MAS_Controls_ImageProceFlow_CameraViewModel_ToggleCameraCommand_" data-uid="MAS.Controls.ImageProceFlow.CameraViewModel.ToggleCameraCommand*"></a>
+
+  <h3 id="MAS_Controls_ImageProceFlow_CameraViewModel_ToggleCameraCommand" data-uid="MAS.Controls.ImageProceFlow.CameraViewModel.ToggleCameraCommand">
+  ToggleCameraCommand
+  <a class="header-action link-secondary" title="View source" href="https://bitbucket.org/mas-software/industrial-mes-net-platform-advanced/src/main/Modules/MAS.Controls/ImageProceFlow/ViewModels/Prepare/CameraViewModel.cs#lines-116"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>获取打开或关闭相机命令</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public RelayCommand ToggleCameraCommand { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="DataMaster.Commands.RelayCommand.html">RelayCommand</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="MAS_Controls_ImageProceFlow_CameraViewModel_VideoFrame_" data-uid="MAS.Controls.ImageProceFlow.CameraViewModel.VideoFrame*"></a>
+
+  <h3 id="MAS_Controls_ImageProceFlow_CameraViewModel_VideoFrame" data-uid="MAS.Controls.ImageProceFlow.CameraViewModel.VideoFrame">
+  VideoFrame
+  <a class="header-action link-secondary" title="View source" href="https://bitbucket.org/mas-software/industrial-mes-net-platform-advanced/src/main/Modules/MAS.Controls/ImageProceFlow/ViewModels/Prepare/CameraViewModel.cs#lines-34"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>获取或设置视频帧</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public ImageSource VideoFrame { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.windows.media.imagesource">ImageSource</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="MAS_Controls_ImageProceFlow_CameraViewModel_VideoFrameHeight_" data-uid="MAS.Controls.ImageProceFlow.CameraViewModel.VideoFrameHeight*"></a>
+
+  <h3 id="MAS_Controls_ImageProceFlow_CameraViewModel_VideoFrameHeight" data-uid="MAS.Controls.ImageProceFlow.CameraViewModel.VideoFrameHeight">
+  VideoFrameHeight
+  <a class="header-action link-secondary" title="View source" href="https://bitbucket.org/mas-software/industrial-mes-net-platform-advanced/src/main/Modules/MAS.Controls/ImageProceFlow/ViewModels/Prepare/CameraViewModel.cs#lines-74"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>获取视频帧高度</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public int VideoFrameHeight { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="MAS_Controls_ImageProceFlow_CameraViewModel_VideoFrameWidth_" data-uid="MAS.Controls.ImageProceFlow.CameraViewModel.VideoFrameWidth*"></a>
+
+  <h3 id="MAS_Controls_ImageProceFlow_CameraViewModel_VideoFrameWidth" data-uid="MAS.Controls.ImageProceFlow.CameraViewModel.VideoFrameWidth">
+  VideoFrameWidth
+  <a class="header-action link-secondary" title="View source" href="https://bitbucket.org/mas-software/industrial-mes-net-platform-advanced/src/main/Modules/MAS.Controls/ImageProceFlow/ViewModels/Prepare/CameraViewModel.cs#lines-79"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>获取视频帧宽度</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public int VideoFrameWidth { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <h2 class="section" id="methods">Methods
+</h2>
+
+
+  <a id="MAS_Controls_ImageProceFlow_CameraViewModel_Dispose_" data-uid="MAS.Controls.ImageProceFlow.CameraViewModel.Dispose*"></a>
+
+  <h3 id="MAS_Controls_ImageProceFlow_CameraViewModel_Dispose_System_Boolean_" data-uid="MAS.Controls.ImageProceFlow.CameraViewModel.Dispose(System.Boolean)">
+  Dispose(bool)
+  <a class="header-action link-secondary" title="View source" href="https://bitbucket.org/mas-software/industrial-mes-net-platform-advanced/src/main/Modules/MAS.Controls/ImageProceFlow/ViewModels/Prepare/CameraViewModel.cs#lines-226"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>处理资源释放</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected override void Dispose(bool disposing)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>disposing</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd><p>如果为 true，则释放托管和非托管资源；如果为 false，则只释放非托管资源</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <h4 class="section" id="MAS_Controls_ImageProceFlow_CameraViewModel_Dispose_System_Boolean__remarks">Remarks</h4>
+  <div class="markdown level1 remarks"><p>重写此方法时，必须在方法的最后调用 base.Dispose(disposing)，
+以确保基类中的资源也得到适当的处理</p>
+</div>
+
+
+
+
+  <a id="MAS_Controls_ImageProceFlow_CameraViewModel_ExecuteAsync_" data-uid="MAS.Controls.ImageProceFlow.CameraViewModel.ExecuteAsync*"></a>
+
+  <h3 id="MAS_Controls_ImageProceFlow_CameraViewModel_ExecuteAsync" data-uid="MAS.Controls.ImageProceFlow.CameraViewModel.ExecuteAsync">
+  ExecuteAsync()
+  <a class="header-action link-secondary" title="View source" href="https://bitbucket.org/mas-software/industrial-mes-net-platform-advanced/src/main/Modules/MAS.Controls/ImageProceFlow/ViewModels/Prepare/CameraViewModel.cs#lines-146"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>异步执行任务逻辑</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public override Task&lt;object&gt; ExecuteAsync()</code></pre>
+  </div>
+
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1">Task</a>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">object</a>&gt;</dt>
+    <dd><p>异步操作任务结果，该模块的输出类型结果</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="MAS_Controls_ImageProceFlow_CameraViewModel_InitializeAsync_" data-uid="MAS.Controls.ImageProceFlow.CameraViewModel.InitializeAsync*"></a>
+
+  <h3 id="MAS_Controls_ImageProceFlow_CameraViewModel_InitializeAsync" data-uid="MAS.Controls.ImageProceFlow.CameraViewModel.InitializeAsync">
+  InitializeAsync()
+  <a class="header-action link-secondary" title="View source" href="https://bitbucket.org/mas-software/industrial-mes-net-platform-advanced/src/main/Modules/MAS.Controls/ImageProceFlow/ViewModels/Prepare/CameraViewModel.cs#lines-134"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>异步执行初始化</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public override Task&lt;bool&gt; InitializeAsync()</code></pre>
+  </div>
+
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1">Task</a>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a>&gt;</dt>
+    <dd><p>异步操作任务结果，成功返回ture，否则false</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="MAS_Controls_ImageProceFlow_CameraViewModel_OnConnectionSetupCompleted_" data-uid="MAS.Controls.ImageProceFlow.CameraViewModel.OnConnectionSetupCompleted*"></a>
+
+  <h3 id="MAS_Controls_ImageProceFlow_CameraViewModel_OnConnectionSetupCompleted" data-uid="MAS.Controls.ImageProceFlow.CameraViewModel.OnConnectionSetupCompleted">
+  OnConnectionSetupCompleted()
+  <a class="header-action link-secondary" title="View source" href="https://bitbucket.org/mas-software/industrial-mes-net-platform-advanced/src/main/Modules/MAS.Controls/ImageProceFlow/ViewModels/Prepare/CameraViewModel.cs#lines-166"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>处理模块连接事件之后执行</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected override void OnConnectionSetupCompleted()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+  <h4 class="section" id="MAS_Controls_ImageProceFlow_CameraViewModel_OnConnectionSetupCompleted_remarks">Remarks</h4>
+  <div class="markdown level1 remarks"><p>可选的钩子（hook）方法，派生类可以选择重写它以添加一些在连接设置完成后需要执行的特定行为</p>
+</div>
+
+
+
+
+  <a id="MAS_Controls_ImageProceFlow_CameraViewModel_SetInputData_" data-uid="MAS.Controls.ImageProceFlow.CameraViewModel.SetInputData*"></a>
+
+  <h3 id="MAS_Controls_ImageProceFlow_CameraViewModel_SetInputData_System_Collections_Generic_Dictionary_System_Int16_MAS_Controls_ImageProceFlow_ModuleInputData__" data-uid="MAS.Controls.ImageProceFlow.CameraViewModel.SetInputData(System.Collections.Generic.Dictionary{System.Int16,MAS.Controls.ImageProceFlow.ModuleInputData})">
+  SetInputData(Dictionary&lt;short, ModuleInputData&gt;)
+  <a class="header-action link-secondary" title="View source" href="https://bitbucket.org/mas-software/industrial-mes-net-platform-advanced/src/main/Modules/MAS.Controls/ImageProceFlow/ViewModels/Prepare/CameraViewModel.cs#lines-161"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>设置传递给当前模块的输入数据</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public override void SetInputData(Dictionary&lt;short, ModuleInputData&gt; inputs)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>inputs</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.dictionary-2">Dictionary</a>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int16">short</a>, <a class="xref" href="MAS.Controls.ImageProceFlow.ModuleInputData.html">ModuleInputData</a>&gt;</dt>
+    <dd><p>一个字典，键是输入索引，值是包含数据源模块ID、输出索引和实际数据的 <a class="xref" href="DataMaster.Modules.MAS.Controls.ImageProceFlow.ModuleInputData.html">ModuleInputData</a> 对象</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="MAS_Controls_ImageProceFlow_CameraViewModel_SetInputData_" data-uid="MAS.Controls.ImageProceFlow.CameraViewModel.SetInputData*"></a>
+
+  <h3 id="MAS_Controls_ImageProceFlow_CameraViewModel_SetInputData_System_Int16_System_Object_" data-uid="MAS.Controls.ImageProceFlow.CameraViewModel.SetInputData(System.Int16,System.Object)">
+  SetInputData(short, object)
+  <a class="header-action link-secondary" title="View source" href="https://bitbucket.org/mas-software/industrial-mes-net-platform-advanced/src/main/Modules/MAS.Controls/ImageProceFlow/ViewModels/Prepare/CameraViewModel.cs#lines-156"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>设置传递给当前模块的输入数据</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public override void SetInputData(short index, object input)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>index</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int16">short</a></dt>
+    <dd><p>输入索引</p>
+</dd>
+    <dt><code>input</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">object</a></dt>
+    <dd><p>输入对象</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+
+</article>
+
+        <div class="contribution d-print-none">
+          <a href="https://bitbucket.org/mas-software/industrial-mes-net-platform-advanced/src/main/Modules/MAS.Controls/ImageProceFlow/ViewModels/Prepare/CameraViewModel.cs#lines-20" class="edit-link">Edit this page</a>
+        </div>
+
+
+      </div>
+
+      <div class="affix">
+        <nav id="affix"></nav>
+      </div>
+    </main>
+
+    <div class="container-xxl search-results" id="search-results"></div>
+
+    <footer class="border-top text-secondary">
+      <div class="container-xxl">
+        <div class="flex-fill">
+          <span>Made with <a href="https://dotnet.github.io/docfx" rel="noreferrer">docfx</a>,  | Copyright © 2024 MAS(厦门威光). All rights reserved.</span>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
